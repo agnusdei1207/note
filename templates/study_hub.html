@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="breadcrumb">
+    <a href="{{ get_url(path='/') }}">root</a>
+    <span class="breadcrumb-sep">/</span>
+    <span class="breadcrumb-current">Study Notes</span>
+</div>
+
+<div class="study-hub">
+
+    <a class="study-hub-card" href="{{ get_url(path='/pe_exam/') }}">
+        <div class="shc-icon">🏆</div>
+        <div class="shc-body">
+            <div class="shc-title">기술사 시험</div>
+            <div class="shc-desc">정보처리기술사 / 정보관리기술사 · 8과목 핵심 정리</div>
+        </div>
+        <span class="shc-arrow">→</span>
+    </a>
+
+    <a class="study-hub-card" href="{{ get_url(path='/study/') }}">
+        <div class="shc-icon">📚</div>
+        <div class="shc-body">
+            <div class="shc-title">일반 학습</div>
+            <div class="shc-desc">AI · 알고리즘 · 시스템 · 개발 도구 · 프로그래밍</div>
+        </div>
+        <span class="shc-arrow">→</span>
+    </a>
+
+</div>
+
+<style>
+    .study-hub {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 2rem;
+        max-width: 640px;
+    }
+
+    .study-hub-card {
+        display: flex;
+        align-items: center;
+        gap: 1.25rem;
+        padding: 1.5rem 1.75rem;
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        background: var(--bg-card);
+        color: var(--text-primary);
+        text-decoration: none;
+        transition: border-color 0.15s, background 0.15s, transform 0.15s;
+    }
+
+    .study-hub-card:hover {
+        border-color: var(--accent);
+        background: var(--bg-card-hover, var(--bg-card));
+        transform: translateY(-2px);
+    }
+
+    .shc-icon {
+        font-size: 2rem;
+        flex-shrink: 0;
+        line-height: 1;
+    }
+
+    .shc-body {
+        flex: 1;
+    }
+
+    .shc-title {
+        font-size: 1.125rem;
+        font-weight: 700;
+        color: var(--text-primary);
+        margin-bottom: 0.25rem;
+    }
+
+    .shc-desc {
+        font-size: 0.875rem;
+        color: var(--text-secondary);
+    }
+
+    .shc-arrow {
+        font-size: 1.25rem;
+        color: var(--text-secondary);
+        flex-shrink: 0;
+        transition: transform 0.15s;
+    }
+
+    .study-hub-card:hover .shc-arrow {
+        transform: translateX(4px);
+        color: var(--accent);
+    }
+</style>
+{% endblock content %}
