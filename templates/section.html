@@ -26,7 +26,8 @@
     {% for sub_path in section.subsections %}
     {% set sub = get_section(path=sub_path) %}
     <a class="folder-item" href="{{ sub.permalink }}">
-        <span class="fi-icon">📁</span>
+        <span class="fi-icon"><img src="https://api.iconify.design/lucide:folder.svg?color=%23f59e0b" width="16"
+                height="16" alt=""></span>
         <span class="fi-name">{{ sub.title }}</span>
         <span class="fi-meta">directory</span>
     </a>
@@ -36,7 +37,8 @@
     {% for page in section.pages %}
     <div class="folder-item-wrapper">
         <a class="folder-item" href="{{ page.permalink }}">
-            <span class="fi-icon">📄</span>
+            <span class="fi-icon"><img src="https://api.iconify.design/lucide:file-text.svg?color=%236b7280" width="16"
+                    height="16" alt=""></span>
             <span class="fi-name">{{ page.title }}</span>
             <span class="fi-meta">{{ page.date | date(format="%Y-%m-%d") }}</span>
         </a>

@@ -10,21 +10,27 @@
 <div class="study-hub">
 
     <a class="study-hub-card" href="{{ get_url(path='/pe_exam/') }}">
-        <div class="shc-icon">🏆</div>
-        <div class="shc-body">
-            <div class="shc-title">기술사 시험</div>
-            <div class="shc-desc">정보처리기술사 / 정보관리기술사 · 8과목 핵심 정리</div>
+        <div class="shc-icon">
+            <img src="https://api.iconify.design/lucide:award.svg?color=%23f59e0b" width="32" height="32" alt="">
         </div>
-        <span class="shc-arrow">→</span>
+        <div class="shc-body">
+            <div class="shc-title">기술사</div>
+            <div class="shc-desc">정보처리 / 정보관리기술사 · 9과목 핵심 정리</div>
+        </div>
+        <img class="shc-arrow" src="https://api.iconify.design/lucide:arrow-right.svg?color=%23888" width="18"
+            height="18" alt="">
     </a>
 
     <a class="study-hub-card" href="{{ get_url(path='/study/') }}">
-        <div class="shc-icon">📚</div>
+        <div class="shc-icon">
+            <img src="https://api.iconify.design/lucide:book-open.svg?color=%2310b981" width="32" height="32" alt="">
+        </div>
         <div class="shc-body">
             <div class="shc-title">일반 학습</div>
-            <div class="shc-desc">AI · 알고리즘 · 시스템 · 개발 도구 · 프로그래밍</div>
+            <div class="shc-desc">AI · 알고리즘 · 해킹보안 · 시스템 · 개발 도구 · 프로그래밍</div>
         </div>
-        <span class="shc-arrow">→</span>
+        <img class="shc-arrow" src="https://api.iconify.design/lucide:arrow-right.svg?color=%23888" width="18"
+            height="18" alt="">
     </a>
 
 </div>
@@ -58,9 +64,14 @@
     }
 
     .shc-icon {
-        font-size: 2rem;
         flex-shrink: 0;
-        line-height: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+        border-radius: 10px;
+        background: var(--bg-void, rgba(0, 0, 0, 0.2));
     }
 
     .shc-body {
@@ -80,15 +91,14 @@
     }
 
     .shc-arrow {
-        font-size: 1.25rem;
-        color: var(--text-secondary);
         flex-shrink: 0;
-        transition: transform 0.15s;
+        transition: transform 0.15s, opacity 0.15s;
+        opacity: 0.5;
     }
 
     .study-hub-card:hover .shc-arrow {
         transform: translateX(4px);
-        color: var(--accent);
+        opacity: 1;
     }
 </style>
 {% endblock content %}
