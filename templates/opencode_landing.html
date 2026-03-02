@@ -12,34 +12,34 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800;14..32,900&family=JetBrains+Mono:wght@400;500;600&display=swap"
         rel="stylesheet">
-    <link rel="icon" href="https://api.iconify.design/lucide:network.svg?color=%236366f1" type="image/svg+xml">
+    <link rel="icon" href="https://api.iconify.design/lucide:network.svg?color=%23ffea98" type="image/svg+xml">
     <style>
         /* ══════════════════════════════════════
        DESIGN TOKENS
     ══════════════════════════════════════ */
         :root {
-            --indigo: #6366f1;
-            --indigo-light: #a5b4fc;
-            --indigo-dim: rgba(99, 102, 241, 0.10);
-            --indigo-border: rgba(99, 102, 241, 0.22);
+            --brand: #ffea98;
+            --brand-light: #fff5cc;
+            --brand-dim: rgba(255, 234, 152, 0.10);
+            --brand-border: rgba(255, 234, 152, 0.22);
 
-            --violet: #7c3aed;
-            --violet-dim: rgba(124, 58, 237, 0.08);
+            --accent: #f59e0b;
+            --accent-dim: rgba(245, 158, 11, 0.08);
 
-            --bg-void: #04050d;
-            --bg-deep: #070812;
-            --bg-surface: #0c0e1e;
-            --bg-card: #111328;
-            --bg-term: #030408;
+            --bg-void: #060502;
+            --bg-deep: #0a0905;
+            --bg-surface: #11100a;
+            --bg-card: #18160e;
+            --bg-term: #030301;
 
-            --text-hi: #eef0ff;
-            --text-md: #8b8fc8;
-            --text-lo: #4a4d7a;
-            --text-dim: #2c2f50;
+            --text-hi: #fffdf5;
+            --text-md: #d4cfb0;
+            --text-lo: #7a765a;
+            --text-dim: #454230;
 
-            --border: rgba(99, 102, 241, 0.08);
-            --border-md: rgba(99, 102, 241, 0.16);
-            --border-hi: rgba(99, 102, 241, 0.30);
+            --border: rgba(255, 234, 152, 0.08);
+            --border-md: rgba(255, 234, 152, 0.16);
+            --border-hi: rgba(255, 234, 152, 0.30);
 
             --green: #22d47a;
             --amber: #f59e0b;
@@ -104,8 +104,8 @@
             z-index: -2;
             pointer-events: none;
             background-image:
-                linear-gradient(rgba(99, 102, 241, 0.025) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(99, 102, 241, 0.025) 1px, transparent 1px);
+                linear-gradient(rgba(255, 234, 152, 0.025) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 234, 152, 0.025) 1px, transparent 1px);
             background-size: 60px 60px;
             mask-image: radial-gradient(ellipse 80% 70% at 50% 0%, black 40%, transparent 100%);
         }
@@ -119,7 +119,7 @@
             height: 55%;
             z-index: -1;
             pointer-events: none;
-            background: radial-gradient(ellipse, rgba(99, 102, 241, 0.07), transparent 65%);
+            background: radial-gradient(ellipse, rgba(255, 234, 152, 0.07), transparent 65%);
             filter: blur(90px);
         }
 
@@ -131,7 +131,7 @@
             height: 50%;
             z-index: -1;
             pointer-events: none;
-            background: radial-gradient(ellipse, rgba(124, 58, 237, 0.05), transparent 65%);
+            background: radial-gradient(ellipse, rgba(245, 158, 11, 0.05), transparent 65%);
             filter: blur(110px);
         }
 
@@ -164,7 +164,7 @@
         .nav-icon {
             width: 1.375rem;
             height: 1.375rem;
-            filter: drop-shadow(0 0 6px rgba(99, 102, 241, 0.6));
+            filter: drop-shadow(0 0 6px rgba(255, 234, 152, 0.6));
         }
 
         .nav-tag {
@@ -194,7 +194,7 @@
         }
 
         .nav-back:hover {
-            color: var(--indigo-light);
+            color: var(--brand-light);
         }
 
         .nav-gh {
@@ -211,9 +211,9 @@
         }
 
         .nav-gh:hover {
-            border-color: var(--indigo-border);
+            border-color: var(--brand-border);
             color: var(--text-hi);
-            background: var(--indigo-dim);
+            background: var(--brand-dim);
         }
 
         /* ══ LAYOUT ══ */
@@ -232,7 +232,7 @@
 
         /* ══ TYPOGRAPHY UTIL ══ */
         .grad {
-            background: linear-gradient(135deg, #a5b4fc 0%, var(--indigo) 45%, var(--violet) 100%);
+            background: linear-gradient(135deg, #fff5cc 0%, var(--brand) 45%, var(--accent) 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -283,7 +283,7 @@
         .hero-ring {
             position: absolute;
             border-radius: 50%;
-            border: 1px solid var(--indigo-border);
+            border: 1px solid var(--brand-border);
             animation: ring-spin 8s linear infinite;
         }
 
@@ -297,7 +297,7 @@
             width: 150px;
             height: 150px;
             animation-direction: reverse;
-            border-color: rgba(124, 58, 237, 0.12);
+            border-color: rgba(245, 158, 11, 0.12);
             animation-duration: 12s;
         }
 
@@ -317,13 +317,13 @@
             gap: 0.5rem;
             padding: 0.3rem 0.875rem;
             border-radius: 2rem;
-            border: 1px solid var(--indigo-border);
-            background: var(--indigo-dim);
+            border: 1px solid var(--brand-border);
+            background: var(--brand-dim);
             font-size: 0.6875rem;
             font-weight: 600;
             letter-spacing: 0.08em;
             text-transform: uppercase;
-            color: var(--indigo-light);
+            color: var(--brand);
             margin-bottom: 1.5rem;
         }
 
@@ -359,17 +359,16 @@
             padding: 0.875rem 2rem;
             font-weight: 700;
             font-size: 0.9375rem;
-            background: var(--indigo);
-            color: #fff;
+            background: var(--brand);
+            color: #1e1b4b;
             border-radius: 0.75rem;
-            box-shadow: 0 0 0 1px var(--indigo), 0 16px 48px -8px rgba(99, 102, 241, 0.5);
+            box-shadow: 0 0 0 1px var(--brand), 0 16px 48px -8px rgba(255, 234, 152, 0.5);
             transition: all 0.25s var(--ease);
         }
 
         .btn-primary:hover {
-            background: var(--indigo-light);
-            color: #1e1b4b;
-            box-shadow: 0 0 0 1px var(--indigo-light), 0 20px 56px -8px rgba(99, 102, 241, 0.65);
+            background: var(--brand-light);
+            box-shadow: 0 0 0 1px var(--brand-light), 0 20px 56px -8px rgba(255, 234, 152, 0.65);
             transform: translateY(-2px);
         }
 
@@ -388,9 +387,9 @@
         }
 
         .btn-ghost:hover {
-            border-color: var(--indigo-border);
+            border-color: var(--brand-border);
             color: var(--text-hi);
-            background: var(--indigo-dim);
+            background: var(--brand-dim);
         }
 
         .btn-mit {
@@ -458,7 +457,7 @@
         .perf-num {
             font-size: 1.875rem;
             font-weight: 900;
-            color: var(--indigo-light);
+            color: var(--brand);
             letter-spacing: -0.04em;
             font-family: var(--mono);
         }
@@ -485,7 +484,7 @@
             position: absolute;
             inset: 0;
             border-radius: inherit;
-            background: radial-gradient(500px circle at var(--mx, 50%) var(--my, 50%), rgba(99, 102, 241, 0.05), transparent 40%);
+            background: radial-gradient(500px circle at var(--mx, 50%) var(--my, 50%), rgba(255, 234, 152, 0.05), transparent 40%);
             opacity: 0;
             transition: opacity 0.3s;
             pointer-events: none;
@@ -508,7 +507,7 @@
             font-weight: 700;
             letter-spacing: 0.1em;
             text-transform: uppercase;
-            color: var(--indigo);
+            color: var(--brand);
             margin-bottom: 0.75rem;
         }
 
@@ -579,8 +578,8 @@
             width: 2.875rem;
             height: 2.875rem;
             border-radius: 0.875rem;
-            background: var(--indigo-dim);
-            border: 1px solid var(--indigo-border);
+            background: var(--brand-dim);
+            border: 1px solid var(--brand-border);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -614,7 +613,7 @@
         .agent-name {
             font-weight: 700;
             font-family: var(--mono);
-            color: var(--indigo-light);
+            color: var(--brand);
             font-size: 0.78rem;
         }
 
@@ -668,7 +667,7 @@
         }
 
         .t-p {
-            color: var(--indigo-light);
+            color: var(--brand);
         }
 
         .t-s {
@@ -715,7 +714,7 @@
             height: 2.75rem;
             border-radius: 0.75rem;
             border: 1px solid var(--border-md);
-            background: var(--indigo-dim);
+            background: var(--brand-dim);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -801,9 +800,9 @@
         }
 
         .qs-num.indigo {
-            background: var(--indigo-dim);
-            border: 1px solid var(--indigo-border);
-            color: var(--indigo-light);
+            background: var(--brand-dim);
+            border: 1px solid var(--brand-border);
+            color: var(--brand-light);
         }
 
         .qs-num.green {
@@ -853,8 +852,8 @@
         }
 
         .link-card:hover {
-            border-color: var(--indigo-border);
-            background: var(--indigo-dim);
+            border-color: var(--brand-border);
+            background: var(--brand-dim);
         }
 
         .link-card-top {
@@ -868,7 +867,7 @@
 
         .link-card-val {
             font-size: 0.8125rem;
-            color: var(--indigo-light);
+            color: var(--brand-light);
             font-weight: 600;
             word-break: break-all;
         }
@@ -905,7 +904,7 @@
         }
 
         .footer-links a:hover {
-            color: var(--indigo-light);
+            color: var(--brand-light);
         }
     </style>
 </head>
@@ -914,33 +913,33 @@
     <div class="glow-1"></div>
     <div class="glow-2"></div>
 
-    <!-- NAV -->
     <nav class="nav">
         <div class="nav-brand">
-            <img class="nav-icon" src="https://api.iconify.design/lucide:network.svg?color=%236366f1" alt="">
+            <img class="nav-icon" src="{{ get_url(path='assets/img/opencode-logo.png') }}" alt=""
+                style="filter: invert(0.85) sepia(1) saturate(5) hue-rotate(15deg) brightness(1.2);">
             opencode-orchestrator
             <span class="nav-tag">MIT</span>
         </div>
         <div class="nav-right">
             <a href="https://github.com/agnusdei1207/opencode-orchestrator" target="_blank" rel="noopener"
                 class="nav-gh">
-                <img src="https://api.iconify.design/lucide:github.svg?color=%238b8fc8" width="14" height="14" alt="">
+                <img src="https://api.iconify.design/lucide:github.svg?color=%23d4cfb0" width="14" height="14" alt="">
                 GitHub
             </a>
             <a href="/brainscience/" class="nav-back">← BrainScience</a>
         </div>
     </nav>
 
-    <!-- HERO -->
     <section class="hero">
         <div class="hero-icon-wrap">
             <div class="hero-ring hero-ring-2"></div>
             <div class="hero-ring hero-ring-1"></div>
-            <img class="hero-icon" src="https://api.iconify.design/lucide:network.svg?color=%236366f1" alt="">
+            <img class="hero-icon" src="{{ get_url(path='assets/img/opencode-logo.png') }}" alt=""
+                style="filter: invert(0.85) sepia(1) saturate(5) hue-rotate(15deg) brightness(1.2);">
         </div>
 
         <div class="hero-eyebrow">
-            <img src="https://api.iconify.design/lucide:git-branch.svg?color=%23a5b4fc" width="12" height="12" alt="">
+            <img src="https://api.iconify.design/lucide:git-branch.svg?color=%23ffea98" width="12" height="12" alt="">
             Open Source · MIT License · Node.js + Rust
         </div>
 
@@ -957,7 +956,8 @@
         <div class="hero-cta">
             <a href="https://www.npmjs.com/package/opencode-orchestrator" target="_blank" rel="noopener"
                 class="btn-primary">
-                <img src="https://api.iconify.design/simple-icons:npm.svg?color=%23fff" width="16" height="16" alt="">
+                <img src="https://api.iconify.design/simple-icons:npm.svg?color=%231e1b4b" width="16" height="16"
+                    alt="">
                 npm install
             </a>
             <a href="https://github.com/agnusdei1207/opencode-orchestrator" target="_blank" rel="noopener"
@@ -1001,7 +1001,7 @@
                     <div class="arch-left">
                         <div class="arch-title">
                             <div class="arch-icon">
-                                <img src="https://api.iconify.design/lucide:share-2.svg?color=%236366f1" width="20"
+                                <img src="https://api.iconify.design/lucide:share-2.svg?color=%23ffea98" width="20"
                                     height="20" alt="">
                             </div>
                             Hub-and-Spoke Topology
@@ -1075,7 +1075,7 @@
                             <div><span class="t-r">[steal]</span> B takes A's idle task</div>
                             <div><span class="t-p">Reviewer</span> auditing output…</div>
                             <div><span class="t-s">[qa]</span> All checks passed ✓</div>
-                            <div><span class="t-s">✨ COMPLETED</span></div>
+                            <div><span class="t-s">COMPLETED</span></div>
                         </div>
                     </div>
                 </div>
@@ -1085,7 +1085,7 @@
             <div class="cap-grid">
                 <div class="card cap-card">
                     <div class="cap-icon-wrap"><img
-                            src="https://api.iconify.design/lucide:shield-check.svg?color=%236366f1" width="20"
+                            src="https://api.iconify.design/lucide:shield-check.svg?color=%23ffea98" width="20"
                             height="20" alt=""></div>
                     <div class="cap-title">Atomic MVCC Sync</div>
                     <div class="cap-desc">MVCC + Mutex eliminates concurrent TODO update conflicts. Every state change
@@ -1093,7 +1093,7 @@
                 </div>
                 <div class="card cap-card">
                     <div class="cap-icon-wrap"><img
-                            src="https://api.iconify.design/lucide:git-merge.svg?color=%236366f1" width="20" height="20"
+                            src="https://api.iconify.design/lucide:git-merge.svg?color=%23ffea98" width="20" height="20"
                             alt=""></div>
                     <div class="cap-title">Hook Orchestration</div>
                     <div class="cap-desc">Priority-Phase Hook Registry with Topological Sort. Predictable,
@@ -1101,21 +1101,21 @@
                 </div>
                 <div class="card cap-card">
                     <div class="cap-icon-wrap"><img
-                            src="https://api.iconify.design/lucide:refresh-cw.svg?color=%236366f1" width="20"
+                            src="https://api.iconify.design/lucide:refresh-cw.svg?color=%23ffea98" width="20"
                             height="20" alt=""></div>
                     <div class="cap-title">Autonomous Recovery</div>
                     <div class="cap-desc">Self-healing loops, stagnation detection, adaptive retry with exponential
                         backoff.</div>
                 </div>
                 <div class="card cap-card">
-                    <div class="cap-icon-wrap"><img src="https://api.iconify.design/lucide:layers.svg?color=%236366f1"
+                    <div class="cap-icon-wrap"><img src="https://api.iconify.design/lucide:layers.svg?color=%23ffea98"
                             width="20" height="20" alt=""></div>
                     <div class="cap-title">Session Isolation</div>
                     <div class="cap-desc">SessionPool with server-side compaction. Previous task context never leaks
                         into new tasks.</div>
                 </div>
                 <div class="card cap-card">
-                    <div class="cap-icon-wrap"><img src="https://api.iconify.design/lucide:zap.svg?color=%236366f1"
+                    <div class="cap-icon-wrap"><img src="https://api.iconify.design/lucide:zap.svg?color=%23ffea98"
                             width="20" height="20" alt=""></div>
                     <div class="cap-title">Zero-Payload Turbo</div>
                     <div class="cap-desc">system.transform unshifts agent instructions server-side. 90%+ payload
@@ -1123,7 +1123,7 @@
                 </div>
                 <div class="card cap-card">
                     <div class="cap-icon-wrap"><img
-                            src="https://api.iconify.design/lucide:brain-circuit.svg?color=%236366f1" width="20"
+                            src="https://api.iconify.design/lucide:brain-circuit.svg?color=%23ffea98" width="20"
                             height="20" alt=""></div>
                     <div class="cap-title">Hierarchical Memory</div>
                     <div class="cap-desc">4-tier memory with EMA-based Context Gating. Preserves architectural truth
@@ -1151,32 +1151,32 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td style="font-family:var(--mono);color:var(--indigo-light)">Tool Call Speed</td>
+                            <td style="font-family:var(--mono);color:var(--brand)">Tool Call Speed</td>
                             <td style="color:var(--green);font-weight:700">10× faster</td>
                             <td style="color:var(--text-md)">5–10ms vs 50–100ms via Rust pool</td>
                         </tr>
                         <tr>
-                            <td style="font-family:var(--mono);color:var(--indigo-light)">Session Creation</td>
+                            <td style="font-family:var(--mono);color:var(--brand)">Session Creation</td>
                             <td style="color:var(--green);font-weight:700">90% faster</td>
                             <td style="color:var(--text-md)">50ms vs 500ms via session pooling</td>
                         </tr>
                         <tr>
-                            <td style="font-family:var(--mono);color:var(--indigo-light)">Memory Usage</td>
+                            <td style="font-family:var(--mono);color:var(--brand)">Memory Usage</td>
                             <td style="color:var(--green);font-weight:700">60% reduction</td>
                             <td style="color:var(--text-md)">Object/string/buffer pooling</td>
                         </tr>
                         <tr>
-                            <td style="font-family:var(--mono);color:var(--indigo-light)">Token Efficiency</td>
+                            <td style="font-family:var(--mono);color:var(--brand)">Token Efficiency</td>
                             <td style="color:var(--green);font-weight:700">40% reduction</td>
                             <td style="color:var(--text-md)">Incremental State &amp; System Transform</td>
                         </tr>
                         <tr>
-                            <td style="font-family:var(--mono);color:var(--indigo-light)">Parallel Efficiency</td>
+                            <td style="font-family:var(--mono);color:var(--brand)">Parallel Efficiency</td>
                             <td style="color:var(--green);font-weight:700">80% improvement</td>
                             <td style="color:var(--text-md)">50% → 90%+ CPU utilization</td>
                         </tr>
                         <tr>
-                            <td style="font-family:var(--mono);color:var(--indigo-light)">Sync Accuracy</td>
+                            <td style="font-family:var(--mono);color:var(--brand)">Sync Accuracy</td>
                             <td style="color:var(--green);font-weight:700">99.95%</td>
                             <td style="color:var(--text-md)">MVCC + Mutex state synchronization</td>
                         </tr>
@@ -1195,7 +1195,7 @@
             </div>
 
             <div class="qs-step">
-                <div class="qs-label"><span class="qs-num indigo">01</span> Install globally</div>
+                <div class="qs-label"><span class="qs-num brand">01</span> Install globally</div>
                 <div class="code-block">
                     <div class="code-bar">
                         <div class="term-dots">
@@ -1255,7 +1255,8 @@
 
     <footer>
         <div class="footer-brand">
-            <img src="https://api.iconify.design/lucide:network.svg?color=%236366f1" width="14" height="14" alt="">
+            <img src="{{ get_url(path='assets/img/opencode-logo.png') }}" width="14" height="14" alt=""
+                style="filter: invert(0.85) sepia(1) saturate(5) hue-rotate(15deg) brightness(1.2);">
             opencode-orchestrator © 2026 · MIT License
         </div>
         <div class="footer-links">
