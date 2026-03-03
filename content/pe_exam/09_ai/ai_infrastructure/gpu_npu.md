@@ -110,7 +110,7 @@ InfiniBand (노드 간)
 
 ### Ⅳ. 실무 적용 방안
 
-**기술사적 판단** (AI 인프라 선택):
+**전문가적 판단** (AI 인프라 선택):
 | 워크로드 | 권장 하드웨어 | 이유 |
 |---------|---------|------|
 | LLM 학습 (70B+) | H100/H200 클러스터 | 대용량 메모리·고대역폭 필수 |
@@ -154,7 +154,7 @@ Pipeline Parallelism (PP):
 | 비용 효율 | NPU 탑재 AI PC | 클라우드 비용 없이 On-device AI |
 | 추론 처리량 | Groq LPU | GPT-4급 추론 500 토큰/초 |
 
-> **결론**: GPU/NPU는 AI 혁명의 물리적 기반 — NVIDIA H100이 현재 표준이고, HBM·NVLink·InfiniBand가 클러스터 생태계를 형성한다. 기술사는 학습·추론 워크로드별 하드웨어 선택·분산학습 아키텍처·데이터센터 전력 설계까지 이해해야 한다.  
+> **결론**: GPU/NPU는 AI 혁명의 물리적 기반 — NVIDIA H100이 현재 표준이고, HBM·NVLink·InfiniBand가 클러스터 생태계를 형성한다. PE는 학습·추론 워크로드별 하드웨어 선택·분산학습 아키텍처·데이터센터 전력 설계까지 이해해야 한다.  
 > **※ 참고**: NVIDIA H100 Whitepaper, MLPerf 벤치마크, NVIDIA NVLink/NVSwitch 아키텍처
 
 ---

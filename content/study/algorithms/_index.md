@@ -8,4 +8,4 @@ sort_by = "title"
 
 코딩 테스트와 알고리즘 구현 심화 학습.
 
-> 기술사 시험용 알고리즘 정리는 [pe_exam/08_algorithm_stats](/pe_exam/08_algorithm_stats/) 참고.
+> PE 시험용 알고리즘 정리는 [pe_exam/08_algorithm_stats](/pe_exam/08_algorithm_stats/) 참고.

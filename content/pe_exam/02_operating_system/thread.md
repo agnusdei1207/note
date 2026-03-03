@@ -13,7 +13,7 @@ categories = "pe_exam-operating_system"
 
 ---
 
-## 📝 기술사 모의답안 (2.5페이지 분량)
+## 📝 전문가 모의답안 (2.5페이지 분량)
 
 ### 📌 예상 문제
 > **"스레드와 멀티스레딩 (Thread & Multithreading)의 개념과 주요 메커니즘을 설명하고, 운영체제 성능 및 안정성 관점에서의 적용 방안을 기술하시오."**
@@ -146,12 +146,12 @@ I/O 집약 (I/O-bound): 멀티스레딩 또는 비동기 → GIL 영향 없음
 
 ### Ⅳ. 실무 적용 방안
 
-#### 8. 실무에선? (기술사적 판단)
+#### 8. 실무에선? (전문가적 판단)
 - **웹 서버**: 요청당 스레드(Apache) vs 이벤트 루프(Nginx/Node.js)
 - **자바**: Virtual Thread (JDK 21+) - M:N 모델로 수백만 스레드 가능
 - **Python**: GIL로 CPU-bound 멀티스레딩 제한 → multiprocessing 사용
 - **Go**: goroutine = 경량 스레드, 채널로 안전한 통신
-- **기술사 포인트**: 스레드 vs 프로세스 trade-off, 동기화 문제
+- **핵심 포인트**: 스레드 vs 프로세스 trade-off, 동기화 문제
 
 ---
 

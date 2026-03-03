@@ -33,7 +33,7 @@ GPU의 해결:
   약점: 전력 소비 큼, 범용성 떨어짐
 ```
 
-## 2. AI 가속기 4대 유형 비교 ★ (기술사 핵심)
+## 2. AI 가속기 4대 유형 비교 ★ (PE 핵심)
 
 | 특성 | CPU | GPU | TPU (Google) | NPU |
 |------|-----|-----|-------------|-----|
@@ -129,7 +129,7 @@ SAMSUNG HBM-PIM:
 | 자율주행 차 | GPU+NPU 혼용 | 학습은 GPU, 실차 추론은 NPU |
 | Google Search AI | Cloud TPU | 구글 내부 대규모 서비스 최적화 |
 
-## 6. 실무에서? (기술사적 판단)
+## 6. 실무에서? (전문가적 판단)
 - **학습 vs 추론 분리**: 학습(Training) → GPU/TPU, 추론(Inference) → NPU/CPU 혼합
 - **온프레미스 vs 클라우드**: AWS(Trainium), Google(TPU v5), NVIDIA(DGX)
 - **국내 동향**: 삼성 엑시노스 NPU, SK하이닉스 HBM-PIM 개발 경쟁
@@ -137,7 +137,7 @@ SAMSUNG HBM-PIM:
 
 ---
 
-## 📝 기술사 모의답안 (2.5페이지 분량)
+## 📝 전문가 모의답안 (2.5페이지 분량)
 
 ### 📌 예상 문제
 > **"AI 가속기의 종류(CPU·GPU·TPU·NPU)를 비교 설명하고, PIM(Processing-In-Memory)의 등장 배경과 원리, 향후 AI 컴퓨팅 아키텍처에 미치는 영향을 논하시오."**

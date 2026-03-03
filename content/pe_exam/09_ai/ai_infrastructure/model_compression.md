@@ -126,7 +126,7 @@ QLoRA (Fine-tuning 특화):
 
 ### Ⅳ. 실무 적용 방안
 
-**기술사적 판단**:
+**전문가적 판단**:
 | 목표 | 기법 | 기대 효과 |
 |-----|------|--------|
 | 모바일 AI | 지식 증류 (Teacher→Student) | GPT-4급 Teacher → Phi-3 수준 Student |

@@ -6,7 +6,7 @@ sort_by = "title"
 
 # 🤖 AI 학습
 
-> 기술사 시험용 AI 요약은 [pe_exam/06_ict_convergence/ai_ml](/pe_exam/06_ict_convergence/ai_ml/) 참고
+> PE 시험용 AI 요약은 [pe_exam/06_ict_convergence/ai_ml](/pe_exam/06_ict_convergence/ai_ml/) 참고
 
 ## 하위 카테고리
 - [ml_basics](/study/ai/ml_basics/) - 머신러닝 기초, 수학 원리

@@ -9,7 +9,7 @@ categories = "pe_exam-software_engineering"
 # DevSecOps - 보안 내재화 개발 방법론
 
 ## 핵심 인사이트 (3줄 요약)
-> **개발(Dev)·보안(Sec)·운영(Ops)을 통합**해 개발 초기부터 보안을 자동화하는 현대 SW 개발 패러다임. "Shift Left Security" - 보안 검사를 개발 초기(왼쪽)로 당긴다. 기술사 시험에서 DevOps와의 차이 및 파이프라인 구성이 핵심이다.
+> **개발(Dev)·보안(Sec)·운영(Ops)을 통합**해 개발 초기부터 보안을 자동화하는 현대 SW 개발 패러다임. "Shift Left Security" - 보안 검사를 개발 초기(왼쪽)로 당긴다. PE 시험에서 DevOps와의 차이 및 파이프라인 구성이 핵심이다.
 
 ## 1. 개념 및 등장 배경
 
@@ -123,11 +123,11 @@ Level 4: 두 명 검토, 밀봉된 빌드
 Sigstore: 소프트웨어 서명 오픈소스 표준
 ```
 
-## 7. 실무에서? (기술사적 판단)
+## 7. 실무에서? (전문가적 판단)
 - **금융권**: DevSecOps 파이프라인 + SIEM 통합 의무화 추세
 - **공공 클라우드**: AWS Security Hub, Azure Defender 자동화
 - **규제 대응**: PCI-DSS, ISMS-P, 망분리 요구 반영
-- **기술사 포인트**: Shift Left, SAST·DAST·SCA 차이, SBOM, 공급망 보안
+- **핵심 포인트**: Shift Left, SAST·DAST·SCA 차이, SBOM, 공급망 보안
 
 ## 8. 관련 개념
 - CI/CD (지속적 통합·배포)
@@ -140,7 +140,7 @@ Sigstore: 소프트웨어 서명 오픈소스 표준
 ---
 
 
-## 📝 기술사 모의답안 (2.5페이지 분량)
+## 📝 전문가 모의답안 (2.5페이지 분량)
 
 ### 📌 예상 문제
 > **"DevSecOps의 개념과 Shift Left Security 원칙을 설명하고, SAST·DAST·SCA·SBOM 등 핵심 도구를 비교하여 소프트웨어 공급망 보안 강화 방안을 논하시오."**

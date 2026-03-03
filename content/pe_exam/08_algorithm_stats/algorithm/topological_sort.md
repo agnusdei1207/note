@@ -13,7 +13,7 @@ categories = "pe_exam-algorithm_stats"
 
 ---
 
-## 📝 기술사 모의답안 (2.5페이지 분량)
+## 📝 전문가 모의답안 (2.5페이지 분량)
 
 ### 📌 예상 문제
 > **"위상 정렬 (Topological Sort) - 작업 순서 결정 알고리즘의 원리와 동작 과정을 설명하고, 유사 알고리즘·기법과 비교하여 적합한 활용 시나리오를 기술하시오."**
@@ -104,7 +104,7 @@ DAG (Directed Acyclic Graph):
 - **패키지 관리자**: `npm install`, `pip install` 시 라이브러리 설치 순서 결정
 - **프로젝트 관리**: PERT-CPM 망에서 각 공정의 선후 관계 정의 및 일정 수립 (Subject 4/7)
 - **데이터 흐름 분석**: 데이터 파이프라인(Airflow)의 Task 실행 순서 예약
-- **기술사 포인트**: DAG 전제 조건, Indegree 기반 Kahn 알고리즘, 사이클 존재 시 판별법
+- **핵심 포인트**: DAG 전제 조건, Indegree 기반 Kahn 알고리즘, 사이클 존재 시 판별법
 
 ---
 

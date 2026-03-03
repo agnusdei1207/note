@@ -8,7 +8,7 @@ categories = "pe_exam-ai"
 # MLOps (Machine Learning Operations)
 
 ## 핵심 인사이트 (3줄 요약)
-> **MLOps**는 ML 모델의 개발·배포·모니터링·재학습을 자동화·체계화하는 방법론으로 DevOps + ML의 결합이다. 데이터 드리프트·모델 드리프트 감지와 **자동 Continuous Training(CT)** 파이프라인이 핵심이며, 2024년에는 LLM 운영을 위한 **LLMOps**로 확장되었다. 기술사 관점에서 Feature Store·Model Registry·서빙 인프라·모니터링 4대 요소 설계가 핵심이다.
+> **MLOps**는 ML 모델의 개발·배포·모니터링·재학습을 자동화·체계화하는 방법론으로 DevOps + ML의 결합이다. 데이터 드리프트·모델 드리프트 감지와 **자동 Continuous Training(CT)** 파이프라인이 핵심이며, 2024년에는 LLM 운영을 위한 **LLMOps**로 확장되었다. PE 관점에서 Feature Store·Model Registry·서빙 인프라·모니터링 4대 요소 설계가 핵심이다.
 
 ---
 
@@ -126,9 +126,9 @@ with mlflow.start_run(run_name="RF_v3_hyperopt"):
 
 ---
 
-### Ⅳ. 실무 적용 방안  ↔  기술사적 판단 + 활용 + 주의사항
+### Ⅳ. 실무 적용 방안  ↔  전문가적 판단 + 활용 + 주의사항
 
-**기술사적 판단**:
+**전문가적 판단**:
 | 적용 시나리오 | MLOps 전략 | 기대 효과 |
 |------------|---------|--------|
 | 이상거래 탐지 | 실시간 드리프트 감지 + CT | 탐지율 유지, 재학습 자동화 |
@@ -171,7 +171,7 @@ with mlflow.start_run(run_name="RF_v3_hyperopt"):
 | 모델 품질 유지 | 드리프트 자동 감지·재학습 | 성능 저하 80% 방지 |
 | 운영 비용 | 수동 운영 자동화 | ML 엔지니어 운영 부담 50% 감소 |
 
-> **결론**: MLOps는 "ML 모델의 DevOps" — 데이터·코드·모델 삼중 자동화를 통해 신뢰할 수 있는 AI 서비스를 지속 제공한다. LLM 시대에는 LLMOps로 진화하며, 기술사는 Feature Store·Model Serving·Monitoring·LLMOps를 설계할 수 있어야 한다.  
+> **결론**: MLOps는 "ML 모델의 DevOps" — 데이터·코드·모델 삼중 자동화를 통해 신뢰할 수 있는 AI 서비스를 지속 제공한다. LLM 시대에는 LLMOps로 진화하며, PE는 Feature Store·Model Serving·Monitoring·LLMOps를 설계할 수 있어야 한다.  
 > **※ 참고**: Google MLOps Whitepaper, Sculley et al. "Hidden Technical Debt in ML Systems"(NIPS 2015)
 
 ---

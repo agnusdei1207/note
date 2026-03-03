@@ -8,7 +8,7 @@ categories = "pe_exam-ai"
 # AI 윤리 및 거버넌스 (AI Ethics & Governance)
 
 ## 핵심 인사이트 (3줄 요약)
-> **AI 윤리**는 공정성(Fairness)·투명성(Transparency)·책임성(Accountability)·안전성(Safety)을 핵심 원칙으로 하는 AI 개발·배포 규범 체계다. EU AI Act(2024 시행), NIST AI RMF, OECD AI 원칙이 국제 표준으로 자리잡았다. 기술사 관점에서 **알고리즘 감사·편향 측정·AI 위험 분류·거버넌스 프레임워크** 설계가 핵심 역량이다.
+> **AI 윤리**는 공정성(Fairness)·투명성(Transparency)·책임성(Accountability)·안전성(Safety)을 핵심 원칙으로 하는 AI 개발·배포 규범 체계다. EU AI Act(2024 시행), NIST AI RMF, OECD AI 원칙이 국제 표준으로 자리잡았다. PE 관점에서 **알고리즘 감사·편향 측정·AI 위험 분류·거버넌스 프레임워크** 설계가 핵심 역량이다.
 
 ---
 
@@ -99,7 +99,7 @@ categories = "pe_exam-ai"
 
 ### Ⅳ. 실무 적용 방안
 
-**기술사적 판단** (기업 AI 거버넌스 체계):
+**전문가적 판단** (기업 AI 거버넌스 체계):
 ```
 1. AI 위험 분류
    → 자사 AI 시스템별 EU AI Act 위험 등급 판정
@@ -132,7 +132,7 @@ categories = "pe_exam-ai"
 | 사회적 신뢰 | 투명하고 공정한 AI | 고객 신뢰도 30~50% 향상 |
 | 혁신 지속 가능성 | 윤리적 AI = 지속 가능 | ESG 평가·투자 유치 강화 |
 
-> **결론**: AI 윤리는 "AI의 면허증" — EU AI Act(2024~)를 기점으로 법적 의무화가 급속 진행 중이다. 기술사는 위험 기반 AI 분류·편향 측정·XAI 설계·거버넌스 위원회 구성을 포함한 종합 AI 거버넌스 아키텍처를 설계할 수 있어야 한다.  
+> **결론**: AI 윤리는 "AI의 면허증" — EU AI Act(2024~)를 기점으로 법적 의무화가 급속 진행 중이다. PE는 위험 기반 AI 분류·편향 측정·XAI 설계·거버넌스 위원회 구성을 포함한 종합 AI 거버넌스 아키텍처를 설계할 수 있어야 한다.  
 > **※ 참고**: EU AI Act(2024), NIST AI RMF 1.0(2023), OECD AI Principles, ISO/IEC 42001:2023
 
 ---

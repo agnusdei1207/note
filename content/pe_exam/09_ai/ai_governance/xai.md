@@ -8,7 +8,7 @@ categories = "pe_exam-ai"
 # XAI (Explainable AI, 설명 가능한 AI)
 
 ## 핵심 인사이트 (3줄 요약)
-> **XAI**는 AI 모델의 예측·결정 과정을 인간이 이해할 수 있도록 설명하는 기술로, LIME·SHAP·Attention Visualization·GradCAM이 대표적이다. EU AI Act(2024)·금융 규제에서 AI 의사결정 설명 권리가 법적 의무화되었다. 기술사 관점에서 **규제 준수·신뢰성 확보·오류 디버깅**이 XAI 도입의 3대 동인이다.
+> **XAI**는 AI 모델의 예측·결정 과정을 인간이 이해할 수 있도록 설명하는 기술로, LIME·SHAP·Attention Visualization·GradCAM이 대표적이다. EU AI Act(2024)·금융 규제에서 AI 의사결정 설명 권리가 법적 의무화되었다. PE 관점에서 **규제 준수·신뢰성 확보·오류 디버깅**이 XAI 도입의 3대 동인이다.
 
 ---
 
@@ -129,9 +129,9 @@ print(f"가장 중요한 피처: {X_test.columns[abs(shap_values).mean(0).argmax
 
 ---
 
-### Ⅳ. 실무 적용 방안  ↔  기술사적 판단 + 활용 + 주의사항
+### Ⅳ. 실무 적용 방안  ↔  전문가적 판단 + 활용 + 주의사항
 
-**기술사적 판단**:
+**전문가적 판단**:
 | 적용 분야 | XAI 기법 | 비고 |
 |---------|---------|------|
 | 금융 (대출 심사) | SHAP + Local Explanation | 금융소비자보호법 준수 |
@@ -167,7 +167,7 @@ print(f"가장 중요한 피처: {X_test.columns[abs(shap_values).mean(0).argmax
 | 신뢰도 향상 | 의사결정 근거 제공 | 사용자 신뢰 30~50% 향상 |
 | 오류 발견 | 모델 편향·오작동 조기 발견 | 오류 탐지 시간 60% 단축 |
 
-> **결론**: XAI는 AI 신뢰성의 핵심 인프라. EU AI Act 고위험 AI 필수 요건으로 2024년부터 법적 의무화되었다. Intrinsic(결정트리)+Post-hoc(SHAP/LIME) 하이브리드 접근이 실무 표준이며, 기술사는 규제 맥락에서 XAI 아키텍처를 설계할 수 있어야 한다.  
+> **결론**: XAI는 AI 신뢰성의 핵심 인프라. EU AI Act 고위험 AI 필수 요건으로 2024년부터 법적 의무화되었다. Intrinsic(결정트리)+Post-hoc(SHAP/LIME) 하이브리드 접근이 실무 표준이며, PE는 규제 맥락에서 XAI 아키텍처를 설계할 수 있어야 한다.  
 > **※ 참고**: DARPA XAI 프로그램, EU AI Act(2024), Molnar 2019 "Interpretable ML" 책
 
 ---

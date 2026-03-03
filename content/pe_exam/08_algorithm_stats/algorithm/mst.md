@@ -348,7 +348,7 @@ Borůvka (1926) → Prim (1957) → Kruskal (1956) → Chazelle (2000) O(E α(E,
 
 ### Ⅳ. 실무 적용 방안
 
-**기술사적 판단**:
+**전문가적 판단**:
 | 적용 분야 | 구체적 적용 방법 | 기대 효과 (정량) |
 |---------|----------------|-----------------|
 | **통신망 설계** | 기지국 간 백본 네트워크 MST 구성 | 케이블 비용 30% 절감 |
@@ -413,7 +413,7 @@ Borůvka (1926) → Prim (1957) → Kruskal (1956) → Chazelle (2000) O(E α(E,
 2. **시장 트렌드**: 클라우드 네트워크, CDN 최적화 수요 증가
 3. **후속 기술**: Parallel MST, Streaming MST for Big Data
 
-> **결론**: MST는 네트워크 최적화의 근본 알고리즘으로, Prim과 Kruskal 두 접근법의 특성을 이해하고 그래프 밀도에 따라 적절히 선택하는 기술사적 판단력이 필수다. Union-Find 자료구조와 그리디 알고리즘의 결합으로 O(E log V)의 효율적인 해결이 가능하다.
+> **결론**: MST는 네트워크 최적화의 근본 알고리즘으로, Prim과 Kruskal 두 접근법의 특성을 이해하고 그래프 밀도에 따라 적절히 선택하는 전문가 판단력이 필수다. Union-Find 자료구조와 그리디 알고리즘의 결합으로 O(E log V)의 효율적인 해결이 가능하다.
 
 > **※ 참고 표준**: CLRS 'Introduction to Algorithms' Ch.23, NIST Dictionary of Algorithms, IEEE Transactions on Networking
 

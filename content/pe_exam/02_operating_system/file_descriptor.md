@@ -13,7 +13,7 @@ original_path = "cs_fundamentals/operating_system"
 
 ---
 
-## 📝 기술사 모의답안 (2.5페이지 분량)
+## 📝 전문가 모의답안 (2.5페이지 분량)
 
 ### 📌 예상 문제
 > **"파일 디스크립터 (File Descriptor)의 개념과 주요 메커니즘을 설명하고, 운영체제 성능 및 안정성 관점에서의 적용 방안을 기술하시오."**
@@ -159,7 +159,7 @@ int fcntl(int fd, int cmd, ... /* arg */ );
 int ioctl(int fd, unsigned long request, ...);
 ```
 
-#### 8. 기술사적 판단
+#### 8. 전문가적 판단
 ### 8.1 설계 관점
 
 1. **추상화의 훌륭한 예**: 하드웨어 차이를 숨기고 통일된 인터페이스 제공

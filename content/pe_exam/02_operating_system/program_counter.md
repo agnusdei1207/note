@@ -102,7 +102,7 @@ print(cpu.fetch())  # PC=0 → "LOAD R1 5", PC becomes 1
 print(cpu.fetch())  # PC=1 → "LOAD R2 3", PC becomes 2
 ```
 
-## 10. 실무에선? (기술사적 판단)
+## 10. 실무에선? (전문가적 판단)
 - **파이프라인 해저드**: 분기 명령어 실행 시 PC가 변경되어 이미 fetch된 명령어를 버려야 함(제어 해저드) → 분기 예측(Branch Prediction)으로 해결
 - **보안**: ROP(Return-Oriented Programming) 공격은 PC를 조작하여 악의적인 코드 흐름 생성 → ASLR, CFI(Control Flow Integrity)로 방어
 - **디버깅**: GDB의 `step`, `next`, `jump` 명령어는 모두 PC를 직접 제어
@@ -145,7 +145,7 @@ PC가 바로 그 "손가락"이야.
 
 ---
 
-## 📝 기술사 모의답안 (2.5페이지 분량)
+## 📝 전문가 모의답안 (2.5페이지 분량)
 
 ### 문제 예시
 > "프로그램 카운터(PC)의 개념과 동작 원리를 설명하고, 컨텍스트 스위치 및 파이프라인과의 관계를 논하시오."

@@ -8,7 +8,7 @@ categories = "pe_exam-ai"
 # LLM (Large Language Model, 대규모 언어 모델)
 
 ## 핵심 인사이트 (3줄 요약)
-> **LLM**은 수천억 개 파라미터를 가진 Transformer 기반 언어 모델로, In-Context Learning·Few-shot 일반화·창발적 능력을 보인다. GPT-4o·Claude 3.5·Gemini 2.0·LLaMA 3 등이 경쟁하며 2024년 기준 SOTA급 성능을 달성했다. 기술사 관점에서 **파인튜닝·RAG·에이전트 오케스트레이션**이 실무 핵심 아키텍처다.
+> **LLM**은 수천억 개 파라미터를 가진 Transformer 기반 언어 모델로, In-Context Learning·Few-shot 일반화·창발적 능력을 보인다. GPT-4o·Claude 3.5·Gemini 2.0·LLaMA 3 등이 경쟁하며 2024년 기준 SOTA급 성능을 달성했다. PE 관점에서 **파인튜닝·RAG·에이전트 오케스트레이션**이 실무 핵심 아키텍처다.
 
 ---
 
@@ -63,7 +63,7 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 
 messages = [
-    {"role": "system", "content": "당신은 기술사 시험 전문가입니다."},
+    {"role": "system", "content": "당신은 PE 시험 전문가입니다."},
     {"role": "user", "content": "LLM의 핵심 원리를 설명하세요."},
 ]
 
@@ -108,9 +108,9 @@ print(tokenizer.decode(outputs[0][input_ids.shape[1]:], skip_special_tokens=True
 
 ---
 
-### Ⅳ. 실무 적용 방안  ↔  기술사적 판단 + 활용 + 주의사항
+### Ⅳ. 실무 적용 방안  ↔  전문가적 판단 + 활용 + 주의사항
 
-**기술사적 판단** (기업 도입 시나리오):
+**전문가적 판단** (기업 도입 시나리오):
 | 적용 시나리오 | 아키텍처 | 기대 효과 |
 |------------|--------|--------|
 | 고객 지원 챗봇 | RAG + GPT-4o API | CS 비용 40% 절감 |
@@ -153,7 +153,7 @@ print(tokenizer.decode(outputs[0][input_ids.shape[1]:], skip_special_tokens=True
 | 고객 서비스 | 24/7 AI 상담 | CS 비용 30~50% 절감 |
 | 의료·과학 | 신약 개발, 진단 보조 | R&D 기간 단축 |
 
-> **결론**: LLM은 "소프트웨어 2.0" 시대의 기반 인프라. 기술사는 API 통합부터 Fine-tuning, RAG, 에이전트 오케스트레이션까지 전 스택 이해가 필요하며, 투명성·안전성·비용효율 간 균형이 핵심 역량이다.  
+> **결론**: LLM은 "소프트웨어 2.0" 시대의 기반 인프라. PE는 API 통합부터 Fine-tuning, RAG, 에이전트 오케스트레이션까지 전 스택 이해가 필요하며, 투명성·안전성·비용효율 간 균형이 핵심 역량이다.  
 > **※ 참고**: OpenAI 기술 보고서, Anthropic 모델 카드, EU AI Act, NIST AI RMF
 
 ---

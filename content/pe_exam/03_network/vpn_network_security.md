@@ -13,7 +13,7 @@ categories = "pe_exam-network"
 
 ---
 
-## 📝 기술사 모의답안 (2.5페이지 분량)
+## 📝 전문가 모의답안 (2.5페이지 분량)
 
 ### 📌 예상 문제
 > **"VPN과 네트워크 보안 (VPN & Network Security)의 개념과 핵심 기술 요소를 설명하고, 관련 프로토콜·기술과 비교하여 실무 적용 방안을 논하시오."**
@@ -187,11 +187,11 @@ WAF (Web Application Firewall):
 
 ### Ⅳ. 실무 적용 방안
 
-#### 6. 실무에선? (기술사적 판단)
+#### 6. 실무에선? (전문가적 판단)
 - **Zero Trust**: "절대 신뢰하지 말고 항상 검증" - VPN 넘어선 패러다임
 - **SASE(Secure Access Service Edge)**: VPN + SD-WAN + 보안 클라우드 통합
 - **SSL VPN**: 재택근무 표준, 클라이언트리스 접속
-- **기술사 포인트**: SSL vs IPSec VPN 차이, DMZ 구성, IDS vs IPS 비교
+- **핵심 포인트**: SSL vs IPSec VPN 차이, DMZ 구성, IDS vs IPS 비교
 
 ---
 

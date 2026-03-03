@@ -62,7 +62,7 @@ from langchain.chains import RetrievalQA
 from langchain_community.document_loaders import PyPDFLoader
 
 # 1. 문서 로딩 및 분할
-loader = PyPDFLoader("기술사_교재.pdf")
+loader = PyPDFLoader("PE_교재.pdf")
 docs = loader.load()
 splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
 chunks = splitter.split_documents(docs)
@@ -114,9 +114,9 @@ print("\n출처:", [doc.metadata for doc in result["source_documents"]])
 
 ---
 
-### Ⅳ. 실무 적용 방안  ↔  기술사적 판단 + 활용 + 주의사항
+### Ⅳ. 실무 적용 방안  ↔  전문가적 판단 + 활용 + 주의사항
 
-**기술사적 판단** (기업별 적용):
+**전문가적 판단** (기업별 적용):
 | 적용 시나리오 | 아키텍처 | 기대 효과 |
 |------------|--------|--------|
 | 사내 Q&A 시스템 | RAG + Confluence/Notion 연동 | 정보 검색 시간 70% 절감 |
@@ -160,7 +160,7 @@ print("\n출처:", [doc.metadata for doc in result["source_documents"]])
 | 최신성 | 실시간 문서 업데이트 | 지식 갱신 비용 90% 절감 |
 | 도메인 특화 | Fine-tuning 없이 가능 | 구축 비용 80% 절감 |
 
-> **결론**: RAG는 "LLM의 기억력 한계를 외부 저장소로 극복"하는 실용적 아키텍처. GraphRAG·Agentic RAG로 진화하며, 기업 AI의 표준 패턴으로 자리 잡았다. 기술사는 벡터DB 선택·청킹 전략·하이브리드 검색·Reranker 설계를 핵심 역량으로 갖춰야 한다.  
+> **결론**: RAG는 "LLM의 기억력 한계를 외부 저장소로 극복"하는 실용적 아키텍처. GraphRAG·Agentic RAG로 진화하며, 기업 AI의 표준 패턴으로 자리 잡았다. PE는 벡터DB 선택·청킹 전략·하이브리드 검색·Reranker 설계를 핵심 역량으로 갖춰야 한다.  
 > **※ 참고**: RAG 원논문(Lewis et al., 2020 Meta), Microsoft GraphRAG(2024), LangChain/LlamaIndex 공식 문서
 
 ---
