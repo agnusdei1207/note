@@ -192,7 +192,7 @@
 2. **시장 트렌드**: 산업 수요 변화
 3. **후속 기술**: 이 기술을 대체할 차세대 기술
 
-> **결론**: [이 기술의 가치와 미래를 2~3문장으로 종합]
+> **결론**: [이 기술의 가치와 미래를 종합]
 
 > **※ 참고 표준**: [NIST, ISO, IEEE, 과기정통부, KISA 등 관련 표준 기재]
 
@@ -230,30 +230,6 @@
 - [ ] 정량적 수치가 포함됨 (XX% 향상 등)
 - [ ] 실제 기업/서비스 사례가 구체적으로 기재됨
 - [ ] 관련 표준/가이드라인이 인용됨
-
----
-
-## 📋 과목별 핵심 주제 체크리스트
-
-새 파일 작성 전, 이미 있는지 반드시 확인하세요.
-
-**1. 컴퓨터 구조**: CPU 구조·파이프라인·hazard, 캐시메모리·지역성, 메모리 계층, RISC vs CISC, 인터럽트, DMA, RAID, 부동소수점, 병렬처리(SIMD·MIMD)
-
-**2. 운영체제**: 프로세스·스레드, CPU 스케줄링(FCFS/SJF/RR/MLFQ), 교착상태(4조건+해결), 동기화(세마포어·뮤텍스·모니터), IPC, 가상메모리·페이지교체(OPT/FIFO/LRU/Clock), 파일시스템
-
-**3. 네트워크**: OSI 7계층, TCP/UDP, IP주소·서브네팅·NAT, DNS·HTTP/HTTPS, 라우팅, 네트워크 장비, 무선통신·5G/6G, VPN(SSL vs IPSec), 암호화·방화벽·IDS/IPS, 제로트러스트
-
-**4. SW공학**: SDLC(폭포수·애자일·스크럼), 요구사항공학·유스케이스, UML(14종), 아키텍처패턴(MSA·계층형·이벤트드리븐), 디자인패턴(GoF 23종), 소프트웨어 테스트, 소프트웨어 품질(ISO 25010), CMMI, 형상관리, 프로젝트관리(WBS·CPM·EVM)
-
-**5. 데이터베이스**: 관계형 모델·SQL, 정규화(1~5NF·BCNF), 인덱스(B-Tree·해시), 트랜잭션·ACID, 동시성제어(Lock·MVCC·2PL), 회복기법, 분산DB·CAP, NoSQL(MongoDB·Redis·Cassandra), 데이터웨어하우스·OLAP·데이터마이닝, 데이터레이크하우스
-
-**6. ICT 융합**: AI/ML(지도·비지도·강화), 딥러닝(CNN·RNN·Transformer), 생성형 AI(LLM·RAG), 빅데이터(Hadoop·Spark), 클라우드(IaaS·PaaS·SaaS), 컨테이너·쿠버네티스, 블록체인, IoT, 보안(암호화·PKI·Zero Trust·PQC), 핀테크, Service Mesh, eBPF
-
-**7. 기업정보시스템**: ERP·SCM·CRM, SOA·ESB·EAI, BPM·BPR, IT전략(ISP·EA·BSC), IT거버넌스(COBIT·ITIL), BI·OLAP·데이터마이닝, DX, RPA, 컴플라이언스, ESG·Green IT
-
-**8. 알고리즘/통계**: 정렬(퀵·합병·힙·기수), 탐색(이진·해시), 그래프(BFS·DFS·다익스트라·벨만포드·크루스칼·프림), DP(배낭·LCS·최장증가), 분할정복, 탐욕, 백트래킹, 복잡도(P·NP), 자료구조(힙·B트리·트라이), 통계(확률분포·가설검정·회귀)
-
-**9. 인공지능**: ML 기초, 딥러닝(CNN·RNN·Transformer·Diffusion), 생성형 AI(LLM·RAG·Prompt Engineering·AI Agents), MLOps, AI 거버넌스(XAI·윤리·규제), AI 인프라(GPU·NPU·분산학습)
 
 ---
 
