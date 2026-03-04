@@ -1,767 +1,188 @@
 +++
-title = "격리 수준 (Isolation Level)"
+title = "트랜잭션 격리 수준 (Transaction Isolation Level)"
 date = 2026-03-03
-
 [extra]
 categories = "pe_exam-05_database"
-tags = ["격리수준", "IsolationLevel", "DirtyRead", "PhantomRead", "RepeatableRead", "Serializable"]
+tags = ["격리수준", "IsolationLevel", "DirtyRead", "MVCC", "Serializable", "SSI"]
 +++
 
-# 격리 수준 (Isolation Level)
+# 트랜잭션 격리 수준 (Transaction Isolation Level)
 
-## 핵심 인사이트
-
-> **동시성과 일관성의 균형점** — 트랜잭션이 다른 트랜잭션의 변경 사항을 얼마나 볼 수 있는지를 결정하는 4단계 수준
-> **Read Uncommitted < Read Committed < Repeatable Read < Serializable**
-> 높은 격리 수준 = 높은 일관성 + 낮은 동시성, 낮은 격리 수준 = 낮은 일관성 + 높은 동시성
-> **ANSI SQL-92 표준**으로 정의, DBMS별 구현 차이 존재
+## 핵심 인사이트 (3줄 요약)
+> 1. **본질**: 격리 수준(Isolation Level)은 ACID 속성 중 고립성(Isolation)을 구현하기 위해, 동시에 실행되는 여러 트랜잭션이 서로의 변경 데이터에 접근하는 범위를 단계별로 정의하여 데이터 일관성과 시스템 동시성 사이의 트레이드오프(Trade-off)를 조절하는 메커니즘입니다.
+> 2. **가치**: 부정확한 데이터 읽기(Dirty Read, Phantom Read 등)로 인한 비즈니스 로직 오류를 원천 차단하는 동시에, 잠금(Locking) 경쟁으로 인한 성능 저하를 최소화하여 대규모 트래픽 환경에서도 안정적인 트랜잭션 정합성을 보장합니다.
+> 3. **융합**: 고전적인 2단계 잠금 규약(2PL)을 넘어, 최근에는 MVCC(Multi-Version Concurrency Control) 기술과 결합되어 읽기 작업이 쓰기 작업을 방해하지 않는 비차단(Non-blocking) 동시성 제어 아키텍처로 진화하였습니다.
 
 ---
 
-### I. 개요
+### Ⅰ. 개요 (Context & Background)
 
-**정의**: 격리 수준(Isolation Level)은 **동시에 실행되는 여러 트랜잭션이 서로에게 미치는 영향을 제어하는 수준으로, 한 트랜잭션이 다른 트랜잭션의 중간 상태를 얼마나 볼 수 있는지를 결정**한다. ACID 속성 중 I(Isolation)의 구체적 구현이다.
+- **개념**: 
+트랜잭션 격리 수준은 특정 트랜잭션이 다른 트랜잭션에서 변경한 데이터를 볼 수 있는 허용 범위를 결정하는 DBMS의 설정 값입니다. ANSI/ISO SQL 표준(SQL-92)은 데이터 정합성 유지와 시스템 처리량(Throughput) 극대화를 위해 격리 수준을 4단계(Read Uncommitted, Read Committed, Repeatable Read, Serializable)로 정의하고 있습니다. 이는 다중 사용자 환경에서 트랜잭션을 순차적으로 하나씩 실행하는 '직렬성(Serializability)'과, 여러 트랜잭션을 병렬로 실행하여 얻는 '성능' 사이에서 아키텍트가 선택할 수 있는 전략적 옵션입니다.
 
-> **직관적 비유**: 격리 수준은 **"회의실 문의 투명도"** 같습니다. 완전 투명하면(Uncommitted) 다른 사람이 준비하는 모습이 보이고, 완전 불투명하면(Serializable) 아무것도 안 보이죠. 중간 단계들은 일부만 보입니다.
+- **💡 비유**: 
+격리 수준은 **"아파트 리모델링 현장의 가림막"**과 같습니다. 
+1. **Read Uncommitted**: 가림막 없이 공사 현장이 다 보이는 상태입니다. 행인이 공사 중인 먼지투성이 벽(미완성 데이터)을 보고 "집이 다 지어졌다"고 오해할 수 있습니다.
+2. **Read Committed**: 공사가 끝난 방만 가림막을 치우고 보여줍니다. 하지만 내가 거실을 보는 사이에 안방 공사가 끝나면, 잠시 후에 다시 봤을 때 안방의 모습이 달라져 있을 수 있습니다.
+3. **Repeatable Read**: 내가 집 구경을 시작할 때의 전체 청사진을 사진으로 찍어서 보여줍니다. 공사가 더 진행되어도 나에게는 처음 찍은 사진 속 모습만 보입니다.
+4. **Serializable**: 집 구경을 하는 동안에는 인부들이 아예 일을 멈추거나, 인부들이 일하는 동안에는 집 구경을 절대 할 수 없는 완벽한 통제 상태입니다.
 
-**등장 배경** (3가지 이상):
-1. **기존 문제점 — 완전 격리의 성능 저하**: 모든 트랜잭션을 완전히 격리하면 동시성이 급격히 떨어짐
-2. **기술적 동인 — 유연한 트레이드오프**: 비즈니스 요구에 따라 일관성과 성능의 균형 선택 필요
-3. **산업/시장 요구 — 다양한 워크로드**: 읽기 많은 웹 서비스와 쓰기 많은 금융 시스템은 요구가 다름
-
-**핵심 목적**: **비즈니스 요구에 맞게 일관성과 동시성의 균형**을 선택 가능하게 함
-
----
-
-### II. 필요성
-
-#### 현황 및 문제점 (3가지 이상)
-
-| 문제 구분 | 구체적 내용 | 영향/심각도 |
-|----------|-----------|----------|
-| **과도한 격리** | Serializable 사용 시 동시성 급감 | 처리량 80% 감소 가능 |
-| **불충분한 격리** | 낮은 수준에서 데이터 이상 현상 | 잘못된 비즈니스 결정 |
-| **DBMS 차이** | 동일 이름이어도 구현 다름 | 이식성 문제 |
-
-#### 기술적 필요성
-
-- **왜 지금인가**: 고성능 OLTP 시스템에서 격리 수준 선택이 핵심
-- **왜 이 접근인가**: 단계적 격리로 비즈니스 요구에 맞춤 선택
-- **표준 준수**: ANSI SQL-92 표준, 모든 주요 DBMS 지원
-
-#### 도입 시 기대 가치
-
-| 가치 영역 | 기대 효과 | 비고 |
-|----------|----------|------|
-| 성능 | 적정 격리로 처리량 최적화 | 2~10배 향상 가능 |
-| 일관성 | 비즈니스 요구에 맞는 정합성 | 오류 감소 |
-| 유연성 | 워크로드별 최적 선택 | DB 설계 유연성 |
+- **등장 배경 및 발전 과정**:
+  1. **데이터 정합성 파괴의 위협**: 초기 DBMS는 동시성 제어가 미비하여, 두 명이 동시에 계좌 이체를 할 때 금액이 증발하거나(Lost Update), 아직 커밋되지 않은 잘못된 정보를 읽어(Dirty Read) 연산 오류를 일으키는 등 금융 시스템에서 치명적인 결함이 발생했습니다.
+  2. **성능과 일관성의 극한 대립**: 모든 트랜잭션을 직렬로 처리하면 데이터는 완벽하게 안전하지만, 사용자가 조금만 늘어나도 대기 시간이 수십 초로 늘어나는 문제가 발생했습니다. 이를 해결하기 위해 "어느 정도의 부정확함은 허용하되 성능을 챙기자"는 단계적 격리 개념이 도입되었습니다.
+  3. **MVCC 기술의 도입**: 과거에는 락(Lock)을 걸어 다른 트랜잭션을 멈추게 하는 방식이 주를 이루었으나, 90년대 이후 데이터의 과거 버전을 스냅샷으로 관리하는 MVCC(Multi-Version Concurrency Control) 기술이 보편화되면서 "읽기는 쓰기를 막지 않고, 쓰기는 읽기를 막지 않는" 현대적 격리 수준 구현이 완성되었습니다.
 
 ---
 
-### III. 구조와 원리
+### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
-#### 구성 요소 (4개 이상 필수)
+- **구성 요소 (표)**:
 
-| 격리 수준 | Dirty Read | Non-Repeatable Read | Phantom Read | 성능 |
-|----------|:----------:|:-------------------:|:------------:|:----:|
-| **Read Uncommitted** | O 발생 | O 발생 | O 발생 | 최고 |
-| **Read Committed** | X 방지 | O 발생 | O 발생 | 높음 |
-| **Repeatable Read** | X 방지 | X 방지 | O 발생* | 중간 |
-| **Serializable** | X 방지 | X 방지 | X 방지 | 낮음 |
+| 요소명 | 상세 역할 | 내부 동작 메커니즘 | 관련 기술 | 비유 |
+|----------|----------|------|------|------|
+| **Snapshot/Undo Log** | 이전 데이터 버전 관리 | 데이터가 수정될 때 원본 데이터를 Undo 세그먼트에 복사하여, 다른 트랜잭션이 과거 시점의 데이터를 읽을 수 있게 합니다. | MVCC (Multi-Version) | 과거의 사진 앨범 |
+| **Transaction ID (TID)** | 트랜잭션 고유 식별자 | 각 트랜잭션에 순차적인 번호를 부여하여, 특정 레코드가 해당 트랜잭션 시점에서 유효한지 판단하는 기준이 됩니다. | Logical Clock | 입장 번호표 |
+| **Read View / Snapshot** | 가시성(Visibility) 정의 | 트랜잭션 시작 시 활성 상태인 다른 트랜잭션 목록을 캡처하여, 어떤 버전을 읽을 수 있는지 결정하는 필터 역할을 합니다. | Visibility Check | 특정 시점의 필름 |
+| **Shared/Exclusive Lock** | 공유 및 배타 잠금 | 데이터를 읽거나(S-Lock) 쓸 때(X-Lock) 소유권을 주장하여 다른 트랜잭션의 접근을 제어합니다. | 2-Phase Locking (2PL) | 회의실 예약 키 |
+| **Next-Key Lock** | 범위 기반 잠금 | 인덱스 레코드와 그 사이의 간격(Gap)을 동시에 잠가, 유령 읽기(Phantom Read)를 방지합니다. | Gap Lock | 복도 통제 |
 
-*MySQL InnoDB는 Gap Lock으로 Phantom Read 방지
+- **정교한 구조 다이어그램 (MVCC 기반 격리 메커니즘)**:
 
-#### 구조 다이어그램 (ASCII, 필수)
+```text
+===================================================================================================
+                                [ MVCC (Multi-Version Concurrency Control) ]
+===================================================================================================
+[ Database Storage ]                                     [ Undo Log / Rollback Segment ]
++------------------------------------+                  +-----------------------------------------+
+| Row ID | Data | Last_TID | RollPtr |                  | Undo Blk 1: [TID: 50 | Data: 1000]      |
++--------+------+----------+---------+                  +-----------------------------------------+
+| RID_1  | 2000 |   100    |  Ptr1 --+----------------> | Undo Blk 2: [TID: 80 | Data: 1500]      |
++--------+------+----------+---------+                  +-----------------------------------------+
+                                                        | Undo Blk 3: [TID: 20 | Data: 500 ]      |
+                                                        +-----------------------------------------+
 
-```
-                        [격리 수준과 동시성 문제]
+[ Transaction A (TID: 110, Level: Repeatable Read) ]     [ Transaction B (TID: 120, Level: Read Committed) ]
+---------------------------------------------------     ---------------------------------------------------
+1. SELECT Data FROM RID_1;                              1. UPDATE Data=3000 WHERE RID_1;
+   - A는 TID 110임.                                      - B는 TID 120으로 기록됨.
+   - 현재 RID_1의 Last_TID는 100.                        - RID_1의 Data는 3000으로 변경됨.
+   - 100 < 110 이므로 가시성 인정(OK).                    - 기존 2000은 Undo Log로 복사됨.
+   - 결과: 2000 반환                                     - 아직 COMMIT 안 함!
 
-┌─────────────────────────────────────────────────────────────────────┐
-│                    격리 수준별 발생 현상                              │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                     │
-│   격리 수준 ↑ (일관성 ↑, 동시성 ↓)                                   │
-│                                                                     │
-│   ┌─────────────────────────────────────────────────────────────┐  │
-│   │ SERIALIZABLE                                                 │  │
-│   │ ✅ 모든 문제 방지                                             │  │
-│   │ • 완전 직렬화, 동시성 최저                                    │  │
-│   │ • 범위 잠금(Range Lock) 또는 전체 테이블 잠금                 │  │
-│   └─────────────────────────────────────────────────────────────┘  │
-│                              ↑                                      │
-│   ┌─────────────────────────────────────────────────────────────┐  │
-│   │ REPEATABLE READ                                              │  │
-│   │ ✅ Dirty, Non-Repeatable 방지                                │  │
-│   │ ⚠️ Phantom Read 가능 (표준)                                  │  │
-│   │ • MySQL InnoDB: Gap Lock으로 Phantom 방지                    │  │
-│   │ • PostgreSQL: Serializable로만 Phantom 방지                  │  │
-│   └─────────────────────────────────────────────────────────────┘  │
-│                              ↑                                      │
-│   ┌─────────────────────────────────────────────────────────────┐  │
-│   │ READ COMMITTED                                               │  │
-│   │ ✅ Dirty Read 방지                                           │  │
-│   │ ⚠️ Non-Repeatable, Phantom 가능                             │  │
-│   │ • Oracle, PostgreSQL 기본값                                  │  │
-│   │ • 매 쿼리마다 새로운 스냅샷                                   │  │
-│   └─────────────────────────────────────────────────────────────┘  │
-│                              ↑                                      │
-│   ┌─────────────────────────────────────────────────────────────┐  │
-│   │ READ UNCOMMITTED                                             │  │
-│   │ ⚠️ 모든 현상 발생                                            │  │
-│   │ • Dirty Read 허용                                            │  │
-│   │ • 거의 사용 안 함                                            │  │
-│   └─────────────────────────────────────────────────────────────┘  │
-│                                                                     │
-│   격리 수준 ↓ (일관성 ↓, 동시성 ↑)                                   │
-│                                                                     │
-└─────────────────────────────────────────────────────────────────────┘
-
-                    [동시성 문제 3가지 상세]
-
-┌─────────────────────────────────────────────────────────────────────┐
-│  1. Dirty Read (오손 읽기)                                          │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                     │
-│  T1: UPDATE users SET balance=200 WHERE id=1                       │
-│      (미커밋 상태)                                                   │
-│           │                                                         │
-│           ├── T2: SELECT balance FROM users WHERE id=1             │
-│           │        → 200 읽음 (Dirty Read!)                        │
-│           │                                                         │
-│  T1: ROLLBACK (롤백!)                                               │
-│           │                                                         │
-│           └── T2가 읽은 200은 존재하지 않는 데이터!                  │
-│                                                                     │
-└─────────────────────────────────────────────────────────────────────┘
-
-┌─────────────────────────────────────────────────────────────────────┐
-│  2. Non-Repeatable Read (반복 불가능 읽기)                          │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                     │
-│  T1: SELECT balance FROM users WHERE id=1  → 100                   │
-│           │                                                         │
-│           ├── T2: UPDATE users SET balance=200 WHERE id=1          │
-│           ├── T2: COMMIT                                            │
-│           │                                                         │
-│  T1: SELECT balance FROM users WHERE id=1  → 200                   │
-│           │                                                         │
-│           └── 같은 쿼리인데 결과가 다름!                            │
-│                                                                     │
-└─────────────────────────────────────────────────────────────────────┘
-
-┌─────────────────────────────────────────────────────────────────────┐
-│  3. Phantom Read (유령 읽기)                                        │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                     │
-│  T1: SELECT * FROM orders WHERE amount > 1000  → 5건               │
-│           │                                                         │
-│           ├── T2: INSERT INTO orders (amount) VALUES (2000)        │
-│           ├── T2: COMMIT                                            │
-│           │                                                         │
-│  T1: SELECT * FROM orders WHERE amount > 1000  → 6건               │
-│           │                                                         │
-│           └── 같은 조건인데 행 수가 늘어남!                         │
-│                                                                     │
-└─────────────────────────────────────────────────────────────────────┘
+2. (B의 Update 후) SELECT Data FROM RID_1;              2. (Update 후) SELECT Data FROM RID_1;
+   - 가상의 스냅샷(Read View) 유지.                      - 매 쿼리마다 새 Read View 생성.
+   - 현재 데이터는 3000(TID 120).                        - TID 120(나 자신)이 쓴 것임.
+   - 120 > 110(A의 시작점)이므로 무시.                    - 결과: 3000 반환 (나의 변경분)
+   - RollPtr 따라 Undo Log 추적.
+   - TID 100 데이터 발견. 결과: 2000 반환 (일관성 유지)
+===================================================================================================
 ```
 
-#### 동작 흐름 (단계별, 필수)
+- **심층 동작 원리 (이상 현상과 격리 수준의 관계)**:
 
-```
-① 격리 수준 설정 → ② 트랜잭션 시작 → ③ 읽기/쓰기 수행 → ④ 격리 메커니즘 적용 → ⑤ 커밋/롤백
-```
+1. **Dirty Read (오손 읽기)**: 트랜잭션 A가 데이터를 수정하고 커밋하지 않았는데, 트랜잭션 B가 그 값을 읽는 현상입니다. A가 롤백될 경우 B는 존재하지 않는 데이터를 근거로 연산하게 됩니다. (Read Uncommitted에서 발생)
+2. **Non-Repeatable Read (반복 불가능한 읽기)**: 트랜잭션 A가 데이터를 읽고 작업하는 중, 트랜잭션 B가 해당 데이터를 수정/삭제하고 커밋하면, A가 다시 읽었을 때 값이 달라지는 현상입니다. (Read Committed 이하에서 발생)
+3. **Phantom Read (유령 읽기)**: 트랜잭션 A가 일정 범위의 데이터를 읽었는데, 트랜잭션 B가 그 범위에 새 데이터를 삽입하고 커밋하면, A가 다시 조회했을 때 없던 데이터(유령)가 나타나는 현상입니다. (Repeatable Read 이하에서 발생, 단 MySQL은 Gap Lock으로 방지)
 
-- **1단계 - 격리 수준 설정**: `SET TRANSACTION ISOLATION LEVEL ...`
-- **2단계 - 트랜잭션 시작**: BEGIN 또는 첫 SQL 실행
-- **3단계 - 작업 수행**: MVCC 또는 Lock을 통해 격리 보장
-- **4단계 - 격리 메커니즘**: 스냅샷 생성, 락 획득
-- **5단계 - 종료**: 커밋 시 락 해제, 스냅샷 폐기
-
-#### 핵심 알고리즘 / 수식 (해당 시 필수)
-
-```
-[격리 수준별 구현 메커니즘]
-
-1. READ UNCOMMITTED
-   - 락 없이 읽기
-   - 쓰기만 X-Lock
-   - 구현: 거의 사용 안 함
-
-2. READ COMMITTED
-   - 읽기: 쿼리마다 새로운 스냅샷 (MVCC)
-     또는 S-Lock을 쿼리 종료 후 즉시 해제
-   - 쓰기: X-Lock을 커밋까지 유지
-   - PostgreSQL, Oracle, SQL Server 기본
-
-3. REPEATABLE READ
-   - 읽기: 트랜잭션 시작 시 스냅샷 생성 후 유지 (MVCC)
-     또는 S-Lock을 커밋까지 유지 (2PL)
-   - 쓰기: X-Lock + Gap Lock (MySQL InnoDB)
-   - MySQL 기본값
-
-4. SERIALIZABLE
-   - 읽기: 범위 잠금(Range Lock) 또는 테이블 잠금
-   - 또는 Serializable Snapshot Isolation (SSI)
-   - PostgreSQL: SSI로 구현 (충돌 감지 시 롤백)
-
-[DBMS별 기본 격리 수준]
-
-| DBMS           | 기본 격리 수준    | 특이사항                    |
-|----------------|------------------|----------------------------|
-| MySQL InnoDB   | REPEATABLE READ  | Gap Lock으로 Phantom 방지  |
-| PostgreSQL     | READ COMMITTED   | SSI로 Serializable 구현    |
-| Oracle         | READ COMMITTED   | Serializable = SSI         |
-| SQL Server     | READ COMMITTED   | RCSI(Read Committed Snapshot) 옵션 |
-| SQLite         | SERIALIZABLE     | 단일 연결이므로 완전 격리    |
-
-[MySQL InnoDB의 격리 수준별 동작]
-
-READ COMMITTED:
-  - 일반 SELECT: MVCC (커밋된 데이터만)
-  - 잠금 SELECT: 레코드 락만
-  - 갭 락 없음 → Phantom Read 가능
-
-REPEATABLE READ:
-  - 일반 SELECT: MVCC (트랜잭션 시작 시 스냅샷)
-  - 잠금 SELECT: 레코드 락 + 갭 락 (Next-Key Lock)
-  - Phantom Read 방지
-
-[PostgreSQL의 SSI (Serializable Snapshot Isolation)]
-
-원리:
-  1. 각 트랜잭션이 시작할 때 스냅샷 생성
-  2. 읽기-쓰기 충돌 감지
-  3. 직렬 가능성 위반 시 한 트랜잭션 롤백
-
-장점:
-  - Serializable과 동등한 일관성
-  - 실제 직렬 실행보다 높은 동시성
-
-단점:
-  - 롤백 발생 가능 → 재시도 필요
-```
-
-#### 코드 예시 (필수: 실행 가능한 Python 또는 의사코드)
+- **핵심 알고리즘 & 실무 코드 예시 (MVCC 가시성 체크 로직 - Pseudo Code)**:
 
 ```python
-from dataclasses import dataclass, field
-from typing import Dict, List, Optional, Set, Tuple
-from enum import Enum
-from collections import defaultdict
-import time
-
-class IsolationLevel(Enum):
-    READ_UNCOMMITTED = "READ UNCOMMITTED"
-    READ_COMMITTED = "READ COMMITTED"
-    REPEATABLE_READ = "REPEATABLE READ"
-    SERIALIZABLE = "SERIALIZABLE"
-
-@dataclass
-class Version:
-    """MVCC 버전 레코드"""
-    value: any
-    created_txid: int
-    created_time: float
-    expired_txid: Optional[int] = None
-
-@dataclass
-class Transaction:
-    """트랜잭션 정보"""
-    txid: int
-    isolation_level: IsolationLevel
-    start_time: float
-    snapshot: Dict[str, int] = field(default_factory=dict)  # key -> 본 txid가 읽은 버전
-    reads: Set[str] = field(default_factory=set)   # 읽은 키
-    writes: Set[str] = field(default_factory=set)  # 쓴 키
-    committed: bool = False
-
-class IsolationLevelDB:
-    """격리 수준을 구현한 MVCC 데이터베이스"""
-
+class TransactionManager:
     def __init__(self):
-        # 데이터 저장소: key -> List[Version]
-        self.data: Dict[str, List[Version]] = defaultdict(list)
-        self.transactions: Dict[int, Transaction] = {}
-        self.committed_txids: Set[int] = set()
-        self.current_txid = 0
-        self.lock = __import__('threading').Lock()
+        self.active_transactions = set() # 현재 실행 중인 TID 목록
+        self.min_active_tid = 0 # 가장 오래된 트랜잭션 ID
 
-    def begin_transaction(self, level: IsolationLevel = IsolationLevel.READ_COMMITTED) -> int:
-        """트랜잭션 시작"""
-        with self.lock:
-            self.current_txid += 1
-            txid = self.current_txid
-
-            self.transactions[txid] = Transaction(
-                txid=txid,
-                isolation_level=level,
-                start_time=time.time()
-            )
-
-            # REPEATABLE READ 이상은 시작 시 스냅샷 생성
-            if level in (IsolationLevel.REPEATABLE_READ, IsolationLevel.SERIALIZABLE):
-                self._create_snapshot(txid)
-
-            return txid
-
-    def _create_snapshot(self, txid: int) -> None:
-        """스냅샷 생성: 현재 커밋된 버전 ID 기록"""
-        tx = self.transactions[txid]
-        for key, versions in self.data.items():
-            # 이 트랜잭션이 볼 수 있는 가장 최신 버전 찾기
-            for v in reversed(versions):
-                if v.created_txid in self.committed_txids and v.created_txid < txid:
-                    if v.expired_txid is None or v.expired_txid > txid:
-                        tx.snapshot[key] = v.created_txid
-                        break
-
-    def read(self, txid: int, key: str) -> Optional[any]:
-        """격리 수준에 따른 읽기"""
-        tx = self.transactions.get(txid)
-        if not tx:
-            raise ValueError(f"Transaction {txid} not found")
-
-        versions = self.data.get(key, [])
-        tx.reads.add(key)
-
-        # READ UNCOMMITTED: 모든 버전 읽기
-        if tx.isolation_level == IsolationLevel.READ_UNCOMMITTED:
-            if versions:
-                return versions[-1].value
-            return None
-
-        # READ COMMITTED: 커밋된 최신 버전
-        if tx.isolation_level == IsolationLevel.READ_COMMITTED:
-            for v in reversed(versions):
-                if v.created_txid in self.committed_txids:
-                    if v.expired_txid is None or v.expired_txid in self.committed_txids:
-                        continue
-                    return v.value
-            return None
-
-        # REPEATABLE READ / SERIALIZABLE: 스냅샷 기반
-        snapshot_txid = tx.snapshot.get(key)
-        if snapshot_txid is not None:
-            for v in versions:
-                if v.created_txid == snapshot_txid:
-                    return v.value
-
-        # 스냅샷에 없으면 커밋된 것 중 가장 최신
-        for v in reversed(versions):
-            if v.created_txid in self.committed_txids and v.created_txid < txid:
-                if v.expired_txid is None:
-                    tx.snapshot[key] = v.created_txid
-                    return v.value
-        return None
-
-    def write(self, txid: int, key: str, value: any) -> bool:
-        """쓰기"""
-        tx = self.transactions.get(txid)
-        if not tx:
-            raise ValueError(f"Transaction {txid} not found")
-
-        # SERIALIZABLE: 읽기-쓰기 충돌 검사 (SSI)
-        if tx.isolation_level == IsolationLevel.SERIALIZABLE:
-            if self._check_rw_conflict(txid, key):
-                raise SerializationError(f"Read-Write conflict detected for {key}")
-
-        # 새 버전 생성
-        new_version = Version(
-            value=value,
-            created_txid=txid,
-            created_time=time.time()
-        )
-
-        # 이전 버전 만료 처리
-        versions = self.data[key]
-        if versions:
-            latest = versions[-1]
-            if latest.expired_txid is None:
-                latest.expired_txid = txid
-
-        versions.append(new_version)
-        tx.writes.add(key)
-        return True
-
-    def _check_rw_conflict(self, txid: int, key: str) -> bool:
-        """SSI: 읽기-쓰기 충돌 검사"""
-        tx = self.transactions[txid]
-
-        # 내가 읽은 키를 다른 커밋된 트랜잭션이 썼는지 확인
-        for other_txid, other_tx in self.transactions.items():
-            if other_txid == txid:
-                continue
-            if other_tx.committed and key in other_tx.writes:
-                if key in tx.reads:
-                    return True  # 충돌!
-
-        return False
-
-    def commit(self, txid: int) -> bool:
-        """커밋"""
-        with self.lock:
-            tx = self.transactions.get(txid)
-            if not tx:
-                return False
-
-            # SERIALIZABLE: 최종 충돌 검사
-            if tx.isolation_level == IsolationLevel.SERIALIZABLE:
-                for key in tx.writes:
-                    if self._check_rw_conflict(txid, key):
-                        self._cleanup_uncommitted(txid)
-                        raise SerializationError("Serialization failure")
-
-            self.committed_txids.add(txid)
-            tx.committed = True
+    def can_read_version(self, current_tx, row_version_tid):
+        """
+        current_tx: 읽기를 수행하는 트랜잭션 객체
+        row_version_tid: 데이터 레코드에 적힌 수정 트랜잭션 ID
+        """
+        # 1. 내가 쓴 데이터는 무조건 볼 수 있음
+        if row_version_tid == current_tx.tid:
             return True
-
-    def rollback(self, txid: int) -> None:
-        """롤백"""
-        with self.lock:
-            self._cleanup_uncommitted(txid)
-
-    def _cleanup_uncommitted(self, txid: int) -> None:
-        """미커밋 버전 정리"""
-        for key in list(self.data.keys()):
-            self.data[key] = [v for v in self.data[key] if v.created_txid != txid]
-            # 만료 정보 복원
-            for v in self.data[key]:
-                if v.expired_txid == txid:
-                    v.expired_txid = None
-
-        if txid in self.transactions:
-            del self.transactions[txid]
-
-class SerializationError(Exception):
-    pass
-
-# 동시성 문제 시뮬레이션
-def simulate_dirty_read():
-    """Dirty Read 시뮬레이션"""
-    db = IsolationLevelDB()
-
-    # 초기 데이터
-    tx0 = db.begin_transaction(IsolationLevel.READ_COMMITTED)
-    db.write(tx0, "balance", 100)
-    db.commit(tx0)
-
-    print("=== Dirty Read 시뮬레이션 ===")
-
-    # T1: READ UNCOMMITTED
-    tx1 = db.begin_transaction(IsolationLevel.READ_UNCOMMITTED)
-
-    # T2: 수정 후 롤백
-    tx2 = db.begin_transaction(IsolationLevel.READ_COMMITTED)
-    db.write(tx2, "balance", 200)  # 미커밋
-
-    # T1이 읽기 (Dirty Read 발생)
-    val = db.read(tx1, "balance")
-    print(f"T1 (READ UNCOMMITTED) 읽기: {val}")  # 200 (미커밋 데이터)
-
-    # T2 롤백
-    db.rollback(tx2)
-    print("T2 롤백")
-
-    # 실제 값 확인
-    tx3 = db.begin_transaction(IsolationLevel.READ_COMMITTED)
-    actual = db.read(tx3, "balance")
-    print(f"실제 값: {actual}")  # 100
-    print(f"Dirty Read 발생: {val != actual}")
-
-def simulate_non_repeatable_read():
-    """Non-Repeatable Read 시뮬레이션"""
-    db = IsolationLevelDB()
-
-    tx0 = db.begin_transaction(IsolationLevel.READ_COMMITTED)
-    db.write(tx0, "balance", 100)
-    db.commit(tx0)
-
-    print("\n=== Non-Repeatable Read 시뮬레이션 ===")
-
-    # READ COMMITTED로 테스트
-    tx1 = db.begin_transaction(IsolationLevel.READ_COMMITTED)
-    val1 = db.read(tx1, "balance")
-    print(f"T1 첫 번째 읽기: {val1}")  # 100
-
-    # T2가 수정 후 커밋
-    tx2 = db.begin_transaction(IsolationLevel.READ_COMMITTED)
-    db.write(tx2, "balance", 200)
-    db.commit(tx2)
-    print("T2 수정 후 커밋: 100 → 200")
-
-    # T1이 다시 읽기
-    val2 = db.read(tx1, "balance")
-    print(f"T1 두 번째 읽기: {val2}")  # 200
-    print(f"Non-Repeatable Read 발생: {val1 != val2}")
-
-def simulate_phantom_read():
-    """Phantom Read 시뮬레이션"""
-    db = IsolationLevelDB()
-
-    # 초기 데이터
-    tx0 = db.begin_transaction(IsolationLevel.READ_COMMITTED)
-    db.write(tx0, "order_1", 500)
-    db.write(tx0, "order_2", 600)
-    db.commit(tx0)
-
-    print("\n=== Phantom Read 시뮬레이션 ===")
-
-    # READ COMMITTED로 테스트
-    tx1 = db.begin_transaction(IsolationLevel.READ_COMMITTED)
-
-    # 범위 쿼리 시뮬레이션
-    count1 = sum(1 for k in db.data if k.startswith("order_"))
-    print(f"T1 첫 번째 카운트: {count1}")  # 2
-
-    # T2가 새 행 추가
-    tx2 = db.begin_transaction(IsolationLevel.READ_COMMITTED)
-    db.write(tx2, "order_3", 700)
-    db.commit(tx2)
-    print("T2 새 주문 추가 후 커밋")
-
-    # T1이 다시 카운트
-    count2 = sum(1 for k in db.data if k.startswith("order_"))
-    print(f"T1 두 번째 카운트: {count2}")  # 3
-    print(f"Phantom Read 발생: {count1 != count2}")
-
-if __name__ == "__main__":
-    simulate_dirty_read()
-    simulate_non_repeatable_read()
-    simulate_phantom_read()
-
-    print("\n=== 격리 수준별 비교 ===")
-    print("READ UNCOMMITTED: Dirty O, Non-Rep O, Phantom O")
-    print("READ COMMITTED:   Dirty X, Non-Rep O, Phantom O")
-    print("REPEATABLE READ:  Dirty X, Non-Rep X, Phantom O*")
-    print("SERIALIZABLE:     Dirty X, Non-Rep X, Phantom X")
-    print("\n* MySQL InnoDB는 Gap Lock으로 Phantom 방지")
+            
+        # 2. 트랜잭션 시작 전 이미 커밋된 데이터는 볼 수 있음
+        if row_version_tid < current_tx.snapshot_min_tid:
+            return True
+            
+        # 3. 트랜잭션 시작 후 생성된 데이터는 볼 수 없음
+        if row_version_tid > current_tx.snapshot_max_tid:
+            return False
+            
+        # 4. 트랜잭션 시작 시점에 활성 상태(미커밋)였던 트랜잭션의 데이터는 볼 수 없음
+        if row_version_tid in current_tx.active_tid_list_at_start:
+            return False
+            
+        return True # 그 외의 경우는 가시성 인정
 ```
 
 ---
 
-### IV. 비교 분석
+### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
-#### 장단점 (각 3개 이상)
+- **심층 기술 비교 (격리 수준별 특징 및 이상 현상 매트릭스)**:
 
-| 격리 수준 | 장점 | 단점 |
-|----------|------|------|
-| **READ UNCOMMITTED** | 최고 성능, 락 오버헤드 없음 | 모든 이상 현상 발생 |
-| **READ COMMITTED** | 적절한 성능, Dirty Read 방지 | Non-Repeatable, Phantom 발생 |
-| **REPEATABLE READ** | 일관된 읽기, 대부분 문제 방지 | Gap Lock 오버헤드, Phantom 가능성 |
-| **SERIALIZABLE** | 완전한 격리, 모든 문제 방지 | 최저 성능, 동시성 급감 |
+| 격리 수준 | Dirty Read | Non-Repeatable | Phantom Read | 구현 메커니즘 | 성능 오버헤드 |
+|-----------|------------|----------------|--------------|---------------|---------------|
+| **READ UNCOMMITTED** | 발생 가능 | 발생 가능 | 발생 가능 | Lock 최소화 (No Lock Read) | 최저 (Very Low) |
+| **READ COMMITTED** | **방지** | 발생 가능 | 발생 가능 | 쿼리 단위 Read View (MVCC) | 낮음 (Low) |
+| **REPEATABLE READ** | **방지** | **방지** | 발생 가능(표준) | 트랜잭션 단위 Read View (MVCC) | 중간 (Medium) |
+| **SERIALIZABLE** | **방지** | **방지** | **방지** | 2PL (Lock 기반) 또는 SSI | 최고 (High) |
 
-#### DBMS별 구현 비교 (최소 2개 대안)
-
-| 비교 항목 | **MySQL InnoDB** | PostgreSQL | Oracle |
-|----------|:---------------:|:----------:|:------:|
-| **기본 격리 수준** | REPEATABLE READ | READ COMMITTED | READ COMMITTED |
-| **Phantom 방지** | Gap Lock (RR에서) | SSI만 가능 | SSI만 가능 |
-| **MVCC 구현** | Undo Log | xmin/xmax | Undo Segment |
-| **SERIALIZABLE 구현** | 2PL | SSI | SSI |
-
-> **선택 기준**:
-> - 웹 서비스(읽기 많음): READ COMMITTED
-> - 금융(정합성 중요): REPEATABLE READ 이상
-> - 보고서(일관성 중요): REPEATABLE READ
-> - 핵심 트랜잭션: SERIALIZABLE
+- **과목 융합 관점 분석**:
+  1. **[보안 융합] 데이터 오염 및 부채널 공격**: 낮은 격리 수준(Read Uncommitted)은 미확정된 데이터 노출을 통해 시스템의 내부 상태를 유추하게 하는 보안 취약점이 될 수 있습니다. 금융권 컴플라이언스(ISMS, PCI-DSS 등)에서는 최소 Read Committed 이상의 격리 수준 적용을 강제합니다.
+  2. **[네트워크 융합] 분산 트랜잭션과 CAP 이론**: 분산 데이터베이스 환경에서 격리 수준을 높이면(Consistency 향상), 노드 간 동기화 지연으로 인해 가용성(Availability)이 떨어지게 됩니다. 기술사는 비즈니스 특성에 따라 일관성(C)과 가용성(A) 사이의 타협점을 격리 수준 설정을 통해 결정해야 합니다.
 
 ---
 
-### V. 실무 적용
+### Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
-#### 적용 시나리오 (3개 이상, 정량 효과 필수)
+- **기술사적 판단 (실무 시나리오)**:
+  1. **온라인 쇼핑몰 선착순 이벤트 (재고 관리)**:
+     - **상황**: 수만 명이 동시에 '재고 차감'을 수행할 때, Read Committed 수준에서는 Lost Update가 발생하여 재고보다 더 많은 상품이 팔리는 현상 발생.
+     - **전략**: `SELECT ... FOR UPDATE` 구문을 사용하여 조회 시점에 배타적 잠금(X-Lock)을 획득함으로써, 격리 수준과 관계없이 비관적 동시성 제어(Pessimistic Locking)를 적용하여 정합성을 확보합니다.
+  2. **대규모 배치 통계 리포트 생성**:
+     - **상황**: 수시간 동안 실행되는 통계 쿼리가 실행되는 동안 다른 트랜잭션들이 데이터를 계속 수정하여, 리포트의 합계 수치가 맞지 않는 불일치 발생.
+     - **전략**: 해당 세션의 격리 수준을 `REPEATABLE READ`로 상향하여 트랜잭션 시작 시점의 일관된 스냅샷을 보장받거나, 읽기 전용 복제본(Read Replica) 서버에서 쿼리를 수행하여 운영 서버의 부하를 분산합니다.
+  3. **Deadlock(교착 상태) 빈번 발생 시**:
+     - **상황**: Serializable 수준 사용 중, 여러 트랜잭션이 서로의 락이 풀리기를 무한정 대기하는 데드락 발생.
+     - **전략**: 격리 수준을 한 단계 낮추고(Read Committed), 애플리케이션 계층에서 '낙관적 락(Optimistic Lock, 버전 컬럼 활용)'을 사용하여 충돌 시 재시도(Retry)하는 로직으로 전환합니다.
 
-| 적용 분야 | 추천 격리 수준 | 이유 | 기대 효과 |
-|----------|--------------|------|----------|
-| **SNS 피드** | READ COMMITTED | 일시적 불일치 허용 | 응답 50ms 이내 |
-| **쇼핑몰 상품** | READ COMMITTED | 최신 정보 우선 | 재고 정확도 99% |
-| **은행 이체** | SERIALIZABLE | 완전 정합성 | 이중 출금 0건 |
-| **통계 리포트** | REPEATABLE READ | 일관된 스냅샷 | 데이터 오차 0% |
-
-#### 실제 도입 사례
-
-- **카카오페이**: 이체에 SERIALIZABLE 사용, 데이터 불일치 0%
-- **넷플릭스**: 조회수 집계에 READ COMMITTED, 처리량 10배 향상
-- **아마존**: 주문에 REPEATABLE READ, 일관성과 성능 균형
-
-#### 도입 시 고려사항 (4가지 관점)
-
-| 관점 | 핵심 체크 항목 |
-|------|--------------|
-| **기술적** | DBMS별 구현 차이, MVCC vs Lock |
-| **운영적** | 모니터링, 데드락 빈도 |
-| **보안적** | 민감 데이터 노출 가능성 |
-| **경제적** | 높은 격리 = 더 많은 하드웨어 |
-
-#### 주의사항 / 흔한 실수 (3개 이상)
-
-- **과도한 SERIALIZABLE**: 모든 트랜잭션에 SERIALIZABLE → 성능 저하
-- **Phantom Read 무시**: MySQL에서도 표준 RR은 Phantom 가능
-- **DBMS 차이 무시**: 동일 이름이어도 구현 다름
+- **도입 시 고려사항 (체크리스트)**:
+  - **기술적**: 사용 중인 DBMS의 기본 격리 수준 확인 (Oracle/PostgreSQL은 Read Committed, MySQL은 Repeatable Read가 기본).
+  - **운영적**: 격리 수준 상향 시 Undo 세그먼트 사용량 급증으로 인한 Tablespace 부족 현상 모니터링 필수.
+  - **애플리케이션**: ORM(JPA, Hibernate) 사용 시 영속성 컨텍스트가 제공하는 1차 캐시와 DB 격리 수준 사이의 괴리로 인한 데이터 혼선 주의.
 
 ---
 
-### VI. 결론
+### Ⅴ. 기대효과 및 결론 (Future & Standard)
 
-#### 기대 효과
+- **정량적/정성적 기대효과**:
 
-| 효과 영역 | 내용 | 정량 수치 또는 정성 근거 |
-|----------|------|------------------------|
-| 성능 | 적정 격리로 최적화 | 처리량 2~10배 향상 |
-| 일관성 | 비즈니스 요구 충족 | 데이터 오류 최소화 |
-| 유연성 | 워크로드별 선택 | 설계 유연성 확보 |
+| 효과 영역 | 내용 | 목표 수치 |
+|---------|-----|-----------|
+| **데이터 정합성** | 트랜잭션 간 데이터 간섭으로 인한 오류 근절 | 무결성 위반 0건 |
+| **시스템 처리량** | MVCC 활용을 통한 동시 사용자 수 증대 | TPS 200% 이상 향상 |
+| **운영 안정성** | 락 대기 시간(Lock Wait) 감소 및 타임아웃 방지 | 평균 대기 시간 50ms 미만 |
 
-#### 미래 전망
+- **미래 전망 및 진화 방향**:
+  클라우드 네이티브 데이터베이스와 분산 SQL 환경이 도래하면서, 기존의 단일 노드 중심 격리 수준을 넘어 **'인과적 일관성(Causal Consistency)'**이나 **'외부 일관성(External Consistency)'**과 같은 분산 시스템 특화 격리 모델이 도입되고 있습니다. 또한, 구글의 Spanner처럼 원자 시계(Atomic Clock)를 활용하여 전 지구적 범위에서 Serializable 격리를 보장하는 기술이 상용화되고 있으며, 향후 AI 기반의 쿼리 분석을 통해 트랜잭션별 최적의 격리 수준을 자동 추천하는 자율형 DBMS(Autonomous DB)로 발전할 것입니다.
 
-1. **기술 발전 방향**: SSI 최적화, 자동 격리 수준 튜닝
-2. **시장 트렌드**: 클라우드 DB에서 세밀한 격리 제어
-3. **후속 기술**: Deterministic Database, 분산 격리
-
-> **결론**: 격리 수준은 동시성과 일관성의 트레이드오프를 조절하는 핵심 설정이다. 비즈니스 요구를 이해하고 적절한 수준을 선택하는 것이 DB 설계의 핵심 역량이다.
-
-> **참고 표준**: ANSI SQL-92, Gray et al.(1976), Berenson et al.(1995) "A Critique of ANSI SQL Isolation Levels"
+- **※ 참고 표준/가이드**: 
+  - ANSI/ISO SQL-92 (ISO/IEC 9075) Isolation Levels.
+  - PostgreSQL SSI (Serializable Snapshot Isolation) Whitepaper.
 
 ---
 
-### 관련 개념
-
-```
-┌──────────────────────────────────────────────────────┐
-│  격리 수준 핵심 연관 개념 맵                            │
-├──────────────────────────────────────────────────────┤
-│  [ACID] ←──→ [격리수준] ←──→ [동시성제어]             │
-│       ↓            ↓            ↓                    │
-│  [트랜잭션]    [Lock/MVCC]    [이상현상]              │
-│       ↓            ↓            ↓                    │
-│  [커밋/롤백]   [락그레뉼러리]  [DirtyRead]            │
-└──────────────────────────────────────────────────────┘
-```
-
-| 관련 개념 | 관계 유형 | 설명 | 링크 |
-|----------|----------|------|------|
-| ACID | 상위 개념 | Isolation의 구체화 | [ACID](./acid.md) |
-| MVCC | 구현 기법 | 격리를 위한 핵심 기술 | [MVCC](./mvcc.md) |
-| Lock | 구현 기법 | 전통적 격리 메커니즘 | [동시성 제어](../concurrency_control.md) |
-| 트랜잭션 | 선행 개념 | 격리 수준의 적용 대상 | [트랜잭션](./transaction.md) |
-| 분산 DB | 확장 개념 | 분산 환경의 격리 문제 | [분산 DB](../distributed_database.md) |
+### 📌 관련 개념 맵 (Knowledge Graph)
+- **[ACID 원칙](./acid.md)**: 격리 수준이 구현하고자 하는 원자성, 일관성, 고립성, 지속성의 근간.
+- **[MVCC (다중 버전 동시성 제어)](./mvcc.md)**: 현대적 DBMS가 Lock 없이 격리 수준을 구현하는 핵심 알고리즘.
+- **[낙관적 락 vs 비관적 락](../concurrency_control.md)**: 격리 수준의 한계를 애플리케이션 측면에서 보완하는 동시성 제어 기법.
+- **[2단계 잠금 규약 (2PL)](../relational/two_phase_locking.md)**: 직렬 가능성을 보장하기 위한 고전적 락 관리 프로토콜.
 
 ---
 
-## 쉬운 설명
-
-**격리 수준**은 마치 **"회의실 문의 투명도"** 같습니다.
-
-회의실에서 회의를 할 때, 문이 완전히 투명하면 밖에서 안이 다 보이죠? 반대로 완전 불투명하면 아무것도 안 보여요.
-
-**READ UNCOMMITTED**는 **"완전 투명한 문"**이에요. 다른 사람이 작업하는 중간 과정이 다 보여요. 빠르지만 잘못된 정보를 볼 수 있어요.
-
-**READ COMMITTED**는 **"반투명한 문"**이에요. 작업이 끝난 것(커밋된 것)만 보여요. 그런데 내가 보고 있는데 다른 사람이 바꾸면 다시 보면 달라져요.
-
-**REPEATABLE READ**는 **"사진 찍어서 보기"**예요. 내가 시작할 때 사진을 찍어서 그 사진만 봐요. 중간에 다른 사람이 바꿔도 내 사진은 그대로예요.
-
-**SERIALIZABLE**은 **"한 명씩만 들어가기"**예요. 완전히 격리돼서 다른 사람 영향을 전혀 안 받아요. 안전하지만 느려요.
-
----
-
-## 부록: 다각도 관점
-
-### 관점 요약 (빠른 참조)
-
-| 관점 | 핵심 질문 | 한 줄 요약 |
-|------|----------|----------|
-| 이론가 | 수학적으로 어떻게 정의되는가? | 직렬 가능성, 충돌 직렬 가능성 |
-| 설계자 | 어떤 트레이드오프를 선택했는가? | 일관성 vs 동시성 |
-| 개발자 | 구현 시 무엇을 놓치기 쉬운가? | DBMS별 구현 차이 |
-| 운영자 | 운영 중 어디서 문제가 발생하는가? | 데드락, 롤백 빈도 |
-| 보안 전문가 | 어디를 공격하고 어떻게 막는가? | 타이밍 공격, 정보 유출 |
-| 비즈니스 | 투자 대비 가치가 있는가? | 성능 vs 정합성 비용 |
-| 역사가 | 무엇이 이것을 탄생시켰는가? | ANSI SQL-92 표준화 |
-
----
-
-#### 이론가 관점
-
-**핵심 질문**: 격리 수준은 수학적으로 어떻게 정의되는가?
-
-- **직렬 가능성(Serializability)**: 동시 실행 결과가 어떤 순차 실행 결과와 동등
-- **충돌 직렬 가능성(Conflict Serializability)**: 충돌 연산의 순서로 판단
-- **현상(Phenomena)**: P0(Dirty Read), P1(Non-Repeatable), P2(Phantom)
-
----
-
-#### 설계자 관점
-
-**핵심 질문**: 격리 수준 설계의 트레이드오프는?
-
-| 설계 결정 | 선택한 것 | 포기한 것 | 이유 |
-|----------|----------|----------|------|
-| 다단계 격리 | 4단계 제공 | 단일 격리 | 유연성 |
-| MVCC | 스냅샷 기반 | Lock 기반 | 읽기 성능 |
-
----
-
-#### 개발자 관점
-
-**핵심 질문**: 구현 시 무엇을 놓치기 쉬운가?
-
-```python
-# Good: 명시적 격리 수준 설정
-SET TRANSACTION ISOLATION LEVEL REPEATABLE READ;
-BEGIN;
--- 작업 수행
-COMMIT;
-
-# Bad: 기본값에 의존
-BEGIN;
--- 격리 수준 불명확
-COMMIT;
-```
-
----
-
-#### 운영자 관점
-
-**핵심 질문**: 운영 중 어디서 문제가 발생하는가?
-
-| 장애 시나리오 | 원인 | 탐지 방법 | 대응 전략 |
-|-------------|------|----------|----------|
-| 데드락 증가 | SERIALIZABLE 과다 | 로그 분석 | 격리 수준 하향 |
-| 롤백 빈도 | SSI 충돌 | 모니터링 | 재시도 로직 |
-
----
-
-#### 보안 전문가 관점
-
-**핵심 질문**: 어느 부분이 보안 관심 대상인가?
-
-| 위협 유형 | 공격 벡터 | 영향도 | 대응 통제 |
-|----------|----------|--------|----------|
-| 타이밍 공격 | 낮은 격리 악용 | 중 | 적정 격리 수준 |
-| 정보 유출 | Dirty Read | 상 | READ COMMITTED 이상 |
-
----
-
-#### 비즈니스 관점
-
-**핵심 질문**: 격리 수준에 투자할 가치가 있는가?
-
-| 항목 | 세부 내용 |
-|------|----------|
-| **비용** | 높은 격리 = 더 많은 리소스 |
-| **ROI** | 데이터 오류 방지 = 비용 절감 |
-| **리스크** | 부적절한 격리 = 비즈니스 손실 |
-
----
-
-#### 역사가 관점
-
-**핵심 질문**: 무엇이 이것을 탄생시켰는가?
-
-```
-1970s - 트랜잭션 처리 시스템 등장
-1992 - ANSI SQL-92 표준화 (4단계 격리)
-1995 - Berenson et al., ANSI 격리 수준 비판
-2000s - MVCC 기반 구현 확산
-2010s - SSI(Serializable Snapshot Isolation) 도입
-```
+### 👶 어린이를 위한 3줄 비유 설명
+1. **격리 수준**은 도서관에서 여러 사람이 책을 고칠 때 서로 방해하지 않게 규칙을 정하는 것과 같아요.
+2. 가장 낮은 단계는 옆 사람이 낙서하는 것까지 다 보이는 것이고, 가장 높은 단계는 내가 책을 다 읽을 때까지 아무도 도서관에 못 들어오게 하는 것이에요.
+3. 적당한 규칙을 정해야 데이터가 엉망이 되지 않으면서도, 많은 사람이 기다리지 않고 도서관을 이용할 수 있답니다!

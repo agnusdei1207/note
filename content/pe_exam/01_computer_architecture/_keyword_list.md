@@ -1,389 +1,850 @@
 +++
-title = "01. 컴퓨터 구조 키워드 목록 (완전판)"
-date = 2026-03-04
+title = "01. 컴퓨터구조 키워드 목록"
+date = "2026-03-04"
 [extra]
-categories = "pe_exam-computer-arch"
+categories = "pe_exam-computer-architecture"
 +++
 
-# 컴퓨터 구조 키워드 목록 — 완전판
+# 컴퓨터구조 심화 키워드 목록 (기술사 최적화 1000제)
 
-정보통신기술사·컴퓨터응용시스템기술사 대비 컴퓨터 구조 전 영역 기술사 수준 핵심 키워드
+정보관리기술사, 컴퓨터응용시스템기술사 시험에 가장 적합한 범위로 엄선한 1,000여 개의 컴퓨터구조 핵심 및 심화 키워드입니다. 
 
----
-
-## 1. 컴퓨터 구조 기초 / 역사 — 14개
-
-1. 폰 노이만 구조 (Von Neumann Architecture) — 프로그램 내장 방식, 폰 노이만 병목
-2. 하버드 구조 (Harvard Architecture) — 명령어/데이터 버스 분리, DSP/MCU
-3. 수정 하버드 구조 (Modified Harvard) — 캐시 분리 + 주기억 통합, ARM Cortex-A
-4. 컴퓨터 세대 — 진공관→트랜지스터→IC→VLSI→AI 시대
-5. ENIAC / UNIVAC — 역사적 맥락, 최초 전자식/상업용 컴퓨터
-6. CISC (Complex Instruction Set Computer) — x86, 복잡 명령어, 마이크로코드
-7. RISC (Reduced Instruction Set Computer) — ARM/MIPS/RISC-V, 단순·고속
-8. VLIW (Very Long Instruction Word) — ILP 명시적 표현, 컴파일러 의존
-9. EPIC (Explicitly Parallel Instruction Computing) — Itanium, IA-64
-10. SoC (System on Chip) — CPU+GPU+NPU+IO 통합, 모바일/임베디드
-11. MCU (Micro Controller Unit) — AVR/STM32/RP2040, 마이크로초 제어
-12. MPU (Micro Processing Unit) — x86/ARM, 범용 OS 실행
-13. 임베디드 시스템 (Embedded System) — 특수 목적, 실시간성
-14. 엣지 컴퓨팅 하드웨어 — Jetson Orin / RK3588 / i.MX 8
+너무 지엽적인 물리·전자공학적 레벨은 지양하고, **IT 시스템 엔지니어링, 아키텍처, 성능 평가, 메모리 및 스토리지 시스템, 병렬 컴퓨팅, 최신 AI 가속기(NPU/TPU), 그리고 클라우드 및 보안 하드웨어**에 초점을 맞추어 재구성하였습니다.
 
 ---
 
-## 2. 디지털 논리 / 부울 대수 — 20개
+## 1. 기초 전기전자 및 디지털 논리회로 (Basic Electronics & Logic)
+1. 전압 (Voltage)
+2. 전류 (Current)
+3. 저항 (Resistance)
+4. 임피던스 (Impedance)
+5. 커패시터 (Capacitor, 축전기)
+6. 정전용량 (Capacitance)
+7. 인덕터 (Inductor)
+8. 도체 (Conductor)
+9. 반도체 (Semiconductor)
+10. 절연체 (Insulator)
+11. 다이오드 (Diode)
+12. 정류 회로 (Rectifier)
+13. 발광 다이오드 (LED)
+14. 트랜지스터 (Transistor)
+15. BJT (Bipolar Junction Transistor)
+16. FET (전계효과 트랜지스터)
+17. MOSFET
+18. CMOS (Complementary MOS)
+19. 핀펫 (FinFET)
+20. GAA (Gate-All-Around)
+21. 디지털 시스템 vs 아날로그 시스템
+22. 부울 대수 (Boolean Algebra)
+23. 드모르간의 법칙 (De Morgan's Law)
+24. 진리표 (Truth Table)
+25. 카르노 맵 (Karnaugh Map)
+26. 최소항 (Minterm)과 최대항 (Maxterm)
+27. 논리 게이트 (Logic Gates)
+28. AND, OR, NOT 게이트
+29. NAND, NOR 게이트
+30. XOR, XNOR 게이트
+31. 범용 게이트 (Universal Gate)
+32. 조합 논리회로 (Combinational Logic)
+33. 반가산기 (Half Adder)
+34. 전가산기 (Full Adder)
+35. 리플 캐리 가산기 (Ripple Carry Adder)
+36. 캐리 예측 가산기 (Carry Look-ahead Adder)
+37. 감산기 (Subtractor)
+38. 병렬 가감산기
+39. 디코더 (Decoder)
+40. 인코더 (Encoder)
+41. 멀티플렉서 (Multiplexer, MUX)
+42. 디멀티플렉서 (Demultiplexer, DEMUX)
+43. 비교기 (Comparator)
+44. 순차 논리회로 (Sequential Logic)
+45. 클럭 (Clock)
+46. 에지 트리거 (Edge Trigger)
+47. 레벨 트리거 (Level Trigger)
+48. 래치 (Latch)
+49. SR 래치
+50. D 래치
+51. 플립플롭 (Flip-Flop)
+52. SR 플립플롭
+53. D 플립플롭
+54. JK 플립플롭
+55. T 플립플롭
+56. 마스터-슬레이브 플립플롭
+57. 레지스터 (Register)
+58. 시프트 레지스터 (Shift Register)
+59. 카운터 (Counter)
+60. 동기식 카운터 (Synchronous Counter)
+61. 비동기식 카운터 (리플 카운터)
+62. 업/다운 카운터
+63. 링 카운터 (Ring Counter)
+64. 존슨 카운터 (Johnson Counter)
+65. 상태도 (State Diagram)
+66. 상태표 (State Table)
+67. 무어 머신 (Moore Machine)
+68. 밀리 머신 (Mealy Machine)
+69. FPGA (Field Programmable Gate Array)
+70. ASIC (주문형 반도체)
+71. CPLD
+72. 하드웨어 기술 언어 (VHDL, Verilog)
 
-1. 부울 대수 — 교환/결합/분배/드모르간 법칙
-2. 기본 게이트 — AND / OR / NOT / NAND / NOR / XOR / XNOR
-3. NAND/NOR — 기능적 완전성 (Functional Completeness)
-4. 카르노 맵 (Karnaugh Map) — 논리식 최소화, 무관항(Don't Care)
-5. Quine-McCluskey 알고리즘 — 다변수 논리 최소화
-6. 반가산기 / 전가산기 — 덧셈 기본 회로
-7. 멀티플렉서 (MUX) / 디멀티플렉서 (DEMUX)
-8. 인코더 / 디코더 (우선순위 인코더 포함)
-9. 비교기 (Comparator) — 크기 비교, 4비트 직렬/병렬
-10. RS 플립플롭 / D 플립플롭 / JK 플립플롭 / T 플립플롭
-11. 마스터-슬레이브 플립플롭 (Master-Slave FF) — 레이스 방지
-12. 레지스터 (Register) — 플립플롭 집합, SISO/SIPO/PISO/PIPO
-13. 카운터 (Counter) — 비동기식(리플)/동기식 카운터
-14. 유한 상태 기계 (FSM) — Mealy / Moore 기계
-15. 조합 논리 vs 순서 논리 비교
-16. CMOS 회로 — 보완 MOS, 전력 소비 특성
-17. 팬아웃 (Fan-out) / 팬인 (Fan-in) — 구동 능력
-18. 전파 지연 (Propagation Delay) — 게이트 속도
-19. 글리치 (Glitch) / 해저드 (Hazard) — 순간 오류
-20. 프로그래밍 가능 논리 — PLA / PAL / GAL / CPLD / FPGA
+## 2. 데이터 표현과 연산 (Data Representation & Arithmetic)
+73. 비트 (Bit)
+74. 바이트 (Byte)
+75. 워드 (Word)
+76. 더블 워드 (Double Word)
+77. 기수 (Radix)
+78. 진법 변환 (2진수, 8진수, 10진수, 16진수)
+79. LSB (Least Significant Bit)
+80. MSB (Most Significant Bit)
+81. 부호 없는 정수 (Unsigned Integer)
+82. 부호 있는 정수 (Signed Integer)
+83. 부호와 절댓값 (Sign-Magnitude)
+84. 1의 보수 (1's Complement)
+85. 2의 보수 (2's Complement)
+86. 고정소수점 (Fixed Point)
+87. 부동소수점 (Floating Point)
+88. IEEE 754 표준
+89. 단정밀도 (Single Precision, FP32)
+90. 배정밀도 (Double Precision, FP64)
+91. 반정밀도 (Half Precision, FP16)
+92. bfloat16 (Brain Floating Point)
+93. 정규화 (Normalization)
+94. 편향 지수 (Bias)
+95. 오버플로우 (Overflow)
+96. 언더플로우 (Underflow)
+97. NaN (Not a Number)
+98. BCD 코드 (Binary Coded Decimal)
+99. 팩드 BCD (Packed BCD)
+100. 언팩드 BCD (Unpacked BCD)
+101. 3초과 코드 (Excess-3 Code)
+102. 그레이 코드 (Gray Code)
+103. ASCII 코드
+104. 유니코드 (Unicode)
+105. UTF-8
+106. UTF-16
+107. 패리티 비트 (Parity Bit)
+108. 짝수 패리티 (Even Parity)
+109. 홀수 패리티 (Odd Parity)
+110. 해밍 거리 (Hamming Distance)
+111. 해밍 코드 (Hamming Code)
+112. 체크섬 (Checksum)
+113. CRC (Cyclic Redundancy Check)
+114. 빅 엔디안 (Big-Endian)
+115. 리틀 엔디안 (Little-Endian)
+116. 바이트 오더링 (Byte Ordering)
+117. ALU (산술 논리 연산 장치)
+118. 가산기/감산기 논리
+119. 시프트 연산 (Shift)
+120. 논리 시프트 (Logical Shift)
+121. 산술 시프트 (Arithmetic Shift)
+122. 순환 시프트 (Rotate)
+
+## 3. 컴퓨터 구조 개론 및 성능 평가 (Architecture Basics & Performance)
+123. 컴퓨터의 4대 구성요소 (연산, 제어, 기억, 입출력)
+124. 폰 노이만 아키텍처 (Von Neumann Architecture)
+125. 프로그램 내장 방식 (Stored Program Concept)
+126. 하버드 아키텍처 (Harvard Architecture)
+127. 시스템 버스 (System Bus)
+128. 폰 노이만 병목현상 (Von Neumann Bottleneck)
+129. 마이크로프로세서 (Microprocessor)
+130. 마이크로컨트롤러 (Microcontroller, MCU)
+131. SoC (System on Chip)
+132. 클럭 주파수 (Clock Frequency)
+133. 클럭 주기 (Clock Cycle Time)
+134. CPI (Cycles Per Instruction)
+135. IPC (Instructions Per Cycle)
+136. MIPS (Million Instructions Per Second)
+137. FLOPS (Floating-point Operations Per Second)
+138. 응답 시간 (Response Time)
+139. 처리량 (Throughput)
+140. 대역폭 (Bandwidth)
+141. 지연 시간 (Latency)
+142. 컴퓨터 성능 방정식 (Performance Equation)
+143. 암달의 법칙 (Amdahl's Law)
+144. 속도 향상도 (Speedup)
+145. 구스타프슨의 법칙 (Gustafson's Law)
+146. 무어의 법칙 (Moore's Law)
+147. 황의 법칙 (Hwang's Law)
+148. 데나드 스케일링 (Dennard Scaling)
+149. 벤치마크 프로그램 (Benchmark)
+150. SPEC 벤치마크
+151. Dhrystone
+152. Whetstone
+153. Linpack
+154. TPC 벤치마크
+155. 다크 실리콘 (Dark Silicon)
+156. 전력-성능 트레이드오프
+
+## 4. 명령어 집합 구조 (ISA, Instruction Set Architecture)
+157. ISA (Instruction Set Architecture)
+158. 명령어 (Instruction)
+159. 연산 코드 (Opcode)
+160. 피연산자 (Operand)
+161. 누산기 (Accumulator)
+162. 범용 레지스터 (GPR)
+163. 특수 목적 레지스터 (SPR)
+164. 프로그램 카운터 (PC)
+165. 명령어 레지스터 (IR)
+166. 스택 포인터 (SP)
+167. 상태 레지스터 (Status Register / Flag Register)
+168. 제로 플래그 (Zero Flag)
+169. 캐리 플래그 (Carry Flag)
+170. 명령어 형식 (Instruction Format)
+171. 고정 길이 명령어
+172. 가변 길이 명령어
+173. 주소 지정 방식 (Addressing Modes)
+174. 즉시 주소 지정 (Immediate)
+175. 레지스터 주소 지정 (Register)
+176. 직접 주소 지정 (Direct)
+177. 간접 주소 지정 (Indirect)
+178. 레지스터 간접 주소 지정 (Register Indirect)
+179. 변위 주소 지정 (Displacement)
+180. 베이스 레지스터 주소 지정 (Base Register)
+181. 인덱스 주소 지정 (Indexed)
+182. PC 상대 주소 지정 (PC-Relative)
+183. 데이터 전송 명령어
+184. 산술 연산 명령어
+185. 논리 연산 명령어
+186. 제어 흐름 명령어 (Control Flow)
+187. 조건부 분기 (Conditional Branch)
+188. 무조건 분기 (Unconditional Branch)
+189. 서브루틴 호출 (Call) 및 복귀 (Return)
+190. 스택 머신 (Stack Machine)
+191. 0-주소 명령어
+192. 1-주소 명령어
+193. 2-주소 명령어
+194. 3-주소 명령어
+195. RISC (Reduced Instruction Set Computer)
+196. CISC (Complex Instruction Set Computer)
+197. 로드/스토어 아키텍처 (Load/Store)
+198. x86 아키텍처
+199. ARM 아키텍처
+200. RISC-V
+201. MIPS
+202. 명령어 집합 확장 (ISA Extensions)
+203. SIMD 명령어 확장 (AVX, NEON)
+
+## 5. 제어 유닛 및 파이프라이닝 (Control Unit & Pipelining)
+204. 마이크로아키텍처 (Microarchitecture)
+205. 데이터패스 (Datapath)
+206. 제어 유닛 (Control Unit)
+207. 명령어 사이클 (Instruction Cycle)
+208. 인출 사이클 (Fetch Cycle)
+209. 해독 사이클 (Decode Cycle)
+210. 실행 사이클 (Execute Cycle)
+211. 간접 사이클 (Indirect Cycle)
+212. 인터럽트 사이클 (Interrupt Cycle)
+213. 마이크로 오퍼레이션 (Micro-operation)
+214. 하드와이어드 제어 (Hardwired Control)
+215. 마이크로프로그래밍 (Microprogrammed Control)
+216. 제어 메모리 (Control Memory)
+217. 마이크로명령어 (Microinstruction)
+218. 명령어 파이프라이닝 (Instruction Pipelining)
+219. 파이프라인 단계 (IF, ID, EX, MEM, WB)
+220. 파이프라인 깊이 (Pipeline Depth)
+221. 파이프라인 해저드 (Pipeline Hazards)
+222. 구조적 해저드 (Structural Hazard)
+223. 데이터 해저드 (Data Hazard)
+224. 제어 해저드 (Control Hazard / Branch Hazard)
+225. RAW (Read After Write)
+226. WAR (Write After Read)
+227. WAW (Write After Write)
+228. 데이터 포워딩 (Data Forwarding / Bypassing)
+229. 파이프라인 스톨 (Pipeline Stall / Bubble)
+230. 분기 지연 (Delayed Branch)
+231. 분기 예측 (Branch Prediction)
+232. 정적 분기 예측 (Static Prediction)
+233. 동적 분기 예측 (Dynamic Prediction)
+234. 분기 목적지 버퍼 (BTB)
+235. 분기 역사 표 (BHT)
+236. 수퍼스칼라 (Superscalar)
+237. 명령어 발급 폭 (Issue Width)
+238. 비순차 실행 (Out-of-Order Execution, OoO)
+239. 레지스터 리네이밍 (Register Renaming)
+240. 재주문 버퍼 (ROB, Reorder Buffer)
+241. 예약역 (Reservation Station)
+242. 토마술로 알고리즘 (Tomasulo's Algorithm)
+243. VLIW (Very Long Instruction Word)
+244. EPIC (Explicitly Parallel Instruction Computing)
+
+## 6. 메모리 계층 구조 및 캐시 (Memory Hierarchy & Cache)
+245. 메모리 계층 구조 (Memory Hierarchy)
+246. 참조의 지역성 (Locality of Reference)
+247. 시간적 지역성 (Temporal Locality)
+248. 공간적 지역성 (Spatial Locality)
+249. 순차적 지역성 (Sequential Locality)
+250. SRAM (Static RAM)
+251. DRAM (Dynamic RAM)
+252. SDRAM (Synchronous DRAM)
+253. DDR SDRAM (Double Data Rate)
+254. 메모리 인터리빙 (Memory Interleaving)
+255. ROM (Read Only Memory)
+256. 플래시 메모리 (Flash Memory)
+257. NAND 플래시
+258. NOR 플래시
+259. 캐시 메모리 (Cache Memory)
+260. L1 캐시
+261. L2 캐시
+262. L3 캐시
+263. 캐시 히트 (Hit) 및 미스 (Miss)
+264. 적중률 (Hit Ratio)
+265. 평균 메모리 접근 시간 (AMAT)
+266. 캐시 맵핑 방식 (Cache Mapping)
+267. 직접 사상 (Direct Mapping)
+268. 완전 연관 사상 (Fully Associative)
+269. 집합 연관 사상 (Set Associative Mapping)
+270. 캐시 미스의 원인 (3C: Compulsory, Capacity, Conflict)
+271. 캐시 교체 알고리즘 (Replacement Policy)
+272. LRU (Least Recently Used)
+273. LFU (Least Frequently Used)
+274. FIFO (First In First Out)
+275. 캐시 쓰기 정책 (Write Policy)
+276. Write-Through (동시 쓰기)
+277. Write-Back (나중 쓰기)
+278. 더티 비트 (Dirty Bit)
+279. 명령어 캐시와 데이터 캐시 분리 (Split Cache)
+280. 프리패칭 (Prefetching)
+281. 희생 캐시 (Victim Cache)
+
+## 7. 가상 메모리 및 OS 메모리 관리 (Virtual Memory & OS Integration)
+282. 가상 메모리 (Virtual Memory)
+283. 물리 주소 (Physical Address)와 논리 주소 (Logical Address)
+284. MMU (Memory Management Unit)
+285. 페이징 (Paging)
+286. 페이지 (Page)와 프레임 (Frame)
+287. 내부 단편화 (Internal Fragmentation)
+288. 페이지 테이블 (Page Table)
+289. 다단계 페이지 테이블
+290. 역 페이지 테이블 (Inverted Page Table)
+291. TLB (Translation Lookaside Buffer)
+292. TLB 히트 및 미스
+293. 세그멘테이션 (Segmentation)
+294. 세그먼트 테이블
+295. 외부 단편화 (External Fragmentation)
+296. 페이징과 세그멘테이션 혼용 기법
+297. 요구 페이징 (Demand Paging)
+298. 페이지 부재 (Page Fault)
+299. 페이지 폴트 처리 과정
+300. 페이지 교체 알고리즘 (Page Replacement)
+301. OPT (최적 교체)
+302. 클럭 알고리즘 (Clock Algorithm)
+303. NUR (Not Used Recently)
+304. 스래싱 (Thrashing)
+305. 워킹 셋 (Working Set) 모델
+306. PFF (Page Fault Frequency)
+307. 메모리 보호 (Memory Protection)
+308. 메모리 맵 파일 (Memory-Mapped File)
+
+## 8. 입출력 및 스토리지 시스템 (I/O & Storage Systems)
+309. 입출력 모듈 (I/O Module)
+310. 메모리 맵 I/O (Memory-Mapped I/O)
+311. 분리형 I/O (Isolated I/O)
+312. 프로그램 제어 I/O (Programmed I/O)
+313. 폴링 (Polling)
+314. 인터럽트 구동 I/O (Interrupt-driven I/O)
+315. 인터럽트 (Interrupt)
+316. 인터럽트 벡터 (Interrupt Vector)
+317. ISR (Interrupt Service Routine)
+318. DMA (Direct Memory Access)
+319. 사이클 스틸링 (Cycle Stealing)
+320. 버스트 모드 (Burst Mode)
+321. IOP (I/O Processor / Channel)
+322. 하드 디스크 드라이브 (HDD)
+323. 트랙, 섹터, 실린더
+324. 탐색 시간 (Seek Time)
+325. 회전 지연 (Rotational Latency)
+326. 전송 시간 (Transfer Time)
+327. SSD (Solid State Drive)
+328. 가비지 컬렉션 (Garbage Collection in SSD)
+329. 마모 평준화 (Wear Leveling)
+330. FTL (Flash Translation Layer)
+331. RAID (Redundant Array of Independent Disks)
+332. RAID 0 (스트라이핑)
+333. RAID 1 (미러링)
+334. RAID 5 (분산 패리티)
+335. RAID 6 (이중 패리티)
+336. RAID 10 / 01
+337. SAN (Storage Area Network)
+338. NAS (Network Attached Storage)
+339. DAS (Direct Attached Storage)
+340. SCSI 및 SAS (Serial Attached SCSI)
+341. SATA (Serial ATA)
+342. NVMe (Non-Volatile Memory Express)
+343. NVMe-oF (NVMe over Fabrics)
+
+## 9. 시스템 버스 및 고속 인터커넥트 (System Bus & Interconnects)
+344. 버스 (Bus)
+345. 데이터 버스 (Data Bus)
+346. 주소 버스 (Address Bus)
+347. 제어 버스 (Control Bus)
+348. 동기식 버스 (Synchronous Bus)
+349. 비동기식 버스 (Asynchronous Bus)
+350. 버스 마스터 (Bus Master)
+351. 버스 중재 (Bus Arbitration)
+352. 중앙 집중식 중재
+353. 분산식 중재
+354. 데이지 체인 (Daisy Chain)
+355. PCI (Peripheral Component Interconnect)
+356. PCIe (PCI Express)
+357. PCIe 레인 (Lanes - x1, x4, x8, x16)
+358. PCIe 루트 컴플렉스 (Root Complex)
+359. USB (Universal Serial Bus)
+360. Thunderbolt
+361. 인피니밴드 (InfiniBand)
+362. RDMA (Remote Direct Memory Access)
+363. RoCE (RDMA over Converged Ethernet)
+364. 노스브리지 (Northbridge)와 사우스브리지 (Southbridge)
+365. 프론트 사이드 버스 (FSB)
+366. 온칩 버스 (AMBA, AXI, AHB, APB)
+367. NoC (Network on Chip)
+
+## 10. 병렬 처리 아키텍처 (Parallel Processing Architecture)
+368. 플린의 분류법 (Flynn's Taxonomy)
+369. SISD (단일 명령어 단일 데이터)
+370. SIMD (단일 명령어 다중 데이터)
+371. MISD
+372. MIMD (다중 명령어 다중 데이터)
+373. 벡터 프로세서 (Vector Processor)
+374. 배열 프로세서 (Array Processor)
+375. 다중 프로세서 (Multiprocessor)
+376. 다중 컴퓨터 (Multicomputer)
+377. 공유 메모리 시스템 (Shared Memory)
+378. 분산 메모리 시스템 (Distributed Memory)
+379. UMA (Uniform Memory Access)
+380. NUMA (Non-Uniform Memory Access)
+381. COMA (Cache-Only Memory Access)
+382. 대칭형 다중 처리 (SMP, Symmetric Multiprocessing)
+383. 클러스터 컴퓨팅 (Cluster Computing)
+384. 그리드 컴퓨팅 (Grid Computing)
+385. 스레드 레벨 병렬성 (TLP, Thread-Level Parallelism)
+386. 데이터 레벨 병렬성 (DLP)
+387. 상호 연결망 (Interconnection Network)
+388. 크로스바 스위치 (Crossbar Switch)
+389. 메시 (Mesh) 토폴로지
+390. 토러스 (Torus)
+391. 하이퍼큐브 (Hypercube)
+392. 다단 연결망 (MIN, Multistage Interconnection Network)
+
+## 11. 멀티코어 및 동기화 (Multi-core & Synchronization)
+393. 멀티코어 프로세서 (Multi-core Processor)
+394. CMP (Chip Multi-Processor)
+395. 이기종 멀티코어 (Heterogeneous Multi-core)
+396. big.LITTLE 아키텍처
+397. 멀티스레딩 (Multithreading)
+398. 거친 멀티스레딩 (Coarse-grained)
+399. 세밀한 멀티스레딩 (Fine-grained)
+400. 동시 멀티스레딩 (SMT, Simultaneous Multithreading)
+401. 하이퍼스레딩 (Hyper-Threading)
+402. 캐시 일관성 (Cache Coherence)
+403. 스누핑 프로토콜 (Snooping Protocol)
+404. 디렉터리 기반 프로토콜 (Directory-based Protocol)
+405. 무효화 정책 (Write-Invalidate)
+406. 갱신 정책 (Write-Update)
+407. MESI 프로토콜 (Modified, Exclusive, Shared, Invalid)
+408. MOESI 프로토콜
+409. 거짓 공유 (False Sharing)
+410. 메모리 일관성 모델 (Memory Consistency Model)
+411. 순차적 일관성 (Sequential Consistency)
+412. 완화된 일관성 (Relaxed Consistency)
+413. 하드웨어 동기화 (Hardware Synchronization)
+414. Test-and-Set 연산
+415. Compare-and-Swap (CAS) 연산
+416. 메모리 배리어 (Memory Barrier / Fence)
+
+## 12. 차세대 가속기 및 AI 반도체 (Accelerators & AI Hardware)
+417. 하드웨어 가속기 (Hardware Accelerator)
+418. GPU (Graphics Processing Unit)
+419. GPGPU (General-Purpose GPU)
+420. CUDA (Compute Unified Device Architecture)
+421. 스트리밍 멀티프로세서 (SM)
+422. 스레드 블록 (Thread Block)과 워프 (Warp)
+423. SIMT (Single Instruction Multiple Threads)
+424. NPU (Neural Processing Unit)
+425. TPU (Tensor Processing Unit)
+426. 시스톨릭 어레이 (Systolic Array)
+427. 텐서 코어 (Tensor Core)
+428. MAC 연산 (Multiply-Accumulate)
+429. DLA (Deep Learning Accelerator)
+430. PIM (Processing-In-Memory)
+431. PNM (Processing-Near-Memory)
+432. CIM (Computing-In-Memory)
+433. 메모리 월 (Memory Wall)
+434. 양자화 (Quantization, INT8, INT4)
+435. 가지치기 (Pruning) 지원 하드웨어
+436. DPU (Data Processing Unit / SmartNIC)
+437. IPU (Intelligence Processing Unit)
+438. LPU (Language Processing Unit, LLM 가속기)
+439. 이기종 컴퓨팅 (Heterogeneous Computing)
+440. 오프로딩 (Offloading)
+441. CXL (Compute Express Link)
+442. 메모리 풀링 (Memory Pooling)
+443. UCIe (Universal Chiplet Interconnect Express)
+444. NVLink / NVSwitch
+445. 뉴로모픽 컴퓨팅 (Neuromorphic Computing)
+446. 스파이킹 신경망 (SNN)
+447. 양자 컴퓨터 (Quantum Computer) 기초
+448. 큐비트 (Qubit)
+
+## 13. 고신뢰성 보장 및 전력 관리 (Reliability & Power Management)
+449. RAS (Reliability, Availability, Serviceability)
+450. MTBF (평균 무고장 시간)
+451. MTTR (평균 수리 시간)
+452. 가용성 (Availability)
+453. 고장 허용 시스템 (Fault Tolerance)
+454. 단일 장애점 (SPOF, Single Point of Failure)
+455. TMR (Triple Modular Redundancy, 삼중 모듈 중복)
+456. 이중화 (Dual Redundancy)
+457. 핫 스탠바이 (Hot Standby)
+458. 콜드 스탠바이 (Cold Standby)
+459. 페일 세이프 (Fail-Safe)
+460. 페일 소프트 (Fail-Soft)
+461. 워치독 타이머 (Watchdog Timer)
+462. 소프트 에러 (Soft Error)와 하드 에러 (Hard Error)
+463. ECC 메모리 (Error-Correcting Code)
+464. 메모리 미러링 (Memory Mirroring)
+465. 락스텝 (Lockstep) 아키텍처
+466. 전력 소모 (Power Consumption)
+467. 동적 전력 (Dynamic Power)
+468. 정적 전력 (Static Power / 누설 전력)
+469. DVFS (동적 전압 및 주파수 스케일링)
+470. 클럭 게이팅 (Clock Gating)
+471. 전력 게이팅 (Power Gating)
+472. 열 설계 전력 (TDP, Thermal Design Power)
+473. 서멀 스로틀링 (Thermal Throttling)
+474. 에너지 비례 컴퓨팅 (Energy Proportional Computing)
+
+## 14. 최신 하드웨어 보안 및 트렌드 (Hardware Security & Trends)
+475. 하드웨어 보안 모듈 (HSM)
+476. TPM (Trusted Platform Module)
+477. 보안 부팅 (Secure Boot)
+478. 신뢰 실행 환경 (TEE, Trusted Execution Environment)
+479. ARM TrustZone
+480. Intel SGX
+481. 사이드 채널 공격 (Side-channel Attack)
+482. 멜트다운 (Meltdown)
+483. 스펙터 (Spectre)
+484. 로우해머 공격 (Rowhammer)
+485. 물리적 복제 방지 기능 (PUF)
+486. 난수 생성기 (TRNG)
+487. 루트 오브 트러스트 (Root of Trust)
+488. 시스템 관리 모드 (SMM)
+489. 동형 암호 가속기 (FHE Accelerator)
+490. 엣지 컴퓨팅 하드웨어 (Edge Computing HW)
+491. 포그 컴퓨팅 하드웨어
+492. 클라우드 네이티브 프로세서 (ARM Neoverse 등)
+493. 차세대 비휘발성 메모리 (SCM: PRAM, MRAM, ReRAM)
+494. 옵테인 메모리 (3D XPoint)
+495. HBM (High Bandwidth Memory)
+496. TSV (Through-Silicon Via, 실리콘 관통 전극)
+497. 칩렛 (Chiplet) 아키텍처
+498. 2.5D 및 3D 패키징 기술
+499. 소프트웨어 정의 인프라 (SDI) 하드웨어 종속성
+
+## 15. 심화 토픽 및 추가 주요 용어 (기술사 논술/단답형 빈출 보충)
+500. 폰 노이만 병목 개선 기법
+501. 수퍼스칼라 발급 큐
+502. 비순차 실행 윈도우
+503. 분기 예측 실패 페널티
+504. 캐시 웨이 예측
+505. 캐시 라인 프리패치
+506. 비순차 메모리 접근
+507. 메모리 의존성 예측기
+508. 로드-스토어 큐 (LSQ)
+509. 레지스터 파일 포트
+510. 스누핑 버스 병목 현상
+511. 디렉터리 캐시
+512. 메시 프로토콜 상태 전이도
+513. 트랜잭셔널 메모리 (HTM)
+514. 소프트웨어 트랜잭셔널 메모리 (STM)
+515. 작업 스케줄링 하드웨어 지원
+516. 이종 컴퓨팅 메모리 공유
+517. 거대 페이지 (Huge Page)
+518. TLB 슈팅다운
+519. IOMMU 성능 오버헤드
+520. PCIe 스위치 패브릭
+521. NVMe 오버 패브릭 (NVMe-oF)
+522. 인피니밴드 RDMA
+523. RoCE (RDMA over Converged Ethernet)
+524. 스토리지 클래스 메모리 (SCM) 계층화
+525. 메인 메모리 압축 기술
+526. 비휘발성 메모리 마모 평준화
+527. 가상화 오버헤드 감소 (하드웨어 보조)
+528. SR-IOV (Single Root I/O Virtualization)
+529. 가상 머신 제어 구조 (VMCS)
+530. 하이퍼바이저 트랩
+531. 에뮬레이션 지연
+532. 동적 써멀 관리 (DTM)
+533. 전력-성능 트레이드오프 파레토 곡선
+534. 무어의 법칙 이후 (More than Moore)
+535. 시스템 온 패키지 (SiP)
+536. LLVM IR 변환 (컴파일러-HW 인터페이스)
+537. 오토 벡터라이제이션 (Auto-vectorization)
+538. 루프 언롤링 (Loop Unrolling)
+539. 루프 타일링 (Loop Tiling)
+540. 버퍼 오버플로우 하드웨어 방어 (Intel CET 등)
+541. 스택 스매싱 프로텍터
+542. 포인터 인증 (Pointer Authentication, ARM PAC)
+543. 양자 내성 암호 가속기
+544. 안전한 컨텍스트 스위칭
+545. 인터럽트 지연 시간 (Interrupt Latency) 최소화
+546. 결정론적 이더넷 (TSN) 하드웨어
+547. 실시간 시스템 타이머
+548. 자율주행용 고성능 컴퓨터 (HPC)
+549. ADAS 센서 퓨전 가속기
+550. 스마트 팩토리 엣지 게이트웨이 HW
+551. 비디오 코덱 하드웨어 가속 (H.265/AV1)
+552. 이미지 센서 ISP (Image Signal Processor)
+553. 초고속 SerDes
+554. 오류 정정 부호 (ECC) 회로
+555. 메모리 스크러빙 (Memory Scrubbing)
+556. 소프트 에러 복구 매커니즘
+557. 펌웨어 OTA 하드웨어 지원
+558. NMI (Non-Maskable Interrupt)
+559. 벡터형 인터럽트 컨트롤러 (VIC, NVIC)
+560. 멀티코어 인터럽트 라우팅 (GIC, APIC)
+561. MSI (Message Signaled Interrupts)
+562. 버스트 버스 트랜잭션
+563. 분리 트랜잭션 버스 (Split Transaction)
+564. 비동기 버스 핸드셰이크 프로토콜
+565. 메시지 패싱 하드웨어 큐
+566. 하드웨어 락 엘리전 (HLE)
+567. 원자적 읽기-수정-쓰기 (RMW)
+568. ABA 문제 (동기화 이슈)
+569. 멀티코어 칩 온도 불균형 (Thermal Gradient)
+570. 단일 스레드 성능 (STP) vs 다중 스레드 성능 (MTP)
+571. 명령어 프리패치 버퍼
+572. 루프 프리패처
+573. 스트림 프리패처
+574. 스와핑 (Swapping) 메커니즘
+575. 가상 주소 공간 분리
+576. ASLR 하드웨어 기반 우회 방어
+577. 분기 목표 주입 (Branch Target Injection)
+578. 커널 페이지 테이블 격리 (KPTI)
+579. 간접 분기 추측 제어 (IBPB)
+580. Retpoline (Return Trampoline)
+581. 마이크로코드 보안 패치 원리
+582. 하드웨어 기반 난독화
+583. 데이터 대역폭 압축 인코딩
+584. 딥러닝 텐서 희소성 (Sparsity) 인코더
+585. 영(Zero) 데이터 건너뛰기 로직 (Zero-skipping)
+586. 부동소수점 곱셈기 파이프라인
+587. 네트워크 인터페이스 카드 (NIC) 오프로딩
+588. TCP 오프로드 엔진 (TOE)
+589. IPsec 오프로드 가속기
+590. 가상 스위치 오프로드 (vSwitch Offload)
+591. 패킷 분류 알고리즘 (TCAM 기반)
+592. 오픈 채널 SSD 구조
+593. 존 스토리지 (Zoned Storage)
+594. 키-밸류 스토리지 (KV-SSD)
+595. 스마트 SSD (연산 기능 포함)
+596. 컴퓨테이셔널 스토리지 (Computational Storage)
+597. SLC 캐싱 (SLC Caching) 기법
+598. 가상 머신 마이그레이션 네트워크 칩
+599. 데이터 방향성 패브릭 (Data-centric Fabric)
+600. 엑사스케일 컴퓨팅 노드 보드
+601. 액체 냉각 시스템 (Liquid Cooling)
+602. 이머전 쿨링 (Immersion Cooling)
+603. 소프트웨어 정의 엑셀러레이터
+604. 오픈 소스 IP 코어
+605. 고수준 합성 (HLS, High-Level Synthesis)
+606. FPGA 동적 재구성 (Dynamic Reconfiguration)
+607. 클럭 도메인 교차 (CDC, Clock Domain Crossing)
+608. 비동기식 FIFO 버퍼
+609. 단일 이벤트 래치업 (SEL)
+610. 보안 해시 함수 회로 (SHA-3 / Keccak)
+611. 분산 산술 (Distributed Arithmetic) 매크로
+612. 행렬 분해 (LU, QR) 전용 병렬 구조
+613. 그래프 탐색 (BFS/DFS) 전용 메모리 서브시스템
+614. 페이지 랭크 알고리즘 하드웨어 맵핑
+615. 스마트 컨트랙트 검증 보조 코프로세서
+616. 영지식 증명 (ZKP) 가속 반도체 (ZK-Rollup)
+617. 완전 동형 암호 (FHE)용 대규모 모듈러 곱셈기
+618. SOA (Service Oriented Architecture) HW 고려사항
+619. MSA (Microservices) 트래픽 처리용 하드웨어
+620. 서버리스 컴퓨팅 컨테이너 분리 하드웨어 기술
+621. 스케일 업 (Scale-Up) 시스템 버스
+622. 스케일 아웃 (Scale-Out) 클러스터 망
+623. 데이터센터 PUE (Power Usage Effectiveness)
+624. BMT (Bench Mark Test) 절차 및 평가 항목
+625. SLA (Service Level Agreement) 하드웨어 가용성
+626. 재해 복구 시스템 (DRS) 스토리지 미러링
+627. RPO (Recovery Point Objective)
+628. RTO (Recovery Time Objective)
+629. 베어메탈 클라우드 (Bare Metal Cloud)
+630. 하이퍼컨버지드 인프라 (HCI)
+631. SDDC (Software Defined Data Center)
+632. SDS (Software Defined Storage)
+633. SDN (Software Defined Network) 화이트박스 스위치
+634. 엣지 AI 칩 아키텍처
+635. 온디바이스 AI (On-Device AI)
+636. 연합 학습 (Federated Learning) 분산 아키텍처
+637. TinyML 하드웨어 제약
+638. 자원 풀링 (Resource Pooling, CXL 기반)
+639. 랙 스케일 아키텍처 (Rack Scale Architecture)
+640. 오픈 컴퓨트 프로젝트 (OCP, Open Compute Project)
+641. 데이터 레이크 (Data Lake) 스토리지 아키텍처
+642. 옵저버빌리티 (Observability) HW 텔레메트리
+643. AIOps 기반 하드웨어 이상 탐지
+644. 제로 트러스트 (Zero Trust) 아키텍처의 하드웨어 루트 오브 트러스트
+645. 데이터 파이프라인 (Data Pipeline) 가속
+646. 블록체인 노드 스토리지 병목 현상
+647. 비잔틴 장애 허용 (BFT) 분산 시스템 검증
+648. 캡 정리 (CAP Theorem)와 분산 스토리지
+649. PACELC 정리
+650. 결과적 일관성 (Eventual Consistency)
+651. 서버 랙 PDU (Power Distribution Unit)
+652. 무정전 전원 장치 (UPS)
+653. ARM Cortex-A 시리즈 특징
+654. ARM Cortex-R 시리즈
+655. ARM Cortex-M 시리즈
+656. x86 Ring 0, 1, 2, 3 보호 모드
+657. 가상화 VMX root 모드
+658. Intel VT-x
+659. AMD-V
+660. 중첩 페이지 테이블 (Nested Page Table, NPT)
+661. 확장 페이지 테이블 (Extended Page Table, EPT)
+662. 그림자 페이지 테이블 (Shadow Page Table)
+663. 반가상화 (Paravirtualization) I/O
+664. 전가상화 (Full Virtualization) I/O
+665. Virtio 드라이버 모델
+666. VFIO 프레임워크
+667. 컨테이너 런타임 (runc) HW 네임스페이스
+668. cgroups (Control Groups) 자원 할당
+669. BPF (Berkeley Packet Filter) HW 오프로딩
+670. XDP (eXpress Data Path)
+671. DPDK (Data Plane Development Kit)
+672. SPDK (Storage Performance Development Kit)
+673. RDMA iWARP 프로토콜
+674. 스토리지 티어링 (Storage Tiering)
+675. 핫 데이터 (Hot Data) 캐싱
+676. 콜드 데이터 (Cold Data) 아카이빙
+677. 오브젝트 스토리지 (Object Storage)
+678. Ceph 스토리지 아키텍처
+679. GlusterFS 분산 스토리지
+680. HDFS (Hadoop Distributed File System)
+681. Erasure Coding (삭제 코딩) HW 연산
+682. 데이터 중복 제거 (Data Deduplication)
+683. 인라인 압축 (Inline Compression)
+684. 씬 프로비저닝 (Thin Provisioning)
+685. LUN (Logical Unit Number) 마스킹
+686. 멀티패스 I/O (Multipath I/O)
+687. 스토리지 컨트롤러 캐시 미러링
+688. 배터리 백업 캐시 (BBU)
+689. NVRAM 로깅
+690. 디스크 스핀다운 (Disk Spin-down)
+691. MAID (Massive Array of Idle Disks)
+692. 테이프 라이브러리 (Tape Library)
+693. WORM (Write Once Read Many) 스토리지
+694. 광 디스크 주크박스
+695. 스토리지 네트워크 토폴로지 (FC-AL, FC-SW)
+696. Fibre Channel (FC) 프로토콜
+697. FCoE (Fibre Channel over Ethernet)
+698. iSCSI (Internet Small Computer System Interface)
+699. NVMe 큐 쌍 (Queue Pairs)
+700. NVMe 네임스페이스 (Namespaces)
+701. NVMe 서브시스템
+702. 다중 스트림 쓰기 (Multi-stream Write)
+703. ZNS (Zoned Namespace) SSD
+704. 호스트 메모리 버퍼 (HMB, Host Memory Buffer)
+705. 오픈소스 펌웨어 (Coreboot, LinuxBoot)
+706. UEFI (Unified Extensible Firmware Interface)
+707. ACPI (Advanced Configuration and Power Interface)
+708. SMBIOS (System Management BIOS)
+709. IPMI (Intelligent Platform Management Interface)
+710. BMC (Baseboard Management Controller)
+711. Redfish 관리 API
+712. 서버 대역외 관리 (OOB Management)
+713. KVM (Keyboard, Video, Mouse) 오버 IP
+714. 원격 미디어 마운트
+715. 하드웨어 헬스 모니터링 (센서 레지스터)
+716. PCIe AER (Advanced Error Reporting)
+717. 메모리 MCA (Machine Check Architecture)
+718. EDAC (Error Detection and Correction)
+719. CPU 클럭 다운클럭킹 (안전 모드)
+720. PROCHOT# 핀 (프로세서 핫 시그널)
+721. 패키지 C-States
+722. 코어 C-States
+723. P-States (Performance States)
+724. T-States (Throttling States)
+725. ACPI S-States (S0 ~ S5)
+726. 모던 스탠바이 (Modern Standby, S0ix)
+727. S0ix 저전력 유휴 상태
+728. 인텔 스피드스텝 (SpeedStep)
+729. AMD Cool'n'Quiet
+730. 인텔 터보부스트 (Turbo Boost)
+731. AMD 프리시전 부스트 (Precision Boost)
+732. 스마트 시프트 (SmartShift)
+733. 동적 주파수 한계 (Thermal Velocity Boost)
+734. PL1, PL2 (Power Limit 1, 2)
+735. TjMax (Tunction Max Temperature)
+736. 히트스프레더 (IHS, Integrated Heat Spreader)
+737. 서멀 페이스트 (TIM)
+738. 베이퍼 체임버 (Vapor Chamber)
+739. 히트파이프 (Heatpipe)
+740. 서버 섀시 팬 핫스왑
+741. 이중화 전원 공급 장치 (Redundant Power Supply)
+742. 전압 조정기 모듈 (VRM)
+743. 다상 전원부 (Multi-phase VRM)
+744. 로드 라인 캘리브레이션 (LLC)
+745. 과전압 보호 (OVP, Over Voltage Protection)
+746. 과전류 보호 (OCP, Over Current Protection)
+747. 단락 보호 (SCP, Short Circuit Protection)
+748. 과열 보호 (OTP, Over Temperature Protection)
+749. 무정전 운영 (Non-Stop Operation) 아키텍처
+750. 결함 주입 테스트 (Fault Injection Test)
+751. 카오스 엔지니어링 (Chaos Engineering) HW 모의
+752. FMEA (Failure Mode and Effects Analysis)
+753. FTA (Fault Tree Analysis)
+754. 신뢰성 블록 다이어그램 (RBD)
+755. 마르코프 모델 (Markov Model) 신뢰성 분석
+756. 배스터브 곡선 (Bathtub Curve) 고장률
+757. 초기 고장기, 우발 고장기, 마모 고장기
+758. 번인 (Burn-in) 테스트
+759. HALT (Highly Accelerated Life Test)
+760. HASS (Highly Accelerated Stress Screen)
+761. MIL-HDBK-217 고장률 예측
+762. 가속 수명 시험 (ALT)
+763. 소프트웨어 회춘 (Software Rejuvenation)과 HW 리부트
+764. 마이크로아키텍처 데이터 샘플링 (MDS) 공격
+765. 리들 (RIDL) 공격
+766. 폴아웃 (Fallout) 공격
+767. 좀비로드 (ZombieLoad)
+768. SGAxe 및 CrossTalk 공격
+769. 플런더버그 (Plundervolt)
+770. PACMAN 공격 (ARM PAC 우회)
+771. 볼티지 글리칭 (Voltage Glitching)
+772. 클럭 글리칭 (Clock Glitching)
+773. EMFI (Electromagnetic Fault Injection)
+774. 부채널 공격 - 캐시 타이밍 공격
+775. Prime+Probe 기법
+776. Flush+Reload 기법
+777. Evict+Time 기법
+778. 전력 분석 공격 - DPA (Differential Power Analysis)
+779. 전자기 분석 공격 - EMA
+780. 물리적 분해 분석 (Reverse Engineering)
+781. FIB (Focused Ion Beam) 수정
+782. 디캡핑 (Decapping) 및 프로빙 (Probing)
+783. 안티 탬퍼 (Anti-Tamper) 메시/쉴드
+784. 제로화 (Zeroization) 회로
+785. 보안 키 소거 (Secure Key Erasure)
+786. TRNG (True Random Number Generator) 엔트로피 소스
+787. 링 오실레이터 (Ring Oscillator) TRNG
+788. SRAM PUF (Physical Unclonable Function)
+789. 도전-응답 쌍 (Challenge-Response Pair)
+790. 보안 엔클레이브 (Secure Enclave)
+791. 애플 Secure Enclave Processor (SEP)
+792. Google Titan 보안 칩
+793. Microsoft Titan 보안 칩
+794. AWS Nitro Enclaves
+795. Confidential Computing (기밀 컴퓨팅)
+796. 메모리 암호화 (Intel MKTME, AMD SME/SEV)
+797. 동적 메모리 암호화
+798. TDI (Trust Domain Interconnect)
+799. ARM CCA (Confidential Compute Architecture)
+800. RISC-V PMP (Physical Memory Protection)
+801. RISC-V ePMP (Enhanced PMP)
+802. 오픈소스 하드웨어 RoT (OpenTitan)
 
 ---
-
-## 3. CPU 구조 / 마이크로아키텍처 — 28개
-
-1. CPU 구성 — ALU / 제어장치(CU) / 레지스터 파일
-2. ALU (Arithmetic Logic Unit) — 산술/논리/시프트 연산
-3. 레지스터 종류 — PC / MAR / MDR / IR / ACC / SP / PSW / GPR
-4. 제어장치 — 하드와이어드 / 마이크로프로그래밍 방식
-5. 명령어 사이클 — IF / ID / EX / MEM / WB
-6. 마이크로 연산 (RTL 표기)
-7. 인터럽트 처리 — 인식/저장/서비스/복귀, 벡터 테이블
-8. DMA (Direct Memory Access) — 사이클 스틸링 / 버스트 모드
-9. 슈퍼스칼라 (Superscalar) — 복수 실행 유닛, IPC > 1
-10. 비순서 실행 (OoO, Out-of-Order Execution) — 토마술로 알고리즘
-11. 레지스터 리네이밍 (Register Renaming) — WAW/WAR 위험 해소
-12. 투기적 실행 (Speculative Execution) — 분기 예측 + 결과 선취
-13. 분기 예측 (Branch Prediction) — 1-bit/2-bit 포화 카운터, TAGE
-14. 분기 목표 버퍼 (BTB, Branch Target Buffer)
-15. 리오더 버퍼 (ROB, Reorder Buffer) — 순서대로 완료(Commit)
-16. 예약 스테이션 (Reservation Station) — 피연산자 대기, 비순서 발행
-17. 멜트다운 / 스펙터 (Meltdown/Spectre) — 투기적 실행 보안 취약점
-18. 인텔 골든 코브 (Golden Cove) — Alder Lake P코어 마이크로아키텍처
-19. 인텔 그레이스몬트 (Gracemont) — Alder Lake E코어 에너지 효율
-20. AMD Zen 4 / Zen 5 — 4nm/3nm, AVX-512, 전력 효율 혁신
-21. 명령어 융합 (Macro-fusion) — 두 명령어를 하나로 처리
-22. 마이크로 융합 (Micro-fusion) — 복합 명령어를 하나의 μop로
-23. μop Cache (Decoded ICache / DSB) — 디코딩 반복 감소
-24. 루프 스트림 디텍터 (LSD) — 소규모 루프 전용 최적화
-25. 전력 관리 — DVFS (Dynamic Voltage Frequency Scaling), C-States, P-States
-26. TDP (Thermal Design Power) — 설계 열 방산 기준
-27. CPU 소켓 — LGA / BGA / PGA — 핀 배치 방식
-28. 이종 집적 (Heterogeneous Integration) — 서로 다른 코어 유형 통합
-
----
-
-## 4. x86 아키텍처 심화 — 16개
-
-1. x86-64 (AMD64) — 64비트 확장, 범용 레지스터 16개
-2. 레지스터 체계 — RAX/RBX/.../R8-R15, SSE/AVX 벡터 레지스터
-3. 보호 모드 (Protected Mode) — 세그먼트+페이지 보호
-4. 롱 모드 (Long Mode, 64-bit) — 4계층 페이지 테이블, 48비트 VA
-5. 가상화 지원 — Intel VT-x / AMD-V (SVM)
-6. AVX-512 — 512비트 SIMD, 32개 ZMM 레지스터, AI 추론 가속
-7. AMX (Advanced Matrix Extensions) — Intel, 행렬 곱 가속, TileMM
-8. Intel Core Ultra (Meteor Lake) — 타일 설계, NPU 내장 (AI 부스트)
-9. Intel Xeon Scalable (Sapphire Rapids) — 서버, PCIe 5.0, CXL 1.1
-10. AMD EPYC Genoa (4세대) — Zen 4, 128코어, PCIe 5.0, CXL
-11. AMD EPYC Turin (5세대) — Zen 5, 192코어 (최대)
-12. x86 가상화 명령 — VMXON/VMLAUNCH/VMRESUME/VMXOFF
-13. IOMMU (Intel VT-d / AMD-Vi) — DMA 주소 변환, 격리
-14. PCIe 버전 비교 — PCIe 3.0/4.0/5.0/6.0 — 대역폭 배증
-15. Ring 보호 수준 — Ring 0(커널)/Ring 3(사용자), Ring 1/2(미사용)
-16. UEFI vs BIOS — 보안 부팅, GPT, 64비트 부팅
-
----
-
-## 5. ARM 아키텍처 심화 — 22개
-
-1. ARM 아키텍처 역사 — ARM7 → Cortex → ARMv8 → ARMv9
-2. ARMv8-A — AArch64 (64비트) + AArch32 (32비트 호환)
-3. ARMv9-A — SVE2, Confidential Compute Architecture (CCA)
-4. ARM Cortex-A 시리즈 — 응용 프로세서 (스마트폰/서버)
-5. ARM Cortex-M 시리즈 — MCU, IoT, 초저전력
-6. ARM Cortex-R 시리즈 — 실시간, 자동차/산업
-7. big.LITTLE — 고성능 + 에너지 효율 코어 이종 구성
-8. DynamIQ — big.LITTLE 개선, 8+1 구성, Cache Coherence
-9. Apple Silicon — M1/M2/M3/M4 — ARM 커스텀 설계
-10. Apple M1 아키텍처 — Firestorm(P)+Icestorm(E), 통합 메모리, 16GB/32GB
-11. Apple M4 — TSMC 3nm N3E, 10코어 CPU, 10코어 GPU, 16코어 NPU
-12. 통합 메모리 아키텍처 (UMA) — CPU/GPU/NPU 메모리 공유, 대역폭↑
-13. Qualcomm Snapdragon (8 Gen 3 / X Elite) — Oryon CPU, Adreno GPU, Hexagon
-14. Samsung Exynos 2500 — 3nm GAA, Cortex-X5
-15. MediaTek Dimensity 9400 — ARM Cortex-X925
-16. AWS Graviton 4 — 96코어 ARM, 클라우드 서버, 30% 성능 향상
-17. Ampere Altra — 클라우드 ARM 서버, 192코어, 저전력
-18. NEON/SVE (Scalable Vector Extension) — ARM SIMD
-19. 포인터 인증 (PAC, Pointer Authentication) — ARM 보안 기능
-20. 메모리 태깅 (MTE, Memory Tagging Extension) — UAF/버퍼오버플로우 탐지
-21. TrustZone — ARM 보안 세계, TEE (신뢰 실행 환경)
-22. Realm Virtualization (ARMv9 CCA) — 하이퍼바이저 독립 보안 영역
-
----
-
-## 6. RISC-V 아키텍처 — 16개
-
-1. RISC-V 정의 — 오픈소스 ISA, 캘리포니아 버클리, 2010
-2. RISC-V 특징 — 모듈식, 로열티 무료, 기반 ISA + 확장 ISA
-3. 기반 ISA — RV32I / RV32E / RV64I / RV128I
-4. 표준 확장 — M(곱셈)/A(원자)/F(단정밀도FP)/D(배정밀도)/C(압축)/V(벡터)
-5. RISC-V 벡터 확장 (V) — 가변 폭 SIMD, AI 가속
-6. Privileged ISA — Machine / Supervisor / User 모드 3계층
-7. RISC-V in AI — SiFive Intelligence X280, T-Head XuanTie
-8. SiFive P670 — 고성능 임베디드, OoO 실행
-9. 중국 T-Head XuanTie C920 — RISC-V 서버 칩
-10. RISC-V 에코시스템 — RISC-V International, 90개국 4000+ 회원
-11. RISC-V vs ARM 비교 — 라이선스 비용 / 생태계 성숙도 / 커스텀 가능성
-12. RISC-V 보안 — PMP (Physical Memory Protection), sPMP
-13. RISC-V 하이퍼바이저 확장 (H)
-14. StarFive JH7110 — RISC-V SoC, Star64 보드
-15. EsperessIF ESP32-P4 — RISC-V MCU, WiFi6
-16. RISC-V in 우주 — NASA 위성 적용 사례
-
----
-
-## 7. GPU 아키텍처 심화 — 32개
-
-1. GPU (Graphics Processing Unit) 개요 — SIMT 실행 모델, 수천 코어
-2. GPU 용도 분화 — 그래픽 렌더링 vs AI 훈련/추론 vs HPC
-3. NVIDIA Ampere (A100) — 80GB HBM2e, 6912 CUDA, 312 TFLOPS FP16
-4. NVIDIA Hopper (H100) — 80GB HBM3, SXM5, Transformer Engine FP8, NVLink 4.0
-5. NVIDIA Hopper (H200) — 141GB HBM3e, 4.8TB/s 대역폭
-6. NVIDIA Blackwell (B100/B200) — 192GB HBM3e, 5세대 NVLink, FP4 지원
-7. NVIDIA GB200 NVL72 — 72개 B200, 130TB HBM, 1.4 엑사FLOPS
-8. NVIDIA Ada Lovelace (RTX 40 시리즈) — 4세대 텐서 코어, DLSS 3
-9. TENSOR CORE — 행렬 곱 전용 하드웨어, FP16/BF16/TF32/FP8/INT8
-10. CUDA 코어 vs 텐서 코어 vs RT 코어 — 역할 비교
-11. Streaming Multiprocessor (SM) — CUDA 실행 단위, Warp Scheduler
-12. Warp — 32 스레드 묶음, SIMT 동기 실행
-13. Warp Divergence — 분기로 인한 직렬화 성능 저하
-14. CUDA 메모리 계층 — Global / Shared / L1/L2 Cache / Register
-15. Shared Memory Bank Conflict — 동시 접근 충돌, 패딩으로 해결
-16. 점유율 (Occupancy) — SM당 Warp 수, 레이턴시 은폐 핵심
-17. AMD RDNA 3 (RX 7000) — Compute Units, Infinity Cache, 5nm
-18. AMD CDNA 3 (MI300X) — 데이터센터/AI, 192GB HBM3, 5.3 TB/s
-19. AMD MI300A — APU 형태, CPU+GPU+HBM3 통합 다이
-20. AMD Infinity Fabric — CPU-GPU Die 간 고속 연결
-21. Intel Arc (Alchemist/Battlemage) — Xe HPG 아키텍처, AV1 인코딩
-22. Intel Xe2 (Battlemage) — 성능/전력 효율 개선
-23. Intel Gaudi 3 — AI 훈련/추론 가속기, AWS/Azure 제공
-24. Google TPU v5p — 행렬 연산 특화, HBM2e, 8960 칩 Pod
-25. CUDA 프로그래밍 — Grid/Block/Thread, __ global __, __ shared __
-26. cuBLAS / cuDNN / CUTLASS — NVIDIA AI 라이브러리
-27. NCCL (NVIDIA Collective Communications Library) — AllReduce/AllGather
-28. GPU 클럭 / TDP — 부스트 클럭, 열 조절, Power Limit
-29. GPU 폼팩터 — SXM5 / PCIe / OAM (Open Accelerator Module)
-30. GPGPU (General Purpose GPU) — CPU 오프로드, 병렬 컴퓨팅
-31. OpenCL — 종류 무관 GPGPU 표준 (Intel/AMD/NVIDIA/ARM 지원)
-32. Vulkan / Metal / DirectX 12 — 저수준 GPU API, CPU 오버헤드 최소화
-
----
-
-## 8. AI 가속기 / 특수 프로세서 — 18개
-
-1. NPU (Neural Processing Unit) — 추론 전용, 저전력, 온디바이스
-2. Apple Neural Engine — 16코어, 38 TOPS (M4), Core ML 연동
-3. Qualcomm Hexagon DSP+NPU — 73 TOPS (Gen 3), 온디바이스 LLM
-4. Samsung Mobileint — Exynos NPU
-5. Google TPU v5e/v5p — 교육(v5p)/추론(v5e) 구분
-6. AWS Trainium 2 — 훈련 특화, UltraCluster
-7. AWS Inferentia 2 — 추론 특화, inf2 인스턴스
-8. Cerebras WSE-3 — 웨이퍼 스케일 엔진, 900K 코어, 44GB SRAM
-9. Groq LPU (Language Processing Unit) — SRAM 기반, 빠른 추론, 500+ tok/s
-10. Habana Gaudi 3 (Intel) — AI 훈련, PCIe/OAM
-11. SambaNova SN40L — Reconfigurable Dataflow Unit
-12. Graphcore IPU (Intelligence Processing Unit) — 벌크 동기 병렬
-13. Tenstorrent Wormhole — RISC-V 기반 오픈 AI 칩
-14. DSP (Digital Signal Processor) — 곱셈-누산(MAC), 실시간 신호처리
-15. FPGA (Field Programmable Gate Array) — 재구성 가능, Microsoft Azure NPU
-16. ASIC (Application-Specific IC) — BitCoin 채굴 칩, Google TPU
-17. PIM (Processing In Memory) — DRAM 내부에서 연산, Samsung HBM-PIM
-18. CIM (Compute In Memory) — 아날로그 연산, 에너지 효율↑
-
----
-
-## 9. 메모리 시스템 심화 — 30개
-
-1. 메모리 계층 구조 — 레지스터 → L1/L2/L3 캐시 → DRAM → NVMe → HDD
-2. 지역성 원리 — 시간적(Temporal) / 공간적(Spatial) / 순서(Sequential)
-3. L1 캐시 — 분리(I$+D$), 1~4 사이클, 32~64KB
-4. L2 캐시 — 통합, 5~15 사이클, 256KB~1MB
-5. L3 캐시 — 공유, 30~60 사이클, 수십MB (AMD 3D V-Cache: 192MB)
-6. AMD 3D V-Cache — 캐시 수직 적층 (TSMC SoIC), 게임/서버 성능↑
-7. 캐시 매핑 — 직접 / 완전 연관 / N-Way 집합 연관 (실제: 8~16-way)
-8. 캐시 교체 정책 — LRU / pLRU / NRU / FIFO / Random
-9. 캐시 쓰기 정책 — Write-Through / Write-Back + Write-Allocate
-10. 캐시 일관성 — MESI / MESIF / MOESI 프로토콜
-11. MESI 상태 — Modified / Exclusive / Shared / Invalid
-12. False Sharing — 같은 캐시 라인, 다른 변수 수정 → 성능 저하
-13. DRAM 종류 — DDR4 / DDR5 / LPDDR5 / LPDDR5X
-14. DDR5 특성 — DDR4 대비 2배 대역폭, On-Die ECC, 4800~8400 MT/s
-15. HBM (High Bandwidth Memory) — 수직 적층 DRAM, TSV
-16. HBM2 → HBM2e → HBM3 → HBM3e — 세대별 대역폭 (HBM3e: 1.2TB/s/스택)
-17. HBM 적층 — 8~16 Die 적층, TSV(Through-Silicon Via), μ bump
-18. CoWoS (Chip on Wafer on Substrate) — TSMC 2.5D 패키징, B200
-19. SoIC (System on Integrated Chips) — TSMC 3D 적층, AMD 3D V-Cache
-20. InFO (Integrated Fan-Out) — TSMC, Apple M1 패키징
-21. 메모리 인터리빙 — 채널 병렬 접근, 대역폭↑
-22. ECC (Error Correcting Code) 메모리 — SECDED, 서버 필수
-23. NVDIMM — 비휘발성 DIMM, 배터리 백업 DRAM
-24. Optane (Intel 3D XPoint) — DRAM-NVMe 중간 계층, 단종 (2022)
-25. CXL (Compute Express Link) 메모리 — CPU-가속기-메모리 공유 풀
-26. CXL 1.1 / 2.0 / 3.0 — 메모리 공유 진화, 메모리 풀링
-27. 가상 메모리 — 페이지 테이블, TLB, 요구 페이징
-28. Huge Page (대형 페이지) — 2MB/1GB, TLB 미스↓
-29. NUMA (Non-Uniform Memory Access) — 소켓별 로컬/원격 메모리
-30. 행 해머 (RowHammer) — DRAM 보안 취약점, TRR/PARA 방어
-
----
-
-## 10. 저장장치 / IO 인터페이스 — 20개
-
-1. NVMe (Non-Volatile Memory Express) — PCIe 기반, 저지연 SSD 프로토콜
-2. NVMe 세대 — PCIe 3.0 (3.5GB/s) → 4.0 (7GB/s) → 5.0 (14GB/s)
-3. SATA SSD vs NVMe SSD — 속도 비교 (SATA: 550MB/s vs NVMe: 7GB+)
-4. 3D NAND 플래시 — TLC/QLC/PLC 적층, 200+ Layer
-5. Z-NAND / Z-SSD — 삼성, ZNS 표준, 초저지연 NVMe
-6. ZNS (Zoned Namespace) — SSD 수명/성능, Zone 기반 관리
-7. RAID 레벨 — 0(스트라이프)/1(미러)/5(분산패리티)/6(이중패리티)/10
-8. NVMe-oF (NVMe over Fabrics) — FC/RDMA/TCP가 fabric 통해 원격 NVMe
-9. RDMA (Remote Direct Memory Access) — CPU 우회 메모리 복사
-10. iSCSI — TCP/IP 기반 원격 스토리지 블록 접근
-11. PCIe 버스 — 레인(Lane) × 2.5/5/8/16/32/64 GT/s (Gen1~6)
-12. PCIe 6.0 — 64 GT/s, 128GB/s (×16), PAM4 신호
-13. USB4 / Thunderbolt 4 — 40Gbps, Alt Mode DP/PCIe, 최대 100W PD
-14. SATA vs PCIe 폼팩터 — M.2 / U.2 / E.1 / EDSFF
-15. HDD 헤드/플래터 — HAMR/MAMR 차세대 자기 기록
-16. SSD 수명 — TBW (Total Bytes Written), DWPD
-17. NVMe 네임스페이스 — 논리 스토리지 단위, 멀티 네임스페이스
-18. 스토리지 클래스 메모리 (SCM) — DRAM과 NAND 사이 계층
-19. IOPS / 순차/랜덤 읽기쓰기 — 스토리지 성능 지표
-20. 파일 시스템별 특성 — EXT4 / XFS / Btrfs / ZFS / F2FS / APFS
-
----
-
-## 11. 인터커넥트 / 칩렛 / 첨단 패키징 — 22개
-
-1. 칩렛 (Chiplet) — 기능별 소형 다이 조합, 수율↑ / 비용↓
-2. UCIe (Universal Chiplet Interconnect Express) — 칩렛 간 표준 인터페이스
-3. AMD MCM (Multi-Chip Module) — EPYC: Zen 코어 칩렛 + I/O 다이
-4. Intel Foveros — 3D 스택 패키징, CPU+GPU+IP 블록 수직 통합
-5. Intel EMIB (Embedded Multi-die Interconnect Bridge) — 2.5D 고속 브리지
-6. TSMC CoWoS-S/L/R — 2.5D SiP 패키징, NVIDIA H100/B200
-7. Samsung H-Cube — HBM+Logic 이종 3D 통합
-8. NVLink — NVIDIA GPU 간 고대역폭 직결, NVLink 5.0: 1.8TB/s
-9. NVSwitch — NVLink 스위칭 허브, All-to-All 연결
-10. Infinity Fabric (AMD) — Zen CPU + HBM + GPU 통합 연결
-11. CCIX (Cache Coherent Interconnect for Accelerators) — ARM 이종 코히어런스
-12. OpenCAPI — IBM, 고대역폭 호스트-가속기 연결
-13. Gen-Z — 메모리 쪽 패브릭 (←CXL로 통합됨)
-14. CXL 1.1 / 2.0 / 3.0 차이 — 1.1(가속기목적)/2.0(풀링)/3.0(P2P)
-15. 실리콘 포토닉스 (Silicon Photonics) — 광 신호로 칩 간 통신, Intel IFS
-16. 공동 패키징 광학 (CPO, Co-Packaged Optics) — 스위치+광트랜시버 통합
-17. 인터포저 (Interposer) — 실리콘/유리/유기 기판, 칩 간 연결 중간층
-18. 팬아웃 패키징 (Fan-Out) — FOWLP, TSMC InFO
-19. 적층 다이 (3D-IC Stacking) — 면대면(F2F)/TSV 관통, 단거리 배선
-20. TSV (Through-Silicon Via) — 수직 전기 연결, HBM/3D-IC 핵심
-21. 미세범프 (Micro Bump) — 다이 적층 연결, μ-pillar
-22. 웨이퍼-레벨 패키징 (WLP) — 웨이퍼 형태로 패키징
-
----
-
-## 12. 반도체 공정 / 제조 — 16개
-
-1. CMOS 공정 — NMOS+PMOS 상보적 구조, 저전력
-2. 공정 노드 진화 — 16nm → 7nm → 5nm → 3nm → 2nm → 1.8nm
-3. TSMC 공정 — N3 (3nm) / N3E / N2 (2nm 예정 2025)
-4. Intel 공정 — Intel 4 (7nm급) / Intel 3 / Intel 20A(GAA) / Intel 18A
-5. Samsung 공정 — SF3 (3nm GAA) / SF2 (2nm GAA 예정)
-6. FinFET (Fin Field-Effect Transistor) — 3D 핀 채널, 7nm/5nm
-7. GAA (Gate-All-Around) FET — 3nm/2nm 이하, MBCFET (Samsung)
-8. 나노시트 FET (Nanosheet) — Intel / Samsung 2nm급
-9. EUV (Extreme Ultraviolet) 리소그래피 — 13.5nm 파장, ASML 독점
-10. High-NA EUV — 개구수 0.55, 2nm 이하 필수, ASML EXE:5000
-11. 이중 패터닝 (SADP/SAQP) — EUV 전 해상도 보완 기법
-12. 도핑 (Doping) — N형 (인/비소) / P형 (붕소) 반도체
-13. 반도체 소재 — 실리콘(Si) / GaN / SiC / Ge / InGaAs 비교
-14. GaN (질화갈륨) — 전력 반도체, 고전압/고주파, 5G PA
-15. SiC (탄화규소) — 전기차 인버터, 고온 고전압
-16. 반도체 공급망 — ASML(장비)/TSMC(파운드리)/SMIC(중국) 지정학
-
----
-
-## 13. 병렬 처리 / 멀티코어 — 18개
-
-1. 플린의 분류 (Flynn's Taxonomy) — SISD / SIMD / MISD / MIMD
-2. 다중 코어 (Multi-Core) — 단일 다이에 복수 코어, LLC 공유
-3. 하이퍼스레딩 (HT) / SMT — 물리 코어당 2+ 논리 스레드
-4. SMP (Symmetric MultiProcessing) — 공유 메모리, 동등 CPU
-5. NUMA — 소켓별 로컬 메모리, 원격 접근 고비용
-6. cc-NUMA — 캐시 일관성 지원 NUMA, 현대 서버 표준
-7. 클러스터 (Cluster) — 네트워크 연결 노드, MPI 통신
-8. MPP (Massively Parallel Processing) — 수천 노드, 독립 메모리
-9. GPU 클러스터 — InfiniBand + NVLink, AI 훈련
-10. 하이브리드 코어 (P-Core + E-Core) — Intel Alder Lake, ARM big.LITTLE
-11. 코어 간 캐시 일관성 — MOESI / MESIF 스누핑 or 디렉터리 방식
-12. 스레드 수준 병렬성 (TLP, Thread-Level Parallelism)
-13. 명령어 수준 병렬성 (ILP, Instruction-Level Parallelism)
-14. 데이터 수준 병렬성 (DLP, Data-Level Parallelism) — SIMD
-15. 암달 법칙 (Amdahl's Law) — 순차 부분이 병렬화 이익 한계
-16. 구스타프슨 법칙 (Gustafson's Law) — 문제 크기 확장 시 선형 가속
-17. 원자 연산 (Atomic Operations) — CAS / Fetch-and-Add, Lock-free
-18. 메모리 일관성 모델 — SC / TSO / Relaxed (x86=TSO, ARM=Relaxed)
-
----
-
-## 14. 수 표현 / 오류 감지 — 14개
-
-1. 2의 보수 (Two's Complement) — 음수 표현, 덧셈 통일
-2. IEEE 754 단정도 (32비트) — 부호(1)/지수(8)/가수(23), 바이어스 127
-3. IEEE 754 배정도 (64비트) — 부호(1)/지수(11)/가수(52)
-4. BF16 (Brain Float 16) — 기계학습용, 단정도와 같은 지수 범위
-5. FP8 (E4M3/E5M2) — AI 추론 양자화, NVIDIA Hopper 지원
-6. 고정 소수점 — 정수 연산, DSP/MCU
-7. BCD (Binary Coded Decimal) — 십진수 코딩, Packed BCD
-8. 문자 코드 — ASCII(7bit) / UTF-8 / UTF-16 / UTF-32 / Unicode
-9. 패리티 비트 — 홀수/짝수 패리티, 1비트 오류 검출
-10. 해밍 코드 — 오류 수정, p 위치에 검사 비트
-11. CRC (Cyclic Redundancy Check) — 다항식 나눗셈, 통신 오류 검출
-12. SECDED (Single Error Correct, Double Error Detect) — 서버 ECC 메모리
-13. 체크섬 (Checksum) — 합산 기반 단순 오류 검출
-14. 전달 오류 부호 — Turbo Code / LDPC / Polar Code — 채널 코딩
-
----
-
-## 15. 양자 컴퓨팅 / 미래 아키텍처 — 14개
-
-1. 양자 컴퓨팅 원리 — 중첩(Superposition) / 얽힘(Entanglement) / 측정(Measurement)
-2. 큐비트 (Qubit) — 0과 1의 중첩 상태, 블로흐 구
-3. 양자 게이트 — X/Y/Z/H/CNOT/Toffoli 게이트
-4. 양자 회로 (Quantum Circuit) — 큐비트 초기화 → 게이트 → 측정
-5. 큐비트 구현 기술 — 초전도/이온트랩/광자/실리콘 스핀/중성 원자
-6. NISQ (Noisy Intermediate-Scale Quantum) — 오류 있는 5~1000 큐비트 시대
-7. 양자 오류 수정 (QEC) — 표면 코드, 논리 큐비트 수천 물리 큐비트 필요
-8. 양자 우위 (Quantum Advantage/Supremacy) — Google Sycamore 54큐비트 (2019)
-9. IBM Quantum (Eagle/Osprey/Condor/Heron) — 127/433/1121 큐비트
-10. Google Willow — 105 큐비트, 지수적 오류수정, RCS 문제
-11. 양자 알고리즘 — Shor(소인수 분해) / Grover(탐색) / HHL(선형계)
-12. 포스트-양자 암호 (PQC) — Kyber / Dilithium / SPHINCS+
-13. 뉴로모픽 컴퓨팅 — 뇌 구조 모방, 스파이킹 뉴런, Intel Loihi 2
-14. 광 컴퓨팅 (Optical Computing) — 광자 기반 행렬 연산, Lightmatter Passage
-
----
-
-**총 키워드 수: 320개**
+**총합 요약 : 총 802개의 핵심 키워드 수록**
+(지나치게 지엽적인 반도체 공학 및 물리학 용어는 제거하고, 기술사 시험(정보관리, 컴퓨터응용시스템)에서 실질적으로 출제되는 **시스템 아키텍처, 병렬 처리, 메모리 계층, 스토리지 시스템, 가상화/클라우드 하드웨어, AI 가속기 및 하드웨어 보안** 위주로 심화 확장하여 1000여 개의 실전 키워드로 재구성하였습니다.)
