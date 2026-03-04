@@ -86,8 +86,9 @@
 ---
 
 ## 3. 파일 및 카테고리 관리 규칙
-- `content/pe_exam/[과목번호_과목명]/[소그룹_주제]/[파일명].md` 경로 유지.
+- `content/studynotes/[과목번호_과목명]/[소그룹_주제]/[파일명].md` 경로 유지.
 - **Zola Front Matter 필수 포함**.
+- `categories` 값은 `studynotes-과목명` 형식 사용.
 
 ## 4. 수행 프로세스 (Workflow)
 1. **Research & Deep Dive**: 겉핥기 지식을 배제하고, 아키텍처의 밑바닥까지 파고드는 깊이 있는 정보 도출.
