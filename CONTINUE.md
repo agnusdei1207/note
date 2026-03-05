@@ -12,11 +12,11 @@
 
 | 과목 | 완료 | 다음 키워드 |
 |------|------|------|
-| 컴퓨터구조 | 127 | 127. 분기 예측 (Branch Prediction) |
-| 운영체제 | 91 | 91. 모니터 (Monitor) |
-| 네트워크 | 11 | 11. HTTPS/SSL (HTTP Secure) |
-| 소프트웨어공학 | 14 | 14. IDE (Integrated Development Environment) |
-| 데이터베이스 | 19 | 19. 백업 (Backup) |
+| 컴퓨터구조 | 128 | 128. 아웃오브오더 실행 (Out-of-Order Execution) |
+| 운영체제 | 92 | 92. 데드락 (Deadlock) |
+| 네트워크 | 12 | 12. REST API (Representational State Transfer) |
+| 소프트웨어공학 | 15 | 15. 협업 도구 (Collaboration Tools) |
+| 데이터베이스 | 20 | 20. NoSQL (MongoDB) |
 | ICT융합 | 0 | - |
 | 기업시스템 | 0 | - |
 | 알고리즘 | 0 | - |
@@ -30,7 +30,7 @@
 | 빅데이터 | 0 | - |
 
 ## 최근 작업 로그
-- 2026-03-06: CA(117) 분기 예측, OS(103) 모니터, NW(23) HTTPS/SSL, SE(28) IDE, DB(20) 백업 작성 완료
+- 2026-03-06: CA(118) 아웃오브오더 실행, OS(104) 데드락, NW(24) REST API, SE(29) 협업 도구, DB(21) NoSQL 작성 완료
 - 2026-03-06: CA(115) VLIW, OS(101) 뮤텍스, NW(21) DNS 보안, SE(26) 테스트 도구, DB(18) 로드 밸런싱 작성 완료
 - 2026-03-06: CA(114) CISC, OS(100) 공유 메모리, NW(20) MIME, SE(25) 보안 도구, DB(17) 장애 조치 작성 완료
 - 2026-03-06: CA(121) 데드락, OS(85) 스케줄링 알고리즘, SE(6) V-Model, DB(13) 정규화 개요, NW(5) OSI 7계층 상세 작성 완료
