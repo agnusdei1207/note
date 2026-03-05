@@ -12,11 +12,11 @@
 
 | 과목 | 완료 | 다음 키워드 |
 |------|------|------|
-| 컴퓨터구조 | 122 | 123. 뮤텍스 (Mutex) |
-| 운영체제 | 86 | 87. Real-time 스케줄링 (Real-time Scheduling) |
-| 네트워크 | 6 | 7. IP 주소 체계 (IP Addressing) |
-| 소프트웨어공학 | 9 | 10. User Story (User Story) |
-| 데이터베이스 | 14 | 15. 제1정규형 (1NF) |
+| 컴퓨터구조 | 123 | 123. 뮤텍스 (Mutex) |
+| 운영체제 | 87 | 87. Real-time 스케줄링 (Real-time Scheduling) |
+| 네트워크 | 7 | 7. IP 주소 체계 (IP Addressing) |
+| 소프트웨어공학 | 10 | 10. User Story (User Story) |
+| 데이터베이스 | 15 | 15. 제1정규형 (1NF) |
 | ICT융합 | 0 | - |
 | 기업시스템 | 0 | - |
 | 알고리즘 | 0 | - |
