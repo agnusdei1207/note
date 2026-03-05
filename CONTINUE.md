@@ -12,11 +12,11 @@
 
 | 과목 | 완료 | 다음 키워드 |
 |------|------|------|
-| 컴퓨터구조 | 128 | 128. 아웃오브오더 실행 (Out-of-Order Execution) |
-| 운영체제 | 92 | 92. 데드락 (Deadlock) |
-| 네트워크 | 12 | 12. REST API (Representational State Transfer) |
-| 소프트웨어공학 | 15 | 15. 협업 도구 (Collaboration Tools) |
-| 데이터베이스 | 20 | 20. NoSQL (MongoDB) |
+| 컴퓨터구조 | 129 | 129. ILP (Instruction Level Parallelism) |
+| 운영체제 | 93 | 93. 스케줄링 (Scheduling) |
+| 네트워크 | 13 | 13. WebSocket |
+| 소프트웨어공학 | 16 | 16. 린트 도구 (Linter) |
+| 데이터베이스 | 21 | 21. ACID (트랜잭션) |
 | ICT융합 | 0 | - |
 | 기업시스템 | 0 | - |
 | 알고리즘 | 0 | - |
@@ -30,7 +30,7 @@
 | 빅데이터 | 0 | - |
 
 ## 최근 작업 로그
-- 2026-03-06: CA(118) 아웃오브오더 실행, OS(104) 데드락, NW(24) REST API, SE(29) 협업 도구, DB(21) NoSQL 작성 완료
+- 2026-03-06: CA(119) ILP, OS(105) 스케줄링, NW(25) WebSocket, SE(30) 린트 도구, DB(22) ACID 작성 완료
 - 2026-03-06: CA(115) VLIW, OS(101) 뮤텍스, NW(21) DNS 보안, SE(26) 테스트 도구, DB(18) 로드 밸런싱 작성 완료
 - 2026-03-06: CA(114) CISC, OS(100) 공유 메모리, NW(20) MIME, SE(25) 보안 도구, DB(17) 장애 조치 작성 완료
 - 2026-03-06: CA(121) 데드락, OS(85) 스케줄링 알고리즘, SE(6) V-Model, DB(13) 정규화 개요, NW(5) OSI 7계층 상세 작성 완료
