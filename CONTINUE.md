@@ -12,11 +12,11 @@
 
 | 과목 | 완료 | 다음 키워드 |
 |------|------|------|
-| 컴퓨터구조 | 126 | 126. 파이프라인 해저드 (Pipeline Hazards) |
-| 운영체제 | 90 | 90. 세마포어 (Semaphore) |
-| 네트워크 | 10 | 10. DHCP (Dynamic Host Configuration Protocol) |
-| 소프트웨어공학 | 13 | 13. 문서화 도구 (Documentation Tools) |
-| 데이터베이스 | 18 | 18. 커넥션 풀 (Connection Pool) |
+| 컴퓨터구조 | 127 | 127. 분기 예측 (Branch Prediction) |
+| 운영체제 | 91 | 91. 모니터 (Monitor) |
+| 네트워크 | 11 | 11. HTTPS/SSL (HTTP Secure) |
+| 소프트웨어공학 | 14 | 14. IDE (Integrated Development Environment) |
+| 데이터베이스 | 19 | 19. 백업 (Backup) |
 | ICT융합 | 0 | - |
 | 기업시스템 | 0 | - |
 | 알고리즘 | 0 | - |
@@ -30,7 +30,7 @@
 | 빅데이터 | 0 | - |
 
 ## 최근 작업 로그
-- 2026-03-06: CA(116) 파이프라인 해저드, OS(102) 세마포어, NW(22) DHCP, SE(27) 문서화 도구, DB(19) 커넥션 풀 작성 완료
+- 2026-03-06: CA(117) 분기 예측, OS(103) 모니터, NW(23) HTTPS/SSL, SE(28) IDE, DB(20) 백업 작성 완료
 - 2026-03-06: CA(115) VLIW, OS(101) 뮤텍스, NW(21) DNS 보안, SE(26) 테스트 도구, DB(18) 로드 밸런싱 작성 완료
 - 2026-03-06: CA(114) CISC, OS(100) 공유 메모리, NW(20) MIME, SE(25) 보안 도구, DB(17) 장애 조치 작성 완료
 - 2026-03-06: CA(121) 데드락, OS(85) 스케줄링 알고리즘, SE(6) V-Model, DB(13) 정규화 개요, NW(5) OSI 7계층 상세 작성 완료
