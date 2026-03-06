@@ -2,7 +2,7 @@
 title = "39. 스레드 안전성 (Thread Safety)"
 date = 2026-03-06
 categories = ["studynotes-operating-system"]
-tags: ["Thread-Safety", "Race-Condition", "Atomic", "Lock-Free", "volatile"]
+tags = ["Thread-Safety", "Race-Condition", "Atomic", "Lock-Free", "volatile"]
 draft = false
 +++
 

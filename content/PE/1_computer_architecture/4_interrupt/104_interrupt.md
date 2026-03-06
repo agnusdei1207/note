@@ -3,6 +3,12 @@ title = "14. 인터럽트 (Interrupt)"
 date = 2026-03-06
 categories = ["studynotes-computer-architecture"]
 tags = ["Interrupt", "ISR", "Hardware-Interrupt", "Software-Interrupt", "Exception", "Interrupt-Controller"]
+draft = false
++++
+
+# 인터럽트 (Interrupt)
+
+```text
 Interrupt line becomes active
  ┌──────────────────────────────────────────────────────────────────────────────────────────┐
   │  Controller sends signal to CPU                                                       │
