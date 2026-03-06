@@ -5,7 +5,7 @@ paginate_by = 10
 sort_by = "weight"
 insert_anchor_links = "right"
 [extra]
-category = "studynotes-devops-sre"
+category = "studynote-devops-sre"
 kids_analogy = "장난감을 만드는 사람(개발자)과 고장 난 장난감을 고치는 사람(운영자)이 서로 싸우지 않고, 하나의 팀이 되어 로봇 조립 라인(자동화)을 통해 엄청나게 빨리 새 장난감을 친구들에게 나누어 주는 마법의 공장이에요!"
 +++
 

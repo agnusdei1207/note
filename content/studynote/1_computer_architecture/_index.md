@@ -5,7 +5,7 @@ paginate_by = 10
 sort_by = "weight"
 insert_anchor_links = "right"
 [extra]
-category = "studynotes-computer-architecture"
+category = "studynote-computer-architecture"
 kids_analogy = "컴퓨터라는 아주 복잡하고 거대한 성을 짓는 '설계도'를 배우는 곳이에요. 전기가 어떻게 숫자가 되는지, 두뇌인 CPU가 어떻게 명령을 내리는지 탐험하게 될 거예요!"
 +++
 

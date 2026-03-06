@@ -5,7 +5,7 @@ paginate_by = 10
 sort_by = "weight"
 insert_anchor_links = "right"
 [extra]
-category = "studynotes-ict-convergence"
+category = "studynote-ict-convergence"
 kids_analogy = "스마트폰, 자동차, 냉장고, 심지어 우리 집 시계까지 세상의 모든 물건이 인터넷으로 연결되어 서로 대화하고, 블록체인이라는 절대 위조할 수 없는 장부로 신뢰를 나누는 미래 세상의 설계도예요!"
 +++
 

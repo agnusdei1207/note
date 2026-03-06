@@ -5,7 +5,7 @@ paginate_by = 10
 sort_by = "weight"
 insert_anchor_links = "right"
 [extra]
-category = "studynotes-database"
+category = "studynote-database"
 kids_analogy = "세상의 모든 정보를 절대 잃어버리지 않고, 아주아주 빠르게 찾아낼 수 있는 '마법의 디지털 도서관'이에요. 수백만 명의 사람이 동시에 책을 빌려가도 절대 헷갈리지 않게 관리하는 똑똑한 사서 선생님이 살고 있답니다!"
 +++
 

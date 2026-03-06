@@ -2,7 +2,7 @@
 title = "01. 컴퓨터구조 키워드 목록"
 date = "2026-03-04"
 [extra]
-categories = "studynotes-computer-architecture"
+categories = "studynote-computer-architecture"
 +++
 
 # 컴퓨터구조 심화 키워드 목록 (기술사 최적화 1000제)

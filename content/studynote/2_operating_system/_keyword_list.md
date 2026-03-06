@@ -2,7 +2,7 @@
 title = "02. 운영체제 키워드 목록"
 date = "2026-03-04"
 [extra]
-categories = "studynotes-operating-system"
+categories = "studynote-operating-system"
 +++
 
 # 운영체제 심화 키워드 목록 (기술사 최적화 800제)

@@ -5,7 +5,7 @@ paginate_by = 10
 sort_by = "weight"
 insert_anchor_links = "right"
 [extra]
-category = "studynotes-cloud-architecture"
+category = "studynote-cloud-architecture"
 kids_analogy = "내 방에 무거운 컴퓨터를 사두는 대신, 하늘에 있는 아주 크고 강력한 슈퍼컴퓨터를 필요할 때만 빌려 쓰고 돈을 내는 '컴퓨터 렌탈 서비스'예요. 갑자기 친구 100명이 놀러 와도 버튼 하나면 1초 만에 방이 100개로 늘어난답니다!"
 +++
 

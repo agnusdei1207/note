@@ -2,7 +2,7 @@
 title = "03. 데이터통신/네트워크 키워드 목록"
 date = 2026-03-04
 [extra]
-categories = "studynotes-network"
+categories = "studynote-network"
 +++
 
 # 데이터통신 / 네트워크 키워드 목록 (1,200+ 심화 확장판)

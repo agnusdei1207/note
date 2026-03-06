@@ -2,7 +2,7 @@
 title = "12. IT 경영 및 서비스 관리 (ITSM) 키워드 목록"
 date = "2026-03-04"
 [extra]
-categories = "studynotes-it-management"
+categories = "studynote-it-management"
 +++
 
 # IT 경영 및 서비스 관리(ITSM) 키워드 목록 (심화 확장판)

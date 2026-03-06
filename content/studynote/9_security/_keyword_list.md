@@ -2,7 +2,7 @@
 title = "09. 정보보안 키워드 목록"
 date = 2026-03-03
 [extra]
-categories = "studynotes-security"
+categories = "studynote-security"
 +++
 
 # 정보보안 (Information Security) 키워드 목록

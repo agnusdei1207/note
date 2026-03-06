@@ -5,7 +5,7 @@ paginate_by = 10
 sort_by = "weight"
 insert_anchor_links = "right"
 [extra]
-category = "studynotes-it-management"
+category = "studynote-it-management"
 kids_analogy = "회사 사장님이 되어 컴퓨터와 인터넷에 얼마의 용돈을 쓸지 결정하고, 직원들이 컴퓨터가 고장 났을 때 가장 빨리 고쳐주는 '최고의 AS 센터' 규칙을 만드는 똑똑한 리더십을 배워요!"
 +++
 

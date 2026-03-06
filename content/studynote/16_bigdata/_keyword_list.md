@@ -2,7 +2,7 @@
 title = "16. 빅데이터 키워드 목록"
 date = 2026-03-04
 [extra]
-categories = "studynotes-bigdata"
+categories = "studynote-bigdata"
 +++
 
 # 빅데이터 (Big Data) 키워드 목록

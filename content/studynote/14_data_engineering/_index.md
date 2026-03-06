@@ -5,7 +5,7 @@ paginate_by = 10
 sort_by = "weight"
 insert_anchor_links = "right"
 [extra]
-category = "studynotes-data-engineering"
+category = "studynote-data-engineering"
 kids_analogy = "세상 여기저기서 쏟아지는 '더러운 흙탕물(원시 데이터)'을 모아서, 깨끗하게 정수하고 파이프를 통해 요리사(데이터 분석가)나 로봇(AI)이 마실 수 있는 '1급수'로 만들어주는 상수도 공사예요!"
 +++
 

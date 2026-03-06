@@ -2,7 +2,7 @@
 title = "07. 엔터프라이즈 시스템 (경영정보) 키워드 목록"
 date = "2026-03-04"
 [extra]
-categories = "studynotes-enterprise"
+categories = "studynote-enterprise"
 +++
 
 # 엔터프라이즈 시스템 및 경영정보/IT 전략 키워드 목록 (심화 확장판)
