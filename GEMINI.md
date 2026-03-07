@@ -41,7 +41,7 @@ weight = [번호]
 
 ### ⚡ 다음 작업
 - **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **다음**: `3_architecture_performance/` **#145 (속도 향상도)**
+- **다음**: `3_architecture_performance/` **#150 (전력 소비)**
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
@@ -50,9 +50,9 @@ weight = [번호]
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 144 | ~1,000 | 14.4% |
+| CA | 149 | ~1,000 | 14.9% |
 | OS | 0 | ~800 | 0% |
 | NW | 0 | ~1,200 | 0% |
 | SE | 0 | ~800 | 0% |
 | DB | 0 | ~800 | 0% |
-| **합계** | **144** | **~4,800** | **3.0%** |
+| **합계** | **149** | **~4,800** | **3.1%** |
