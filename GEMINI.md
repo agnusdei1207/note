@@ -41,7 +41,7 @@ weight = [번호]
 
 ### ⚡ 다음 작업
 - **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **다음**: `4_instruction_set_architecture/` **#166 (스택 포인터)**
+- **다음**: `4_instruction_set_architecture/` **#189 (서브루틴 호출/복귀)**
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
@@ -50,9 +50,9 @@ weight = [번호]
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 165 | ~1,000 | 16.5% |
+| CA | 188 | ~1,000 | 18.8% |
 | OS | 0 | ~800 | 0% |
 | NW | 0 | ~1,200 | 0% |
 | SE | 0 | ~800 | 0% |
 | DB | 0 | ~800 | 0% |
-| **합계** | **165** | **~4,800** | **3.4%** |
+| **합계** | **188** | **~4,800** | **3.9%** |
