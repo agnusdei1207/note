@@ -413,8 +413,8 @@ mark {
    CONTENT TYPOGRAPHY (Clean & Readable)
    ============================================================ */
 .post-header {
-    padding: 20px 0 20px;
-    margin-bottom: 20px;
+    padding: 10px 0 10px;
+    margin-bottom: 10px;
     border-bottom: 1px solid var(--border-default);
 }
 
@@ -424,7 +424,7 @@ mark {
     gap: 6px;
     font-size: 0.85rem;
     color: var(--text-secondary);
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .post-back:hover {
@@ -443,7 +443,7 @@ mark {
     font-size: 1.05rem;
     line-height: 1.8;
     color: var(--text-primary);
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     overflow-wrap: break-word;
     word-break: break-word;
 }
