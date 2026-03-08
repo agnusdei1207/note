@@ -1,4 +1,4 @@
----
-title: "15. 고급 주제 (Advanced Topics)"
-weight: 15
----
++++
+title = "15. 심화 토픽 및 추가 주요 용어 (Advanced Topics)"
+sort_by = "weight"
++++
