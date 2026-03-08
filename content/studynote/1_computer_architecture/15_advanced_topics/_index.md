@@ -1,5 +1,4 @@
-+++
-title = "15. 심화 토픽"
-sort_by = "title"
-weight = 15
-+++
+---
+title: "15. 고급 주제 (Advanced Topics)"
+weight: 15
+---
