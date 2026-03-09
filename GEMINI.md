@@ -40,9 +40,9 @@ weight = [번호]
 ## 📍 현재 위치
 
 ### ⚡ 다음 작업
-- **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **다음**: `13_reliability_power_management/` **#472 (열 설계 전력 (TDP, Thermal Design Power))**
-- **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
+- **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
+- **다음**: `1_overview_architecture/` **#606 (가상화 (Virtualization) 및 하이퍼바이저 (Hypervisor))**
+- **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
 
@@ -50,9 +50,9 @@ weight = [번호]
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 462 | ~1,000 | 46.2% |
-| OS | 0 | ~800 | 0% |
+| CA | 551 | ~1,000 | 55.1% |
+| OS | 54 | ~800 | 6.8% |
 | NW | 0 | ~1,200 | 0% |
 | SE | 0 | ~800 | 0% |
 | DB | 0 | ~800 | 0% |
-| **합계** | **650** | **~4,800** | **13.5%** |
+| **합계** | **605** | **~4,800** | **12.6%** |
