@@ -1,13 +1,19 @@
 +++
 weight = 768
-title = "768. CAS (Compare And Swap) 명령어 기초"
+title = "768. CAS (Compare And Swap) 명령어의 원리와 락-프리(Lock-free) 동기화"
+date = "2026-03-10"
+[extra]
+categories = "studynote-operating-system"
+keywords = ["운영체제", "CAS", "Compare-and-Swap", "원자적 연산", "Atomic", "Lock-free", "ABA 문제", "동기화"]
+series = "운영체제 800제"
 +++
 
-# 240. CAS (Compare-And-Swap)
+# 768. CAS (Compare And Swap) 명령어 기초
 
 #### 핵심 인사이트 (3줄 요약)
-> 1. **본질**: 비교 후 조건부 교환하는 원자적 연산
-> 2. **가치**: 락 프리 동기화의 핵심 기반
+> 1. **본질**: 메모리 위치의 현재 값이 내가 기대하는 값(Expected)과 같을 때만 새로운 값(New)으로 교체하는 **원자적 하드웨어 명령어**.
+> 2. **가치**: 뮤텍스나 세마포어와 같은 무거운 락(Lock) 없이도 데이터 일관성을 유지할 수 있게 하여, 고성능 **락-프리(Lock-free) 자료구조**의 핵심 기반이 된다.
+> 3. **융합**: 자바의 `AtomicInteger`, C++의 `std::atomic` 등 현대 고수준 언어의 동시성 라이브러리가 성능을 인출하는 실질적인 하부 메커니즘이다.
 > 3. **융합**: 원자적 연산, ABA 문제, 스핀락과 연관
 
 ---

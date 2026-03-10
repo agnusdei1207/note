@@ -1,13 +1,19 @@
 +++
 weight = 771
-title = "771. 플래시 메모리 마모 평준화 (Wear Leveling)"
+title = "771. 플래시 메모리 마모 평준화 (Wear Leveling) 기술의 원리"
+date = "2026-03-10"
+[extra]
+categories = "studynote-operating-system"
+keywords = ["운영체제", "Wear Leveling", "마모 평준화", "SSD", "Flash Memory", "FTL", "정적 웨어 레벨링", "동적 웨어 레벨링"]
+series = "운영체제 800제"
 +++
 
-# 608. Wear Leveling (마모 평준화)
+# 771. 플래시 메모리 마모 평준화 (Wear Leveling)
 
 #### 핵심 인사이트 (3줄 요약)
-> 1. **본질**: SSD 셀의 쓰기 횟수를 균등하게 분산하는 기술
-> 2. **가치**: SSD 수명 연장, 특정 셀 과다 사용 방지
+> 1. **본질**: 낸드 플래시 메모리의 각 블록당 지우기 횟수(P/E Cycle)가 제한되어 있는 물리적 한계를 극복하기 위해, **모든 블록에 쓰기 및 지우기 작업을 골고루 분산**시키는 기술.
+> 2. **가치**: 특정 블록에만 쓰기가 집중되어 조기에 불량 블록(Bad Block)이 발생하는 것을 방지하고, SSD 전체의 수명을 이론적 최대치까지 연장한다.
+> 3. **융합**: SSD 컨트롤러의 FTL(Flash Translation Layer) 내에서 구현되며, 정적(Static) 및 동적(Dynamic) 웨어 레벨링 기법을 결합하여 가용 자원을 관리한다.
 > 3. **융합**: SSD, Garbage Collection, TRIM과 연관
 
 ---
