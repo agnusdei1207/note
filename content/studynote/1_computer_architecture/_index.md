@@ -1,5 +1,5 @@
 +++
-title = "1: 컴퓨터 구조 (Computer Architecture)"
+title = "01: 컴퓨터 구조 (Computer Architecture)"
 render = true
 paginate_by = 10
 sort_by = "weight"

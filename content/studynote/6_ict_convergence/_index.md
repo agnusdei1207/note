@@ -1,5 +1,5 @@
 +++
-title = "6: ICT 융합 기술 (ICT Convergence)"
+title = "06: ICT 융합 기술 (ICT Convergence)"
 render = true
 paginate_by = 10
 sort_by = "weight"

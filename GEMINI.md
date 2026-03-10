@@ -41,8 +41,8 @@ weight = [번호]
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `11_performance_virtualization/` **#650 (프로파일링 Gprof)**
-- **다음**: `11_performance_virtualization/` **#651 (DTrace)**
+- **완료**: `11_performance_virtualization/` **#669 (하드웨어 난수 생성기)**
+- **다음**: `11_performance_virtualization/` **#670 (소프트웨어 오류 주입)**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
@@ -52,8 +52,8 @@ weight = [번호]
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
 | CA | 551 | ~1,000 | 55.1% |
-| OS | 143 | ~800 | 17.9% |
+| OS | 162 | ~800 | 20.3% |
 | NW | 0 | ~1,200 | 0% |
 | SE | 0 | ~800 | 0% |
 | DB | 0 | ~800 | 0% |
-| **합계** | **694** | **~4,800** | **14.5%** |
+| **합계** | **713** | **~4,800** | **14.9%** |

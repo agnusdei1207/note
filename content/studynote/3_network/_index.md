@@ -1,5 +1,5 @@
 +++
-title = "3: 네트워크 (Network)"
+title = "03: 네트워크 (Network)"
 render = true
 paginate_by = 10
 sort_by = "weight"
