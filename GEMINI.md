@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **완료**: `9_system_bus_interconnects/` **#300 (비동기식 버스 (Asynchronous Bus))**
-- **다음**: `9_system_bus_interconnects/` **#301 (버스 마스터 (Bus Master))**
+- **완료**: `9_system_bus_interconnects/` **#306 (PCI (Peripheral Component Interconnect))**
+- **다음**: `9_system_bus_interconnects/` **#307 (PCIe (PCI Express))**
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
@@ -40,9 +40,9 @@
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 456 | ~1,000 | 45.6% |
+| CA | 462 | ~1,000 | 46.2% |
 | OS | 107 | ~800 | 13.4% |
 | NW | 14 | ~1,200 | 1.1% |
 | SE | 14 | ~800 | 1.7% |
 | DB | 14 | ~800 | 1.7% |
-| **합계** | **497** | **~4,800** | **10.4%** |
+| **합계** | **503** | **~4,800** | **10.5%** |
