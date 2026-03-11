@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **완료**: `8_io_storage_systems/` **#294 (스토리지 네트워크 (SAN, NAS, DAS))**
-- **다음**: `9_system_bus_interconnects/` **#295 (버스 (Bus))**
+- **완료**: `9_system_bus_interconnects/` **#300 (비동기식 버스 (Asynchronous Bus))**
+- **다음**: `9_system_bus_interconnects/` **#301 (버스 마스터 (Bus Master))**
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
@@ -40,7 +40,7 @@
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 450 | ~1,000 | 45.0% |
+| CA | 456 | ~1,000 | 45.6% |
 | OS | 107 | ~800 | 13.4% |
 | NW | 14 | ~1,200 | 1.1% |
 | SE | 14 | ~800 | 1.7% |
