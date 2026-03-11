@@ -21,6 +21,11 @@
 - 구성 요소는 최소 5개 이상, 파라미터 수준까지 세분화.
 - 실무 수준의 코드/수식 포함.
 
+### 기술 용어 표기 (Abbreviation & Full Name) 🌟 [NEW]
+- **필수 규칙**: 모든 기술적 약어(Abbreviation)는 **반드시 전체 명칭(Full Name)과 함께 표기**할 것.
+- **표기 방식**: 최초 등장 및 주요 설명 시 `약어 (Full Name)` 또는 `전체 명칭 (Abbreviation)` 형식을 엄격히 준수.
+- **예시**: "CPU (Central Processing Unit)", "SRAM (Static Random Access Memory)"
+
 ### 섹션별 비유 (Section-wise Analogy) 🌟 [NEW]
 - **필수 규칙**: 모든 로마자 섹션(Ⅰ~Ⅴ)의 본문 설명이 끝나는 지점에, 해당 섹션의 핵심 내용을 요약하는 **비유 문장**을 반드시 추가할 것.
 - **목적**: 복잡한 기술적 서술 뒤에 직관적인 이해를 돕는 "비교 지점"을 제공하여 기억력을 극대화함.
