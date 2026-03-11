@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **완료**: `4_instruction_set_architecture/` **#204 (SIMD 명령어 확장 (AVX, NEON))**
-- **다음**: `5_control_unit_pipelining/` **#205 (마이크로아키텍처 (Microarchitecture))**
+- **완료**: `5_control_unit_pipelining/` **#216 (마이크로프로그래밍 (Microprogrammed Control))**
+- **다음**: `5_control_unit_pipelining/` **#217 (제어 메모리 (Control Memory))**
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
@@ -40,9 +40,9 @@
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 360 | ~1,000 | 36.0% |
+| CA | 372 | ~1,000 | 37.2% |
 | OS | 107 | ~800 | 13.4% |
 | NW | 14 | ~1,200 | 1.1% |
 | SE | 14 | ~800 | 1.7% |
 | DB | 14 | ~800 | 1.7% |
-| **합계** | **431** | **~4,800** | **9.0%** |
+| **합계** | **443** | **~4,800** | **9.2%** |
