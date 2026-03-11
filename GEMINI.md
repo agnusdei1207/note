@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **완료**: `5_control_unit_pipelining/` **#228 (데이터 포워딩 (Data Forwarding / Bypassing))**
-- **다음**: `5_control_unit_pipelining/` **#229 (분기 예측 (Branch Prediction))**
+- **완료**: `5_control_unit_pipelining/` **#234 (분기 이력 테이블 (BHT: Branch History Table))**
+- **다음**: `5_control_unit_pipelining/` **#235 (명령어 수준 병렬성 (ILP: Instruction-Level Parallelism))**
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
@@ -40,7 +40,7 @@
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 384 | ~1,000 | 38.4% |
+| CA | 390 | ~1,000 | 39.0% |
 | OS | 107 | ~800 | 13.4% |
 | NW | 14 | ~1,200 | 1.1% |
 | SE | 14 | ~800 | 1.7% |
