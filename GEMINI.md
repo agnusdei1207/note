@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **완료**: `2_data_representation_arithmetic/` **#78 (Radix Conversion)**
-- **다음**: `2_data_representation_arithmetic/` **#81 (Unsigned Integer)** (79, 80 already exist)
+- **완료**: `2_data_representation_arithmetic/` **#84 (1's Complement)**
+- **다음**: `2_data_representation_arithmetic/` **#85 (2's Complement)**
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
@@ -40,9 +40,9 @@
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 266 | ~1,000 | 26.6% |
-| OS | 91 | ~800 | 11.4% |
-| NW | 6 | ~1,200 | 0.5% |
-| SE | 6 | ~800 | 0.8% |
-| DB | 6 | ~800 | 0.8% |
-| **합계** | **375** | **~4,800** | **7.8%** |
+| CA | 267 | ~1,000 | 26.7% |
+| OS | 92 | ~800 | 11.5% |
+| NW | 7 | ~1,200 | 0.6% |
+| SE | 7 | ~800 | 0.9% |
+| DB | 7 | ~800 | 0.9% |
+| **합계** | **380** | **~4,800** | **7.9%** |
