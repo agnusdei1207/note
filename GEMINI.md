@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **완료**: `7_virtual_memory_os_integration/` **#270 (세그먼테이션 (Segmentation))**
-- **다음**: `7_virtual_memory_os_integration/` **#271 (TLB (Translation Lookaside Buffer))**
+- **완료**: `7_virtual_memory_os_integration/` **#276 (메모리 보호 (Memory Protection))**
+- **다음**: `8_io_storage_systems/` **#277 (I/O 서브시스템 (I/O Subsystem))**
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
@@ -40,9 +40,9 @@
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 426 | ~1,000 | 42.6% |
+| CA | 432 | ~1,000 | 43.2% |
 | OS | 107 | ~800 | 13.4% |
 | NW | 14 | ~1,200 | 1.1% |
 | SE | 14 | ~800 | 1.7% |
 | DB | 14 | ~800 | 1.7% |
-| **합계** | **479** | **~4,800** | **10.0%** |
+| **합계** | **485** | **~4,800** | **10.1%** |
