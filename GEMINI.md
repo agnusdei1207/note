@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **완료**: `10_parallel_processing_architecture/` **#330 (UMA (Uniform Memory Access))**
-- **다음**: `10_parallel_processing_architecture/` **#331 (NUMA (Non-Uniform Memory Access))**
+- **완료**: `10_parallel_processing_architecture/` **#336 (스레드 레벨 병렬성 (TLP, Thread-Level Parallelism))**
+- **다음**: `10_parallel_processing_architecture/` **#337 (데이터 레벨 병렬성 (DLP, Data-Level Parallelism))**
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
@@ -40,9 +40,9 @@
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 486 | ~1,000 | 48.6% |
+| CA | 492 | ~1,000 | 49.2% |
 | OS | 107 | ~800 | 13.4% |
 | NW | 14 | ~1,200 | 1.1% |
 | SE | 14 | ~800 | 1.7% |
 | DB | 14 | ~800 | 1.7% |
-| **합계** | **521** | **~4,800** | **10.8%** |
+| **합계** | **527** | **~4,800** | **11.0%** |
