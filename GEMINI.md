@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **완료**: `4_instruction_set_architecture/` **#166 (레지스터의 정의와 종류)**
-- **다음**: `4_instruction_set_architecture/` **#167 (상태 레지스터 (Status Register / Flags))**
+- **완료**: `4_instruction_set_architecture/` **#179 (직접 주소 지정 (Direct Addressing))**
+- **다음**: `4_instruction_set_architecture/` **#180 (간접 주소 지정 (Indirect Addressing))**
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
@@ -40,9 +40,9 @@
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 322 | ~1,000 | 32.2% |
+| CA | 335 | ~1,000 | 33.5% |
 | OS | 107 | ~800 | 13.4% |
 | NW | 14 | ~1,200 | 1.1% |
 | SE | 14 | ~800 | 1.7% |
 | DB | 14 | ~800 | 1.7% |
-| **합계** | **421** | **~4,800** | **8.8%** |
+| **합계** | **428** | **~4,800** | **8.9%** |
