@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `1_overview_architecture/` **#71 (운영체제 타이머 (Timer) - 시스템 클럭, 카운터)**
-- **다음**: `1_overview_architecture/` **#72 (타이머 인터럽트 - 선점형 스케줄링의 기반)**
+- **완료**: `1_overview_architecture/` **#74 (틱리스 커널 (Tickless Kernel) - 전력 소모 감소)**
+- **다음**: `1_overview_architecture/` **#75 (ACPI (Advanced Configuration and Power Interface))**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
