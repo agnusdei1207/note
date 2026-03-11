@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **완료**: `6_memory_hierarchy_cache/` **#246 (L1, L2, L3 캐시)**
-- **다음**: `6_memory_hierarchy_cache/` **#247 (명령어 캐시 / 데이터 캐시)**
+- **완료**: `6_memory_hierarchy_cache/` **#258 (랜덤 교체 (Random Replacement))**
+- **다음**: `6_memory_hierarchy_cache/` **#259 (캐시 쓰기 정책 (Write Policy))**
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
@@ -40,9 +40,9 @@
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 402 | ~1,000 | 40.2% |
+| CA | 414 | ~1,000 | 41.4% |
 | OS | 107 | ~800 | 13.4% |
 | NW | 14 | ~1,200 | 1.1% |
 | SE | 14 | ~800 | 1.7% |
 | DB | 14 | ~800 | 1.7% |
-| **합계** | **461** | **~4,800** | **9.6%** |
+| **합계** | **467** | **~4,800** | **9.7%** |
