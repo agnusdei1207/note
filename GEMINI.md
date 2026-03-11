@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **완료**: `2_data_representation_arithmetic/` **#95 (Normalization)**
-- **다음**: `2_data_representation_arithmetic/` **#96 (Floating Point Underflow)**
+- **완료**: `2_data_representation_arithmetic/` **#97 (Overflow)**
+- **다음**: `2_data_representation_arithmetic/` **#98 (Arithmetic Shift)**
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
@@ -40,9 +40,9 @@
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 271 | ~1,000 | 27.1% |
-| OS | 96 | ~800 | 12.0% |
-| NW | 11 | ~1,200 | 0.9% |
-| SE | 11 | ~800 | 1.4% |
-| DB | 11 | ~800 | 1.4% |
-| **합계** | **400** | **~4,800** | **8.3%** |
+| CA | 272 | ~1,000 | 27.2% |
+| OS | 97 | ~800 | 12.1% |
+| NW | 12 | ~1,200 | 1.0% |
+| SE | 12 | ~800 | 1.5% |
+| DB | 12 | ~800 | 1.5% |
+| **합계** | **405** | **~4,800** | **8.4%** |
