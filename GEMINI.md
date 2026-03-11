@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **완료**: `8_io_storage_systems/` **#282 (버스트 모드 (Burst Mode))**
-- **다음**: `8_io_storage_systems/` **#283 (스풀링 (Spooling))**
+- **완료**: `8_io_storage_systems/` **#288 (플래시 메모리 (Flash Memory))**
+- **다음**: `8_io_storage_systems/` **#289 (인터럽트 벡터 (Interrupt Vector))**
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
@@ -40,9 +40,9 @@
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 438 | ~1,000 | 43.8% |
+| CA | 444 | ~1,000 | 44.4% |
 | OS | 107 | ~800 | 13.4% |
 | NW | 14 | ~1,200 | 1.1% |
 | SE | 14 | ~800 | 1.7% |
 | DB | 14 | ~800 | 1.7% |
-| **합계** | **491** | **~4,800** | **10.2%** |
+| **합계** | **497** | **~4,800** | **10.4%** |
