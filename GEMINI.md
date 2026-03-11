@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **완료**: `12_accelerators_ai_hardware/` **#366 (GPU (Graphics Processing Unit))**
-- **다음**: `12_accelerators_ai_hardware/` **#367 (GPGPU (General-Purpose GPU))**
+- **완료**: `12_accelerators_ai_hardware/` **#372 (NPU (Neural Processing Unit))**
+- **다음**: `12_accelerators_ai_hardware/` **#373 (TPU (Tensor Processing Unit))**
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
@@ -40,9 +40,9 @@
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 522 | ~1,000 | 52.2% |
+| CA | 528 | ~1,000 | 52.8% |
 | OS | 107 | ~800 | 13.4% |
 | NW | 14 | ~1,200 | 1.1% |
 | SE | 14 | ~800 | 1.7% |
 | DB | 14 | ~800 | 1.7% |
-| **합계** | **557** | **~4,800** | **11.6%** |
+| **합계** | **563** | **~4,800** | **11.7%** |
