@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `1_overview_architecture/` **#65 (시스템 콜 래퍼 (System Call Wrapper))**
-- **다음**: `1_overview_architecture/` **#66 (VFS (Virtual File System))**
+- **완료**: `1_overview_architecture/` **#68 (동적 커널 패치 (Live Patching) - kpatch, kGraft)**
+- **다음**: `1_overview_architecture/` **#69 (BPF (Berkeley Packet Filter) / eBPF (Extended BPF))**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
