@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **완료**: `12_accelerators_ai_hardware/` **#372 (NPU (Neural Processing Unit))**
-- **다음**: `12_accelerators_ai_hardware/` **#373 (TPU (Tensor Processing Unit))**
+- **완료**: `12_accelerators_ai_hardware/` **#378 (PIM (Processing-In-Memory))**
+- **다음**: `12_accelerators_ai_hardware/` **#379 (PNM (Processing-Near-Memory))**
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
@@ -40,7 +40,7 @@
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 528 | ~1,000 | 52.8% |
+| CA | 534 | ~1,000 | 53.4% |
 | OS | 107 | ~800 | 13.4% |
 | NW | 14 | ~1,200 | 1.1% |
 | SE | 14 | ~800 | 1.7% |
