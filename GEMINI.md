@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **완료**: `8_io_storage_systems/` **#288 (플래시 메모리 (Flash Memory))**
-- **다음**: `8_io_storage_systems/` **#289 (인터럽트 벡터 (Interrupt Vector))**
+- **완료**: `8_io_storage_systems/` **#294 (스토리지 네트워크 (SAN, NAS, DAS))**
+- **다음**: `9_system_bus_interconnects/` **#295 (버스 (Bus))**
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
@@ -40,7 +40,7 @@
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 444 | ~1,000 | 44.4% |
+| CA | 450 | ~1,000 | 45.0% |
 | OS | 107 | ~800 | 13.4% |
 | NW | 14 | ~1,200 | 1.1% |
 | SE | 14 | ~800 | 1.7% |
