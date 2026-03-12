@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `10_security_performance_virtualization/` **#610 (리눅스 커널 튜닝 (Sysctl) 파라미터 최적화)**
-- **다음**: `10_security_performance_virtualization/` **#611 (가상화 (Virtualization) 정의 및 역사)**
+- **완료**: `10_security_performance_virtualization/` **#620 (라이브 마이그레이션 (Live Migration) 메커니즘)**
+- **다음**: `10_security_performance_virtualization/` **#621 (컨테이너 가상화 (Containerization) 개념)**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
