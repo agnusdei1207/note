@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `10_security_performance_virtualization/` **#630 (WebAssembly (WASM)를 이용한 시스템 독립적 실행 가상화)**
-- **다음**: `10_security_performance_virtualization/` **#631 (기밀 컴퓨팅 (Confidential Computing) 하드웨어 기반 격리)**
+- **완료**: `10_security_performance_virtualization/` **#640 (운영체제 설계의 트레이드오프와 최적화 결정 사례)**
+- **다음**: `11_exam_summary/` **#641 (운영체제 핵심 요약 - 프로세스 관리)**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
