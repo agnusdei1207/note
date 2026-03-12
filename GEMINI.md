@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `1_overview_architecture/` **#89 (대기 큐 (Wait Queue / Device Queue))**
-- **다음**: `1_overview_architecture/` **#90 (프로세스 제어 블록 (PCB, Process Control Block) / 태스크 제어 블록 (TCB))**
+- **완료**: `3_cpu_scheduling/` **#187 (I/O Bound 프로세스)**
+- **다음**: `3_cpu_scheduling/` **#188 (실시간 스케줄링 (Real-time Scheduling) - 경성/연성 실시간)**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
@@ -41,8 +41,8 @@
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
 | CA | 563 | ~851 | 66.2% |
-| OS | 47 | ~841 | 5.6% |
+| OS | 187 | ~841 | 22.2% |
 | NW | 14 | ~1,200 | 1.1% |
 | SE | 14 | ~800 | 1.7% |
 | DB | 14 | ~800 | 1.7% |
-| **합계** | **652** | **~4,800** | **13.6%** |
+| **합계** | **792** | **~4,800** | **16.5%** |
