@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `5_deadlock/` **#290 (교착 상태 처리 방법 3가지)**
-- **다음**: `5_deadlock/` **#291 (안전 상태 (Safe State)와 불안전 상태)**
+- **완료**: `5_deadlock/` **#300 (단일 인스턴스 환경의 회피 (자원 할당 그래프 알고리즘))**
+- **다음**: `5_deadlock/` **#301 (다중 인스턴스 환경의 회피 (은행원 알고리즘))**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
