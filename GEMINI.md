@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `6_memory_management/` **#360 (ASID (Address-Space Identifier))**
-- **다음**: `6_memory_management/` **#361 (다단계 페이징 (Hierarchical Paging))**
+- **완료**: `6_memory_management/` **#370 (리눅스 메모리 컴팩션 (Memory Compaction))**
+- **다음**: `6_memory_management/` **#371 (거대 페이지 (Huge Pages))**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
