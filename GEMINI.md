@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `10_security_performance_virtualization/` **#620 (라이브 마이그레이션 (Live Migration) 메커니즘)**
-- **다음**: `10_security_performance_virtualization/` **#621 (컨테이너 가상화 (Containerization) 개념)**
+- **완료**: `10_security_performance_virtualization/` **#630 (WebAssembly (WASM)를 이용한 시스템 독립적 실행 가상화)**
+- **다음**: `10_security_performance_virtualization/` **#631 (기밀 컴퓨팅 (Confidential Computing) 하드웨어 기반 격리)**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
