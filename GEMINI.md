@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `6_memory_management/` **#380 (가비지 컬렉션 (Garbage Collection) 기초)**
-- **다음**: `7_virtual_memory/` **#381 (가상 메모리 (Virtual Memory) 개념)**
+- **완료**: `7_virtual_memory/` **#390 (스왑 공간 (Swap Space) / 베이킹 스토어 (Backing Store))**
+- **다음**: `7_virtual_memory/` **#391 (익명 메모리 (Anonymous Memory))**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
