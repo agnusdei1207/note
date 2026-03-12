@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `9_file_system/` **#580 (파일 시스템 모니터링 및 eBPF 기반 관측성 (Observability))**
-- **다음**: `10_security_performance_virtualization/` **#581 (운영체제 보안 (OS Security) 목표 - CIA)**
+- **완료**: `10_security_performance_virtualization/` **#590 (이중 인증 (2FA) 및 다중 인증 (MFA))**
+- **다음**: `10_security_performance_virtualization/` **#591 (커널 보안 패치 및 취약점 관리)**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
