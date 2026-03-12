@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `5_deadlock/` **#300 (단일 인스턴스 환경의 회피 (자원 할당 그래프 알고리즘))**
-- **다음**: `5_deadlock/` **#301 (다중 인스턴스 환경의 회피 (은행원 알고리즘))**
+- **완료**: `5_deadlock/` **#310 (자원 선점 (Resource Preemption) 방식)**
+- **다음**: `5_deadlock/` **#311 (희생자 선택 (Victim Selection) 최소 비용 기준)**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
