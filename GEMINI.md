@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `3_cpu_scheduling/` **#187 (I/O Bound 프로세스)**
-- **다음**: `3_cpu_scheduling/` **#188 (실시간 스케줄링 (Real-time Scheduling) - 경성/연성 실시간)**
+- **완료**: `3_cpu_scheduling/` **#190 (Earliest Deadline First 스케줄링 (EDF) - 동적 우선순위)**
+- **다음**: `3_cpu_scheduling/` **#191 (다중 처리기 스케줄링 (Multiple-Processor Scheduling))**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
