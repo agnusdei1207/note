@@ -10,8 +10,8 @@
 
 ### 2. Subject 2: Operating System (OS)
 - **Status**: Numbering fixed for 1-220. 
-- **Empty Sections**: 4 (Synchronization), 5 (Deadlock), 6 (Memory Mgmt), 7 (Virtual Memory), 8 (I/O), 9 (File System), 10 (Security/Perf), 11 (Summary).
-- **Action**: Need to populate from #221 onwards.
+- **Empty Sections**: 4 (Synchronization), 6 (Memory Mgmt), 7 (Virtual Memory), 8 (I/O), 9 (File System), 10 (Security/Perf), 11 (Summary).
+- **Action**: Need to populate from #221 onwards. Section 5 (Deadlock) #281-300 populated.
 
 ### 3. Subject 3: Network (NW)
 - **Status**: Keyword list contains 1,120 items.
@@ -29,5 +29,6 @@
 - [x] Fix numbering for Subject 1 & 2 existing files.
 - [x] Update first files of CA to PE_GUIDELINE.
 - [x] Create first 5 files of CA Section 13.
+- [x] Populate OS Section 5 (Deadlock) #281-290.
+- [x] Populate OS Section 5 (Deadlock) #291-300.
 - [ ] Populate OS Section 4 (Synchronization) #221-230.
-- [ ] Populate OS Section 5 (Deadlock) #281-290.
