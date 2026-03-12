@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `10_security_performance_virtualization/` **#600 (능력 기반 보안 (Capability-based Security))**
-- **다음**: `10_security_performance_virtualization/` **#601 (성능 측정 지표 - CPU 이용률, 처리량, 지연 시간)**
+- **완료**: `10_security_performance_virtualization/` **#610 (리눅스 커널 튜닝 (Sysctl) 파라미터 최적화)**
+- **다음**: `10_security_performance_virtualization/` **#611 (가상화 (Virtualization) 정의 및 역사)**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
