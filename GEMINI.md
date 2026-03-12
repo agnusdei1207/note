@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `7_virtual_memory/` **#410 (MFU (Most Frequently Used) 알고리즘)**
-- **다음**: `7_virtual_memory/` **#411 (에이징 (Aging) 기반 페이지 교체 로직)**
+- **완료**: `7_virtual_memory/` **#420 (메모리 맵 I/O (Memory-Mapped I/O) - 디바이스 레지스터 매핑)**
+- **다음**: `7_virtual_memory/` **#421 (커널 메모리 할당의 특징 - 물리적으로 연속되어야 함)**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
