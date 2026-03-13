@@ -1,3 +1,8 @@
++++
+title = "opensource firmware"
+weight = 705
++++
+
 # 오픈소스 펌웨어 (Coreboot, LinuxBoot)
 
 #### 핵심 인사이트 (3줄 요약)

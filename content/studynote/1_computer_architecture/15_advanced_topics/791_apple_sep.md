@@ -1,3 +1,8 @@
++++
+title = "apple sep"
+weight = 791
++++
+
 # 애플 Secure Enclave Processor (SEP)
 
 #### 핵심 인사이트 (3줄 요약)

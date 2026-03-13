@@ -1,3 +1,8 @@
++++
+title = "modern standby"
+weight = 726
++++
+
 # 모던 스탠바이 (Modern Standby, S0ix)
 
 #### 핵심 인사이트 (3줄 요약)

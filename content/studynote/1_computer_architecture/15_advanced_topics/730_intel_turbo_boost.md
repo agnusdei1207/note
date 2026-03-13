@@ -1,3 +1,8 @@
++++
+title = "intel turbo boost"
+weight = 730
++++
+
 # 인텔 터보부스트 (Intel Turbo Boost)
 
 #### 핵심 인사이트 (3줄 요약)

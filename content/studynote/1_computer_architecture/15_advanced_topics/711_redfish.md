@@ -1,3 +1,8 @@
++++
+title = "redfish"
+weight = 711
++++
+
 # Redfish (RESTful API for Server Management)
 
 #### 핵심 인사이트 (3줄 요약)

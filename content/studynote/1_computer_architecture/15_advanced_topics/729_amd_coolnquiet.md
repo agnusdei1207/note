@@ -1,3 +1,8 @@
++++
+title = "amd coolnquiet"
+weight = 729
++++
+
 # AMD Cool'n'Quiet (AMD 쿨앤콰이어트)
 
 #### 핵심 인사이트 (3줄 요약)

@@ -1,3 +1,8 @@
++++
+title = "riscv epmp"
+weight = 801
++++
+
 # RISC-V ePMP (Enhanced PMP)
 
 #### 핵심 인사이트 (3줄 요약)

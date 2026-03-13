@@ -1,3 +1,8 @@
++++
+title = "유효 무효 비트 Valid Invalid"
+weight = 721
++++
+
 # 유효/무효 비트 (Valid/Invalid)
 
 #### 핵심 인사이트 (3줄 요약)

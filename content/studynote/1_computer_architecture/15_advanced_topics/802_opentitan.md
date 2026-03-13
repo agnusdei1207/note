@@ -1,3 +1,8 @@
++++
+title = "opentitan"
+weight = 802
++++
+
 # 오픈소스 하드웨어 RoT (OpenTitan)
 
 #### 핵심 인사이트 (3줄 요약)

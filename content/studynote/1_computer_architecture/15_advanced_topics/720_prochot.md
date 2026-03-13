@@ -1,3 +1,8 @@
++++
+title = "prochot"
+weight = 720
++++
+
 # PROCHOT# 핀 (Processor Hot Signal)
 
 #### 핵심 인사이트 (3줄 요약)

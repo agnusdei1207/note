@@ -1,3 +1,8 @@
++++
+title = "smbios"
+weight = 708
++++
+
 # SMBIOS (System Management BIOS)
 
 #### 핵심 인사이트 (3줄 요약)

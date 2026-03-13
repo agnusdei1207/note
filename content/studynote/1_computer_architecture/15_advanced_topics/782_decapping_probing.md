@@ -1,3 +1,8 @@
++++
+title = "decapping probing"
+weight = 782
++++
+
 # 디캡핑 (Decapping) 및 프로빙 (Probing)
 
 #### 핵심 인사이트 (3줄 요약)

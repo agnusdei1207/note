@@ -1,3 +1,8 @@
++++
+title = "sram puf"
+weight = 788
++++
+
 # SRAM PUF (Physical Unclonable Function)
 
 #### 핵심 인사이트 (3줄 요약)

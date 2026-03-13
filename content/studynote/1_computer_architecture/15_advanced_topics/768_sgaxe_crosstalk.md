@@ -1,3 +1,8 @@
++++
+title = "sgaxe crosstalk"
+weight = 768
++++
+
 # SGAxe 및 CrossTalk 공격
 
 #### 핵심 인사이트 (3줄 요약)

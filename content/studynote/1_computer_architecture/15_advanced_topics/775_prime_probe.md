@@ -1,3 +1,8 @@
++++
+title = "prime probe"
+weight = 775
++++
+
 # Prime+Probe 기법
 
 #### 핵심 인사이트 (3줄 요약)

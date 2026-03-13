@@ -1,3 +1,8 @@
++++
+title = "tjmax"
+weight = 735
++++
+
 # TjMax (Tjunction Max Temperature)
 
 #### 핵심 인사이트 (3줄 요약)

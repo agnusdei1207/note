@@ -1,3 +1,8 @@
++++
+title = "SSD FTL Flash Translation Layer"
+weight = 731
++++
+
 # SSD FTL (Flash Translation Layer)
 
 #### 핵심 인사이트 (3줄 요약)

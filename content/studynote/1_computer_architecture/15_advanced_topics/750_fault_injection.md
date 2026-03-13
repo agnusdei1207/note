@@ -1,3 +1,8 @@
++++
+title = "fault injection"
+weight = 750
++++
+
 # 결함 주입 테스트 (Fault Injection Test)
 
 #### 핵심 인사이트 (3줄 요약)

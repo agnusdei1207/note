@@ -1,3 +1,8 @@
++++
+title = "nvme queue pairs"
+weight = 699
++++
+
 # NVMe 큐 쌍 (Queue Pairs)
 
 #### 핵심 인사이트 (3줄 요약)

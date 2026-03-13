@@ -1,3 +1,8 @@
++++
+title = "heatpipe"
+weight = 739
++++
+
 # 히트파이프 (Heatpipe)
 
 #### 핵심 인사이트 (3줄 요약)

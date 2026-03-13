@@ -1,3 +1,8 @@
++++
+title = "intel speedstep"
+weight = 728
++++
+
 # 인텔 스피드스텝 (Intel SpeedStep)
 
 #### 핵심 인사이트 (3줄 요약)

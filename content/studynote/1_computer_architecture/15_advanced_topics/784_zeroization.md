@@ -1,3 +1,8 @@
++++
+title = "zeroization"
+weight = 784
++++
+
 # 제로화 (Zeroization) 회로
 
 #### 핵심 인사이트 (3줄 요약)

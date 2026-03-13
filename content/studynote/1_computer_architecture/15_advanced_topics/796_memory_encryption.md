@@ -1,3 +1,8 @@
++++
+title = "memory encryption"
+weight = 796
++++
+
 # 메모리 암호화 (Intel MKTME, AMD SME/SEV)
 
 #### 핵심 인사이트 (3줄 요약)

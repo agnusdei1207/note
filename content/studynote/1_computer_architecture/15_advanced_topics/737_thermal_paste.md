@@ -1,3 +1,8 @@
++++
+title = "thermal paste"
+weight = 737
++++
+
 # 서멀 페이스트 (TIM, Thermal Interface Material)
 
 #### 핵심 인사이트 (3줄 요약)

@@ -1,3 +1,8 @@
++++
+title = "fmea"
+weight = 752
++++
+
 # FMEA (Failure Mode and Effects Analysis)
 
 #### 핵심 인사이트 (3줄 요약)

@@ -1,3 +1,8 @@
++++
+title = "markov reliability"
+weight = 755
++++
+
 # 마르코프 모델 신뢰성 분석 (Markov Model Reliability Analysis)
 
 #### 핵심 인사이트 (3줄 요약)

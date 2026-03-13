@@ -1,3 +1,8 @@
++++
+title = "riscv pmp"
+weight = 800
++++
+
 # RISC-V PMP (Physical Memory Protection)
 
 #### 핵심 인사이트 (3줄 요약)

@@ -1,3 +1,8 @@
++++
+title = "kvm over ip"
+weight = 713
++++
+
 # KVM over IP (Keyboard Video Mouse over IP)
 
 #### 핵심 인사이트 (3줄 요약)

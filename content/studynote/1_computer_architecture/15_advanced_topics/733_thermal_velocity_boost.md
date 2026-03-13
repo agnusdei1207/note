@@ -1,3 +1,8 @@
++++
+title = "thermal velocity boost"
+weight = 733
++++
+
 # 동적 주파수 한계 (Thermal Velocity Boost, TVB)
 
 #### 핵심 인사이트 (3줄 요약)

@@ -1,3 +1,8 @@
++++
+title = "s0ix idle"
+weight = 727
++++
+
 # S0ix 저전력 유휴 상태 (S0ix Low Power Idle)
 
 #### 핵심 인사이트 (3줄 요약)

@@ -1,3 +1,8 @@
++++
+title = "erasure coding"
+weight = 681
++++
+
 # Erasure Coding (삭제 코딩) HW 연산
 
 ## 🎯 핵심 인사이트

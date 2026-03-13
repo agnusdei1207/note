@@ -1,3 +1,8 @@
++++
+title = "inline compression"
+weight = 683
++++
+
 # 인라인 압축 (Inline Compression)
 
 ## 🎯 핵심 인사이트

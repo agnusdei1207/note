@@ -1,3 +1,8 @@
++++
+title = "amd precision boost"
+weight = 731
++++
+
 # AMD 프리시전 부스트 (AMD Precision Boost)
 
 #### 핵심 인사이트 (3줄 요약)

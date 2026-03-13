@@ -1,3 +1,8 @@
++++
+title = "software rejuvenation"
+weight = 763
++++
+
 # 소프트웨어 회춘 (Software Rejuvenation)과 HW 리부트
 
 #### 핵심 인사이트 (3줄 요약)

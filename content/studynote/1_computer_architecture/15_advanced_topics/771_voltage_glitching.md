@@ -1,3 +1,8 @@
++++
+title = "voltage glitching"
+weight = 771
++++
+
 # 볼티지 글리칭 (Voltage Glitching)
 
 #### 핵심 인사이트 (3줄 요약)

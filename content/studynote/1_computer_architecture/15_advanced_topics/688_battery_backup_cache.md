@@ -1,3 +1,8 @@
++++
+title = "battery backup cache"
+weight = 688
++++
+
 # 배터리 백업 캐시 (BBU)
 
 #### 핵심 인사이트 (3줄 요약)

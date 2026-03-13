@@ -1,3 +1,8 @@
++++
+title = "thin provisioning"
+weight = 684
++++
+
 # 씬 프로비저닝 (Thin Provisioning)
 
 ## 🎯 핵심 인사이트

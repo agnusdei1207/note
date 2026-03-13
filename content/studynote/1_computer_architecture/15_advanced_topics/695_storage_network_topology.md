@@ -1,3 +1,8 @@
++++
+title = "storage network topology"
+weight = 695
++++
+
 # 스토리지 네트워크 토폴로지 (FC-AL, FC-SW)
 
 #### 핵심 인사이트 (3줄 요약)

@@ -1,3 +1,8 @@
++++
+title = "acpi sstates"
+weight = 725
++++
+
 # ACPI S-States (S0 ~ S5)
 
 #### 핵심 인사이트 (3줄 요약)

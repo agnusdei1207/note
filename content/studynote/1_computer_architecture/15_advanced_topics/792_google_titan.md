@@ -1,3 +1,8 @@
++++
+title = "google titan"
+weight = 792
++++
+
 # Google Titan 보안 칩
 
 #### 핵심 인사이트 (3줄 요약)

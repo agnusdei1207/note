@@ -1,3 +1,8 @@
++++
+title = "bathtub curve"
+weight = 756
++++
+
 # 배스터브 곡선 (Bathtub Curve) 고장률
 
 #### 핵심 인사이트 (3줄 요약)

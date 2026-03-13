@@ -1,3 +1,8 @@
++++
+title = "worm storage"
+weight = 693
++++
+
 # WORM (Write Once Read Many) 스토리지
 
 #### 핵심 인사이트 (3줄 요약)

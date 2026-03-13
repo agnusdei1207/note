@@ -1,3 +1,8 @@
++++
+title = "optical disc jukebox"
+weight = 694
++++
+
 # 광 디스크 주크박스 (Optical Disc Jukebox)
 
 #### 핵심 인사이트 (3줄 요약)

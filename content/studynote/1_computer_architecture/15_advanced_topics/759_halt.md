@@ -1,3 +1,8 @@
++++
+title = "halt"
+weight = 759
++++
+
 # HALT (Highly Accelerated Life Test)
 
 #### 핵심 인사이트 (3줄 요약)

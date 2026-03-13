@@ -1,3 +1,8 @@
++++
+title = "core cstates"
+weight = 722
++++
+
 # 코어 C-States (Core C-States)
 
 #### 핵심 인사이트 (3줄 요약)

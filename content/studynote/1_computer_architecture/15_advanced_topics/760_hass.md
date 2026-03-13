@@ -1,3 +1,8 @@
++++
+title = "hass"
+weight = 760
++++
+
 # HASS (Highly Accelerated Stress Screen)
 
 #### 핵심 인사이트 (3줄 요약)

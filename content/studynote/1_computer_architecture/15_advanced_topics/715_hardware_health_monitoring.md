@@ -1,3 +1,8 @@
++++
+title = "hardware health monitoring"
+weight = 715
++++
+
 # 하드웨어 헬스 모니터링 (Hardware Health Monitoring)
 
 #### 핵심 인사이트 (3줄 요약)

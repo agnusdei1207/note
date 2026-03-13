@@ -1,3 +1,8 @@
++++
+title = "host memory buffer"
+weight = 704
++++
+
 # 호스트 메모리 버퍼 (HMB, Host Memory Buffer)
 
 #### 핵심 인사이트 (3줄 요약)

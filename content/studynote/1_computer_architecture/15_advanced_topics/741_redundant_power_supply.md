@@ -1,3 +1,8 @@
++++
+title = "redundant power supply"
+weight = 741
++++
+
 # 이중화 전원 공급 장치 (Redundant Power Supply)
 
 #### 핵심 인사이트 (3줄 요약)

@@ -1,3 +1,8 @@
++++
+title = "evict time"
+weight = 777
++++
+
 # Evict+Time 기법
 
 #### 핵심 인사이트 (3줄 요약)

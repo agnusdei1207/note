@@ -1,3 +1,8 @@
++++
+title = "fallout attack"
+weight = 766
++++
+
 # 폴아웃 (Fallout) 공격
 
 #### 핵심 인사이트 (3줄 요약)

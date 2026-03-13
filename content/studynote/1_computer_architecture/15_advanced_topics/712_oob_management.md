@@ -1,3 +1,8 @@
++++
+title = "oob management"
+weight = 712
++++
+
 # OOB Management (Out-of-Band Management)
 
 #### 핵심 인사이트 (3줄 요약)

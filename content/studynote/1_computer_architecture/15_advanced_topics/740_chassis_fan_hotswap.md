@@ -1,3 +1,8 @@
++++
+title = "chassis fan hotswap"
+weight = 740
++++
+
 # 서버 섀시 팬 핫스왑 (Chassis Fan Hot-Swap)
 
 #### 핵심 인사이트 (3줄 요약)

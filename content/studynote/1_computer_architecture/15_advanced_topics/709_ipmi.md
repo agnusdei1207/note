@@ -1,3 +1,8 @@
++++
+title = "ipmi"
+weight = 709
++++
+
 # IPMI (Intelligent Platform Management Interface)
 
 #### 핵심 인사이트 (3줄 요약)

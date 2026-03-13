@@ -1,3 +1,8 @@
++++
+title = "스핀락 바쁜 대기 Busy Wait"
+weight = 700
++++
+
 # 스핀락 바쁜 대기 (Busy Wait)
 
 ## 🎯 핵심 인사이트

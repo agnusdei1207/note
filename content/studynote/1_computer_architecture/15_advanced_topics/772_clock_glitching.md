@@ -1,3 +1,8 @@
++++
+title = "clock glitching"
+weight = 772
++++
+
 # 클럭 글리칭 (Clock Glitching)
 
 #### 핵심 인사이트 (3줄 요약)

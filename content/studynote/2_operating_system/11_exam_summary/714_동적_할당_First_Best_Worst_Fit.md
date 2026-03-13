@@ -1,3 +1,8 @@
++++
+title = "동적 할당 First Best Worst Fit"
+weight = 714
++++
+
 # 동적 할당 (First/Best/Worst Fit)
 
 #### 핵심 인사이트 (3줄 요약)

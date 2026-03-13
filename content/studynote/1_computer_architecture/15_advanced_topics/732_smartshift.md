@@ -1,3 +1,8 @@
++++
+title = "smartshift"
+weight = 732
++++
+
 # 스마트 시프트 (AMD SmartShift)
 
 #### 핵심 인사이트 (3줄 요약)

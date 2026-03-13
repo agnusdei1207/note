@@ -1,3 +1,8 @@
++++
+title = "multiphase vrm"
+weight = 743
++++
+
 # 다상 전원부 (Multi-phase VRM)
 
 #### 핵심 인사이트 (3줄 요약)

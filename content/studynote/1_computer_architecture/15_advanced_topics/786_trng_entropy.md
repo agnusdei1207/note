@@ -1,3 +1,8 @@
++++
+title = "trng entropy"
+weight = 786
++++
+
 # TRNG (True Random Number Generator) 엔트로피 소스
 
 #### 핵심 인사이트 (3줄 요약)

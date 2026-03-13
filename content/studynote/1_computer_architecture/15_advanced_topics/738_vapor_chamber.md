@@ -1,3 +1,8 @@
++++
+title = "vapor chamber"
+weight = 738
++++
+
 # 베이퍼 체임버 (Vapor Chamber)
 
 #### 핵심 인사이트 (3줄 요약)

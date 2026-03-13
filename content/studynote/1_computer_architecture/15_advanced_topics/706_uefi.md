@@ -1,3 +1,8 @@
++++
+title = "uefi"
+weight = 706
++++
+
 # UEFI (Unified Extensible Firmware Interface)
 
 #### 핵심 인사이트 (3줄 요약)

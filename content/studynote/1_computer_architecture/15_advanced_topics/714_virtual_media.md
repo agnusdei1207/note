@@ -1,3 +1,8 @@
++++
+title = "virtual media"
+weight = 714
++++
+
 # 가상 미디어 마운트 (Virtual Media Mount)
 
 #### 핵심 인사이트 (3줄 요약)

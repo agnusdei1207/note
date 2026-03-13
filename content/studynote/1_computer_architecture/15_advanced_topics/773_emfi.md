@@ -1,3 +1,8 @@
++++
+title = "emfi"
+weight = 773
++++
+
 # EMFI (Electromagnetic Fault Injection)
 
 #### 핵심 인사이트 (3줄 요약)

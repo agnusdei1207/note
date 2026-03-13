@@ -1,3 +1,8 @@
++++
+title = "ridl attack"
+weight = 765
++++
+
 # 리들 (RIDL) 공격
 
 #### 핵심 인사이트 (3줄 요약)

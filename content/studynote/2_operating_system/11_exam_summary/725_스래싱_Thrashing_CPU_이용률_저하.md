@@ -1,3 +1,8 @@
++++
+title = "스래싱 Thrashing CPU 이용률 저하"
+weight = 725
++++
+
 # 스래싱 (Thrashing, CPU 이용률 저하)
 
 #### 핵심 인사이트 (3줄 요약)

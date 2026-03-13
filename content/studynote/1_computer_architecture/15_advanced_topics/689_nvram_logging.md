@@ -1,3 +1,8 @@
++++
+title = "nvram logging"
+weight = 689
++++
+
 # NVRAM 로깅 (Non-Volatile RAM Logging)
 
 #### 핵심 인사이트 (3줄 요약)

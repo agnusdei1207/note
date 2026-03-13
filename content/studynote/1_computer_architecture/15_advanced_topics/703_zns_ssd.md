@@ -1,3 +1,8 @@
++++
+title = "zns ssd"
+weight = 703
++++
+
 # ZNS (Zoned Namespace) SSD
 
 #### 핵심 인사이트 (3줄 요약)

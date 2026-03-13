@@ -1,3 +1,8 @@
++++
+title = "nvme namespaces"
+weight = 700
++++
+
 # NVMe 네임스페이스 (Namespaces)
 
 #### 핵심 인사이트 (3줄 요약)

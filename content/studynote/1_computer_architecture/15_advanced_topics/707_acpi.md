@@ -1,3 +1,8 @@
++++
+title = "acpi"
+weight = 707
++++
+
 # ACPI (Advanced Configuration and Power Interface)
 
 #### 핵심 인사이트 (3줄 요약)

@@ -1,3 +1,8 @@
++++
+title = "secure key erasure"
+weight = 785
++++
+
 # 보안 키 소거 (Secure Key Erasure)
 
 #### 핵심 인사이트 (3줄 요약)

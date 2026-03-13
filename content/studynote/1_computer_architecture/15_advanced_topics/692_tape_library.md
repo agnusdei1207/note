@@ -1,3 +1,8 @@
++++
+title = "tape library"
+weight = 692
++++
+
 # 테이프 라이브러리 (Tape Library)
 
 #### 핵심 인사이트 (3줄 요약)

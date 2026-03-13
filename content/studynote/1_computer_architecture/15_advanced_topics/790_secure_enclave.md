@@ -1,3 +1,8 @@
++++
+title = "secure enclave"
+weight = 790
++++
+
 # 보안 엔클레이브 (Secure Enclave)
 
 #### 핵심 인사이트 (3줄 요약)

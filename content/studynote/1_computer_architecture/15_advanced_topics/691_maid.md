@@ -1,3 +1,8 @@
++++
+title = "maid"
+weight = 691
++++
+
 # MAID (Massive Array of Idle Disks)
 
 #### 핵심 인사이트 (3줄 요약)

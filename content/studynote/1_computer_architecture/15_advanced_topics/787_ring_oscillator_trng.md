@@ -1,3 +1,8 @@
++++
+title = "ring oscillator trng"
+weight = 787
++++
+
 # 링 오실레이터 (Ring Oscillator) TRNG
 
 #### 핵심 인사이트 (3줄 요약)

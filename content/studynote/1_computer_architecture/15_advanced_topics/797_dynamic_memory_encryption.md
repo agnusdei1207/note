@@ -1,3 +1,8 @@
++++
+title = "dynamic memory encryption"
+weight = 797
++++
+
 # 동적 메모리 암호화
 
 #### 핵심 인사이트 (3줄 요약)

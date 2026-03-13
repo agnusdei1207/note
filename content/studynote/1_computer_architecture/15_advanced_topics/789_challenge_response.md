@@ -1,3 +1,8 @@
++++
+title = "challenge response"
+weight = 789
++++
+
 # 도전-응답 쌍 (Challenge-Response Pair)
 
 #### 핵심 인사이트 (3줄 요약)
