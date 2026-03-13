@@ -29,10 +29,10 @@
 ## 📍 현재 위치
 
 ### ⚡ 다음 작업
-- **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `11_exam_summary/` **#685 (단기 스케줄러 디스패치)**
-- **다음**: `11_exam_summary/` **#686 (CPU 바운드 vs I/O 바운드)**
-- **참조**: `content/studynote/2_operating_system/_keyword_list.md`
+- **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
+- **완료**: `15_advanced_topics/` **#685 (LUN 마스킹)**
+- **다음**: `15_advanced_topics/` **#686 (멀티패스 I/O Multipath I/O)**
+- **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
 
@@ -40,9 +40,9 @@
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 669 | ~802 | 83.4% |
-| OS | 605 | ~800 | 75.6% |
+| CA | 685 | ~802 | 85.4% |
+| OS | 620 | ~800 | 77.5% |
 | NW | 14 | ~1,200 | 1.1% |
 | SE | 14 | ~800 | 1.7% |
 | DB | 14 | ~800 | 1.7% |
-| **합계** | **1,316** | **~4,402** | **29.9%** |
+| **합계** | **1,347** | **~4,402** | **30.6%** |
