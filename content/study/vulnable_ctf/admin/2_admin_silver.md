@@ -40,6 +40,15 @@ Content-Type: application/json
 
 ## 💥 2. 취약점 식별 및 타입 저글링 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Cookie: role=admin)--> [ Web Server ]
+                                       |-- Check req.cookies.role
+                                       |-- Grant Admin Access!
+```
+
+
 ### 💡 느슨한 비교(Loose Comparison)의 허점
 PHP 등 일부 언어에서는 `==` 연산자를 쓸 때 타입이 다르면 강제로 형변환을 시도합니다.
 

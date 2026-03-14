@@ -41,6 +41,15 @@ GET /ssti/silver?greeting=<%= global.process.mainModule.require('child_process')
 
 ## 💥 2. 필터링 우회 전략 설계 (Bypass Strategy)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Input: {{7*7}})--> [ Web Server ]
+                                   |-- Template Engine Evaluates
+<-- Returns: 49 -------------------|
+```
+
+
 명령어 실행(RCE) 대신 정보 유출(Information Disclosure)로 공격 방향을 선회합니다. 환경 변수에는 민감한 API 키나 챌린지 플래그가 들어있을 확률이 매우 높습니다.
 
 ### 💡 전략 1: 괄호 없는 객체 접근

@@ -51,6 +51,13 @@ user1@vulnable:~$ ls -la /usr/local/bin/sys_backup
 
 ## 💥 2. 취약점 식별 및 원리 분석 (Vulnerability Identification)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Low Priv User ] --(Run SUID Binary / PATH Injection)--> [ Root Shell ]
+```
+
+
 이 `sys_backup` 프로그램이 내부적으로 어떻게 동작하는지 알아야 공격할 수 있습니다. 
 
 ### 바이너리 실행 및 문자열 추출

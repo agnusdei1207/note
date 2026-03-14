@@ -50,6 +50,15 @@ email=test' AND 1=2--
 
 ## 💥 2. 지연 유도 페이로드 설계 (Exploitation Strategy)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Input: ' OR 1=1 -- )--> [ Web Server ]
+                                        |-- Query: SELECT * FROM users WHERE name='' OR 1=1 --'
+                                        |-- Returns All Users
+```
+
+
 쿼리 내부에 `IF` 조건문을 넣어, 우리가 던진 스무고개 질문이 "참"일 경우에만 `SLEEP` 함수를 실행하도록 만듭니다.
 
 ### 💡 Time-based 핵심 함수

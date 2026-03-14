@@ -44,6 +44,15 @@ Host: evil-attacker.com
 
 ## 💥 2. 취약점 식별 및 대체 헤더 탐색 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Host: attacker.com)--> [ Web Server ]
+                                       |-- Generates Password Reset Link
+<-- Link: http://attacker.com/reset ---|
+```
+
+
 이 취약점은 프론트엔드(보안 장비)와 백엔드(애플리케이션) 간의 **신뢰 경계 불일치(Trust Boundary Violation)**를 이용합니다.
 
 ### 💡 대체 헤더(Alternative Headers) 주입 테스트

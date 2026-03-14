@@ -47,6 +47,16 @@ email=user@luxora.test
 
 ## 💥 2. 취약점 식별 및 공격 설계 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Target: admin@luxora, Host: attacker.com)--> [ Web Server ]
+                                                             |-- Sends email to Admin
+[ Admin ]    --(Clicks Link)-------------------------------> [ Attacker Server ]
+                                                             |-- Token Stolen!
+```
+
+
 이른바 **Password Reset Poisoning (비밀번호 재설정 포이즈닝)** 기법입니다.
 관리자가 의심 없이 메일 안의 링크를 클릭하도록 유도하여, 비밀번호 재설정에 필요한 유일한 열쇠(Token)를 훔쳐오는 것이 목표입니다.
 

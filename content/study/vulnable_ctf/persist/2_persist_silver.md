@@ -32,6 +32,15 @@ tags = ["CTF", "LUXORA", "Persistence", "Silver", "Cron Job", "Reverse Shell", "
 
 ## 💥 2. 취약점 식별 및 Cron Job 등록 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Web Shell ] --(Write to ~/.ssh/authorized_keys)--> [ Host OS ]
+[ Attacker ]  --(SSH Login with Private Key)-------> [ Host OS ]
+                                                     |-- Permanent Access!
+```
+
+
 리눅스의 각 사용자는 자신만의 예약 작업(Crontab)을 가질 수 있습니다.
 
 ### 💡 Step 1: 해커 서버에서 리스너(Listener) 대기

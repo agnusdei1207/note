@@ -30,6 +30,13 @@ tags = ["CTF", "LUXORA", "Multi-Stage", "Silver", "Attack Chain", "SQLi", "Hash 
 
 ## 💥 2. 공격 체인 실행 (Exploitation Chain)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ XSS ] --(Steal Cookie)--> [ IDOR ] --(Find Admin Panel)--> [ File Upload ] --(Web Shell)--> [ RCE ]
+```
+
+
 ### 💡 Stage 1: SQL Injection (데이터 유출)
 이전에 파악했던 타겟 API(`/api/search?q=`)에 UNION 기반의 페이로드를 던져 데이터베이스 내의 회원 정보를 덤프(Dump) 뜹니다.
 

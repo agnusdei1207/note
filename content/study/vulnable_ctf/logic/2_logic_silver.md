@@ -39,6 +39,16 @@ tags = ["CTF", "LUXORA", "Business Logic", "Silver", "Rounding Error", "Write-up
 
 ## 💥 2. 취약점 식별 및 데이터 조작 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Buy -10 Items)--> [ Web Server ]
+                                  |-- Total = -500
+                                  |-- Balance = Balance - (-500)
+                                  |-- Balance Increased!
+```
+
+
 금융/결제 시스템에서 소수점을 다루는 방식(Rounding Error)이나 자료형 한계(Integer Underflow/Overflow)를 찌르는 공격입니다.
 
 ### 💡 파라미터 변조 설계

@@ -44,6 +44,16 @@ message=hello; id
 
 ## 💥 2. 취약점 식별 (Vulnerability Identification)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Input: 8.8.8.8 ; id)--> [ Web Server ]
+                                        |-- OS Command Execution
+                                        |-- Runs: ping 8.8.8.8 ; id
+                                        |-- Returns Output
+```
+
+
 리눅스의 `sleep` 명령어를 주입하여 서버가 대기하는지 확인합니다.
 
 ### 지연 페이로드 전송

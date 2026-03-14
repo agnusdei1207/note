@@ -45,6 +45,15 @@ $ gobuster dir -u http://localhost:3000/api -w /usr/share/wordlists/dirb/common.
 
 ## 💥 2. 취약점 식별 및 강제 접근 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Normal User ] --(GET /api/admin/users)--> [ Web Server ]
+                                            |-- Missing Role Check
+                                            |-- Returns Admin Data
+```
+
+
 스캔을 통해 발견한 `/api/admin` 경로의 하위 엔드포인트들을 유추해 봅니다. 관리자라면 전체 사용자 목록을 보는 기능이 있을 것입니다.
 
 ### 페이로드 전송 (Forced Browsing)

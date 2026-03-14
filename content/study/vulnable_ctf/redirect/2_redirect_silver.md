@@ -41,6 +41,14 @@ Error: External redirects are not allowed. "http://" is blocked.
 
 ## 💥 2. 취약점 식별 및 필터 우회 설계 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Victim ] --(GET /login?next=//attacker.com)--> [ Web Server ]
+                                                 |-- Redirects to Attacker Site
+```
+
+
 블랙리스트 기반 필터링의 가장 큰 맹점은 해커가 무수히 많은 우회 형태(Bypass Payload)를 만들어낼 수 있다는 것입니다.
 
 ### 💡 다양한 Bypass 페이로드 테스트

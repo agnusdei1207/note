@@ -54,6 +54,15 @@ email[$ne]=1
 
 ## 💥 2. 취약점 검증 (Vulnerability Identification)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --({"username":{"$ne":null}, "password":{"$ne":null}})--> [ NoSQL DB ]
+                                                                       |-- Condition is True
+                                                                       |-- Returns Admin Record
+```
+
+
 정규표현식이 작동하는지 확인하기 위해 `a`로 시작하는 모든 이메일, `b`로 시작하는 모든 이메일을 찾아보라고 명령을 내려봅니다.
 
 ### 페이로드 전송 (정규식 테스트)

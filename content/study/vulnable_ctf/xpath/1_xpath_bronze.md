@@ -35,6 +35,15 @@ tags = ["CTF", "LUXORA", "XPath Injection", "Bronze", "Auth Bypass", "Write-up"]
 
 ## 💥 2. 취약점 검증 및 페이로드 설계 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Input: ' or '1'='1)--> [ Web Server ]
+                                       |-- XPath Query Evaluated
+<-- XML Data Returned -----------------|
+```
+
+
 일반적인 XPath 로그인 쿼리문은 다음과 같이 생겼습니다.
 ```xpath
 //User[Username/text()='입력한_아이디' and Password/text()='입력한_비번']

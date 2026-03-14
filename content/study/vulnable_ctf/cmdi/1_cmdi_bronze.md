@@ -47,6 +47,16 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 
 ## 💥 2. 취약점 검증 (Vulnerability Identification)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Input: 8.8.8.8 ; id)--> [ Web Server ]
+                                        |-- OS Command Execution
+                                        |-- Runs: ping 8.8.8.8 ; id
+                                        |-- Returns Output
+```
+
+
 리눅스 시스템 명령어인 `id` (현재 시스템을 구동 중인 사용자의 권한을 확인하는 명령어)를 주입해 봅니다.
 
 ### 페이로드 전송

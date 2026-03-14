@@ -57,6 +57,15 @@ coupon_code=WELCOME10
 
 ## 💥 2. 취약점 식별 및 공격 설계 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Thread 1: Use Coupon)--> [ Web Server ] --(Check DB)--> Valid
+[ Attacker ] --(Thread 2: Use Coupon)--> [ Web Server ] --(Check DB)--> Valid
+                                         |-- Both Apply Discount!
+```
+
+
 이른바 **Time-Of-Check to Time-Of-Use (TOCTOU)** 기반의 Race Condition 입니다.
 
 ### 💡 파이썬 `asyncio` 기반 폭격 스크립트 작성

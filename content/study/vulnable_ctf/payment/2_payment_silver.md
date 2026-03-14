@@ -45,6 +45,16 @@ Error: Insufficient funds. You need 1000 USD, but you only have 10 USD.
 
 ## 💥 2. 취약점 식별 및 파라미터 조작 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Price: $1)--> [ Web Server ]
+                              |-- Trusts Client Price
+                              |-- Deducts $1
+                              |-- Item Purchased!
+```
+
+
 이른바 **Currency Manipulation (통화 위변조)** 버그입니다. 다국어/다통화 지원 글로벌 이커머스에서 환율 계산 로직이 누락되거나 클라이언트를 신뢰할 때 발생합니다.
 
 ### 💡 통화 파라미터 변조

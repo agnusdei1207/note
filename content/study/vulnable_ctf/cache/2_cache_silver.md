@@ -42,6 +42,16 @@ GET /cache/silver?search=apple HTTP/1.1
 
 ## 💥 2. 취약점 식별 및 Parameter Cloaking 전략
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Malicious Header/Payload)--> [ Cache Server (Varnish) ] --> [ Web Server ]
+                                             |-- Caches Malicious Response
+[ Victim ]   --(Normal Request)------------> [ Cache Server ]
+                                             |-- Returns Poisoned Cache!
+```
+
+
 이 취약점은 캐시 서버와 백엔드 서버 간의 **URL 파싱 불일치 (Parsing Discrepancy)** 에서 발생합니다.
 
 ### 💡 파라미터 은닉 (Cloaking) 테스트

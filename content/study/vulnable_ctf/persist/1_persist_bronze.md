@@ -31,6 +31,15 @@ tags = ["CTF", "LUXORA", "Persistence", "Bronze", "SSH Keys", "Backdoor", "Write
 
 ## 💥 2. 취약점 식별 및 SSH 공개키 등록 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Web Shell ] --(Write to ~/.ssh/authorized_keys)--> [ Host OS ]
+[ Attacker ]  --(SSH Login with Private Key)-------> [ Host OS ]
+                                                     |-- Permanent Access!
+```
+
+
 리눅스의 SSH 서비스는 비밀번호 대신 비대칭 키(RSA, Ed25519 등)를 사용한 로그인을 지원합니다. 사용자의 `~/.ssh/authorized_keys` 파일에 등록된 공개키를 가진 사람은 언제든지 비밀번호 없이 해당 계정으로 로그인할 수 있습니다.
 
 ### 💡 Step 1: 해커 로컬 PC에서 SSH 키쌍 생성

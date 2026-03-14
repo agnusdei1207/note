@@ -33,6 +33,16 @@ tags = ["CTF", "LUXORA", "Container Escape", "Bronze", "Docker", "Mount", "Write
 
 ## 💥 2. 취약점 식별 및 마운트 정보 탐색 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Container (Web Shell) ]
+|-- /var/run/docker.sock (Mounted)
+|-- [ Docker CLI ] --(Deploy Privileged Container)--> [ Host OS ]
+                                                      |-- Root Compromised!
+```
+
+
 리눅스에서 현재 마운트된 볼륨 목록을 확인하는 가장 확실한 방법은 `/proc/mounts` 파일이나 `df` 명령어를 읽어보는 것입니다.
 
 ### 💡 볼륨 스캐닝

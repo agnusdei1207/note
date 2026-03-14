@@ -51,6 +51,15 @@ GET /sqli/silver?search=admin' OR '1'='1
 
 ## 💥 2. 필터링 우회 전략 설계 (Bypass Techniques)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Input: ' OR 1=1 -- )--> [ Web Server ]
+                                        |-- Query: SELECT * FROM users WHERE name='' OR 1=1 --'
+                                        |-- Returns All Users
+```
+
+
 블랙리스트 기반 필터링은 언제나 구멍이 존재합니다. 우리는 SQL 엔진이 찰떡같이 알아듣는 다른 기호들을 사용하여 이 필터를 피할 것입니다.
 
 ### 전략 1: 공백(Space) 우회

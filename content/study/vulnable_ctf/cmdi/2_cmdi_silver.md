@@ -41,6 +41,16 @@ ip=8.8.8.8; id
 
 ## 💥 2. 필터링 우회 전략 (Bypass Strategy)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Input: 8.8.8.8 ; id)--> [ Web Server ]
+                                        |-- OS Command Execution
+                                        |-- Runs: ping 8.8.8.8 ; id
+                                        |-- Returns Output
+```
+
+
 리눅스 Bash 쉘은 개발자의 상상을 초월하는 유연성을 가지고 있습니다. 막힌 문자를 다른 방식으로 표현하는 우회 기법을 설계합니다.
 
 ### 💡 전략 1: 명령어 구분자(Separator) 우회

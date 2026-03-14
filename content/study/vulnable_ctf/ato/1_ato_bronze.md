@@ -40,6 +40,15 @@ username=user&new_password=hacked123
 
 ## 💥 2. 취약점 식별 및 공격 수행 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Change password for target user)--> [ Web Server ]
+                                                    |-- Missing Authorization Check
+                                                    |-- Password Changed!
+```
+
+
 이 취약점은 세션과 파라미터 간의 불일치를 검증하지 않는 **Broken Access Control (권한 제어 붕괴)**에서 기인합니다.
 
 Burp Suite의 Repeater 탭으로 방금 보낸 POST 요청을 가져옵니다.

@@ -41,6 +41,13 @@ drwxr-xr-x  5 user1 user1 4096 Nov 01 09:30 user1
 
 ## 💥 2. 취약점 탐색 (Vulnerability Identification)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Low Priv User ] --(Run SUID Binary / PATH Injection)--> [ Root Shell ]
+```
+
+
 `www-data` 권한으로 가장 쉽게 접근할 수 있으면서도 치명적인 정보가 담겨있는 곳은 바로 **웹 애플리케이션의 소스코드 및 설정 파일**입니다.
 
 ### 웹 루트 디렉터리 뒤지기 (Looting)

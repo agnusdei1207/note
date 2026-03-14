@@ -46,6 +46,16 @@ X-Cache: MISS
 
 ## 💥 2. 취약점 식별 및 Unkeyed Header 탐색 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Malicious Header/Payload)--> [ Cache Server (Varnish) ] --> [ Web Server ]
+                                             |-- Caches Malicious Response
+[ Victim ]   --(Normal Request)------------> [ Cache Server ]
+                                             |-- Returns Poisoned Cache!
+```
+
+
 보통 웹 프레임워크는 로드밸런서 뒤에 있을 때 클라이언트의 원래 도메인을 알기 위해 `X-Forwarded-Host` 헤더를 읽어서 `<link>` 태그나 리다이렉트 URL 생성에 사용합니다.
 
 ### 💡 헤더 주입 및 반사(Reflection) 확인

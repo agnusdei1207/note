@@ -38,6 +38,16 @@ tags = ["CTF", "LUXORA", "Session Attack", "Silver", "Session Prediction", "Writ
 
 ## 💥 2. 취약점 식별 및 데이터 추출 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Inject Session ID)--> [ Victim's Browser ]
+[ Victim ]   --(Logs In)------------> [ Web Server ]
+[ Attacker ] --(Uses Same Session)-> [ Web Server ]
+                                     |-- Logged in as Victim!
+```
+
+
 관리자의 로그인 시간을 알아내기 위해 시스템을 탐색합니다.
 게시판이나 공지사항(Notice) 게시글에서 다음과 같은 글을 발견합니다.
 

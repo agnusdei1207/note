@@ -40,6 +40,15 @@ tags = ["CTF", "LUXORA", "Web Shell", "Silver", "Magic Number", "Filter Bypass",
 
 ## 💥 2. 취약점 식별 및 폴리글랏 파일 제작 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(GET shell.php?cmd=ls)--> [ Web Server ]
+                                         |-- system('ls')
+<-- Directory Listing -------------------|
+```
+
+
 목표는 운영체제와 웹 브라우저가 보기에는 "정상적인 PNG 파일"이지만, PHP 파서(Parser)가 보기에는 "실행 가능한 PHP 코드"인 하이브리드 파일을 만드는 것입니다.
 
 ### 💡 이미지 파일에 PHP 코드 주입 (Exiftool 활용)

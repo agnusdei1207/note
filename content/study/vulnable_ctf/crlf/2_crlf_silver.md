@@ -45,6 +45,18 @@ Cache-Control: public, max-age=3600
 
 ## 💥 2. 취약점 식별 및 페이로드 조립 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Input: %0d%0a%0d%0a<script>...)--> [ Web Server ]
+                                                   |-- Injects CRLF in Headers
+                                                   |-- Splits HTTP Response
+<-- [ HTTP Headers ] 
+
+ [ Malicious Body ] --|
+```
+
+
 이번에는 단순 XSS가 아니라, 캐시 서버가 이 응답을 정상적인 200 OK 페이지로 인식하고 캐싱하도록 HTTP 응답 전체를 조작해야 합니다.
 
 ### 💡 페이로드 설계 구조

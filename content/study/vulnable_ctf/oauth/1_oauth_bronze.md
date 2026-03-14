@@ -41,6 +41,15 @@ https://auth.luxora.test/authorize
 
 ## 💥 2. 취약점 식별 및 공격 설계 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(redirect_uri=attacker.com)--> [ OAuth Server ]
+                                              |-- Redirects Victim with Auth Code
+[ Victim ]   --(Sends Auth Code)------------> [ Attacker Server ]
+```
+
+
 이 취약점은 OAuth 2.0 아키텍처에서 인증 서버(Authorization Server)가 **`redirect_uri` 의 유효성을 엄격하게 검증하지 않을 때** 발생합니다.
 
 ### 💡 피싱 링크(Phishing Link) 제작

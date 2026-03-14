@@ -37,6 +37,15 @@ tags = ["CTF", "LUXORA", "XPath Injection", "Silver", "Blind", "Write-up"]
 
 ## 💥 2. 취약점 식별 및 데이터 유추 전략 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Input: ' or '1'='1)--> [ Web Server ]
+                                       |-- XPath Query Evaluated
+<-- XML Data Returned -----------------|
+```
+
+
 관리자(`admin`)의 비밀번호 길이를 먼저 알아내고, 그 다음 한 글자씩 추출합니다.
 
 ### 💡 비밀번호 길이 유추

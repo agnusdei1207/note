@@ -44,6 +44,15 @@ GET /idor/bronze/profile?user_id=1001 HTTP/1.1
 
 ## 💥 2. 취약점 식별 및 공격 수행 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker (ID: 1) ] --(GET /profile?id=2)--> [ Web Server ]
+                                              |-- Missing Ownership Check
+                                              |-- Returns User 2's Profile
+```
+
+
 **IDOR (Insecure Direct Object Reference)** 취약점은 번역하자면 "안전하지 않은 직접 객체 참조"입니다. 즉, 데이터베이스의 기본 키(Primary Key)나 파일 이름 등을 사용자가 직접 입력할 수 있게 노출해놓고, 정작 서버에서는 **'그 데이터의 주인이 현재 로그인한 사용자가 맞는지'** 확인하는 과정을 빼먹었을 때 발생합니다.
 
 ### 💡 파라미터 조작 (Parameter Tampering)

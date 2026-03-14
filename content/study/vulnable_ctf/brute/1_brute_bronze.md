@@ -43,6 +43,17 @@ tags = ["CTF", "LUXORA", "Brute Force", "Bronze", "Authentication", "ffuf", "Wri
 
 ## 💥 2. 공격 도구 설정 및 페이로드 설계 (Exploitation Strategy)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Brute Force / FFuF)--> [ Web Server ]
+             |-- Pwd1                  |-- Invalid
+             |-- Pwd2                  |-- Invalid
+             |-- ...                   |-- ...
+             |-- CorrectPwd            |-- Access Granted!
+```
+
+
 로그인 창에 수작업으로 수만 개의 비밀번호를 쳐보는 것은 불가능하므로 자동화 도구를 사용합니다. 이번 공격에는 빠르고 강력한 웹 퍼징 도구인 **FFuF (Fuzz Faster U Fool)**를 사용하겠습니다.
 
 ### 💡 필요 준비물

@@ -45,6 +45,15 @@ Host: localhost:3000
 
 ## 💥 2. 취약점 식별 및 IP 스푸핑 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Host: attacker.com)--> [ Web Server ]
+                                       |-- Generates Password Reset Link
+<-- Link: http://attacker.com/reset ---|
+```
+
+
 Burp Suite의 Repeater를 열고, 원래 요청에 다양한 IP 관련 헤더들을 수동으로 추가해 봅니다. 타겟 IP는 에러 메시지에 힌트로 적혀있던 `127.0.0.1` (로컬호스트)입니다.
 
 ### 💡 테스트할 주요 헤더 목록

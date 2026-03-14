@@ -40,6 +40,15 @@ status=<%= 7*7 %>
 
 ## 💥 2. 취약점 검증 (Time-based Blind Test)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Input: {{7*7}})--> [ Web Server ]
+                                   |-- Template Engine Evaluates
+<-- Returns: 49 -------------------|
+```
+
+
 EJS 환경에서 Node.js 프로세스를 잠시 멈추게 하는(Sleep) 코드를 주입하여 취약점 존재 여부를 확인합니다.
 
 ### 지연 유발 페이로드 (동기식 무한 루프)

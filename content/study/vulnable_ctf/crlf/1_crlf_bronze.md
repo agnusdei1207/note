@@ -46,6 +46,18 @@ Set-Cookie: language=en
 
 ## 💥 2. 취약점 식별 및 페이로드 조립 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Input: %0d%0a%0d%0a<script>...)--> [ Web Server ]
+                                                   |-- Injects CRLF in Headers
+                                                   |-- Splits HTTP Response
+<-- [ HTTP Headers ] 
+
+ [ Malicious Body ] --|
+```
+
+
 목표는 가짜 응답 본문을 주입하여 사용자 브라우저에 "Hacked!" 라는 메시지와 함께 악성 스크립트를 띄우는 것입니다.
 
 ### 💡 페이로드 설계

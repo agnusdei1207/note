@@ -40,6 +40,16 @@ $ gobuster dir -u http://localhost:3000/info-disc/silver -w /usr/share/wordlists
 
 ## 💥 2. 레포지토리 복원 (Exploitation: Git Dumping)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Directory Brute Force)--> [ Web Server ]
+                                          |-- /config.php.bak
+                                          |-- /.git/
+                                          |-- Returns Sensitive Files
+```
+
+
 `.git` 폴더 안의 파일들은 서로 얽혀 있기 때문에 하나씩 `curl` 로 받는 것은 무리입니다. 해커들이 애용하는 `git-dumper` (또는 `dvcs-ripper`) 라는 도구를 사용합니다.
 
 ### 💡 Git-dumper 실행

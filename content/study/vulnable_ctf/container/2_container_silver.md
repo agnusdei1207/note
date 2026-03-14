@@ -41,6 +41,16 @@ $ find / -name docker.sock 2>/dev/null
 
 ## 💥 2. 취약점 식별 및 도커 클라이언트 준비 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Container (Web Shell) ]
+|-- /var/run/docker.sock (Mounted)
+|-- [ Docker CLI ] --(Deploy Privileged Container)--> [ Host OS ]
+                                                      |-- Root Compromised!
+```
+
+
 도커 소켓을 사용하려면 도커 클라이언트(`docker` 명령어)나, HTTP API로 소켓과 직접 통신할 수 있는 도구(`curl`)가 필요합니다.
 
 ### 💡 컨테이너 내부에 Docker 바이너리 다운로드

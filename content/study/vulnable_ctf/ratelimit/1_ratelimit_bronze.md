@@ -46,6 +46,16 @@ code=TEST1234
 
 ## 💥 2. 취약점 식별 및 FFuF 페이로드 설계 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(IP 1)--> [ Server ]
+[ Attacker ] --(IP 2)--> [ Server ]
+[ Attacker ] --(IP 3)--> [ Server ]
+                         |-- Rate Limit Bypassed by IP Rotation
+```
+
+
 이 취약점은 서버가 클라이언트의 실제 IP(TCP 소켓 통신의 주소)가 아닌, 클라이언트가 임의로 조작할 수 있는 **HTTP 헤더(X-Forwarded-For)**를 전적으로 신뢰할 때 발생합니다.
 
 ### 💡 FFuF 브루트포싱 설계

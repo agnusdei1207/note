@@ -46,6 +46,15 @@ GET /sqli/bronze?id=1
 
 ## 💥 2. 취약점 검증 (Vulnerability Identification)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Input: ' OR 1=1 -- )--> [ Web Server ]
+                                        |-- Query: SELECT * FROM users WHERE name='' OR 1=1 --'
+                                        |-- Returns All Users
+```
+
+
 SQL 인젝션의 존재 여부를 가장 빠르고 확실하게 확인하는 방법은 **홑따옴표(`'`)**를 입력하여 데이터베이스의 구문 오류(Syntax Error)를 유발하는 것입니다.
 
 Burp Suite의 Repeater를 이용해 패킷을 조작하거나, 브라우저 주소창에 직접 입력해 봅니다.

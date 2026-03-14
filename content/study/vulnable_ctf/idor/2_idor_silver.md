@@ -45,6 +45,15 @@ GET /idor/silver/order?id=TVRBeE1BPT0= HTTP/1.1
 
 ## 💥 2. 취약점 식별 및 데이터 디코딩 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker (ID: 1) ] --(GET /profile?id=2)--> [ Web Server ]
+                                              |-- Missing Ownership Check
+                                              |-- Returns User 2's Profile
+```
+
+
 ### 💡 파라미터 디코딩 (Decoding)
 리눅스 터미널이나 CyberChef 도구를 이용하여 획득한 파라미터 값을 Base64로 디코딩해 봅니다.
 

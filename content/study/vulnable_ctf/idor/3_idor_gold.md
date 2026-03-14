@@ -36,6 +36,15 @@ GET /idor/gold/download?doc_id=550e8400-e29b-41d4-a716-446655440000 HTTP/1.1
 
 ## 💥 2. 취약점 연계 탐색 (Chaining Vulnerabilities)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker (ID: 1) ] --(GET /profile?id=2)--> [ Web Server ]
+                                              |-- Missing Ownership Check
+                                              |-- Returns User 2's Profile
+```
+
+
 IDOR 공격의 핵심은 타겟의 ID를 알아내는 것입니다. 웹사이트의 다른 기능들을 이 잡듯이 뒤집니다. (Burp Suite의 Proxy History 활용)
 
 ### 💡 정보 유출 엔드포인트 발견

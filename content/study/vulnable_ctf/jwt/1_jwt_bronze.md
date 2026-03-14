@@ -50,6 +50,17 @@ H8d2qO_kF_q0eL... (서명 부분 생략)
 
 ## 💥 2. 취약점 검증 및 페이로드 설계 (Exploitation Strategy)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ]
+|-- Decodes JWT
+|-- Modifies Payload (role: admin)
+|-- Signs with 'None' alg / Cracked Secret --> [ Web Server ]
+                                               |-- Trusts JWT
+```
+
+
 JWT 표준 스펙에는 디버깅 목적으로 서명을 사용하지 않겠다는 뜻의 **`none` 알고리즘**이 정의되어 있습니다. 보안 패치가 되지 않은 구형 JWT 라이브러리는 클라이언트가 헤더에 `"alg": "none"`을 보내면, **서명이 없는 것을 정상으로 간주하고 검증 로직을 통과시켜 버립니다.**
 
 ### 💡 토큰 조작 프로세스

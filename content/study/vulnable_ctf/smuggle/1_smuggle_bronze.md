@@ -34,6 +34,16 @@ tags = ["CTF", "LUXORA", "Request Smuggling", "Bronze", "CL.TE", "Write-up"]
 
 ## 💥 2. 취약점 식별 및 CL.TE 페이로드 설계 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(CL.TE Malformed Request)--> [ Front-end Proxy (Reads CL) ]
+                                            |-- Forwards as One Request
+                                            [ Back-end Server (Reads TE) ]
+                                            |-- Splits into Two Requests!
+```
+
+
 이 챌린지는 **CL.TE (Content-Length / Transfer-Encoding)** 취약점 환경입니다.
 - **프론트엔드(Proxy)**: `Content-Length` (CL) 를 기준으로 패킷을 자름.
 - **백엔드(Server)**: `Transfer-Encoding: chunked` (TE) 를 우선하여 패킷을 자름.

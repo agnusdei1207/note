@@ -43,6 +43,14 @@ Location: /dashboard
 
 ## 💥 2. 취약점 식별 및 악성 링크 생성 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Victim ] --(GET /login?next=//attacker.com)--> [ Web Server ]
+                                                 |-- Redirects to Attacker Site
+```
+
+
 이 취약점은 그 자체로 서버를 해킹할 수는 없지만, **피싱(Phishing)** 공격에 매우 효과적으로 사용됩니다. (예: 정상 도메인으로 로그인하게 한 뒤, 똑같이 생긴 가짜 화면을 띄워 세션 쿠키를 탈취하거나 결제를 유도함)
 
 ### 💡 페이로드 작성

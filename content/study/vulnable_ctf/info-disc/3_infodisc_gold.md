@@ -32,6 +32,16 @@ tags = ["CTF", "LUXORA", "Info Disclosure", "Gold", "Debug Endpoints", "Spring A
 
 ## 💥 2. 취약점 식별 및 엔드포인트 탐색 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Directory Brute Force)--> [ Web Server ]
+                                          |-- /config.php.bak
+                                          |-- /.git/
+                                          |-- Returns Sensitive Files
+```
+
+
 `dirsearch` 나 Burp Suite를 통해 널리 알려진 디버깅 경로를 스캔합니다.
 
 ### 💡 스캐닝 및 엔드포인트 발견

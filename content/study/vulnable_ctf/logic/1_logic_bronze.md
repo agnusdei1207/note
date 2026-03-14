@@ -38,6 +38,16 @@ tags = ["CTF", "LUXORA", "Business Logic", "Bronze", "Negative Quantity", "Write
 
 ## 💥 2. 취약점 식별 및 데이터 조작 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Buy -10 Items)--> [ Web Server ]
+                                  |-- Total = -500
+                                  |-- Balance = Balance - (-500)
+                                  |-- Balance Increased!
+```
+
+
 이 취약점은 프로그래밍 언어나 프레임워크의 버그가 아니라, 순수하게 개발자의 "설마 사람이 수량에 마이너스를 넣겠어?"라는 안일한 가정(Logic Flaw)에서 비롯됩니다.
 
 ### 💡 파라미터 변조 (Parameter Tampering)

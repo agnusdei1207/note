@@ -44,6 +44,15 @@ GET /ldap/bronze?search=alice
 
 ## 💥 2. 취약점 식별 및 필터 우회 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Input: admin)(password=A*)--> [ LDAP Server ]
+                                              |-- Evaluates Filter
+                                              |-- True/False Response
+```
+
+
 LDAP Injection의 가장 기초는 **`*` (Asterisk)** 를 단독으로 입력하여 모든 데이터를 반환하는지 확인하는 것입니다.
 
 ### 페이로드 전송 1 (와일드카드 공격)

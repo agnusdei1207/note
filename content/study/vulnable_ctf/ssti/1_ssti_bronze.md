@@ -40,6 +40,15 @@ GET /ssti/bronze?name=Alice
 
 ## 💥 2. 취약점 식별 및 엔진 핑거프린팅 (Vulnerability Identification)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Input: {{7*7}})--> [ Web Server ]
+                                   |-- Template Engine Evaluates
+<-- Returns: 49 -------------------|
+```
+
+
 다양한 템플릿 엔진의 문법을 하나씩 입력해 봅니다. (Jinja2, Twig, EJS 등)
 
 ### 페이로드 전송 (수식 연산)

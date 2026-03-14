@@ -42,6 +42,17 @@ tags = ["CTF", "LUXORA", "Brute Force", "Gold", "2FA Bypass", "Logic Flaw", "Wri
 
 ## 💥 2. 취약점 식별 및 로직 분석 (Vulnerability Identification)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Brute Force / FFuF)--> [ Web Server ]
+             |-- Pwd1                  |-- Invalid
+             |-- Pwd2                  |-- Invalid
+             |-- ...                   |-- ...
+             |-- CorrectPwd            |-- Access Granted!
+```
+
+
 Burp Suite의 Proxy 탭을 열어 1차 로그인 성공 시 서버가 어떤 정보를 쿠키로 내려주었는지 확인합니다.
 
 ### 패킷 분석 (Set-Cookie 확인)

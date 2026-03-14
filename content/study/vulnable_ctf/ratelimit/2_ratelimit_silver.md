@@ -38,6 +38,16 @@ username=admin&password=wrongpass
 
 ## 💥 2. 취약점 식별 및 문자열 조작 전략 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(IP 1)--> [ Server ]
+[ Attacker ] --(IP 2)--> [ Server ]
+[ Attacker ] --(IP 3)--> [ Server ]
+                         |-- Rate Limit Bypassed by IP Rotation
+```
+
+
 이 취약점은 애플리케이션의 각 레이어(캐시/레이트 리밋 모듈 vs 데이터베이스 모듈)가 **특수 문자(Whitespace, Null Byte, Case Sensitivity)**를 처리하는 방식이 다를 때 발생합니다.
 
 ### 💡 파라미터 변조(Cloaking) 테스트

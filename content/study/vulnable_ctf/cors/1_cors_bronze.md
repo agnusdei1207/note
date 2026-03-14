@@ -46,6 +46,18 @@ Content-Type: application/json
 
 ## 💥 2. 취약점 식별 및 악성 스크립트 작성 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Victim's Browser ]
+|-- Visits Attacker.com
+|-- AJAX Request to Target.com --(with Cookies)--> [ Target.com API ]
+                                                   |-- Allows * Origin
+<-- Sensitive Data Returned -----------------------|
+|-- Exfiltrates Data to Attacker
+```
+
+
 이 취약점은 가장 초보적인 **Cross-Origin Resource Sharing (CORS)** 설정 오류입니다. 
 
 ### 💡 악성 HTML(Exploit) 설계

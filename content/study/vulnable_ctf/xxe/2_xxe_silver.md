@@ -37,6 +37,15 @@ tags = ["CTF", "LUXORA", "XXE", "Silver", "SSRF", "Write-up"]
 
 ## 💥 2. 취약점 식별 및 SSRF 페이로드 설계 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(XML with <!ENTITY xxe SYSTEM "file:///etc/passwd">)--> [ Web Server ]
+                                                                       |-- Parses XML & Reads File
+<-- File Contents Returned --------------------------------------------|
+```
+
+
 일반적으로 클라우드 환경(AWS, GCP 등)이나 도커(Docker) 컨테이너 내부에는 외부에 노출되지 않은 비밀스러운 관리자 전용 포트나 메타데이터 API가 존재합니다.
 여기서는 내부의 `http://localhost:8888/internal/admin` 이라는 가상의 관리자 API가 존재한다고 가정하고 접근을 시도해 보겠습니다.
 

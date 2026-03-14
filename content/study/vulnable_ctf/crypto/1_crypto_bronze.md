@@ -37,6 +37,18 @@ Set-Cookie: user_data=eyJ1c2VybmFtZSI6InVzZXIiLCJyb2xlIjoiZ3Vlc3QifQ==
 
 ## 💥 2. 취약점 식별 및 데이터 조작 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ]
+|-- Intercepts Ciphertext/Token
+|-- Analyzes Pattern (ECB Block, Base64, etc.)
+|-- Cuts/Pastes/Decodes/Spoofs
+|-- Sends Forged Token --> [ Web Server ]
+                           |-- Accepts Forged Token
+```
+
+
 이 문제는 "인코딩(Encoding)은 암호화(Encryption)가 아니다"라는 가장 기본적인 보안 상식을 테스트하는 문제입니다.
 
 ### 💡 데이터 디코딩 (Decoding)

@@ -35,6 +35,15 @@ tags = ["CTF", "LUXORA", "Web Shell", "Bronze", "File Upload", "Write-up"]
 
 ## 💥 2. 취약점 식별 및 웹 쉘(Web Shell) 작성 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(GET shell.php?cmd=ls)--> [ Web Server ]
+                                         |-- system('ls')
+<-- Directory Listing -------------------|
+```
+
+
 ### 💡 웹 쉘 스크립트 작성
 웹 쉘은 서버 내부에서 해커의 명령어를 대신 입력해 주는 작은 프로그램입니다. 가장 기본적이고 널리 쓰이는 형태의 PHP 웹 쉘을 작성합니다.
 

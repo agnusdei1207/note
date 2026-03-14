@@ -42,6 +42,15 @@ GET /nosqli/gold?code=SALE50
 
 ## 💥 2. 취약점 검증 (SSJS Injection Identification)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --({"username":{"$ne":null}, "password":{"$ne":null}})--> [ NoSQL DB ]
+                                                                       |-- Condition is True
+                                                                       |-- Returns Admin Record
+```
+
+
 백엔드 쿼리가 대략 이럴 것이라 가정합니다.
 ```javascript
 db.coupons.findOne({ $where: "this.code == '" + req.query.code + "'" })

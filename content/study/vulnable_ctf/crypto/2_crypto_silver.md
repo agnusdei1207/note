@@ -51,6 +51,18 @@ Set-Cookie: token=7e8e5d0a6c...7e8e5d0a6c...
 
 ## 💥 2. 취약점 식별 및 ECB Cut & Paste 공격 설계
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ]
+|-- Intercepts Ciphertext/Token
+|-- Analyzes Pattern (ECB Block, Base64, etc.)
+|-- Cuts/Pastes/Decodes/Spoofs
+|-- Sends Forged Token --> [ Web Server ]
+                           |-- Accepts Forged Token
+```
+
+
 서버가 암호화하는 평문(Plaintext)의 구조가 대략 이렇다고 유추할 수 있습니다.
 `username=[내가입력한값]&role=user`
 

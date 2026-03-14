@@ -43,6 +43,16 @@ $ gobuster dir -u http://localhost:3000/info-disc/bronze \
 
 ## 💥 2. 취약점 식별 및 중요 정보 획득 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Directory Brute Force)--> [ Web Server ]
+                                          |-- /config.php.bak
+                                          |-- /.git/
+                                          |-- Returns Sensitive Files
+```
+
+
 스캔 결과에서 `config.php.bak` 이라는 파일이 200 OK 응답을 반환했습니다.
 일반적으로 `.php` 파일은 웹 서버가 실행(Execute)하여 결과(HTML)만 브라우저에 보여주지만, `.bak` 확장자는 웹 서버 설정에 "실행할 파일"로 등록되어 있지 않으므로 **파일의 원본 소스코드가 그대로(Raw text) 다운로드**됩니다.
 

@@ -35,6 +35,13 @@ tags = ["CTF", "LUXORA", "Multi-Stage", "Bronze", "Attack Chain", "XSS", "IDOR",
 
 ## 💥 2. 공격 체인 실행 (Exploitation Chain)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ XSS ] --(Steal Cookie)--> [ IDOR ] --(Find Admin Panel)--> [ File Upload ] --(Web Shell)--> [ RCE ]
+```
+
+
 ### 💡 Stage 1: XSS를 통한 Initial Access (초기 침투)
 관리자가 읽는 리뷰 게시판에 악성 페이로드를 올립니다. 이번에는 단순 Alert가 아니라 쿠키를 탈취하는 페이로드입니다.
 

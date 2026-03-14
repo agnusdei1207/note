@@ -50,6 +50,15 @@ Content-Type: application/xml
 
 ## 💥 2. 취약점 식별 및 악성 XML 조립 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(XML with <!ENTITY xxe SYSTEM "file:///etc/passwd">)--> [ Web Server ]
+                                                                       |-- Parses XML & Reads File
+<-- File Contents Returned --------------------------------------------|
+```
+
+
 이른바 **In-band XXE (대역 내 XXE)** 공격입니다.
 
 ### 💡 DTD를 이용한 악성 페이로드 작성

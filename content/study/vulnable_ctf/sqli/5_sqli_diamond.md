@@ -44,6 +44,15 @@ GET /sqli/diamond?review_id=1
 
 ## 💥 2. WAF 우회 전략 설계 (Bypass Strategy)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Input: ' OR 1=1 -- )--> [ Web Server ]
+                                        |-- Query: SELECT * FROM users WHERE name='' OR 1=1 --'
+                                        |-- Returns All Users
+```
+
+
 하나의 기법만으로는 뚫을 수 없습니다. 여러 가지 치환 기법을 하나로 엮는 **체이닝(Chaining)**이 필요합니다.
 
 ### 💡 Strategy 1: 키워드(SELECT, UNION) 우회

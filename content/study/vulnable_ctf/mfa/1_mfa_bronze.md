@@ -57,6 +57,15 @@ Location: /mfa/bronze/verify?step=2
 
 ## 💥 2. 취약점 식별 및 파라미터 조작 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(mfa_required=false)--> [ Web Server ]
+                                       |-- Trusts Client Parameter
+                                       |-- Bypasses MFA
+```
+
+
 이 취약점은 클라이언트 측에서 제공하는 데이터를 서버가 아무 의심 없이 신뢰할 때 발생하는 전형적인 **Parameter Manipulation** 입니다.
 
 Burp Suite의 Proxy 기능(Intercept)을 켜고, 폼에서 아무 숫자나 입력한 뒤 [Verify] 버튼을 누릅니다.

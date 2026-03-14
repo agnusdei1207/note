@@ -41,6 +41,16 @@ item_id=999&item_name=Flag+Premium&price=1000
 
 ## 💥 2. 취약점 식별 및 파라미터 조작 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Price: $1)--> [ Web Server ]
+                              |-- Trusts Client Price
+                              |-- Deducts $1
+                              |-- Item Purchased!
+```
+
+
 이른바 **Price Tampering (가격 조작)** 공격입니다. 가장 초보적인 형태의 결제 취약점이지만 놀랍게도 여전히 영세한 쇼핑몰에서 종종 발견됩니다.
 
 ### 💡 가격 조작 (Tampering)

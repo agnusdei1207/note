@@ -30,6 +30,15 @@ tags = ["CTF", "LUXORA", "Secret Leakage", "Bronze", "Hardcoded Credentials", "W
 
 ## 💥 2. 취약점 식별 및 소스코드 분석 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(View Source)--> [ JS File / .map File ]
+                                |-- API_KEY = "XYZ123"
+                                |-- Extracted!
+```
+
+
 이 취약점은 가장 흔하고 단순한 형태의 **Hardcoded Credentials (하드코딩된 자격 증명)** 입니다.
 
 ### 💡 소스코드 열람

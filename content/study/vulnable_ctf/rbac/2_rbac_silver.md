@@ -45,6 +45,15 @@ Cookie: session=user_session_token
 
 ## 💥 2. 취약점 식별 및 데이터 주입 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Normal User ] --(GET /api/admin/users)--> [ Web Server ]
+                                            |-- Missing Role Check
+                                            |-- Returns Admin Data
+```
+
+
 이 취약점은 프레임워크가 제공하는 편리한 기능(객체를 DB 엔티티에 자동 매핑하는 기능)을 개발자가 무비판적으로 사용할 때 발생하는 **Mass Assignment (또는 Auto-Binding)** 취약점입니다.
 
 ### 💡 파라미터 유추 및 페이로드 조립

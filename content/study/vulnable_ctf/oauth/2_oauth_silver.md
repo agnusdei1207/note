@@ -44,6 +44,15 @@ tags = ["CTF", "LUXORA", "OAuth", "Silver", "CSRF", "State Parameter", "Write-up
 
 ## 💥 2. 취약점 식별 및 공격 설계 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(redirect_uri=attacker.com)--> [ OAuth Server ]
+                                              |-- Redirects Victim with Auth Code
+[ Victim ]   --(Sends Auth Code)------------> [ Attacker Server ]
+```
+
+
 이른바 **OAuth CSRF (또는 Account Linking CSRF)** 공격입니다.
 
 ### 💡 공격 시나리오 설계

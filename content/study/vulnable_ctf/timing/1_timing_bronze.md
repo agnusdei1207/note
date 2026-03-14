@@ -40,6 +40,15 @@ tags = ["CTF", "LUXORA", "Timing Attack", "Bronze", "User Enumeration", "Write-u
 
 ## 💥 2. 취약점 식별 및 데이터 조작 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Guess: A)--> [ Server ] (Returns in 10ms)
+[ Attacker ] --(Guess: B)--> [ Server ] (Returns in 10ms)
+[ Attacker ] --(Guess: C)--> [ Server ] (Returns in 50ms) -> Correct Char!
+```
+
+
 Burp Suite의 Intruder나 파이썬 스크립트를 사용하여 요청 시간을 밀리초(ms) 단위로 정밀하게 측정합니다.
 
 ### 💡 파이썬 측정 스크립트 작성

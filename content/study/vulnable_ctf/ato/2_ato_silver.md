@@ -37,6 +37,15 @@ tags = ["CTF", "LUXORA", "ATO", "Account Takeover", "Silver", "Predictable Token
 
 ## 💥 2. 취약점 식별 및 공격 설계 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Change password for target user)--> [ Web Server ]
+                                                    |-- Missing Authorization Check
+                                                    |-- Password Changed!
+```
+
+
 이른바 **Predictable Token(예측 가능한 토큰)** 취약점입니다. 난수(Random)가 아닌 예측 가능한 값(시간, 유저 ID 등)을 보안 토큰으로 사용했을 때 발생합니다.
 
 ### 💡 공격 시나리오

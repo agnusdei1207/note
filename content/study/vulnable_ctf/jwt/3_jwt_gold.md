@@ -55,6 +55,17 @@ MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyYqG...
 
 ## 💥 2. 알고리즘 혼동 공격 (Algorithm Confusion) 수행
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ]
+|-- Decodes JWT
+|-- Modifies Payload (role: admin)
+|-- Signs with 'None' alg / Cracked Secret --> [ Web Server ]
+                                               |-- Trusts JWT
+```
+
+
 이제 파이썬(Python)을 사용하여, 공개키 파일의 내용 전체를 하나의 거대한 "비밀번호"처럼 취급하여 HS256 서명을 생성하는 스크립트를 작성합니다.
 
 ### 💡 파이썬 익스플로잇 스크립트 작성

@@ -48,6 +48,18 @@ Access-Control-Allow-Credentials: true
 
 ## 💥 2. 취약점 식별 및 정규식 우회 도메인 확보 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Victim's Browser ]
+|-- Visits Attacker.com
+|-- AJAX Request to Target.com --(with Cookies)--> [ Target.com API ]
+                                                   |-- Allows * Origin
+<-- Sensitive Data Returned -----------------------|
+|-- Exfiltrates Data to Attacker
+```
+
+
 개발자가 작성했을 법한 취약한 정규식 패턴을 추측해 봅니다.
 
 * **가설 A (끝을 닫지 않음)**: `^https?:\/\/.*luxora\.test`

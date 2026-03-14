@@ -50,6 +50,15 @@ GET /sqli/gold?product_id=1'
 
 ## 💥 2. 스무고개 페이로드 설계 (Exploitation Strategy)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Input: ' OR 1=1 -- )--> [ Web Server ]
+                                        |-- Query: SELECT * FROM users WHERE name='' OR 1=1 --'
+                                        |-- Returns All Users
+```
+
+
 데이터베이스의 버전을 알아내거나 플래그를 찾기 위해 논리 연산자와 내장 함수를 결합합니다.
 
 ### 💡 활용할 SQL 내장 함수 (MySQL 기준)

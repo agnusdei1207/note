@@ -36,6 +36,16 @@ tags = ["CTF", "LUXORA", "Command Injection", "Platinum", "OOB", "WAF Bypass", "
 
 ## 💥 2. WAF 우회 및 OOB 페이로드 설계 (Bypass Strategy)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Input: 8.8.8.8 ; id)--> [ Web Server ]
+                                        |-- OS Command Execution
+                                        |-- Runs: ping 8.8.8.8 ; id
+                                        |-- Returns Output
+```
+
+
 각각의 차단 요소를 어떻게 우회할지 하나씩 설계해 봅니다.
 
 ### 💡 Strategy 1: 차단된 명령어(`ping`) 우회

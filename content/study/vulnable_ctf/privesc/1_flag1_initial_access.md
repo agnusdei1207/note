@@ -44,6 +44,13 @@ PORT   STATE SERVICE VERSION
 
 ## 💥 2. 웹 디렉터리 탐색 및 취약점 식별
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Low Priv User ] --(Run SUID Binary / PATH Injection)--> [ Root Shell ]
+```
+
+
 웹 페이지 메인에는 별다른 링크가 없었습니다. `gobuster`를 이용하여 숨겨진 파일이나 디렉터리를 강제로 찾아냅니다.
 
 ### Gobuster 디렉터리 브루트포싱

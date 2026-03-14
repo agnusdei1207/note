@@ -45,6 +45,15 @@ tags = ["CTF", "LUXORA", "MFA Bypass", "Gold", "Recovery Codes", "PRNG", "Write-
 
 ## 💥 2. 취약점 식별 및 PRNG Seed 크래킹 (Exploitation Strategy)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(mfa_required=false)--> [ Web Server ]
+                                       |-- Trusts Client Parameter
+                                       |-- Bypasses MFA
+```
+
+
 만약 타겟(Admin)이 백업 코드를 생성한 시점(Timestamp)을 대략적으로 알 수 있다면, 역으로 난수 발생기의 시드 값을 맞춰서 관리자의 백업 코드를 모조리 예측해 낼 수 있습니다.
 
 ### 💡 정보 유출 지점 탐색

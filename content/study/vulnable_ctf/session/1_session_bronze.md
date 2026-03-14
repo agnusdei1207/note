@@ -45,6 +45,16 @@ HTTP/1.1 200 OK
 
 ## 💥 2. 취약점 식별 및 공격 설계 (Exploitation Strategy)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Inject Session ID)--> [ Victim's Browser ]
+[ Victim ]   --(Logs In)------------> [ Web Server ]
+[ Attacker ] --(Uses Same Session)-> [ Web Server ]
+                                     |-- Logged in as Victim!
+```
+
+
 공격의 핵심은 "내가 만든 세션 ID를 다른 사람이 쓰게 만드는 것"입니다.
 
 ### 💡 Session Fixation 공격 시나리오

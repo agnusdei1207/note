@@ -47,6 +47,15 @@ Link: http://localhost:3000/reset?token=xyz123
 
 ## 💥 2. 취약점 식별 및 공격 설계 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Host: attacker.com)--> [ Web Server ]
+                                       |-- Generates Password Reset Link
+<-- Link: http://attacker.com/reset ---|
+```
+
+
 이 취약점은 애플리케이션 프레임워크(Node.js, PHP, Django 등)가 현재 자신에게 접속한 사용자의 호스트네임을 알아내기 위해, 가장 쉽게 접근할 수 있는 `req.headers.host` (또는 `$_SERVER['HTTP_HOST']`) 변수를 무비판적으로 신뢰할 때 발생합니다.
 
 ### 💡 파라미터 및 헤더 변조

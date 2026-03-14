@@ -46,6 +46,15 @@ email=user@luxora.test
 
 ## 💥 2. 취약점 식별 및 Host 헤더 조작 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Host: attacker.com)--> [ Web Server ]
+                                       |-- Generates Password Reset Link
+<-- Link: http://attacker.com/reset ---|
+```
+
+
 이른바 **Host Header Injection** 기법입니다.
 Burp Suite의 Repeater를 열어 원래의 `Host: localhost:3000` 부분을 해커의 서버 주소인 `evil-attacker.com` 으로 수정합니다.
 

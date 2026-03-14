@@ -36,6 +36,16 @@ tags = ["CTF", "LUXORA", "Business Logic", "Gold", "Coupon Stacking", "Race Cond
 
 ## 💥 2. 취약점 식별 및 공격 설계 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Buy -10 Items)--> [ Web Server ]
+                                  |-- Total = -500
+                                  |-- Balance = Balance - (-500)
+                                  |-- Balance Increased!
+```
+
+
 이른바 **Coupon Stacking (쿠폰 중첩)** 버그입니다. Race Condition과 Business Logic Flaw가 결합된 형태입니다.
 
 ### 💡 파이썬 `asyncio` 폭격 스크립트 작성

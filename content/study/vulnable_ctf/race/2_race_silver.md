@@ -50,6 +50,15 @@ target_user=userB&amount=200
 
 ## 💥 2. 취약점 식별 및 공격 설계 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Thread 1: Use Coupon)--> [ Web Server ] --(Check DB)--> Valid
+[ Attacker ] --(Thread 2: Use Coupon)--> [ Web Server ] --(Check DB)--> Valid
+                                         |-- Both Apply Discount!
+```
+
+
 이른바 **Limit Exceeding / Balance Manipulation** 기법입니다.
 
 ### 💡 터보 인트루더 (Burp Suite Turbo Intruder) 스크립트 작성

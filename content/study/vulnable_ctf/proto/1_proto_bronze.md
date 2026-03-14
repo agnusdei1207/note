@@ -53,6 +53,15 @@ Content-Type: application/json
 
 ## 💥 2. 취약점 식별 및 악성 JSON 조립 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --({"__proto__": {"role": "admin"}})--> [ Web Server ]
+                                                     |-- merge()
+                                                     |-- Global Object Polluted
+```
+
+
 이른바 **Prototype Pollution (프로토타입 오염)** 공격입니다.
 
 ### 💡 페이로드 설계

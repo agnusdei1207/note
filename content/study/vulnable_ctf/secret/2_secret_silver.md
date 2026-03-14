@@ -38,6 +38,15 @@ tags = ["CTF", "LUXORA", "Secret Leakage", "Silver", "Source Map", "Webpack", "W
 
 ## 💥 2. 취약점 식별 및 소스코드 복원 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(View Source)--> [ JS File / .map File ]
+                                |-- API_KEY = "XYZ123"
+                                |-- Extracted!
+```
+
+
 `app.min.js` 파일의 URL을 확인한 후, 그 뒤에 `.map` 을 붙여서 요청해 봅니다.
 
 **[소스 맵 요청]**

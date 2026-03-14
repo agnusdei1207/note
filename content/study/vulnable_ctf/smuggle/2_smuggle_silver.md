@@ -30,6 +30,16 @@ tags = ["CTF", "LUXORA", "Request Smuggling", "Silver", "TE.CL", "Cache Poisonin
 
 ## 💥 2. 취약점 식별 및 TE.CL 페이로드 설계 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(CL.TE Malformed Request)--> [ Front-end Proxy (Reads CL) ]
+                                            |-- Forwards as One Request
+                                            [ Back-end Server (Reads TE) ]
+                                            |-- Splits into Two Requests!
+```
+
+
 목표는 타겟 사이트의 공용 스크립트 파일(예: `/assets/main.js`)에 대한 캐시(Cache)를 내가 만든 악성 스크립트로 오염(Poisoning)시키는 것입니다.
 
 ### 💡 밀수(Smuggling) 페이로드 작성

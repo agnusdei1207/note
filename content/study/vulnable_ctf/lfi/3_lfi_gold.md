@@ -38,6 +38,15 @@ GET /lfi/gold?page=../../../../etc/passwd HTTP/1.1
 
 ## 💥 2. 공격 전략 설계 (Exploitation Strategy: Log/Session Poisoning)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(file=../../../../etc/passwd)--> [ Web Server ]
+                                                |-- include(../../../../etc/passwd)
+<-- Contents of /etc/passwd --------------------|
+```
+
+
 이른바 **LFI to RCE (Session Poisoning)** 공격입니다.
 
 ### 💡 PHP 세션 파일의 특징

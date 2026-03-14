@@ -42,6 +42,14 @@ $ ./secure_keygen_patched.elf
 
 ## 💥 2. 취약점 식별 및 동적 분석 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Binary ] --(Hex Edit: JZ -> NOP)--> [ Patched Binary ]
+                                      |-- Always Validates License
+```
+
+
 `gdb` (GNU Debugger)를 사용하여 프로그램을 한 줄씩 실행시키면서(Tracing), 키 검증을 수행하는 함수 직후에 개입할 계획을 세웁니다.
 
 ### 💡 디스어셈블 및 중단점(Breakpoint) 설정

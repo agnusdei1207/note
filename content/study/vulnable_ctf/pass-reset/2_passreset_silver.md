@@ -35,6 +35,16 @@ tags = ["CTF", "LUXORA", "Password Reset", "Silver", "Token Predictability", "Wr
 
 ## 💥 2. 취약점 식별 및 공격 설계 (Exploitation Strategy)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Target: admin@luxora, Host: attacker.com)--> [ Web Server ]
+                                                             |-- Sends email to Admin
+[ Admin ]    --(Clicks Link)-------------------------------> [ Attacker Server ]
+                                                             |-- Token Stolen!
+```
+
+
 이 취약점은 **Insecure Randomness (안전하지 않은 난수 사용)** 또는 **Token Predictability (토큰 예측 가능성)**로 분류됩니다.
 
 ### 💡 타겟 토큰 예측 시나리오

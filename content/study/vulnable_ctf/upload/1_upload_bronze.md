@@ -34,6 +34,16 @@ tags = ["CTF", "LUXORA", "File Upload", "Bronze", "Web Shell", "Write-up"]
 
 ## 💥 2. 취약점 식별 및 악성 스크립트 작성 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Upload shell.php.jpg)--> [ Web Server ]
+                                         |-- Saved to /uploads/
+[ Attacker ] --(GET /uploads/shell.php)--> [ Web Server ]
+                                           |-- Executes PHP Code!
+```
+
+
 개발자가 업로드되는 파일의 확장자나 내용(MIME Type)을 전혀 검사하지 않고 그대로 서버에 저장한다고 가정하고 가장 기본적인 웹 쉘을 작성합니다.
 
 ### 💡 웹 쉘(Web Shell) 코드 작성

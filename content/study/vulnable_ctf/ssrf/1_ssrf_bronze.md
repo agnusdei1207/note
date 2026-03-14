@@ -46,6 +46,15 @@ url=http://example.com
 
 ## 💥 2. 취약점 식별 및 내부 API 탐색 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(url=http://169.254.169.254)--> [ Web Server ]
+                                               |-- Fetches Metadata
+<-- Metadata Returned -------------------------|
+```
+
+
 이 취약점이 바로 **SSRF (Server-Side Request Forgery)** 입니다. 서버를 프록시(Proxy)처럼 이용하여 내부망을 정찰하거나 공격하는 기법입니다.
 
 ### 💡 내부망 포트 스캐닝

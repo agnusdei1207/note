@@ -58,6 +58,15 @@ if (config.scriptUrl) {
 
 ## 💥 2. 취약점 식별 및 페이로드 설계 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --({"__proto__": {"role": "admin"}})--> [ Web Server ]
+                                                     |-- merge()
+                                                     |-- Global Object Polluted
+```
+
+
 목표는 타겟 페이지의 `config` 객체 생성 과정에 끼어들어, 전역적으로 `scriptUrl` 변수를 오염시키는 것입니다.
 
 ### 💡 URL 페이로드 작성

@@ -37,6 +37,15 @@ GET /lfi/silver?file=about HTTP/1.1
 
 ## 💥 2. 취약점 식별 및 우회 전략 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(file=../../../../etc/passwd)--> [ Web Server ]
+                                                |-- include(../../../../etc/passwd)
+<-- Contents of /etc/passwd --------------------|
+```
+
+
 ### 💡 전략 1: 널 바이트 인젝션 (Null Byte Injection)
 C 언어 기반의 파일 시스템 API(PHP 구버전 등)는 문자열의 끝을 `\0` (Null)로 인식합니다.
 URL 인코딩으로는 `%00` 입니다.

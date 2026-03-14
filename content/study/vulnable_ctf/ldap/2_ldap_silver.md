@@ -41,6 +41,15 @@ GET /ldap/silver?userid=user1
 
 ## 💥 2. 취약점 식별 및 필터 조작 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Input: admin)(password=A*)--> [ LDAP Server ]
+                                              |-- Evaluates Filter
+                                              |-- True/False Response
+```
+
+
 백엔드 쿼리가 다음과 같이 구성되었다고 가정합니다.
 `(&(objectClass=user)(userid=[INPUT]))`
 

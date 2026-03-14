@@ -42,6 +42,17 @@ message=User login attempt
 
 ## 💥 2. 취약점 식별 및 페이로드 조립 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Input: test\n[SUCCESS] Admin logged in)--> [ Web Server ]
+                                                            |-- Writes to Log
+[ Log File ]
+|-- INFO - test
+|-- [SUCCESS] Admin logged in
+```
+
+
 목표는 다음과 같이 로그 모니터링 시스템이나 관리자를 속이는 가짜 로그를 한 줄 추가하는 것입니다.
 `[2023-11-01 10:00:01] SUCCESS - Admin Login Success - User: admin`
 

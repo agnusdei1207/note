@@ -41,6 +41,16 @@ Set-Cookie: session=eyJhY2NvdW50X2lkIjo5OTksInJvbGUiOiJndWVzdCJ9.X8bA9Q_uLpW-c; 
 
 ## 💥 2. 비밀키(Secret Key) 획득 전략 (Exploitation Strategy)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Inject Session ID)--> [ Victim's Browser ]
+[ Victim ]   --(Logs In)------------> [ Web Server ]
+[ Attacker ] --(Uses Same Session)-> [ Web Server ]
+                                     |-- Logged in as Victim!
+```
+
+
 비밀키를 찾는 방법은 크게 세 가지입니다.
 1. **브루트 포싱 (Brute Force)**: JWT Silver 단계에서 했던 것처럼 사전(Wordlist) 공격을 수행한다.
 2. **정보 유출 (Information Leakage)**: GitHub(깃허브), `.git` 폴더, 개발자 코멘트, 혹은 백업 파일(`.bak`, `.env`)을 뒤진다.

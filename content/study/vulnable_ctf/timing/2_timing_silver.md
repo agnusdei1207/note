@@ -40,6 +40,15 @@ Content-Type: application/json
 
 ## 💥 2. 취약점 식별 및 타이밍 공격 설계 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Guess: A)--> [ Server ] (Returns in 10ms)
+[ Attacker ] --(Guess: B)--> [ Server ] (Returns in 10ms)
+[ Attacker ] --(Guess: C)--> [ Server ] (Returns in 50ms) -> Correct Char!
+```
+
+
 이 공격은 문자 하나가 맞을 때마다 아주 미세하게 증가하는 응답 시간을 측정하여, 비밀값을 한 글자씩 알아내는 기법입니다. 네트워크 지연(Latency)의 영향을 받으므로 수십~수백 번의 평균을 내어 통계적으로 접근해야 합니다.
 
 ### 💡 파이썬 측정 스크립트 작성 (개념 증명용)

@@ -43,6 +43,16 @@ Cookie: prefs=TzoxMToiVXNlclByZWZzIjoyOntzOjU6InRoZW1lIjtzOjQ6ImRhcmsiO3M6ODoibG
 
 ## 💥 2. 취약점 식별 및 악성 객체 조립 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Serialized Malicious Object)--> [ Web Server ]
+                                                |-- unserialize()
+                                                |-- Magic Methods (__destruct) Triggered
+                                                |-- RCE / File Write
+```
+
+
 이 챌린지에서는 LFI 등 다른 정보 수집을 통해, 소스코드 내부에 디버깅용으로 남겨둔 `LogWriter` 클래스가 존재한다는 힌트가 주어집니다.
 
 **[서버 내부에 숨겨진 클래스 소스 (가정)]**

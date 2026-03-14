@@ -44,6 +44,15 @@ GET /xss/bronze?query=Laptop
 
 ## 💥 2. 취약점 식별 및 페이로드 조립 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Injects <script>)--> [ Web Server / Browser ]
+                                     |-- Script Executed
+                                     |-- Steals Cookies / Actions
+```
+
+
 가장 기초적인 XSS 페이로드인 `<script>` 태그를 사용하여 브라우저 경고창(Alert)을 띄워보겠습니다.
 
 ### 💡 페이로드 작성

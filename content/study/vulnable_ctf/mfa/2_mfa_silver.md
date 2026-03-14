@@ -36,6 +36,15 @@ tags = ["CTF", "LUXORA", "MFA Bypass", "Silver", "Race Condition", "TOCTOU", "Wr
 
 ## 💥 2. 취약점 식별 및 공격 설계 (Exploitation Strategy)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(mfa_required=false)--> [ Web Server ]
+                                       |-- Trusts Client Parameter
+                                       |-- Bypasses MFA
+```
+
+
 웹 애플리케이션(특히 멀티스레드 환경의 Java나 비동기 I/O의 Node.js)에서 동시성 제어(Concurrency Control)를 제대로 하지 않으면 발생하는 **경쟁 상태(Race Condition)** 공격을 설계합니다.
 
 ### 💡 Race Condition (TOCTOU) 원리

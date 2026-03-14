@@ -46,6 +46,15 @@ Content-Type: application/json
 
 ## 💥 2. 취약점 식별 및 페이로드 설계 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --({"username":{"$ne":null}, "password":{"$ne":null}})--> [ NoSQL DB ]
+                                                                       |-- Condition is True
+                                                                       |-- Returns Admin Record
+```
+
+
 목표는 `admin@luxora.test` 계정으로 로그인하는 것이지만, 우리는 비밀번호를 모릅니다.
 따라서 비밀번호 필드에 단순한 문자열이 아닌 **NoSQL 연산자 객체**를 주입해보겠습니다.
 

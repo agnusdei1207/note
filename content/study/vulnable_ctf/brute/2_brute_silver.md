@@ -42,6 +42,17 @@ Content-Type: application/json
 
 ## 💥 2. Rate Limit 우회 전략 (Exploitation Strategy)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(Brute Force / FFuF)--> [ Web Server ]
+             |-- Pwd1                  |-- Invalid
+             |-- Pwd2                  |-- Invalid
+             |-- ...                   |-- ...
+             |-- CorrectPwd            |-- Access Granted!
+```
+
+
 IP 스푸핑(Spoofing)을 적용하여 FFuF 페이로드를 다시 설계합니다.
 
 ### 💡 X-Forwarded-For (XFF) 스푸핑

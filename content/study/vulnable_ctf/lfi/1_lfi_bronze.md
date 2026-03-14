@@ -44,6 +44,15 @@ Host: localhost:3000
 
 ## 💥 2. 취약점 식별 및 페이로드 조립 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker ] --(file=../../../../etc/passwd)--> [ Web Server ]
+                                                |-- include(../../../../etc/passwd)
+<-- Contents of /etc/passwd --------------------|
+```
+
+
 리눅스 시스템에서 `/etc/passwd` 파일은 사용자 계정 정보가 들어있는 대표적인 파일로, LFI 취약점을 검증할 때 전 세계 해커들이 가장 먼저 찔러보는 "국룰" 타겟입니다.
 
 ### 💡 페이로드 설계

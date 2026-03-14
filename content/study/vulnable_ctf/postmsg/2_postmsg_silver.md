@@ -53,6 +53,15 @@ Bronze와 달리, 보안 패치가 적용되어 Origin을 검증하는 로직이
 
 ## 💥 2. 취약점 식별 및 도메인 스푸핑 설계 (Exploitation)
 
+### 📊 공격 흐름도 (Attack Flow)
+
+```text
+[ Attacker Site ] --(postMessage(Malicious Data))--> [ Target iframe ]
+                                                     |-- Missing Origin Check
+                                                     |-- Executes DOM XSS
+```
+
+
 정규식 `^https:\/\/.*\.luxora\.test` 를 우회하는 해커의 악성 도메인을 설계해야 합니다.
 
 ### 💡 정규식 우회 도메인 만들기
