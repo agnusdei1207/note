@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: SE (소프트웨어 공학) — `content/studynote/4_software_engineering/`
-- **완료**: SE **#740 (ISP (정보전략계획) 수립 절차)**
-- **다음**: SE **#741 (ISMP (정보시스템 마스터플랜))**
+- **완료**: SE **#740 (API 스로틀링 Rate Limit DDoS 방어)**
+- **다음**: SE **#741 (mTLS 상호 인증 서비스 간 보안)**
 - **참조**: `content/studynote/4_software_engineering/_keyword_list.md`
 
 ---
