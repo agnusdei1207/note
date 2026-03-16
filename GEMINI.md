@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: DB (데이터베이스) — `content/studynote/5_database/`
-- **완료**: DB **#147 (PIVOT / UNPIVOT - 행과 열의 회전 및 변환)**
-- **다음**: DB **#148 (Grouping Sets / Rollup / Cube - 다차원 집계 연산)**
+- **완료**: DB **#148 (Grouping Sets / Rollup / Cube - 다차원 집계 연산)**
+- **다음**: DB **#149 (CTE, Common Table Expression - 공통 테이블 식과 가독성 향상)**
 - **참조**: `content/studynote/5_database/_keyword_list.md`
 
 ---
@@ -44,8 +44,8 @@
 | OS | 800 | ~800 | 100% ✅ |
 | NW | 1,248 | ~1,248 | 100% ✅ |
 | SE | 384 | ~800 | 48.0% |
-| DB | 147 | ~800 | 18.4% |
-| **합계** | **3,399** | **~4,468** | **76.1%** |
+| DB | 148 | ~800 | 18.5% |
+| **합계** | **3,400** | **~4,468** | **76.1%** |
 
 
 
