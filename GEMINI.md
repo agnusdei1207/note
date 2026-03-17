@@ -29,10 +29,10 @@
 ## 📍 현재 위치
 
 ### ⚡ 다음 작업
-- **과목**: 전체 과목 작성 완료
-- **완료**: 1~16과목 `content/studynote/` 전 범위 문서 생성 및 번호 체계 정리 완료
-- **다음**: 기존 작성본 품질 고도화 및 구조 통일 작업
-- **참조**: `content/studynote/*/_keyword_list.md`
+- **과목**: ICT 융합 (ICT Convergence) — `content/studynote/6_ict_convergence/`
+- **완료**: ICT **#300 (벡터 인덱싱 - 정확도와 속도의 트레이드오프를 활용한 고속 벡터 검색 기술, ANN)**
+- **다음**: ICT **#301**
+- **참조**: `content/studynote/6_ict_convergence/_keyword_list.md`
 
 ---
 
@@ -45,18 +45,10 @@
 | NW | 1,248 | ~1,248 | 100% ✅ |
 | SE | 800 | ~800 | 100% ✅ |
 | DB | 600 | ~600 | 100% ✅ |
-| ICT | 552 | 552 | 100% ✅ |
-| Enterprise | 482 | 482 | 100% ✅ |
-| Algorithm/Stats | 160 | 160 | 100% ✅ |
-| Security | 310 | 310 | 100% ✅ |
-| AI | 420 | 420 | 100% ✅ |
-| Design Supervision | 452 | 452 | 100% ✅ |
-| IT Management | 374 | 374 | 100% ✅ |
-| Cloud Architecture | 372 | 372 | 100% ✅ |
-| Data Engineering | 258 | 258 | 100% ✅ |
-| DevOps/SRE | 372 | 372 | 100% ✅ |
-| BigData | 236 | 236 | 100% ✅ |
-| **합계** | **8,110** | **8,110** | **100% ✅** |
+| ICT | 300 | ~800 | 37.5% |
+| **합계** | **4,568** | **~5,068** | **90.1%** |
+
+
 
 
 
