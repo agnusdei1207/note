@@ -31,7 +31,7 @@
 ### ⚡ 다음 작업
 - **과목**: 엔터프라이즈 시스템 (Enterprise Systems) — `content/studynote/7_enterprise_systems/`
 - **완료**: Enterprise **#1~#107** 작성 완료
-- **다음**: Enterprise **#108** (CRM)
+- **다음**: Enterprise **#108** (LTV)
 - **참조**: `content/studynote/7_enterprise_systems/_keyword_list.md`
 
 ---
