@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: 엔터프라이즈 시스템 (Enterprise Systems) — `content/studynote/7_enterprise_systems/`
-- **완료**: Enterprise **#1~#132** 작성 완료
-- **다음**: Enterprise **#133** (SEM / VBM / BSC - 상세)
+- **완료**: Enterprise **#1~#133** 작성 완료
+- **다음**: Enterprise **#134** (전략 시뮬레이션)
 - **참조**: `content/studynote/7_enterprise_systems/_keyword_list.md`
 
 ---
@@ -46,8 +46,8 @@
 | SE | 800 | ~800 | 100% ✅ |
 | DB | 600 | ~600 | 100% ✅ |
 | ICT | 300 | ~800 | 37.5% |
-| Enterprise | 132 | 482 | 27.4% |
-| **합계** | **4,700** | **~5,550** | **84.7%** |
+| Enterprise | 133 | 482 | 27.6% |
+| **합계** | **4,701** | **~5,550** | **84.7%** |
 
 
 
