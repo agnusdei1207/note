@@ -29,10 +29,10 @@
 ## 📍 현재 위치
 
 ### ⚡ 다음 작업
-- **과목**: ICT 융합 (ICT Convergence) — `content/studynote/6_ict_convergence/`
-- **완료**: ICT **#300 (벡터 인덱싱 - 정확도와 속도의 트레이드오프를 활용한 고속 벡터 검색 기술, ANN)**
-- **다음**: ICT **#301**
-- **참조**: `content/studynote/6_ict_convergence/_keyword_list.md`
+- **과목**: 엔터프라이즈 시스템 (Enterprise Systems) — `content/studynote/7_enterprise_systems/`
+- **완료**: Enterprise **#1~#3** 작성 완료
+- **다음**: Enterprise **#4**
+- **참조**: `content/studynote/7_enterprise_systems/_keyword_list.md`
 
 ---
 
@@ -46,8 +46,8 @@
 | SE | 800 | ~800 | 100% ✅ |
 | DB | 600 | ~600 | 100% ✅ |
 | ICT | 300 | ~800 | 37.5% |
-| **합계** | **4,568** | **~5,068** | **90.1%** |
-
+| Enterprise | 3 | 482 | 0.6% |
+| **합계** | **4,571** | **~5,550** | **82.4%** |
 
 
 
