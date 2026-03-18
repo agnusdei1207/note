@@ -1,4 +1,5 @@
 +++
+weight = 127
 title = "127. ROM과 RAM"
 date = "2026-03-18"
 [extra]

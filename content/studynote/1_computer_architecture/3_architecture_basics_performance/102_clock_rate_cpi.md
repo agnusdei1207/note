@@ -1,4 +1,5 @@
 +++
+weight = 102
 title = "102. 클럭 속도 (Clock Rate/Speed)와 CPI"
 date = "2026-03-18"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 52
 title = "52. SR 플립플롭 (SR Flip-Flop)"
 date = "2026-03-18"
 [extra]

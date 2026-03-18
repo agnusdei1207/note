@@ -1,4 +1,5 @@
 +++
+weight = 117
 title = "117. 직접 매핑 (Direct Mapping)"
 date = "2026-03-18"
 [extra]

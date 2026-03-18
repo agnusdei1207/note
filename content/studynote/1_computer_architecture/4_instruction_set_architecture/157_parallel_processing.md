@@ -1,4 +1,5 @@
 +++
+weight = 157
 title = "157. 병렬 처리 (Parallel Processing)"
 date = "2026-03-18"
 [extra]

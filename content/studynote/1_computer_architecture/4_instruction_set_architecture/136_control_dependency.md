@@ -1,4 +1,5 @@
 +++
+weight = 136
 title = "136. 제어 의존성 (Control Dependency)"
 date = "2026-03-18"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 35
 title = "35. 리플 캐리 가산기 (Ripple Carry Adder)"
 date = "2026-03-18"
 [extra]

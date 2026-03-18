@@ -1,4 +1,5 @@
 +++
+weight = 25
 title = "25. 카르노 맵 (Karnaugh Map)"
 date = "2026-03-18"
 [extra]

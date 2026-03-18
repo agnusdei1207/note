@@ -1,4 +1,5 @@
 +++
+weight = 76
 title = "76. 아스키코드 (ASCII)"
 date = "2026-03-18"
 [extra]

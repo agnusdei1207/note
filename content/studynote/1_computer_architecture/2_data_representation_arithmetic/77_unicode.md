@@ -1,4 +1,5 @@
 +++
+weight = 77
 title = "77. 유니코드 (Unicode)"
 date = "2026-03-18"
 [extra]

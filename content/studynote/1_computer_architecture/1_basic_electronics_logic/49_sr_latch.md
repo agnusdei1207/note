@@ -1,4 +1,5 @@
 +++
+weight = 49
 title = "49. SR 래치 (Set-Reset Latch)"
 date = "2026-03-18"
 [extra]

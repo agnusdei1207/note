@@ -1,4 +1,5 @@
 +++
+weight = 31
 title = "31. 범용 게이트 (Universal Gate)"
 date = "2026-03-18"
 [extra]

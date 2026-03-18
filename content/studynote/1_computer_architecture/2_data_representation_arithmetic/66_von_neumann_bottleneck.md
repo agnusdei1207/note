@@ -1,4 +1,5 @@
 +++
+weight = 66
 title = "66. 폰 노이만 병목 (Von Neumann Bottleneck)"
 date = "2026-03-18"
 [extra]

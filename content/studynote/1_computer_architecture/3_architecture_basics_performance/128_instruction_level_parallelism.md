@@ -1,4 +1,5 @@
 +++
+weight = 128
 title = "128. 명령어 수준 병렬성 (Instruction-Level Parallelism, ILP)"
 date = "2026-03-18"
 [extra]

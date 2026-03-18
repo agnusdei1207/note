@@ -1,4 +1,5 @@
 +++
+weight = 151
 title = "151. 버스 매트릭스 (Bus Matrix / Crossbar Switch)"
 date = "2026-03-18"
 [extra]

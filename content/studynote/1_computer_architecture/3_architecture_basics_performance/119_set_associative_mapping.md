@@ -1,4 +1,5 @@
 +++
+weight = 119
 title = "119. 집합 연관 매핑 (Set Associative Mapping)"
 date = "2026-03-18"
 [extra]

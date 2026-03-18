@@ -1,4 +1,5 @@
 +++
+weight = 141
 title = "141. SMT (Simultaneous Multithreading) / 하이퍼스레딩"
 date = "2026-03-18"
 [extra]

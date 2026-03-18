@@ -1,4 +1,5 @@
 +++
+weight = 72
 title = "72. 2의 보수 (2's Complement)"
 date = "2026-03-18"
 [extra]

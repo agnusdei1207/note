@@ -1,4 +1,5 @@
 +++
+weight = 14
 title = "14. 트랜지스터 (Transistor)"
 date = "2026-03-18"
 [extra]

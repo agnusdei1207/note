@@ -1,4 +1,5 @@
 +++
+weight = 166
 title = "166. 주소 변환 (Address Translation)"
 date = "2026-03-18"
 [extra]

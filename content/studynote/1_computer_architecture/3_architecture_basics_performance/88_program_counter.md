@@ -1,4 +1,5 @@
 +++
+weight = 88
 title = "88. 프로그램 카운터 (Program Counter, PC)"
 date = "2026-03-18"
 [extra]

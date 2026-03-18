@@ -1,4 +1,5 @@
 +++
+weight = 65
 title = "65. 명령어 집합 구조 (Instruction Set Architecture, ISA)"
 date = "2026-03-18"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 99
 title = "99. 분기 예측 (Branch Prediction)"
 date = "2026-03-18"
 [extra]

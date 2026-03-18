@@ -1,4 +1,5 @@
 +++
+weight = 1
 title = "01. 전압 (Voltage)"
 date = "2026-03-18"
 [extra]

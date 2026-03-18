@@ -1,4 +1,5 @@
 +++
+weight = 148
 title = "148. 인터럽트 (Interrupt)"
 date = "2026-03-18"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 83
 title = "83. 데이터 통로 (Datapath)와 제어 유닛 (Control Unit)"
 date = "2026-03-18"
 [extra]

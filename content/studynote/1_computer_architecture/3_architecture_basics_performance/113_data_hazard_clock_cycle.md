@@ -1,4 +1,5 @@
 +++
+weight = 113
 title = "113. 데이터 헤저드와 클럭 사이클(Clock Cycle)"
 date = "2026-03-18"
 [extra]

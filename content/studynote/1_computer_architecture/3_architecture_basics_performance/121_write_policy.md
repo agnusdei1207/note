@@ -1,4 +1,5 @@
 +++
+weight = 121
 title = "121. 쓰기 정책 (Write Policy: Write-Through vs Write-Back)"
 date = "2026-03-18"
 [extra]

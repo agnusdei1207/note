@@ -1,4 +1,5 @@
 +++
+weight = 106
 title = "106. 구조적 해저드 (Structural Hazard)"
 date = "2026-03-18"
 [extra]

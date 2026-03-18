@@ -1,4 +1,5 @@
 +++
+weight = 16
 title = "16. FET (Field Effect Transistor)"
 date = "2026-03-18"
 [extra]

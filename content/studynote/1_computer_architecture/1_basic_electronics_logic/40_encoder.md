@@ -1,4 +1,5 @@
 +++
+weight = 40
 title = "40. 인코더 (Encoder)"
 date = "2026-03-18"
 [extra]

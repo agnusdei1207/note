@@ -1,4 +1,5 @@
 +++
+weight = 140
 title = "140. 스레드 레벨 병렬성 (Thread-Level Parallelism, TLP)"
 date = "2026-03-18"
 [extra]

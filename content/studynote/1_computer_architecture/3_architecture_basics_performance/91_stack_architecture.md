@@ -1,4 +1,5 @@
 +++
+weight = 91
 title = "91. 스택 아키텍처 (Stack Architecture)"
 date = "2026-03-18"
 [extra]

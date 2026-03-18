@@ -1,4 +1,5 @@
 +++
+weight = 103
 title = "103. MIPS와 FLOPS"
 date = "2026-03-18"
 [extra]

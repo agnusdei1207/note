@@ -1,4 +1,5 @@
 +++
+weight = 134
 title = "134. 스택 기반(Stack-based) vs 레지스터 기반(Register-based)"
 date = "2026-03-18"
 [extra]

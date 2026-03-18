@@ -1,4 +1,5 @@
 +++
+weight = 85
 title = "85. 명령어 포맷 (Instruction Format)"
 date = "2026-03-18"
 [extra]

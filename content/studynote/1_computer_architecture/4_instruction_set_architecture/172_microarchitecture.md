@@ -1,4 +1,5 @@
 +++
+weight = 172
 title = "172. 마이크로아키텍처 (Microarchitecture)"
 date = "2026-03-18"
 [extra]

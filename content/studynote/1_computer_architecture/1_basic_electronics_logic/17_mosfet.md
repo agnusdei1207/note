@@ -1,4 +1,5 @@
 +++
+weight = 17
 title = "17. MOSFET"
 date = "2026-03-18"
 [extra]

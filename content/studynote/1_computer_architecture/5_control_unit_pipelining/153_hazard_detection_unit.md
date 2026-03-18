@@ -1,4 +1,5 @@
 +++
+weight = 153
 title = "153. 해저드 감지 유닛 (Hazard Detection Unit)"
 date = "2026-03-18"
 [extra]

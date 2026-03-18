@@ -1,4 +1,5 @@
 +++
+weight = 79
 title = "79. EBCDIC (Extended BCD Interchange Code)"
 date = "2026-03-18"
 [extra]

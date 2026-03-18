@@ -1,4 +1,5 @@
 +++
+weight = 84
 title = "84. 명령어 사이클 (Instruction Cycle)"
 date = "2026-03-18"
 [extra]

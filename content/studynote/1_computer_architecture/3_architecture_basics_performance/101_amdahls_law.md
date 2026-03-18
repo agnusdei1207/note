@@ -1,4 +1,5 @@
 +++
+weight = 101
 title = "101. 암달의 법칙 (Amdahl's Law)"
 date = "2026-03-18"
 [extra]

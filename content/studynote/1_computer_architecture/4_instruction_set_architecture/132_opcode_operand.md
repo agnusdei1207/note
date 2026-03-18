@@ -1,4 +1,5 @@
 +++
+weight = 132
 title = "132. 오퍼코드 (Opcode)와 오퍼랜드 (Operand)"
 date = "2026-03-18"
 [extra]

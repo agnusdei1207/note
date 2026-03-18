@@ -1,4 +1,5 @@
 +++
+weight = 47
 title = "47. 레벨 트리거 (Level Trigger)"
 date = "2026-03-18"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 138
 title = "138. 수퍼스칼라 (Superscalar) 심화"
 date = "2026-03-18"
 [extra]

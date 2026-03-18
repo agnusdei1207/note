@@ -1,4 +1,5 @@
 +++
+weight = 29
 title = "29. NAND, NOR 게이트"
 date = "2026-03-18"
 [extra]

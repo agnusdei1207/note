@@ -1,4 +1,5 @@
 +++
+weight = 123
 title = "123. 캐시 일관성 (Cache Coherence)과 스누핑 (Snooping)"
 date = "2026-03-18"
 [extra]

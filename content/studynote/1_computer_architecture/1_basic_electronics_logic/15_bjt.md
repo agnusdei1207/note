@@ -1,4 +1,5 @@
 +++
+weight = 15
 title = "15. BJT (Bipolar Junction Transistor)"
 date = "2026-03-18"
 [extra]

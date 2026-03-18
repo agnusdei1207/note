@@ -1,4 +1,5 @@
 +++
+weight = 109
 title = "109. 데이터패스 (Datapath)"
 date = "2026-03-18"
 [extra]

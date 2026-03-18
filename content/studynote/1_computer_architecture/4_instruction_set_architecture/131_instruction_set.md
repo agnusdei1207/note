@@ -1,4 +1,5 @@
 +++
+weight = 131
 title = "131. 명령어 세트 (Instruction Set)"
 date = "2026-03-18"
 [extra]

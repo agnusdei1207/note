@@ -1,4 +1,5 @@
 +++
+weight = 42
 title = "42. 디멀티플렉서 (Demultiplexer, DEMUX)"
 date = "2026-03-18"
 [extra]

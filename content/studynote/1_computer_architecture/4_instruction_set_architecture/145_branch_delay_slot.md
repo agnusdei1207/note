@@ -1,4 +1,5 @@
 +++
+weight = 145
 title = "145. 분기 지연 슬롯 (Branch Delay Slot)"
 date = "2026-03-18"
 [extra]

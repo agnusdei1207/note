@@ -1,4 +1,5 @@
 +++
+weight = 112
 title = "112. 마이크로프로그램 제어 (Microprogrammed Control)"
 date = "2026-03-18"
 [extra]

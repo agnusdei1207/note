@@ -1,4 +1,5 @@
 +++
+weight = 162
 title = "162. MIMD (Multiple Instruction Multiple Data)"
 date = "2026-03-18"
 [extra]

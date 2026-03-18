@@ -1,4 +1,5 @@
 +++
+weight = 81
 title = "81. 해밍 코드 (Hamming Code)"
 date = "2026-03-18"
 [extra]

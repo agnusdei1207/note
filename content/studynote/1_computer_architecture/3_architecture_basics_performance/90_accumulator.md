@@ -1,4 +1,5 @@
 +++
+weight = 90
 title = "90. 누산기 (Accumulator, AC)"
 date = "2026-03-18"
 [extra]

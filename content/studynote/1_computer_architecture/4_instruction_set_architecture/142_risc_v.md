@@ -1,4 +1,5 @@
 +++
+weight = 142
 title = "142. RISC-V (리스크 파이브)"
 date = "2026-03-18"
 [extra]

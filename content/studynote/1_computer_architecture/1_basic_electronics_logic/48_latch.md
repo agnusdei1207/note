@@ -1,4 +1,5 @@
 +++
+weight = 48
 title = "48. 래치 (Latch)"
 date = "2026-03-18"
 [extra]

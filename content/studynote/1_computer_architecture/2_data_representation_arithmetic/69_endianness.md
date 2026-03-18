@@ -1,4 +1,5 @@
 +++
+weight = 69
 title = "69. 엔디안 (Endianness: Big/Little Endian)"
 date = "2026-03-18"
 [extra]

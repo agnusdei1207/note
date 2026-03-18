@@ -1,4 +1,5 @@
 +++
+weight = 120
 title = "120. LRU 알고리즘 (Least Recently Used)"
 date = "2026-03-18"
 [extra]

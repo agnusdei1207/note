@@ -1,4 +1,5 @@
 +++
+weight = 63
 title = "63. 폰 노이만 아키텍처 (Von Neumann Architecture)"
 date = "2026-03-18"
 [extra]

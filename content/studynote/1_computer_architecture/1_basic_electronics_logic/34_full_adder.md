@@ -1,4 +1,5 @@
 +++
+weight = 34
 title = "34. 전가산기 (Full Adder)"
 date = "2026-03-18"
 [extra]

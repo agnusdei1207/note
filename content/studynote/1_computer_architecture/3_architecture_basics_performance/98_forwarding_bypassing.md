@@ -1,4 +1,5 @@
 +++
+weight = 98
 title = "98. 데이터 해저드 해결: 전방 전달 (Forwarding / Bypassing)"
 date = "2026-03-18"
 [extra]

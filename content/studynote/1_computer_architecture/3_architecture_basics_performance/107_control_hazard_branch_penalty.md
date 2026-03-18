@@ -1,4 +1,5 @@
 +++
+weight = 107
 title = "107. 제어 해저드 (Control Hazard)와 분기 페널티"
 date = "2026-03-18"
 [extra]

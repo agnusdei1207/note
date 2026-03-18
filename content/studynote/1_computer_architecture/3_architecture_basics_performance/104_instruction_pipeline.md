@@ -1,4 +1,5 @@
 +++
+weight = 104
 title = "104. 명령어 파이프라인 (Instruction Pipeline)"
 date = "2026-03-18"
 [extra]

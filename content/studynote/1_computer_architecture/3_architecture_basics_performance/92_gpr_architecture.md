@@ -1,4 +1,5 @@
 +++
+weight = 92
 title = "92. 범용 레지스터 아키텍처 (GPR Architecture)"
 date = "2026-03-18"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 27
 title = "27. 논리 게이트 (Logic Gates)"
 date = "2026-03-18"
 [extra]

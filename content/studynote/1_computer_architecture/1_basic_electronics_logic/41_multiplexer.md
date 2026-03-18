@@ -1,4 +1,5 @@
 +++
+weight = 41
 title = "41. 멀티플렉서 (Multiplexer, MUX)"
 date = "2026-03-18"
 [extra]

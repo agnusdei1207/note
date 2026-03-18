@@ -1,4 +1,5 @@
 +++
+weight = 135
 title = "135. 데이터 의존성 (Data Dependency)"
 date = "2026-03-18"
 [extra]

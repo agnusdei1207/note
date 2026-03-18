@@ -1,4 +1,5 @@
 +++
+weight = 57
 title = "57. 레지스터 (Register)"
 date = "2026-03-18"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 11
 title = "11. 다이오드 (Diode)"
 date = "2026-03-18"
 [extra]

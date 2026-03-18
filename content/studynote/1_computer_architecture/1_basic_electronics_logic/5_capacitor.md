@@ -1,4 +1,5 @@
 +++
+weight = 5
 title = "05. 커패시터 (Capacitor)"
 date = "2026-03-18"
 [extra]

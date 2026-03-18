@@ -1,4 +1,5 @@
 +++
+weight = 158
 title = "158. 플린의 분류 (Flynn's Taxonomy)"
 date = "2026-03-18"
 [extra]

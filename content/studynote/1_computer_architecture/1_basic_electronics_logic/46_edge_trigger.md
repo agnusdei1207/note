@@ -1,4 +1,5 @@
 +++
+weight = 46
 title = "46. 에지 트리거 (Edge Trigger)"
 date = "2026-03-18"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 143
 title = "143. 파이프라인 레지스터 (Pipeline Register / Latch)"
 date = "2026-03-18"
 [extra]

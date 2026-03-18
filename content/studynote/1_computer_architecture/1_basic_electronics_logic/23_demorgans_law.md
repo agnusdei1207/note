@@ -1,4 +1,5 @@
 +++
+weight = 23
 title = "23. 드모르간의 법칙 (De Morgan's Law)"
 date = "2026-03-18"
 [extra]

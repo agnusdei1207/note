@@ -1,4 +1,5 @@
 +++
+weight = 94
 title = "94. CISC (Complex Instruction Set Computer)"
 date = "2026-03-18"
 [extra]

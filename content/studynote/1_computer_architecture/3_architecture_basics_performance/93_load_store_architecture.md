@@ -1,4 +1,5 @@
 +++
+weight = 93
 title = "93. Load/Store 아키텍처"
 date = "2026-03-18"
 [extra]

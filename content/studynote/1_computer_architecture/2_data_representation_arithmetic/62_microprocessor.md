@@ -1,4 +1,5 @@
 +++
+weight = 62
 title = "62. 마이크로프로세서 (Microprocessor)"
 date = "2026-03-18"
 [extra]

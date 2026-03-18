@@ -1,4 +1,5 @@
 +++
+weight = 165
 title = "165. 캐시 메모리 구조 (Direct, Set Associative, Fully Associative)"
 date = "2026-03-18"
 [extra]

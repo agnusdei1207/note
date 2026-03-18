@@ -1,4 +1,5 @@
 +++
+weight = 2
 title = "02. 전류 (Current)"
 date = "2026-03-18"
 [extra]

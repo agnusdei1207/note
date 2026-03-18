@@ -1,4 +1,5 @@
 +++
+weight = 115
 title = "115. 캐시 미스 (Cache Miss)"
 date = "2026-03-18"
 [extra]

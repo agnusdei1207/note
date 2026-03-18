@@ -1,4 +1,5 @@
 +++
+weight = 96
 title = "96. 파이프라이닝 (Pipelining)"
 date = "2026-03-18"
 [extra]

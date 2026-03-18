@@ -1,4 +1,5 @@
 +++
+weight = 44
 title = "44. 순차 논리회로 (Sequential Logic)"
 date = "2026-03-18"
 [extra]

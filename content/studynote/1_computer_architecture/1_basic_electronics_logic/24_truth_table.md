@@ -1,4 +1,5 @@
 +++
+weight = 24
 title = "24. 진리표 (Truth Table)"
 date = "2026-03-18"
 [extra]

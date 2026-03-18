@@ -1,4 +1,5 @@
 +++
+weight = 139
 title = "139. VLIW (Very Long Instruction Word)"
 date = "2026-03-18"
 [extra]

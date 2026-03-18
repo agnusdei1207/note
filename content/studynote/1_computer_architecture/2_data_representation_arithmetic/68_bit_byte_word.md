@@ -1,4 +1,5 @@
 +++
+weight = 68
 title = "68. 비트 (Bit), 바이트 (Byte), 워드 (Word)"
 date = "2026-03-18"
 [extra]

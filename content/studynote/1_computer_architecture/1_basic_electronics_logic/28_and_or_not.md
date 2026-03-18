@@ -1,4 +1,5 @@
 +++
+weight = 28
 title = "28. AND, OR, NOT 게이트"
 date = "2026-03-18"
 [extra]

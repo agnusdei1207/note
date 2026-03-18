@@ -1,4 +1,5 @@
 +++
+weight = 155
 title = "155. 분기 예측기 (Branch Predictor)"
 date = "2026-03-18"
 [extra]

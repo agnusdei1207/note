@@ -1,4 +1,5 @@
 +++
+weight = 110
 title = "110. 제어 유닛 (Control Unit, CU)"
 date = "2026-03-18"
 [extra]

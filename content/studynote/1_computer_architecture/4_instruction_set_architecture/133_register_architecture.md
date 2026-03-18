@@ -1,4 +1,5 @@
 +++
+weight = 133
 title = "133. 레지스터 아키텍처 (Register Architecture)"
 date = "2026-03-18"
 [extra]

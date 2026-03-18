@@ -1,4 +1,5 @@
 +++
+weight = 30
 title = "30. XOR, XNOR 게이트"
 date = "2026-03-18"
 [extra]

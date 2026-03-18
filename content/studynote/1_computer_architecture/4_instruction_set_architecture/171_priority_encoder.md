@@ -1,4 +1,5 @@
 +++
+weight = 171
 title = "171. 우선순위 인코더 (Priority Encoder)"
 date = "2026-03-18"
 [extra]

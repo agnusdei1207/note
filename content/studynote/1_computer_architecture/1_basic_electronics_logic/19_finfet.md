@@ -1,4 +1,5 @@
 +++
+weight = 19
 title = "19. 핀펫 (FinFET)"
 date = "2026-03-18"
 [extra]

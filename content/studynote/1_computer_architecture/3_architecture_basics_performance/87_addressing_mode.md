@@ -1,4 +1,5 @@
 +++
+weight = 87
 title = "87. 주소 지정 방식 (Addressing Mode)"
 date = "2026-03-18"
 [extra]

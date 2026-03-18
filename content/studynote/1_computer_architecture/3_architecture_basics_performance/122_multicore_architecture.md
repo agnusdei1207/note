@@ -1,4 +1,5 @@
 +++
+weight = 122
 title = "122. 멀티코어 (Multi-core) 아키텍처"
 date = "2026-03-18"
 [extra]

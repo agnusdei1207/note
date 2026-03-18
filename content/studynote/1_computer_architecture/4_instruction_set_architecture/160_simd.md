@@ -1,4 +1,5 @@
 +++
+weight = 160
 title = "160. SIMD (Single Instruction Multiple Data)"
 date = "2026-03-18"
 [extra]

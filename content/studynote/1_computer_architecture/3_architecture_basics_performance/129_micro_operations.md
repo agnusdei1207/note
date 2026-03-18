@@ -1,4 +1,5 @@
 +++
+weight = 129
 title = "129. 마이크로 오퍼레이션 (Micro-operation / Micro-ops)"
 date = "2026-03-18"
 [extra]

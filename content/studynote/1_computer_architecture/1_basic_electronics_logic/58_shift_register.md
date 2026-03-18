@@ -1,4 +1,5 @@
 +++
+weight = 58
 title = "58. 시프트 레지스터 (Shift Register)"
 date = "2026-03-18"
 [extra]

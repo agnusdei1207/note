@@ -1,4 +1,5 @@
 +++
+weight = 80
 title = "80. 패리티 비트 (Parity Bit)"
 date = "2026-03-18"
 [extra]

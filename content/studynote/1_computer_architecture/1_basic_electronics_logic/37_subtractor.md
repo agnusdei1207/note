@@ -1,4 +1,5 @@
 +++
+weight = 37
 title = "37. 감산기 (Subtractor)"
 date = "2026-03-18"
 [extra]

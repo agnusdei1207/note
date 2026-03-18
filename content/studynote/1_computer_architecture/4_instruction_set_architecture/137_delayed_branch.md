@@ -1,4 +1,5 @@
 +++
+weight = 137
 title = "137. 지연 분기 (Delayed Branch)"
 date = "2026-03-18"
 [extra]

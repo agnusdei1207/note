@@ -1,4 +1,5 @@
 +++
+weight = 95
 title = "95. RISC (Reduced Instruction Set Computer)"
 date = "2026-03-18"
 [extra]

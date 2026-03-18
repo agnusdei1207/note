@@ -1,4 +1,5 @@
 +++
+weight = 70
 title = "70. 부호-크기 표현 (Sign-Magnitude)"
 date = "2026-03-18"
 [extra]

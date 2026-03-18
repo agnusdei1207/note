@@ -1,4 +1,5 @@
 +++
+weight = 73
 title = "73. 부동소수점 (Floating-Point)"
 date = "2026-03-18"
 [extra]

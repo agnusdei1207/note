@@ -1,4 +1,5 @@
 +++
+weight = 126
 title = "126. SRAM과 DRAM"
 date = "2026-03-18"
 [extra]

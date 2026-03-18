@@ -1,4 +1,5 @@
 +++
+weight = 111
 title = "111. 하드와이어드 제어 (Hardwired Control)"
 date = "2026-03-18"
 [extra]

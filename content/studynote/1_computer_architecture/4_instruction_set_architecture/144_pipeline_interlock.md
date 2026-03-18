@@ -1,4 +1,5 @@
 +++
+weight = 144
 title = "144. 파이프라인 인터록 (Pipeline Interlock)"
 date = "2026-03-18"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 45
 title = "45. 클럭 (Clock)"
 date = "2026-03-18"
 [extra]

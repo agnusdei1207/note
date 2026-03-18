@@ -1,4 +1,5 @@
 +++
+weight = 82
 title = "82. 그레이 코드 (Gray Code)"
 date = "2026-03-18"
 [extra]

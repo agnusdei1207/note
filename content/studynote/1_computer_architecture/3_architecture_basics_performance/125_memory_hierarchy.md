@@ -1,4 +1,5 @@
 +++
+weight = 125
 title = "125. 기억장치 계층 구조 (Memory Hierarchy)"
 date = "2026-03-18"
 [extra]

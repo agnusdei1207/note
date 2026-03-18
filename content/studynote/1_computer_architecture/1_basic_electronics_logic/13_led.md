@@ -1,4 +1,5 @@
 +++
+weight = 13
 title = "13. 발광 다이오드 (LED)"
 date = "2026-03-18"
 [extra]

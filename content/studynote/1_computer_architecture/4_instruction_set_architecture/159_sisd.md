@@ -1,4 +1,5 @@
 +++
+weight = 159
 title = "159. SISD (Single Instruction Single Data)"
 date = "2026-03-18"
 [extra]

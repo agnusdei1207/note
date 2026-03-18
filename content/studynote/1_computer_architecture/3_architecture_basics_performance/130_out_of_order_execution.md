@@ -1,4 +1,5 @@
 +++
+weight = 130
 title = "130. 비순차적 실행 (Out-of-Order Execution, OoOE)"
 date = "2026-03-18"
 [extra]

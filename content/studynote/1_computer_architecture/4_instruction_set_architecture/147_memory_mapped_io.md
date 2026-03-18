@@ -1,4 +1,5 @@
 +++
+weight = 147
 title = "147. 메모리 매핑된 I/O (Memory-Mapped I/O)"
 date = "2026-03-18"
 [extra]

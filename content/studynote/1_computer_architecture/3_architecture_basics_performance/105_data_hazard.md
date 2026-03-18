@@ -1,4 +1,5 @@
 +++
+weight = 105
 title = "105. 데이터 해저드 (Data Hazard)"
 date = "2026-03-18"
 [extra]

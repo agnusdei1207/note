@@ -1,4 +1,5 @@
 +++
+weight = 54
 title = "54. JK 플립플롭 (JK Flip-Flop)"
 date = "2026-03-18"
 [extra]

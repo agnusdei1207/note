@@ -1,4 +1,5 @@
 +++
+weight = 75
 title = "75. BCD (Binary Coded Decimal)"
 date = "2026-03-18"
 [extra]

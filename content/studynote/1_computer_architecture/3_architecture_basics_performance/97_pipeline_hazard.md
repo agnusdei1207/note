@@ -1,4 +1,5 @@
 +++
+weight = 97
 title = "97. 파이프라인 해저드 (Pipeline Hazard)"
 date = "2026-03-18"
 [extra]

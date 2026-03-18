@@ -1,4 +1,5 @@
 +++
+weight = 64
 title = "64. 하버드 아키텍처 (Harvard Architecture)"
 date = "2026-03-18"
 [extra]

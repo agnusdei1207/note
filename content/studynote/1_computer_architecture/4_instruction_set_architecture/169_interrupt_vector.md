@@ -1,4 +1,5 @@
 +++
+weight = 169
 title = "169. 인터럽트 벡터 (Interrupt Vector)"
 date = "2026-03-18"
 [extra]

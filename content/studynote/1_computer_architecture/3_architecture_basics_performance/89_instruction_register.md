@@ -1,4 +1,5 @@
 +++
+weight = 89
 title = "89. 명령어 레지스터 (Instruction Register, IR)"
 date = "2026-03-18"
 [extra]

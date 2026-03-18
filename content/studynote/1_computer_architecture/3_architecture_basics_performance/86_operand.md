@@ -1,4 +1,5 @@
 +++
+weight = 86
 title = "86. 피연산자 (Operand)"
 date = "2026-03-18"
 [extra]
