@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: 엔터프라이즈 시스템 (Enterprise Systems) — `content/studynote/7_enterprise_systems/`
-- **완료**: Enterprise **#1~#192** 작성 완료
-- **다음**: Enterprise **#193** (Saga Pattern 사가 패턴)
+- **완료**: Enterprise **#1~#201** 작성 완료
+- **다음**: Enterprise **#202** (중앙 집중화된 구성 관리 Externalized Configuration)
 - **참조**: `content/studynote/7_enterprise_systems/_keyword_list.md`
 
 ---
@@ -46,8 +46,8 @@
 | SE | 800 | ~800 | 100% ✅ |
 | DB | 600 | ~600 | 100% ✅ |
 | ICT | 300 | ~800 | 37.5% |
-| Enterprise | 192 | 482 | 39.8% |
-| **합계** | **4,756** | **~5,550** | **85.7%** |
+| Enterprise | 201 | 482 | 41.7% |
+| **합계** | **4,765** | **~5,550** | **85.8%** |
 
 
 
