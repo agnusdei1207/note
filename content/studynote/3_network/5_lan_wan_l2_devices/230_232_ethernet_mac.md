@@ -13,7 +13,7 @@ id = 230
 > 2. **가치**= 48비트 MAC 주소(MAC Address, 물리 주소)는 네트워크 인터페이스에 부여된 고유 식별자로, L2 (Data Link Layer) 스위칭의 핵심 키(Key)로 작용하여 논리 주소인 IP와의 독립적인 하드웨어 단계 전송을 가능하게 합니다.
 > 3. **융합**= MAC 주소는 ARP (Address Resolution Protocol)를 통해 L3 계층의 IP 주소와 매핑되며, 이 과정에서 발생하는 브로드캐스트 트래픽은 VLAN (Virtual LAN) 구성 및 L3 라우팅 도메인 설계 시 필수적으로 고려해야 할 성능 저하 요인입니다.
 
-+++
+---
 
 ### Ⅰ. 개요 (Context & Background)
 

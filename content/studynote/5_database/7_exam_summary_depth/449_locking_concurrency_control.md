@@ -5,7 +5,7 @@ date = "2026-03-16"
 [extra]
 categories = "studynote-database"
 id = 449
-+++
+---
 
 # 449. 동시성 제어 잠금(Locking) - 읽기와 쓰기의 교통정리
 

@@ -13,7 +13,7 @@ keyword = "Agile_PMO_Adaptive_Governance_Servant_Leadership_Portfolio_Management
 > 2. **역할 변화**: 프로젝트의 진척률 보고보다는 **가치 스트림(Value Stream)**의 흐름을 최적화하고, 애자일 문화 확산을 위한 코칭 및 거버넌스의 유연화를 주도하는 서번트 리더십(Servant Leadership) 조직으로 기능한다.
 > 3. **융합**: 린 포트폴리오 관리(LPM) 기술과 결합하여 기업 전략과 팀 실행 간의 정렬을 맞추며, 실시간 지표 기반의 데이터 주도적 의사결정 체계를 구축한다.
 
-+++
+---
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -28,7 +28,7 @@ keyword = "Agile_PMO_Adaptive_Governance_Servant_Leadership_Portfolio_Management
 
 📢 섹션 요약 비유: 애자일 PMO는 채찍을 든 감독이 아니라, 선수들이 최상의 컨디션으로 경기에만 집중할 수 있게 뒷바라지하는 '팀 매니저'입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -79,7 +79,7 @@ keyword = "Agile_PMO_Adaptive_Governance_Servant_Leadership_Portfolio_Management
 
 📢 섹션 요약 비유: 전통적 PMO가 모든 학생에게 똑같은 교복과 시간표를 강요했다면, 애자일 PMO는 학생 각자의 적성에 맞는 맞춤형 학습 도구를 챙겨주는 것과 같습니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -97,7 +97,7 @@ keyword = "Agile_PMO_Adaptive_Governance_Servant_Leadership_Portfolio_Management
 
 📢 섹션 요약 비유: LPM이 '어떤 땅에 씨를 뿌릴지' 정하는 농장주라면, 애자일 PMO는 씨앗이 잘 자라도록 물을 주고 벌레를 잡아주는 '스마트 팜 시스템'입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -125,7 +125,7 @@ keyword = "Agile_PMO_Adaptive_Governance_Servant_Leadership_Portfolio_Management
 
 📢 섹션 요약 비유: 애자일 PMO에서 보고를 강조하는 것은 달리는 선수를 자꾸 불러 세워 "얼마나 뛰었니?"라고 묻는 것과 같아서, 결국 기록(성과)을 망치게 됩니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -141,7 +141,7 @@ keyword = "Agile_PMO_Adaptive_Governance_Servant_Leadership_Portfolio_Management
 
 📢 섹션 요약 비유: 미래의 애자일 PMO는 오케스트라 무대 위에는 없지만, 모든 연주자가 최고의 소리를 내게 조율하고 지원하는 '무대 뒤의 마법사'가 될 것입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 | 관련 개념 | 관계 및 시너지 설명 |

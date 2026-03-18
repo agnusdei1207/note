@@ -121,13 +121,13 @@ github_username = "username"
 ### 4.2 콘텐츠 파일 작성 (TOML front matter)
 
 ```toml
-+++
+---
 title = "Base64 인코딩"
 date = 2026-02-27
 
 [extra]
 categories = "cs_fundamentals-network"
-+++
+---
 
 # Base64 인코딩
 
@@ -136,11 +136,11 @@ categories = "cs_fundamentals-network"
 
 **섹션 인덱스 파일 (`_index.md`)** — 모든 콘텐츠 디렉토리에 필수:
 ```toml
-+++
+---
 title = "Network"
 description = "네트워크 관련 노트"
 sort_by = "title"
-+++
+---
 ```
 
 ### 4.3 Tera 템플릿 작성
@@ -382,14 +382,14 @@ original_path: cs_fundamentals/network
 
 Zola TOML:
 ```toml
-+++
+---
 title = "Base64 인코딩"
 date = 2026-02-27
 
 [extra]
 categories = "cs_fundamentals-network"
 original_path = "cs_fundamentals/network"
-+++
+---
 ```
 
 자동 변환 스크립트 (Python):

@@ -12,7 +12,7 @@ keyword = "VolumetricVideo_3DCapture_Hologram_PointCoud_XR_Metaverse"
 > 2. **가치**: 기존의 3D 컴퓨터 그래픽(CG)이 주지 못하는 '진짜 사람(실사)의 세밀한 표정과 옷자락의 흩날림'을 메타버스 공간에 100% 동일하게 구현하여 완벽한 실재감(Presence)을 제공한다.
 > 3. **융합**: 초고화질 포인트 클라우드(Point Cloud) 데이터를 생성하므로 막대한 데이터 트래픽이 발생하며, 이를 전송하기 위한 5G/6G 통신망 및 엣지 컴퓨팅 기술과의 융합이 상용화의 필수 전제 조건이다.
 
-+++
+---
 
 ## Ⅰ. 볼류메트릭 비디오 개요
 
@@ -30,7 +30,7 @@ keyword = "VolumetricVideo_3DCapture_Hologram_PointCoud_XR_Metaverse"
 
 📢 **섹션 요약 비유**: 2D 사진이 세상을 '납작하게' 눌러서 저장했다면, 볼류메트릭 비디오는 세상의 '부피와 시간'을 통째로 얼려버리는 마법의 카메라입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -83,7 +83,7 @@ keyword = "VolumetricVideo_3DCapture_Hologram_PointCoud_XR_Metaverse"
 
 📢 **섹션 요약 비유**: 수백 명의 화가가 빙 둘러앉아 한 사람을 동시에 그린 뒤, 그 그림들을 퍼즐 맞추듯 이어 붙여 완벽한 입체 조각상으로 만들어내는 과정입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -102,7 +102,7 @@ keyword = "VolumetricVideo_3DCapture_Hologram_PointCoud_XR_Metaverse"
 
 📢 **섹션 요약 비유**: 기존 VR 영상이 '내 주변을 둥글게 둘러싼 거대한 극장 스크린'이라면, 볼류메트릭은 '스크린을 찢고 튀어나와 내 방 한가운데 서 있는 진짜 배우'입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -120,7 +120,7 @@ keyword = "VolumetricVideo_3DCapture_Hologram_PointCoud_XR_Metaverse"
 
 📢 **섹션 요약 비유**: 엄청난 고화질 홀로그램(데이터 폭탄)을 스마트폰이라는 좁은 터널로 구겨 넣으려면, 사용자가 지금 쳐다보는 앞모습만 선명하게 보내고 뒷모습은 대충 보내는 꼼수(시점 렌더링)가 반드시 필요합니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -134,7 +134,7 @@ keyword = "VolumetricVideo_3DCapture_Hologram_PointCoud_XR_Metaverse"
 
 📢 **섹션 요약 비유**: 볼류메트릭 비디오는 흘러가는 시간 속 인간의 가장 아름다운 순간을 3차원의 형태 그대로 영원히 박제해 두는 '디지털 타임캡슐'입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **XR (가상/증강 현실)**: 볼류메트릭 비디오를 즐기기 위한 최적의 디스플레이 환경.

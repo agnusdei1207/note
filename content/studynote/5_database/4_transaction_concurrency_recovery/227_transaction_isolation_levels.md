@@ -11,7 +11,7 @@ id = 227
 > 1. **본질**: 트랜잭션 고립화 수준(Isolation Level)은 동시성 제어(Concurrency Control)의 핵심 메커니즘으로, **ACID(Isolation) 특성**을 구현하기 위해 다중 트랜잭션 간의 데이터 가시성(Visibility)과 잠금(Locking) 범위를 조절하는 데이터베이스의 설계 기준이다.
 > 2. **가치**: 비즈니스 요구사항에 따라 **Dirty Read(더티 읽기), Non-Repeatable Read(반복 불가능 읽기), Phantom Read(팬텀 읽기)** 등의 이상 현상(Anomaly) 발생 가능성과 처리 처리량(Throughput) 사이의 정량적 트레이드오프(Trade-off)를 제어하여 시스템의 무결성과 성능을 동시에 확보한다.
 > 3. **융합**: 단순한 DB 설정을 넘어 **Lock-Based Protocol(잠금 기반 프로토콜)**과 **MVCC(Multi-Version Concurrency Control, 다중 버전 동시성 제어)** 방식의 동작 방식을 결정짓는 핵심 아키텍처 요소이며, 분산 처리 및 OS의 세마포어(Semaphore) 개념과도 깊이 연결된다.
-+++
+---
 
 ### Ⅰ. 개요 (Context & Background) - [500자+]
 

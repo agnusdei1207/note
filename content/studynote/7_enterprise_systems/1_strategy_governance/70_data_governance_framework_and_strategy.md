@@ -13,7 +13,7 @@ keyword = "Data_Governance_DAMA_DMBOK_Metadata_Data_Quality_CDO"
 > 2. **가치**: 파편화된 데이터 사일로(Silo)를 제거하여 데이터의 품질을 높이고, 규제 준수(Compliance) 리스크를 최소화하며, 데이터 기반 의사결정(Data-driven Decision)의 신뢰도를 확보한다.
 > 3. **융합**: DAMA-DMBOK 프레임워크를 기반으로 하며, 최근에는 클라우드 네이티브 환경의 **'데이터 메시(Data Mesh)'** 아키텍처와 AI 학습 데이터의 편향성을 관리하는 **'AI 거버넌스'**로 그 범위가 확장되고 있다.
 
-+++
+---
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -28,7 +28,7 @@ keyword = "Data_Governance_DAMA_DMBOK_Metadata_Data_Quality_CDO"
 
 📢 섹션 요약 비유: 데이터 거버넌스는 기업이라는 거대한 도서관에서 책을 무작위로 쌓아두는 것이 아니라, 십진분류법(표준)에 따라 정리하고 대출 권한(보안)을 관리하는 '도서관 운영 시스템'입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -74,7 +74,7 @@ keyword = "Data_Governance_DAMA_DMBOK_Metadata_Data_Quality_CDO"
 
 📢 섹션 요약 비유: 데이터 표준화는 '맞춤법'을 맞추는 것이고, 데이터 품질 관리는 '오타'를 찾는 것이며, 데이터 리니지는 그 글을 '누가 썼는지' 추적하는 것입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -98,7 +98,7 @@ keyword = "Data_Governance_DAMA_DMBOK_Metadata_Data_Quality_CDO"
 
 📢 섹션 요약 비유: 과거의 거버넌스가 '중앙 집권식 독재'였다면, 현대의 거버넌스는 각 지자체(부서)가 자율적으로 운영하되 국법(표준)을 따르는 '지방 자치 제도'와 같습니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -126,7 +126,7 @@ keyword = "Data_Governance_DAMA_DMBOK_Metadata_Data_Quality_CDO"
 
 📢 섹션 요약 비유: 거버넌스가 너무 강하면 '데이터 감옥'이 되고, 너무 약하면 '데이터 무법천지'가 됩니다. 데이터가 안전하게 유통되는 '자유 무역 항구'를 만드는 것이 목적이어야 합니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -142,7 +142,7 @@ keyword = "Data_Governance_DAMA_DMBOK_Metadata_Data_Quality_CDO"
 
 📢 섹션 요약 비유: 미래의 데이터 거버넌스는 우리 몸의 '자율 신경계'와 같아서, 우리가 의식하지 않아도 체온(데이터 품질)을 조절하고 병균(보안 위협)을 막아내는 완벽한 생존 시스템이 될 것입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 | 관련 개념 | 관계 및 시너지 설명 |

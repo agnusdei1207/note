@@ -13,7 +13,7 @@ keyword = "Knowledge_Transfer_Absorptive_Capacity_Sticky_Knowledge_Mentoring_Coa
 > 2. **가치**: 지식이 한곳에 고여 썩지 않고 조직 전체로 흐르게 함으로써 '지식의 섬(Silo)'을 없애고, 핵심 인재 한 명에게 의존하는 리스크(Single Point of Failure)를 원천 차단한다.
 > 3. **핵심 변수**: 전이의 성공은 보내는 쪽의 전달 능력뿐만 아니라, 받는 쪽의 **흡수 역량(Absorptive Capacity)**과 지식이 특정 맥락에 고착되는 **점착성(Sticky Knowledge)** 문제를 해결하는 데 달려 있다.
 
-+++
+---
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -28,7 +28,7 @@ keyword = "Knowledge_Transfer_Absorptive_Capacity_Sticky_Knowledge_Mentoring_Coa
 
 📢 섹션 요약 비유: 지식 전이는 '지식'이라는 상품이 공급자(전문가)에게서 소비자(필요한 직원)에게로 안전하고 빠르게 배송되어 실제 사용되는 '지식 유통망'입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -75,7 +75,7 @@ keyword = "Knowledge_Transfer_Absorptive_Capacity_Sticky_Knowledge_Mentoring_Coa
 
 📢 섹션 요약 비유: 점착성 있는 지식은 꿀이 묻은 숟가락과 같아서, 다른 그릇으로 옮기려 해도 잘 떨어지지 않기에 열(소통)을 가하거나 정교한 도구(IT 시스템)를 써야 합니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -99,7 +99,7 @@ keyword = "Knowledge_Transfer_Absorptive_Capacity_Sticky_Knowledge_Mentoring_Coa
 
 📢 섹션 요약 비유: 교육이 '요리책'을 읽어주는 것이라면, 지식 전이는 '직접 칼을 쥐어주고 옆에서 함께 요리하는 것'입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -127,7 +127,7 @@ keyword = "Knowledge_Transfer_Absorptive_Capacity_Sticky_Knowledge_Mentoring_Coa
 
 📢 섹션 요약 비유: 지식 전이에서 보상을 빠뜨리는 것은, 귀한 비법을 가르쳐주는 스승님께 차 한 잔(인정)도 대접하지 않는 무례와 같아서 지식의 맥이 끊기게 됩니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -143,7 +143,7 @@ keyword = "Knowledge_Transfer_Absorptive_Capacity_Sticky_Knowledge_Mentoring_Coa
 
 📢 섹션 요약 비유: 미래의 지식 전이는 무선 충전기와 같아서, 전문가 근처에 있기만 해도(네트워크 연결) 지식이 내 뇌(업무 환경)로 자동 충전되는 시대가 될 것입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 | 관련 개념 | 관계 및 시너지 설명 |

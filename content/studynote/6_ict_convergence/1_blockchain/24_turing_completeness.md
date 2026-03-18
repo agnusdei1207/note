@@ -12,7 +12,7 @@ keyword = "Turing_Completeness_EVM_Halting_Problem_Solidity_Gas"
 > 2. **가치**: 비트코인의 한정된 스크립트 기능을 넘어, 이더리움은 튜링 완전한 EVM을 통해 루프(Loop)와 조건문 등을 자유롭게 사용하여 복잡한 비즈니스 로직을 온체인에서 구현할 수 있게 했다.
 > 3. **융합**: '정지 문제(Halting Problem)'라는 이론적 난제를 **가스(Gas)**라는 경제적 모델로 해결함으로써, 무한 루프 공격으로부터 네트워크를 보호하고 범용 월드 컴퓨터의 실용성을 확보했다.
 
-+++
+---
 
 ## Ⅰ. 튜링 완전성 (Turing Completeness) 개요
 
@@ -30,7 +30,7 @@ keyword = "Turing_Completeness_EVM_Halting_Problem_Solidity_Gas"
 
 📢 **섹션 요약 비유**: 계산기(단순 연산)의 시대를 지나 스마트폰(범용 앱 실행)의 시대로 블록체인의 패러다임이 전환된 근본적인 이유가 바로 튜링 완전성입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -80,7 +80,7 @@ keyword = "Turing_Completeness_EVM_Halting_Problem_Solidity_Gas"
 
 📢 **섹션 요약 비유**: 연료가 무한하다면 평생 달리는 유령 기차가 나타날 수 있지만, 연료통의 크기(가스 한도)를 정해둠으로써 모든 기차가 언젠가는 멈추거나 정거장에 도착하게 만든 '안전 장치'입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -100,7 +100,7 @@ keyword = "Turing_Completeness_EVM_Halting_Problem_Solidity_Gas"
 
 📢 **섹션 요약 비유**: 튜링 불완전이 정해진 코스만 달리는 '철도 기차'라면, 튜링 완전은 운전자가 어디든 갈 수 있는 '자율주행 자동차'와 같아서 더 자유롭지만 사고 위험도 큰 것입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -114,7 +114,7 @@ keyword = "Turing_Completeness_EVM_Halting_Problem_Solidity_Gas"
 
 📢 **섹션 요약 비유**: 칼이 날카로울수록 훌륭한 요리를 만들 수 있지만 다칠 위험도 크듯이, 튜링 완전성이라는 강력한 도구를 다루기 위해서는 '코드 감사'와 '수학적 검증'이라는 안전 장갑이 필수입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -128,7 +128,7 @@ keyword = "Turing_Completeness_EVM_Halting_Problem_Solidity_Gas"
 
 📢 **섹션 요약 비유**: 튜링 완전성은 블록체인이라는 단단한 땅에 '생명력'을 불어넣어, 스스로 자라나고 열매 맺는 **디지털 생태계**를 탄생시켰습니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **앨런 튜링 (Alan Turing)**: 컴퓨터 과학의 아버지이자 튜링 머신의 고안자.

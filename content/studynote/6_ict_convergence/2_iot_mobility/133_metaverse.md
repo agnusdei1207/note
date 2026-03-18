@@ -12,7 +12,7 @@ keyword = "Metaverse_Web3_SpatialComputing_DigitalTwin_VirtualEconomy_Avatar"
 > 2. **가치**: 단순한 게임이나 엔터테인먼트를 넘어, 블록체인(Web3) 기반의 디지털 소유권과 결합하여 현실의 경제 시스템이 가상 공간으로 확장되는 '가상 경제(Virtual Economy)'를 창출한다.
 > 3. **융합**: 시각적 몰입감을 주는 XR(가상/증강현실), 공간을 복제하는 디지털 트윈(Digital Twin), 경제 시스템을 보장하는 블록체인, 그리고 이 모든 것을 연결하는 5G/6G 네트워크가 총결집된 ICT 기술의 종착지다.
 
-+++
+---
 
 ## Ⅰ. 메타버스 (Metaverse) 개요
 
@@ -30,7 +30,7 @@ keyword = "Metaverse_Web3_SpatialComputing_DigitalTwin_VirtualEconomy_Avatar"
 
 📢 **섹션 요약 비유**: 우리가 눈으로만 읽던 '정보의 바다(Web)'가 우리가 살고 일하며 돈을 버는 '새로운 대륙(Metaverse)'으로 솟아오른 것입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -75,7 +75,7 @@ keyword = "Metaverse_Web3_SpatialComputing_DigitalTwin_VirtualEconomy_Avatar"
 
 📢 **섹션 요약 비유**: 전원을 끄면 리셋되는 오락기(게임)가 아니라, 내가 잠든 사이에도 계절이 바뀌고 경제가 돌아가는 24시간 깨어있는 가상 국가(메타버스)입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -95,7 +95,7 @@ keyword = "Metaverse_Web3_SpatialComputing_DigitalTwin_VirtualEconomy_Avatar"
 
 📢 **섹션 요약 비유**: 게임이 '놀이공원'이라면, 메타버스는 '새로운 신도시'입니다. 놀이공원은 정해진 롤러코스터만 타야 하지만, 신도시에서는 내가 직접 건물을 짓고 장사를 할 수 있습니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -112,7 +112,7 @@ keyword = "Metaverse_Web3_SpatialComputing_DigitalTwin_VirtualEconomy_Avatar"
 
 📢 **섹션 요약 비유**: 빈 땅에 화려한 성만 지어놓는다고 사람들이 모이지 않습니다. 그 안에서 장이 서고(경제), 즐길 거리(콘텐츠)가 있어야 비로소 진정한 메타버스 도시가 완성됩니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -126,7 +126,7 @@ keyword = "Metaverse_Web3_SpatialComputing_DigitalTwin_VirtualEconomy_Avatar"
 
 📢 **섹션 요약 비유**: 메타버스는 현실 세계의 도피처가 아니라, 현실의 한계를 극복하고 인간의 상상력과 경제 활동을 무한대로 복제해 내는 '새로운 프론티어(신대륙)'입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **공간 컴퓨팅 (Spatial Computing)**: 메타버스를 구현하는 3차원 인터페이스 환경.

@@ -12,7 +12,7 @@ keyword = "ZKP_Zero_Knowledge_Proof_SNARKs_STARKs_Privacy_Scalability"
 > 2. **가치**: 데이터의 무결성과 **프라이버시**를 동시에 보장하며, 블록체인에서 거래 내역을 숨기거나 대량의 연산 결과를 아주 작은 증명값으로 압축하여 검증 효율(확장성)을 극대화한다.
 > 3. **융합**: zk-SNARKs, zk-STARKs 등의 알고리즘으로 발전하여 익명성 코인(Zcash), 레이어 2 확장 솔루션(ZK-Rollup), 그리고 신원 노출 없는 인증(DID) 분야의 핵심 기술로 자리 잡았다.
 
-+++
+---
 
 ## Ⅰ. 영지식 증명 (ZKP) 개요
 
@@ -30,7 +30,7 @@ keyword = "ZKP_Zero_Knowledge_Proof_SNARKs_STARKs_Privacy_Scalability"
 
 📢 **섹션 요약 비유**: 신분증을 보여주지 않고도 내가 술을 살 수 있는 성인임을 증명하거나, 통장 잔고를 보여주지 않고도 대출을 받을 능력이 있음을 입증하는 '프라이버시 보호형 신뢰' 기술입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -78,7 +78,7 @@ keyword = "ZKP_Zero_Knowledge_Proof_SNARKs_STARKs_Privacy_Scalability"
 
 📢 **섹션 요약 비유**: 수백만 조각의 퍼즐을 다 맞췄다고 말하는 대신, 검증자가 무작위로 고른 10군데의 조각이 완벽하게 들어맞는 것을 보여줌으로써 전체 퍼즐의 완성을 입증하는 '지능형 샘플링 검사'입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -98,7 +98,7 @@ keyword = "ZKP_Zero_Knowledge_Proof_SNARKs_STARKs_Privacy_Scalability"
 
 📢 **섹션 요약 비유**: SNARKs가 작고 정교한 '보석'이라면, STARKs는 투박하지만 누구의 도움 없이도 스스로 빛나는 '태양'과 같습니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -112,7 +112,7 @@ keyword = "ZKP_Zero_Knowledge_Proof_SNARKs_STARKs_Privacy_Scalability"
 
 📢 **섹션 요약 비유**: 아무리 좋은 방어막(ZKP)이라도 설치하는 데 에너지가 너무 많이 들면 성문(시스템)을 열고 닫기 힘들므로, 에너지 효율과 방어력의 적절한 타협점을 찾는 설계 능력이 핵심입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -126,7 +126,7 @@ keyword = "ZKP_Zero_Knowledge_Proof_SNARKs_STARKs_Privacy_Scalability"
 
 📢 **섹션 요약 비유**: 영지식 증명은 디지털 세상에서 우리를 투명 인간으로 만들어주면서도 동시에 우리를 가장 정직한 사람으로 인정받게 해주는 **'암호학적 마법 망토'**입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **zk-SNARKs**: ZKP의 가장 대중적인 구현 방식.

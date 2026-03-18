@@ -13,7 +13,7 @@ id = 113
 > 2. **가치**= 임의 접(Random Access) 방식(CSMA/CD 등)이 가진 고부하 시의 효율 급격 저하(Jam, Decay) 문제를 해결하여, **결정적(Deterministic)인 지연 시간 보장**과 높은 채널 활용도를 제공합니다.
 > 3. **융합**= 산업용 제어 네트워크(Fieldbus) 및 QoS(Quality of Service)가 중요한 실시간 통신망(IEEE 802.11 PCF, Bluetooth 등)의 핵심 메커니즘으로 활용됩니다.
 
-+++
+---
 
 ## Ⅰ. 개요 (Context & Background)
 

@@ -11,7 +11,7 @@ id = 217
 > 1. **본질**: 2PL (Two-Phase Locking) 프로토콜의 첫 단계로, 트랜잭션이 데이터베이스 조작을 수행하기 위해 필요한 모든 Lock (자원 잠금)을 **획득(Acquisition)만 하고 절대 해제하지 않는 구간**이다.
 > 2. **가치**: 트랜잭션의 직렬화 가능성(Serializability)을 보장하는 핵심 메커니즘이며, 이 단계에서의 정책이 DBMS (Database Management System) 전체의 동시성 처리량(Concurrency Throughput)과 교착 상태(Deadlock) 발생 빈도를 결정짓는다.
 > 3. **융합**: OS의 뮤텍스(Mutex) 획득, 분산 시스템의 토큰 점유 등 다양한 동시성 제어 영역과 연결되며, 트랜잭션 스케줄링의 최적화 포인트이다.
-+++
+---
 
 ### Ⅰ. 개요 (Context & Background) - [500자+]
 

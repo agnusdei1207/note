@@ -13,7 +13,7 @@ id = 137
 > 2. **가치**= 10Mbps에서 800Gbps로의 비약적인 대역폭 확장은 단순한 속도 상승이 아니라, AI/ML 훈련 workload를 위한 ultra-low latency와 백플레인(Backplane) 전력 효율의 혁신을 의미합니다.
 > 3. **융합**= L2 스위칭(MAC Layer)의 TCAM(Ternary Content-Addressable Memory) 처리 속도와 직결되며, 광통신(Component)과 전자 신호 처리(DSP) 기술의 융합이 집약된 결과물입니다.
 
-+++
+---
 
 ### Ⅰ. 개요 (Context & Background)
 

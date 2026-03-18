@@ -12,7 +12,7 @@ keyword = "DAO_Fork_TheDAO_Hack_Ethereum_Classic_HardFork_CodeIsLaw"
 > 2. **가치**: "코드가 곧 법(Code is Law)"이라는 불변성의 원칙과 "사용자 보호 및 정의"라는 사회적 합의 사이의 치열한 논쟁을 불러일으켰으며, **ETH(이더리움)**와 **ETC(이더리움 클래식)**의 분리를 초래했다.
 > 3. **융합**: 스마트 컨트랙트의 보안 취약점(재진입 공격)이 현실 세계의 거버넌스 및 자산 가치에 미치는 영향을 여실히 보여준 사례이며, 이후 블록체인 생태계의 보안 감사와 민주적 의사결정 체계 고도화의 기점이 되었다.
 
-+++
+---
 
 ## Ⅰ. DAO 포크 (The DAO Fork) 개요
 
@@ -28,7 +28,7 @@ keyword = "DAO_Fork_TheDAO_Hack_Ethereum_Classic_HardFork_CodeIsLaw"
 
 📢 **섹션 요약 비유**: 블록체인이라는 절대적인 법전에 기록된 '도둑의 소유권'을, 인간들의 '정의로운 합의'로 지워버린 전무후무한 디지털 혁명입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 진행 과정 (Deep Dive)
 
@@ -76,7 +76,7 @@ keyword = "DAO_Fork_TheDAO_Hack_Ethereum_Classic_HardFork_CodeIsLaw"
 
 📢 **섹션 요약 비유**: 건물(블록체인)에 불이 났을 때, 불을 끄기 위해 벽을 허물고 구조한 쪽(ETH)과, 건물의 설계를 건드리는 건 있을 수 없는 일이라며 그대로 둔 쪽(ETC)의 차이입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -96,7 +96,7 @@ keyword = "DAO_Fork_TheDAO_Hack_Ethereum_Classic_HardFork_CodeIsLaw"
 
 📢 **섹션 요약 비유**: 엄격한 원칙주의자(ETC)와 합리적 현실주의자(ETH)가 각자의 길을 걷게 된 역사적 스플릿이며, 두 가치 모두 블록체인 생태계에 중요한 교훈을 남겼습니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -110,7 +110,7 @@ keyword = "DAO_Fork_TheDAO_Hack_Ethereum_Classic_HardFork_CodeIsLaw"
 
 📢 **섹션 요약 비유**: 수술(포크)은 생명을 살릴 수 있지만 흉터를 남기고 체력을 깎으므로, 평소에 운동(보안 감사)을 열심히 해서 수술할 일을 만들지 않는 것이 최선입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -124,7 +124,7 @@ keyword = "DAO_Fork_TheDAO_Hack_Ethereum_Classic_HardFork_CodeIsLaw"
 
 📢 **섹션 요약 비유**: DAO 포크는 블록체인이 '완벽한 기계'가 아닌 '사람들이 모여 만든 도구'임을 상기시켜준 **디지털 성장통**입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **하드 포크 (Hard Fork)**: DAO 사건을 해결하기 위해 선택된 기술적 수단.

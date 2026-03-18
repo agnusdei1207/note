@@ -13,7 +13,7 @@ keyword = "SCM_Three_Flows_Product_Flow_Information_Flow_Financial_Flow"
 > 2. **가치**: 제품 흐름은 실질적인 가치 전달을, 정보 흐름은 불확실성과 왜곡(Bullwhip Effect) 제거를, 재무 흐름은 공급망의 지속 가능성과 유동성을 담보한다.
 > 3. **융합**: 과거에는 물류에만 집중했으나, 현대 SCM은 실시간 데이터 연동(API/EDI)과 디지털 결제 및 블록체인 기반의 재무 건전성 관리를 결합한 통합 거버넌스로 진화하고 있다.
 
-+++
+---
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ keyword = "SCM_Three_Flows_Product_Flow_Information_Flow_Financial_Flow"
 
 📢 섹션 요약 비유: SCM의 3대 흐름은 인체의 신경계(정보), 순환계(재무), 근골격계(제품)와 같아서, 머리(경영진)의 지시가 온몸에 전달되고 영양분이 돌아야만 제대로 움직일 수 있습니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -76,7 +76,7 @@ keyword = "SCM_Three_Flows_Product_Flow_Information_Flow_Financial_Flow"
 
 📢 섹션 요약 비유: 제품 흐름은 '차체'이고, 정보 흐름은 '내비게이션'이며, 재무 흐름은 '연료'입니다. 아무리 좋은 차라도 길을 모르거나 연료가 없으면 목적지에 갈 수 없습니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -97,7 +97,7 @@ keyword = "SCM_Three_Flows_Product_Flow_Information_Flow_Financial_Flow"
 
 📢 섹션 요약 비유: 채찍 효과는 전하기 게임(중간 단계를 거친 정보 전달)에서 말이 와전되는 것과 같으며, 이를 막으려면 모든 파트너가 동시에 볼 수 있는 '공유 단톡방(통합 플랫폼)'이 필요합니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -124,7 +124,7 @@ keyword = "SCM_Three_Flows_Product_Flow_Information_Flow_Financial_Flow"
 
 📢 섹션 요약 비유: SCM 3대 흐름을 관리하는 것은 3개의 공을 동시에 돌리는 저글링과 같아서, 하나라도 리듬을 놓치면 모든 공(공급망)이 바닥에 떨어지게 됩니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -140,7 +140,7 @@ SCM 3대 흐름의 동기화는 기업 경쟁력의 원천이다.
 
 📢 섹션 요약 비유: 미래의 SCM 흐름은 빛의 속도로 흐르는 광통신망과 같아서, 전 세계 어디서든 원하는 물건을 생각하는 즉시 손에 쥐게 해주는 '디지털 요술 램프'가 될 것입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 | 관련 개념 | 관계 및 시너지 설명 |

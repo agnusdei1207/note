@@ -5,7 +5,7 @@ date = "2026-03-16"
 [extra]
 categories = "studynote-database"
 id = 414
-+++
+---
 
 # 414. 외부 조인(Outer Join) - 소외된 데이터를 보듬다
 

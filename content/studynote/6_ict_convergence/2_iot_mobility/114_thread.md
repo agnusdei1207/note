@@ -12,7 +12,7 @@ keyword = "Thread_IPv6_6LoWPAN_IEEE802.15.4_MeshNetwork_BorderRouter_SmartHome_G
 > 2. **가치**: 기존 지그비와 달리 **IP 주소를 직접 부여**받으므로 복잡한 게이트웨이(Protocol Translation) 없이도 클라우드와 직접 통신할 수 있으며, 단일 장애점(SPOF)이 없는 자가 치유 능력이 탁월하다.
 > 3. **융합**: 매터(Matter) 표준의 핵심 전송 계층으로 채택되어 Apple, Google, Amazon 기기 간의 매끄러운 연동을 가능케 하며, 블루투스(설정용)와 802.15.4(운영용) 기술을 하이브리드로 활용한다.
 
-+++
+---
 
 ## Ⅰ. 스레드 (Thread) 개요
 
@@ -30,7 +30,7 @@ keyword = "Thread_IPv6_6LoWPAN_IEEE802.15.4_MeshNetwork_BorderRouter_SmartHome_G
 
 📢 **섹션 요약 비유**: 스마트홈의 언어를 '인터넷 공용어(IP)'로 통일하여, 허브라는 장벽을 허물고 자유로운 대화를 가능케 하는 '디지털 고속도로'입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -75,7 +75,7 @@ keyword = "Thread_IPv6_6LoWPAN_IEEE802.15.4_MeshNetwork_BorderRouter_SmartHome_G
 
 📢 **섹션 요약 비유**: 누구나 리더가 될 수 있는 민주적인 구조(Self-healing)와 공용어(IP) 사용을 통해, 끊김 없고 투명한 정보 흐름을 보장하는 '지능형 조직'입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -95,7 +95,7 @@ keyword = "Thread_IPv6_6LoWPAN_IEEE802.15.4_MeshNetwork_BorderRouter_SmartHome_G
 
 📢 **섹션 요약 비유**: 지그비가 '고유의 언어를 쓰는 독립국'이라면, 스레드는 '인터넷이라는 제국의 연방'과 같습니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -113,7 +113,7 @@ keyword = "Thread_IPv6_6LoWPAN_IEEE802.15.4_MeshNetwork_BorderRouter_SmartHome_G
 
 📢 **섹션 요약 비유**: 통역사가 사라진 세상에서 모두가 직접 대화하게 되었으므로, 대화의 '내용(데이터)'뿐만 아니라 '누가 내 집에 들어오는지(IP 보안)'를 감시하는 대문지기의 역할이 더욱 중요해졌습니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -127,7 +127,7 @@ keyword = "Thread_IPv6_6LoWPAN_IEEE802.15.4_MeshNetwork_BorderRouter_SmartHome_G
 
 📢 **섹션 요약 비유**: 스레드는 스마트홈의 '실핏줄'이자 '신경계'로서, 모든 사물이 인터넷의 혜택을 누릴 수 있게 만드는 최후의 퍼즐 조각입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **6LoWPAN**: 저전력 망에서 IPv6를 가능케 하는 핵심 기술.

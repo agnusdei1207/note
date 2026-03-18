@@ -12,7 +12,7 @@ keyword = "SDDC_SDN_SDS_HCI_SoftwareDefined_HyperConvergedInfrastructure_Virtual
 > 2. **가치**: 특정 벤더의 고가 하드웨어 장비(시스코 라우터, EMC 스토리지 등)에 종속되지 않고 저렴한 범용 x86 서버(Whitebox)만으로 데이터센터를 구축할 수 있어, CAPEX를 획기적으로 낮추고 클라우드와 동일한 민첩성을 제공한다.
 > 3. **융합**: SDDC를 구성하는 3대 요소(SDC, SDN, SDS)를 하나의 박스(Appliance)에 미리 패키징하여 전원만 꽂으면 즉시 클라우드가 완성되는 **HCI(Hyper-Converged Infrastructure)** 기술로 융합되어 프라이빗 클라우드 구축의 표준으로 자리 잡았다.
 
-+++
+---
 
 ## Ⅰ. SDDC (소프트웨어 정의 데이터센터) 개요
 
@@ -30,7 +30,7 @@ keyword = "SDDC_SDN_SDS_HCI_SoftwareDefined_HyperConvergedInfrastructure_Virtual
 
 📢 **섹션 요약 비유**: 복잡한 철사 줄(하드웨어)로 조종하던 인형극을, 키보드와 마우스(소프트웨어)로 완벽하게 조작하는 3D 컴퓨터 그래픽 애니메이션으로 바꾼 혁명입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -81,7 +81,7 @@ keyword = "SDDC_SDN_SDS_HCI_SoftwareDefined_HyperConvergedInfrastructure_Virtual
 
 📢 **섹션 요약 비유**: 수백 명의 택시 기사(스위치)가 각자 길을 찾게 하던 방식에서, 기사들의 뇌를 빼내고 중앙 관제 센터(SDN 컨트롤러)에서 완벽한 최적 경로를 실시간 라디오로 꽂아주는 시스템입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -101,7 +101,7 @@ keyword = "SDDC_SDN_SDS_HCI_SoftwareDefined_HyperConvergedInfrastructure_Virtual
 
 📢 **섹션 요약 비유**: 비싼 스위스제 명품 시계(레거시)를 고집하는 대신, 싸구려 부품 수백 개(Whitebox)를 똑똑한 인공지능(S/W)으로 엮어 스위스 시계보다 정확한 시간을 맞추는 가성비의 기적입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -119,7 +119,7 @@ keyword = "SDDC_SDN_SDS_HCI_SoftwareDefined_HyperConvergedInfrastructure_Virtual
 
 📢 **섹션 요약 비유**: 비싼 하드웨어의 감옥에서 탈출했다고 기뻐했는데, 알고 보니 그 감옥의 열쇠를 소프트웨어 회사(VMware)가 쥐고 임대료를 올리는 역설입니다. 진정한 자유는 오픈소스(OpenStack)라는 거친 야생을 개척할 때 얻어집니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -133,7 +133,7 @@ keyword = "SDDC_SDN_SDS_HCI_SoftwareDefined_HyperConvergedInfrastructure_Virtual
 
 📢 **섹션 요약 비유**: SDDC와 HCI는 딱딱한 기계 부품들로 이루어진 데이터센터를, 마치 물처럼 어떤 그릇에도 담기고 어떤 형태로도 변할 수 있는 유연한 '디지털 슬라임'으로 만들어낸 마법입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **가상화 및 하이퍼바이저**: SDDC의 가장 기본이 되는 서버 가상화(SDC) 기술.

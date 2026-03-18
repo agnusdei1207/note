@@ -12,7 +12,7 @@ keyword = "TheGraph_GRT_IndexingProtocol_GraphQL_Subquery_DecentralizedQuery_Web
 > 2. **가치**: 블록체인 데이터를 직접 조회할 때 발생하는 느린 속도와 복잡한 연산 문제를 해결하여, 개발자가 빠르고 사용자 친화적인 웹 3.0 애플리케이션을 구축할 수 있게 돕는 필수 인프라 역할을 한다.
 > 3. **융합**: 블록체인 데이터 평면과 애플리케이션 계층을 잇는 '미들웨어'로서, 데이터 인덱서(Indexer), 큐레이터(Curator), 위임자(Delegator)가 결합된 정교한 토큰 이코노미를 통해 데이터의 무결성과 가용성을 보장한다.
 
-+++
+---
 
 ## Ⅰ. 더 그래프 (The Graph) 개요
 
@@ -30,7 +30,7 @@ keyword = "TheGraph_GRT_IndexingProtocol_GraphQL_Subquery_DecentralizedQuery_Web
 
 📢 **섹션 요약 비유**: 뒤죽박죽 쌓인 데이터 더미 속에서 필요한 보물만 쏙쏙 찾아낼 수 있게 지도를 그리고 라벨을 붙여주는 '디지털 데이터 큐레이션' 기술입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 작동 원리 (Deep Dive)
 
@@ -79,7 +79,7 @@ keyword = "TheGraph_GRT_IndexingProtocol_GraphQL_Subquery_DecentralizedQuery_Web
 
 📢 **섹션 요약 비유**: 원석(블록체인 데이터)을 캐내어(Scanning), 정해진 틀(Manifest)에 맞춰 보석(Indexed Data)으로 가공한 뒤 진열장에 배치하는 '데이터 가공 공정'과 같습니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -99,7 +99,7 @@ keyword = "TheGraph_GRT_IndexingProtocol_GraphQL_Subquery_DecentralizedQuery_Web
 
 📢 **섹션 요약 비유**: 직접 조회가 '두꺼운 백과사전 첫 장부터 끝장까지 읽기'라면, 더 그래프는 '맨 뒷장의 색인을 보고 바로 페이지를 펼치는 것'과 같습니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -116,7 +116,7 @@ keyword = "TheGraph_GRT_IndexingProtocol_GraphQL_Subquery_DecentralizedQuery_Web
 
 📢 **섹션 요약 비유**: 사진을 찍고 인화가 완료되기까지 아주 잠깐의 시간(지연)이 걸리듯, 최신 데이터를 얼마나 빨리 '인덱싱'하느냐가 서비스의 품질을 결정합니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -130,7 +130,7 @@ keyword = "TheGraph_GRT_IndexingProtocol_GraphQL_Subquery_DecentralizedQuery_Web
 
 📢 **섹션 요약 비유**: 더 그래프는 블록체인이라는 거대한 도서관을 누구나 쉽게 이용할 수 있게 만드는 '지식의 길잡이'이자 웹 3.0의 가장 든든한 '데이터 뿌리'입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **GraphQL**: 더 그래프에서 데이터를 조회할 때 사용하는 표준 쿼리 언어.

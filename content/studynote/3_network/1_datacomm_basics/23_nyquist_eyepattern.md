@@ -12,7 +12,7 @@ categories = "studynote-network"
 > 2. **가치**= **아이패턴(Eye Pattern)** 분석을 통해 오실로스코프 상에서 잡음 내성(Noise Margin), 타이밍 지터(Jitter), 왜곡 정도를 정량적으로 시각화하여 시스템의 **BER (Bit Error Rate, 비트 오류율)**을 예측할 수 있다.
 > 3. **융합**= 고속 직렬 인터페이스(PCIe, USB)와 광 통신에서 송신단의 **DSP (Digital Signal Processing, 디지털 신호 처리)**와 수신단의 **CDR (Clock and Data Recovery, 클럭 및 데이터 복원)** 성능을 검증하는 필수적인 물리 계층 진단 도구이다.
 
-+++
+---
 
 ### Ⅰ. 개요 (Context & Background) - [500자+]
 

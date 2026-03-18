@@ -14,7 +14,7 @@ id = 448
 > 2. **가치**: 실시간 멀티미디어 스트리밍 환경에서 **TCP (Transmission Control Protocol)**의 재전송 지연(Latency)을 배제하고, **RTP (Real-time Transport Protocol)**의 패킷 순서 번호와 타임스탬프 기능을 통해 미디어 동기화를 구현한다.
 > 3. **융합**: 네트워크 계층의 IP와 결합하여 멀티캐스팅을 지원하며, 애플리케이션 계층의 코덱(Codecs) 정보와 연동하여 적응형 스트리밍 서비스를 가능하게 한다.
 
-+++
+---
 
 ### Ⅰ. 개요 (Context & Background)
 

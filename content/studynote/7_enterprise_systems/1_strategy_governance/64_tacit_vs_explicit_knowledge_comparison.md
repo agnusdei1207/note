@@ -13,7 +13,7 @@ keyword = "Tacit_Knowledge_Explicit_Knowledge_Polanyi_SECI_Knowledge_Asset"
 > 2. **가치**: 암묵지는 기업 경쟁력의 원천이자 혁신의 씨앗(Context)이 되고, 형식지는 지식의 대량 전파와 표준화(Efficiency)를 가능하게 하여 조직의 전체적인 역량을 상향 평준화한다.
 > 3. **융합**: 마이클 폴라니의 철학적 기반 위에서 노나카의 SECI 모델을 통해 두 지식이 상호작용하며, 현대의 생성형 AI는 거대한 형식지(빅데이터)로부터 새로운 암묵지적 통찰(추론)을 이끌어내는 단계로 진화하고 있다.
 
-+++
+---
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -28,7 +28,7 @@ keyword = "Tacit_Knowledge_Explicit_Knowledge_Polanyi_SECI_Knowledge_Asset"
 
 📢 섹션 요약 비유: 암묵지는 우리 몸의 '근육 기억'이고 형식지는 '해부학 도감'입니다. 도감만으로는 힘을 쓸 수 없고, 근육만으로는 원리를 알 수 없기에 두 지식의 조화가 필수적입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -70,7 +70,7 @@ keyword = "Tacit_Knowledge_Explicit_Knowledge_Polanyi_SECI_Knowledge_Asset"
 
 📢 섹션 요약 비유: 암묵지는 '비밀 소스'이고 형식지는 '표준 레시피'입니다. 비밀 소스를 레시피로 적어두어야 전국 가맹점이 똑같은 맛을 낼 수 있습니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -90,7 +90,7 @@ keyword = "Tacit_Knowledge_Explicit_Knowledge_Polanyi_SECI_Knowledge_Asset"
 
 📢 섹션 요약 비유: 형식지가 '벽돌'이라면 암묵지는 '시멘트'와 같아서, 벽돌만으로는 집을 지을 수 없고 시멘트만으로는 모양을 잡을 수 없습니다. 둘이 섞여야 튼튼한 건물(조직 역량)이 됩니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -118,7 +118,7 @@ keyword = "Tacit_Knowledge_Explicit_Knowledge_Polanyi_SECI_Knowledge_Asset"
 
 📢 섹션 요약 비유: 지식을 기록하는 것은 '사진'을 찍는 것과 같아서, 너무 많이 찍으면 나중에 정리하기 힘들고 너무 안 찍으면 그때의 기억을 영영 잃어버리게 됩니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -134,7 +134,7 @@ keyword = "Tacit_Knowledge_Explicit_Knowledge_Polanyi_SECI_Knowledge_Asset"
 
 📢 섹션 요약 비유: 미래의 지식 관리는 영화 '매트릭스'에서 뇌에 프로그램을 내려받듯, 지식이 필요한 순간 내 몸의 일부(암묵지)로 즉시 동기화되는 마법 같은 현실이 될 것입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 | 관련 개념 | 관계 및 시너지 설명 |

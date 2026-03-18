@@ -13,7 +13,7 @@ id = 354
 > 2. **가치**: **Feasible Successor (잠재적 후계자)**를 통해 사전에 계산된 백업 경로를 즉시 활용함으로써 장애 발생 시 수렴 시간(Convergence Time)을 1초 이내로 최소화하고, **Unequal Cost Load Balancing (비용 불균형 로드 밸런싱)**을 통해 대역폭 효율을 극대화합니다.
 > 3. **융합**: RTP (Reliable Transport Protocol) 기반의 신뢰할 수 있는 전송과 PDM (Protocol Dependent Module) 구조를 통해 IP, IPX, AppleTalk 등 다양한 프로토콜을 지원하며, 현재는 대규모 엔터프라이즈 네트워크의 핵심 라우팅 엔진으로 활용됩니다.
 
-+++
+---
 
 ### Ⅰ. 개요 (Context & Background)
 

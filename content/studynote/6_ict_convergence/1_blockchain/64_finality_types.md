@@ -12,7 +12,7 @@ keyword = "Finality_Probabilistic_Deterministic_LongestChainRule_BFT_Settlement"
 > 2. **가치**: **확률적 완결성**은 시간이 지남에 따라 취소 가능성이 0에 수렴하는 구조(비트코인 등)이고, **확정적 완결성**은 합의가 이루어지는 즉시 되돌릴 수 없는 구조(PBFT 등)로 실시간 결제 및 금융 정산의 기준이 된다.
 > 3. **융합**: 자본 효율성을 중시하는 DeFi와 기업용 실시간 시스템에서는 확정적 완결성이 필수적이며, 최근에는 PoS의 확장성과 BFT의 완결성을 결합한 **하이브리드 완결성** 모델이 주류를 이루고 있다.
 
-+++
+---
 
 ## Ⅰ. 완결성 (Finality) 개요
 
@@ -30,7 +30,7 @@ keyword = "Finality_Probabilistic_Deterministic_LongestChainRule_BFT_Settlement"
 
 📢 **섹션 요약 비유**: "조금만 기다리면 안전해져요"라는 약속과 "지금 당장 안전해요"라는 확답의 차이를 이해하는 과정입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -68,7 +68,7 @@ keyword = "Finality_Probabilistic_Deterministic_LongestChainRule_BFT_Settlement"
 
 📢 **섹션 요약 비유**: 일기장에 연필로 적으며 나중에 지우개로 지울 가능성을 열어두는 것(확률적)과, 매일 저녁 부모님의 최종 확인 도장을 받아 영구 기록으로 남기는 것(확정적)의 차이입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -87,7 +87,7 @@ keyword = "Finality_Probabilistic_Deterministic_LongestChainRule_BFT_Settlement"
 
 📢 **섹션 요약 비유**: 확률적 체인이 '일단 쓰고 나중에 고치자'는 열린 마인드라면, 확정적 체인은 '완벽하지 않으면 쓰지 말자'는 깐깐한 선비와 같습니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -104,7 +104,7 @@ keyword = "Finality_Probabilistic_Deterministic_LongestChainRule_BFT_Settlement"
 
 📢 **섹션 요약 비유**: 배달 온 피자를 바로 먹을지(확정적), 독이 들었나 한참 지켜보고 먹을지(확률적)를 결정하는 것은 결국 '배고픔(비즈니스 속도)'과 '안전(보안)' 사이의 선택입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -118,7 +118,7 @@ keyword = "Finality_Probabilistic_Deterministic_LongestChainRule_BFT_Settlement"
 
 📢 **섹션 요약 비유**: 완결성은 블록체인이 '장난감'에서 '진짜 세상의 장부'로 넘어오게 만든 **'마지막 퍼즐 조각'**입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **이중 지불 (Double Spending)**: 완결성이 해결하고자 하는 근본 문제.

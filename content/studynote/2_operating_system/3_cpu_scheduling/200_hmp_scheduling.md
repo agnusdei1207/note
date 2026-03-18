@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 모바일 기기의 배터리 수명을 획기적으로 연장하면서도 게임이나 영상 편집 같은 고성능 작업 시에는 폭발적인 연산력을 제공하는 성능-전력 효율 (PPA)의 최적 균형을 달성한다.
 > 3. **융합**: ARM의 big.LITTLE / DynamIQ 아키텍처, 인텔의 하이브리드 아키텍처 (Alder Lake 이후), 그리고 운영체제의 EAS (Energy-Aware Scheduling) 엔진과 밀접하게 연계된다.
 
-+++
+---
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 마라톤 선수(Big 코어)와 일반인(Little 코어)이 섞여 있는 팀에서, 가파른 언덕길(무거운 작업)은 선수에게 맡기고 평지는 일반인에게 맡겨 팀 전체의 체력을 안배하는 지혜와 같습니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -52,7 +52,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 초기에는 팀 전체가 교체되었다면, 이제는 개별 선수들이 실시간으로 코트에 들어오고 나가는 자유로운 교체 시스템으로 진화한 것입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -67,7 +67,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: SMP는 똑같은 실력의 쌍둥이 팀이고, HMP는 각기 다른 특기를 가진 어벤져스 팀입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -77,7 +77,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 트럭(Big)이 과열되었다고 해서 짐을 전부 자전거(Little)에 옮기면 배달 사고가 나니, 트럭의 속도를 조금 줄이더라도 끝까지 운반하게 해야 합니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -86,7 +86,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 적재적소에 알맞은 일꾼을 배치하는 안목이 전체 시스템의 생명력을 결정합니다.
 
-+++
+---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
 - **EAS (Energy-Aware Scheduling)**: HMP를 위한 리눅스 커널의 핵심 에너지 최적화 엔진

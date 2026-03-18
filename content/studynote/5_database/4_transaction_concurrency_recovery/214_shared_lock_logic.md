@@ -11,7 +11,7 @@ id = 214
 > 1. **본질**: 공유 락(Shared Lock)은 데이터베이스의 동시성 제어 메커니즘에서 **읽기 일관성(Read Consistency)**을 보장하기 위해 다중 트랜잭션이 동일한 데이터를 동시에 읽을 수 있게 허용하는 잠금 모드입니다.
 > 2. **가치**: 데이터 변경을 방지하여 'Non-Repeatable Read'나 'Dirty Read'를 방지함으로써 데이터 무결성을 유지하면서도, 읽기 작업 간 병렬 처리를 통해 시스템의 **처리량(Throughput)**을 극대화합니다.
 > 3. **융합**: 배타 락(Exclusive Lock)과의 상호 배제적 원칙에 기반하며, 현대의 MVCC(Multi-Version Concurrency Control) 환경에서는 잠금 경쟁(Lock Contention)을 최소화하는 보조 전략으로 활용됩니다.
-+++
+---
 
 ### Ⅰ. 개요 (Context & Background)
 

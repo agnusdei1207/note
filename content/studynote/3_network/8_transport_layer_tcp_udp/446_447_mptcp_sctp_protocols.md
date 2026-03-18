@@ -13,7 +13,7 @@ id = 446
 > 2. **가치**: **MPTCP**는 Wi-Fi와 Cellular(LTE/5G) 인터페이스를 동시에 활용하여 처리량(Throughput)을 최대화하고 서비스 무중단 시간(Zero Downtime)을 보장하며, **SCTP**는 Head-of-Line(HOL) Blocking 현상을 제거하여 지연 시간(Latency)을 획기적으로 단축시킵니다.
 > 3. **융합**: 스마트폰의 데이터 통신, 5G 이동통신망의 시그널링(Signaling), Hyper-converged Infrastructure의 스토리지 트래픽 처리 등 안정성과 속도가 동시에 요구되는 미래 네트워크 인프라의 핵심 프로토콜로 자리 잡고 있습니다.
 
-+++
+---
 
 ### Ⅰ. 개요 (Context & Background)
 

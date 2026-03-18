@@ -13,7 +13,7 @@ id = 216
 > 2. **가치**= 신뢰성 있는 전송을 위해 ** sliding window (슬라이딩 윈도우)** 기반의 효율적인 흐름 제어와 **ARQ (Automatic Repeat reQuest)** 기반의 오류 제어를 하나의 프레임 내에서 통합하여 처리하는 고성능 프로토콜입니다.
 > 3. **융합**= 현대의 **PPP (Point-to-Point Protocol)**나 프레임 릴레이(Frame Relay)의 모체가 되는 기술로, LAN의 이더넷과 WAN의 전용선 프로토콜을 잇는 가교 역할을 수행했습니다.
 
-+++
+---
 
 ### Ⅰ. 개요 (Context & Background)
 

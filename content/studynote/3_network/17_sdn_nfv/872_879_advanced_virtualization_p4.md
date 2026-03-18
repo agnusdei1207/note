@@ -13,7 +13,7 @@ id = 872
 > 2. **가치 (Telemetry & Automation)**: 고전적인 SNMP (Simple Network Management Protocol)의 한계를 넘어, **스트리밍 텔레메트리(Streaming Telemetry)** 와 **NETCONF (Network Configuration Protocol)**는 마이크로초(µs) 단위의 실시간 데이터 수집과 선언적 자동화를 통해 네트워크의 가시성과 운영 효율을 획기적으로 높입니다.
 > 3. **융합 (SDN Evolution)**: 이러한 기술들은 NOS (Network Operating System) 예를 들어 **SONiC (Software for Open Networking in the Cloud)** 와 결합하여, 네트워크를 단순한 전송 파이프가 아닌 클라우드-native 애플리케이션이 실행 가능한 '프로그래머블 인프라'로 진화시킵니다.
 
-+++
+---
 
 ### Ⅰ. 개요 (Context & Background) - [500자+]
 
@@ -28,7 +28,7 @@ id = 872
 **💡 섹션 요약 비유**
 > 마치 과거에는 'CDP 플레이어'에 들어있는 노래만 들을 수 있어서 새로운 음악을 듣고 싶으면 플레이어를 통째로 바꿔야 했다면, P4와 같은 기술은 '스마트폰(App Store)'의 등장과 같습니다. 이제는 하드웨어(스마트폰 몸체)는 그대로 두고, 원하는 앱(코드)만 설치하면 그 기능이 바로 추가되는 것입니다.
 
-+++
+---
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive) - [1,000자+]
 
@@ -130,7 +130,7 @@ P4가 '어떻게 패킷을 처리할지' 정의한다면, **NETCONF (Network Con
 **📢 섹션 요약 비유**
 > P4는 **'자동차의 엔진 제어 유닛(ECU) 프로그래밍'**과 같습니다. 연료 분사 시점과 흡기 밸브 개폐 로직(패킷 처리 로직)을 코드로 새로 짜서, 연비(성능)를 극대화하는 것입니다. 반면 NETCONF/YANG은 **'자동차 네비게이션 설정 및 진단 컴퓨터'**와 같습니다. 차의 하드웨어를 뜯어고치지 않고도, 목적지를 설정하거나(Routing Table), 엔진 오일 상태(Interface Stats)를 시스템이 알아먹는 표준 코드로 확인하는 역할을 합니다.
 
-+++
+---
 
 ### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy) - [비교표 2개+]
 

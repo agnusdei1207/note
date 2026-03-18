@@ -13,7 +13,7 @@ id = 461
 > 2. **가치**: HTTP/1.1은 `Persistent Connection (지속 연결)`을 통해 TCP 3-Way Handshake로 인한 지연 시간(Latency)을 획기적으로 줄여 웹 페이지 로딩 속도와 네트워크 효율을 개선했다.
 > 3. **융합**: 하지만 `HOL (Head-of-Line) Blocking` 문제는 대역폭 낭비를 초래하며, 이를 해결하기 위한 HTTP/2의 `Multiplexing (다중화)` 및 TCP보다 가벼운 QUIC(UDP 기반) 등장의 계기가 되었다.
 
-+++
+---
 
 ## Ⅰ. 개요 (Context & Background)
 

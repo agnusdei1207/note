@@ -12,7 +12,7 @@ id = 222
 > 1. **본질**: 트랜잭션의 진입 순서를 논리적 시간 값으로 부여하여, 명시적인 락(Lock) 매커니즘 없이 **충돌 직렬 가능성(Conflict Serializability)**을 보장하는 비관적 동시성 제어 기술이다.
 > 2. **가치**: **Deadlock (교착 상태)**이 근원적으로 발생 불가능한 구조를 가지며, 락 관리 오버헤드가 없어 고속 처리가 필요한 분산 데이터베이스 환경에서 유리하다.
 > 3. **융합**: 분산 시스템의 **TrueTime (Google Spanner)** 및 **Lamport Timestamp**와 결합하여 글로벌 트랜잭션 순서를 보장하거나, MVCC (Multi-Version Concurrency Control)의 기본 베이스로 활용된다.
-+++
+---
 
 ## Ⅰ. 개요 (Context & Background)
 

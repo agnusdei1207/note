@@ -12,7 +12,7 @@ keyword = "DeFi_Decentralized_Finance_AMM_Liquidity_Pool_Money_Legos"
 > 2. **가치**: 24/7 중단 없는 서비스와 **투명한 코드** 기반 운영을 통해 신뢰 비용을 최소화하며, 전 세계 누구나 인터넷만 연결되면 금융 혜택을 누릴 수 있는 '금융 포용성'을 실현한다.
 > 3. **융합**: 서로 다른 프로토콜이 자유롭게 결합되는 **'머니 레고(Money Legos)'** 특성을 지니며, AMM(자동 시장 조성자), 유동성 풀(Liquidity Pool) 등 혁신적인 알고리즘이 자본 효율성을 극대화한다.
 
-+++
+---
 
 ## Ⅰ. 디파이 (DeFi) 개요
 
@@ -30,7 +30,7 @@ keyword = "DeFi_Decentralized_Finance_AMM_Liquidity_Pool_Money_Legos"
 
 📢 **섹션 요약 비유**: 복잡한 서류와 승인 절차가 필요한 '성벽 안의 금융'에서, 누구나 자유롭게 드나들며 거래하는 '디지털 금융 광장'으로의 대전환입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -77,7 +77,7 @@ keyword = "DeFi_Decentralized_Finance_AMM_Liquidity_Pool_Money_Legos"
 
 📢 **섹션 요약 비유**: 수만 개의 정교한 톱니바퀴가 서로 맞물려 돌아가는 '디지털 거대 시계'와 같아서, 톱니 하나(프로토콜)를 추가할 때마다 새로운 기능이 탄생하는 구조입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -98,7 +98,7 @@ keyword = "DeFi_Decentralized_Finance_AMM_Liquidity_Pool_Money_Legos"
 
 📢 **섹션 요약 비유**: 수백 년 된 무거운 갑옷(전통 금융)을 벗어던지고, 가볍고 빠른 나노 수트(디파이)를 입어 물리적 제약을 극복한 금융의 진화입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -112,7 +112,7 @@ keyword = "DeFi_Decentralized_Finance_AMM_Liquidity_Pool_Money_Legos"
 
 📢 **섹션 요약 비유**: 주행 보조 장치(스마트 컨트랙트)가 달린 자동차는 편하지만, 센서(오라클)가 고장 나면 대형 사고로 이어지므로 철저한 점검(보안 감사)이 생명입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -126,7 +126,7 @@ keyword = "DeFi_Decentralized_Finance_AMM_Liquidity_Pool_Money_Legos"
 
 📢 **섹션 요약 비유**: 디파이는 금융이라는 거대한 빙산을 녹여 누구나 마실 수 있는 깨끗한 **'신뢰의 생수'**로 바꾸어 놓는 기술적 연금술입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **스마트 컨트랙트**: 디파이의 모든 로직이 구현되는 프로그래밍 언어.

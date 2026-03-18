@@ -12,7 +12,7 @@ keyword = "Hard_Fork_Incompatible_Upgrade_Chain_Split_Consensus_Divergence"
 > 2. **가치**: 해킹 사고 수습(The DAO 사태), 기술적 성능 향상(블록 크기 확대), 또는 철학적 견해 차이를 해결하기 위한 **'디지털 직접 민주주의'**의 수단으로 활용된다.
 > 3. **융합**: 거버넌스 투표와 네트워크 합의 메커니즘이 결합되어 있으며, 포크 발생 시 기존 보유 자산이 새로운 체인에서도 생성되는 **'자산의 복제'** 현상이 발생하여 암호 경제학적 시장 변동성을 초래한다.
 
-+++
+---
 
 ## Ⅰ. 하드 포크 (Hard Fork) 개요
 
@@ -30,7 +30,7 @@ keyword = "Hard_Fork_Incompatible_Upgrade_Chain_Split_Consensus_Divergence"
 
 📢 **섹션 요약 비유**: 한 권의 역사서(블록체인)를 쓰다가 큰 싸움이 나서, 일부 사람들이 다른 종이를 가져와서 자기들만의 이야기를 따로 써 내려가기 시작하는 '역사의 분기점'입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -78,7 +78,7 @@ keyword = "Hard_Fork_Incompatible_Upgrade_Chain_Split_Consensus_Divergence"
 
 📢 **섹션 요약 비유**: "이제부터 우리 마을은 한복 대신 양복을 입어야 한다"라고 법을 바꾼 뒤, 한복만 입는 사람들은 마을 밖으로 나가서 자기들끼리 마을을 따로 차리는 것과 같습니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -98,7 +98,7 @@ keyword = "Hard_Fork_Incompatible_Upgrade_Chain_Split_Consensus_Divergence"
 
 📢 **섹션 요약 비유**: 하드 포크가 '이혼 후 각자의 삶을 사는 것'이라면, 소프트 포크는 '한집에 살면서 생활 규칙만 조금 바꾸는 것'의 차이입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -112,7 +112,7 @@ keyword = "Hard_Fork_Incompatible_Upgrade_Chain_Split_Consensus_Divergence"
 
 📢 **섹션 요약 비유**: 새로운 운영체제(OS)를 깔 때, 예전 앱이 안 돌아가더라도 성능을 위해 다 갈아엎을 것인지(하드), 예전 앱을 살리면서 조금씩 고칠 것인지(소프트)를 결정하는 중대한 설계 철학의 문제입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -126,7 +126,7 @@ keyword = "Hard_Fork_Incompatible_Upgrade_Chain_Split_Consensus_Divergence"
 
 📢 **섹션 요약 비유**: 하드 포크는 생물이 환경에 적응하기 위해 스스로의 몸을 바꾸는 **'디지털 진화'**의 과정이며, 때로는 뼈를 깎는 고통(체인 분리)을 수반하지만 생태계 전체의 생존력을 높이는 장치입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **소프트 포크 (Soft Fork)**: 하위 호환성을 유지하는 온건한 업그레이드.

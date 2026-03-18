@@ -12,7 +12,7 @@ keyword = "QuantumComputing_Qubit_Superposition_Entanglement_NISQ_Shor_Grover"
 > 2. **가치**: 큐비트의 '중첩(Superposition)'과 '얽힘(Entanglement)' 현상을 이용해 병렬 연산 속도를 지수함수적으로 증가시킴으로써, 기존 슈퍼컴퓨터로 수만 년이 걸리는 암호 해독이나 신약 개발(분자 시뮬레이션)을 단 몇 초 만에 해결할 수 있는 **양자 우위(Quantum Supremacy)**를 제공한다.
 > 3. **융합**: 소인수분해 기반의 기존 RSA 암호 체계를 무너뜨릴 쇼어(Shor) 알고리즘과 대칭키 탐색을 가속하는 그로버(Grover) 알고리즘의 위협에 대응하기 위해, 현대 사이버 보안은 PQC(양자 내성 암호) 및 양자 키 분배(QKD) 기술과의 융합으로 급변하고 있다.
 
-+++
+---
 
 ## Ⅰ. 양자 컴퓨팅 개요
 
@@ -30,7 +30,7 @@ keyword = "QuantumComputing_Qubit_Superposition_Entanglement_NISQ_Shor_Grover"
 
 📢 **섹션 요약 비유**: 마차(고전 컴퓨터)를 아무리 개량해도 자동차가 되지 않듯, 기존 컴퓨터의 속도를 높이는 것을 포기하고 아예 '텔레포트'라는 새로운 이동 법칙을 가져온 물리학의 반란입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -81,7 +81,7 @@ keyword = "QuantumComputing_Qubit_Superposition_Entanglement_NISQ_Shor_Grover"
 
 📢 **섹션 요약 비유**: 상자 안의 고양이가 살았는지 죽었는지 열어보기 전(연산 중)에는 두 가지 가능성이 공존하지만, 상자를 여는 순간(관측) 하나의 결과로 확정되는 기묘한 우주의 법칙입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -98,7 +98,7 @@ keyword = "QuantumComputing_Qubit_Superposition_Entanglement_NISQ_Shor_Grover"
 
 📢 **섹션 요약 비유**: 쇼어 알고리즘은 현존하는 가장 강력한 '만능 금고 털이범'입니다. 이 도둑이 성장하기 전에, 도둑이 아무리 머리를 써도 열 수 없는 '새로운 모양의 자물쇠(PQC)'로 전 세계 금고를 다 바꿔야 하는 긴급 상황입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -116,7 +116,7 @@ keyword = "QuantumComputing_Qubit_Superposition_Entanglement_NISQ_Shor_Grover"
 
 📢 **섹션 요약 비유**: 양자 컴퓨터는 엄청나게 똑똑하지만 너무 예민해서 헛소리(노이즈)를 자주 하는 천재입니다. 당분간은 듬직한 일반인(고전 컴퓨터)을 조수로 붙여주어 헛소리를 걸러내게 하는 하이브리드 팀워크가 필요합니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -130,7 +130,7 @@ keyword = "QuantumComputing_Qubit_Superposition_Entanglement_NISQ_Shor_Grover"
 
 📢 **섹션 요약 비유**: 양자 컴퓨팅은 촛불(고전 역학)을 백 개 모아도 만들 수 없는 전구(양자 역학)의 발명과 같습니다. 인류의 문제 해결 능력을 완전히 새로운 차원으로 도약시킬 궁극의 지팡이입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **양자 내성 블록체인**: 양자 컴퓨터의 해킹 위협으로부터 암호화폐를 지켜내기 위한 최후의 방패.

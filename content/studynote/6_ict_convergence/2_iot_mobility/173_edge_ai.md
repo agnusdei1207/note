@@ -12,7 +12,7 @@ keyword = "EdgeAI_OnDeviceAI_TinyML_NPU_FederatedLearning_Privacy"
 > 2. **가치**: 클라우드 전송에 따른 지연 시간(Latency)을 '제로'에 가깝게 없애고 네트워크 비용을 획기적으로 줄이며, 음성이나 얼굴 영상 같은 민감한 데이터가 외부로 유출되지 않아 완벽한 프라이버시를 보장한다.
 > 3. **융합**: 거대 AI 모델을 가볍게 깎아내는 모델 경량화(Pruning, Quantization) 알고리즘과 초전력 AI 반도체(NPU, TinyML) 기술이 융합되어, 인터넷이 끊긴 사막 한가운데서도 스마트 기기가 스스로 판단하게 만든다.
 
-+++
+---
 
 ## Ⅰ. 엣지 AI (Edge AI) 개요
 
@@ -30,7 +30,7 @@ keyword = "EdgeAI_OnDeviceAI_TinyML_NPU_FederatedLearning_Privacy"
 
 📢 **섹션 요약 비유**: 클라우드라는 '거대한 두뇌'에 탯줄을 연결해 연명하던 기계들이, 탯줄을 끊고 자신만의 '작고 똑똑한 뇌'를 가지게 된 인공지능의 독립선언입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -79,7 +79,7 @@ keyword = "EdgeAI_OnDeviceAI_TinyML_NPU_FederatedLearning_Privacy"
 
 📢 **섹션 요약 비유**: 수백 권짜리 무거운 백과사전(클라우드 모델)의 핵심만 추려내서 수첩(엣지 모델)에 적어준 뒤, 영업 사원(NPU)의 호주머니에 찔러주어 언제든 현장에서 답을 찾게 만드는 최적화 기술입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -99,7 +99,7 @@ keyword = "EdgeAI_OnDeviceAI_TinyML_NPU_FederatedLearning_Privacy"
 
 📢 **섹션 요약 비유**: 각 학교의 학생들(엣지 기기)이 푼 시험지(개인 데이터)를 본부로 보내지 않고, 학생들이 스스로 오답 노트를 만들게 한 뒤 '어느 부분을 헷갈려했는지(가중치)'만 모아서 완벽한 교과서를 다시 찍어내는 연합 학습의 마법입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -117,7 +117,7 @@ keyword = "EdgeAI_OnDeviceAI_TinyML_NPU_FederatedLearning_Privacy"
 
 📢 **섹션 요약 비유**: 너무 무거운 역기(거대 AI)를 무리하게 작은 몸(스마트폰)으로 들게 하면 다칩니다. 덤벨(경량 모델)로 근육을 펌핑시키고, 진짜 무거운 건 헬스장 관장님(클라우드)에게 도와달라고 하는 협업이 핵심입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -131,7 +131,7 @@ keyword = "EdgeAI_OnDeviceAI_TinyML_NPU_FederatedLearning_Privacy"
 
 📢 **섹션 요약 비유**: 엣지 AI는 거대한 중앙 권력(클라우드)에 묶여있던 지능을 잘게 부수어 온 세상 모든 사물들에게 평등하게 나누어 주는 '인공지능의 민주화' 혁명입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **포그/엣지 컴퓨팅**: 엣지 AI가 구동되는 물리적/논리적 아키텍처 기반.

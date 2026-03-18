@@ -12,7 +12,7 @@ keyword = "CloudDeploymentModels_PublicCloud_PrivateCloud_HybridCloud_MultiCloud
 > 2. **가치**: 보안 규제 준수와 빠른 확장성이라는 두 마리 토끼를 잡기 위해, 핵심 데이터는 사내망(Private)에 두고 웹 서비스는 외부(Public)에 두는 하이브리드 전략이 엔터프라이즈의 표준으로 안착했다.
 > 3. **융합**: 최근에는 AWS, GCP, Azure 등 여러 퍼블릭 클라우드의 장점만을 골라 쓰는 멀티 클라우드(Multi-Cloud) 전략이 대세가 되었으며, 이를 가능케 하는 핵심 융합 기술이 바로 컨테이너 기반의 '쿠버네티스(Kubernetes)'다.
 
-+++
+---
 
 ## Ⅰ. 클라우드 배포 모델 개요
 
@@ -35,7 +35,7 @@ keyword = "CloudDeploymentModels_PublicCloud_PrivateCloud_HybridCloud_MultiCloud
 
 📢 **섹션 요약 비유**: 각기 다른 장단점을 가진 요리 재료(모델)들을 섞어, '보안'과 '확장성'이라는 절대 타협할 수 없는 두 가지 맛을 완벽하게 내는 클라우드 황금 레시피입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -85,7 +85,7 @@ keyword = "CloudDeploymentModels_PublicCloud_PrivateCloud_HybridCloud_MultiCloud
 
 📢 **섹션 요약 비유**: 우리 가게(프라이빗) 주방에서 평소 요리를 다 하다가, 명절에 주문이 폭주하면 넘치는 주문만 옆 동네 대형 공유 주방(퍼블릭)으로 보내서 처리하는 마법의 분배술입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -105,7 +105,7 @@ keyword = "CloudDeploymentModels_PublicCloud_PrivateCloud_HybridCloud_MultiCloud
 
 📢 **섹션 요약 비유**: 멀티 클라우드는 각국의 용병을 모아 쓰는 것과 같습니다. 이들이 싸우지 않고 협력하게 만들려면 '컨테이너'라는 통일된 전투복과 '쿠버네티스'라는 위대한 장군이 반드시 필요합니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -123,7 +123,7 @@ keyword = "CloudDeploymentModels_PublicCloud_PrivateCloud_HybridCloud_MultiCloud
 
 📢 **섹션 요약 비유**: 이마트와 홈플러스에서 각각 싼 물건만 골라 담으려다, 두 마트를 오가는 '기름값(데이터 전송료)'이 더 나오는 멍청한 쇼핑(설계)을 경계해야 합니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -137,7 +137,7 @@ keyword = "CloudDeploymentModels_PublicCloud_PrivateCloud_HybridCloud_MultiCloud
 
 📢 **섹션 요약 비유**: 멀티 클라우드는 하나의 왕(벤더)에게 지배당하지 않고, 여러 나라의 자원을 자유롭게 취사선택하며 비즈니스의 절대적인 자유를 쟁취하는 '독립운동'입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **IaaS / PaaS / SaaS**: 배포 모델과 십자(Cross) 형태로 엮이는 클라우드의 서비스 모델.

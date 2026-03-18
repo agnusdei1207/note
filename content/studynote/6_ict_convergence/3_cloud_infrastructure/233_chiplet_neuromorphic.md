@@ -12,7 +12,7 @@ keyword = "Chiplet_AdvancedPackaging_Neuromorphic_SNN_MooreLaw_AIHardware"
 > 2. **가치**: 칩렛은 반도체 수율(Yield)을 극적으로 높이고 설계 비용을 낮추어 '무어의 법칙'의 물리적 한계를 경제적으로 돌파하게 해주며, 뉴로모픽은 연산과 기억을 한 곳에서 처리하여 현재 AI 칩(GPU) 대비 전력 소모를 1/1,000 수준으로 낮춘다.
 > 3. **융합**: 이 두 기술은 2.5D/3D 고급 패키징 기술(TSV 등) 및 초고속 내부 통신망(UCIe)과 융합되어, 미래의 데이터센터와 초소형 엣지 AI 기기의 심장으로 진화하고 있다.
 
-+++
+---
 
 ## Ⅰ. 칩렛 (Chiplet) 및 뉴로모픽 반도체 개요
 
@@ -30,7 +30,7 @@ keyword = "Chiplet_AdvancedPackaging_Neuromorphic_SNN_MooreLaw_AIHardware"
 
 📢 **섹션 요약 비유**: 칩렛이 '어떻게 더 크고 싸게 공장을 지을 것인가(제조의 혁신)'라면, 뉴로모픽은 '아예 밥을 안 먹고도 일하는 새로운 일꾼(아키텍처 혁신)'을 만들어내는 두 가지 다른 방향의 진화입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -66,7 +66,7 @@ keyword = "Chiplet_AdvancedPackaging_Neuromorphic_SNN_MooreLaw_AIHardware"
 
 📢 **섹션 요약 비유**: 하루 종일 회의실에 모여서 수다를 떠는 조직(기존 AI)을, 평소엔 다 자고 있다가 정말 급한 일이 생겼을 때만 벌떡 일어나 쪽지를 던지는 고효율 군대(뉴로모픽)로 바꾼 것입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -84,7 +84,7 @@ keyword = "Chiplet_AdvancedPackaging_Neuromorphic_SNN_MooreLaw_AIHardware"
 
 📢 **섹션 요약 비유**: 칩렛이 '전 세계에서 가장 뛰어난 장기 기증자들을 모아 하나의 프랑켄슈타인을 만드는 것'이라면, 그 조각들이 거부 반응 없이 완벽히 피를 나누도록 핏줄을 잇는 수술 규격이 바로 'UCIe'입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -102,7 +102,7 @@ keyword = "Chiplet_AdvancedPackaging_Neuromorphic_SNN_MooreLaw_AIHardware"
 
 📢 **섹션 요약 비유**: 아무리 훌륭한 레고 블록(칩렛)을 만들어도, 제조사마다 블록의 '튀어나온 동그라미(인터페이스)' 크기가 다르면 조립할 수 없습니다. 대통합(UCIe)이 반도체 생존의 열쇠입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -116,7 +116,7 @@ keyword = "Chiplet_AdvancedPackaging_Neuromorphic_SNN_MooreLaw_AIHardware"
 
 📢 **섹션 요약 비유**: 칩렛과 뉴로모픽은 컴퓨터의 몸집은 벼룩처럼 작게 만들고, 두뇌는 사람처럼 효율적으로 진화시키는 21세기 연금술의 최종장입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **HPC 및 슈퍼컴퓨팅**: 칩렛 기술로 만들어진 거대한 CPU와 GPU들이 쓰이는 거대 전장.

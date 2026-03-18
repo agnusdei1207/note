@@ -12,7 +12,7 @@ keyword = "Token_Economy_Tokenomics_Incentive_Mechanism_Game_Theory"
 > 2. **가치**: 중앙 관리자 없이도 토큰 보상을 통해 노드 운영, 콘텐츠 생산, 거버넌스 참여 등 유익한 행동을 자발적으로 이끌어내며, **게임 이론(Game Theory)**을 기반으로 네트워크 무결성을 유지한다.
 > 3. **융합**: 거버넌스, 스테이킹, 수수료 소각 등 고도의 금융 공학 설계가 결합되어 기존의 플랫폼 경제를 넘어선 **'프로토콜 경제(Protocol Economy)'**를 구현하는 핵심 엔진이다.
 
-+++
+---
 
 ## Ⅰ. 토큰 이코노미 (Token Economy) 개요
 
@@ -30,7 +30,7 @@ keyword = "Token_Economy_Tokenomics_Incentive_Mechanism_Game_Theory"
 
 📢 **섹션 요약 비유**: 보상을 통해 사람들을 움직이게 만드는 '디지털 당근'이자, 모두가 같은 방향으로 배를 젓게 만드는 '경제적 노젓기 규칙'입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -75,7 +75,7 @@ keyword = "Token_Economy_Tokenomics_Incentive_Mechanism_Game_Theory"
 
 📢 **섹션 요약 비유**: 시장에서 물건을 정직하게 파는 상인이 돈을 더 많이 벌게 시스템을 짜서, 나쁜 마음을 먹을 틈이 없게 만드는 '정직 유도 경제학'입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -95,7 +95,7 @@ keyword = "Token_Economy_Tokenomics_Incentive_Mechanism_Game_Theory"
 
 📢 **섹션 요약 비유**: 주인 아저씨가 주는 사탕을 기다리는 '손님'의 위치에서, 가게의 주식을 나눠 갖고 함께 장사하는 '동업자'의 위치로 사용자의 위상이 변화한 것입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -109,7 +109,7 @@ keyword = "Token_Economy_Tokenomics_Incentive_Mechanism_Game_Theory"
 
 📢 **섹션 요약 비유**: 댐에 물(토큰)을 가둬두기만 하거나 너무 많이 흘려보내면 안 되듯이, 수문(발행/소각)을 정교하게 조절하여 경제의 수위(가치)를 일정하게 유지하는 '수량 관리 능력'이 성공의 열쇠입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -123,7 +123,7 @@ keyword = "Token_Economy_Tokenomics_Incentive_Mechanism_Game_Theory"
 
 📢 **섹션 요약 비유**: 토큰 이코노미는 인류 역사상 가장 거대한 **'디지털 사회 실험'**이자, 모두가 주인인 새로운 **'협동 경제'**의 시작입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **토크노믹스 (Tokenomics)**: 토큰 이코노미의 세부 설계 수치 및 정책.

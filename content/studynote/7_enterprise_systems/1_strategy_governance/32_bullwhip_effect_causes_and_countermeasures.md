@@ -13,7 +13,7 @@ keyword = "Bullwhip_Effect_Supply_Chain_Infrequency_Hau_Lee_Information_Distorti
 > 2. **가치**: 이 현상을 이해하고 통제하는 것은 공급망 전체의 불필요한 재고 비용을 절감하고, 생산 시설의 가동률을 안정화하며, 고객 대응력을 높이는 SCM 최적화의 핵심 목표다.
 > 3. **융합**: 정보 비대칭이 근본 원인이며, 이를 해결하기 위해 VMI, CPFR 등 협업 모델과 POS 데이터 공유, 리드 타임 단축, 블록체인 기반의 투명한 정보 흐름 아키텍처가 융합되어 적용된다.
 
-+++
+---
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -28,7 +28,7 @@ keyword = "Bullwhip_Effect_Supply_Chain_Infrequency_Hau_Lee_Information_Distorti
 
 📢 섹션 요약 비유: 채찍 효과는 여러 명을 거쳐 말이 전달되는 '귓속말 게임'과 같아서, 마지막 사람(제조사)은 처음 말(수요)과는 전혀 다른 엉뚱한 메시지를 듣게 되는 위험한 현상입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -70,7 +70,7 @@ keyword = "Bullwhip_Effect_Supply_Chain_Infrequency_Hau_Lee_Information_Distorti
 
 📢 섹션 요약 비유: 4대 원인은 채찍을 흔드는 나쁜 습관들과 같아서, 이 습관들을 고치지 않으면 공급망이라는 팔은 금방 근육통(비용 폭증)에 시달리게 됩니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -93,7 +93,7 @@ keyword = "Bullwhip_Effect_Supply_Chain_Infrequency_Hau_Lee_Information_Distorti
 
 📢 섹션 요약 비유: 블록체인은 채찍의 마디마디를 단단한 금속으로 연결하여 흔들림이 전달되지 않게 고정하는 '강화 장치'와 같습니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -121,7 +121,7 @@ keyword = "Bullwhip_Effect_Supply_Chain_Infrequency_Hau_Lee_Information_Distorti
 
 📢 섹션 요약 비유: 채찍 효과를 줄이는 것은 요동치는 파도 위에서 배를 수평으로 유지하는 평형수(Ballast)를 채우는 작업이며, 그 평형수는 바로 '실시간 정보'입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -137,7 +137,7 @@ keyword = "Bullwhip_Effect_Supply_Chain_Infrequency_Hau_Lee_Information_Distorti
 
 📢 섹션 요약 비유: 미래의 SCM은 채찍을 휘두르는 팔 대신, 모든 마디가 신경으로 연결되어 생각하는 대로 동시에 움직이는 '로봇 팔'과 같은 모습이 될 것입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 | 관련 개념 | 관계 및 시너지 설명 |

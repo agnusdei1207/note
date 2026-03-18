@@ -12,7 +12,7 @@ keyword = "EdgeComputing_FogComputing_Latency_Bandwidth_Decentralization_MEC_Cis
 > 2. **가치**: 데이터 전송 지연 시간(Latency)을 획기적으로 단축하고, 네트워크 대역폭(Bandwidth) 낭비를 방지하며, 프라이버시 보호 및 민감 데이터의 역외 유출 방지라는 물리적 이점을 제공한다.
 > 3. **융합**: 초저지연이 필수인 자율주행, 스마트 팩토리, 실시간 의료 모니터링 분야에서 AI 모델의 실시간 추론을 담당하는 엣지 AI(Edge AI) 기술로 진화하고 있다.
 
-+++
+---
 
 ## Ⅰ. 엣지 & 포그 컴퓨팅 개요
 
@@ -32,7 +32,7 @@ keyword = "EdgeComputing_FogComputing_Latency_Bandwidth_Decentralization_MEC_Cis
 
 📢 **섹션 요약 비유**: 모든 고민을 본사에 물어보는 대신, 현장 직원이 즉석에서 판단하고 해결함으로써 업무 속도와 정확도를 동시에 잡는 '현장 밀착형 행정' 시스템입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 계층 구조 (Deep Dive)
 
@@ -78,7 +78,7 @@ keyword = "EdgeComputing_FogComputing_Latency_Bandwidth_Decentralization_MEC_Cis
 
 📢 **섹션 요약 비유**: 두뇌(클라우드)까지 신호가 가기 전에, 뜨거운 것을 만지면 손을 즉시 떼는 '척수 반사(엣지)'와 같은 생존 본능 아키텍처입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -98,7 +98,7 @@ keyword = "EdgeComputing_FogComputing_Latency_Bandwidth_Decentralization_MEC_Cis
 
 📢 **섹션 요약 비유**: 엣지가 '개별 병사의 빠른 판단'이라면, 포그는 '소대장의 현장 지휘'와 같습니다. 둘 다 본부(클라우드)의 지시를 기다리기엔 상황이 급박할 때 빛을 발합니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -115,7 +115,7 @@ keyword = "EdgeComputing_FogComputing_Latency_Bandwidth_Decentralization_MEC_Cis
 
 📢 **섹션 요약 비유**: 급한 불은 현장에서 끄되(엣지), 화재 원인 분석과 예방 교육은 본사에서 하는(클라우드) '역할의 황금 분할'이 시스템 설계의 핵심입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -129,7 +129,7 @@ keyword = "EdgeComputing_FogComputing_Latency_Bandwidth_Decentralization_MEC_Cis
 
 📢 **섹션 요약 비유**: 엣지 & 포그 컴퓨팅은 중앙 집중식 거대 두뇌를 넘어, 온몸이 지능을 가진 '문어'와 같은 유연하고 강력한 디지털 생명체를 만드는 과정입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **MEC (Multi-access Edge Computing)**: 이동통신망 엣지 단에서의 처리 기술.

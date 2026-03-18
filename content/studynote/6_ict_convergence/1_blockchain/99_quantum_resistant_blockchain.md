@@ -12,7 +12,7 @@ keyword = "QuantumResistant_PQC_PostQuantumCryptography_LatticeBased_HashBased_S
 > 2. **가치**: 현재 블록체인의 근간인 타원곡선 암호(ECDSA)가 양자 컴퓨터에 의해 무력화될 경우 발생할 자산 탈취와 네트워크 붕괴 리스크를 원천 차단하여, 장기적인 데이터 주권과 자산 가치를 보존한다.
 > 3. **융합**: 격자 기반 암호(Lattice-based), 해시 기반 암호(Hash-based), 다변수 다항식 암호(Multivariate) 등 현대 암호학의 최신 성과와 블록체인의 분산 원장 기술이 결합된 고도화된 보안 패러다임이다.
 
-+++
+---
 
 ## Ⅰ. 양자 내성 블록체인 (Quantum Resistant Blockchain) 개요
 
@@ -30,7 +30,7 @@ keyword = "QuantumResistant_PQC_PostQuantumCryptography_LatticeBased_HashBased_S
 
 📢 **섹션 요약 비유**: 성벽을 더 높이 쌓는 대신, 적이 가진 최첨단 무기(양자 컴퓨터)가 아예 통하지 않는 새로운 차원의 방어막을 구축하는 '전략적 무기 체계의 전환'입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -75,7 +75,7 @@ keyword = "QuantumResistant_PQC_PostQuantumCryptography_LatticeBased_HashBased_S
 
 📢 **섹션 요약 비유**: 평면 지도(타원곡선)에서 길을 찾는 대신, 수조 개의 점이 얽힌 복잡한 입체 미로(격자) 속에 비밀번호를 숨겨두어 슈퍼컴퓨터도 길을 잃게 만드는 것과 같습니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -95,7 +95,7 @@ keyword = "QuantumResistant_PQC_PostQuantumCryptography_LatticeBased_HashBased_S
 
 📢 **섹션 요약 비유**: 속도가 빠른 경주차(전통 암호) 대신, 튼튼한 장갑차(PQC)로 갈아타는 과정입니다. 장갑차는 무겁고 느릴 수 있지만, 적의 포격(양자 공격) 속에서도 목적지까지 안전하게 자산을 운반할 수 있습니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -113,7 +113,7 @@ keyword = "QuantumResistant_PQC_PostQuantumCryptography_LatticeBased_HashBased_S
 
 📢 **섹션 요약 비유**: 이사가기(Migration)는 힘들고 귀찮은 일이지만, 살고 있는 집의 지반이 무너질 예정(양자 위협)이라면 가장 안전한 새집(PQC)으로 미리 짐을 옮겨두는 것이 가장 현명한 판단입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -127,7 +127,7 @@ keyword = "QuantumResistant_PQC_PostQuantumCryptography_LatticeBased_HashBased_S
 
 📢 **섹션 요약 비유**: 양자 내성 블록체인은 다가올 양자 시대라는 거친 파도 속에서도 디지털 자산을 안전하게 지켜주는 '최첨단 방파제'입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **양자 컴퓨팅**: 블록체인 보안을 위협하는 근본 원인.

@@ -12,7 +12,7 @@ keyword = "FullNode_Validation_BlockchainIntegrity_Decentralization_P2P"
 > 2. **가치**: 특정 중앙 기관이나 타인의 증명에 의존하지 않고 독립적으로 '진실'을 판별함으로써 블록체인의 **탈중앙화** 가치를 실현하며, 네트워크 전체의 보안성과 복구력을 강화한다.
 > 3. **융합**: P2P 네트워크의 라우팅 기술, 로컬 데이터베이스 관리, 암호학적 검증 로직이 집약된 소프트웨어 엔터티이며, 최근에는 하드웨어 사양 증가에 따른 운영 부담(Full Node Centralization) 문제가 주요 쟁점으로 다뤄진다.
 
-+++
+---
 
 ## Ⅰ. 풀 노드 (Full Node) 개요
 
@@ -29,7 +29,7 @@ keyword = "FullNode_Validation_BlockchainIntegrity_Decentralization_P2P"
 
 📢 **섹션 요약 비유**: 남이 요약해준 뉴스(Light Node)를 듣는 게 아니라, 직접 현장에 가서 원본 서류(Full Data)를 확인하는 '진실의 수호자'입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -81,7 +81,7 @@ keyword = "FullNode_Validation_BlockchainIntegrity_Decentralization_P2P"
 
 📢 **섹션 요약 비유**: 신입 비서가 회사의 지난 10년 치 회의록을 전부 읽어보고 암기하여, 오늘 회의에서 누구의 말이 앞뒤가 안 맞는지 완벽히 잡아낼 준비를 하는 것과 같습니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -101,7 +101,7 @@ keyword = "FullNode_Validation_BlockchainIntegrity_Decentralization_P2P"
 
 📢 **섹션 요약 비유**: 풀 노드가 '전집을 소장한 도서관'이라면, 프루닝 노드는 '최신권만 둔 잡지 꽂이', 라이트 노드는 '책 제목만 적힌 목록표'와 같습니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -115,7 +115,7 @@ keyword = "FullNode_Validation_BlockchainIntegrity_Decentralization_P2P"
 
 📢 **섹션 요약 비유**: 남의 집 CCTV에 내 보물을 맡기는 것보다, 우리 집 마당에 직접 카메라를 설치하고 지키는 것이 가장 안전한 보안의 정석입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -129,7 +129,7 @@ keyword = "FullNode_Validation_BlockchainIntegrity_Decentralization_P2P"
 
 📢 **섹션 요약 비유**: 풀 노드는 블록체인이라는 민주주의 국가를 지탱하는 **'한 명 한 명의 깨어있는 시민'**이며, 이들이 많을수록 디지털 세상은 더 정의로워질 것입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **P2P 네트워크**: 풀 노드들이 소통하는 물리적 기반.

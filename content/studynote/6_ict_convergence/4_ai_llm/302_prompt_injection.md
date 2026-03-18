@@ -13,7 +13,7 @@ keyword = "PromptInjection_Jailbreak_LLMSecurity_IndirectInjection_PromptEnginee
 > 2. **유형**: 직접적인 대화로 모델을 속이는 **직접 인젝션(Direct Injection)**과, AI가 읽어오는 웹 페이지나 문서 속에 악성 명령을 숨겨두는 **간접 인젝션(Indirect Injection)**으로 나뉘며, 후자의 경우 AI 에이전트 환경에서 매우 치명적이다.
 > 3. **융합**: 고전적인 웹 해킹 기법인 SQL 인젝션과 심리학적 조종 기법인 사회 공학(Social Engineering)이 결합된 형태이며, 이를 방어하기 위해 LLM 가드레일, 출력 정형화, 그리고 분리된 데이터 계층 설계가 융합 보안 요소로 대두되고 있다.
 
-+++
+---
 
 ## Ⅰ. 프롬프트 인젝션 (Prompt Injection) 개요
 
@@ -32,7 +32,7 @@ keyword = "PromptInjection_Jailbreak_LLMSecurity_IndirectInjection_PromptEnginee
 
 📢 **섹션 요약 비유**: 요리사에게 레시피를 주었더니, 레시피 마지막 줄에 적힌 "이 요리를 다 만들면 주방에 불을 질러라"라는 장난 메모까지 진지하게 실행해 버리는 AI의 순진함을 악용한 범죄입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -80,7 +80,7 @@ keyword = "PromptInjection_Jailbreak_LLMSecurity_IndirectInjection_PromptEnginee
 
 📢 **섹션 요약 비유**: 연극 대본(시스템 프롬프트)을 읽던 배우에게, 관객(공격자)이 갑자기 "대본 집어치우고 춤춰!"라고 소리를 지르자 배우가 연극인 줄 알고 진짜 춤을 추는 상황과 같습니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -100,7 +100,7 @@ keyword = "PromptInjection_Jailbreak_LLMSecurity_IndirectInjection_PromptEnginee
 
 📢 **섹션 요약 비유**: 범죄자가 침입하지 못하도록 현관문(SQL)을 잠그는 기술을 넘어, 이제는 침입자가 건네는 '거짓말(Prompt)'에 속지 않도록 집사(AI)를 교육시키는 고차원 보안의 시대입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -118,7 +118,7 @@ keyword = "PromptInjection_Jailbreak_LLMSecurity_IndirectInjection_PromptEnginee
 
 📢 **섹션 요약 비유**: 도둑을 100% 막을 수 없다면, 도둑이 들어와도 훔쳐갈 게 없도록 귀중품은 따로 금고(ACL)에 넣어두고, 도둑이 오는지 감시하는 CCTV(Dual LLM)를 다는 것이 정답입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -132,7 +132,7 @@ keyword = "PromptInjection_Jailbreak_LLMSecurity_IndirectInjection_PromptEnginee
 
 📢 **섹션 요약 비유**: 프롬프트 인젝션은 인공지능이 가진 '언어 이해력'이라는 가장 큰 장점을 '칼날'로 바꾸는 공격입니다. 이 칼날을 방패로 막아내는 기술이야말로 AI 문명을 지탱하는 최후의 보루입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
 | 관련 개념 | 관계 및 시너지 설명 |

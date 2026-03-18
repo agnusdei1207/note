@@ -13,7 +13,7 @@ id = 305
 > 2. **가치**: 하드웨어 장애 발생 시 서비스 중단(TPO: Time to Production)을 최소화하는 고가용성(HA, High Availability)과, 노드 추가를 통한 선형적 성능 확장(Scale-Up/Out)을 동시에 달성한다.
 > 3. **융합**: **캐시 퓨전(Cache Fusion)** 기술을 통해 디스크 I/O 병목을 제거하고, **글로벌 캐시 서비스(GCS, Global Cache Service)** 및 **글로벌 인큐 서비스(GES, Global Enqueue Service)**로 분산 환경의 데이터 정합성을 ACID 수준으로 보장한다.
 
-+++
+---
 
 ### Ⅰ. 개요 (Context & Background) - [500자+]
 

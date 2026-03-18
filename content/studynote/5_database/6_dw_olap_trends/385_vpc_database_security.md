@@ -5,7 +5,7 @@ date = "2026-03-16"
 [extra]
 categories = "studynote-database"
 id = 385
-+++
+---
 
 # # [385. VPC 내 DB 보안 구성 - 격리된 클라우드 요새]
 

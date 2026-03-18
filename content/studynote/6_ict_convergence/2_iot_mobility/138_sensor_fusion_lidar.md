@@ -12,7 +12,7 @@ keyword = "SensorFusion_LiDAR_Radar_AutonomousDriving_PointCloud_ToF"
 > 2. **가치**: 눈보라, 역광, 어둠 등 극한의 환경에서도 센서 간 상호 보완(Redundancy)을 통해 객체 인식의 정확도를 99.99% 이상으로 끌어올려, 자율주행의 최우선 가치인 '안전성'을 보장한다.
 > 3. **융합**: 그중에서도 핵심인 라이다(LiDAR)는 빛(레이저)의 비행시간(ToF)을 측정하여 주변을 고정밀 3D 점군(Point Cloud) 데이터로 그려내며, 최근 솔리드 스테이트(Solid-state) 방식으로 진화하며 가격과 크기의 융합적 혁신을 이루고 있다.
 
-+++
+---
 
 ## Ⅰ. 센서 퓨전 (Sensor Fusion) 및 라이다 (LiDAR) 개요
 
@@ -30,7 +30,7 @@ keyword = "SensorFusion_LiDAR_Radar_AutonomousDriving_PointCloud_ToF"
 
 📢 **섹션 요약 비유**: 시각, 청각, 촉각을 모두 동원해야 어둠 속에서도 안전하게 걸을 수 있듯, 기계에게 인간 이상의 '오감'을 부여하는 과정입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -85,7 +85,7 @@ keyword = "SensorFusion_LiDAR_Radar_AutonomousDriving_PointCloud_ToF"
 
 📢 **섹션 요약 비유**: 서로 다른 언어를 쓰는 목격자들의 엇갈린 증언(노이즈)을 듣고, 수학이라는 거짓말 탐지기를 거쳐 오직 진실(정확한 위치)만 찾아내는 명탐정입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -105,7 +105,7 @@ keyword = "SensorFusion_LiDAR_Radar_AutonomousDriving_PointCloud_ToF"
 
 📢 **섹션 요약 비유**: 각자 요리해서 식탁에 올리는 것(Late Fusion)이 아니라, 모든 재료를 한 냄비에 넣고 AI라는 불로 끓여내어 최고의 맛을 내는 것(Early Fusion)이 현대 센서 퓨전의 정수입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -123,7 +123,7 @@ keyword = "SensorFusion_LiDAR_Radar_AutonomousDriving_PointCloud_ToF"
 
 📢 **섹션 요약 비유**: 테슬라의 주장은 '천재 피아니스트는 눈을 감고도 완벽히 연주할 수 있다'는 것이지만, 일반 도로라는 무대에서는 천재라도 언제 떨어질지 모르는 조명(돌발 변수)을 피하기 위해 반드시 '눈(LiDAR)'을 뜨고 있어야 합니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -137,7 +137,7 @@ keyword = "SensorFusion_LiDAR_Radar_AutonomousDriving_PointCloud_ToF"
 
 📢 **섹션 요약 비유**: 센서 퓨전과 라이다는 자동차가 인간의 눈을 넘어 '슈퍼맨의 투시력과 배트맨의 초음파'를 동시에 가지게 만드는 마법의 진화 과정입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **자율주행 단계 (SAE J3016)**: 센서 퓨전이 필수적으로 요구되는 레벨 3 이상의 기술 지표.

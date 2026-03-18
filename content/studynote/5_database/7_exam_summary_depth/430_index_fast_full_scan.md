@@ -5,7 +5,7 @@ date = "2026-03-16"
 [extra]
 categories = "studynote-database"
 id = 430
-+++
+---
 
 # 430. 인덱스 패스트 풀 스캔(Index Fast Full Scan) - 속도에 올인한 탐색
 

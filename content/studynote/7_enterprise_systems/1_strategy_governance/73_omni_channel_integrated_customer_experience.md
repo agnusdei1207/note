@@ -13,7 +13,7 @@ keyword = "Omni_Channel_Customer_Experience_CX_Inventory_Visibility_O2O"
 > 2. **차별점**: 각 채널이 독립적으로 운영되는 멀티채널(Multi-channel)과 달리, 옴니채널은 전사 통합 DB를 기반으로 실시간 재고 가시성과 고객 활동 로그를 공유함으로써 채널 간의 경계를 완전히 허문다.
 > 3. **융합**: 빅데이터(고객 취향 분석), IoT/Beacon(위치 기반 마케팅), 클라우드(데이터 통합), RFID(실시간 재고 관리) 기술이 집약된 사용자 경험(UX) 혁신의 결정체다.
 
-+++
+---
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -28,7 +28,7 @@ keyword = "Omni_Channel_Customer_Experience_CX_Inventory_Visibility_O2O"
 
 📢 섹션 요약 비유: 옴니채널은 고객이라는 주인공을 위해 모든 채널이 일사분란하게 움직이는 '무대 뒤의 지휘 체계'이자, 고객에게는 '어디서나 문이 열리는 마법의 성'입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -63,7 +63,7 @@ keyword = "Omni_Channel_Customer_Experience_CX_Inventory_Visibility_O2O"
 
 📢 섹션 요약 비유: 옴니채널 아키텍처는 모든 방(채널)이 하나의 중앙 냉난방 시스템(통합 DB)에 연결된 스마트 홈과 같아서, 어느 방에 가도 항상 쾌적한 온도(일관된 서비스)를 유지합니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -87,7 +87,7 @@ keyword = "Omni_Channel_Customer_Experience_CX_Inventory_Visibility_O2O"
 
 📢 섹션 요약 비유: 멀티채널이 '메뉴가 다 다른 식당 여러 개'를 운영하는 것이라면, 옴니채널은 '어디서 주문해도 같은 맛을 내고 배달까지 완벽한 맛집'을 운영하는 것입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -115,7 +115,7 @@ keyword = "Omni_Channel_Customer_Experience_CX_Inventory_Visibility_O2O"
 
 📢 섹션 요약 비유: 옴니채널 성공은 '기술'보다 '조직의 벽'을 허무는 것에 달려 있습니다. 부서 간의 이기주의를 없애지 못하면 옴니채널은 겉만 화려한 빈 껍데기가 됩니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -131,7 +131,7 @@ keyword = "Omni_Channel_Customer_Experience_CX_Inventory_Visibility_O2O"
 
 📢 섹션 요약 비유: 미래의 옴니채널은 고객의 그림자와 같아서, 고객이 어디를 가든 무엇을 필요로 하든 항상 곁에서 최고의 가치를 즉시 제공하는 '디지털 수호천사'가 될 것입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 | 관련 개념 | 관계 및 시너지 설명 |

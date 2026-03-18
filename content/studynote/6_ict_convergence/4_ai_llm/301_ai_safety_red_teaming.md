@@ -13,7 +13,7 @@ keyword = "AISafety_RedTeaming_AdversarialAttack_ModelAlignment_Governance"
 > 2. **가치**: 배포 전에는 발견하기 힘든 환각(Hallucination), 편향성(Bias), 개인정보 유출, 탈옥(Jailbreak) 리스크를 선제적으로 식별하여, 기업의 브랜드 가치 훼손과 법적 분쟁을 원천 차단하는 '신뢰 인프라' 역할을 수행한다.
 > 3. **융합**: 보안 공학의 모의 해킹 방법론과 데이터 사이언스의 적대적 학습(Adversarial Training) 기술이 융합된 형태이며, 최근에는 거대 모델을 검증하기 위해 또 다른 AI를 공격자로 사용하는 **'AI-driven Red Teaming'**으로 고도화되고 있다.
 
-+++
+---
 
 ## Ⅰ. AI 안전 (AI Safety) 및 레드티밍 개요
 
@@ -31,7 +31,7 @@ keyword = "AISafety_RedTeaming_AdversarialAttack_ModelAlignment_Governance"
 
 📢 **섹션 요약 비유**: 맹수(AI)를 키울 때 튼튼한 우리를 짓는 것이 '안전 설계'라면, 맹수가 우리를 부술 수 있는지 온갖 자극을 줘보는 것이 '레드티밍'입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -87,7 +87,7 @@ keyword = "AISafety_RedTeaming_AdversarialAttack_ModelAlignment_Governance"
 
 📢 **섹션 요약 비유**: 독감 예방 주사(적대적 학습)를 맞히는 것과 같습니다. 약한 바이러스를 미리 몸에 넣어 항체(안전 장치)를 만드는 과정입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -107,7 +107,7 @@ keyword = "AISafety_RedTeaming_AdversarialAttack_ModelAlignment_Governance"
 
 📢 **섹션 요약 비유**: 건물이 튼튼한지 확인하는 '안전 진단(QA)'을 넘어, 테러리스트가 침입할 경로가 없는지 확인하는 '대테러 훈련(Red Teaming)'으로 융합 진화한 것입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -125,7 +125,7 @@ keyword = "AISafety_RedTeaming_AdversarialAttack_ModelAlignment_Governance"
 
 📢 **섹션 요약 비유**: 너무 겁쟁이로 키우면 집을 못 지키고, 너무 사나우면 주인까지 뭅니다. 적절한 용맹함과 충성심을 갖추도록 훈련시키는 것이 기술사의 실력입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -139,7 +139,7 @@ keyword = "AISafety_RedTeaming_AdversarialAttack_ModelAlignment_Governance"
 
 📢 **섹션 요약 비유**: 레드티밍은 인공지능이 '똑똑함'을 넘어 '현명함'을 갖추게 만드는 마지막 관문이자, 인류와 기술이 공존하기 위한 가장 강력한 약속입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
 | 관련 개념 | 관계 및 시너지 설명 |

@@ -12,7 +12,7 @@ keyword = "Consortium_Blockchain_Federated_Enterprise_Alliance"
 > 2. **가치**: 퍼블릭의 개방성과 프라이빗의 효율성을 결합하여, 참여사 간의 **데이터 주권**을 유지하면서도 공동의 비즈니스 프로세스를 투명하고 빠르게 처리할 수 있는 신뢰 기반 협업 인프라를 제공한다.
 > 3. **융합**: R3 Corda, B3i(보험 연합) 등 금융 및 글로벌 공급망 관리(SCM) 분야에서 주로 활용되며, 참여사 간의 공동 거버넌스와 권한 관리가 시스템 설계의 핵심이다.
 
-+++
+---
 
 ## Ⅰ. 컨소시엄 블록체인 (Consortium Blockchain) 개요
 
@@ -30,7 +30,7 @@ keyword = "Consortium_Blockchain_Federated_Enterprise_Alliance"
 
 📢 **섹션 요약 비유**: 독재 국가(프라이빗)도 아니고 무법지대(퍼블릭)도 아닌, 여러 국가가 모여 공동의 법을 만들고 지키는 'EU(유럽연합)'와 같은 협력 체제입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -77,7 +77,7 @@ keyword = "Consortium_Blockchain_Federated_Enterprise_Alliance"
 
 📢 **섹션 요약 비유**: 아파트 입주민 대표 회의에서 결정된 사항(합의)은 입주민들(연합)끼리만 공유되고, 외부인(퍼블릭)은 알 수 없는 것과 같은 원리입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -98,7 +98,7 @@ keyword = "Consortium_Blockchain_Federated_Enterprise_Alliance"
 
 📢 **섹션 요약 비유**: 퍼블릭이 '공원 광장', 프라이빗이 '자기 집 거실'이라면, 컨소시엄은 '회원제 골프장 클럽하우스'와 같습니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -112,7 +112,7 @@ keyword = "Consortium_Blockchain_Federated_Enterprise_Alliance"
 
 📢 **섹션 요약 비유**: 가장 뛰어난 컴퓨터 프로그램보다, 그 프로그램을 사용하는 사람들 사이의 '공정한 약속'이 컨소시엄 블록체인의 진정한 엔진입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -126,7 +126,7 @@ keyword = "Consortium_Blockchain_Federated_Enterprise_Alliance"
 
 📢 **섹션 요약 비유**: 컨소시엄 블록체인은 파편화된 비즈니스의 섬들을 하나로 연결하여 거대한 **'디지털 대륙'**을 만드는 강력한 접착제입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **프라이빗 블록체인**: 컨소시엄 블록체인의 기술적 모태.

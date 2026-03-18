@@ -13,7 +13,7 @@ keyword = "Shadow_IT_SaaS_Governance_CASB_Security_Risk"
 > 2. **가치**: 현업의 빠른 요구사항 대응(Agility)과 생산성 향상이라는 긍정적 측면이 있으나, 보안 취약점 노출, 데이터 사일로(Silo) 발생, 규제 미준수라는 치명적인 거버넌스 리스크를 동반한다.
 > 3. **융합**: 클라우드 보안 중계 서비스(CASB) 및 SaaS 관리 플랫폼(SMP)을 통한 가시성 확보가 필수적이며, 무조건적인 금지보다는 "중앙 통제와 자율성"의 균형을 맞춘 IT 거버넌스 고도화가 요구된다.
 
-+++
+---
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ keyword = "Shadow_IT_SaaS_Governance_CASB_Security_Risk"
 
 📢 섹션 요약 비유: 섀도우 IT는 정식 허가된 도로(공식 IT) 대신 사람들이 편리함을 위해 숲속에 임의로 만든 지름길(비공식 IT)과 같습니다. 빠르긴 하지만 길을 잃거나 맹수를 만날 위험이 큽니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -69,7 +69,7 @@ keyword = "Shadow_IT_SaaS_Governance_CASB_Security_Risk"
 
 📢 섹션 요약 비유: CASB는 건물 곳곳에 설치된 지능형 CCTV와 같아서, 허가되지 않은 통로로 짐(데이터)을 나르는 사람을 찾아내고 위험한 물건인지 확인하여 제지하는 역할을 합니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -93,7 +93,7 @@ keyword = "Shadow_IT_SaaS_Governance_CASB_Security_Risk"
 
 📢 섹션 요약 비유: 공식 IT가 잘 짜인 군대식 조직이라면, 섀도우 IT는 각자 무기를 들고 싸우는 민병대와 같아서, 이를 하나의 지휘 체계(거버넌스) 아래로 묶는 것이 중요합니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -122,7 +122,7 @@ keyword = "Shadow_IT_SaaS_Governance_CASB_Security_Risk"
 
 📢 섹션 요약 비유: 섀도우 IT를 관리하는 것은 흐르는 물을 막는 것이 아니라 물길을 내어 안전한 곳(보안망)으로 흐르게 하는 치수 사업과 같습니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -138,7 +138,7 @@ keyword = "Shadow_IT_SaaS_Governance_CASB_Security_Risk"
 
 📢 섹션 요약 비유: 섀도우 IT 거버넌스는 그림자를 없애려는 노력이 아니라, 그림자를 빛(공식 시스템) 아래로 가져와서 함께 길을 걷게 만드는 동반 성장의 전략입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 | 관련 개념 | 관계 및 시너지 설명 |

@@ -13,7 +13,7 @@ keyword = "Smart_Work_Digital_Workplace_VDI_BYOD_Teleworking_WLB"
 > 2. **구성 요소**: 자율 좌석제 위주의 **스마트 오피스**, 모바일 기기를 활용한 **모바일 워크**, 재택 및 거점 오피스 중심의 **원격 근무(Teleworking)**라는 3대 축을 중심으로 작동한다.
 > 3. **가치**: 직원의 일과 삶의 균형(WLB)을 통해 생산성을 높이고, 클라우드와 VDI 기술을 기반으로 재난 시에도 중단 없는 업무 연속성(BCP)을 확보하는 현대 디지털 기업의 필수 운영 모델이다.
 
-+++
+---
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -28,7 +28,7 @@ keyword = "Smart_Work_Digital_Workplace_VDI_BYOD_Teleworking_WLB"
 
 📢 섹션 요약 비유: 스마트워크는 기업이라는 거대한 공장이 '고정된 건물'에서 '연결된 네트워크'로 변신하여 전 세계 어디서든 가치를 생산하는 '디지털 유목민 체계'입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -74,7 +74,7 @@ keyword = "Smart_Work_Digital_Workplace_VDI_BYOD_Teleworking_WLB"
 
 📢 섹션 요약 비유: VDI는 '내 영혼(업무 데이터)을 담은 아바타'가 중앙 서버에 살고 있는 것과 같아서, 어떤 단말기로 접속하든 항상 내 방(내 PC)에 들어가는 기분을 느끼게 해줍니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -98,7 +98,7 @@ keyword = "Smart_Work_Digital_Workplace_VDI_BYOD_Teleworking_WLB"
 
 📢 섹션 요약 비유: 전통적 근무가 성문을 지키는 '성곽 방어'라면, 스마트워크 보안은 각 방마다 지문을 찍어야 열리는 '첨단 아파트 보안'과 같습니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -126,7 +126,7 @@ keyword = "Smart_Work_Digital_Workplace_VDI_BYOD_Teleworking_WLB"
 
 📢 섹션 요약 비유: 스마트워크를 도입하면서 감시를 강화하는 것은, 자율 주행차를 사주고도 핸들을 꽉 쥐고 놓지 못하는 운전자와 같아서 차의 성능을 전혀 쓰지 못하는 것입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -142,7 +142,7 @@ keyword = "Smart_Work_Digital_Workplace_VDI_BYOD_Teleworking_WLB"
 
 📢 섹션 요약 비유: 미래의 스마트워크는 공기와 같아서, 내가 어디에 있든 내 주변 1m가 가장 완벽한 사무실이 되는 '초월적 업무 자유'를 선사할 것입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 | 관련 개념 | 관계 및 시너지 설명 |

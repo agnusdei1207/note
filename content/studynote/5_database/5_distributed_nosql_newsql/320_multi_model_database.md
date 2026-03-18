@@ -13,7 +13,7 @@ id = 320
 > 2. **가치**: **폴리글랏 퍼시스턴스(Polyglot Persistence)** 환경에서 발생하는 데이터 중복(Data Duplication), 동기화 지연(Synchronization Latency), 운영 복잡도(Operational Overhead)를 획기적으로 절감하며, ACID(Atomicity, Consistency, Isolation, Durability) 트랜잭션 보장 하에 다차원 데이터를 통합 분석함.
 > 3. **융합**: 특화 NoSQL의 성능과 RDBMS의 안정성을 융합한 'Converged Database' 패러다임의 구현체이며, 금융 fraud 탐지(그래프+관계형)나 IoT 로그 분석(문서+시계열) 등 복합적인 현대 애플리케이션에 최적화된 솔루션.
 
-+++
+---
 
 ### Ⅰ. 개요 (Context & Background)
 

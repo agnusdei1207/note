@@ -12,7 +12,7 @@ keyword = "Blockchain_Trilemma_Scalability_Decentralization_Security_Vitalik_But
 > 2. **가치**: 블록체인 설계 시 성능과 신뢰 사이의 우선순위를 결정하는 핵심 프레임워크이며, 이를 해결하기 위한 노력이 **Layer 2(Rollup)**, **샤딩(Sharding)** 등 블록체인 기술 발전의 원동력이 되었다.
 > 3. **융합**: 컴퓨터 과학의 분산 시스템 이론인 **CAP 정리**의 블록체인 버전이라 할 수 있으며, 최근에는 모듈러 블록체인 구조를 통해 각 계층별로 역할을 분담하여 트릴레마를 우회적으로 해결하려는 시도가 활발하다.
 
-+++
+---
 
 ## Ⅰ. 블록체인 트릴레마 (Trilemma) 개요
 
@@ -29,7 +29,7 @@ keyword = "Blockchain_Trilemma_Scalability_Decentralization_Security_Vitalik_But
 
 📢 **섹션 요약 비유**: 빠르고(확장성), 싸고(탈중앙화), 좋은(보안성) 물건을 찾는 것은 시장 경제에서 매우 어렵듯이, 블록체인도 이 세 마리 토끼를 잡기 위해 고군분투하는 과정에 있습니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -70,7 +70,7 @@ keyword = "Blockchain_Trilemma_Scalability_Decentralization_Security_Vitalik_But
 
 📢 **섹션 요약 비유**: 수만 명이 참여하는 마을 회의(탈중앙)에서 모두가 발언하고 확인(보안)한다면, 결론을 내는 데 며칠이 걸리는 것(확장성 부족)과 같습니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -89,7 +89,7 @@ keyword = "Blockchain_Trilemma_Scalability_Decentralization_Security_Vitalik_But
 
 📢 **섹션 요약 비유**: CAP 정리가 '데이터의 정확도와 중단 없는 서비스' 사이의 싸움이라면, 트릴레마는 '시스템의 민주주의와 효율성' 사이의 싸움입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -104,7 +104,7 @@ keyword = "Blockchain_Trilemma_Scalability_Decentralization_Security_Vitalik_But
 
 📢 **섹션 요약 비유**: 모든 손님을 정문(L1)으로 받으면 병목이 생기므로, 수많은 키오스크(L2)를 설치하여 주문을 받고 주방(L1)에서는 요리만 하는 '분업 시스템'이 트릴레마의 현실적 정답입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -118,7 +118,7 @@ keyword = "Blockchain_Trilemma_Scalability_Decentralization_Security_Vitalik_But
 
 📢 **섹션 요약 비유**: 트릴레마는 블록체인 기술을 성숙하게 만드는 **'성장통'**이며, 이를 지혜롭게 헤쳐나가는 과정이 곧 Web 3.0의 역사입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **레이어 1 (Layer 1)**: 트릴레마가 직접적으로 발생하는 기본 계층.

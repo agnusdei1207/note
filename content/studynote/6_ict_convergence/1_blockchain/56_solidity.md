@@ -12,7 +12,7 @@ keyword = "Solidity_SmartContract_EVM_StaticTyping_ObjectOriented"
 > 2. **가치**: JavaScript, C++, Python의 문법적 특성을 결합하여 개발 접근성을 높였으며, 자산 전송, 상태 저장, 권한 관리 등 블록체인 특화 기능을 언어 차원에서 강력하게 지원한다.
 > 3. **융합**: 컴파일 과정을 통해 EVM 바이트코드로 변환되어 분산 원장에 기록되며, ABI(Application Binary Interface)를 통해 웹 애플리케이션(Web3)과 블록체인 백엔드를 잇는 인터페이스 역할을 수행한다.
 
-+++
+---
 
 ## Ⅰ. 솔리디티 (Solidity) 개요
 
@@ -30,7 +30,7 @@ keyword = "Solidity_SmartContract_EVM_StaticTyping_ObjectOriented"
 
 📢 **섹션 요약 비유**: 복잡한 기계 장치(블록체인)를 움직이기 위해 정교하게 깎아 만든 '디지털 톱니바퀴 설계도'입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 구성 요소 (Deep Dive)
 
@@ -83,7 +83,7 @@ keyword = "Solidity_SmartContract_EVM_StaticTyping_ObjectOriented"
 
 📢 **섹션 요약 비유**: 종이(Storage)에 적는 글씨는 영원히 남지만 비싸고, 칠판(Memory)에 적는 글씨는 수업 끝나면 지워지지만 저렴한 것과 같은 자원 관리 원리입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -103,7 +103,7 @@ keyword = "Solidity_SmartContract_EVM_StaticTyping_ObjectOriented"
 
 📢 **섹션 요약 비유**: 솔리디티가 자유로운 '디지털 붓'이라면, Vyper는 실수를 방지하는 '자'와 같고, Rust/Move는 애초에 잘못된 선을 긋지 못하게 하는 '정밀 기계'와 같습니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -117,7 +117,7 @@ keyword = "Solidity_SmartContract_EVM_StaticTyping_ObjectOriented"
 
 📢 **섹션 요약 비유**: 설계도가 정교할수록 건물(컨트랙트)이 튼튼해지지만, 설계도를 읽는 법(가스 최적화)을 모르면 건축 비용이 수천 배 뛸 수 있는 예민한 기술입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -131,7 +131,7 @@ keyword = "Solidity_SmartContract_EVM_StaticTyping_ObjectOriented"
 
 📢 **섹션 요약 비유**: 솔리디티는 단순한 언어를 넘어, 전 인류가 함께 사용하는 **'디지털 신뢰의 공용어'**로 자리매김하고 있습니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **이더리움 (Ethereum)**: 솔리디티의 모태 플랫폼.

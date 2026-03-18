@@ -11,7 +11,7 @@ weight = 630
 > 2. **가치**= 인프라 확장 시 **Scale-out** 방식을 적용하여 자원을 선형적으로 증설하며, **CAPEX(초기 투자 비용)** 및 **OPEX(운영 관리 비용)**를 획기적으로 절감하고 **프라이빗 클라우드(Private Cloud)** 구현의 복잡성을 제거.
 > 3. **융합**= **SDS(Software-Defined Storage)** 기술을 기반으로 컴퓨팅과 스토리지를 결합하며, 최근에는 컨테이너(Container), **Kubernetes**, **NVMe-oF** 기술과 융합하여 **클라우드 네이티브(Cloud-Native)** 환경으로 진화 중.
 
-+++
+---
 
 ## Ⅰ. 개요 (Context & Background)
 

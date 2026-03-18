@@ -12,7 +12,7 @@ keyword = "DApp_Decentralized_Application_Smart_Contract_Web3_Frontend"
 > 2. **가치**: 특정 기업의 통제 없이 365일 24시간 중단 없는 서비스를 보장하며, **검열 저항성**과 **투명성**을 통해 사용자 간의 직접적인 가치 교환을 실현한다.
 > 3. **융합**: 웹 기술(HTML/JS)과 블록체인(Web3 API)이 결합된 형태이며, 금융(DeFi), 게임(GameFi), 소셜(SocialFi) 등 전 산업 분야의 비즈니스 프로세스를 탈중앙화된 코드로 대체한다.
 
-+++
+---
 
 ## Ⅰ. 디앱 (DApp) 개요
 
@@ -29,7 +29,7 @@ keyword = "DApp_Decentralized_Application_Smart_Contract_Web3_Frontend"
 
 📢 **섹션 요약 비유**: 특정 회사 건물이 무너져도 서비스가 중단되지 않는, 전 세계 컴퓨터들에 흩어져서 살아있는 '디지털 유기체'와 같은 앱입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -77,7 +77,7 @@ keyword = "DApp_Decentralized_Application_Smart_Contract_Web3_Frontend"
 
 📢 **섹션 요약 비유**: 수만 명의 목격자가 지켜보는 가운데 장부에 글을 적는 것과 같아서, 한 번 적힌 내용은 전 세계가 증인이 되어 영원히 기억하게 됩니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -98,7 +98,7 @@ keyword = "DApp_Decentralized_Application_Smart_Contract_Web3_Frontend"
 
 📢 **섹션 요약 비유**: 집주인(서버 관리자)의 허락을 받아야 하는 '월세방' 생활에서, 내 집 문서를 내가 들고 있는 '자가' 생활로 웹 서비스 이용 패러다임이 바뀐 것입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -112,7 +112,7 @@ keyword = "DApp_Decentralized_Application_Smart_Contract_Web3_Frontend"
 
 📢 **섹션 요약 비유**: 아무리 안전한 장갑차(디앱)라도 운전하기 너무 어렵고 기름값이 비싸면 아무도 타지 않으므로, 승용차처럼 편안한 '인터페이스 혁신'이 성공의 열쇠입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -126,7 +126,7 @@ keyword = "DApp_Decentralized_Application_Smart_Contract_Web3_Frontend"
 
 📢 **섹션 요약 비유**: 디앱은 인터넷이라는 대지에 새로 뿌려진 **'자유의 씨앗'**이며, 머지않아 플랫폼 권력으로부터 독립한 거대한 **'디지털 숲'**을 이룰 것입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **스마트 컨트랙트**: 디앱의 두뇌 역할을 하는 실행 로직.

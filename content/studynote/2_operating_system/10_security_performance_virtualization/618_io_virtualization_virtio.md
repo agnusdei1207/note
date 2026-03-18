@@ -7,10 +7,10 @@ date = "2026-03-14"
 # 🧠 BrainScience PE 가이드라인
 
 ```markdown
-+++
+---
 weight = 618
 title = "618. I/O 가상화 및 Virtio 인터페이스"
-+++
+---
 ```
 
 ### 💡 핵심 인사이트 (Insight)

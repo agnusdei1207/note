@@ -5,7 +5,7 @@ date = "2026-03-16"
 [extra]
 categories = "studynote-database"
 id = 568
-+++
+---
 
 # 568. MongoDB 샤딩 리밸런싱 - 데이터의 공평한 이사
 

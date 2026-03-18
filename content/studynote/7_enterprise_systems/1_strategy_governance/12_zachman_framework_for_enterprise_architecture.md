@@ -13,7 +13,7 @@ keyword = "Zachman_Framework_EA_Matrix_Ontology_6x6_Perspectives_Interrogatives"
 > 2. **가치**: 특정 방법론을 강요하지 않으면서도, 기획자부터 실제 사용자까지 모든 이해관계자의 시각을 누락 없이 담아낼 수 있는 '완전성'과 '상호운용성'의 기준을 제공한다.
 > 3. **융합**: 현대의 TOGAF나 FEAF 같은 실행 방법론의 근간이 되었으며, 데이터 모델링(What)부터 비즈니스 동기(Why)까지 전사 자산을 입체적으로 조망하는 도구로 활용된다.
 
-+++
+---
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -25,7 +25,7 @@ keyword = "Zachman_Framework_EA_Matrix_Ontology_6x6_Perspectives_Interrogatives"
 
 📢 섹션 요약 비유: 잭맨 프레임워크는 거대한 도서관의 분류 체계와 같아서, 어떤 책(정보 자산)이라도 제자리를 찾아주고 누락된 분야가 없는지 한눈에 알게 해주는 표준 인덱스입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -91,7 +91,7 @@ keyword = "Zachman_Framework_EA_Matrix_Ontology_6x6_Perspectives_Interrogatives"
 
 📢 섹션 요약 비유: 잭맨 프레임워크의 각 칸(Cell)은 퍼즐 조각과 같아서, 모양이 모두 다르고 위치가 정해져 있으며, 모든 조각이 맞춰졌을 때만 기업이라는 전체 그림이 완성됩니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -117,7 +117,7 @@ keyword = "Zachman_Framework_EA_Matrix_Ontology_6x6_Perspectives_Interrogatives"
 
 📢 섹션 요약 비유: 잭맨이 "우리가 가진 재료와 도구들을 선반에 어떻게 분류해둘지"를 정하는 것이라면, TOGAF는 "그 재료들로 어떤 요리를 먼저 할지" 순서를 정하는 요리사와 같습니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -146,7 +146,7 @@ keyword = "Zachman_Framework_EA_Matrix_Ontology_6x6_Perspectives_Interrogatives"
 
 📢 섹션 요약 비유: 잭맨 매트릭스를 활용하는 것은 건강검진 결과표의 모든 항목을 체크하는 것과 같아서, 한 항목이라도 빠지면 나중에 그 부분에서 예상치 못한 병(장애)이 생길 수 있습니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -162,7 +162,7 @@ keyword = "Zachman_Framework_EA_Matrix_Ontology_6x6_Perspectives_Interrogatives"
 
 📢 섹션 요약 비유: 잭맨 프레임워크는 엔터프라이즈라는 거대한 바다를 항해하는 선장에게 배의 모든 부품 상태와 경로를 6차원으로 보여주는 통합 홀로그램 디스플레이와 같습니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 | 관련 개념 | 관계 및 시너지 설명 |

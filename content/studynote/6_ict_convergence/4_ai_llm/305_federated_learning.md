@@ -13,7 +13,7 @@ keyword = "FederatedLearning_PrivacyPreserving_Aggregation_ModelAveraging_OnDevi
 > 2. **가치**: 민감한 원본 데이터가 외부로 유출되지 않으므로 개인정보 보호(Privacy)와 데이터 주권을 완벽히 보장하며, 대규모 데이터를 전송하는 데 드는 네트워크 대역폭 비용을 획기적으로 절감한다.
 > 3. **융합**: 구글의 **FedAvg** 알고리즘이 핵심이며, 보안을 위한 차분 프라이버시(Differential Privacy), 동형 암호(Homomorphic Encryption) 기술과 융합되어 '프라이버시 강화 컴퓨팅(PEC)'의 중추적인 역할을 수행한다.
 
-+++
+---
 
 ## Ⅰ. 연합 학습 (Federated Learning) 개요
 
@@ -31,7 +31,7 @@ keyword = "FederatedLearning_PrivacyPreserving_Aggregation_ModelAveraging_OnDevi
 
 📢 **섹션 요약 비유**: 각자의 비밀(데이터)은 지키면서, 지혜(모델 가중치)만 모아 집단 지성을 발휘하는 가장 영리하고 안전한 공부 방법입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -77,7 +77,7 @@ keyword = "FederatedLearning_PrivacyPreserving_Aggregation_ModelAveraging_OnDevi
 
 📢 **섹션 요약 비유**: 여러 요리사가 각자의 주방에서 요리 비법을 연구하고, 완성된 레시피(가중치)만 모아 전 세계에서 가장 맛있는 '최종 레시피'를 완성하는 공동 연구 프로젝트입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -97,7 +97,7 @@ keyword = "FederatedLearning_PrivacyPreserving_Aggregation_ModelAveraging_OnDevi
 
 📢 **섹션 요약 비유**: 모든 원재료를 공장으로 가져오는 물류 시스템(중앙 집중)에서, 각 가정집에 3D 프린터를 보내서 물건을 만들고 설계도만 회수하는 첨단 제조 시스템으로의 전환입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -115,7 +115,7 @@ keyword = "FederatedLearning_PrivacyPreserving_Aggregation_ModelAveraging_OnDevi
 
 📢 **섹션 요약 비유**: 협동 조합을 운영할 때, 게으르거나 거짓말하는 회원(악성 노드)이 있어도 조합 전체가 흔들리지 않도록 튼튼한 감사 시스템(Robustness)을 갖추는 것이 기술사의 핵심 역량입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -129,7 +129,7 @@ keyword = "FederatedLearning_PrivacyPreserving_Aggregation_ModelAveraging_OnDevi
 
 📢 **섹션 요약 비유**: 연합 학습은 인공지능이 '빅브라더'가 되지 않으면서도 온 세상의 지혜를 흡수할 수 있게 해주는 인류와 기술의 가장 아름다운 타협점입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
 | 관련 개념 | 관계 및 시너지 설명 |

@@ -12,7 +12,7 @@ keyword = "DPU_SmartNIC_CXL_ComputeExpressLink_HardwareOffloading_MemoryPooling_
 > 2. **가치**: DPU를 통해 메인 CPU는 순수 애플리케이션 연산(비즈니스 로직)에 100% 자원을 집중할 수 있어 데이터센터의 효율을 극대화하며, CXL은 물리적 서버의 한정된 메모리 슬롯 한계를 깨고 서버 간의 메모리를 묶어 쓰는 '메모리 풀링(Memory Pooling)'을 실현한다.
 > 3. **융합**: 이 두 기술은 서버라는 닫힌 철제 상자를 뜯어내고, CPU, GPU, 메모리를 거대한 네트워크 풀(Pool)로 분리해 필요한 만큼만 레고 블록처럼 조립해 쓰는 **컴포저블 인프라(Composable Infrastructure)** 융합 시대를 완성한다.
 
-+++
+---
 
 ## Ⅰ. DPU 및 CXL 개요
 
@@ -31,7 +31,7 @@ keyword = "DPU_SmartNIC_CXL_ComputeExpressLink_HardwareOffloading_MemoryPooling_
 
 📢 **섹션 요약 비유**: 왕(CPU)이 혼자서 모든 행정 업무까지 보던 중앙 집권제에서, 국무총리(DPU)에게 행정을 맡기고 타국의 창고(CXL)를 공유하는 완벽한 분업/공유 경제로의 진화입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -92,7 +92,7 @@ keyword = "DPU_SmartNIC_CXL_ComputeExpressLink_HardwareOffloading_MemoryPooling_
 
 📢 **섹션 요약 비유**: 물건을 빌릴 때마다 서류를 작성하고 내 창고로 옮겨와야 했던 복잡한 절차(PCIe)를 없애고, 아예 거대한 공용 창고 하나를 지어 누구나 열쇠(CXL)를 들고 들어가서 자기 물건처럼 쓰는 혁명입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -111,7 +111,7 @@ keyword = "DPU_SmartNIC_CXL_ComputeExpressLink_HardwareOffloading_MemoryPooling_
 
 📢 **섹션 요약 비유**: 단순한 통행 톨게이트(NIC)가 경찰과 세관원, 판사(DPU)가 상주하는 강력한 '독립 국경 수비대'로 진화한 것입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -128,7 +128,7 @@ keyword = "DPU_SmartNIC_CXL_ComputeExpressLink_HardwareOffloading_MemoryPooling_
 
 📢 **섹션 요약 비유**: 수납공간을 무한히 늘려주는 마법의 창고(CXL)를 얻었지만, 멀리 있는 창고에서 물건을 가져오는 시간(지연)은 여전히 존재하므로 자주 쓰는 물건은 앞치마(로컬 램)에 둬야 하는 정리의 기술이 필요합니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -142,7 +142,7 @@ keyword = "DPU_SmartNIC_CXL_ComputeExpressLink_HardwareOffloading_MemoryPooling_
 
 📢 **섹션 요약 비유**: DPU와 CXL은 컴퓨터라는 닫힌 철창을 산산조각 내고, 그 파편들을 구름(클라우드) 위로 띄워 올려 거대한 생태계의 톱니바퀴로 재조립하는 하드웨어 혁명의 화룡점정입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **SDDC / HCI**: DPU가 인프라 부담을 덜어주어 완벽하게 완성되는 소프트웨어 정의 데이터센터.

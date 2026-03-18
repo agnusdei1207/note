@@ -13,7 +13,7 @@ keyword = "Change_Management_Lewin_Kotter_Resistance_Culture_Transformation"
 > 2. **가치**: 아무리 훌륭한 시스템을 구축해도 사람이 쓰지 않으면 가치는 '0'이라는 원칙 하에, 리더십, 소통, 교육, 보상 체계를 통해 조직의 DNA를 바꾸는 소프트 사이드(Soft-side)의 혁신 도구다.
 > 3. **융합**: BPR, PI, ERP 도입 프로젝트의 성공을 결정짓는 핵심 성공 요인(CSF)이며, 최근에는 상시 변화가 일어나는 애자일 경영 환경에서 '지속적인 변화 수용 역량'으로 고도화되고 있다.
 
-+++
+---
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -28,7 +28,7 @@ keyword = "Change_Management_Lewin_Kotter_Resistance_Culture_Transformation"
 
 📢 섹션 요약 비유: 변화 관리는 딱딱하게 굳은 진흙(과거 관행)을 물로 녹여(Unfreezing) 원하는 모양으로 빚은 뒤(Changing), 다시 단단하게 굳혀서(Refreezing) 명품 도자기(혁신 조직)를 만드는 과정입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -74,7 +74,7 @@ keyword = "Change_Management_Lewin_Kotter_Resistance_Culture_Transformation"
 
 📢 섹션 요약 비유: Kotter의 8단계는 비행기가 활주로를 달려(분위기 조성) 하늘로 솟구친 뒤(실행), 목표 고도에서 안정적으로 비행(안착)하는 전 과정의 체크리스트와 같습니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -95,7 +95,7 @@ keyword = "Change_Management_Lewin_Kotter_Resistance_Culture_Transformation"
 
 📢 섹션 요약 비유: 전통적 변화 관리가 '수술'이라면, 애자일 변화 관리는 '꾸준한 영양제 섭취와 식단 관리'입니다. 수술보다는 평소의 체력이 더 중요해진 시대입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -124,7 +124,7 @@ keyword = "Change_Management_Lewin_Kotter_Resistance_Culture_Transformation"
 
 📢 섹션 요약 비유: 변화 관리에서 소통을 뺀 것은 내비게이션 없이 운전하는 것과 같아서, 아무리 속도(기술 도입)를 내도 승객(직원)들은 불안해서 차에서 내리고 싶어 합니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -140,7 +140,7 @@ keyword = "Change_Management_Lewin_Kotter_Resistance_Culture_Transformation"
 
 📢 섹션 요약 비유: 미래의 변화 관리는 게임의 '튜토리얼'과 같아서, 새로운 세상(시스템)에 들어온 플레이어가 재미를 느끼며 자연스럽게 고수(전문가)가 되도록 이끌어주는 친절한 가이드가 될 것입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 | 관련 개념 | 관계 및 시너지 설명 |

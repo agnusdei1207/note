@@ -13,7 +13,7 @@ keyword = "ContextWindow_RoPE_ALiBi_PositionalEncoding_LongContext_AttentionOpti
 > 2. **핵심 기제**: 고정된 위치 번호를 부여하던 방식에서 벗어나, 토큰 간의 상대적 거리와 회전 행렬을 이용하는 **RoPE(Rotary Positional Embedding)** 및 **ALiBi** 기법을 도입하여 학습 데이터보다 더 긴 문장도 매끄럽게 처리하는 '외삽(Extrapolation)' 능력을 구현한다.
 > 3. **융합**: 고속 행렬 연산 기술인 **FlashAttention** 및 압축 알고리즘과 융합되어, 책 한 권을 넘어 수백 권 분량(1M+ 토큰)을 단 몇 초 만에 읽고 분석하는 초장기 문맥(Long-context) AI 시대의 기반이 되었다.
 
-+++
+---
 
 ## Ⅰ. 컨텍스트 윈도우 (Context Window) 확장 개요
 
@@ -31,7 +31,7 @@ keyword = "ContextWindow_RoPE_ALiBi_PositionalEncoding_LongContext_AttentionOpti
 
 📢 **섹션 요약 비유**: 로봇의 단기 기억 용량을 늘리기 위해 뇌 구조를 바꾸는 것이 아니라, 정보를 기억하는 '주소 체계'를 혁신하여 무한한 지식을 효율적으로 다루게 만드는 기술입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -78,7 +78,7 @@ keyword = "ContextWindow_RoPE_ALiBi_PositionalEncoding_LongContext_AttentionOpti
 
 📢 **섹션 요약 비유**: 모든 사람에게 번호표(Absolute)를 나눠주는 대신, 내 옆 사람과의 거리(Relative)만 체크하며 줄을 서는 유연한 방식입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -97,7 +97,7 @@ keyword = "ContextWindow_RoPE_ALiBi_PositionalEncoding_LongContext_AttentionOpti
 
 📢 **섹션 요약 비유**: 기억력(Window)을 늘렸더니 머리가 너무 무거워져서(연산 부하), 중요한 것만 골라 기억하는 '선택과 집중'의 융합 전략이 필요한 시점입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -115,7 +115,7 @@ keyword = "ContextWindow_RoPE_ALiBi_PositionalEncoding_LongContext_AttentionOpti
 
 📢 **섹션 요약 비유**: 넓은 시야(Long-context)를 가졌다고 해서 모든 것을 다 보는 것은 낭비입니다. 망원경(RAG)으로 먼 곳을 훑어보고, 중요한 곳만 눈을 크게 뜨고 집중(Context Expansion)하는 지혜가 필요합니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -129,7 +129,7 @@ keyword = "ContextWindow_RoPE_ALiBi_PositionalEncoding_LongContext_AttentionOpti
 
 📢 **섹션 요약 비유**: 컨텍스트 윈도우 확장은 인공지능이 '순간의 번뜩임'을 기록하는 메모장을 넘어, 인류의 방대한 역사와 지식을 한눈에 담는 '거대한 거울'로 진화하고 있음을 의미합니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
 | 관련 개념 | 관계 및 시너지 설명 |

@@ -12,7 +12,7 @@ id = 226
 > 1. **본질**: 블로킹(Blocking)은 DBMS의 동시성 제어(Concurrency Control) 메커니즘에서, 선행 트랜잭션이 획득한 락(Lock)으로 인해 후행 트랜잭션이 자원에 접근하지 못하고 대기하는 상태를 의미하며, 성능 저하의 직접적인 원인이 된다.
 > 2. **가치**: 블로킹을 최소화하면 TPS (Transactions Per Second)가 획기적으로 향상되며, Latency (응답 지연 시간)을 줄여 사용자 경험을 개선하고 시스템 전체의 처리량(Throughput)을 극대화할 수 있다.
 > 3. **융합**: MVCC (Multi-Version Concurrency Control)와 같은 비잠계 읽기(Non-locking Read) 기술이 결합되어 현대의 RDBMS 및 NewSQL에서는 읽기 작업과 쓰기 작업 간의 상호 블로킹을 근본적으로 해결하고 있다.
-+++
+---
 
 ### Ⅰ. 개요 (Context & Background)
 

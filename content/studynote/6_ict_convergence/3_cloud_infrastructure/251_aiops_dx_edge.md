@@ -12,7 +12,7 @@ keyword = "EdgeNative_AIOps_DigitalTransformation_VendorLockIn_MultiCloud"
 > 2. **가치**: 이러한 기술적 진보는 단순한 시스템 개선이 아니라 기업의 비즈니스 모델 전체를 디지털화하는 **디지털 전환(DT/DX, Digital Transformation)**의 근간이 되며, 시장의 판도를 뒤바꿀 거대한 경쟁력을 제공한다.
 > 3. **융합**: 그러나 이 모든 혁신을 특정 클라우드 벤더(AWS, GCP 등)에 의존하게 되면 '클라우드 락인(Vendor Lock-in)'이라는 치명적 독배가 되므로, 컨테이너(K8s)와 오픈 소스 기반의 락인 회피 아키텍처가 반드시 융합되어야 한다.
 
-+++
+---
 
 ## Ⅰ. 차세대 IT 운영 및 DX 개요
 
@@ -33,7 +33,7 @@ keyword = "EdgeNative_AIOps_DigitalTransformation_VendorLockIn_MultiCloud"
 
 📢 **섹션 요약 비유**: 수만 개의 센서(엣지)에서 올라오는 데이터를 AI 지휘관(AIOps)이 통제하여 기업을 진화(DX)시키되, 특정 황제(클라우드 벤더)의 노예가 되지 않는 치밀한 전략입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -83,7 +83,7 @@ keyword = "EdgeNative_AIOps_DigitalTransformation_VendorLockIn_MultiCloud"
 
 📢 **섹션 요약 비유**: 아무리 좋은 오픈 소스 엔진(기술)을 써도, 운전사(사람)가 옛날 마차 몰던 습관을 못 버리고, 교통 법규(프로세스)가 느려 터졌다면 그 차(기업)는 레이싱(DX)에서 이길 수 없습니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -102,7 +102,7 @@ keyword = "EdgeNative_AIOps_DigitalTransformation_VendorLockIn_MultiCloud"
 
 📢 **섹션 요약 비유**: 경찰(엔지니어)이 모든 골목길의 CCTV를 수동으로 쳐다보다가 지쳐 쓰러지는 대신, AI가 CCTV를 다 보고 있다가 "이 골목에 도둑이 나타날 확률 99%"라고 콕 집어주는 것입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -119,7 +119,7 @@ keyword = "EdgeNative_AIOps_DigitalTransformation_VendorLockIn_MultiCloud"
 
 📢 **섹션 요약 비유**: 독립(락인 회피)은 좋지만, 혼자 밥을 지어 먹을 능력(K8s 운영 역량)이 없을 때는 식당(AWS 종속)에서 사 먹는 게 굶어 죽지 않는 현명한 방법입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -133,7 +133,7 @@ keyword = "EdgeNative_AIOps_DigitalTransformation_VendorLockIn_MultiCloud"
 
 📢 **섹션 요약 비유**: 이 모든 기술적 융합은 인간 엔지니어가 불침번을 서며 땜질하던 20세기의 IT를 끝내고, 거대한 시스템 스스로가 호흡하고 진화하는 '디지털 유기체'를 탄생시키는 과정입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **쿠버네티스 (K8s)**: 클라우드 락인을 방지하고 엣지 네이티브를 뻗어나가게 하는 가장 완벽한 공통 분모.

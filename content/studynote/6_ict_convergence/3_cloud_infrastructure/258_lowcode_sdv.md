@@ -12,7 +12,7 @@ keyword = "LowCode_NoCode_CitizenDeveloper_SDV_SoftwareDefinedVehicle_OTA"
 > 2. **가치**: 이 두 기술은 코딩이라는 높은 진입 장벽을 무너뜨려 IT 비전문가인 '시민 개발자(Citizen Developer)'가 직접 비즈니스 앱을 만들게 하고, 자동차를 스마트폰처럼 '업데이트되는 IT 기기'로 탈바꿈시켜 기업과 산업의 혁신 속도를 극대화한다.
 > 3. **융합**: AI 기술(챗GPT 등)과 융합된 생성형 로우코드(Generative No-Code) 플랫폼이 대중화되고, SDV는 중앙 집중형 통합 제어기(HPC) 기반의 차량용 OS와 결합하여 자율주행 시대를 여는 최종 소프트웨어 플랫폼으로 융합된다.
 
-+++
+---
 
 ## Ⅰ. 로우코드/노코드 및 시민 개발자 개요
 
@@ -30,7 +30,7 @@ keyword = "LowCode_NoCode_CitizenDeveloper_SDV_SoftwareDefinedVehicle_OTA"
 
 📢 **섹션 요약 비유**: '코딩'이라는 소수 엘리트만 읽을 수 있던 라틴어 성경을, 누구나 쉽게 읽고 쓸 수 있는 한글로 번역하여 만인에게 프로그래밍의 힘을 나누어준 '소프트웨어 종교개혁'입니다.
 
-+++
+---
 
 ## Ⅱ. 소프트웨어 정의 차량 (SDV) 개요 및 아키텍처
 
@@ -82,7 +82,7 @@ keyword = "LowCode_NoCode_CitizenDeveloper_SDV_SoftwareDefinedVehicle_OTA"
 
 📢 **섹션 요약 비유**: 옛날 자동차가 고장 나면 톱니바퀴를 직접 깎아 넣어야 했던 '태엽 시계'라면, SDV는 앱만 업데이트하면 알람 시계도 되고 초시계도 되는 '애플 워치'입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -102,7 +102,7 @@ keyword = "LowCode_NoCode_CitizenDeveloper_SDV_SoftwareDefinedVehicle_OTA"
 
 📢 **섹션 요약 비유**: 요리사(프로 개발자)에게 고급 코스 요리를 맡기고, 라면(휴가 신청 앱)이나 계란후라이(사내 챗봇)는 배고픈 사람(시민 개발자)이 밀키트로 직접 끓여 먹게 하는 완벽한 주방 분업입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -120,7 +120,7 @@ keyword = "LowCode_NoCode_CitizenDeveloper_SDV_SoftwareDefinedVehicle_OTA"
 
 📢 **섹션 요약 비유**: 시민 개발자의 장난감이 회사의 기둥이 되게 내버려 두면 안 되듯, 바퀴 달린 스마트폰(SDV)이 해커의 원격 조종 장난감이 되지 않도록 군사 기지급의 철벽 보안이 필요합니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -134,7 +134,7 @@ keyword = "LowCode_NoCode_CitizenDeveloper_SDV_SoftwareDefinedVehicle_OTA"
 
 📢 **섹션 요약 비유**: 이 기술들은 인간이 엑셀과 기어를 밟아 억지로 기계를 굴리던 시대를 끝내고, 소프트웨어라는 영혼을 불어넣어 기계 스스로 생각하고 진화하게 만든 마법의 숨결입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **자율주행 자동차**: SDV 아키텍처가 완성되어야만 100% 안전하게 구현할 수 있는 최상위 소프트웨어.

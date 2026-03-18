@@ -13,7 +13,7 @@ id = 466
 > 2. **가치**: 페이지 로드 속도 지연(Latency)을 획기적으로 줄이고 네트워크 패킷 손실 환경에서의 안정성을 극대화하여, 모바일 First 및 대용량 멀티미디어 서비스의 UX를 개선했다.
 > 3. **융합**: **TLS (Transport Layer Security)** 1.3 이상과의 강제 결합으로 보안을 기본 보장하며, OS(Operating System) 커널 종속성을 낮추어 애플리케이션 계층에서의 전송 제어(Control Plane & Data Plane separation) 정교화를 가능하게 했다.
 
-+++
+---
 
 ### Ⅰ. 개요 (Context & Background)
 

@@ -13,7 +13,7 @@ keyword = "LIME_SHAP_FeatureImportance_GameTheory_LocalInterpretability_GlobalIn
 > 2. **가치**: 어떤 복잡한 딥러닝 모델(Model-agnostic)이라도 외부에서 그 속을 들여다볼 수 있게 하여, AI 판단의 핵심 피처(Feature)가 무엇인지 정량적으로 산출하고 데이터의 편향성을 감지하는 '현미경' 역할을 한다.
 > 3. **융합**: 통계학적 분포 분석과 경제학의 분배 이론(Shapley Value)이 컴퓨터 비전 및 자연어 처리 기술과 융합되어, 고도화된 XAI(설명 가능한 AI) 솔루션의 표준 알고리즘으로 자리 잡았다.
 
-+++
+---
 
 ## Ⅰ. LIME 및 SHAP 개요
 
@@ -31,7 +31,7 @@ keyword = "LIME_SHAP_FeatureImportance_GameTheory_LocalInterpretability_GlobalIn
 
 📢 **섹션 요약 비유**: 수천 명의 배우가 출연한 영화(AI 판단)에서, 특정 장면(LIME)의 주연이 누구인지 찾고, 영화 전체의 흥행(SHAP)에 각 배우가 얼마나 기여했는지 출연료(기여도)를 정산해주는 과정입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -79,7 +79,7 @@ keyword = "LIME_SHAP_FeatureImportance_GameTheory_LocalInterpretability_GlobalIn
 
 📢 **섹션 요약 비유**: 축구 경기(AI 판단) 후 평점을 매길 때, 단순히 골을 넣은 사람(LIME)만 칭찬하는 게 아니라, 골을 넣기까지 패스를 연결한 모든 선수의 공헌도(SHAP)를 공정하게 계산하여 연봉(기여도)을 정해주는 것과 같습니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -93,7 +93,7 @@ keyword = "LIME_SHAP_FeatureImportance_GameTheory_LocalInterpretability_GlobalIn
 
 📢 **섹션 요약 비유**: 현미경(LIME)으로 환부의 세포 하나를 관찰할 것인지, MRI(SHAP)로 신체 전체의 장기 밸런스를 측정할 것인지를 선택하는 진단 공학입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -110,7 +110,7 @@ keyword = "LIME_SHAP_FeatureImportance_GameTheory_LocalInterpretability_GlobalIn
 
 📢 **섹션 요약 비유**: 수치(XAI)는 거짓말을 하지 않지만, 그 수치를 해석하는 인간의 눈(기술사)이 비뚤어지면 잘못된 수술(비즈니스 결정)로 이어질 수 있습니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -124,7 +124,7 @@ keyword = "LIME_SHAP_FeatureImportance_GameTheory_LocalInterpretability_GlobalIn
 
 📢 **섹션 요약 비유**: LIME과 SHAP은 인공지능이라는 거인에게 '입'을 달아준 혁명입니다. 이제 거인은 우리에게 자신의 속마음을 수학의 언어로 조목조목 설명하기 시작했습니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
 | 관련 개념 | 관계 및 시너지 설명 |

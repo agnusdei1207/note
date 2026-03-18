@@ -12,7 +12,7 @@ keyword = "oneM2M_IoTPlatform_HorizontalArchitecture_CSE_AE_Interoperability_Glo
 > 2. **가치**: 특정 산업이나 하위 통신 기술(Wi-Fi, 5G, LoRa 등)에 종속되지 않는 공통 서비스 계층(CSE, Common Services Entity)을 제공하여, 애플리케이션 개발자가 인프라를 몰라도 데이터와 기기를 공유할 수 있는 엄청난 상호 운용성을 제공한다.
 > 3. **융합**: 한국의 스마트 시티 데이터 허브, 스마트 팩토리 등 범국가적 IoT 인프라의 뼈대로 채택되며, 최근에는 AI 및 빅데이터 플랫폼과 연동되는 시맨틱(Semantic) 기술과 융합되고 있다.
 
-+++
+---
 
 ## Ⅰ. oneM2M 개요
 
@@ -30,7 +30,7 @@ keyword = "oneM2M_IoTPlatform_HorizontalArchitecture_CSE_AE_Interoperability_Glo
 
 📢 **섹션 요약 비유**: 수많은 섬(각 산업의 IoT)을 오갈 수 없던 바다에 튼튼한 '대교(표준 미들웨어)'를 놓아, 하나의 거대한 대륙으로 만드는 대공사입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -85,7 +85,7 @@ keyword = "oneM2M_IoTPlatform_HorizontalArchitecture_CSE_AE_Interoperability_Glo
 
 📢 **섹션 요약 비유**: 세상 모든 데이터를 공용 도서관(CSE)의 통일된 분류 체계(리소스 트리)에 맞춰 꽂아두어, 누구나 쉽게 책을 찾고 빌려갈 수 있게 만든 구조입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -105,7 +105,7 @@ keyword = "oneM2M_IoTPlatform_HorizontalArchitecture_CSE_AE_Interoperability_Glo
 
 📢 **섹션 요약 비유**: LwM2M이 기계 정비사들의 '전용 공구함'이라면, oneM2M은 모든 직원이 쓰는 '회사 전체의 통합 인트라넷 시스템'입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -122,7 +122,7 @@ keyword = "oneM2M_IoTPlatform_HorizontalArchitecture_CSE_AE_Interoperability_Glo
 
 📢 **섹션 요약 비유**: 너무 무거운 백과사전(oneM2M)은 튼튼한 책상(게이트웨이/클라우드) 위에 두고, 움직이는 현장(센서)에는 그 요약본만 들려 보내는 유연한 설계가 필요합니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -136,7 +136,7 @@ keyword = "oneM2M_IoTPlatform_HorizontalArchitecture_CSE_AE_Interoperability_Glo
 
 📢 **섹션 요약 비유**: oneM2M은 파편화된 기술의 바벨탑을 허물고, 세상 모든 사물이 막힘없이 소통하게 만드는 '인류의 디지털 공용어' 선언입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **LwM2M**: oneM2M의 거대한 구조 아래, 실제 기기 관리에 쓰이는 경량 프로토콜 파트너.

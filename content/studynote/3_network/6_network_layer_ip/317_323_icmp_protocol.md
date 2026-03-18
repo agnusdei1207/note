@@ -15,7 +15,7 @@ id = 317
 > 2. **가치**: 네트워크 가용성 모니터링(Ping) 및 경로 진단(Traceroute)을 위한 필수적이며 강력한 도구를 제공하며, 라우터와 호스트 간의 협상(MTU Discovery, Redirect)을 통해 전송 효율을 기여함.
 > 3. **융합**: 보안 정책(Firewall ACL) 설정의 핵심 대상이며, DoS (Denial of Service) 공격의 악용 도구이자 동시에 네트워크 장애 진단의 초석이 되는 이중적인 기술적 가치를 지님.
 
-+++
+---
 
 ### Ⅰ. 개요 (Context & Background)
 

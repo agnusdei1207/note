@@ -13,7 +13,7 @@ keyword = "Social_CRM_Customer_Engagement_Sentiment_Analysis_Social_Listening"
 > 2. **가치**: 고객이 생성하는 비정형 데이터를 실시간으로 수집·분석(Social Listening)하여 브랜드 평판을 관리하고, 고객을 기업의 가치 창출 과정에 참여시키는 '프로슈머(Prosumer)' 마케팅을 가능하게 한다.
 > 3. **융합**: 빅데이터 분석 기술 및 텍스트 마이닝(감성 분석)과 결합하여 고객의 숨겨진 니즈를 파악하며, 전통적 CRM의 트랜잭션 데이터와 소셜 프로필을 연결하는 'Single Customer Profile' 구축의 핵심 요소다.
 
-+++
+---
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -28,7 +28,7 @@ keyword = "Social_CRM_Customer_Engagement_Sentiment_Analysis_Social_Listening"
 
 📢 섹션 요약 비유: 소셜 CRM은 기업이 사무실 창문을 열고 광장(SNS)으로 나가 고객들의 생생한 목소리를 직접 듣고 함께 춤을 추는 소통의 축제입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -78,7 +78,7 @@ keyword = "Social_CRM_Customer_Engagement_Sentiment_Analysis_Social_Listening"
 
 📢 섹션 요약 비유: 소셜 리스닝은 '귀'를 열어 소문을 듣는 것이고, 감성 분석은 그 소문 속에 담긴 '기분'을 읽는 것이며, 인게이지먼트는 따뜻한 '대화'를 건네는 것입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -98,7 +98,7 @@ keyword = "Social_CRM_Customer_Engagement_Sentiment_Analysis_Social_Listening"
 
 📢 섹션 요약 비유: 소셜 CRM에서 인플루언서를 찾는 것은 산불(정보)이 가장 멀리 번지게 할 수 있는 바람의 길목(핵심 고객)을 찾는 것과 같습니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -125,7 +125,7 @@ keyword = "Social_CRM_Customer_Engagement_Sentiment_Analysis_Social_Listening"
 
 📢 섹션 요약 비유: 소셜 CRM에서 나쁜 댓글을 삭제하는 것은 열이 나는 환자의 체온계를 깨버리는 것과 같아서, 병(브랜드 리스크)을 키우는 지름길입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -141,7 +141,7 @@ keyword = "Social_CRM_Customer_Engagement_Sentiment_Analysis_Social_Listening"
 
 📢 섹션 요약 비유: 미래의 소셜 CRM은 기업이 고객의 마음을 읽는 '독심술사'이자, 언제 어디서든 함께 고민을 나누는 '디지털 소울메이트'가 되는 과정입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 | 관련 개념 | 관계 및 시너지 설명 |

@@ -13,7 +13,7 @@ id = 901
 > 2. **가치**: MTTI (Mean Time To Identify) 및 MTTR (Mean Time To Repair)을 50% 이상 단축하여 고가용성(High Availability)을 확보하며, 복잡한 미분석(Micro-segmentation) 환경에서의 선제적 대응 능력을 제공함.
 > 3. **융합**: DTN (Digital Twin Network)을 통한 시뮬레이션 기반 검증과 Telemetry (고성능 모니터링)가 결합되어 네트워크를 'Softwarized'하고 'Predictive'한 제어 시스템으로 진화시킴.
 
-+++
+---
 
 ### Ⅰ. 개요 (Context & Background)
 
@@ -43,7 +43,7 @@ id = 901
 
 > 📢 **섹션 요약 비유**: AIOps와 ADN의 도입은 마치 복잡한 교차로에 신호등을 고정식 타이머가 아닌, **교통량을 스스로 인지하여 실시간으로 신호를 조절하는 지능형 교통 제어 시스템**을 설치하는 것과 같습니다.
 
-+++
+---
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -108,7 +108,7 @@ def detect_anomaly(data_stream, threshold=3):
 
 > 📢 **섹션 요약 비유**: 이 아키텍처는 **인체의 신경 계통**과 유사합니다. Telemetry는 눈과 귀(감각 기관)로 정보를 수집하고, Digital Twin은 뇌의 시뮬레이션 영역(상상)이며, AI 엔진은 대뇌 피질(판단), Orchestrator는 말초 신경과 근육(실행)의 역할을 담당합니다.
 
-+++
+---
 
 ### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -130,7 +130,7 @@ def detect_anomaly(data_stream, threshold=3):
 
 > 📢 **섹션 요약 비유**: AIOps와 융합 기술의 관계는 **'스마트 빌딩 관제 시스템'**과 같습니다. 단순히 화재 경보기(보안)만 켜는 것이 아니라, 에어컨과 조명(네트워크/OS)의 사용량을 분석해 전력을 최적화하고, 화재가 나기 전 전기 과열을 감지하여 사전에 차단하는 통합 관제 시스템을 의미합니다.
 
-+++
+---
 
 ### Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -156,7 +156,7 @@ def detect_anomaly(data_stream, threshold=3):
 
 > 📢 **섹션 요약 비유**: 지능형 네트워크 도입은 **'자율 주행차에 운전자 보험을 들어주는 것'**과 같습니다. 자동차가 스스로 잘 운행하도록(AIOps) 만드는 것도 중요하지만, 사고가 났을 때 책임 소재를 명확히 하고(Rollback/Policy), 수리 비용을 어떻게 처리할지(Maintenance)에 대한 사전 약속(체크리스트)이 없으면 대형 사고로 이어질 수 있습니다.
 
-+++
+---
 
 ### Ⅴ. 기대효과 및 결론 (Future & Standard)
 

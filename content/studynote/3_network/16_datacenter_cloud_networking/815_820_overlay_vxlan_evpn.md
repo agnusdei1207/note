@@ -13,7 +13,7 @@ id = 815
 > 2. **가치**: 기존 VLAN(Virtual Local Area Network)의 4,096개 ID 제한을 24비트 VNI를 통해 약 1,600만 개로 확장하여, 대규모 클라우드(Multi-Tenant) 환경에서의 격리성과 이기종 간 연결성을 확보함.
 > 3. **융합**: VXLAN(Virtual Extensible LAN)의 데이터 평면(Data Plane) 캡슐화와 EVPN(Ethernet VPN)의 제어 평면(Control Plane) 기반 MAC 학습을 결합하여, 소프트웨어 정의 네트워킹(SDN)의 표준 아키텍처로 자리 잡음.
 
-+++
+---
 
 ### Ⅰ. 개요 (Context & Background)
 
@@ -31,7 +31,7 @@ id = 815
 
 > **📢 섹션 요약 비유**: 이는 복잡한 도로 교통 체계(언더레이)를 이용하는 시민들(가상 머신)이 지하철 지도(오버레이)만 보고 이동하는 것과 같습니다. 실제 도로가 어찌되었든 지하철 노선만 연결되어 있다면, 승객은 자신이 어디로 이동하는지 물리적인 경로를 알 필요 없이 쉽게 이동할 수 있습니다.
 
-+++
+---
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -105,7 +105,7 @@ def vxlan_encapsulate(original_frame, vni, src_ip, dst_vtep_ips):
 
 > **📢 섹션 요약 비유**: VXLAN 캡슐화는 **편지(데이터)**를 **우편함(터널)**에 넣어 **트럭(U/IP 패킷)**에 싣고 보내는 것입니다. 운전자는 편지 내용을 모르고 단지 트럭의 목적지만 봅니다. 편지함을 수거한 우체국(수신 VTEP)만이 트럭에서 편지함을 꺼내 실제 편지를 수신인에게 전달합니다.
 
-+++
+---
 
 ### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -139,7 +139,7 @@ def vxlan_encapsulate(original_frame, vni, src_ip, dst_vtep_ips):
 
 > **📢 섹션 요약 비유**: VLAN은 전화번호부가 없는 상태에서 전화를 돌려가며(스팸) 존재 여부를 확인하는 방식(Flooding)입니다. 반면 **VXLAN + EVPN**은 최신 전화번호부(Cloud DB)를 실시간 동기화하여, 버튼 한 번으로 누구에게 전화를 걸지 정확히 찾아내는 스마트 폰 방식입니다.
 
-+++
+---
 
 ### Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -167,7 +167,7 @@ def vxlan_encapsulate(original_frame, vni, src_ip, dst_vtep_ips):
 
 > **📢 섹션 요약 비유**: 고속도로(언더레이)가 완벽하게 깔려있지 않은 곳에 컨테이너 트럭(VXLAN)을 운행하면, 오히려 트럭이 커서 낡은 도로(오래된 스위치)를 통과하지 못하거나(패킷 폐기), 기름값(오버헤드)만 더 나가는 결과가 됩니다.
 
-+++
+---
 
 ### Ⅴ. 기대효과 및 결론 (Future & Standard)
 

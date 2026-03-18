@@ -12,7 +12,7 @@ keyword = "Helm_Kubernetes_PackageManager_Chart_Template_Release_CloudNative"
 > 2. **가치**: 하나의 앱을 띄우기 위해 작성해야 하는 수십 개의 복잡한 YAML 파일들을 하나의 '차트(Chart)'로 묶고 템플릿화하여, 변수(`values.yaml`)만 살짝 바꿔 여러 환경(Dev, Staging, Prod)에 1초 만에 동일한 앱을 찍어낼 수 있는 극강의 재사용성을 제공한다.
 > 3. **융합**: 작성된 헬름 차트는 OCI(Open Container Initiative) 레지스트리에 저장되어 컨테이너 이미지와 동일한 라이프사이클로 관리되며, ArgoCD 등과 결합하여 현대 GitOps 파이프라인의 핵심 배포 템플릿 엔진으로 융합된다.
 
-+++
+---
 
 ## Ⅰ. 헬름 (Helm) 개요
 
@@ -31,7 +31,7 @@ keyword = "Helm_Kubernetes_PackageManager_Chart_Template_Release_CloudNative"
 
 📢 **섹션 요약 비유**: 수백 장의 낱장 서류(YAML)를 들고 다니며 잃어버릴까 노심초사하던 것을, 예쁜 바인더(Chart)에 철하고 겉표지에 버전(Release) 이름표를 붙여 책장에 꽂아 둔 완벽한 정리 정돈입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -93,7 +93,7 @@ keyword = "Helm_Kubernetes_PackageManager_Chart_Template_Release_CloudNative"
 
 📢 **섹션 요약 비유**: 붕어빵(K8s 앱)을 구울 때 매번 팥과 밀가루를 새로 계량하는 것이 아니라, 완벽한 붕어빵 틀(Template)을 만들어두고 팥(Values)을 넣을지 슈크림(Values)을 넣을지만 결정해서 무한대로 찍어내는 템플릿의 미학입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -113,7 +113,7 @@ keyword = "Helm_Kubernetes_PackageManager_Chart_Template_Release_CloudNative"
 
 📢 **섹션 요약 비유**: 누군가 정성 들여 만든 복잡한 레고 블록(Kafka, MySQL)을 내가 처음부터 다시 만들 필요 없이, 설명서(Chart)만 다운받아 내 방에 똑같이 복제하는 'IT 지식의 공유 경제'입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -131,7 +131,7 @@ keyword = "Helm_Kubernetes_PackageManager_Chart_Template_Release_CloudNative"
 
 📢 **섹션 요약 비유**: 남이 만든 밀키트(Chart)가 편하다고 무턱대고 끓여 먹지 말고, 그 안에 독버섯(과도한 보안 권한)이 들어있진 않은지 성분표를 먼저 확인(보안 스캔)하는 식습관이 중요합니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -144,7 +144,7 @@ keyword = "Helm_Kubernetes_PackageManager_Chart_Template_Release_CloudNative"
 
 📢 **섹션 요약 비유**: 헬름은 무질서하게 흩어져 있던 쿠버네티스라는 원시 우주에, '규격과 포장'이라는 질서를 부여하여 진정한 클라우드 네이티브 문명을 꽃피우게 한 '문명의 상자'입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **쿠버네티스 (K8s)**: 헬름 차트가 설치되어 실행되는 거대한 인프라 땅.

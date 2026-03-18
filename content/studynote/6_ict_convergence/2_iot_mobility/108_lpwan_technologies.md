@@ -12,7 +12,7 @@ keyword = "LPWAN_LoRaWAN_Sigfox_NBIoT_LTEM_eMTC_EnergyEfficiency_Coverage"
 > 2. **가치**: 기존 셀룰러 망(High Cost/Power)과 근거리 무선망(Short Range) 사이의 기술적 공백을 메워, 수도 검침, 자산 추적, 스마트 가로등과 같은 대규모·광역 IoT 서비스의 경제적 실현을 가능케 한다.
 > 3. **융합**: 비면허 대역의 자율성(LoRa, Sigfox)과 면허 대역의 안정성(NB-IoT, LTE-M)이 상호 경쟁하며 발전하고 있으며, 향후 5G mMTC(초연결) 표준으로 통합되어 스마트 시티 인프라의 핵심으로 자리 잡을 전망이다.
 
-+++
+---
 
 ## Ⅰ. 저전력 광역 통신망 (LPWAN) 개요
 
@@ -32,7 +32,7 @@ keyword = "LPWAN_LoRaWAN_Sigfox_NBIoT_LTEM_eMTC_EnergyEfficiency_Coverage"
 
 📢 **섹션 요약 비유**: 속도는 느려도 지치지 않고 수천 리 길을 달리는 '디지털 마라토너'들의 통신 네트워크입니다.
 
-+++
+---
 
 ## Ⅱ. LPWAN 기술 분류 및 상세 비교 (Deep Dive)
 
@@ -75,7 +75,7 @@ keyword = "LPWAN_LoRaWAN_Sigfox_NBIoT_LTEM_eMTC_EnergyEfficiency_Coverage"
 **[다이어그램 해설]** 
 기술의 복잡도와 성능에 따라 계층이 나뉜다. **LTE-M**은 이동성(Handover)과 음성 통신까지 지원하는 고성능 LPWAN이다. **NB-IoT**는 통신사 망을 쓰되 성능을 낮춰 효율을 높였다. **LoRa**와 **Sigfox**는 물리 계층부터 완전히 새롭게 설계하여 극강의 저비용과 저전력을 달성한 기술이다.
 
-+++
+---
 
 ## Ⅲ. 기술별 심층 메커니즘 분석
 
@@ -96,7 +96,7 @@ keyword = "LPWAN_LoRaWAN_Sigfox_NBIoT_LTEM_eMTC_EnergyEfficiency_Coverage"
 
 📢 **섹션 요약 비유**: LoRa가 '직접 무전기를 들고 대화하는 자가 통신'이라면, NB-IoT는 '대형 통신사의 유료 우편 서비스'를 이용하는 것과 같습니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -113,7 +113,7 @@ keyword = "LPWAN_LoRaWAN_Sigfox_NBIoT_LTEM_eMTC_EnergyEfficiency_Coverage"
 
 📢 **섹션 요약 비유**: 무조건 싼 기술(LoRa)만 고집하기보다, 기기가 움직이는지(Mobility)와 얼마나 자주 말해야 하는지(Traffic)에 따라 '체급'에 맞는 옷을 입혀야 합니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -127,7 +127,7 @@ keyword = "LPWAN_LoRaWAN_Sigfox_NBIoT_LTEM_eMTC_EnergyEfficiency_Coverage"
 
 📢 **섹션 요약 비유**: LPWAN은 세상의 모든 구석구석에 디지털의 숨결을 불어넣어, 소외되는 사물 없이 모두가 연결되는 '진정한 만물인터넷'의 완성 도구입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **ISM 대역 (Unlicensed Band)**: LoRa, Sigfox가 사용하는 공용 주파수 대역.

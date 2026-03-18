@@ -12,7 +12,7 @@ tags = ["Quality", "Cost of Quality", "COQ", "Prevention", "Appraisal", "Failure
 > 1. **본질**: 소프트웨어 품질을 확보하기 위해 투입되는 모든 비용인 **품질 비용(COQ, Cost of Quality)**을 체계적으로 분석하여, **총 비용(Total Cost)**이 최소화되는 '경제적 품질 최적점(Optimal Quality Point)'을 도출하고 통제하는 정량적 관리 기법이다.
 > 2. **가치**: **예방 비용(Prevention Cost)**과 **평가 비용(Appraisal Cost)**, **내부 실패 비용(Internal Failure Cost)**, **외부 실패 비용(External Failure Cost)**의 상충 관계(Trade-off)를 수학적으로 모델링하여, 품질 개선 활동이 기업 이익에 미치는 영향을 ROI(Return On Investment) 관점에서 증명한다.
 > 3. **융합**: 소프트웨어 공학(SW Engineering)의 **기술 부채(Technical Debt)** 개념과 연계되며, **CI/CD (Continuous Integration/Continuous Deployment)** 파이프라인을 통한 테스트 자동화는 '평가 비용'의 구조적 효율화를 통해 최적점을 '무결점(Zero Defect)' 쪽으로 이동시키는 핵심 전략이다.
-+++
+---
 
 ### Ⅰ. 개요 (Context & Background)
 

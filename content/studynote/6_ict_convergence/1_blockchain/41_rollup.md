@@ -12,7 +12,7 @@ keyword = "Rollup_Optimistic_ZeroKnowledge_L2_DataAvailability_Batching"
 > 2. **가치**: 트랜잭션의 실행은 밖에서 하되 **데이터 가용성(Data Availability)**은 메인넷에서 보장받음으로써, 메인넷 수준의 보안성을 유지하면서도 수수료를 획기적으로 낮춘다.
 > 3. **융합**: 유효성을 증명하는 방식에 따라 **낙관적 롤업(Optimistic)**과 **영지식 롤업(ZK)**으로 나뉘며, 최근 이더리움의 로드맵(The Surge)을 이끄는 핵심 아키텍처로 자리 잡았다.
 
-+++
+---
 
 ## Ⅰ. 롤업 (Rollup) 개요
 
@@ -29,7 +29,7 @@ keyword = "Rollup_Optimistic_ZeroKnowledge_L2_DataAvailability_Batching"
 
 📢 **섹션 요약 비유**: 수백 명의 손님이 각자 계산대(L1)로 가는 대신, 가이드(L2)가 한꺼번에 계산을 마친 뒤 영수증 뭉치를 제출하는 '단체 관람형 정산 방식'입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -81,7 +81,7 @@ keyword = "Rollup_Optimistic_ZeroKnowledge_L2_DataAvailability_Batching"
 
 📢 **섹션 요약 비유**: 낙관적 롤업은 "일단 통과시키되, 일주일 안에 이의 제기 없으면 확정!" 하는 방식이고, 영지식 롤업은 "들어오기 전에 완벽하게 검사받고 통과!" 하는 방식입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -102,7 +102,7 @@ keyword = "Rollup_Optimistic_ZeroKnowledge_L2_DataAvailability_Batching"
 
 📢 **섹션 요약 비유**: 옵티미스틱이 사후 검사 시스템이라면, ZK는 전수 조사 자동화 시스템과 같은 철학적 차이를 보입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -116,7 +116,7 @@ keyword = "Rollup_Optimistic_ZeroKnowledge_L2_DataAvailability_Batching"
 
 📢 **섹션 요약 비유**: 톨게이트(L1) 통과 비용이 비싸므로, 버스 한 대(Rollup)에 승객을 최대한 꽉꽉 채워 태우고 버스 전용 차로(Blob)를 이용하는 것이 가장 영리한 설계입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -130,7 +130,7 @@ keyword = "Rollup_Optimistic_ZeroKnowledge_L2_DataAvailability_Batching"
 
 📢 **섹션 요약 비유**: 롤업은 블록체인이 '느리고 비싸다'는 고정관념을 깨뜨리고, 전 세계 모든 데이터를 담을 수 있는 **'무한한 디지털 그릇'**으로 진화하게 만든 일등 공신입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **레이어 2 (Layer 2)**: 롤업이 속한 상위 기술 범주.

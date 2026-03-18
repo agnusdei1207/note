@@ -5,7 +5,7 @@ date = "2026-03-16"
 [extra]
 categories = "studynote-database"
 id = 412
-+++
+---
 
 # 412. 카티션 프로덕트(Cartesian Product) - 무질서한 조합의 결과
 

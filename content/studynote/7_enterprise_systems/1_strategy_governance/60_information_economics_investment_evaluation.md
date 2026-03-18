@@ -13,7 +13,7 @@ keyword = "Information_Economics_IT_Investment_Value_Strategic_Alignment_Risk_Sc
 > 2. **구조**: 비즈니스 영역(가치/위험)과 기술 영역(가치/위험)으로 평가 지표를 이원화하여, "돈은 안 되지만 반드시 해야 하는 사업(예: 보안 인프라)"에 대한 객관적 추진 명분을 제공한다.
 > 3. **가치**: 정보 기술을 단순한 비용(Cost)이 아닌 전략적 자산(Asset)으로 인식하게 하며, 경영진과 IT 부서 간의 의사결정 간극을 좁히는 거버넌스의 도구로 활용된다.
 
-+++
+---
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -28,7 +28,7 @@ keyword = "Information_Economics_IT_Investment_Value_Strategic_Alignment_Risk_Sc
 
 📢 섹션 요약 비유: 정보 경제학은 IT 투자라는 보석을 감정할 때, 크기(수익)뿐만 아니라 색깔(전략), 투명도(기술력), 흠집(위험)을 모두 보고 최종 가격(종합 점수)을 매기는 전문 감정법입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -76,7 +76,7 @@ keyword = "Information_Economics_IT_Investment_Value_Strategic_Alignment_Risk_Sc
 
 📢 섹션 요약 비유: 비즈니스 가치는 '엔진의 출력'이고, 기술 리스크는 '차체의 무게'와 같아서, 출력은 높이고 무게는 줄여야 가장 빠른 속도(최고의 가치)를 낼 수 있습니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -101,7 +101,7 @@ keyword = "Information_Economics_IT_Investment_Value_Strategic_Alignment_Risk_Sc
 
 📢 섹션 요약 비유: ROI가 '현재의 통장 잔고'를 증명하는 것이라면, 정보 경제학은 그 돈으로 '어떤 미래를 설계할지'까지 포함한 가치 제안서입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -133,7 +133,7 @@ keyword = "Information_Economics_IT_Investment_Value_Strategic_Alignment_Risk_Sc
 
 📢 섹션 요약 비유: 정보 경제학은 IT 부서가 "이거 중요해요"라고 조르는 대신, "이런 이유로 기업 가치가 이만큼 오릅니다"라고 경영진을 논리적으로 설득하는 '세련된 협상 테이블'입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -149,7 +149,7 @@ keyword = "Information_Economics_IT_Investment_Value_Strategic_Alignment_Risk_Sc
 
 📢 섹션 요약 비유: 미래의 정보 경제학은 기업이라는 토양에 어떤 식물(IT 프로젝트)을 심어야 가장 큰 숲(기업 가치)을 이룰지 실시간으로 시뮬레이션해주는 '가상 정원사'가 될 것입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 | 관련 개념 | 관계 및 시너지 설명 |

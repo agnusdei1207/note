@@ -13,7 +13,7 @@ id = 127
 > 2. **가치**= 꼬임 쌍선(Twisted Pair) 대비 우수한 차폐성과 대역폭으로 인해 10Mbps~수 Gbps급의 아날로그/디지털 신호를 수백 미터 이상 중계 없이 전송 가능하며, 특히 HFC (Hybrid Fiber-Coaxial) 망의 Last Mile 구간에 핵심적인 전송 매체 역할 수행.
 > 3. **융합**= OSI 7계층의 물리 계층(Physical Layer)에서 신호의 무결성을 보장하며, 상위 계층의 고속 프로토콜(Ethernet, DOCSIS 등)이 안정적으로 작동할 수 있는 기반 인프라를 제공함.
 
-+++
+---
 
 ### Ⅰ. 개요 (Context & Background)
 

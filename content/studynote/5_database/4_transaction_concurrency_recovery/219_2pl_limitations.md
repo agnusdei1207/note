@@ -11,7 +11,7 @@ id = 219
 > 1. **본질**: 2단계 락킹(2PL, Two-Phase Locking)은 직렬 가능성(Serializability)을 보장하는 가장 대표적인 동시성 제어 프로토콜이지만, **교착 상태(Deadlock) 발생 가능성**과 **연쇄 복귀(Cascading Rollback)**라는 구조적 한계를 내재하고 있다.
 > 2. **가치**: 이러한 한계를 분석하는 것은 단순한 이론을 넘어, 대규모 트랜잭션 환경에서 DBMS(Database Management System)의 처리량(Throughput)과 안정성(Availability) 사이의 트레이드오프를 설계하는 핵심적인 의사결정 근거가 된다.
 > 3. **융합**: OS(Operating System)의 자원 할급 교착 상태 이론과 응용 프로그램의 재시도(Retry) 로직이 연결되는 지점이며, 분산 시스템에서의 고립성 수준(Isolation Level)을 결정하는 기반이 된다.
-+++
+---
 
 ### Ⅰ. 개요 (Context & Background)
 

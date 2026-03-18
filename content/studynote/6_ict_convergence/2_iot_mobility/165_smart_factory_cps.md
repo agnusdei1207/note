@@ -12,7 +12,7 @@ keyword = "SmartFactory_CPS_CyberPhysicalSystem_TSN_TimeSensitiveNetworking_OPC_
 > 2. **가치**: 불량률 감소와 생산성 향상을 넘어, 소비자의 다양한 요구에 맞춘 다품종 소량 생산(Mass Customization)을 가능케 하여 제조업의 패러다임을 혁명적으로 바꾼다.
 > 3. **융합**: 공장 내 기계 간의 언어를 통일하는 OPC UA 규격과, 0.001초의 지연도 허용하지 않는 결정론적 유선망인 TSN(Time-Sensitive Networking)이 융합되어 로봇 팔과 컨베이어 벨트를 완벽한 교향악단처럼 통제한다.
 
-+++
+---
 
 ## Ⅰ. 스마트 팩토리 및 CPS 개요
 
@@ -30,7 +30,7 @@ keyword = "SmartFactory_CPS_CyberPhysicalSystem_TSN_TimeSensitiveNetworking_OPC_
 
 📢 **섹션 요약 비유**: 육체 노동만 하던 근육질 로봇들에게, 뇌(Cyber)와 신경망(Network)을 이식하여 스스로 생각하고 움직이는 터미네이터로 진화시키는 과정입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -85,7 +85,7 @@ keyword = "SmartFactory_CPS_CyberPhysicalSystem_TSN_TimeSensitiveNetworking_OPC_
 
 📢 **섹션 요약 비유**: 지멘스, 미쓰비시 등 각국에서 온 로봇들이 'OPC UA'라는 통역기를 끼고, 'TSN'이라는 절대 지연되지 않는 KTX 전용 선로를 타고 지시를 주고받는 완벽한 오케스트라입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -105,7 +105,7 @@ keyword = "SmartFactory_CPS_CyberPhysicalSystem_TSN_TimeSensitiveNetworking_OPC_
 
 📢 **섹션 요약 비유**: 단순히 '로봇이 사람을 대신하는 것(3.0)'을 넘어, '로봇들끼리 알아서 회의하고 일정을 짜며(4.0)' 공장을 운영하는 패러다임의 도약입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -123,7 +123,7 @@ keyword = "SmartFactory_CPS_CyberPhysicalSystem_TSN_TimeSensitiveNetworking_OPC_
 
 📢 **섹션 요약 비유**: 최첨단 빌딩을 새로 짓는 것도 좋지만, 이미 잘 돌아가는 낡은 공장의 기계들에 '스마트 안경(센서)'과 '무전기(게이트웨이)'만 달아주어도 훌륭한 스마트 팩토리가 될 수 있습니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -137,7 +137,7 @@ keyword = "SmartFactory_CPS_CyberPhysicalSystem_TSN_TimeSensitiveNetworking_OPC_
 
 📢 **섹션 요약 비유**: 스마트 팩토리는 제조업의 피, 땀, 눈물을 디지털 데이터라는 보석으로 연금술 하여, 인류를 고된 단순 노동으로부터 완전히 해방시킬 최후의 성채입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **디지털 트윈**: CPS의 완성형으로, 공장을 컴퓨터 속에 똑같이 복제하는 기술.

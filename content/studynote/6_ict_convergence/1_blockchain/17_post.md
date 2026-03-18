@@ -12,7 +12,7 @@ keyword = "PoST_Proof_of_Space_and_Time_Chia_VDF_Farming"
 > 2. **가치**: PoW의 과도한 전력 소모와 PoS의 자산 편중 문제를 해결하기 위해, 유휴 스토리지 자원을 활용함으로써 에너지 효율성과 탈중앙화의 균형을 꾀한다.
 > 3. **융합**: 고도의 암호학적 기법인 **VDF(Verifiable Delay Function)**와 머클 트리 기반의 플로팅(Plotting) 기술이 결합되어, 치아(Chia), 파일코인(Filecoin) 등 차세대 분산 저장 프로토콜의 핵심이 된다.
 
-+++
+---
 
 ## Ⅰ. 공간 및 시간 증명 (PoST) 개요
 
@@ -30,7 +30,7 @@ keyword = "PoST_Proof_of_Space_and_Time_Chia_VDF_Farming"
 
 📢 **섹션 요약 비유**: 엄청난 에너지를 써서 매번 구멍을 파는 노가다(PoW) 대신, 미리 넓은 밭(공간)을 일궈두고 씨앗이 자라길 기다리는(시간) 지혜로운 농경 방식입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -78,7 +78,7 @@ keyword = "PoST_Proof_of_Space_and_Time_Chia_VDF_Farming"
 
 📢 **섹션 요약 비유**: 넓은 창고(공간)에 보물을 숨겨두고, 정해진 시간이 지나야만 열리는 금고(시간) 시스템을 통해 보물의 가치와 안전을 지키는 구조입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -98,7 +98,7 @@ keyword = "PoST_Proof_of_Space_and_Time_Chia_VDF_Farming"
 
 📢 **섹션 요약 비유**: PoW가 에너지를 태우는 '화력 발전'이라면, PoST는 이미 지어진 댐의 수위를 이용하는 '수력 발전'처럼 지속 가능한 방식입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -112,7 +112,7 @@ keyword = "PoST_Proof_of_Space_and_Time_Chia_VDF_Farming"
 
 📢 **섹션 요약 비유**: 풍부한 수확을 위해 밭을 갈되, 땅(SSD)이 산성화되어 못 쓰게 되지 않도록 적절한 비료와 휴지기(전략적 운용)를 갖춰야 하는 영농 기법과 같습니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -126,7 +126,7 @@ keyword = "PoST_Proof_of_Space_and_Time_Chia_VDF_Farming"
 
 📢 **섹션 요약 비유**: PoST는 블록체인을 '전기 먹는 하마'에서 **'디지털 자원 공유 경제'**로 진화시킨 친환경 혁신입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **VDF (Verifiable Delay Function)**: PoST의 '시간'을 증명하는 암호학적 핵심 기술.

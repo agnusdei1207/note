@@ -11,7 +11,7 @@ id = 229
 > 1. **본질**: Read Committed (커밋된 읽기)는 트랜잭션이 **오직 커밋(Commit)이 완료된 데이터만 읽을 수 있도록 제한**하여, 데이터베이스 격리 수준(Isolation Level) 중 가장 기본적인 보안 장치인 '오손 읽기(Dirty Read)'를 원천 차단하는 트랜잭션 격리 수준이다.
 > 2. **가치**: 대다수 상용 RDBMS(Relational Database Management System)인 Oracle, SQL Server, PostgreSQL 등의 기본 설정(Default)값으로, 데이터의 논리적 무결성과 시스템의 높은 동시 처리량(Throughput) 사이에서 가장 합리적인 균형점을 제공한다.
 > 3. **융합**: MVCC(Multi-Version Concurrency Control) 아키텍처와 결합될 경우, 읽기 작업은 락(Lock) 없이 '커밋된 마지막 스냅샷(Snapshot)'을 접근하여, 쓰기 작업과의 블로킹(Blocking) 없이 초고속 동시성을 실현한다.
-+++
+---
 
 ### Ⅰ. 개요 (Context & Background)
 

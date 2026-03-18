@@ -12,7 +12,7 @@ keyword = "Wearable_HMD_EyeTracking_FoveatedRendering_Telehaptics_WBAN"
 > 2. **가치**: 시선 추적을 이용한 포비티드 렌더링(Foveated Rendering)으로 HMD의 연산 한계를 극복하고, 디지털 촉각인 텔레햅틱(Tele-haptics)을 통해 멀리 떨어진 물체의 굳기와 질감까지 전달하여 진정한 몰입형 메타버스와 원격 의료를 완성한다.
 > 3. **융합**: 초저지연을 요구하는 촉각 데이터를 전송하기 위해 5G/6G URLLC 네트워크와 결합하며, 압전 소자와 초소형 구동기(Actuator) 기반의 신소재 공학이 ICT와 융합되는 최전선이다.
 
-+++
+---
 
 ## Ⅰ. 웨어러블 및 신체 융합 기술 개요
 
@@ -31,7 +31,7 @@ keyword = "Wearable_HMD_EyeTracking_FoveatedRendering_Telehaptics_WBAN"
 
 📢 **섹션 요약 비유**: 스마트폰이라는 네모난 쇳덩어리를 주머니에서 꺼내 버리고, 우리 몸의 피부와 눈동자 자체를 디지털 세상과 소통하는 직접적인 '입출력 USB 포트'로 개조하는 과정입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -78,7 +78,7 @@ keyword = "Wearable_HMD_EyeTracking_FoveatedRendering_Telehaptics_WBAN"
 
 📢 **섹션 요약 비유**: 뇌라는 완벽한 컴퓨터를 해킹하기 위해, 카메라로 눈동자를 속이고(포비티드) 미세 모터로 손가락의 신경 세포를 연주하는(햅틱) 초정밀 사기극입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -97,7 +97,7 @@ keyword = "Wearable_HMD_EyeTracking_FoveatedRendering_Telehaptics_WBAN"
 
 📢 **섹션 요약 비유**: 지금까지의 인터넷이 '쇼윈도 밖에서 눈으로만 보는 백화점'이었다면, 텔레햅틱은 '가게 문을 열고 들어가 물건을 직접 만져보고 입어보는 진짜 쇼핑'의 시작입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -115,7 +115,7 @@ keyword = "Wearable_HMD_EyeTracking_FoveatedRendering_Telehaptics_WBAN"
 
 📢 **섹션 요약 비유**: 화면(눈)과 소리(귀), 진동(손)이 엇박자로 노는 고장 난 오락기가 되지 않도록, 모든 감각 데이터가 동시에 도착하게 묶어서 배달하는 정밀한 택배 시스템이 관건입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -129,7 +129,7 @@ keyword = "Wearable_HMD_EyeTracking_FoveatedRendering_Telehaptics_WBAN"
 
 📢 **섹션 요약 비유**: 이 기술들은 우리 몸이라는 아날로그 성벽을 허물고 디지털 세계의 바다로 다이빙하게 만드는, 인류 진화의 가장 짜릿한 스쿠버다이빙 장비입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **공간 컴퓨팅 (Spatial Computing)**: 시선 추적과 핀치 제스처를 기본 UI로 사용하는 차세대 컴퓨팅.

@@ -13,7 +13,7 @@ keyword = "Extended_ERP_ERP_II_Collaboration_SCM_CRM_Integration"
 > 2. **가치**: 인터넷과 웹 기술을 기반으로 협업적 상거래(Collaborative Commerce)를 구현하며, 실시간 데이터 공유를 통해 공급망 전체의 가시성을 확보하고 비즈니스 지능(BI)을 통한 고도화된 의사결정을 지원한다.
 > 3. **융합**: SOA(서비스 지향 아키텍처)와 EAI/ESB 기술을 활용하여 이기종 시스템 간의 유연한 연동을 실현하며, 최근에는 클라우드 네이티브 환경의 SaaS 기반 통합 비즈니스 플랫폼으로 진화하고 있다.
 
-+++
+---
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -28,7 +28,7 @@ keyword = "Extended_ERP_ERP_II_Collaboration_SCM_CRM_Integration"
 
 📢 섹션 요약 비유: 확장형 ERP는 기업이라는 '섬'을 육지와 연결하는 '거대한 다리'이자, 외부의 신호를 수신하는 '안테나'입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -74,7 +74,7 @@ keyword = "Extended_ERP_ERP_II_Collaboration_SCM_CRM_Integration"
 
 📢 섹션 요약 비유: 확장형 ERP는 레고 블록과 같아서, 우리 회사 블록(Core)뿐만 아니라 친구 회사 블록(SCM/CRM)도 딱딱 맞게 끼워 맞출 수 있는 표준 규격을 갖춘 시스템입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -97,7 +97,7 @@ keyword = "Extended_ERP_ERP_II_Collaboration_SCM_CRM_Integration"
 
 📢 섹션 요약 비유: ERP I이 '나를 관리하는 명상'이라면, ERP II는 '사회생활을 잘하는 소통 능력'입니다. 혼자 잘하는 것보다 함께 잘하는 것이 훨씬 강력하기 때문입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -125,7 +125,7 @@ keyword = "Extended_ERP_ERP_II_Collaboration_SCM_CRM_Integration"
 
 📢 섹션 요약 비유: 확장형 ERP를 운영하는 것은 '외국인 친구(외부 파트너)를 집에 초대하는 것'과 같아서, 대접은 극진히 하되(협업) 안방 금고(기밀 데이터)는 확실히 잠가야 합니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -141,7 +141,7 @@ keyword = "Extended_ERP_ERP_II_Collaboration_SCM_CRM_Integration"
 
 📢 섹션 요약 비유: 미래의 확장형 ERP는 '전 세계 기상 정보와 교통 상황을 모두 아는 자율 주행 비행기'와 같아서, 우리를 가장 안전하고 수익성 높은 시장으로 데려다줄 것입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 | 관련 개념 | 관계 및 시너지 설명 |

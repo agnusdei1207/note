@@ -13,7 +13,7 @@ keyword = "Platform_Business_Two_Sided_Market_Network_Effect_Ecosystem_Governanc
 > 2. **핵심 동력**: 사용자 수가 늘어날수록 네트워크의 가치가 기하급수적으로 커지는 **네트워크 효과(Network Effect)**를 기반으로 하며, 데이터 소유권과 생태계 락인(Lock-in)을 통해 강력한 진입 장벽을 형성한다.
 > 3. **구조**: 거래 중심의 '거래 플랫폼(Transaction Platform)'과 기술 기반의 '혁신 플랫폼(Innovation Platform)'으로 나뉘며, 최근에는 두 기능이 결합된 통합 생태계 지배력이 기업 가치의 척도가 되고 있다.
 
-+++
+---
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -28,7 +28,7 @@ keyword = "Platform_Business_Two_Sided_Market_Network_Effect_Ecosystem_Governanc
 
 📢 섹션 요약 비유: 플랫폼은 비즈니스라는 연극이 상연되는 '무대'입니다. 무대 장치가 훌륭하고 관객이 많을수록 더 유능한 배우(생산자)들이 몰려와 멋진 공연(서비스)을 펼치게 됩니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -72,7 +72,7 @@ keyword = "Platform_Business_Two_Sided_Market_Network_Effect_Ecosystem_Governanc
 
 📢 섹션 요약 비유: 양면 시장은 '닭과 달걀'의 문제와 같아서, 어느 쪽을 먼저 늘릴지 결정하고 양쪽이 서로를 끌어당기게 만드는 자성이 필요합니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -96,7 +96,7 @@ keyword = "Platform_Business_Two_Sided_Market_Network_Effect_Ecosystem_Governanc
 
 📢 섹션 요약 비유: 파이프라인이 '직선 도로'라면 플랫폼은 '교차로'입니다. 모든 차가 지나가야 하는 길목을 선점하는 것이 승부의 핵심입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -124,7 +124,7 @@ keyword = "Platform_Business_Two_Sided_Market_Network_Effect_Ecosystem_Governanc
 
 📢 섹션 요약 비유: 거버넌스는 '법'과 같아서, 너무 엄격하면 상권이 죽고 너무 느슨하면 범죄(불량 거래)가 들끓게 되므로 적절한 조율이 플랫폼의 생명입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -140,7 +140,7 @@ keyword = "Platform_Business_Two_Sided_Market_Network_Effect_Ecosystem_Governanc
 
 📢 섹션 요약 비유: 미래의 플랫폼은 스스로 숨 쉬고 성장하는 '가상 도시'와 같아서, 우리는 그 안에서 일하고 놀고 생활하는 플랫폼 시민이 될 것입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 | 관련 개념 | 관계 및 시너지 설명 |

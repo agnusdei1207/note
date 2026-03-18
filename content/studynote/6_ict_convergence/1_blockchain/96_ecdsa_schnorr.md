@@ -12,7 +12,7 @@ keyword = "ECDSA_SchnorrSignature_DigitalSignature_EllipticCurve_MultiSig_Signat
 > 2. **가치**: 슈노르 서명은 다중 서명(Multi-sig) 트랜잭션의 크기를 일반 송금 수준으로 줄여 수수료를 절감하고, 어떤 조건으로 서명되었는지 외부에서 알 수 없게 하여 프라이버시를 획기적으로 향상시킨다.
 > 3. **융합**: 비트코인의 탭루트(Taproot) 업그레이드의 핵심이며, 현대 암호학의 효율성과 블록체인의 확장성 요구가 결합되어 데이터 저장 공간 최적화와 복잡한 스마트 컨트랙트의 효율적 실행을 가능하게 한다.
 
-+++
+---
 
 ## Ⅰ. ECDSA 및 슈노르 서명 개요
 
@@ -30,7 +30,7 @@ keyword = "ECDSA_SchnorrSignature_DigitalSignature_EllipticCurve_MultiSig_Signat
 
 📢 **섹션 요약 비유**: 개별적으로 존재하던 보안의 조각들을 하나로 응축하여, 더 가볍고 강력한 방패를 만드는 '디지털 연금술'의 진화입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -80,7 +80,7 @@ keyword = "ECDSA_SchnorrSignature_DigitalSignature_EllipticCurve_MultiSig_Signat
 
 📢 **섹션 요약 비유**: 수만 장의 투표 용지를 일일이 확인하는 대신, 모든 투표 결과가 응축된 '최종 확인서' 한 장만 검증하는 고도의 행정 효율화와 같습니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -99,7 +99,7 @@ keyword = "ECDSA_SchnorrSignature_DigitalSignature_EllipticCurve_MultiSig_Signat
 
 📢 **섹션 요약 비유**: 무거운 짐(데이터)을 진 병사들이 행군하던 길에, 짐을 압축하는 기술(슈노르)이 도입되어 군대 전체의 이동 속도(확장성)가 빨라진 것과 같습니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -116,7 +116,7 @@ keyword = "ECDSA_SchnorrSignature_DigitalSignature_EllipticCurve_MultiSig_Signat
 
 📢 **섹션 요약 비유**: 아무리 좋은 엔진(슈르노)이 나와도, 전국의 주유소(거래소/지갑)가 그 연료를 지원하지 않으면 달릴 수 없으므로 '생태계 전체의 보조'가 필수입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -129,7 +129,7 @@ keyword = "ECDSA_SchnorrSignature_DigitalSignature_EllipticCurve_MultiSig_Signat
 
 📢 **섹션 요약 비유**: 슈노르 서명은 블록체인의 '등기 권리증'을 가장 얇고 가볍게 만들면서도 위조가 불가능하게 만든 암호학의 정수입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **타원곡선 암호 (ECC)**: ECDSA와 슈노르의 근간이 되는 수학적 원리.

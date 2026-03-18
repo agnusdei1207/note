@@ -13,7 +13,7 @@ keyword = "Interoperability_Technical_Syntactic_Semantic_Organizational_Standard
 > 2. **계층**: 단순한 연결을 뜻하는 **기술적(Technical)** 수준부터 데이터 포맷의 **구문적(Syntactic)** 수준, 의미의 일치를 뜻하는 **의미적(Semantic)** 수준, 그리고 프로세스 정렬인 **조직적(Organizational)** 수준으로 단계화된다.
 > 3. **가치**: 데이터 사일로(Silo)를 허물고 서비스 간 결합을 용이하게 하여 정보화 투자의 중복을 방지하며, 사용자에게는 끊김 없는(Seamless) 통합 서비스를 제공하는 현대 엔터프라이즈 아키텍처의 궁극적 지향점이다.
 
-+++
+---
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -28,7 +28,7 @@ keyword = "Interoperability_Technical_Syntactic_Semantic_Organizational_Standard
 
 📢 섹션 요약 비유: 상호운용성은 서로 다른 나라 사람들이 모인 회의장에서 '공용어'를 사용하여 오해 없이 협력하게 만드는 '소통의 근육'입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -82,7 +82,7 @@ keyword = "Interoperability_Technical_Syntactic_Semantic_Organizational_Standard
 
 📢 섹션 요약 비유: 기술적 수준은 '전화 연결'이고, 의미적 수준은 '같은 언어 사용'이며, 조직적 수준은 '공동의 목표를 향한 협력'입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -105,7 +105,7 @@ keyword = "Interoperability_Technical_Syntactic_Semantic_Organizational_Standard
 
 📢 섹션 요약 비유: 호환성이 '내 옷을 동생이 입을 수 있는가'의 문제라면, 상호운용성은 '동생과 내가 한 팀이 되어 농구 경기를 할 수 있는가'의 문제입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -133,7 +133,7 @@ keyword = "Interoperability_Technical_Syntactic_Semantic_Organizational_Standard
 
 📢 섹션 요약 비유: 상호운용성 없는 시스템 확장은 '바벨탑'을 쌓는 것과 같아서, 결국 서로 말이 통하지 않아 프로젝트 전체가 무너지게 됩니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -149,7 +149,7 @@ keyword = "Interoperability_Technical_Syntactic_Semantic_Organizational_Standard
 
 📢 섹션 요약 비유: 미래의 상호운용성은 공기와 같아서, 우리는 시스템이 서로 다르다는 사실조차 인식하지 못한 채 거대한 디지털 지능의 혜택을 누리게 될 것입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 | 관련 개념 | 관계 및 시너지 설명 |

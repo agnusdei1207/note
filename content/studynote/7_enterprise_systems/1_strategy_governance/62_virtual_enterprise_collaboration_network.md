@@ -13,7 +13,7 @@ keyword = "Virtual_Enterprise_VE_Network_Organization_Collaboration_ICT_Agility"
 > 2. **가치**: 기업의 물리적 경계를 허물고 필요할 때만 결합(Plug & Play)함으로써 제품 개발 기간을 단축하고, 투자 리스크를 분산하며, 전 세계의 자원을 자사 자산처럼 활용하는 극강의 민첩성(Agility)을 제공한다.
 > 3. **융합**: 클라우드, 웹 서비스, EDI 기술이 협업 인프라 역할을 하며, 최근에는 블록체인의 스마트 계약(Smart Contract)을 통해 파트너 간의 신뢰 구축과 정산 자동화를 구현하는 지능형 생태계로 진화하고 있다.
 
-+++
+---
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -28,7 +28,7 @@ keyword = "Virtual_Enterprise_VE_Network_Organization_Collaboration_ICT_Agility"
 
 📢 섹션 요약 비유: 가상 기업은 필요할 때마다 부품을 갈아 끼우고 합체하는 '트랜스포머 로봇'과 같아서, 거대하지만 느린 공룡(전통적 대기업)보다 훨씬 빠르고 강력하게 시장을 장악합니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -75,7 +75,7 @@ keyword = "Virtual_Enterprise_VE_Network_Organization_Collaboration_ICT_Agility"
 
 📢 섹션 요약 비유: ICT 플랫폼은 가상 기업의 '심장과 신경'이며, 각 파트너 기업은 그 신경에 연결되어 근육과 감각 기관 역할을 수행합니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -100,7 +100,7 @@ keyword = "Virtual_Enterprise_VE_Network_Organization_Collaboration_ICT_Agility"
 
 📢 섹션 요약 비유: 과거의 가상 기업이 '신뢰'라는 보이지 않는 끈에 의지했다면, 현대의 가상 기업은 '블록체인'이라는 강철 사슬로 연결되어 더 안전하고 견고해졌습니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -128,7 +128,7 @@ keyword = "Virtual_Enterprise_VE_Network_Organization_Collaboration_ICT_Agility"
 
 📢 섹션 요약 비유: 가상 기업을 만드는 것은 '어벤져스' 팀을 구성하는 것과 같아서, 각자의 초능력(핵심 역량)이 겹치지 않으면서도 서로의 약점을 완벽히 메워줘야 합니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -144,7 +144,7 @@ keyword = "Virtual_Enterprise_VE_Network_Organization_Collaboration_ICT_Agility"
 
 📢 섹션 요약 비유: 미래의 가상 기업은 디지털 바다 위를 떠다니는 '지능형 구름'과 같아서, 기회가 있는 곳으로 순식간에 모여 비(가치)를 뿌리고 다시 흩어지는 자유로운 존재가 될 것입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 | 관련 개념 | 관계 및 시너지 설명 |

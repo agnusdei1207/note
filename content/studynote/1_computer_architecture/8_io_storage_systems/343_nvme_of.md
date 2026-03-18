@@ -6,10 +6,10 @@ date = "2026-03-14"
 
 # NVMe-oF (NVMe over Fabrics)
 
-+++
+---
 title = "NVMe-oF (NVMe over Fabrics)"
 weight = 343
-+++
+---
 
 > **핵심 인사이트 (3줄 요약)**
 > 1. **본질**: NVMe-oF는 로컬 PCIe 버스의 고성능 프로토콜을 네트워크 패브릭(Fabric)으로 확장하여, 스토리지 네트워크의 병목을 제거하는 표준화된 캡슐화 기술입니다.

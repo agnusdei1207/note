@@ -12,7 +12,7 @@ keyword = "Bitcoin_Halving_Block_Reward_Deflation_StockToFlow_Scarcity"
 > 2. **가치**: 비트코인의 총 발행량을 2,100만 개로 한정하고 공급 속도를 점진적으로 늦춤으로써, 무한 발행이 가능한 법정 화폐와 대비되는 **디지털 희소성(Scarcity)**과 인플레이션 헤지(Hedge) 수단으로서의 가치를 보장한다.
 > 3. **융합**: 암호 경제학적 인센티브 설계와 작업 증명(PoW) 난이도 조절 알고리즘이 결합되어 있으며, 시장의 수요-공급 법칙에 따라 비트코인 가격의 장기적 주기성을 형성하는 핵심 변수로 작용한다.
 
-+++
+---
 
 ## Ⅰ. 비트코인 반감기 (Halving) 개요
 
@@ -32,7 +32,7 @@ keyword = "Bitcoin_Halving_Block_Reward_Deflation_StockToFlow_Scarcity"
 
 📢 **섹션 요약 비유**: 중앙은행이 돈을 마구 찍어내어 가치를 떨어뜨리는 것과 반대로, 스스로 공급량을 줄여 가치를 높이는 '디지털 골드'의 생존 전략입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 경제적 작동 원리 (Deep Dive)
 
@@ -79,7 +79,7 @@ keyword = "Bitcoin_Halving_Block_Reward_Deflation_StockToFlow_Scarcity"
 
 📢 **섹션 요약 비유**: 수확량이 줄어드는 흉년이 오면 실력 없는 농부는 떠나고, 최고의 장비를 갖춘 농부들만 남아 농작물(비트코인) 값을 올리는 '자연 도태와 가치 상승'의 과정입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -99,7 +99,7 @@ keyword = "Bitcoin_Halving_Block_Reward_Deflation_StockToFlow_Scarcity"
 
 📢 **섹션 요약 비유**: 종이돈이 물에 젖어 흐물흐물해지는 '아이스크림'이라면, 비트코인은 시간이 흐를수록 단단해지는 '다이아몬드'와 같은 경제적 성질을 가집니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -113,7 +113,7 @@ keyword = "Bitcoin_Halving_Block_Reward_Deflation_StockToFlow_Scarcity"
 
 📢 **섹션 요약 비유**: 월급(보상)은 줄어들지만 팁(수수료)이 늘어나는 구조로 서서히 바꾸어, 가게(네트워크)가 영원히 문을 닫지 않게 만드는 '경제적 연착륙 설계'입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -127,7 +127,7 @@ keyword = "Bitcoin_Halving_Block_Reward_Deflation_StockToFlow_Scarcity"
 
 📢 **섹션 요약 비유**: 반감기는 비트코인이라는 시계가 4년에 한 번씩 울리는 **'신뢰의 종소리'**이며, 이 소리가 들릴 때마다 디지털 세계의 가치는 한 단계 더 단단해집니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **작업 증명 (PoW)**: 반감기가 적용되는 기본 합의 모델.

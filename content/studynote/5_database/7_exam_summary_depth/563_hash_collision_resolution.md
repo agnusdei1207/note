@@ -5,7 +5,7 @@ date = "2026-03-16"
 [extra]
 categories = "studynote-database"
 id = 563
-+++
+---
 
 # 563. 해시 충돌과 해결 기법 - 체이닝과 개방 주소법의 승부
 

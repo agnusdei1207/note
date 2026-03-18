@@ -13,7 +13,7 @@ keyword = "Agile_Management_Agile_Manifesto_Self_Organizing_Teams_Spotify_Model"
 > 2. **가치**: 경직된 위계 구조(Hierarchy) 대신 자율적이고 다기능적인 팀(Cross-functional Team)을 중심으로 의사결정 권한을 이양하며, 짧은 주기의 반복(Iteration)과 지속적인 피드백을 통해 학습과 성장을 추구한다.
 > 3. **융합**: 조직 구조(Squad, Tribe), 성과 관리(OKR), 기술 아키텍처(MSA, DevOps)가 유기적으로 맞물려야 하며, 대규모 조직을 위한 SAFe, LeSS 등의 확장 프레임워크와 결합된다.
 
-+++
+---
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -28,7 +28,7 @@ keyword = "Agile_Management_Agile_Manifesto_Self_Organizing_Teams_Spotify_Model"
 
 📢 섹션 요약 비유: 애자일 경영은 딱딱하게 굳은 콘크리트 건물이 아니라, 필요에 따라 형태를 바꿀 수 있고 충격을 흡수하는 텐트나 모듈형 가옥과 같은 유연한 조직 체계입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -81,7 +81,7 @@ keyword = "Agile_Management_Agile_Manifesto_Self_Organizing_Teams_Spotify_Model"
 
 📢 섹션 요약 비유: 스쿼드가 전쟁터에서 직접 싸우는 분대라면, 챕터는 사격술이나 구급법을 가르치는 훈련소이고, OKR은 승리를 위해 모두가 바라봐야 할 고지의 깃발입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -106,7 +106,7 @@ keyword = "Agile_Management_Agile_Manifesto_Self_Organizing_Teams_Spotify_Model"
 
 📢 섹션 요약 비유: 개별 보트(팀)들이 제멋대로 가면 함대 전체가 흩어지므로, SAFe와 같은 체계는 각 보트가 속도를 내면서도 대형을 유지하게 돕는 '공통 항법 관제 시스템'과 같습니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -134,7 +134,7 @@ keyword = "Agile_Management_Agile_Manifesto_Self_Organizing_Teams_Spotify_Model"
 
 📢 섹션 요약 비유: 애자일 경영으로의 전환은 단순히 옷을 갈아입는 것이 아니라, 뇌 구조와 근육의 움직임을 바꾸는 '재활 훈련'과 같은 고통스러운 과정이 수반됩니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -150,7 +150,7 @@ keyword = "Agile_Management_Agile_Manifesto_Self_Organizing_Teams_Spotify_Model"
 
 📢 섹션 요약 비유: 애자일 경영은 기업이라는 생명체가 거친 디지털 환경에서 살아남기 위해 선택한 '진화의 끝판왕'이며, 이 변화를 거부하는 기업은 화석으로 남게 될 것입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 | 관련 개념 | 관계 및 시너지 설명 |

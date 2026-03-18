@@ -12,7 +12,7 @@ keyword = "Container_Docker_Microservices_Namespace_Cgroups_CloudNative"
 > 2. **가치**: 부팅 시간이 수 분에서 0.1초 이내로 단축되고, 서버 하나에 수백 개의 컨테이너를 동시에 띄울 수 있는 압도적인 자원 효율성을 제공하며, "내 PC에서는 되는데 서버에서는 안 돼"라는 고질적인 환경 불일치 문제를 완벽히 해결한다.
 > 3. **융합**: 거대한 모놀리식 앱을 잘게 쪼개는 마이크로서비스 아키텍처(MSA), 그리고 코드를 끊임없이 통합하고 배포하는 CI/CD 파이프라인과 완벽히 융합되어 현대 클라우드 네이티브(Cloud-Native) 생태계를 떠받치는 가장 중요한 주춧돌이 되었다.
 
-+++
+---
 
 ## Ⅰ. 컨테이너 가상화 및 도커 (Docker) 개요
 
@@ -30,7 +30,7 @@ keyword = "Container_Docker_Microservices_Namespace_Cgroups_CloudNative"
 
 📢 **섹션 요약 비유**: 무거운 껍데기(OS)는 다 벗어 던지고, 오직 핵심 알맹이(앱)만 가볍고 단단한 상자에 포장해 0.1초 만에 전 세계 어디로든 배달하는 마법의 택배 상자입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -76,7 +76,7 @@ keyword = "Container_Docker_Microservices_Namespace_Cgroups_CloudNative"
 
 📢 **섹션 요약 비유**: 두꺼운 책(OS)을 매번 통째로 복사해서 나눠주는 게 아니라, 투명한 셀로판지(Layer) 여러 장을 겹쳐서 내가 원하는 그림을 순식간에 조합해 내는 마술입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -96,7 +96,7 @@ keyword = "Container_Docker_Microservices_Namespace_Cgroups_CloudNative"
 
 📢 **섹션 요약 비유**: 가상 머신이 완벽하게 분리된 '독채 아파트'라면, 컨테이너는 주방과 거실(커널)을 공유하지만 방(네임스페이스)은 따로 쓰는 '셰어 하우스'입니다. 셰어 하우스는 싸고 짐 싸기 편하지만 룸메이트(다른 컨테이너)가 병에 걸리면 옮을 위험이 있습니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -114,7 +114,7 @@ keyword = "Container_Docker_Microservices_Namespace_Cgroups_CloudNative"
 
 📢 **섹션 요약 비유**: 컨테이너는 언제든 쉽게 쓰고 버리는 '종이컵'입니다. 이 종이컵에 영원히 보관해야 할 다이아몬드(DB)를 담아두는 멍청한 짓은 절대 해서는 안 됩니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -128,7 +128,7 @@ keyword = "Container_Docker_Microservices_Namespace_Cgroups_CloudNative"
 
 📢 **섹션 요약 비유**: 컨테이너 가상화는 소프트웨어라는 추상적인 생명체를 가장 완벽하고 가벼운 껍질로 포장하여, 클라우드라는 광활한 우주를 자유롭게 떠돌게 만든 진화의 결정체입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **쿠버네티스 (Kubernetes)**: 수천 개의 도커 컨테이너를 지휘하고 관리하는 총사령관.

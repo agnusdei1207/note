@@ -12,7 +12,7 @@ keyword = "Sidechain_TwoWayPeg_Bridge_Polygon_Mainchain_Interoperability"
 > 2. **가치**: 메인넷의 기술적 제약(느린 속도, 높은 수수료)에서 벗어나 자유로운 실험과 고성능 연산이 가능하며, 특정 앱이나 산업군에 특화된 맞춤형 최적화 환경을 제공한다.
 > 3. **융합**: 폴리곤(Polygon), 리퀴드(Liquid) 등이 대표적이며, 최근에는 단순한 자산 이동을 넘어 서로 다른 체인 간의 상태 데이터를 교환하는 **상호운용성(Interoperability)** 기술의 핵심 축으로 진화하고 있다.
 
-+++
+---
 
 ## Ⅰ. 사이드체인 (Sidechain) 개요
 
@@ -29,7 +29,7 @@ keyword = "Sidechain_TwoWayPeg_Bridge_Polygon_Mainchain_Interoperability"
 
 📢 **섹션 요약 비유**: 본사(메인넷)의 엄격한 규율에서 벗어나, 현장에서 자유롭게 창의성을 발휘하고 결과를 보고하는 '독립 채산제 지사'와 같은 시스템입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -73,7 +73,7 @@ keyword = "Sidechain_TwoWayPeg_Bridge_Polygon_Mainchain_Interoperability"
 
 📢 **섹션 요약 비유**: 본사에서 파견된 경비원(메인넷 보안)이 지키는 게 아니라, 지사에서 자체 고용한 경비원(사이드체인 노드)들이 건물을 지키는 방식이므로 지사 경비원들이 배신할 위험을 항상 고려해야 합니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -93,7 +93,7 @@ keyword = "Sidechain_TwoWayPeg_Bridge_Polygon_Mainchain_Interoperability"
 
 📢 **섹션 요약 비유**: 사이드체인이 '독립 국가'라면, 롤업은 메인넷이라는 나라 안에 있는 '자치구'와 같은 보안적 차이가 있습니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -107,7 +107,7 @@ keyword = "Sidechain_TwoWayPeg_Bridge_Polygon_Mainchain_Interoperability"
 
 📢 **섹션 요약 비유**: 100점짜리 보안(L1)이 필요한 자산(예: 국채)은 메인넷에 두고, 70점짜리 보안만 있어도 충분한 자산(예: 게임 물약)은 사이드체인에서 처리하는 '보안의 계층화'가 정답입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -121,7 +121,7 @@ keyword = "Sidechain_TwoWayPeg_Bridge_Polygon_Mainchain_Interoperability"
 
 📢 **섹션 요약 비유**: 사이드체인은 블록체인 생태계를 풍성하게 만드는 **'디지털 지류'**이며, 큰 강(메인넷)이 넘치지 않게 물줄기를 나누어 문명을 전파하는 역할을 합니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **레이어 1 (Layer 1)**: 사이드체인이 연결되는 기초 토대.

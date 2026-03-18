@@ -13,7 +13,7 @@ id = 365
 > 2. **가치**: 수만 개의 AS로 구성된 거대한 인터넷망에서 무한 루프를 방지(Routing Loop Prevention)하며, 수십만 개의 경로 정보를 안정적으로 관리하는 확장성(Scalability)을 제공합니다.
 > 3. **융합**: OSI 7계층의 L4 TCP(세션 제어)와 L3 IP(라우팅) 기능을 융합하며, SD-WAN 및 MPLS-VPN 등 현대 네트워크 아키텍처의 기반이 됩니다.
 
-+++
+---
 
 ## Ⅰ. 개요 (Context & Background)
 

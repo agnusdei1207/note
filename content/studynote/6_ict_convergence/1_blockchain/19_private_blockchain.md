@@ -12,7 +12,7 @@ keyword = "Private_Blockchain_Permissioned_Enterprise_Hyperledger"
 > 2. **가치**: 불특정 다수의 참여를 제한함으로써 합의 속도를 획기적으로 높이고(**고성능 TPS**), 기업 기밀에 해당하는 데이터의 **프라이버시와 기밀성**을 완벽히 보장한다.
 > 3. **융합**: 하이퍼레저 패브릭(Hyperledger Fabric) 등이 대표적이며, 기존 레거시 시스템과의 연동 및 법적 규제 준수가 용이하여 금융, 물류, 의료 등 엔터프라이즈 DX의 핵심 인프라로 활용된다.
 
-+++
+---
 
 ## Ⅰ. 프라이빗 블록체인 (Private Blockchain) 개요
 
@@ -30,7 +30,7 @@ keyword = "Private_Blockchain_Permissioned_Enterprise_Hyperledger"
 
 📢 **섹션 요약 비유**: 광장에서 소리치는 자유로운 연설(퍼블릭)보다는, 허가받은 위원들이 모여 밀도 있게 안건을 처리하는 '폐쇄형 회의실'에 가깝습니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -77,7 +77,7 @@ keyword = "Private_Blockchain_Permissioned_Enterprise_Hyperledger"
 
 📢 **섹션 요약 비유**: 모든 주민이 도장을 찍어야 하는 마을 사업과 달리, 담당 부서 과장님과 부장님의 결재(보증)만 있으면 바로 시행되는 '기업형 결재 라인'과 같습니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -98,7 +98,7 @@ keyword = "Private_Blockchain_Permissioned_Enterprise_Hyperledger"
 
 📢 **섹션 요약 비유**: 엑셀 파일(DB)은 내가 고치면 끝이지만, 공동 서명한 계약서(프라이빗 블록체인)는 파트너 몰래 한 글자도 고칠 수 없는 것과 같은 차이입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -112,7 +112,7 @@ keyword = "Private_Blockchain_Permissioned_Enterprise_Hyperledger"
 
 📢 **섹션 요약 비유**: 건물(시스템)을 짓는 기술보다, 그 건물에 누가 들어오고 누가 열쇠를 가질지 정하는 '출입 관리 규정'이 시스템의 성패를 결정합니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -126,7 +126,7 @@ keyword = "Private_Blockchain_Permissioned_Enterprise_Hyperledger"
 
 📢 **섹션 요약 비유**: 프라이빗 블록체인은 기업들이 디지털의 바다로 나아가기 위해 반드시 거쳐야 하는 **'안전하고 빠른 항구'**와 같은 존재입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **하이퍼레저 패브릭**: 가장 대표적인 프라이빗 블록체인 프레임워크.

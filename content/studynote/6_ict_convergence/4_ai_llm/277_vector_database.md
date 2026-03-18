@@ -12,7 +12,7 @@ keyword = "VectorDatabase_Embedding_HybridSearch_SemanticCache_RAG"
 > 2. **가치**: 기존의 관계형 DB(RDBMS)가 "사과"라는 정확한 단어(Keyword)가 없으면 검색을 못 했던 한계를 뛰어넘어, "빨갛고 맛있는 과일"이라고 검색해도 "사과"를 찾아내는 완벽한 **시맨틱 검색(Semantic Search)**을 가능하게 한다.
 > 3. **융합**: 거대 언어 모델(LLM)의 가장 큰 약점인 지식의 한계를 극복하는 RAG(검색 증강 생성) 아키텍처와 결합하여, 기업의 방대한 비정형 데이터를 AI의 두뇌와 완벽하게 동기화시키는 필수 불가결한 '기억(Memory) 인프라'로 융합되고 있다.
 
-+++
+---
 
 ## Ⅰ. 벡터 데이터베이스 및 생태계 개요
 
@@ -32,7 +32,7 @@ keyword = "VectorDatabase_Embedding_HybridSearch_SemanticCache_RAG"
 
 📢 **섹션 요약 비유**: 인간의 복잡한 감정과 언어를 '수학이라는 우주 공간의 x, y, z 좌표'로 쾅 찍어버림으로써, 기계가 인간의 맥락(Context)을 완벽히 이해하게 만든 위대한 번역기입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -88,7 +88,7 @@ keyword = "VectorDatabase_Embedding_HybridSearch_SemanticCache_RAG"
 
 📢 **섹션 요약 비유**: 서울에서 김서방을 찾을 때, 5천만 명의 얼굴을 일일이 대조하는 것(KNN)이 아니라, "강남구에 사는 30대 남성"이라는 구역(Cluster)만 빠르게 뒤져서(ANN) 0.1초 만에 비슷한 사람을 찾아내는 초고속 탐색 기술입니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -107,7 +107,7 @@ keyword = "VectorDatabase_Embedding_HybridSearch_SemanticCache_RAG"
 
 📢 **섹션 요약 비유**: RDBMS가 주민등록증을 검사해 정확히 통과시키는 '경비원'이라면, 벡터 DB는 사람의 눈빛과 걸음걸이만 보고 어떤 성향인지 파악해 가장 잘 맞는 파트너를 찾아주는 '뛰어난 매칭 매니저'입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -125,7 +125,7 @@ keyword = "VectorDatabase_Embedding_HybridSearch_SemanticCache_RAG"
 
 📢 **섹션 요약 비유**: 벡터 DB라는 훌륭한 창고를 지어놓아도, 한 번 한국어(A 임베딩)로 번역해서 라벨을 붙여놓으면 나중에 영어(B 임베딩)로 책을 찾을 수 없습니다. 번역기의 선택은 신중하고 영구적이어야 합니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -139,7 +139,7 @@ keyword = "VectorDatabase_Embedding_HybridSearch_SemanticCache_RAG"
 
 📢 **섹션 요약 비유**: 벡터 데이터베이스는 단순한 하드디스크가 아닙니다. 인공지능이 인간과 나눈 모든 대화와 감정을 수학적 뉴런으로 기억하고, 필요할 때마다 찰나의 순간에 끄집어내는 'AI의 해마(Hippocampus)'입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 - **RAG (검색 증강 생성)**: 벡터 DB를 가장 많이, 그리고 필수로 사용하는 AI의 심장부 아키텍처.

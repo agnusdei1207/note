@@ -13,7 +13,7 @@ keyword = "Benchmarking_Best_Practice_Performance_Gap_Competitive_Internal"
 > 2. **가치**: "우리가 잘하고 있는가?"에 대한 주관적 판단을 버리고, 객관적인 데이터와 지표를 통해 현재의 위치를 파악하며 실현 가능한 도전적 목표를 설정하게 한다.
 > 3. **융합**: ISP 수립 시의 환경 분석, 6 시그마의 개선(Improve) 단계, 그리고 전사적 품질 관리(TQM)의 기초 데이터로 활용되며, 최근에는 AI를 이용한 실시간 경쟁사 동향 분석 기술과 결합되고 있다.
 
-+++
+---
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -28,7 +28,7 @@ keyword = "Benchmarking_Best_Practice_Performance_Gap_Competitive_Internal"
 
 📢 섹션 요약 비유: 벤치마킹은 우물 안 개구리가 밖으로 나와 세상에서 가장 높이 뛰는 개구리를 관찰하고, 그 개구리의 뒷다리 근육(핵심 역량)을 키우는 법을 배우는 혁신 여행입니다.
 
-+++
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -69,7 +69,7 @@ keyword = "Benchmarking_Best_Practice_Performance_Gap_Competitive_Internal"
 
 📢 섹션 요약 비유: 프로세스는 여행의 지도와 같아서, 어디로 가야 할지(계획), 얼마나 남았는지(분석), 누구와 함께 갈지(통합)를 정해진 순서대로 밟아야 목적지(성숙)에 도달할 수 있습니다.
 
-+++
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -92,7 +92,7 @@ keyword = "Benchmarking_Best_Practice_Performance_Gap_Competitive_Internal"
 
 📢 섹션 요약 비유: BMT가 '엔진의 마력'을 재는 것이라면, 벤치마킹은 '운전자의 운전 실력과 경로 선택 능력'을 비교하는 것입니다.
 
-+++
+---
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -120,7 +120,7 @@ keyword = "Benchmarking_Best_Practice_Performance_Gap_Competitive_Internal"
 
 📢 섹션 요약 비유: 남의 집 인테리어가 예쁘다고 가구만 그대로 사 오는 것은 벤치마킹이 아닙니다. 그 집의 채광과 동선(프로세스)을 보고 우리 집 구조에 맞게 가구를 배치해야 진짜 인테리어 혁신입니다.
 
-+++
+---
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -136,7 +136,7 @@ keyword = "Benchmarking_Best_Practice_Performance_Gap_Competitive_Internal"
 
 📢 섹션 요약 비유: 미래의 벤치마킹은 실시간으로 앞차와의 거리와 상대 속도를 알려주는 '지능형 크루즈 컨트롤'과 같아서, 속도를 조절하며 안전하게 시장의 선두로 나아가게 해줄 것입니다.
 
-+++
+---
 
 ### 📌 관련 개념 맵
 | 관련 개념 | 관계 및 시너지 설명 |
