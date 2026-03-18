@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: 엔터프라이즈 시스템 (Enterprise Systems) — `content/studynote/7_enterprise_systems/`
-- **완료**: Enterprise **#1~#155** 작성 완료
-- **다음**: Enterprise **#156** (SaaS / Multi-tenancy)
+- **완료**: Enterprise **#1~#160** 작성 완료
+- **다음**: Enterprise **#161** (Low-code/No-code & Cloud Tiering)
 - **참조**: `content/studynote/7_enterprise_systems/_keyword_list.md`
 
 ---
@@ -46,8 +46,8 @@
 | SE | 800 | ~800 | 100% ✅ |
 | DB | 600 | ~600 | 100% ✅ |
 | ICT | 300 | ~800 | 37.5% |
-| Enterprise | 155 | 482 | 32.2% |
-| **합계** | **4,723** | **~5,550** | **85.1%** |
+| Enterprise | 160 | 482 | 33.2% |
+| **합계** | **4,728** | **~5,550** | **85.2%** |
 
 
 
