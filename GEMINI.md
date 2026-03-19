@@ -56,10 +56,10 @@
 ## 📍 현재 위치
 
 ### ⚡ 다음 작업
-- **과목**: 컴퓨터구조 (Computer Architecture) — `content/studynote/1_computer_architecture/1_basic_electronics_logic/`
-- **작업 방식**: 여러 파일을 병렬로 고도화 진행 (현재 1~60번 완료)
+- **과목**: 컴퓨터구조 (Computer Architecture) — `content/studynote/1_computer_architecture/2_data_representation_arithmetic/`
+- **작업 방식**: 여러 파일을 병렬로 고도화 진행 (현재 1장 1~72번 완료)
 - **기타**: 데이터베이스(DB) #1 고도화 완료 (`5_database/1_db_basics_architecture/1_dikw_pyramid.md`)
-- **다음**: 2장 데이터 표현 및 연산 (`2_data_representation_arithmetic/`) 고도화 시작
+- **다음**: 2장 데이터 표현 및 연산 고도화 시작
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
