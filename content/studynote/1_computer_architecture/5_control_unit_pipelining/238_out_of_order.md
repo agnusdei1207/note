@@ -7,9 +7,11 @@
 
 ---
 
-## Ⅰ. 개요 (Context & Background)
+## Ⅰ. 개요 및 필요성 (Context & Necessity)
 
 - **개념**: 비순차 실행 (OoO)은 파이프라인 엔진 내에서 명령어의 인출(Fetch)과 해독(Decode)은 프로그램 순서대로 하되, 실제 연산 실행(Execute)은 순서에 얽매이지 않고 준비된 놈부터 즉시 발급하며, 마지막 아키텍처 상태 반영(Retire/Commit) 단계에서 다시 원래 순서대로 결과를 정렬하여 끝내는 기술이다. (In-order Fetch -> Out-of-order Execute -> In-order Retire).
+
+- **필요성**: 파이프라인의 데이터 의존성(Data Dependency)이나 캐시 미스(Cache Miss)와 같은 위험(Hazard)으로 인해 발생하는 '파이프라인 버블(Pipeline Bubble)'로 인한 리소스 아이들링(Idle)을 최소화하여, 명령어 레벨 병렬성(Instruction Level Parallelism, ILP)을 극대화하기 위해 필요합니다. 이를 통해 단일 클럭당 명령어 처리 개수(IPC)와 시스템 전체의 처리량(Throughput)을 획기적으로 개선함으로써, 고성능 프로세서의 성능 요구 조건을 충족시키는 핵심적인 아키텍처 기술입니다.
 
 - **💡 비유**: 대형 병원의 진료 시스템과 같다. 번호표 순서대로(In-order Fetch) 환자를 접수처를 거쳐 대기실(Reservation Station)에 앉히지만, 1번 환자의 엑스레이 결과(데이터)가 늦게 나오면 의사가 멍하니 기다리는 게 아니라, 서류가 다 준비된 2번, 3번 환자부터 먼저 진료실(ALU)로 들여보내(OoO Execute) 의사의 시간을 아끼는 것이다.
 
