@@ -53,14 +53,31 @@
 
 ---
 
-## 📍 현재 위치
+## 📍 현재 위치 및 과목별 진행 상태 (1~16과목)
 
-### ⚡ 다음 작업
-- **과목**: 컴퓨터구조 (Computer Architecture) — `content/studynote/1_computer_architecture/`
-- **작업 방식**: 여러 파일을 병렬로 고도화 진행 (현재 1장 #1~72, 2장 #73~122, 3장 #123~156, 4장 #157~203 완료)
-- **기타**: 데이터베이스(DB) #1 고도화 완료 (`5_database/1_db_basics_architecture/1_dikw_pyramid.md`)
-- **다음**: `#204 마이크로아키텍처` → `5_control_unit_pipelining/204_microarchitecture.md` 재작성
-- **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
+다음 세션 시작 시 **[▶ 진행 중]** 표시가 된 과목의 **Next** 항목부터 즉시 이어서 작업하세요. 여러 파일을 병렬로 멈춤 없이 작성하는 것이 원칙입니다.
+
+1. **컴퓨터구조 (CA)**: [▶ 진행 중] 1장 #1~72, 2장 #73~122, 3장 #123~156, 4장 #157~203 완료
+   - **Next**: `#204 마이크로아키텍처` → `content/studynote/1_computer_architecture/5_control_unit_pipelining/204_microarchitecture.md` 시작
+2. **운영체제 (OS)**: [대기]
+3. **네트워크 (NW)**: [대기]
+4. **소프트웨어공학 (SE)**: [대기]
+5. **데이터베이스 (DB)**: [대기] (단, #1 `1_dikw_pyramid.md` 고도화 완료됨)
+6. **ICT융합 (ICT)**: [대기]
+7. **엔터프라이즈 (Enterprise)**: [대기]
+8. **알고리즘/통계 (Algorithm)**: [대기]
+9. **보안 (Security)**: [대기]
+10. **인공지능 (AI)**: [대기]
+11. **설계감리 (Design)**: [대기]
+12. **IT관리 (IT_Mgmt)**: [대기]
+13. **클라우드 (Cloud)**: [대기]
+14. **데이터엔지니어링 (DataEng)**: [대기]
+15. **DevOps/SRE (DevOps)**: [대기]
+16. **빅데이터 (BigData)**: [대기]
+
+### ⚡ 다음 작업 지침
+- **대상 파일**: 컴퓨터구조 5장 `#204 마이크로아키텍처`부터 멈추지 말고 여러 개 병렬 작성
+- **참조 키워드**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
 
@@ -68,11 +85,11 @@
 
 | 과목 | 완료 | 전체(키워드) | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA (컴퓨터구조) | 366 | 802 | 45.6% |
+| CA (컴퓨터구조) | 203 | 802 | 25.3% |
 | OS (운영체제) | 0 | 800 | 0% |
 | NW (네트워크) | 0 | 1,120 | 0% |
 | SE (소프트웨어공학) | 0 | 800 | 0% |
-| DB (데이터베이스) | 0 | 600 | 0% |
+| DB (데이터베이스) | 1 | 600 | 0.1% |
 | ICT (ICT융합) | 0 | 552 | 0% |
 | Enterprise (엔터프라이즈) | 0 | 482 | 0% |
 | Algorithm (알고리즘/통계) | 0 | 160 | 0% |
