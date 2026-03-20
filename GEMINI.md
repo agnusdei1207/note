@@ -57,8 +57,8 @@
 
 다음 세션 시작 시 **[▶ 진행 중]** 표시가 된 과목의 **Next** 항목부터 즉시 이어서 작업하세요. 여러 파일을 병렬로 멈춤 없이 작성하는 것이 원칙입니다.
 
-1. **컴퓨터구조 (CA)**: [▶ 진행 중] 1장 #1~72, 2장 #73~122, 3장 #123~156, 4장 #157~203, 5장 #204~244, 6장 #245~248 완료
-   - **Next**: `#249 순차적 지역성` → `content/studynote/1_computer_architecture/6_memory_hierarchy_cache/249_sequential_locality.md` 시작
+1. **컴퓨터구조 (CA)**: [▶ 진행 중] 1장 #1~72, 2장 #73~122, 3장 #123~156, 4장 #157~203, 5장 #204~244, 6장 #245~253 완료
+   - **Next**: `#254 메모리 인터리빙` → `content/studynote/1_computer_architecture/6_memory_hierarchy_cache/254_memory_interleaving.md` 시작
 2. **운영체제 (OS)**: [대기]
 3. **네트워크 (NW)**: [대기]
 4. **소프트웨어공학 (SE)**: [대기]
