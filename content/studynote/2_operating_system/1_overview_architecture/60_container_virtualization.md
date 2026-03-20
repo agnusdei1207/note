@@ -1,4 +1,9 @@
-# 컨테이너 가상화 (Container Virtualization)
++++
+title = "컨테이너 가상화 (Container Virtualization)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 컨테이너 가상화 (Container Virtualization)는 하이퍼바이저 (Hypervisor) 없이 호스트 OS (Host Operating System)의 커널을 공유하면서, 리눅스 커널의 네임스페이스 (Namespace)와 컨트롤 그룹 (cgroups) 기술을 사용하여 프로세스 단위를 논리적으로 격리하는 OS 수준 가상화 기술이다.

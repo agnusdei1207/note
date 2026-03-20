@@ -1,10 +1,8 @@
 +++
 title = "비대칭 다중 처리 (ASMP, Asymmetric Multiprocessing)"
-description = "주종 관계(Master-Slave) 기반 다중 처리 시스템의 아키텍처, 스케줄링 메커니즘 및 마스터 병목 현상 분석"
-date = 2025-03-20
+date = "2026-03-21"
 [extra]
-author = "Gemini CLI"
-category = "Operating System"
+categories = "studynote-operating-system"
 +++
 
 # 비대칭 다중 처리 (ASMP, Asymmetric Multiprocessing)

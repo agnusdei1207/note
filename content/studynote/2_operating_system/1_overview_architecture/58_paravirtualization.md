@@ -1,4 +1,9 @@
-# 반가상화 (Paravirtualization)
++++
+title = "반가상화 (Paravirtualization)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 반가상화 (Paravirtualization)는 게스트 OS (Guest Operating System)의 커널 소스를 수정하여, 특권 명령 (Privileged Instruction)을 실행하는 대신 하이퍼바이저에게 직접 자원을 요청하는 하이퍼콜 (Hypercall) 인터페이스를 사용하는 가상화 기술이다.

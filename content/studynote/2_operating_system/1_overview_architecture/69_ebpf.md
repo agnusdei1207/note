@@ -1,4 +1,9 @@
-# eBPF (Extended Berkeley Packet Filter)
++++
+title = "eBPF (Extended Berkeley Packet Filter)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: eBPF (Extended Berkeley Packet Filter)는 리눅스 커널의 소스 코드를 수정하거나 모듈을 재적재하지 않고도, 커널 내부의 샌드박스 환경에서 사용자 정의 프로그램을 안전하게 실행할 수 있게 하는 혁신적인 커널 실행 엔진이다.

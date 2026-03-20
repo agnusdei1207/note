@@ -1,4 +1,9 @@
-# Google Titan 보안 칩 (Google Titan Security Chip)
++++
+title = "Google Titan 보안 칩 (Google Titan Security Chip)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-computer-architecture"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: Google Titan은 데이터 센터 서버와 모바일 기기의 신뢰 자점 (RoT, Root of Trust)을 하드웨어 수준에서 구현하기 위해 설계된 전용 보안 마이크로컨트롤러 (MCU, Microcontroller Unit)이다.

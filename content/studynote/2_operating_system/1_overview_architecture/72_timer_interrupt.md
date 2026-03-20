@@ -1,4 +1,9 @@
-# 타이머 인터럽트 (Timer Interrupt)
++++
+title = "타이머 인터럽트 (Timer Interrupt)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 타이머 인터럽트 (Timer Interrupt)는 하드웨어 타이머가 주기적으로 CPU에 보내는 하드웨어 신호로, 운영체제 커널이 제어권을 확보하여 시스템 상태를 갱신하고 멀티태스킹을 수행하게 하는 '시스템의 심장 박동'이다.

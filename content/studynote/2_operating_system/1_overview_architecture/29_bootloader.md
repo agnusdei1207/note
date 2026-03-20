@@ -1,9 +1,8 @@
 +++
 title = "부트로더 (Bootloader)"
-date = 2025-03-24
-[taxonomies]
-categories = ["Operating System"]
-tags = ["OS", "Architecture", "Bootloader", "GRUB", "LILO"]
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

@@ -1,4 +1,9 @@
-# 틱 (Tick) / 지피스 (Jiffies)
++++
+title = "틱 (Tick) / 지피스 (Jiffies)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 틱 (Tick)은 타이머 인터럽트가 발생하는 최소 시간 단위를 의미하며, 지피스 (Jiffies)는 리눅스 커널 부팅 이후 발생한 총 틱 횟수를 기록하는 전역 카운터 변수다.

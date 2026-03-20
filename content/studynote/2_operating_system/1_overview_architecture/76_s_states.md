@@ -1,3 +1,10 @@
++++
+title = "---"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
+
 ---
 title: "시스템 전원 상태 (S-States, S0~S5)"
 date: 2025-03-24

@@ -1,4 +1,9 @@
-# 하드웨어 추상화 계층 (HAL, Hardware Abstraction Layer)
++++
+title = "하드웨어 추상화 계층 (HAL, Hardware Abstraction Layer)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 하드웨어 추상화 계층 (HAL, Hardware Abstraction Layer)은 운영체제의 커널과 물리적 하드웨어 사이에서 작동하는 소프트웨어 계층으로, 하드웨어의 이질성을 숨기고 상위 계층에 일관된 프로그래밍 인터페이스를 제공한다.

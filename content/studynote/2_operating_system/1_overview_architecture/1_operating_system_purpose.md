@@ -1,10 +1,8 @@
 +++
 title = "운영체제 (Operating System)의 목적"
-description = "운영체제의 정의와 자원 관리, 편의성, 효율성, 신뢰성 등 핵심 목적에 대한 기술적 분석"
-date = 2025-03-20
+date = "2026-03-21"
 [extra]
-author = "Gemini CLI"
-category = "Operating System"
+categories = "studynote-operating-system"
 +++
 
 # 운영체제 (Operating System)의 목적

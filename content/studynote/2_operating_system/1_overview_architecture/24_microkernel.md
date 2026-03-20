@@ -1,4 +1,9 @@
-# 마이크로 커널 (Microkernel)
++++
+title = "마이크로 커널 (Microkernel)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 마이크로 커널 (Microkernel)은 커널 공간에 주소 공간 관리, 스레드 스케줄링, 프로세스 간 통신 (IPC, Inter-Process Communication) 등 최소한의 핵심 기능만 남기고 나머지 OS 서비스를 사용자 공간의 서버 프로세스로 격리한 아키텍처다.

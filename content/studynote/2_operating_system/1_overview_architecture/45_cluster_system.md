@@ -1,4 +1,9 @@
-# 클러스터 시스템 (Clustered System)
++++
+title = "클러스터 시스템 (Clustered System)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 클러스터 시스템 (Clustered System)은 여러 개의 독립적인 컴퓨터 노드를 고속 네트워크로 연결하여 하나의 거대한 단일 가상 시스템 (Single System Image)처럼 동작하게 함으로써, 고가용성 (HA, High Availability)과 병렬 처리 성능을 동시에 확보하는 아키텍처다.

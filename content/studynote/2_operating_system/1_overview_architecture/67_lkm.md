@@ -1,9 +1,8 @@
 +++
 title = "모듈 적재 (Loadable Kernel Modules, LKM)"
-date = 2025-03-24
-[taxonomies]
-categories = ["Operating System"]
-tags = ["LKM", "Kernel", "Module", "Driver", "Dynamic Loading"]
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
 +++
 
 # 모듈 적재 (Loadable Kernel Modules, LKM)

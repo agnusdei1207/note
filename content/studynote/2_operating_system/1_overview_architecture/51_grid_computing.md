@@ -1,4 +1,9 @@
-# 그리드 컴퓨팅 (Grid Computing)
++++
+title = "그리드 컴퓨팅 (Grid Computing)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 그리드 컴퓨팅 (Grid Computing)은 지리적으로 분산되어 있으며 서로 다른 기종의 컴퓨팅 자원들을 고속 네트워크로 연결하여, 하나의 거대한 가상 슈퍼컴퓨터처럼 사용하는 분산 병렬 컴퓨팅 패러다임이다.

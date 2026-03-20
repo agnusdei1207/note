@@ -1,4 +1,9 @@
-# 대칭 다중 처리 (SMP, Symmetric Multiprocessing)
++++
+title = "대칭 다중 처리 (SMP, Symmetric Multiprocessing)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 대칭 다중 처리 (SMP, Symmetric Multiprocessing)는 2개 이상의 동일한 프로세서가 하나의 공유 메모리를 공유하며, 운영체제가 모든 프로세서를 동등하게 관리하여 병렬 처리를 극대화하는 아키텍처이다.

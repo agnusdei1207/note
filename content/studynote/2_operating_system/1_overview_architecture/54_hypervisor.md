@@ -1,4 +1,9 @@
-# 하이퍼바이저 (Hypervisor) / VMM
++++
+title = "하이퍼바이저 (Hypervisor) / VMM"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 하이퍼바이저 (Hypervisor) 또는 가상 머신 모니터 (VMM: Virtual Machine Monitor)는 단일 물리적 하드웨어 위에서 여러 개의 운영체제 (OS: Operating System)를 동시에 실행할 수 있게 해주는 가상화 관리 소프트웨어 계층이다.

@@ -1,9 +1,8 @@
 +++
 title = "UEFI vs BIOS"
-date = 2025-03-24
-[taxonomies]
-categories = ["Operating System"]
-tags = ["OS", "Firmware", "UEFI", "BIOS", "GPT", "MBR"]
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

@@ -1,10 +1,8 @@
 +++
 title = "인터럽트 핸들러 (Interrupt Handler)"
-description = "시스템의 인터럽트를 총괄 관리하고 상위/하위 절반(Top/Bottom Half)으로 나누어 효율적으로 처리하는 인터럽트 핸들러의 아키텍처를 상세히 분석합니다."
-date = 2025-03-20
+date = "2026-03-21"
 [extra]
-author = "Gemini CLI"
-category = "Operating System"
+categories = "studynote-operating-system"
 +++
 
 # 인터럽트 핸들러 (Interrupt Handler)

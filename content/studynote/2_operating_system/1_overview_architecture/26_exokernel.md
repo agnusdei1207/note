@@ -1,4 +1,9 @@
-# 엑소 커널 (Exokernel)
++++
+title = "엑소 커널 (Exokernel)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 엑소 커널 (Exokernel)은 커널의 역할을 하드웨어 자원의 안전한 보호와 분배 (Secure Multiplexing)로 최소화하고, 실제 자원 관리 및 추상화는 응용 프로그램 수준의 라이브러리 운영체제 (LibOS, Library Operating System)에 위임하는 초경량 아키텍처다.

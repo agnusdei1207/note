@@ -1,4 +1,9 @@
-# P2P (Peer-to-Peer) 시스템
++++
+title = "P2P (Peer-to-Peer) 시스템"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: P2P (Peer-to-Peer) 시스템은 중앙 서버 없이 네트워크에 참여하는 모든 노드(Peer)가 클라이언트이자 서버의 역할을 동시에 수행하며 자원을 직접 공유하는 탈중앙화 (Decentralization) 분산 컴퓨팅 아키텍처다.

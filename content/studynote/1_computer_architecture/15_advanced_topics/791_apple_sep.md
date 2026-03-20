@@ -1,4 +1,9 @@
-# 애플 Secure Enclave Processor (SEP)
++++
+title = "애플 Secure Enclave Processor (SEP)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-computer-architecture"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 애플 Secure Enclave Processor (SEP)는 Apple의 SoC (System on Chip)인 A-시리즈 및 M-시리즈에 통합된 고도로 격리된 보안 마이크로프로세서로, 암호화 키 관리 및 생체 인식 데이터 처리를 전담하는 독립적 서브시스템이다.

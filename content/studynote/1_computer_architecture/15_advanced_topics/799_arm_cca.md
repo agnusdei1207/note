@@ -1,4 +1,9 @@
-# ARM CCA (Confidential Compute Architecture)
++++
+title = "ARM CCA (Confidential Compute Architecture)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-computer-architecture"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: ARM CCA (Confidential Compute Architecture)는 신뢰할 수 없는 하이퍼바이저로부터 가상 머신 (VM, Virtual Machine)을 물리적으로 격리하기 위해, '렐름 (Realm)'이라는 독립된 보안 실행 환경을 제공하는 하드웨어 기반 기밀 컴퓨팅 아키텍처다.

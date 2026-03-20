@@ -1,9 +1,8 @@
 +++
 title = "시스템 콜 래퍼 (System Call Wrapper)"
-date = 2025-03-24
-[taxonomies]
-categories = ["Operating System"]
-tags = ["System Call", "Wrapper", "glibc", "Kernel", "Interrupt"]
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
 +++
 
 # 시스템 콜 래퍼 (System Call Wrapper)

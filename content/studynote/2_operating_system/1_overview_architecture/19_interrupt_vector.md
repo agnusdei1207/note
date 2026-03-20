@@ -1,10 +1,8 @@
 +++
 title = "인터럽트 벡터 및 벡터 테이블 (Interrupt Vector & Vector Table)"
-description = "인터럽트 발생 시 해당 서비스 루틴의 시작 주소를 찾아주는 매핑 메커니즘인 인터럽트 벡터와 벡터 테이블의 구조 및 동작 원리를 상세히 기술합니다."
-date = 2025-03-20
+date = "2026-03-21"
 [extra]
-author = "Gemini CLI"
-category = "Operating System"
+categories = "studynote-operating-system"
 +++
 
 # 인터럽트 벡터 및 벡터 테이블 (Interrupt Vector & Vector Table)

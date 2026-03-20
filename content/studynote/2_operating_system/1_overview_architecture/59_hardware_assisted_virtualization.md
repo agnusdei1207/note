@@ -1,4 +1,9 @@
-# 하드웨어 보조 가상화 (Hardware-assisted Virtualization)
++++
+title = "하드웨어 보조 가상화 (Hardware-assisted Virtualization)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 하드웨어 보조 가상화 (Hardware-assisted Virtualization)는 CPU 제조사 (Intel, AMD)가 프로세서 아키텍처 레벨에서 가상화를 지원하는 전용 명령어와 실행 모드를 추가하여, 소프트웨어 하이퍼바이저의 부하를 하드웨어로 오프로드 (Offload)하는 기술이다.

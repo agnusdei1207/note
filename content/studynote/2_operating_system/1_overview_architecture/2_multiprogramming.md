@@ -1,10 +1,8 @@
 +++
 title = "다중 프로그래밍 (Multiprogramming)"
-description = "CPU 활용률 극대화를 위한 다중 프로그래밍의 원리, 운영 체제의 자원 관리 및 스케줄링 메커니즘 분석"
-date = 2025-03-20
+date = "2026-03-21"
 [extra]
-author = "Gemini CLI"
-category = "Operating System"
+categories = "studynote-operating-system"
 +++
 
 # 다중 프로그래밍 (Multiprogramming)

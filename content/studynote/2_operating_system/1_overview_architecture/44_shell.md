@@ -1,4 +1,9 @@
-# 명령어 인터프리터 (Command Interpreter) / 쉘 (Shell)
++++
+title = "명령어 인터프리터 (Command Interpreter) / 쉘 (Shell)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 명령어 인터프리터 (Command Interpreter) 또는 쉘 (Shell)은 사용자의 텍스트 명령을 입력받아 해석하고, 이를 운영체제 커널이 이해할 수 있는 시스템 콜 (System Call)로 변환하여 실행해 주는 최외곽 인터페이스 계층이다.

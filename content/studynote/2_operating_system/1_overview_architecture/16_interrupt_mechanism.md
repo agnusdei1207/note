@@ -1,10 +1,8 @@
 +++
 title = "인터럽트 메커니즘 (Interrupt Mechanism)"
-description = "운영체제의 비동기적 사건 처리 핵심인 인터럽트 메커니즘의 정의, 제어 흐름, 문맥 보존 및 복구 원리를 상세히 기술합니다."
-date = 2025-03-20
+date = "2026-03-21"
 [extra]
-author = "Gemini CLI"
-category = "Operating System"
+categories = "studynote-operating-system"
 +++
 
 # 인터럽트 메커니즘 (Interrupt Mechanism)

@@ -1,4 +1,9 @@
-# 하이브리드 커널 (Hybrid Kernel)
++++
+title = "하이브리드 커널 (Hybrid Kernel)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 하이브리드 커널 (Hybrid Kernel)은 마이크로 커널의 구조적 유연성과 모놀리식 커널의 고성능을 결합한 설계로, 핵심 마이크로 커널 위에 성능이 중요한 서비스들을 선택적으로 커널 공간에 통합한 아키텍처다.

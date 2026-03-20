@@ -1,4 +1,9 @@
-# 핫 스탠바이 (Hot Standby) / 콜드 스탠바이 (Cold Standby)
++++
+title = "핫 스탠바이 (Hot Standby) / 콜드 스탠바이 (Cold Standby)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 스탠바이 모드 (Standby Mode)는 주 시스템 (Primary System)의 장애에 대비하여 예비 시스템을 준비하는 고가용성 (HA, High Availability) 전략으로, 예비 시스템의 가동 상태와 데이터 동기화 수준에 따라 핫 (Hot), 웜 (Warm), 콜드 (Cold)로 구분된다.

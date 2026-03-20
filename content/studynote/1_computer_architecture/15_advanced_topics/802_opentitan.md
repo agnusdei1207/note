@@ -1,4 +1,9 @@
-# 오픈소스 하드웨어 RoT (OpenTitan)
++++
+title = "오픈소스 하드웨어 RoT (OpenTitan)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-computer-architecture"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: OpenTitan은 투명성(Transparency)과 신뢰성(Trustworthiness)을 극대화하기 위해 설계된 세계 최초의 오픈 소스 실리콘 루트 오브 트러스트 (RoT, Root of Trust) 프로젝트로, 하드웨어 설계 자산 (IP)부터 소프트웨어 스택까지 모든 요소를 공개한다.

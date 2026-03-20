@@ -1,4 +1,9 @@
-# 분산 잠금 관리자 (DLM, Distributed Lock Manager)
++++
+title = "분산 잠금 관리자 (DLM, Distributed Lock Manager)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 분산 잠금 관리자 (DLM, Distributed Lock Manager)는 여러 노드로 구성된 클러스터 환경에서 공유 자원에 대한 상호 배제 (Mutual Exclusion) 및 동기화를 제어하여 데이터 정합성 (Consistency)을 보장하는 소프트웨어 에이전트다.

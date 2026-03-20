@@ -1,4 +1,9 @@
-# 호스트형 하이퍼바이저 (Type 2)
++++
+title = "호스트형 하이퍼바이저 (Type 2)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 호스트형 하이퍼바이저 (Hosted Hypervisor / Type 2)는 윈도우, 리눅스, 맥 OS 등 기존의 호스트 운영체제 (Host OS) 위에서 일반 애플리케이션처럼 실행되어 가상 머신을 생성하고 관리하는 소프트웨어다.

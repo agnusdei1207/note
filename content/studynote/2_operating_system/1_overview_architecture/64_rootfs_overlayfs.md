@@ -1,9 +1,8 @@
 +++
 title = "루트 파일 시스템 (Root Filesystem) / 오버레이 파일 시스템 (OverlayFS)"
-date = 2025-03-24
-[taxonomies]
-categories = ["Operating System"]
-tags = ["Rootfs", "OverlayFS", "Docker", "File System", "CoW"]
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
 +++
 
 # 루트 파일 시스템 (Root Filesystem) / 오버레이 파일 시스템 (OverlayFS)

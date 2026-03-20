@@ -1,4 +1,9 @@
-# Confidential Computing (기밀 컴퓨팅)
++++
+title = "Confidential Computing (기밀 컴퓨팅)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-computer-architecture"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: Confidential Computing (기밀 컴퓨팅)은 데이터가 처리되는 동안(Data in Use) 하드웨어 기반의 TEE (Trusted Execution Environment)를 사용하여 메모리 내 데이터를 보호하고 격리하는 보안 기술이다.

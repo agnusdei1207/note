@@ -1,9 +1,8 @@
 +++
 title = "도커 (Docker) 아키텍처"
-date = 2025-03-24
-[taxonomies]
-categories = ["Operating System"]
-tags = ["Docker", "Architecture", "Container", "Virtualization"]
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
 +++
 
 # 도커 (Docker) 아키텍처

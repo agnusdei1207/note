@@ -1,4 +1,9 @@
-# 시스템 호출 (System Call)
++++
+title = "시스템 호출 (System Call)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 시스템 호출 (System Call)은 사용자 모드 (User Mode)에서 실행 중인 애플리케이션이 커널 모드 (Kernel Mode)의 운영체제 서비스를 안전하게 요청하기 위해 제공되는 소프트웨어적 인터페이스이자 유일한 진입점이다.

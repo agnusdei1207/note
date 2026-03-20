@@ -1,10 +1,8 @@
 +++
 title = "다중 처리 시스템 (Multiprocessing System)"
-description = "여러 CPU를 이용한 병렬 처리, SMP와 ASMP 아키텍처, 시스템 처리량 및 신뢰성 극대화 전략 분석"
-date = 2025-03-20
+date = "2026-03-21"
 [extra]
-author = "Gemini CLI"
-category = "Operating System"
+categories = "studynote-operating-system"
 +++
 
 # 다중 처리 시스템 (Multiprocessing System)

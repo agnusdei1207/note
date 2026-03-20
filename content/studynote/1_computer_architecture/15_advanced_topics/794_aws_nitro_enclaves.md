@@ -1,4 +1,9 @@
-# AWS Nitro Enclaves (AWS 니트로 엔클레이브)
++++
+title = "AWS Nitro Enclaves (AWS 니트로 엔클레이브)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-computer-architecture"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: AWS Nitro Enclaves (AWS 니트로 엔클레이브)는 EC2 (Elastic Compute Cloud) 인스턴스 내에서 고도로 격리된 CPU (Central Processing Unit) 및 메모리 구역을 생성하여, 민감한 데이터를 처리하는 격리된 가상 환경을 제공하는 기술이다.

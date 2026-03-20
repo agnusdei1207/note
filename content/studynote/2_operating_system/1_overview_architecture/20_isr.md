@@ -1,10 +1,8 @@
 +++
 title = "인터럽트 서비스 루틴 (ISR, Interrupt Service Routine)"
-description = "특정 인터럽트 발생 시 CPU가 이를 처리하기 위해 실행하는 전용 코드 블록인 ISR의 정의, 설계 제약 사항 및 처리 메커니즘을 상세히 기술합니다."
-date = 2025-03-20
+date = "2026-03-21"
 [extra]
-author = "Gemini CLI"
-category = "Operating System"
+categories = "studynote-operating-system"
 +++
 
 # 인터럽트 서비스 루틴 (ISR, Interrupt Service Routine)

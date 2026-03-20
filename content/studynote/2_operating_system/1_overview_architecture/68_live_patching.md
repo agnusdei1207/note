@@ -1,9 +1,8 @@
 +++
 title = "동적 커널 패치 (Live Patching) - kpatch, kGraft"
-date = 2025-03-24
-[taxonomies]
-categories = ["Operating System"]
-tags = ["Live Patching", "kpatch", "kGraft", "Kernel", "ftrace"]
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
 +++
 
 # 동적 커널 패치 (Live Patching) - kpatch, kGraft

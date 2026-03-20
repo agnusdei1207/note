@@ -1,10 +1,8 @@
 +++
 title = "하드웨어 인터럽트 (Hardware Interrupt)"
-description = "외부 장치로부터 발생하는 비동기적 사건 처리 메커니즘인 하드웨어 인터럽트의 원리, 종류 및 제어 방식을 상세히 분석합니다."
-date = 2025-03-20
+date = "2026-03-21"
 [extra]
-author = "Gemini CLI"
-category = "Operating System"
+categories = "studynote-operating-system"
 +++
 
 # 하드웨어 인터럽트 (Hardware Interrupt)

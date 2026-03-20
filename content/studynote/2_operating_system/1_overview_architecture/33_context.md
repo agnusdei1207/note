@@ -1,4 +1,9 @@
-# 문맥 (Context)
++++
+title = "문맥 (Context)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 문맥 (Context)은 프로세스가 실행되는 동안의 상태 정보 집합으로, CPU (Central Processing Unit) 레지스터, PC (Program Counter), SP (Stack Pointer) 및 PCB (Process Control Block)에 저장된 관리 정보를 포괄하는 정적·동적 데이터의 총합이다.

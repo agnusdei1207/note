@@ -1,4 +1,9 @@
-# 네임스페이스 (Namespace)
++++
+title = "네임스페이스 (Namespace)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 네임스페이스 (Namespace)는 리눅스 커널이 시스템의 전역 자원 (PID, Network, Mount 등)을 추상화하여, 특정 프로세스 그룹에게만 독립된 공간으로 보이도록 제한하는 자원 격리 (Isolation) 기술이다.

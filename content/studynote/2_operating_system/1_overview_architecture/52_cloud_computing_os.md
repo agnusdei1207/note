@@ -1,4 +1,9 @@
-# 클라우드 컴퓨팅 (Cloud Computing) OS 관점
++++
+title = "클라우드 컴퓨팅 (Cloud Computing) OS 관점"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 클라우드 컴퓨팅 (Cloud Computing)은 가상화 (Virtualization) 기술을 기반으로 물리적 컴퓨팅 자원을 추상화하여, 네트워크를 통해 온디맨드 (On-demand) 방식으로 셀프 서비스하고 공유하는 IT 인프라 모델이다.

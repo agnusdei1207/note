@@ -1,4 +1,9 @@
-# 회계 (Accounting) 및 로깅
++++
+title = "회계 (Accounting) 및 로깅"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 회계 (Accounting) 및 로깅은 운영체제가 개별 사용자나 프로세스의 자원 사용량을 정밀하게 추적하고 기록함으로써, 시스템의 가용성 분석·과금 (Billing)·보안 감사 (Audit)를 가능하게 하는 관리 인터페이스다.

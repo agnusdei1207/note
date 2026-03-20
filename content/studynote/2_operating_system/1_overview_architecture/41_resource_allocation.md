@@ -1,4 +1,9 @@
-# 자원 할당 (Resource Allocation)
++++
+title = "자원 할당 (Resource Allocation)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 자원 할당 (Resource Allocation)은 CPU 사이클, 메모리 공간, 파일 저장소, 입출력 장치 등 시스템의 유한한 물리적·논리적 자원을 다수의 경쟁 프로세스에게 효율적이고 공정하게 배분하는 운영체제의 핵심 통제 메커니즘이다.

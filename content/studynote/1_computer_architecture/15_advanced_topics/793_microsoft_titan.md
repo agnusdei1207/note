@@ -1,4 +1,9 @@
-# Microsoft Titan 보안 칩 (Microsoft Titan Security Chip - Azure RoT)
++++
+title = "Microsoft Titan 보안 칩 (Microsoft Titan Security Chip - Azure RoT)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-computer-architecture"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: Microsoft Titan(Azure Hardware RoT)은 Azure 클라우드 서버의 무결성을 보장하기 위해 설계된 전용 보안 하드웨어로, NIST SP 800-193 가이드라인인 플랫폼 펌웨어 회복력 (PFR, Platform Firmware Resiliency)을 하드웨어 수준에서 구현한다.

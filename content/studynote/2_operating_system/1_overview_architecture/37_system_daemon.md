@@ -1,4 +1,9 @@
-# 시스템 데몬 (System Daemon) / 백그라운드 프로세스
++++
+title = "시스템 데몬 (System Daemon) / 백그라운드 프로세스"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 시스템 데몬 (System Daemon)은 사용자와의 직접적인 상호작용 없이 백그라운드 (Background)에서 실행되며, 특정 이벤트 발생이나 서비스 요청을 대기하고 처리하는 자율적 운영체제 프로세스다.

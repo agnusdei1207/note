@@ -1,4 +1,9 @@
-# 보안 엔클레이브 (Secure Enclave)
++++
+title = "보안 엔클레이브 (Secure Enclave)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-computer-architecture"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 보안 엔클레이브 (Secure Enclave)는 메인 프로세서 (Processor)와 물리적·논리적으로 격리된 서브시스템 (Subsystem)으로, 암호화 키 관리 및 민감 데이터 처리를 위한 신뢰 실행 환경 (TEE: Trusted Execution Environment)을 제공한다.

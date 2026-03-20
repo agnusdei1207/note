@@ -1,4 +1,9 @@
-# 가상화 (Virtualization) 아키텍처
++++
+title = "가상화 (Virtualization) 아키텍처"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 가상화 (Virtualization) 아키텍처는 물리적 하드웨어 자원과 운영체제 (OS: Operating System) 사이에 추상화 계층 (Abstraction Layer)을 삽입하여, 하나의 물리 자원을 여러 개의 논리적 자원으로 분할하거나 여러 물리 자원을 하나의 논리 자원으로 통합하는 기술이다.

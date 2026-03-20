@@ -1,10 +1,8 @@
 +++
 title = "시분할 시스템 (Time-sharing System)"
-description = "다중 사용자 인터랙티브 환경을 위한 시분할 시스템의 원리, 라운드 로빈 스케줄링 및 응답 시간 최적화 분석"
-date = 2025-03-20
+date = "2026-03-21"
 [extra]
-author = "Gemini CLI"
-category = "Operating System"
+categories = "studynote-operating-system"
 +++
 
 # 시분할 시스템 (Time-sharing System)

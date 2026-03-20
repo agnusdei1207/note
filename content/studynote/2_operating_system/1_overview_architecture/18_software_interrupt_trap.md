@@ -1,10 +1,8 @@
 +++
 title = "소프트웨어 인터럽트, 트랩 및 예외 (Software Interrupt, Trap & Exception)"
-description = "CPU 내부에서 발생하는 동기적 사건 처리 메커니즘인 트랩과 예외의 정의, 처리 절차 및 시스템 콜과의 연계 원리를 상세히 분석합니다."
-date = 2025-03-20
+date = "2026-03-21"
 [extra]
-author = "Gemini CLI"
-category = "Operating System"
+categories = "studynote-operating-system"
 +++
 
 # 소프트웨어 인터럽트, 트랩 및 예외 (Software Interrupt, Trap & Exception)

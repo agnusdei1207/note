@@ -1,4 +1,9 @@
-# 운영체제 서비스 (OS Services)
++++
+title = "운영체제 서비스 (OS Services)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 운영체제 서비스 (OS Services)는 하드웨어 추상화를 통해 사용자 및 응용 프로그램이 시스템 자원을 효율적이고 안전하게 이용할 수 있도록 제공하는 필수 기능적 집합이다.

@@ -1,4 +1,9 @@
-# 전가상화 (Full Virtualization)
++++
+title = "전가상화 (Full Virtualization)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 전가상화 (Full Virtualization)는 하이퍼바이저 (Hypervisor)가 물리 하드웨어를 완벽하게 에뮬레이션하여, 게스트 OS (Guest Operating System)를 수정 없이 그대로 실행할 수 있게 하는 가상화 기술이다.

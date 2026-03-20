@@ -1,4 +1,9 @@
-# RISC-V PMP (Physical Memory Protection)
++++
+title = "RISC-V PMP (Physical Memory Protection)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-computer-architecture"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: RISC-V PMP (Physical Memory Protection)는 머신 모드 (M-mode) 소프트웨어가 하위 특권 모드 (S-mode, U-mode)의 물리 메모리 접근 권한을 제한하여 시스템의 신뢰 경계를 물리적으로 강제하는 하드웨어 보안 메커니즘이다.

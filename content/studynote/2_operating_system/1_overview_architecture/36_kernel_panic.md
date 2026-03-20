@@ -1,4 +1,9 @@
-# 커널 패닉 (Kernel Panic) / 블루 스크린 (BSOD)
++++
+title = "커널 패닉 (Kernel Panic) / 블루 스크린 (BSOD)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 커널 패닉 (Kernel Panic) 및 블루 스크린 (BSOD: Blue Screen of Death)은 운영체제 커널이 복구 불가능한 치명적 내부 오류를 감지했을 때, 추가적인 데이터 오염이나 하드웨어 손상을 막기 위해 시스템을 즉시 강제 중단시키는 자가 보호 메커니즘이다.

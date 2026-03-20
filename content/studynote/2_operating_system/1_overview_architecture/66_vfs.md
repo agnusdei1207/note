@@ -1,9 +1,8 @@
 +++
 title = "VFS (Virtual File System)"
-date = 2025-03-24
-[taxonomies]
-categories = ["Operating System"]
-tags = ["VFS", "File System", "Kernel", "Inode", "Abstraction"]
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
 +++
 
 # VFS (Virtual File System)

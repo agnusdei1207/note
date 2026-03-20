@@ -1,3 +1,10 @@
++++
+title = "---"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
+
 ---
 title: "시스템 호출 차단 (Seccomp)"
 date: 2025-03-24

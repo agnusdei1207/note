@@ -1,4 +1,9 @@
-# 문맥 교환 (Context Switch)
++++
+title = "문맥 교환 (Context Switch)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 문맥 교환 (Context Switch)은 CPU (Central Processing Unit)의 제어권을 현재 프로세스에서 다른 프로세스로 넘기기 위해, 이전 프로세스의 상태를 저장하고 새로운 프로세스의 상태를 복구하는 운영체제 커널의 핵심 메커니즘이다.

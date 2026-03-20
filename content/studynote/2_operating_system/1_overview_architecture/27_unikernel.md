@@ -1,4 +1,9 @@
-# 유니커널 (Unikernel)
++++
+title = "유니커널 (Unikernel)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 유니커널 (Unikernel)은 단일 응용 프로그램과 그 실행에 필요한 최소한의 운영체제 기능을 하나의 라이브러리 (Library OS) 형태로 결합하여, 범용 운영체제 없이 하이퍼바이저 위에서 직접 실행되는 단일 주소 공간 (Single Address Space) 이미지다.

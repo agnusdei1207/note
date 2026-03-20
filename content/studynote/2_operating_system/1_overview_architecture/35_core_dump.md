@@ -1,4 +1,9 @@
-# 코어 덤프 (Core Dump)
++++
+title = "코어 덤프 (Core Dump)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 코어 덤프 (Core Dump)는 프로그램이 비정상적으로 종료될 때 시스템이 해당 시점의 프로세스 메모리 상태(스택, 힙, 레지스터 값 등)를 기록한 파일로, 실행 중인 가상 주소 공간의 스냅샷 (Snapshot)이다.

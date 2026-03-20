@@ -1,4 +1,9 @@
-# 모놀리식 커널 (Monolithic Kernel)
++++
+title = "모놀리식 커널 (Monolithic Kernel)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 모놀리식 커널 (Monolithic Kernel)은 프로세스 관리, 메모리 관리, 파일 시스템, 장치 드라이버 등 모든 핵심 운영체제 서비스를 단일한 커널 주소 공간 내에서 실행하는 일체형 아키텍처다.

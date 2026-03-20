@@ -1,4 +1,9 @@
-# ABI (Application Binary Interface)
++++
+title = "ABI (Application Binary Interface)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: ABI (Application Binary Interface)는 컴파일된 두 바이너리 프로그램 모듈 간의 저수준 인터페이스로, 함수 호출 규약 (Calling Convention), 데이터 레이아웃, 바이너리 포맷 등을 정의하는 기계어 수준의 통신 규약이다.

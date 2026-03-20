@@ -1,4 +1,9 @@
-# 메모리 암호화 (Intel MKTME, AMD SME/SEV)
++++
+title = "메모리 암호화 (Intel MKTME, AMD SME/SEV)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-computer-architecture"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 메모리 암호화 (Memory Encryption)는 CPU (Central Processing Unit)와 RAM (Random Access Memory) 사이에서 송수신되는 데이터를 하드웨어 엔진을 통해 실시간으로 암호화하여, 물리적 공격 및 권한 없는 소프트웨어의 데이터 탈취를 방지하는 기술이다.

@@ -1,4 +1,9 @@
-# 컨트롤 그룹 (cgroups)
++++
+title = "컨트롤 그룹 (cgroups)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 컨트롤 그룹 (cgroups: Control Groups)은 리눅스 커널이 프로세스들을 계층적인 그룹으로 묶고, 각 그룹별로 CPU, 메모리, 디스크 I/O, 네트워크 대역폭 등 하드웨어 자원의 사용량을 제한하고 제어하는 자원 관리 (Resource Management) 기술이다.

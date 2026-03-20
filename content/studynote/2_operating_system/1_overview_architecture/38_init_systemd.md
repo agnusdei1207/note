@@ -1,4 +1,9 @@
-# init 프로세스 / systemd
++++
+title = "init 프로세스 / systemd"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: init 프로세스는 운영체제 부팅 시 커널이 가장 먼저 실행하는 프로세스 (PID 1)로, 모든 사용자 모드 프로세스의 공통 조상이며 시스템의 상태 (Runlevel/Unit) 관리 및 자식 프로세스 수거를 담당하는 루트 관리자다.

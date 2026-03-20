@@ -1,4 +1,9 @@
-# 오류 탐지 (Error Detection)
++++
+title = "오류 탐지 (Error Detection)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 오류 탐지 (Error Detection)는 하드웨어 결함, 소프트웨어 버그, 외부 간섭으로 인해 발생하는 시스템의 비정상적 상태를 실시간으로 감지하고 격리함으로써 시스템의 가용성 (Availability)과 무결성 (Integrity)을 보장하는 운영체제의 핵심 방어 기제다.

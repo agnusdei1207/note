@@ -1,3 +1,10 @@
++++
+title = "---"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
+
 ---
 title: "프로세서 성능 상태 (P-States)"
 date: 2025-03-24

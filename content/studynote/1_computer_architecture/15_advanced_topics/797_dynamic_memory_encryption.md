@@ -1,4 +1,9 @@
-# 동적 메모리 암호화 (Dynamic Memory Encryption)
++++
+title = "동적 메모리 암호화 (Dynamic Memory Encryption)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-computer-architecture"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 동적 메모리 암호화 (Dynamic Memory Encryption)는 시스템의 부하 상태, 데이터의 중요도, 보안 위협 수준에 따라 암호화 강도와 키 교체 주기를 실시간으로 조정하는 가변적 보안 기술이다.

@@ -1,4 +1,9 @@
-# 틱리스 커널 (Tickless Kernel)
++++
+title = "틱리스 커널 (Tickless Kernel)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 틱리스 커널 (Tickless Kernel)은 고정된 주기로 발생하는 타이머 인터럽트 (Tick)를 제거하고, 시스템에 실제 작업이 예정된 시점에만 동적으로 인터럽트를 발생시키는 운영체제 아키텍처다.

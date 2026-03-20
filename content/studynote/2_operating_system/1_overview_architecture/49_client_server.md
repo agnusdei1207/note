@@ -1,4 +1,9 @@
-# 클라이언트-서버 시스템 (Client-Server System)
++++
+title = "클라이언트-서버 시스템 (Client-Server System)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 클라이언트-서버 시스템 (Client-Server System)은 네트워크를 통해 서비스 요청자 (Client)와 서비스 제공자 (Server)로 역할을 명확히 분리하여 컴퓨팅 자원을 효율적으로 배분하는 분산 처리 모델이다.

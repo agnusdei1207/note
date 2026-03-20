@@ -1,4 +1,9 @@
-# 베어메탈 (Bare-metal) 하이퍼바이저 (Type 1)
++++
+title = "베어메탈 (Bare-metal) 하이퍼바이저 (Type 1)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 베어메탈 (Bare-metal) 하이퍼바이저 (Type 1)는 호스트 운영체제 (Host OS) 없이 하드웨어 바로 위에서 직접 실행되어 가상 머신 (VM: Virtual Machine)을 관리하는 가상화 엔진이다.

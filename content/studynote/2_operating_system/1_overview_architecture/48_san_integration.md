@@ -1,4 +1,9 @@
-# 스토리지 영역 네트워크 (SAN) 연동
++++
+title = "스토리지 영역 네트워크 (SAN) 연동"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 스토리지 영역 네트워크 (SAN, Storage Area Network) 연동은 서버와 저장 장치를 전용의 고속 네트워크(Fibre Channel 등)로 연결하여, 운영체제가 원격 스토리지를 로컬에 직접 연결된 블록 장치처럼 인식하고 관리하게 하는 기술이다.

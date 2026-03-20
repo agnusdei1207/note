@@ -1,4 +1,9 @@
-# 보호 (Protection) 및 보안 (Security)
++++
+title = "보호 (Protection) 및 보안 (Security)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 보호 (Protection)는 시스템 내부의 프로세스나 사용자가 허가된 자원만 접근하도록 제어하는 내부적 통제 메커니즘이며, 보안 (Security)은 외부의 위협으로부터 시스템 전체의 무결성과 가용성을 지키는 포괄적 방어 체계다.

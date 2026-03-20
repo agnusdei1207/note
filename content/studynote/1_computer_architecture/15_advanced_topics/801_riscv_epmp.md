@@ -1,4 +1,9 @@
-# RISC-V ePMP (Enhanced Physical Memory Protection)
++++
+title = "RISC-V ePMP (Enhanced Physical Memory Protection)"
+date = "2026-03-21"
+[extra]
+categories = "studynote-computer-architecture"
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: RISC-V ePMP (Enhanced Physical Memory Protection)는 기존 PMP의 한계를 극복하여 머신 모드 (M-mode) 자체에 대한 세밀한 접근 제어와 실행 보호를 강화한 하드웨어 보안 확장 규격이다.

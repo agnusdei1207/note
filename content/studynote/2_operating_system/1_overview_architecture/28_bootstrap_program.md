@@ -1,9 +1,8 @@
 +++
 title = "부트스트랩 프로그램 (Bootstrap Program)"
-date = 2025-03-24
-[taxonomies]
-categories = ["Operating System"]
-tags = ["OS", "Architecture", "Bootstrap", "Booting"]
+date = "2026-03-21"
+[extra]
+categories = "studynote-operating-system"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

@@ -1,7 +1,7 @@
 import os
 import re
 
-dir_path = "content/studynote/2_operating_system/1_overview_architecture"
+dir_path = "content/studynote/1_computer_architecture/15_advanced_topics"
 files = [f for f in os.listdir(dir_path) if f.endswith(".md") and not f.startswith("_")]
 
 def get_num(filename):
@@ -11,11 +11,24 @@ def get_num(filename):
 files.sort(key=get_num)
 
 for filename in files:
+    num = get_num(filename)
+    if num < 790: continue
+    
     file_path = os.path.join(dir_path, filename)
     with open(file_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
     
-    # Extract title from either front matter or the first header
+    if lines[0].strip() == "+++":
+        # Already has front matter, but let's check category
+        has_correct_cat = False
+        for line in lines:
+            if 'categories = "studynote-computer-architecture"' in line:
+                has_correct_cat = True
+                break
+        if has_correct_cat:
+            continue
+    
+    # Standardize
     title = ""
     start_idx = 0
     if lines[0].strip() == "+++":
@@ -26,7 +39,6 @@ for filename in files:
                 start_idx = i + 1
                 break
     
-    # If title not found in front matter, look for # header
     if not title:
         for i in range(start_idx, len(lines)):
             if lines[i].startswith("# "):
@@ -34,11 +46,9 @@ for filename in files:
                 start_idx = i + 1
                 break
 
-    # If still no title (fallback to filename)
     if not title:
         title = filename.replace(".md", "").replace("_", " ")
 
-    # Skip empty lines after title
     content_start = start_idx
     while content_start < len(lines) and not lines[content_start].strip():
         content_start += 1
@@ -48,7 +58,7 @@ for filename in files:
         f'title = "{title}"\n',
         'date = "2026-03-21"\n',
         "[extra]\n",
-        'categories = "studynote-operating-system"\n',
+        'categories = "studynote-computer-architecture"\n',
         "+++\n\n"
     ]
     
@@ -56,5 +66,5 @@ for filename in files:
     
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write(new_content)
-    # print(f"Fully Standardized {filename}")
-print("All files in 1_overview_architecture standardized.")
+
+print("CA files 790-802 standardized.")
