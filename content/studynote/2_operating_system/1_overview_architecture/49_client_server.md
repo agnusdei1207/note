@@ -1,6 +1,6 @@
 +++
 weight = 49
-title = "클라이언트-서버 시스템 (Client-Server System)"
+title = "49. 클라이언트-서버 시스템 (Client-Server System)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

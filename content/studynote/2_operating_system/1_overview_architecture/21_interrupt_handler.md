@@ -1,6 +1,6 @@
 +++
 weight = 21
-title = "인터럽트 핸들러 (Interrupt Handler)"
+title = "21. 인터럽트 핸들러 (Interrupt Handler)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

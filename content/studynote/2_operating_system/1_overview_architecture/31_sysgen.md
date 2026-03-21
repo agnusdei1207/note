@@ -1,6 +1,6 @@
 +++
 weight = 31
-title = "시스템 생성 (System Generation, SYSGEN)"
+title = "31. 시스템 생성 (System Generation, SYSGEN)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

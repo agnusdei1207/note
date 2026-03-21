@@ -1,6 +1,6 @@
 +++
 weight = 38
-title = "init 프로세스 / systemd"
+title = "38. init 프로세스 / systemd (리눅스 첫 번째 프로세스)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

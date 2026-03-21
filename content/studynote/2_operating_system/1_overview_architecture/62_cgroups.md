@@ -1,6 +1,6 @@
 +++
 weight = 62
-title = "컨트롤 그룹 (cgroups)"
+title = "62. 컨트롤 그룹 (cgroups) - 자원 할당 제어"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

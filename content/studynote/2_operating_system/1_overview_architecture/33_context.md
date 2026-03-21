@@ -1,6 +1,6 @@
 +++
 weight = 33
-title = "문맥 (Context)"
+title = "33. 문맥 (Context) - CPU 레지스터, 프로세스 상태 등"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

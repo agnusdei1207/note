@@ -1,6 +1,6 @@
 +++
 weight = 19
-title = "인터럽트 벡터 및 벡터 테이블 (Interrupt Vector & Vector Table)"
+title = "19. 인터럽트 벡터 (Interrupt Vector)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

@@ -1,6 +1,6 @@
 +++
 weight = 79
-title = "---"
+title = "79. 운영체제 프로파일링 및 트레이싱 도구 (perf, ftrace, DTrace)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

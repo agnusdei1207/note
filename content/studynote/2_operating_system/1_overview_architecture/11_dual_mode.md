@@ -1,6 +1,6 @@
 +++
 weight = 11
-title = "듀얼 모드 (Dual Mode)"
+title = "11. 듀얼 모드 (Dual Mode) - 사용자 모드(User Mode)와 커널 모드(Kernel Mode)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

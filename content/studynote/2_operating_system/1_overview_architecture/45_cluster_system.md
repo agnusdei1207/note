@@ -1,6 +1,6 @@
 +++
 weight = 45
-title = "클러스터 시스템 (Clustered System)"
+title = "45. 클러스터 시스템 (Clustered System) - 고가용성(HA), 병렬 컴퓨팅"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

@@ -1,6 +1,6 @@
 +++
 weight = 60
-title = "컨테이너 가상화 (Container Virtualization)"
+title = "60. 컨테이너 (Container) 기술 기반 - OS 수준 가상화"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

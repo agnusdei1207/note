@@ -1,6 +1,6 @@
 +++
 weight = 64
-title = "루트 파일 시스템 (Root Filesystem) / 오버레이 파일 시스템 (OverlayFS)"
+title = "64. 루트 파일 시스템 (Root Filesystem) / 오버레이 파일 시스템 (OverlayFS)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

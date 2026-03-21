@@ -1,6 +1,6 @@
 +++
 weight = 32
-title = "펌웨어 (Firmware)"
+title = "32. 펌웨어 (Firmware)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

@@ -1,6 +1,6 @@
 +++
 weight = 34
-title = "문맥 교환 (Context Switch)"
+title = "34. 문맥 교환 (Context Switch) 오버헤드"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

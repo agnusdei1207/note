@@ -1,6 +1,6 @@
 +++
 weight = 78
-title = "---"
+title = "78. 프로세서 성능 상태 (P-States)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

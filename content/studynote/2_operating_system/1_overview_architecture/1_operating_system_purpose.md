@@ -1,6 +1,6 @@
 +++
 weight = 1
-title = "운영체제 (Operating System)의 목적"
+title = "1. 운영체제 (Operating System)의 목적 - 자원 관리, 편의성, 성능 향상"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

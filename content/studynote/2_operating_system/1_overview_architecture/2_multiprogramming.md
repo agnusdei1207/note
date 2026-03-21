@@ -1,6 +1,6 @@
 +++
 weight = 2
-title = "다중 프로그래밍 (Multiprogramming)"
+title = "2. 다중 프로그래밍 (Multiprogramming) - CPU 활용도 극대화"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

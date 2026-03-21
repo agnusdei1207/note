@@ -1,6 +1,6 @@
 +++
 weight = 30
-title = "UEFI vs BIOS"
+title = "30. UEFI (Unified Extensible Firmware Interface) vs BIOS"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

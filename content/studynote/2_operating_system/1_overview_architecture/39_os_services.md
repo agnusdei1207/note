@@ -1,6 +1,6 @@
 +++
 weight = 39
-title = "운영체제 서비스 (OS Services)"
+title = "39. 운영체제 서비스 - UI, 프로그램 실행, I/O 연산, 파일 시스템, 통신"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

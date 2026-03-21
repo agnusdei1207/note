@@ -1,6 +1,6 @@
 +++
 weight = 59
-title = "하드웨어 보조 가상화 (Hardware-assisted Virtualization)"
+title = "59. 하드웨어 보조 가상화 (Intel VT-x, AMD-V)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

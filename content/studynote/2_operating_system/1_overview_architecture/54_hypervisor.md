@@ -1,6 +1,6 @@
 +++
 weight = 54
-title = "하이퍼바이저 (Hypervisor) / VMM"
+title = "54. 하이퍼바이저 (Hypervisor) / VMM"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

@@ -1,6 +1,6 @@
 +++
 weight = 75
-title = "---"
+title = "75. ACPI (Advanced Configuration and Power Interface)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

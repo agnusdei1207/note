@@ -1,6 +1,6 @@
 +++
 weight = 26
-title = "엑소 커널 (Exokernel)"
+title = "26. 엑소 커널 (Exokernel) - 하드웨어 추상화 최소화"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

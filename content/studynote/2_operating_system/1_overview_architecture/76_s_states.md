@@ -1,6 +1,6 @@
 +++
 weight = 76
-title = "---"
+title = "76. 시스템 전원 상태 (S-States, S0~S5)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

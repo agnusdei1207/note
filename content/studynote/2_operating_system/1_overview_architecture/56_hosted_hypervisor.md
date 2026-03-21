@@ -1,6 +1,6 @@
 +++
 weight = 56
-title = "호스트형 하이퍼바이저 (Type 2)"
+title = "56. 호스트형 하이퍼바이저 (Type 2)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

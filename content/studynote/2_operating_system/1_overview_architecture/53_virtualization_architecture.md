@@ -1,6 +1,6 @@
 +++
 weight = 53
-title = "가상화 (Virtualization) 아키텍처"
+title = "53. 가상화 (Virtualization) 아키텍처"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

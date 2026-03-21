@@ -1,6 +1,6 @@
 +++
 weight = 52
-title = "클라우드 컴퓨팅 (Cloud Computing) OS 관점"
+title = "52. 클라우드 컴퓨팅 (Cloud Computing) OS 관점"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

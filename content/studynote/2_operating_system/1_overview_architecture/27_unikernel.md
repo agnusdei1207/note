@@ -1,6 +1,6 @@
 +++
 weight = 27
-title = "유니커널 (Unikernel)"
+title = "27. 유니커널 (Unikernel) - 라이브러리 OS 기반 단일 주소 공간"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

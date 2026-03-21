@@ -1,6 +1,6 @@
 +++
 weight = 8
-title = "약결합 시스템 (Loosely Coupled System)"
+title = "8. 약결합 시스템 (Loosely Coupled System) / 분산 시스템"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

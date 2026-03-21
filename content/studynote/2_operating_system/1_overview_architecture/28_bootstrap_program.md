@@ -1,6 +1,6 @@
 +++
 weight = 28
-title = "부트스트랩 프로그램 (Bootstrap Program)"
+title = "28. 부트스트랩 프로그램 (Bootstrap Program)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

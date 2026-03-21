@@ -1,6 +1,6 @@
 +++
 weight = 65
-title = "시스템 콜 래퍼 (System Call Wrapper)"
+title = "65. 시스템 콜 래퍼 (System Call Wrapper)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

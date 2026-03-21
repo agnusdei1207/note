@@ -1,6 +1,6 @@
 +++
 weight = 17
-title = "하드웨어 인터럽트 (Hardware Interrupt)"
+title = "17. 하드웨어 인터럽트 (비동기적)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

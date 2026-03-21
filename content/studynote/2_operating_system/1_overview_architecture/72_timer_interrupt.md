@@ -1,6 +1,6 @@
 +++
 weight = 72
-title = "타이머 인터럽트 (Timer Interrupt)"
+title = "72. 타이머 인터럽트 - 선점형 스케줄링의 기반"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

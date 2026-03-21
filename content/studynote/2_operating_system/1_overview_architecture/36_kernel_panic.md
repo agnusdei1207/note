@@ -1,6 +1,6 @@
 +++
 weight = 36
-title = "커널 패닉 (Kernel Panic) / 블루 스크린 (BSOD)"
+title = "36. 패닉 (Panic) / 커널 패닉 (Kernel Panic) / 블루 스크린 (BSOD)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

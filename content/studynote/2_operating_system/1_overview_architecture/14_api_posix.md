@@ -1,6 +1,6 @@
 +++
 weight = 14
-title = "API 및 POSIX 표준"
+title = "14. API (Application Programming Interface), POSIX 표준"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

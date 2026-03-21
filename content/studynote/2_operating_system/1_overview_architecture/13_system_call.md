@@ -1,6 +1,6 @@
 +++
 weight = 13
-title = "시스템 호출 (System Call)"
+title = "13. 시스템 호출 (System Call) - 커널 서비스 요청 인터페이스"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

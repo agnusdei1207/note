@@ -1,6 +1,6 @@
 +++
 weight = 51
-title = "그리드 컴퓨팅 (Grid Computing)"
+title = "51. 그리드 컴퓨팅 (Grid Computing)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

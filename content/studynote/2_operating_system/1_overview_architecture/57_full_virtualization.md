@@ -1,6 +1,6 @@
 +++
 weight = 57
-title = "전가상화 (Full Virtualization)"
+title = "57. 전가상화 (Full Virtualization) - 이진 변환 (Binary Translation)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

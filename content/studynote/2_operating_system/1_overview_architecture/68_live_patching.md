@@ -1,6 +1,6 @@
 +++
 weight = 68
-title = "동적 커널 패치 (Live Patching) - kpatch, kGraft"
+title = "68. 동적 커널 패치 (Live Patching) - kpatch, kGraft"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

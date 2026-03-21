@@ -1,6 +1,6 @@
 +++
 weight = 41
-title = "자원 할당 (Resource Allocation)"
+title = "41. 자원 할당 (Resource Allocation)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

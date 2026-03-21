@@ -1,6 +1,6 @@
 +++
 weight = 69
-title = "eBPF (Extended Berkeley Packet Filter)"
+title = "69. BPF (Berkeley Packet Filter) / eBPF (Extended BPF) - 커널 내 샌드박스 프로그램"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

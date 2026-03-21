@@ -1,6 +1,6 @@
 +++
 weight = 6
-title = "대칭 다중 처리 (SMP, Symmetric Multiprocessing)"
+title = "6. 대칭 다중 처리 (SMP, Symmetric Multiprocessing)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

@@ -1,6 +1,6 @@
 +++
 weight = 9
-title = "실시간 시스템 (Real-time System)"
+title = "9. 실시간 시스템 (Real-time System) - Hard vs Soft"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

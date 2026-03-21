@@ -1,6 +1,6 @@
 +++
 weight = 23
-title = "모놀리식 커널 (Monolithic Kernel)"
+title = "23. 모놀리식 커널 (Monolithic Kernel) - 리눅스, 고성능"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

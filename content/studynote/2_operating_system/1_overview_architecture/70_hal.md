@@ -1,6 +1,6 @@
 +++
 weight = 70
-title = "하드웨어 추상화 계층 (HAL, Hardware Abstraction Layer)"
+title = "70. 하드웨어 추상화 계층 (HAL, Hardware Abstraction Layer)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

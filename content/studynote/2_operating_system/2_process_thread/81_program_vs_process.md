@@ -1,6 +1,6 @@
 +++
 weight = 81
-title = "프로그램 (Program) vs 프로세스 (Process)"
+title = "81. 프로그램 (Program) vs 프로세스 (Process)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

@@ -1,6 +1,6 @@
 +++
 weight = 24
-title = "마이크로 커널 (Microkernel)"
+title = "24. 마이크로 커널 (Microkernel) - Mach, Minix, 높은 확장성과 신뢰성"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

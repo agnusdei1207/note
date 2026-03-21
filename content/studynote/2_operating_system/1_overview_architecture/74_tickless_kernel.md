@@ -1,6 +1,6 @@
 +++
 weight = 74
-title = "틱리스 커널 (Tickless Kernel)"
+title = "74. 틱리스 커널 (Tickless Kernel) - 전력 소모 감소"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

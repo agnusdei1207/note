@@ -1,6 +1,6 @@
 +++
 weight = 44
-title = "명령어 인터프리터 (Command Interpreter) / 쉘 (Shell)"
+title = "44. 명령어 인터프리터 (Command Interpreter) / 쉘 (Shell)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

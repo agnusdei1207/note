@@ -1,6 +1,6 @@
 +++
 weight = 71
-title = "운영체제 타이머 (Timer)"
+title = "71. 운영체제 타이머 (Timer) - 시스템 클럭, 카운터"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

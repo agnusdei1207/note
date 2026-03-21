@@ -1,6 +1,6 @@
 +++
 weight = 12
-title = "모드 비트 (Mode Bit)"
+title = "12. 모드 비트 (Mode Bit)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

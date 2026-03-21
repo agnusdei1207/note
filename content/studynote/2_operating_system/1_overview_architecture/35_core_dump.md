@@ -1,6 +1,6 @@
 +++
 weight = 35
-title = "코어 덤프 (Core Dump)"
+title = "35. 코어 덤프 (Core Dump)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

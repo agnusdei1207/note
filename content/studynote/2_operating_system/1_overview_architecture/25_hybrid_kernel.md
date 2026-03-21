@@ -1,6 +1,6 @@
 +++
 weight = 25
-title = "하이브리드 커널 (Hybrid Kernel)"
+title = "25. 하이브리드 커널 (Hybrid Kernel) - Windows NT, macOS(XNU)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

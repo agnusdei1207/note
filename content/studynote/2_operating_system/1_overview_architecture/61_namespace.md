@@ -1,6 +1,6 @@
 +++
 weight = 61
-title = "네임스페이스 (Namespace)"
+title = "61. 네임스페이스 (Namespace) - 자원 격리"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"
