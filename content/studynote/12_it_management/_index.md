@@ -1,5 +1,5 @@
 +++
-weight = 12
+weight = 11000
 title = "12: IT 경영 및 관리 (IT Management)"
 render = true
 paginate_by = 10
