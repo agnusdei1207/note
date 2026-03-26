@@ -1,5 +1,5 @@
 +++
-weight = 16
+weight = 15016
 title = "16: 빅데이터 (Big Data)"
 render = true
 paginate_by = 10

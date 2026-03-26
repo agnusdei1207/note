@@ -1,5 +1,5 @@
 +++
-weight = 12
+weight = 15012
 title = "12. 최신 빅데이터 동향"
 sort_by = "title"
 +++
