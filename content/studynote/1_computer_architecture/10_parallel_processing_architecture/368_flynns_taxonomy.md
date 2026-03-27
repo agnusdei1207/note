@@ -8,7 +8,7 @@ categories = "studynote-computer-architecture"
 
 # 플린의 분류법 (Flynn's Taxonomy)
 
-#### 핵심 인사이트 (3줄 요약)
+## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 마이클 플린(Michael J. Flynn)이 제안한 컴퓨터 아키텍처 분류 체계로, 시스템이 한 번에 처리하는 '명령어 흐름(Instruction Stream)'과 '데이터 흐름(Data Stream)'의 단일/다중 여부에 따라 컴퓨터 구조를 4가지로 나눈 기준이다.
 > 2. **가치**: 단순히 하드웨어를 어떻게 설계할 것인지에 그치지 않고, 그 위에서 도는 소프트웨어의 병렬 처리(Parallel Processing) 모델을 결정짓는 가장 거시적인 뼈대를 제공한다.
 > 3. **융합**: 현대의 데스크탑 CPU(SISD 파생), GPU/벡터 가속기(SIMD), 클라우드 기반의 분산 처리 시스템(MIMD) 등 모든 컴퓨팅 인프라의 설계 철학을 관통하는 분류의 원형(Archetype)이다.
