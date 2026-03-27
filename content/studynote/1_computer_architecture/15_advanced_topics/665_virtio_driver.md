@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Virtualization", "Virtio", "Linux", "I/O"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 과거에는 반가상화 I/O를 위해 VMware 전용 드라이버, Xen 전용 드라이버, Hyper-V 전용 드라이버를 OS마다 일일이 따로 깔아야 하는 **드라이버 지옥(Driver Hell)**이 펼쳐졌다.
 > 2. **Virtio**는 이 파편화를 끝내기 위해 KVM 진영에서 만든 **'가상 장치를 위한 범용 표준 규격(API)'**이다. 
 > 3. 현재 리눅스 커널에 기본으로 내장되어 있으며, 가상 머신(Guest)은 자기가 VMware에 있든 KVM에 있든 상관없이 Virtio 규격 하나로 통신하면, 밑에 있는 하이퍼바이저가 이를 찰떡같이 알아듣는 대통합이 이루어졌다.

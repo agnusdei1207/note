@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Virtualization", "Intel", "VT-x", "CPU"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 과거의 가상 머신(VirtualPC 등)은 Guest OS의 명령어를 하이퍼바이저가 한 줄 한 줄 소프트웨어로 번역(Binary Translation)해서 실행했기 때문에 성능이 끔찍하게 느렸다.
 > 2. **Intel VT-x**는 이 병목을 해결하기 위해 2005년 인텔이 CPU 실리콘 내부에 아예 **'가상화 전용 하드웨어 명령어 세트'**를 물리적으로 박아버린 혁명적 기술이다.
 > 3. 앞서 배운 VMX(Root/Non-Root 모드)와 VMCS를 도입한 기술적 실체가 바로 VT-x이며, 이 기술 덕분에 클라우드 데이터센터(AWS, Azure)라는 거대한 산업이 탄생할 수 있었다.

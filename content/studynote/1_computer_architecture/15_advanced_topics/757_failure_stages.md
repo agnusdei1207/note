@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Reliability", "Maintenance"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. **초기 고장기 (Decreasing Failure Rate, DFR)**: 공장에서 태어난 직후 약한 부품들이 죽어나가는 시기로, 고장률이 시간이 지남에 따라 급격히 감소한다. **번인(Burn-in) 테스트**로 솎아낸다.
 > 2. **우발 고장기 (Constant Failure Rate, CFR)**: 기계의 황금기로, 고장률이 낮고 일정하게 유지된다. 마모가 아닌 외부 환경(번개, 노이즈)에 의해 돌발적으로 고장 난다.
 > 3. **마모 고장기 (Increasing Failure Rate, IFR)**: 기계의 수명이 다해 고장률이 기하급수적으로 폭증하는 노년기다. **예방 보전(Preventive Maintenance)**을 통해 고장 나기 전에 미리 쇳덩어리를 내다 버려야 한다.

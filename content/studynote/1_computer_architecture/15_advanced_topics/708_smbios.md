@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Firmware", "SMBIOS", "OS"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 윈도우에서 `시스템 정보`를 켜면 메인보드 모델명, RAM 제조사, CPU 시리얼 번호가 뜬다. OS가 컴퓨터 케이스를 뜯어본 것도 아닌데 어떻게 아는 것일까?
 > 2. 컴퓨터가 처음 켜질 때, 메인보드 펌웨어(BIOS/UEFI)가 하드웨어 부품들을 쫙 스캔한 뒤, 이 정보들을 정해진 표 형식으로 메모리 구석에 적어놓는데 이를 **SMBIOS (System Management BIOS)**라고 한다.
 > 3. 운영체제나 자산 관리 프로그램은 단지 이 SMBIOS 장부를 읽기만 함으로써, 시스템의 하드웨어 형상(Inventory)을 100% 파악할 수 있다.

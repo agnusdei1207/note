@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Security", "Fault Injection", "Hardware", "Glitching"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 이전 장의 볼티지 글리치가 밥(전압)을 뺏어 기절시키는 것이라면, **클럭 글리칭 (Clock Glitching)**은 CPU의 심장 박동(클럭)을 비정상적으로 빨리 뛰게 만들어 과호흡을 유발하는 공격이다.
 > 2. CPU 내부의 트랜지스터와 플립플롭이 데이터를 저장하려면 물리적인 여유 시간(Setup/Hold Time)이 필요한데, 클럭 폭을 순간적으로 확 줄여버리면(Glitch) **미처 데이터가 저장되기도 전에 엉뚱한 쓰레기 값이 저장되는 치명적 에러**가 발생한다.
 > 3. 이를 통해 해커는 스마트카드나 보안 칩의 펌웨어를 뚫어버리며, 이를 방어하기 위해 칩 내부에 클럭 이상 감지기(Clock Monitor)나 내부 PLL 회로가 필수로 탑재된다.

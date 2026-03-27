@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Memory", "Out-of-Order Execution"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. **로드-스토어 큐 (LSQ)**는 CPU 내부에서 메모리를 읽고(Load) 쓰는(Store) 명령어들만을 전담하여 임시로 보관하고 관리하는 특수 대기실(Buffer)이다.
 > 2. 비순차 실행으로 인해 명령어들이 뒤죽박죽 처리될 때, 메모리 주소 간의 의존성(Aliasing)을 실시간으로 감시하고, 캐시 메모리에 데이터를 올바른 순서대로 반영하도록 통제한다.
 > 3. Store 명령어가 아직 캐시에 기록되지 않았더라도 LSQ 내부에서 그 값을 즉시 Load 명령어로 전달해 주는 **스토어 포워딩(Store Forwarding)** 기능의 핵심 무대이다.

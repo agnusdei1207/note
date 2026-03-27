@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Hardware Accelerator", "PageRank", "Graph Processing"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 구글을 세계 최고의 기업으로 만든 **페이지 랭크(PageRank)** 알고리즘은 수백억 개의 웹페이지(노드)와 링크(엣지)가 서로 참조하는 거대한 확률 분포를 끝없이 갱신하는 연산이다.
 > 2. 이는 컴퓨터 구조 관점에서 보면 극단적으로 크고 텅 빈 **초거대 희소 행렬 벡터 곱셈(SpMV, Sparse Matrix-Vector Multiplication)**이다. 
 > 3. 이를 고속으로 처리하기 위해 하드웨어 설계자들은 메모리 접근을 최적화하는 파티셔닝(Partitioning) 기법과, 계산이 수렴(안정화)된 웹페이지는 연산에서 빼버리는 **활성 정점(Active Vertex) 전용 하드웨어 파이프라인**을 칩에 구현(맵핑)한다.

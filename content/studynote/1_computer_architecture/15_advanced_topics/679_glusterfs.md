@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Storage", "GlusterFS", "NAS"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 앞 장의 Ceph가 밑바닥부터 뜯어고친 복잡한 범용 스토리지 생태계라면, **GlusterFS(글러스터FS)**는 오로지 **"수많은 서버의 빈 하드디스크들을 묶어 하나의 거대한 공유 폴더(File System)로 만드는 것"**에 극한으로 집중한 기술이다.
 > 2. Ceph처럼 메타데이터 서버(장부)를 두지 않고, Elastic Hash Algorithm을 이용해 파일이 저장될 위치를 수학적으로 계산하여 흩뿌리므로 병목이 없다.
 > 3. 구조가 매우 직관적이고 설정이 쉬워, 대용량 미디어 파일(동영상, 백업 파일)을 보관하는 싼 값의 스케일 아웃 NAS(Network Attached Storage) 대용으로 널리 사랑받는다.

@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "FPU", "Pipeline", "Floating Point"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 일반적인 정수 덧셈(ALU)은 구조가 단순해 1클럭 만에 끝낼 수 있지만, IEEE 754 표준을 따르는 **부동소수점 곱셈(Floating-Point Multiplication)**은 가수부 곱셈, 지수부 덧셈, 정규화 등 과정이 너무 길어 1클럭에 절대 끝낼 수 없다.
 > 2. 이를 해결하기 위해 거대한 곱셈기 회로를 3~5개의 단계(Stage)로 조각내어, 각 단계가 끝날 때마다 중간 결과를 임시 레지스터(Latch)에 저장하는 **FPU 파이프라인**을 구축한다.
 > 3. 이를 통해 한 번의 곱셈에 4클럭이 걸리더라도(지연 시간, Latency), 컨베이어 벨트처럼 **매 클럭마다 새로운 곱셈 결과를 하나씩 쏟아내어(Throughput = 1)** 슈퍼컴퓨터와 GPU의 초당 수조 번의 연산(TFLOPS)을 가능하게 한다.

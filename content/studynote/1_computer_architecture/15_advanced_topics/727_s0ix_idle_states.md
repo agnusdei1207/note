@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Power Management", "S0ix", "SoC"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 모던 스탠바이(Modern Standby)를 소프트웨어(윈도우) 관점에서 부르는 말이라면, **S0ix**는 이를 뒷받침하는 **인텔 SoC(System on Chip) 하드웨어의 물리적인 초저전력 상태**를 지칭하는 엔지니어링 용어다.
 > 2. CPU 코어뿐만 아니라 메모리 컨트롤러, 디스플레이 엔진, 이미지 처리 장치(ISP) 등 수십 개의 개별 부품(IP 블록)들이 **각자 독립적으로 일할 때만 켜지고 쉴 때는 완전히 꺼지도록(Power Gating)** 설계되었다.
 > 3. SoC 내부의 모든 부품(IP)이 기절했을 때 비로소 칩 전체가 S0ix라는 가장 깊은 유휴 상태(Idle State)로 떨어져, 기존 S3 모드와 맞먹는 대기 전력(수십 밀리와트)을 달성하게 된다.

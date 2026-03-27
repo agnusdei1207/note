@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Hardware", "ARM", "Processor", "Mobile"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. ARM의 프로세서 라인업은 역할에 따라 A(Application), R(Real-time), M(Microcontroller) 세 가지로 나뉜다.
 > 2. 그중 **Cortex-A (Application)** 시리즈는 우리가 쓰는 스마트폰(스냅드래곤, 애플 실리콘)과 라즈베리 파이, 아마존 AWS의 Graviton 서버 칩에 들어가는 **가장 강력한 '메인 CPU'**다.
 > 3. MMU(메모리 관리 장치)를 기본 탑재하여 리눅스나 윈도우 같은 무거운 범용 운영체제(OS)를 완벽하게 돌릴 수 있으며, 10단계 이상의 깊은 파이프라인과 비순차 실행(OoOE), 거대한 L1/L2 캐시를 갖춘 고성능 몬스터다.

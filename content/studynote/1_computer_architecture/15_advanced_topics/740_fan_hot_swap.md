@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Hardware", "Server", "Hot-swap", "Cooling"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 일반 PC는 선풍기(Fan)가 고장 나면 컴퓨터를 끄고 십자드라이버로 나사를 풀고 전원 핀을 뽑아야 한다.
 > 2. 수만 명이 접속 중인 24시간 무중단 서버(Data Center Server)는 고작 1만 원짜리 쿨링팬 하나가 고장 났다고 서버 전원을 내릴(Downtime) 수 없다.
 > 3. 이를 위해 서버의 섀시(껍데기 케이스)에는 팬을 나사 없이 레고 블록처럼 손으로 잡아 뽑고 새 팬을 밀어 넣기만 하면 자동으로 전기가 연결되는 **핫스왑(Hot-swap)** 기술이 기본으로 탑재되어 있다.

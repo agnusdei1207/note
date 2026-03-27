@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Quantum Computing", "Cryptography", "PQC"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 양자 컴퓨터가 상용화되면(특히 쇼어 알고리즘(Shor's Algorithm) 적용 시) 현재 우리가 인터넷 뱅킹에 사용하는 **RSA나 ECC 같은 공개키 암호 체계가 단 몇 분 만에 해킹**될 수 있다.
 > 2. 이를 방어하기 위해 미국 NIST 등은 양자 컴퓨터로도 풀기 힘든 격자(Lattice), 다변수 다항식 기반의 **양자 내성 암호(PQC, Post-Quantum Cryptography)** 표준을 제정하고 있다.
 > 3. 하지만 PQC 알고리즘은 기존 암호보다 연산량이 훨씬 많고 데이터 크기가 커서 소프트웨어로 돌리면 기기가 느려지므로, 이를 초고속으로 처리하기 위한 **PQC 전용 하드웨어 가속기**의 탑재가 차세대 칩셋의 필수 요소가 되고 있다.

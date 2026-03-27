@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Network", "SDN", "SmartNIC", "OVS"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 클라우드 서버(AWS 등) 안에는 수십 개의 가상 머신(VM)이 살고 있으며, 이들끼리 카카오톡을 주고받듯 통신하게 해주는 내선 공유기 역할을 **소프트웨어 가상 스위치(Open vSwitch, OVS)**가 담당한다.
 > 2. 가상 스위치는 패킷이 올 때마다 수천 줄의 방화벽 규칙을 검사(Match-Action)하느라 서버의 메인 CPU 코어 절반을 갉아먹는 '데이터센터 세금(Tax)'의 주범이었다.
 > 3. 이를 타개하기 위해 가상 스위치의 복잡한 라우팅 룰을 **스마트 랜카드(SmartNIC)나 DPU의 하드웨어 스위치 칩(eSwitch)** 안으로 통째로 집어넣어, CPU 개입 없이 100Gbps로 트래픽을 처리하는 기술이 **vSwitch 오프로드**다.

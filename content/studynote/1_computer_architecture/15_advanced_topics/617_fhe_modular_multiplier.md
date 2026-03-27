@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "FHE", "Cryptography", "Hardware Accelerator"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 완전 동형 암호(FHE) 연산은 암호문을 유지한 채 계산하기 위해 엄청나게 거대한 숫자(예: 1024비트, 4096비트)들의 모듈러 연산($A \times B \pmod Q$)을 무한정 반복해야 한다.
 > 2. 일반 CPU는 64비트 연산만 가능하므로 1024비트 곱셈을 하려면 잘게 쪼개어 수백 번의 연산과 자리올림(Carry) 처리를 해야 하는 심각한 병목(Overhead)이 발생한다.
 > 3. 이를 해결하기 위해 FHE 하드웨어 가속기 내부에는 몽고메리(Montgomery)나 바렛(Barrett) 알고리즘을 회로 수준에서 구현한 **대규모 모듈러 곱셈기(Modular Multiplier)**가 탑재되어 연산 속도를 수만 배 끌어올린다.

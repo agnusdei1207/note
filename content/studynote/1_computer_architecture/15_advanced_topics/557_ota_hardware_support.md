@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Embedded Systems", "OTA", "Hardware"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 과거에는 기기의 펌웨어를 업데이트하려면 서비스 센터에 가서 직접 케이블을 꽂아야 했지만, 이제는 테슬라처럼 **무선(OTA, Over-The-Air)**으로 소프트웨어를 고치고 기능을 추가하는 것이 기본이 되었다.
 > 2. OTA 도중에 시동이 꺼지거나 다운로드가 끊기면 기기가 영영 켜지지 않는 **'벽돌(Bricked)' 상태**가 되는데, 이를 원천적으로 막기 위해 칩 내부에 **듀얼 뱅크 플래시(Dual-Bank Flash)** 같은 하드웨어적 이중화 구조를 탑재한다.
 > 3. 업데이트 중에도 기존 뱅크로 정상 작동(Zero-Downtime)하며, 업데이트가 실패해도 즉시 과거 뱅크로 롤백(Rollback)하는 완벽한 페일 세이프(Fail-Safe)를 보장한다.

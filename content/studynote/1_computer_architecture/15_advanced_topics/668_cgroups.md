@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Container", "cgroups", "Linux", "Resource Management"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 앞서 배운 네임스페이스(Namespace)가 프로세스의 눈을 가려 "너 혼자 방에 있다"고 속이는 기술이라면, **cgroups (Control Groups)**는 실제로 **그 방에 공급되는 전기, 물, 산소(CPU, RAM, I/O)의 총량을 물리적으로 제한**하는 통제 기술이다.
 > 2. 서버에 컨테이너(Docker)를 100개 띄웠을 때, 하나의 컨테이너가 버그에 걸려 CPU 100%를 독식해 서버 전체를 마비시키는 이른바 **시끄러운 이웃(Noisy Neighbor)** 문제를 원천 차단한다.
 > 3. 쿠버네티스(Kubernetes)에서 `limits: cpu: "2"`라고 설정하는 순간, 밑바닥 하드웨어 스케줄러와 cgroups가 연동되어 정확히 2코어 이상의 연산력을 절대 주지 않는 엄격한 족쇄 역할을 한다.

@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Network", "NIC", "Offloading"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 과거에는 랜카드(NIC)가 단순히 전기 신호를 받아 메모리에 올려놓는 역할만 하고, 패킷의 오류 검사(Checksum)나 쪼개기(Segmentation) 등은 모두 **메인 CPU가 소프트웨어(OS 커널)로 연산**했다.
 > 2. 네트워크 속도가 1Gbps에서 10G, 100Gbps로 폭증하면서 CPU가 네트워크 처리만 하다가 과부하로 서버가 뻗어버리는 문제가 발생했다.
 > 3. 이를 해결하기 위해, 원래 CPU가 하던 일을 **랜카드 내부의 전용 하드웨어 칩이 대신 처리하도록 짐을 떠넘기는 기술**이 바로 **NIC 오프로딩(Offloading)**이다.

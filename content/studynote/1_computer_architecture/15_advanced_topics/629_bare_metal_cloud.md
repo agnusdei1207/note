@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Cloud Computing", "Bare Metal", "Infrastructure"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 전통적인 클라우드(EC2 등)는 한 대의 물리 서버(Host)를 여러 개의 가상 머신(VM)으로 쪼개어 수십 명의 고객에게 월세방처럼 나눠주는(Multi-tenant) 방식이다.
 > 2. 가상화는 필연적으로 CPU 성능을 갉아먹고, 옆방 손님이 자원을 독식하면 내 성능이 떨어지는 **Noisy Neighbor(시끄러운 이웃) 문제**를 일으킨다.
 > 3. **베어메탈 클라우드(Bare Metal Cloud)**는 가상화(Hypervisor)를 아예 설치하지 않은 '순수 쇳덩어리(Bare Metal) 하드웨어 1대'를 나 혼자 독점(Single-tenant)하면서도, 클릭 한 번에 5분 만에 서버가 켜지는 클라우드의 편리함을 유지하는 궁극의 고성능 인프라다.

@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "AI Accelerator", "Sparsity", "Deep Learning"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 딥러닝 모델(신경망)에서 가중치(Weight)나 활성화(Activation) 값의 상당수(50%~90%)는 **'0(Zero)'**인 경우가 많다. 이렇게 0이 듬성듬성 섞인 상태를 **희소성(Sparsity)**이라 부른다.
 > 2. 기존의 CPU나 일반 GPU는 0인지 아닌지 무식하게 다 읽어와서 `$0 \times X = 0$`이라는 바보 같은 연산을 수억 번 반복하며 전기와 시간을 낭비한다.
 > 3. 최신 AI 가속기(Nvidia Ampere 이후 텐서 코어, NPU)에는 **Sparsity 인코더/디코더**가 탑재되어, 아예 0을 메모리에서 빼고 알맹이(Non-zero)만 가져와 압축된 상태로 고속 행렬 곱을 수행한다.

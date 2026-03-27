@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "AI Accelerator", "Data Pipeline", "GPU"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 딥러닝(AI) 모델 학습이 느려지는 가장 큰 이유는 GPU 성능이 딸려서가 아니라, **GPU에게 먹일 사진/텍스트 데이터를 CPU가 제때제때 예쁘게 가공해서 입에 넣어주지 못하기 때문(Data Starvation)**이다.
 > 2. 이를 해결하기 위해 원시 데이터(Raw Data)가 디스크 $\rightarrow$ 메모리 $\rightarrow$ GPU로 흘러가는 경로인 **데이터 파이프라인(Data Pipeline)** 전체를 가속해야 한다.
 > 3. NVIDIA의 **GPUDirect Storage (GDS)**처럼 디스크에서 GPU VRAM으로 데이터를 CPU 몰래 직통으로 쏘거나, 아예 랜카드(DPU)나 스토리지에서 압축 해제와 이미지 리사이징(Resizing)을 끝내고 넘겨주는 **인 스토리지(In-Storage) 가속** 기술이 핵심이다.

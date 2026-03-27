@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Compiler", "SIMD", "Optimization"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 최신 CPU에는 1클럭에 여러 개의 데이터를 한 번에 계산하는 **SIMD (단일 명령어 다중 데이터)** 벡터 연산기(예: AVX-512, NEON)가 탑재되어 있다.
 > 2. 하지만 개발자가 직접 어셈블리어나 내장 함수(Intrinsic)를 써서 SIMD 코드를 짜는 것은 매우 어렵고 생산성이 떨어진다.
 > 3. **오토 벡터라이제이션(Auto-vectorization)**은 컴파일러(GCC, Clang 등)가 평범한 `for` 문을 분석하여, 데이터 간의 의존성이 없다고 판단되면 **스스로 코드를 SIMD 명령어로 변환**해 성능을 4배~16배 높여주는 마법 같은 기술이다.

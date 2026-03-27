@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Thermal Management", "TjMax", "Hardware"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. CPU 스펙 시트의 **TjMax (Tjunction Max)**는 실리콘 칩 가장 깊숙한 트랜지스터 접합부(Junction)가 녹아내리지 않고 버틸 수 있는 '공장 출고 시 정해진 최대 온도'를 뜻한다. (보통 $100^\circ C \sim 105^\circ C$)
 > 2. CPU 내부의 디지털 온도 센서는 절대 온도를 재는 게 아니라, **"현재 온도와 TjMax까지 몇 도가 남았는가(Distance to TjMax)"**라는 거꾸로 된 숫자를 OS에 보고한다.
 > 3. 이 여유 공간(여백)이 0에 도달하는 순간, 하드웨어는 OS를 무시하고 살기 위해 강제 스로틀링(다운클럭)을 걸거나 전원을 끊어버린다.

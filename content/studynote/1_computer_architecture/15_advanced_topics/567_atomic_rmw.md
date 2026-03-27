@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Concurrency", "Synchronization", "Atomic"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 일반적인 덧셈 연산(`i++`)은 메모리에서 값을 **읽고(Read)**, CPU에서 **수정(Modify)**하고, 다시 메모리에 **쓰는(Write)** 3단계로 나뉘어 있어, 그사이에 다른 스레드가 개입하면 데이터가 박살 나는 '경쟁 상태(Race Condition)'를 유발한다.
 > 2. 이를 막기 위해 CPU는 이 3단계를 절대 남이 끼어들 수 없는 단일 동작으로 보장하는 **원자적(Atomic) RMW 명령어**(예: Test-and-Set, Compare-and-Swap)를 하드웨어적으로 제공한다.
 > 3. RMW 명령어는 소프트웨어 락(Mutex, Spinlock)이나 Lock-free 자료구조를 구현하는 가장 밑바닥의 필수적인 뿌리 기술이다.

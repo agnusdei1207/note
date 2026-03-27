@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Memory Management", "Virtual Memory", "OS"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 물리적 메모리(RAM)는 비싸고 용량이 한정되어 있으므로, 16GB 램 환경에서도 수백 GB의 프로그램들을 띄워놓고 작업할 수 있는 **가상 메모리(Virtual Memory)** 기술이 필수적이다.
 > 2. **스와핑(Swapping)**은 RAM이 꽉 차면, OS가 "가장 오랫동안 안 쓴 데이터(페이지)"를 찾아내어 하드디스크(Swap File / Pagefile)로 쫓아내는(Swap-out) 생존 메커니즘이다.
 > 3. SSD로 쫓겨났던 데이터가 다시 필요해져서 RAM으로 불러오는 과정(Swap-in)은 엄청난 시간 지연을 동반하므로, 스와핑이 너무 자주 일어나면 컴퓨터가 멈춘 듯 느려지는 **스래싱(Thrashing)** 현상에 빠지게 된다.

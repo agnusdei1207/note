@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Storage", "Network", "SAN", "Topology"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. SAN(Storage Area Network) 환경에서 서버와 스토리지를 파이버 채널(FC) 광케이블로 연결할 때, 선을 어떻게 엮느냐에 따라 트래픽 병목과 확장성이 완전히 달라진다.
 > 2. **FC-AL (Arbitrated Loop)** 방식은 구형 방식으로, 서버와 스토리지들을 **하나의 동그란 링(Ring) 형태**로 연결한다. 싸고 단순하지만, 한 놈이 데이터를 보내면 링 전체가 꽉 막히는 끔찍한 병목이 있다.
 > 3. **FC-SW (Switched Fabric)** 방식은 현대 데이터센터의 표준으로, 중간에 **SAN 스위치(교차로)**를 두어 모든 서버와 스토리지를 별개의 1:1 차선으로 연결하는 그물망 구조다. 스위치가 트래픽을 완벽하게 분산시켜 무한한 속도와 확장성을 보장한다.

@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Security", "Fault Injection", "Hardware", "Glitching"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 앞 장의 플런더버그(Plundervolt)가 OS(소프트웨어) 상에서 전압을 깎아 내리는 공격이었다면, **볼티지 글리칭(Voltage Glitching)**은 아예 **칩의 전원 선(Vcc)에 장비를 물리적으로 꽂아 전기 충격을 주는 순수 하드웨어 해킹**이다.
 > 2. CPU가 "비밀번호가 맞는지(If문)" 검사하는 정확히 그 클럭(나노초)에 전압을 0V로 살짝 내렸다(Glitch) 올리면, CPU는 일시적인 기절 상태에서 엉뚱한 값(True)을 뱉어내며 보안 문을 활짝 열어버린다.
 > 3. 소니 플레이스테이션, 닌텐도 스위치, 셋톱박스 등을 불법 개조(커펌)할 때 가장 많이 쓰이는 무식하고도 전통적인 하드웨어 파훼법이다.

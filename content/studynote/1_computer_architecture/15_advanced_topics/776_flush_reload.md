@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Security", "Side-channel Attack", "Cache", "Flush+Reload"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 앞 장의 Prime+Probe가 넓은 바다에서 그물을 치는 방식이라면, **Flush+Reload**는 해커와 피해자가 **같은 파일(예: `libc.so` 같은 리눅스 공유 라이브러리)**을 메모리에 올려놓고 쓸 때 사용하는 정밀 저격수(Sniper) 같은 방식이다.
 > 2. OS는 메모리를 아끼기 위해 A 프로그램과 B 프로그램이 같은 파일을 쓰면 물리적 RAM을 '하나만' 복사해 두고 같이 쳐다보게(Page Sharing) 만든다. (이것이 치명적 약점)
 > 3. 해커는 특정 주소를 캐시에서 강제로 삭제(Flush)한 뒤, 피해자가 실행되길 기다렸다가 다시 그 주소를 읽어봄(Reload)으로써 피해자가 그 주소를 사용했는지 **단 1캐시 라인(64바이트) 단위의 극강의 해상도**로 알아낸다. (멜트다운 공격의 핵심 탈출 기법)

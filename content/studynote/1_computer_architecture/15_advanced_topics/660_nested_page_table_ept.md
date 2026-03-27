@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Virtualization", "Memory Management", "EPT", "NPT"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 일반 PC는 프로그램 가상 주소 $\rightarrow$ 물리 주소(1번 번역)로 끝나지만, 가상 머신(VM)은 **[VM 안의 가상 주소 $\rightarrow$ VM의 가짜 물리 주소 $\rightarrow$ 진짜 서버의 물리 주소]**라는 2단계의 번역을 거쳐야 한다.
 > 2. 과거에는 이 2단계 번역을 소프트웨어적으로 합치는 섀도 페이지 테이블(Shadow Page Table)을 썼으나, 매번 장부가 동기화되는 과정(Page Fault)에서 CPU가 수만 클럭을 낭비하는 치명적 병목이 발생했다.
 > 3. 이를 해결하기 위해 인텔은 **EPT(Extended Page Table)**를, AMD는 **NPT(Nested Page Table)**라는 기술을 도입하여, 이 2단계 2차원 번역을 **순수 하드웨어 MMU 회로**가 1클럭 만에 캐시(TLB)를 이용해 대신해 주도록 혁신했다.

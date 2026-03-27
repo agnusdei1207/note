@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Memory Management", "TLB", "Virtual Memory"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 운영체제는 물리 메모리를 쪼개어 쓸 때 수십 년간 기본적으로 **4KB 단위의 작은 페이지(Page)**를 사용해왔다.
 > 2. 그러나 현대의 데이터베이스나 인메모리 시스템은 수백 GB의 메모리를 사용하므로, 4KB로 쪼개면 주소 변환 장부(Page Table)가 너무 커져서, 주소를 빠르게 찾아주는 캐시인 **TLB(Translation Lookaside Buffer)의 용량을 초과해 잦은 미스(Miss)**가 발생한다.
 > 3. 이를 해결하기 위해 페이지 크기를 **2MB 또는 1GB 단위로 엄청나게 키우는 '거대 페이지(Huge Page)'** 기술을 적용하면, TLB 히트율이 극도로 상승하여 시스템 전체의 메모리 접근 속도가 크게 향상된다.

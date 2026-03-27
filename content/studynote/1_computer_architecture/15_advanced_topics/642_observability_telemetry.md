@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Observability", "Telemetry", "Data Center"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 과거의 모니터링은 "CPU 점유율이 80%네, 핑(Ping)이 10ms네" 수준의 겉핥기였다면, 현대 클라우드의 **옵저버빌리티(Observability, 관측 가능성)**는 "어떤 패킷이 3번 스위치를 통과할 때 정확히 1.2$\mu s$의 병목이 생겼다"를 투시하는 기술이다.
 > 2. 이를 소프트웨어(OS)로 추적하면 추적하는 행위 자체가 CPU 부하를 일으켜(Heisenbug 현상) 시스템이 느려진다.
 > 3. 따라서 최신 스위치 칩(ASIC)과 스마트 랜카드(DPU) 안에는 **인밴드 네트워크 텔레메트리(INT)** 등의 특수 하드웨어 회로가 박혀 있어, 데이터가 지나가는 즉시 자기들끼리 꼬리표를 붙여 외부 분석 서버로 쏴주는(Telemetry) 역할을 한다.

@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Power Management", "Throttling", "T-States"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. ACPI 전력 관리 규격에는 C-State(수면), P-State(성능) 외에도 **T-State(스로틀링 상태)**라는 오래된 개념이 존재한다.
 > 2. 과거(펜티엄 4 시절)에는 칩에 DVFS(전압/클럭 조절) 기능이 없어서, 한 번 3GHz로 돌기 시작하면 전압과 속도를 깎아내릴(P-State 하향) 수 없었다.
 > 3. 온도가 폭주하면 칩이 타는 것을 막기 위해, 클럭 주파수를 그대로 둔 채 **톱니바퀴 이빨을 빼듯 클럭 신호를 중간중간 강제로 끊어버려(Clock Duty Cycle 조절) CPU를 반강제로 쉬게 만드는 원시적인 냉각 기법**이 바로 T-State다.

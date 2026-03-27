@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Infrastructure", "BMC", "Virtual Media"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 깡통 서버(OS가 없는 서버)를 샀을 때, 그 서버에 윈도우나 리눅스를 설치하려면 원칙적으로 부팅 가능한 **USB나 CD를 서버 앞구멍에 직접 꽂아야** 한다.
 > 2. 하지만 수백 km 떨어진 데이터센터에 매번 차를 타고 가서 USB를 꽂을 수는 없다. 
 > 3. **원격 미디어 마운트 (Virtual Media Mount)** 기술은 내 노트북에 있는 파일(ISO)을 BMC 칩에 전송하여, 서버 메인보드에게 **"방금 물리적인 USB 드라이브가 꽂혔다!"고 하드웨어적으로 사기를 치는 원격 포맷/설치의 마법**이다.

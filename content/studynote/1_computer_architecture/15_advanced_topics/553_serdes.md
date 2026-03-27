@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Hardware", "Network", "PCIe"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. **SerDes (Serializer/Deserializer, 직렬화/역직렬화)** 회로는 여러 가닥의 병렬(Parallel) 선으로 들어오는 데이터를, 아주 빠른 속도의 **단일(Serial) 선 하나로 뭉쳐서 보내는(Serialize)** 송신부와, 이를 받아 다시 병렬로 푸는(Deserialize) 수신부를 뜻한다.
 > 2. 과거에는 데이터 통신 속도를 올리기 위해 핀(Pin)과 선의 개수를 무식하게 늘렸으나(예: PATA 케이블), 선이 많아지면 서로의 전자기 간섭(Crosstalk)과 타이밍 불일치(Skew)가 발생해 칩이 고장 난다.
 > 3. 오늘날의 USB, PCIe, SATA, 이더넷 등 **모든 고속 통신 규격의 근간은 바로 이 SerDes 기술**을 통해 선 개수는 줄이면서 클럭 주파수는 미친 듯이 올리는 방식으로 진화했다.

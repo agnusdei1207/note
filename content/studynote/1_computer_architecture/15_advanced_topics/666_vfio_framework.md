@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Virtualization", "Linux", "VFIO", "PCIe Passthrough"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 클라우드에서 AI 모델을 훈련하려면 가상 머신(VM) 안에서 최신 Nvidia GPU를 100% 성능으로 돌려야 한다.
 > 2. 이때 하이퍼바이저가 중간에 끼어서 GPU 명령을 통제하면 속도가 급락하므로, 아예 **호스트 서버에 꽂힌 물리 GPU 장치를 통째로 뜯어내어 VM에게 직접 던져주는 'PCIe 패스스루(Passthrough)'**가 필요하다.
 > 3. **VFIO (Virtual Function I/O)**는 리눅스 커널에서 이 물리 장치의 제어권을 안전하게 사용자(VM)에게 넘겨주고, IOMMU를 이용해 메모리 침범을 막아주는 가장 핵심적인 하드웨어 직접 접근 프레임워크다.

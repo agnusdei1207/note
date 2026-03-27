@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Virtualization", "Memory Management", "Shadow Page Table"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 가상 머신(VM)에서 메모리를 읽으려면 `VM의 가상 주소 $\rightarrow$ VM의 가짜 물리 주소 $\rightarrow$ 진짜 서버의 물리 주소`라는 끔찍한 2단계 번역을 거쳐야 한다.
 > 2. CPU에 하드웨어 가상화 기능(EPT/NPT)이 없던 시절, 하이퍼바이저(VMware 등)는 이 병목을 피하기 위해 **`가상 주소 $\rightarrow$ 진짜 물리 주소`로 바로 직행하는 숏컷 장부인 '그림자 페이지 테이블(Shadow Page Table)'을 소프트웨어로 만들어 CPU(MMU)에 꽂아주었다.**
 > 3. 속도는 그럭저럭 빠르지만, VM이 자신의 원래 장부를 수정할 때마다 하이퍼바이저가 몰래 따라가서 그림자 장부도 똑같이 수정해 주어야 하는 **극심한 동기화 오버헤드(Trap & Emulate)**가 발생했다.

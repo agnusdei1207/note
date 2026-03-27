@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Memory", "Compression", "GPU"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. CPU나 GPU 코어는 너무 빨라졌지만, 메모리와 연결된 도로는 차선(Bandwidth)이 한정되어 있어 언제나 **데이터 병목(Traffic Jam)**에 시달린다.
 > 2. 이를 해결하기 위해, 데이터를 버스에 태워 보내기 직전에 하드웨어 인코더가 **손실 없이 데이터를 압축(Encoding)**하고, 도착하자마자 풀어(Decoding) 통신량 자체를 줄이는 기술이 사용된다.
 > 3. 주로 그래픽카드의 VRAM 통신(Delta Color Compression)이나 스마트폰 AP 등에서 대역폭을 절약하고 전력 소모를 극적으로 낮추는 데 쓰인다.

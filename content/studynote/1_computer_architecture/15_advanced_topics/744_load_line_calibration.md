@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Power Management", "Hardware", "Overclocking", "LLC"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 물리 법칙상, 전선에 전류(A)가 엄청나게 많이 흐르면 저항에 의해 전압(V)이 뚝 떨어지는 현상이 무조건 발생하는데 이를 **Vdroop (전압 강하)**라고 한다.
 > 2. CPU가 게임을 켤 때 순간적으로 전기를 미친 듯이 빨아들이면 이 Vdroop 현상 때문에 1.2V였던 전압이 1.1V로 뚝 떨어져서 **CPU가 0과 1을 구분하지 못하고 뻗어버리는 블루스크린**이 터진다.
 > 3. 이를 막기 위해 메인보드 BIOS에 내장된 **LLC(Load Line Calibration)** 기능은, CPU가 풀로드에 걸리는 순간 **메인보드가 미리 계산해서 전압을 0.1V만큼 억지로 멱살 잡고 끌어올려(보정)** 칼전압을 유지하게 만드는 핵심 안전장치다.

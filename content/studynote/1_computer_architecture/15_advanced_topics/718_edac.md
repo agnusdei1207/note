@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Reliability", "Linux", "ECC", "EDAC"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 하드웨어의 ECC(오류 정정 부호)나 PCIe AER 기능은 에러를 발견하면 1나노초 만에 하드웨어 레벨에서 조용히 고쳐버린다.
 > 2. 하지만 이 '고쳐진 에러(Correctable Error)'들이 쌓인다는 것은 결국 램(RAM)이나 메인보드의 수명이 다 되어 곧 칩이 완전히 타버릴 것이라는 무서운 전조 증상이다.
 > 3. **EDAC (Error Detection and Correction)**은 리눅스 커널 내부의 모듈로, 하드웨어가 고친 에러 로그를 묵살하지 않고 CPU 레지스터에서 긁어모아 **"3번 슬롯의 RAM이 오늘 100번이나 에러를 고쳤다! 당장 교체해라!"라고 SRE(서버 관리자)에게 알려주는 예지 정비의 핵심 시스템**이다.

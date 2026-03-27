@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "RTOS", "Interrupt", "Latency"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 하드웨어 인터럽트가 발생했을 때 CPU가 하던 일을 멈추고 해당 인터럽트 처리 루틴(ISR)의 첫 번째 명령어를 실행할 때까지 걸리는 시간을 **인터럽트 지연 시간(Interrupt Latency)**이라고 한다.
 > 2. 일반 PC는 100ms 정도 지연되어도 마우스 커서가 살짝 끊길 뿐이지만, 자율주행 자동차나 공장 로봇(RTOS 환경)에서는 **1ms의 지연이 대형 사고와 인명 피해**로 이어진다.
 > 3. 이 지연을 나노초(ns) 단위로 줄이기 위해 섀도 레지스터(Shadow Register), 꼬리 물기(Tail Chaining), 선점형 커널(Preemptive Kernel) 등의 하드웨어/소프트웨어 최적화가 총동원된다.

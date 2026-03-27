@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Security", "Side-channel Attack", "Cache", "Evict+Time"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 앞서 배운 Prime+Probe나 Flush+Reload는 내가(해커가) 캐시를 직접 읽어보며(Probe/Reload) 히트냐 미스냐를 판별했다.
 > 2. **Evict+Time**은 방식이 다릅니다. 해커가 특정 캐시 방을 비워버린(Evict) 뒤 자기가 읽어보는 게 아니라, **피해자(은행 앱)가 암호화를 끝마치는 데 걸리는 '전체 실행 시간(Time)'을 스톱워치로 재서 비밀을 맞히는 통계적 공격 기법**이다.
 > 3. 만약 내가 3번 방을 비웠는데 은행 앱의 실행 속도가 유독 느려졌다면, "아! 은행 앱이 3번 방 데이터를 썼기 때문에, 램에서 다시 가져오느라 전체 시간이 지연됐구나!"라고 추론하는 원리다.

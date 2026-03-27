@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Security", "Network", "IPsec", "Offloading"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. **IPsec (Internet Protocol Security)**은 패킷의 내용(Payload)뿐만 아니라 헤더까지 통째로 암호화하여(Tunnel Mode), 인터넷 위에서 우리 회사만의 안전한 비밀 통로(VPN)를 뚫어주는 강력한 네트워크 보안 프로토콜이다.
 > 2. AES-256이나 SHA 암호화를 10Gbps 이상의 속도로 실시간으로 풀고 묶는 작업은 범용 CPU에게는 끔찍한 고문(Overhead)이며 통신 지연의 주범이 된다.
 > 3. 이를 해결하기 위해 방화벽 장비나 서버 랜카드(SmartNIC) 내부에는 패킷이 통과하는 즉시 파이프라인에서 암호를 걸어버리는 **IPsec 전용 하드웨어 가속기**가 장착된다.

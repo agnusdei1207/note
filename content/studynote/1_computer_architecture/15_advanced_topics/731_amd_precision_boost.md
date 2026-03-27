@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Power Management", "Precision Boost", "AMD", "Ryzen"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 인텔에 터보 부스트(Turbo Boost)가 있다면, **AMD에는 프리시전 부스트(Precision Boost, PB)**가 있다.
 > 2. 인텔의 부스트가 100MHz 단위로 툭툭 끊어지며(계단식) 다소 보수적으로 클럭을 올렸다면, AMD의 PB는 칩 내부의 수천 개 스마트 센서 네트워크(Infinity Fabric)를 활용해 **25MHz라는 극도로 미세한 단위로 클럭을 쥐어짜 올리는(Precision)** 변태적인 기술이다.
 > 3. 여기에 쿨러 성능이 좋으면 사용자가 튜닝할 필요 없이 하드웨어가 스스로 봉인을 해제하여 공장 스펙 이상으로 클럭을 무한정 쏘아 올리는 **PBO (Precision Boost Overdrive)**라는 끝판왕 기술이 라이젠의 성공을 이끌었다.

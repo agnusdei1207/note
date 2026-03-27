@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Von Neumann Bottleneck", "Memory"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. **폰 노이만 병목(Von Neumann Bottleneck)**은 연산 장치(CPU)와 저장 장치(메모리)가 물리적으로 분리되어 있어, 둘 사이의 데이터 전송 속도(대역폭)가 CPU의 연산 속도를 따라가지 못해 시스템 전체 성능이 저하되는 현상이다.
 > 2. 이를 완화하기 위한 고전적인 방법은 **메모리 계층 구조(캐시 메모리)**를 두어 CPU 가까이에 데이터를 미리 가져다 놓는 것이다.
 > 3. 최근의 궁극적인 개선 기법은 아예 데이터를 메모리에서 꺼내오지 않고 메모리 내부에서 직접 연산을 수행하는 **인 메모리 컴퓨팅(PIM, Processing-In-Memory)** 기술로 진화하고 있다.

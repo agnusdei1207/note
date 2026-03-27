@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "High Availability", "Fault Tolerance", "Non-Stop"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 일반적인 클라우드 클러스터링(Active-Standby)은 장애가 났을 때 다른 서버로 넘어가느라 **아주 짧은 시간(수 초~수 분)의 서비스 중단(Downtime)**이 필연적으로 발생한다.
 > 2. 증권 거래소나 항공 통제 시스템은 이 단 1초의 끊김조차 용납하지 않는다. 이를 위해 탄생한 것이 **무정전 (Non-Stop) 또는 무결함(Fault-Tolerant) 아키텍처**다.
 > 3. 이를 달성하기 위해 메인보드, CPU, 메모리, 파워서플라이를 모두 2개~3개씩 박아놓고 **하드웨어 락스텝(Lockstep)**으로 똑같은 연산을 동시에 시켜, 하나가 죽어도 0.0001초의 멈춤 없이 남은 놈이 계속 연산을 이어가게 만든다.

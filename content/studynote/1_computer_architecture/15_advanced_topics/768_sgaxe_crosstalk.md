@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Security", "Intel SGX", "MDS", "Hardware Bug"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 인텔 SGX(Software Guard Extensions)는 OS가 해킹당해도 절대 털리지 않는 '하드웨어 금고(Enclave)'다. 이 안의 데이터는 RAM에 저장될 때도 암호화되어 있다.
 > 2. **SGAxe**는 앞서 배운 좀비로드(MDS) 취약점을 발전시켜, SGX 내부에서 쓰이는 **암호화 증명 키(Attestation Key)를 L1 캐시 밖으로 유출**시킨 뒤 가짜 증명서를 만들어내는 치명적인 공격이다.
 > 3. **CrossTalk**는 코어 1번(해커)이 링 버스(Ring Bus) 등 CPU 내부 공용 통로에 찌꺼기(Staging Buffer)로 남겨진 코어 2번(피해자, SGX)의 데이터를 **서로 다른 물리 코어 사이에서 훔쳐보는 최초의 코어 간 추측 실행 공격**이다.

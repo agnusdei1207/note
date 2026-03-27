@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Virtualization", "Intel", "VMX"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 과거에는 운영체제(OS)가 시스템의 최고 권력자(Ring 0)였다. 하지만 가상 머신(VM) 환경에서는 여러 개의 가짜 OS(Guest OS)와 하나의 진짜 관리자(Hypervisor)가 공존해야 하므로, **누가 진짜 왕인지 구별할 새로운 권한 체계**가 필요했다.
 > 2. 인텔은 VMX(Virtual Machine Extensions)라는 기술을 도입하여, CPU의 동작 모드를 **VMX Root 모드(진짜 왕)**와 **VMX Non-Root 모드(가짜 왕)**로 쪼개버렸다.
 > 3. 가상 머신(Guest OS)은 자신이 Non-Root 모드에 갇힌 줄도 모른 채 스스로를 Ring 0라고 착각하며 편안하게 코드를 실행한다.

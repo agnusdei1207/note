@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Network", "DPDK", "Kernel Bypass"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 리눅스 커널(OS)의 TCP/IP 스택은 인터럽트(Interrupt)와 컨텍스트 스위칭(Context Switching)이라는 무거운 과정을 거치기 때문에, 100Gbps 시대의 초당 수천만 개 패킷을 감당하면 CPU가 터져버린다.
 > 2. 인텔이 만든 **DPDK**는 이 병목을 피하기 위해 **커널 우회(Kernel Bypass)**라는 과격한 방식을 쓴다. 랜카드로 들어온 패킷을 OS 커널에 주지 않고, **사용자(유저 모드) 프로그램이 메모리에서 직접 낚아채게(Polling) 만든다.**
 > 3. 이를 통해 인터럽트와 상자 포장(sk_buff) 오버헤드가 '0'이 되어, 일반 x86 서버도 수억 원짜리 전용 하드웨어 라우터 부럽지 않은 극강의 패킷 처리량(Throughput)을 자랑하게 된다.

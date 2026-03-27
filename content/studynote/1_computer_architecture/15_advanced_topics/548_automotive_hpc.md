@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Automotive", "HPC", "Autonomous Driving"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 과거의 자동차는 창문용 칩, 와이퍼용 칩, 엔진용 칩 등 수십~수백 개의 저성능 **ECU(전자 제어 유닛)**가 파편화되어 달려있었다.
 > 2. 레벨 3 이상의 자율주행 시대가 오면서, 라이다/레이더/카메라 데이터를 실시간으로 융합(Sensor Fusion)하고 AI 추론을 해야 하므로, 이 파편화된 칩들을 하나의 거대한 **차량용 고성능 컴퓨터(Automotive HPC)**로 통합하는 조닝(Zonal) 아키텍처 혁명이 일어나고 있다.
 > 3. 이 HPC 칩(예: Tesla FSD 칩, Nvidia Thor)은 스마트폰 이상의 CPU와 거대한 NPU, 그리고 인간의 생명을 지키기 위한 극도의 결함 허용(ASIL-D) 이중화 구조를 동시에 갖춘 괴물 칩이다.

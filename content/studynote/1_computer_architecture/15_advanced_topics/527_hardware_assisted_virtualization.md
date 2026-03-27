@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Virtualization", "Hypervisor"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 초기 클라우드의 **가상 머신(Virtual Machine, VM)**은 하드웨어를 소프트웨어로 흉내 내는(Emulation/Binary Translation) 방식을 써서 진짜 하드웨어보다 속도가 수십 배 느린 치명적인 오버헤드가 있었다.
 > 2. 이를 해결하기 위해 Intel VT-x, AMD-V 같은 **하드웨어 보조 가상화(Hardware-Assisted Virtualization)** 기술이 등장했다.
 > 3. CPU 안에 가상 머신만을 위한 새로운 계급장(Root Mode / Non-Root Mode)을 추가하여, 가상 머신(Guest OS)이 하드웨어와 **거의 1:1 직통으로 소통(Native Execution)**하게 만듦으로써 오버헤드를 0에 가깝게 줄였다.

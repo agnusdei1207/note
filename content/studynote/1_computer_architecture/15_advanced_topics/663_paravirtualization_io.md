@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Virtualization", "I/O", "Hypervisor"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 가상 머신(VM)에서 랜카드나 하드디스크를 쓸 때, 하이퍼바이저가 "네가 쓰는 랜카드는 진짜 리얼텍(Realtek) 구형 랜카드야"라고 완벽하게 속여 흉내(Emulation) 내는 방식을 **전가상화(Full Virtualization) I/O**라고 한다.
 > 2. 이 방식은 호환성은 완벽하지만, 명령어를 일일이 번역하느라 속도가 처참하게 느리다.
 > 3. 이를 극복하기 위해, VM 속의 운영체제(Guest OS)가 자신이 가상 환경임을 스스로 인지하고, 번역기를 거치지 않고 하이퍼바이저와 전용 통신 채널로 직접 대화하는 방식을 **반가상화(Paravirtualization) I/O**라고 하며, 현대 클라우드의 표준 성능 최적화 기법이다.

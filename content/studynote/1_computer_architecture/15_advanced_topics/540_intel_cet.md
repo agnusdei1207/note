@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Security", "Buffer Overflow", "Intel CET"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 전통적인 **버퍼 오버플로우(Buffer Overflow)** 공격은 해커가 입력창에 쓸데없이 긴 데이터를 밀어 넣어, 함수가 끝나고 돌아갈 주소(Return Address)를 악성 코드가 있는 곳으로 덮어써 버리는 해킹 기법이다.
 > 2. 이를 막기 위해 ASLR, DEP 같은 소프트웨어 방어책이 나왔으나, 해커들은 기존에 있는 정상 코드 조각들을 엮어서 공격하는 **ROP(반환 지향 프로그래밍)**라는 우회 기법으로 창과 방패의 싸움을 이어갔다.
 > 3. 이 지긋지긋한 싸움을 끝내기 위해, 인텔(Intel CET)과 ARM(PAC)은 CPU 안에 **'그림자 스택(Shadow Stack)'** 등의 하드웨어 구조를 추가하여, 반환 주소가 조작되면 CPU가 직접 프로그램을 강제 종료시키는 궁극의 방패를 도입했다.

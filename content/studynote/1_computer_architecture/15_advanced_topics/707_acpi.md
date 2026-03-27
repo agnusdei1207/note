@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Power Management", "ACPI", "OS"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 과거에는 절전 모드나 쿨링팬 속도 조절을 메인보드의 BIOS(하드웨어 펌웨어)가 독단적으로 결정하여, 운영체제(Windows)가 통제권을 가질 수 없어 프로그램이 꼬이는 일이 흔했다.
 > 2. **ACPI**는 인텔, 마이크로소프트, 도시바 등이 뭉쳐서 만든 규격으로, **"전력(Power) 관리와 장치 설정(Configuration)의 모든 통제권을 멍청한 하드웨어가 아닌 똑똑한 운영체제(OS)에게 넘기자"**는 혁명적 합의다 (OSPM: OS-Directed Power Management).
 > 3. 우리가 아는 컴퓨터의 수면 상태(S3 절전, S4 최대 절전 모드)나 CPU의 성능/전압 조절(P-State, C-State)은 모두 이 ACPI 표준에 의해 OS와 하드웨어가 완벽히 소통하며 이루어진다.

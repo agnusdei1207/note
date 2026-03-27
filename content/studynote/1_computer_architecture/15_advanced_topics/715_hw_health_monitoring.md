@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Hardware", "Monitoring", "Sensors"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 인간이 피검사를 통해 콜레스테롤 수치를 보듯, 서버 하드웨어 역시 건강 상태(온도, 전압, 팬 속도)를 끊임없이 체크하지 않으면 부품이 수명을 다하기 전에 터져버린다.
 > 2. 서버 메인보드에는 이 수치들을 아날로그 전류로 측정한 뒤 디지털 숫자로 변환(ADC)하여 저장하는 **수많은 하드웨어 센서 레지스터(Sensor Registers)**가 점조직처럼 깔려 있다.
 > 3. 앞서 배운 BMC(Baseboard Management Controller) 칩은 이 센서 레지스터들을 I2C(I-squared-C)라는 가느다란 버스 선으로 돌아다니며 데이터를 싹 긁어모아 관리자에게 경고(SNMP Trap)를 날린다.

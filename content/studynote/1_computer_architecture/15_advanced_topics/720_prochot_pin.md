@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Power Management", "Hardware", "Thermal"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 앞 장에서 배운 다운클럭킹이 일어나는 물리적인 방아쇠가 바로 CPU 밑바닥에 달린 **PROCHOT# (Processor Hot)** 핀이다.
 > 2. CPU 온도가 한계치(TjMax)에 도달하면 이 핀에 전압이 걸리며, CPU 스스로 성능을 반토막 낸다.
 > 3. 더 중요한 점은 이 핀이 **양방향(Bi-directional)**이라는 것이다. CPU는 차가워도 그래픽카드(GPU)나 배터리가 과열되면, 메인보드가 이 PROCHOT# 핀을 역으로 찔러서 **CPU를 강제로 기절(다운클럭)시켜 전체 시스템의 발열을 식히는 지능형 연계 냉각 기술**로 쓰인다.

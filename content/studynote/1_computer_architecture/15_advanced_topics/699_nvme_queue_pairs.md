@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Storage", "NVMe", "Queue", "Parallel Processing"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 과거 하드디스크(HDD)를 위해 설계된 SATA(AHCI) 인터페이스는 **단 1개의 큐(대기열)**만 가지고 있었으며, 여기에 최대 32개의 명령어만 세워둘 수 있었다. 코어가 64개라도 입구가 1개뿐이라 심각한 병목이 일어났다.
 > 2. 플래시 메모리(SSD)를 위해 처음부터 백지에서 설계된 **NVMe (Non-Volatile Memory Express)**의 핵심은, 무려 **65,535개의 큐 쌍(Queue Pairs)**을 지원한다는 점이다.
 > 3. CPU의 코어마다 자신만의 독점적인 큐(전용 입구)를 1개씩 할당해 주어, 코어들끼리 락(Lock)을 걸고 싸우지 않고 SSD에 동시에 데이터를 때려 넣을 수 있는 무한대의 병렬성을 제공한다.

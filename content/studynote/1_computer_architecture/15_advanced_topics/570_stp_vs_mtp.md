@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Multicore", "Performance", "Amdahl's Law"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. **STP (Single-Thread Performance)**는 오직 1개의 코어가 얼마나 빠르고 묵직하게 단일 작업을 처리해 내는가를 나타내는 지표다. (게이밍, 실시간 반응에 중요)
 > 2. **MTP (Multi-Thread Performance)**는 코어 1개의 성능은 다소 낮더라도, 수십 개의 코어가 병렬로 얼마나 많은 작업을 동시에 쏟아내는가(Throughput)를 나타내는 지표다. (렌더링, 클라우드 서버에 중요)
 > 3. 제한된 칩 면적(TDP, 비용) 안에서 STP를 높이려면 뚱뚱한 코어 1개를, MTP를 높이려면 날씬한 코어 10개를 넣어야 하므로 둘은 완벽한 상충 관계(Trade-off)를 가진다.

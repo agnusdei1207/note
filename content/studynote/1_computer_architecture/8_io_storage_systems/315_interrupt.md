@@ -6,7 +6,7 @@ date = "2026-03-26"
 categories = "studynote-computer-architecture"
 +++
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 인터럽트(Interrupt)는 CPU(Central Processing Unit)가 프로그램을 실행하는 도중 예기치 않은 사건이 발생했을 때, 현재 작업을 즉시 중단하고 해당 사건을 우선 처리하도록 유도하는 **비동기적 통지 메커니즘**이다.
 > 2. 무한 반복하며 상태를 확인하는 폴링(Polling) 방식의 자원 낭비를 완전히 제거하여, CPU가 연산에만 집중할 수 있게 함으로써 **현대적 멀티태스킹(Multitasking)과 시분할 시스템의 기술적 토대**를 제공한다.
 > 3. 상태 보존(Context Save)과 인터럽트 서비스 루틴(ISR, Interrupt Service Routine) 실행, 그리고 상태 복구(Context Restore)로 이어지는 정교한 흐름을 통해 시스템의 안정성과 실시간 응답성을 보장한다.

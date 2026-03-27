@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Memory", "Prediction"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. CPU가 성능을 높이려면 앞의 쓰기(Store)를 무시하고 읽기(Load)를 새치기(Bypass)시켜야 하지만, 두 주소가 같다면 심각한 오류가 발생해 파이프라인을 다 버려야(Flush) 한다.
 > 2. **메모리 의존성 예측기 (Memory Dependence Predictor)**는 이 두 명령어의 메모리 주소가 계산되기 전에, "이 둘은 과거에 겹쳤었나?"를 통계적으로 예측하여 새치기를 허용할지 말지 결정하는 지능형 모듈이다.
 > 3. 분기 예측(Branch Prediction)이 "어느 길로 갈까?"를 예측한다면, 이것은 **"서로 부딪힐까?"를 예측**하는 또 다른 형태의 딥러닝/통계 기반 하드웨어다.

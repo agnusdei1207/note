@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Storage", "Data Lake", "Big Data", "Cloud"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 과거에는 데이터를 분석하기 위해 데이터를 예쁘게 정제(ETL)하여 표(Table) 모양으로 깎은 뒤, 비싼 전용 장비인 **데이터 웨어하우스(Data Warehouse)**에 저장했다. (형식 엄격, 고비용)
 > 2. AI 딥러닝 시대가 오면서 사진, CCTV 영상, 센서 로그 등 형식이 없는(Unstructured) 데이터가 폭발했다. 이 날것(Raw)의 데이터를 가공하지 않고 무한대로 들이붓는 거대한 저장소가 **데이터 레이크(Data Lake)**다.
 > 3. 이 무한한 확장을 감당하기 위해, 데이터 레이크의 하드웨어는 폴더 구조(트리)를 버리고, 모든 데이터에 고유한 이름표표(Metadata)만 달아 1차원 평면에 무식하게 때려 박는 **오브젝트 스토리지(Object Storage, 예: AWS S3)** 구조를 채택한다.

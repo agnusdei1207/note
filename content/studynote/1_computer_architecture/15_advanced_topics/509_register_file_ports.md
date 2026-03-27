@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Superscalar", "Register File"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. **레지스터 파일(Register File)**은 CPU 내부에서 가장 빠른 저장 공간(SRAM 배열)으로, ALU가 계산을 하기 위해 데이터를 꺼내고(Read) 넣는(Write) 핵심 장소다.
 > 2. 한 클럭에 여러 명령어를 처리하는 수퍼스칼라 구조에서는 레지스터에 뚫려 있는 **포트(Port, 입출력 통로)의 개수**가 곧 CPU의 동시 실행 능력(IPC)을 결정짓는 물리적 한계선이 된다.
 > 3. 포트 수를 늘리면 면적과 소비 전력이 제곱(Quadratic)에 가깝게 폭증하므로, 뱅크 분할이나 다중 복제(Replication) 같은 우회 설계가 필수적이다.

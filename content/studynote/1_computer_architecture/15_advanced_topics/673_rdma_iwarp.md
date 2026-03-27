@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Network", "RDMA", "iWARP", "TCP/IP"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 앞서 배운 RoCE(RDMA over Converged Ethernet)는 이더넷 위에서 RDMA를 돌리지만, 패킷 유실을 극도로 혐오하여 스위치(하드웨어)에 무손실(Lossless) 세팅을 해야 하는 까다로움이 있었다.
 > 2. **iWARP (Internet Wide Area RDMA Protocol)**는 RoCE와 달리 아예 **우리가 매일 쓰는 표준 TCP/IP 프로토콜 스택 위에서 RDMA를 구동**하는 방식이다.
 > 3. TCP가 알아서 패킷 순서를 맞추고 재전송을 해주기 때문에(무손실 보장), 스위치나 라우터에 아무런 특수 세팅을 할 필요 없이 **일반 인터넷망을 가로질러서도 즉시 구축할 수 있다는 엄청난 범용성**을 자랑한다.

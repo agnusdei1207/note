@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Distributed System", "CAP Theorem", "Storage"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 서버 한 대가 아니라 서울, 도쿄, 뉴욕에 분산된 거대한 스토리지 클러스터를 만들 때 설계자는 반드시 **CAP 정리**의 지배를 받는다.
 > 2. **C(일관성, Consistency)**: 모든 사용자가 항상 똑같은 최신 데이터를 보장받아야 한다.
 > 3. **A(가용성, Availability)**: 서버 몇 대가 고장 나도 멈추지 않고 항상 응답을 줘야 한다.

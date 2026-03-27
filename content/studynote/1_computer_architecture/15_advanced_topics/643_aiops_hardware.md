@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "AIOps", "Data Center", "Machine Learning"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 수만 대의 서버가 돌아가는 하이퍼스케일 데이터센터에서는 1초에 수백만 개의 로그(온도, 전압, 팬 속도, 디스크 I/O)가 쏟아져 나와 **사람(관리자)의 눈으로는 도저히 모니터링이 불가능**하다.
 > 2. **AIOps (Artificial Intelligence for IT Operations)**는 이 방대한 텔레메트리 데이터를 AI 모델에 먹여 학습시킨 뒤, "평소와 다른 미세한 패턴(이상 행동)"을 귀신같이 잡아내는 시스템이다.
 > 3. 이를 통해 디스크가 완전히 뻗어버리기 며칠 전에 "3번 서버의 2번 디스크가 내일 고장 날 확률 98%입니다"라고 예측하고, **자동으로 작업을 다른 서버로 이주(Migration)시키는 예지 정비(Predictive Maintenance)**를 완성한다.

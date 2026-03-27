@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Storage", "Smart SSD", "Processing-in-Storage"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 빅데이터 시대에는 10TB의 데이터를 분석(예: 특정 단어 검색)하기 위해 디스크에서 메인 메모리와 CPU까지 **10TB의 데이터를 꾸역꾸역 다 끌고 올라와야 하는 막대한 PCIe 버스 병목**이 발생한다.
 > 2. **스마트 SSD(Smart SSD)**는 디스크 껍데기 안에 저장 공간뿐만 아니라 **전용 연산 칩(ARM 코어 또는 FPGA)**을 함께 집어넣은 기기다.
 > 3. CPU가 "이 단어 찾아줘"라고 명령만 내리면, 스마트 SSD가 자체 칩으로 **창고(SSD) 안에서 수십 TB의 데이터를 스스로 뒤져서, 정답(몇 KB)만 CPU로 쏙 올려보내 통신량과 전력을 획기적으로 줄여준다.**

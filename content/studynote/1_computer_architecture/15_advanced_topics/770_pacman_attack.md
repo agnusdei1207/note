@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Security", "ARM PAC", "Apple M1", "PACMAN"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 앞서 배운 **ARM PAC(Pointer Authentication)**는 포인터 주소 상단에 암호학적 서명을 달아, 해커가 주소를 조작하면 즉시 에러(Exception)를 터뜨려 시스템을 죽여버리는 강력한 하드웨어 보안 기술이다. (애플 M1 칩에 탑재됨)
 > 2. MIT 연구진은 이 PAC를 뚫기 위해 **PACMAN** 공격을 고안했다. 핵심은 틀린 서명을 냈을 때 시스템이 죽어버리는 것을 막기 위해, **'추측 실행(Speculative Execution)'의 그림자 속에서 서명을 몰래 맞춰보는 것**이다.
 > 3. 즉, PACMAN은 소프트웨어 버그(버퍼 오버플로우)와 하드웨어 취약점(추측 실행 기반 사이드 채널)이 결합된 역사상 가장 정교하고 치명적인 무기다.

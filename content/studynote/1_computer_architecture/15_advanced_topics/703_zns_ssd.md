@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Storage", "NVMe", "ZNS", "Data Center"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 일반적인 SSD는 무작위 쓰기(Random Write)를 처리하기 위해 내부적으로 더미 공간(Over-Provisioning)을 20% 이상 남겨두고, 끊임없이 조각 모음(GC)을 수행하느라 **수명 저하(Write Amplification)와 지연 시간 튐(Latency Spike)**이 발생한다.
 > 2. **ZNS (Zoned Namespace)**는 NVMe 표준의 하나로, SSD의 공간을 수백 MB 단위의 구역(Zone)으로 쪼개고, **OS에게 "이 구역 안에서는 반드시 앞에서부터 순서대로(Sequential) 써라. 수정은 불가하며 통째로 지울 때만 삭제가 가능하다"라고 강제**하는 구조다.
 > 3. OS(또는 데이터베이스)가 이 까다로운 규칙에 맞춰 저장 방식을 바꾸면, SSD 내부에 빈 공간(OP)을 남겨둘 필요도 없고 GC도 사라져 칩의 수명이 극한으로 늘어나며 1TB를 샀을 때 온전히 1TB를 다 쓸 수 있다.

@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Storage", "SPDK", "Kernel Bypass", "NVMe"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. SSD 하드웨어는 NVMe가 도입되며 초당 수 기가바이트(GB/s)로 100배 빨라졌지만, 정작 이 디스크를 다루는 **리눅스 커널(OS)의 소프트웨어(인터럽트, 블록 레이어)는 과거 하드디스크(HDD) 시절에 멈춰 있어 거대한 병목**이 되었다.
 > 2. 인텔이 만든 **SPDK**는 이전 장의 DPDK와 똑같이 **'커널 바이패스(Kernel Bypass)'**와 **'폴링(Polling)'** 기법을 사용하여 OS를 왕따시킨다.
 > 3. 사용자 프로그램(예: 데이터베이스)이 OS를 거치지 않고 NVMe SSD의 메모리(큐)에 직접 데이터를 꽂아 넣음으로써 지연 시간(Latency)을 마이크로초($\mu s$) 단위로 박살 내는 데이터센터 스토리지의 혁명이다.

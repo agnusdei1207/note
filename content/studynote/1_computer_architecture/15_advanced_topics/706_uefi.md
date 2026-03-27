@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Firmware", "UEFI", "BIOS", "Booting"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 수십 년간 PC를 켤 때 삐~ 소리와 함께 뜨던 파란색 화면의 **레거시 BIOS(Basic Input/Output System)**는 16비트 환경에서 1MB의 메모리만 쓸 수 있고 2TB 이상의 하드디스크를 인식하지 못하는 끔찍한 한계가 있었다.
 > 2. 이를 대체한 **UEFI**는 부팅 순간부터 CPU의 **32비트/64비트 모드 전체를 풀가동**하여 화려한 GUI(마우스 지원)를 띄우고, GPT 파티션을 통해 수백 TB의 디스크를 지원하는 현대 PC의 뇌간(Brainstem)이다.
 > 3. 특히 부팅될 때 해커의 악성코드가 섞인 펌웨어나 부트로더가 실행되는 것을 암호학적으로 막아버리는 **보안 부팅(Secure Boot)**을 최초로 가능하게 한 핵심 아키텍처다.

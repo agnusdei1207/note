@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "FPGA", "Hardware", "DSP", "Optimization"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. DSP(디지털 신호 처리)나 오디오/비디오 필터 회로에서는 $Y = C_1X_1 + C_2X_2 + C_3X_3 \dots$ 형태의 **내적(Dot Product, 곱셈 후 다 더하기)** 연산이 수도 없이 발생한다.
 > 2. 하드웨어에서 곱셈기(Multiplier)는 덩치가 제일 크고 전기도 제일 많이 먹는 돼지 같은 부품이라, 여러 개를 박아 넣으면 칩이 뚱뚱해지고 느려진다.
 > 3. **분산 산술 (Distributed Arithmetic, DA)** 기법은 이 거대한 곱셈기들을 아예 다 버리고, 수학적 꼼수를 통해 곱셈의 '미리 계산된 답안지(LUT)'를 만들어둔 뒤 **비트 단위로 덧셈만 쭉 해서 결과를 내는 극한의 최적화 기술**이다.

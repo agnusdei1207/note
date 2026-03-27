@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Power Management", "AMD", "Cool'n'Quiet"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 과거 인텔의 스피드스텝(SpeedStep)이 '노트북 배터리 절약'을 위해 시작된 모바일 기술이었다면, AMD의 **Cool'n'Quiet**는 이름 그대로 **'데스크톱 PC의 끔찍한 발열과 선풍기 소음(Quiet)'을 잡기 위해 도입**된 데스크톱 최초의 동적 전력 관리 기술이다.
 > 2. Athlon 64 시절(2004년)에 도입되어, 사용자가 웹서핑만 할 때는 CPU 클럭과 전압을 확 깎아버려서 **발열(Cool)을 줄이고 쿨링팬의 소음(Quiet)을 0으로 만드는 혁신**을 보여주었다.
 > 3. 오늘날 AMD Ryzen(라이젠)의 핵심 기술인 'Precision Boost'의 가장 위대한 조상(할아버지) 격 기술이다.

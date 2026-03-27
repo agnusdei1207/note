@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Heterogeneous Computing", "Memory", "UMA"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 과거에는 CPU의 메모리(RAM)와 GPU의 메모리(VRAM)가 물리적/논리적으로 완전히 단절되어 있어, 연산을 넘기려면 막대한 **데이터 복사(Copy) 지연 시간**이 발생했다.
 > 2. **이종 컴퓨팅 메모리 공유 (hUMA, Heterogeneous Uniform Memory Access 등)**는 CPU와 GPU가 물리적으로 같은 메모리를 공유할 뿐만 아니라, **동일한 가상 메모리 주소 공간을 사용**하여 포인터(Pointer)만 넘겨주면 서로의 데이터에 즉시 접근할 수 있게 하는 기술이다.
 > 3. 이 기술은 데이터 복사로 인한 PCIe 버스 병목을 없애주어, 애플 실리콘(M1/M2)의 '통합 메모리(Unified Memory)'나 AMD의 APU 시스템에서 압도적인 성능 향상을 이끌어낸 핵심 기반이다.

@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "GPU", "Hardware Accelerator", "Video Codec"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 원본 4K 비디오는 용량이 상상을 초월하기 때문에 H.265(HEVC)나 AV1 같은 극도로 복잡한 수학적 알고리즘을 사용해 압축(인코딩)하여 전송한다.
 > 2. 이 압축을 풀어서(디코딩) 모니터에 뿌려주는 작업을 범용 CPU(소프트웨어)에게 시키면 CPU 점유율이 100%를 찍고 배터리가 광탈한다.
 > 3. 이를 해결하기 위해 최신 CPU/GPU 칩 내부에는 오직 '비디오 압축/해제' 하나만 미친 듯이 잘하는 전용 하드웨어 칩(Fixed-Function Hardware, 예: NVENC)이 별도로 탑재되어 있다.

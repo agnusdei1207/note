@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Blockchain", "ZKP", "Cryptography", "Hardware Accelerator"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. **영지식 증명 (ZKP, Zero-Knowledge Proof)**은 원본 데이터(비밀번호, 거래내역)를 남에게 1비트도 보여주지 않으면서, "내 계산 결과와 권한은 100% 확실하다"는 것을 수학적으로 증명하는 궁극의 프라이버시 암호 기술이다.
 > 2. 블록체인의 확장성 한계를 뚫는 ZK-Rollup 기술의 핵심이지만, 이 '증명서(Proof)'를 하나 만들어 내려면 **일반 CPU로는 수 분 ~ 수 시간이 걸릴 정도로 악랄한 다항식 연산(MSM, NTT)이 필요**하다는 치명적인 병목이 있다.
 > 3. 이를 해결하기 위해 수학 연산 파이프라인과 거대한 메모리 대역폭을 극단적으로 최적화한 **ZKP 전용 가속 반도체(ASIC, FPGA)** 개발에 현재 실리콘 밸리와 암호화폐 업계의 막대한 자본이 쏠리고 있다.

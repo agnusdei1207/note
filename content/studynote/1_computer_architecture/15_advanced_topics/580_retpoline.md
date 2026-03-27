@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Security", "Compiler", "Spectre", "Retpoline"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 하드웨어의 분기 예측기를 지우는 IBPB 명령어는 성능 하락이 너무 심했다. 이를 극복하기 위해 소프트웨어 컴파일러 단에서 스펙터를 막아내는 혁명적인 기법이 바로 **레트폴린(Retpoline)**이다.
 > 2. CPU가 간접 분기(Indirect Branch)를 만났을 때 엉뚱한 곳으로 추측 실행(Speculative Execution)하는 것을 막기 위해, 코드를 교묘하게 비틀어 **CPU의 예측기가 절대 빠져나올 수 없는 안전한 무한 루프(함정)에 갇히도록 유도**한다.
 > 3. 예측기가 함정에서 허우적대는 동안, CPU의 진짜 파이프라인은 안전하고 올바른 목적지 주소를 꺼내어 정상적으로 점프한다.

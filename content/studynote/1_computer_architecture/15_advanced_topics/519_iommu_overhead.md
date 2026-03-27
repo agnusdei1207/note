@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "IOMMU", "Virtualization", "PCIe"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. CPU가 가상 주소를 변환하기 위해 MMU(Memory Management Unit)를 쓰듯, 네트워크 카드(NIC)나 그래픽카드 같은 주변기기도 메모리에 직접 접근(DMA)할 때 주소를 변환하고 권한을 검사하기 위해 **IOMMU (Input/Output MMU)**를 반드시 거쳐야 한다.
 > 2. 가상 머신(VM) 환경과 보안상 IOMMU는 필수적이지만, 100Gbps가 넘는 초고속 네트워크 장비가 1초에 수백만 번 DMA를 요청할 때 IOMMU의 주소 변환 과정 자체가 **치명적인 성능 오버헤드(병목)**를 일으킨다.
 > 3. 이를 완화하기 위해 IOTLB(IOMMU 전용 캐시)를 장착하거나, 아예 주변기기 내부로 주소 변환 캐시를 옮기는 **ATS (Address Translation Services)** 같은 PCIe 표준 기술이 적극 활용되고 있다.

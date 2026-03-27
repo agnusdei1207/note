@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Packaging", "SiP", "SoC"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. **SoC(System on Chip)**는 CPU, GPU, 메모리 컨트롤러 등 모든 부품을 **'하나의 둥근 실리콘 웨이퍼 위'**에 한 번에 그려 넣는 기술이다. 크기가 가장 작지만 공정이 복잡하고 원가가 비싸다.
 > 2. **SiP(System in Package)**는 CPU, 메모리, 통신 모뎀 등 각각 **따로 만들어진 여러 칩(Die)과 부품들을 '하나의 플라스틱 껍데기(패키지) 안'**에 오밀조밀하게 모아서 담는 기술이다.
 > 3. 스마트워치, 무선 이어폰 등 초소형 기기는 물론이고, 칩렛(Chiplet)과 HBM을 결합하는 최신 데이터센터 AI 가속기(Nvidia GPU 등)의 설계 기반이 되는 현대 반도체 제조의 핵심 패러다임이다.

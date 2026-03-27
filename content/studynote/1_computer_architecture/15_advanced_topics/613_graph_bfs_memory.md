@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Hardware Accelerator", "Graph Processing", "Memory"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 페이스북 친구 추천 알고리즘, 구글 지도 길 찾기, 뇌의 뉴런 시뮬레이션 등은 모두 데이터를 점(Node)과 선(Edge)으로 표현하는 **그래프(Graph) 연산**이다.
 > 2. 그래프 탐색(BFS 등)은 메모리 주소를 1번 $\rightarrow$ 1억 번 $\rightarrow$ 50번 $\rightarrow$ 3천만 번 순으로 **완전히 미친 듯이 무작위(Random Access)**로 건너뛰며 읽기 때문에, 공간적 지역성에 의존하는 현대의 **L1/L2 캐시 메모리를 완전히 바보로 만든다(캐시 미스율 99%).**
 > 3. 이를 해결하기 위해 캐시를 아예 포기하고, 수천 개의 미세한 메모리 접근 요청을 하나로 묶어서 처리하는 **가더-스캐터(Gather-Scatter)** 하드웨어나 HMC(Hybrid Memory Cube) 같은 그래프 전용 메모리 서브시스템이 등장했다.

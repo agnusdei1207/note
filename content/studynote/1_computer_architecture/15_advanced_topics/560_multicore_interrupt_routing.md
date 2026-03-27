@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Multicore", "Interrupt", "APIC", "GIC"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 싱글 코어 시절에는 인터럽트가 들어오면 무조건 하나뿐인 CPU 코어가 처리하면 됐다. 하지만 코어가 64개인 서버에서는 **"이 인터럽트를 어느 코어에게 던져야 제일 효율적일까?"**라는 라우팅(Routing) 문제가 발생한다.
 > 2. 이를 해결하기 위해 인텔은 **APIC(Advanced Programmable Interrupt Controller)**를, ARM은 **GIC(Generic Interrupt Controller)**라는 거대한 분배기 칩을 메인보드와 CPU 코어마다 장착했다.
 > 3. 이 컨트롤러들은 코어들의 부하를 모니터링하여 인터럽트를 골고루 뿌려주거나(부하 분산), 프로세서 간 통신(IPI)을 가능하게 하여 멀티코어 운영체제가 부드럽게 돌아가도록 돕는다.

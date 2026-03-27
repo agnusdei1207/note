@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Network", "RDMA", "RoCE", "Ethernet"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 이전 챕터에서 다룬 RDMA 기술(OS 우회, 무복사)은 성능은 최고지만, 이를 위해 **인피니밴드(InfiniBand)라는 매우 비싸고 독자적인 전용 스위치와 케이블**을 아예 새로 깔아야 한다는 금전적/관리적 진입 장벽이 있었다.
 > 2. **RoCE (로키, RDMA over Converged Ethernet)**는 기업들이 이미 전 세계에 깔아놓은 친숙한 **이더넷(Ethernet, 랜선) 인프라 위에서 RDMA 마법을 부릴 수 있게 만든 프로토콜**이다.
 > 3. 무손실(Lossless) 네트워크 세팅이 필요하다는 까다로움이 있지만, 가성비와 범용성 때문에 현재 클라우드 데이터센터 스토리지 망(NVMe-oF)의 절대적 표준으로 자리 잡았다.

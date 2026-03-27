@@ -6,7 +6,7 @@ date = "2026-03-26"
 categories = "studynote-computer-architecture"
 +++
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 폴링(Polling)은 CPU (Central Processing Unit)가 주기적으로 I/O (Input/Output) 장치의 상태 레지스터(Status Register)를 확인하여 데이터 전송 준비 여부를 판단하는 동기식 제어 방식이다.
 > 2. 별도의 하드웨어 인터럽트 컨트롤러 없이 소프트웨어만으로 구현이 가능하지만, 무한 루프를 통한 '바쁜 대기(Busy-Waiting)'로 인해 심각한 CPU 자원 낭비를 초래한다.
 > 3. 현대 고성능 시스템에서는 인터럽트 폭풍(Interrupt Storm)을 방지하기 위해 NAPI (New API)나 DPDK (Data Plane Development Kit) 환경에서 전략적 하이브리드 방식으로 재조명받고 있다.

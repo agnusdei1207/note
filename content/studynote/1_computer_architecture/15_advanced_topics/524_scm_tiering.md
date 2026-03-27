@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Memory Hierarchy", "SCM", "Storage"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 과거의 메모리 구조는 '뜨거운 데이터'는 비싸고 용량이 작은 DRAM에, '차가운 데이터'는 싸고 용량이 큰 SSD/HDD에 넣는 단순한 2분법 구조였다.
 > 2. 옵테인(PRAM) 같은 **SCM(Storage Class Memory)**이 등장하면서, DRAM-SCM-SSD로 이어지는 3단계 **메모리 계층화(Tiering)**가 가능해졌다.
 > 3. 이를 통해 비싼 DRAM의 구매 비용을 줄이면서도, 소프트웨어나 하드웨어 컨트롤러가 사용 빈도(Temperature)를 분석하여 데이터를 실시간으로 알맞은 계층으로 자동 이주(Migration)시켜 시스템 전체의 가성비와 성능을 극대화한다.

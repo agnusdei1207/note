@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Security", "Hardware", "Anti-Tamper"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 보안 칩 내부에 아무리 강력한 AES-256 암호를 걸어두어도, 해커가 칩을 염산으로 녹여서(Decapping) 현미경으로 들여다보거나 바늘을 꽂으면(Probing) 물리적으로 뚫릴 수밖에 없다.
 > 2. 이를 방어하는 최전선이 **안티 탬퍼(Anti-Tamper, 위변조 방지) 메시**다. 칩의 맨 위쪽(Top Metal Layer)에 전기가 미세하게 흐르는 아주 얇고 복잡한 구리 선을 거미줄처럼 빽빽하게 덮어버린다.
 > 3. 해커가 칩을 깎아내려다 이 거미줄을 단 한 가닥이라도 끊거나(Open) 뭉개버리면(Short), 칩이 즉시 이를 감지하고 스스로 자폭(Zeroization)하는 물리적 함정이다.

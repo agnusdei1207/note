@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Reliability", "Soft Error", "Fault Tolerance"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 앞서 다룬 ECC 회로나 메모리 스크러빙은 '메모리(RAM)'에 발생한 소프트 에러를 막는 기술이다. 하지만 에러는 메모리가 아닌 **CPU 내부의 레지스터, 캐시, 버스**에서도 똑같이 발생한다.
 > 2. **소프트 에러 복구 매커니즘**은 CPU 코어 내부에서 발생한 이런 돌발적인 1비트 뒤집힘(Bit-flip)을 감지하고, 연산 오류가 시스템 전체로 퍼지기 전에 파이프라인을 멈추고 상태를 되돌리는(Rollback) 종합적인 절차를 말한다.
 > 3. 이를 위해 CPU 내부에도 패리티 비트(Parity)와 ECC가 떡칠되어 있으며, 치명적 에러 발생 시 OS에게 "나 방금 에러 나서 고치는 중이야"라고 보고하는 **MCA(Machine Check Architecture)**가 동작한다.

@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "RTOS", "Timer", "Embedded Systems"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 일반 PC의 타이머는 1~10밀리초(ms) 단위로 대충 작동해도 문제가 없지만, **실시간 운영체제(RTOS)**가 구동되는 우주선이나 로봇에서는 나노초(ns) 단위의 오차(Jitter)도 허용되지 않는다.
 > 2. 이를 위해 시스템 내부에 독립적인 클럭 소스를 가진 **고정밀 하드웨어 타이머(Hardware Timer)**가 필수적으로 탑재된다.
 > 3. 대표적으로 짧고 예측 가능한 인터럽트를 발생시키는 **SysTick 타이머**나, 시스템이 다운되었을 때 강제로 재부팅시키는 **워치독 타이머(Watchdog Timer)** 등이 있다.

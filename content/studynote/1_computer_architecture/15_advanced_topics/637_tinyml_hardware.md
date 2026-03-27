@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "AI Accelerator", "TinyML", "Embedded Systems"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 일반적인 엣지 AI(스마트폰 NPU)조차 수 와트(W)의 전기를 소모한다. 반면 **TinyML**은 산불 감지 센서, 보청기처럼 배터리 교체 없이 수년간 버텨야 하는 기기에서 인공지능을 돌리는 것을 목표로 하므로 가용 전력이 **밀리와트(mW) 또는 마이크로와트($\mu W$) 수준**에 불과하다.
 > 2. 가장 큰 하드웨어 제약은 **메모리(RAM) 용량**이다. TinyML을 구동하는 마이크로컨트롤러(MCU, 예: ARM Cortex-M)의 RAM은 고작 **수백 킬로바이트(KB)**밖에 되지 않아 일반적인 딥러닝 모델은 아예 켤 수조차 없다.
 > 3. 이를 극복하기 위해, 가중치(Weight)의 대부분을 소실시키는 가지치기(Pruning), 1비트 연산(Binarized Neural Network), 그리고 SRAM 접근을 극한으로 줄이는 **아날로그-디지털 혼합(Mixed-signal) 컴퓨팅 PIM**이 연구되고 있다.

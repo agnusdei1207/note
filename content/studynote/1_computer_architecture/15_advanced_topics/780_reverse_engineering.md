@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Security", "Hardware", "Reverse Engineering"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 보안의 끝판왕은 칩 내부에 아무도 모르게 숨겨놓은 하드코딩된 암호 키나 독자적인 회로 설계(Obfuscation)다. 하지만 해커(국가 기관 등)가 이 **칩을 물리적으로 산산조각 내어 뜯어본다면 비밀은 결국 풀리게 된다.**
 > 2. **하드웨어 역설계(Reverse Engineering)**는 칩의 플라스틱 껍데기를 염산으로 녹이고(Decapping), 수백 개의 금속 배선 층을 사포(CMP)로 한 층씩 깎아내며 **전자현미경(SEM/TEM)으로 수백만 장의 사진을 찍는 노가다의 극치**다.
 > 3. 찍어낸 사진을 AI나 이미지 처리 프로그램으로 이어 붙이면(Stitching), 칩 내부에 있는 수십억 개의 트랜지스터와 논리 게이트 배선도(Schematic)가 100% 낱낱이 드러나게 된다.

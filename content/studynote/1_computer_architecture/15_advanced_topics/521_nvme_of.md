@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Storage", "NVMe-oF", "Network"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. **NVMe(Non-Volatile Memory Express)**는 PCIe 버스를 타고 SSD의 최고 속도를 끌어내는 프로토콜이다. 단점은 "내 메인보드에 꽂힌 디스크만" 이 속도를 낼 수 있다는 것이다.
 > 2. **NVMe-oF (NVMe over Fabrics)**는 이 NVMe 명령어를 네트워크(이더넷, 인피니밴드 등) 패킷에 담아 멀리 있는 스토리지 서버로 쏘는 기술이다.
 > 3. 이를 통해 로컬 SSD의 초고속(수십 GB/s)과 짧은 지연 시간(Latency)을 유지하면서도, 스토리지 용량을 클라우드처럼 무한히 공유하고 확장(SAN, Storage Area Network)할 수 있게 되었다.

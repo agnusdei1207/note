@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Cache Coherence", "Directory", "Multicore"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. **디렉터리 기반 캐시 일관성 (Directory-based Protocol)**은 수십~수백 개의 코어가 존재하는 시스템에서 스누핑(Snooping) 프로토콜의 병목을 해결하기 위해 고안된 방식이다.
 > 2. 데이터를 수정할 때 전체 코어에 방송(Broadcast)하는 대신, 메모리 블록마다 '누가 이 데이터를 가지고 있는지'를 기록해 둔 **중앙 장부(Directory)**를 확인하여 해당 코어에게만 1:1(Unicast)로 수정/무효화 메시지를 보낸다.
 > 3. 버스 트래픽을 획기적으로 줄여 코어의 확장성(Scalability)을 보장하지만, 디렉터리를 읽고 쓰는 데 추가적인 지연 시간(Latency)과 메모리 공간이 소모된다는 트레이드오프가 있다.

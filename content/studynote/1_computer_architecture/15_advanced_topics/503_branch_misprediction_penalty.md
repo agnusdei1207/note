@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Branch Prediction", "Pipeline"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 최신 프로세서는 파이프라인(Pipeline)을 쉬지 않고 돌리기 위해 `if` 문이 참(True)일지 거짓(False)일지 미리 찍고(분기 예측, Branch Prediction) 코드를 먼저 실행한다.
 > 2. 예측이 맞으면 성능이 엄청나게 향상되지만, **예측이 틀렸을 경우(Misprediction)** 잘못 실행된 명령어들을 모두 폐기(Flush)하고 올바른 주소에서 처음부터 다시 가져와야 하는데, 이때 버려지는 수십 클럭의 시간을 **분기 예측 실패 페널티**라고 한다.
 > 3. 파이프라인 단계(Depth)가 깊어질수록 이 페널티는 기하급수적으로 커지므로, 현대 CPU 설계에서 파이프라인 깊이와 예측기의 정확도는 매우 민감한 트레이드오프 관계를 가진다.

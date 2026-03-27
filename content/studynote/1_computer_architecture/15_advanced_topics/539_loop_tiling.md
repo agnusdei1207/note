@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Cache Optimization", "Compiler", "Loop Tiling"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. AI나 과학 연산에서 사용되는 행렬(Matrix)의 크기는 수 메가바이트(MB)를 넘어가므로, CPU의 작은 **L1 데이터 캐시(수십 KB) 용량을 단번에 초과**해버린다.
 > 2. 이렇게 큰 데이터를 단순한 루프로 연산하면, 방금 썼던 데이터가 캐시 밖으로 밀려나고 나중에 다시 메모리에서 가져와야 하는 **캐시 미스(Cache Miss)의 지옥**에 빠지게 된다.
 > 3. **루프 타일링(Loop Tiling)**은 전체 행렬을 한 번에 계산하지 않고, 캐시 메모리 크기에 딱 맞는 '작은 사각형(타일, Block)' 단위로 쪼갠 뒤, 타일 단위로 연산을 끝내어 캐시 적중률(Hit rate)을 극한으로 끌어올리는 기법이다.

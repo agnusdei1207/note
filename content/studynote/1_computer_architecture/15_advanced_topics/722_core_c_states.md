@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Power Management", "C-States", "CPU"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. CPU가 100% 열심히 일할 때의 상태를 **C0 (Active)**라고 부른다.
 > 2. OS 스케줄러가 코어에 할당할 작업이 없어 `HLT (Halt)`나 `MWAIT` 명령어를 내리면, 코어는 전기를 아끼기 위해 수면 상태인 **C1, C3, C6 (숫자가 클수록 깊은 수면)**로 단계적으로 진입한다.
 > 3. C1이 클럭만 멈추는 선잠(Clock Gating)이라면, C6는 아예 코어 내부의 캐시를 비우고 전압 선을 싹둑 끊어버리는 기절 상태(Power Gating)로, 멀티코어 시대에 남는 코어를 재워 발열을 막는 가장 기본적인 전력 관리 기술이다.

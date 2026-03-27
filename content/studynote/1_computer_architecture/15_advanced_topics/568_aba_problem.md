@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Concurrency", "Lock-free", "CAS"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 멀티스레드 환경에서 자물쇠(Lock)의 낭비를 없애기 위해 가장 널리 쓰이는 하드웨어 명령어가 **CAS (Compare-And-Swap)**이다.
 > 2. CAS는 "지금 변수값이 내가 아까 읽었던 A가 맞다면 C로 바꿔라!"라는 논리로 작동하는데, 만약 내가 한눈판 사이에 다른 스레드가 **값을 A $\rightarrow$ B $\rightarrow$ A 로 바꿔치기했다면 CAS는 "음, 안 바뀌었네!"라고 착각하고 성공(통과)해버리는 심각한 허점**이 있다.
 > 3. 이를 **ABA 문제**라 부르며, 락 프리 스택(Stack)이나 큐(Queue)에서 메모리 누수나 무한 루프를 일으키는 가장 대표적인 난제다.

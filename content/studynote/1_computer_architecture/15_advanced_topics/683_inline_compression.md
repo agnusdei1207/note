@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Storage", "Compression", "Efficiency"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 일반적인 파일 압축(Zip 등)은 사용자가 직접 수동으로 수행하며, 풀 때도 시간이 걸린다.
 > 2. **인라인 압축(Inline Compression)**은 사용자가 10GB짜리 텍스트 파일을 저장할 때, 스토리지 컨트롤러가 버스를 지나가는 데이터를 **0.001초 만에 낚아채서 2GB로 압축한 뒤 디스크에 저장하는 투명한(Transparent) 자동화 기술**이다.
 > 3. 이를 통해 비싼 NVMe SSD의 용량을 2~3배 뻥튀기할 수 있고 낸드 플래시의 쓰기 증폭(WAF)을 줄여 수명을 늘리지만, 압축을 수행하는 스토리지 컨트롤러(CPU)의 부하가 매우 커진다.

@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Power Management", "P-States", "ACPI"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 앞서 배운 C-State(Core State)가 "CPU가 놀 때(Idle) 어떻게 잠을 재울 것인가?"에 대한 수면 모드라면, **P-State(Performance State)**는 "CPU가 일할 때(Active, C0) 얼마나 빡세게 뛸 것인가?"에 대한 달리기 모드다.
 > 2. P-State는 운영체제(OS)가 현재의 작업 부하를 보고 하드웨어의 클럭(Clock)과 전압(Voltage)의 단계를 0부터 n까지 조절하는 **DVFS (동적 전압 주파수 스케일링)의 ACPI 표준 구현체**다.
 > 3. P0 상태일 때가 CPU가 허락한 가장 빠르고 전기를 많이 먹는 상태이며, 번호가 커질수록(P1, P2...) 천천히 걷는 절전 모드가 된다.

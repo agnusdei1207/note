@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Reliability", "Bathtub Curve", "Maintenance"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 서버 부품(HDD, RAM)은 평생 일정한 확률로 고장 나지 않는다. 사람의 인생처럼 유아기, 청년기, 노년기의 사망률 패턴이 완전히 다르다.
 > 2. 이를 그래프로 그리면 양끝이 높고 중간이 평평한 **욕조(Bathtub) 모양**이 나오는데, 이를 **배스터브 곡선**이라고 부른다.
 > 3. 그래프는 초기 고장기(Early Failure), 우발 고장기(Random Failure), 마모 고장기(Wear-out Failure)의 3단계로 나뉘며, 각 단계마다 서버 관리자가 부품을 대하는 정비 전략이 완전히 달라져야 한다.

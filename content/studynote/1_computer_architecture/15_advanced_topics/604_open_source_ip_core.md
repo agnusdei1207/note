@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Hardware", "RISC-V", "Open Source"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 전통적으로 CPU나 반도체를 만들려면 ARM이나 Intel 같은 회사에 수십억 원의 로열티를 내고 **'반도체 설계 도면(IP Core)'**을 빌려와야만 했다.
 > 2. 리눅스(Linux)가 소프트웨어 시장을 무료와 개방으로 집어삼켰듯, 하드웨어 시장에서도 **RISC-V(리스크 파이브)**를 필두로 한 **오픈 소스 IP 코어** 생태계가 폭발적으로 성장하고 있다.
 > 3. 이를 통해 작은 스타트업이나 연구실도 라이선스 비용 0원으로 자신들의 목적(AI, 자율주행)에 딱 맞는 맞춤형 칩을 직접 설계하고 TSMC에 맡겨 생산할 수 있는 시대(Hardware Democratization)가 열렸다.

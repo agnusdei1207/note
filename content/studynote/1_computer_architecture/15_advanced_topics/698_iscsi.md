@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Storage", "Network", "iSCSI", "SAN"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 앞서 배운 파이버 채널(FC)은 속도는 완벽하지만 전용 광케이블과 스위치를 까는 데 수천만 원이 든다.
 > 2. **iSCSI**는 디스크를 제어하는 하드웨어 명령어(SCSI)를, 우리가 흔히 쓰는 **IP 패킷 안에 욱여넣어 일반 인터넷 랜선(Ethernet)을 타고 전송**하는 프로토콜이다.
 > 3. 이를 통해 회사에 굴러다니는 싸구려 기가비트 스위치와 랜선만으로도 완벽한 IP-SAN(Storage Area Network)을 구축할 수 있어, 중소/중견 기업 스토리지 시장의 절대 표준이 되었다.

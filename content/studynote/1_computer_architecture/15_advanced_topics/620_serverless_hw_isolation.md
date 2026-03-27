@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Cloud Computing", "Serverless", "Firecracker"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. **서버리스(Serverless)** 환경(예: AWS Lambda)에서는 서버 한 대에 수천 명의 서로 다른 고객 코드가 단 몇 초(또는 밀리초)만 실행되었다가 사라진다.
 > 2. 기존의 리눅스 컨테이너(Docker)는 이들을 빠르게 띄울 순 있지만 OS 커널을 공유하므로 **악의적인 해커가 내 함수 옆방에 있는 다른 고객의 함수 메모리를 훔쳐보는 극심한 보안 위협(Container Breakout)**에 노출된다.
 > 3. 이를 막기 위해 AWS가 개발한 **Firecracker** 같은 마이크로VM 하드웨어 가상화(KVM) 기술이 도입되었다. 이는 일반적인 가상 머신의 완벽한 하드웨어 격리성을 제공하면서도 0.1초 만에 초고속으로 부팅되는 서버리스 전용 뼈대다.

@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Hardware", "ARM", "Processor", "Real-Time"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. ARM의 **Cortex-R (Real-Time)** 시리즈는 스마트폰 메인 CPU(Cortex-A)처럼 앱을 여러 개 돌리거나 복잡한 연산을 하는 것이 목적이 아니라, **"외부 자극에 대해 무조건 1밀리초(ms) 안에 반드시 대답한다"는 결정론적(Deterministic) 타이밍**이 목적인 칩이다.
 > 2. 이를 위해 변덕이 심한 캐시 메모리를 배제하고 CPU에 직결된 **TCM(Tightly Coupled Memory)**을 주력으로 사용하며, 복잡한 가상 메모리(MMU) 대신 단순한 메모리 보호(MPU)만 지원한다.
 > 3. 우리가 쓰는 SSD의 컨트롤러 칩, 5G 스마트폰의 무선 통신 모뎀, 자동차의 ABS 브레이크 제어기 등에 숨어서 목숨과 직결된 초고속/초정밀 타이머 역할을 수행한다.

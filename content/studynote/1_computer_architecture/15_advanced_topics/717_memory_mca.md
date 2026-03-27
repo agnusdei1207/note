@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Reliability", "MCA", "Hardware Error", "OS"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 방사선이나 회로 노후화로 인해 메인 메모리(DRAM)나 CPU L1/L2 캐시에서 2비트 이상이 동시에 뒤집히는 **에러(Uncorrectable Error)**가 발생하면 ECC 하드웨어로도 고칠 수 없다.
 > 2. 과거에는 이 오염된 데이터가 퍼지는 것을 막기 위해 하드웨어가 묻지도 따지지도 않고 서버 전원을 꺼버렸다(Kernel Panic). 하지만 클라우드 환경에서는 한 명의 에러 때문에 100명의 다른 사용자(VM)까지 같이 죽는 대참사가 된다.
 > 3. **MCA (Machine Check Architecture)**는 CPU 하드웨어가 "몇 번 주소가 돌이킬 수 없이 망가졌다!"라는 상세한 진단서를 OS 커널에 넘겨주어, OS가 **망가진 주소를 쓰는 딱 그 프로그램 하나만 암살(Kill)하고 전체 서버는 계속 살려두는 극강의 생존술**이다.

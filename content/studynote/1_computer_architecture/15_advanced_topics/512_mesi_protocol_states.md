@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Cache Coherence", "MESI"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. **MESI 프로토콜**은 멀티코어 환경에서 동일한 데이터가 여러 캐시에 존재할 때 발생할 수 있는 충돌을 막기 위해 고안된 '캐시 블록의 4가지 상태 규칙'이다.
 > 2. 네 가지 상태는 **M(Modified, 수정됨), E(Exclusive, 독점), S(Shared, 공유됨), I(Invalid, 무효)**를 뜻한다.
 > 3. CPU가 데이터를 읽거나 쓸 때, 버스를 통해 다른 CPU의 상태를 확인하고 자신의 캐시 상태를 끊임없이 변화(Transition)시키며 시스템 전체의 일관성을 강제한다.

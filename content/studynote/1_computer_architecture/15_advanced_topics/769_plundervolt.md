@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Security", "Hardware Fault", "Plundervolt"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 앞서 배운 멜트다운이나 좀비로드는 CPU의 설계 실수(버퍼 찌꺼기)를 읽어내는 '소극적' 공격이었다.
 > 2. **플런더버그 (Plundervolt)**는 해커가 OS 권한을 얻은 뒤, CPU로 들어가는 **전압을 강제로 뚝 떨어뜨려(Undervolting)** CPU가 덧셈이나 곱셈을 할 때 **'의도적인 오답(Bit-flip)'**을 내도록 칩을 괴롭히는 공격이다.
 > 3. SGX 같은 완벽한 암호화 금고 안에서 AES 암호 계산을 할 때 이 오답을 섞어버리면, 수학적 역산을 통해 암호 키 원본이 백일하에 드러나는 치명적인 결함이 발생한다.

@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Compiler", "Optimization", "Loop Unrolling"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 프로그램의 `for`나 `while` 같은 반복문은 한 번 돌 때마다 "루프가 끝났나?(조건 검사)" 확인하고, "루프의 처음으로 돌아가자(분기 점프)"라는 추가적인 **제어 오버헤드**를 발생시킨다.
 > 2. **루프 언롤링 (Loop Unrolling)**은 루프 안의 알맹이 코드를 여러 개로 복사하여 늘어놓음으로써(Unroll), 루프가 도는 총 횟수를 줄이고 무의미한 조건 검사 횟수를 삭제하는 기법이다.
 > 3. 이를 통해 분기 예측 실패(Misprediction) 페널티를 줄이고, 명령어들을 일렬로 쫙 늘어놓게 되어 CPU가 비순차 실행(OoOE)과 파이프라이닝을 극한으로 끌어올릴 수 있게 된다.

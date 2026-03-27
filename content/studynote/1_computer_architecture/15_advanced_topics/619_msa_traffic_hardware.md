@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Cloud Computing", "MSA", "SmartNIC", "Service Mesh"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. **MSA (Microservices Architecture)**는 애플리케이션을 수십~수백 개의 아주 작은 컨테이너(Docker/Kubernetes) 단위로 잘게 쪼개어 배포하는 최신 클라우드 표준이다.
 > 2. 너무 잘게 쪼갠 나머지 서버 내/외부의 네트워크 통신량(East-West 트래픽)이 기하급수적으로 폭증했으며, 각 컨테이너마다 통신을 대리해 주는 **사이드카 프록시(Envoy 등)의 암호화/라우팅 연산이 CPU를 갉아먹는 치명적인 '서비스 메시 세금(Service Mesh Tax)'**을 발생시켰다.
 > 3. 이를 구원하기 위해 등장한 것이 범용 ARM 코어가 내장된 **DPU(Data Processing Unit) 및 SmartNIC**이며, 서비스 간의 모든 프록시/암호화 작업을 메인 CPU에서 빼앗아 하드웨어 랜카드 단에서 처리해 버린다.

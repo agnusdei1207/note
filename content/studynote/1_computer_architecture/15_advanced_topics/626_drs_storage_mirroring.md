@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Storage", "DR", "Mirroring"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 서버 랙 수준의 이중화(RAID, 이중 파워)는 데이터센터 건물 자체에 화재가 나거나 정전이 발생하면 속수무책으로 당할 수밖에 없다.
 > 2. 이를 대비하기 위해 국가나 대기업은 수백 km 떨어진 안전한 곳에 1:1 똑같은 쌍둥이 데이터센터를 지어두는데 이를 **재해 복구 시스템(DRS, Disaster Recovery System)**이라 부른다.
 > 3. 주 센터와 DR 센터 간에 데이터를 똑같이 맞추는 스토리지 미러링(Mirroring) 기술이 핵심이며, 거리와 네트워크 속도에 따라 **동기식(Synchronous)과 비동기식(Asynchronous) 방식** 중 하나를 선택해야 한다.

@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Network", "RDMA", "InfiniBand"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. **인피니밴드 (InfiniBand)**는 일반적인 인터넷(Ethernet)과 달리, 수만 대의 서버를 하나의 거대한 슈퍼컴퓨터처럼 묶기 위해 처음부터 새로 설계된 초고속/초저지연 전용 네트워크 표준이다.
 > 2. 인피니밴드의 핵심 무기는 **RDMA (Remote Direct Memory Access)** 기술이다.
 > 3. RDMA는 데이터를 보낼 때 양쪽 서버의 **운영체제(OS) 커널을 완전히 건너뛰고(Bypass), 네트워크 카드가 직접 상대방 서버의 램(RAM) 주소에 데이터를 꽂아버리는 마법**을 부려 지연 시간(Latency)을 마이크로초 단위로 낮춘다.

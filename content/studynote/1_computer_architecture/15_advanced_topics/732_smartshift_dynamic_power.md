@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Power Management", "GPU", "SmartShift"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 고성능 노트북의 쿨러가 식힐 수 있는 최대 열량(TDP)은 보통 100W로 고정되어 있다. 과거에는 이 100W를 'CPU 40W, GPU 60W'처럼 무식하게 칼같이 나눠놔서 한쪽이 놀아도 전력을 넘겨줄 수 없었다.
 > 2. **AMD SmartShift(스마트시프트)**나 **Nvidia Dynamic Boost(다이내믹 부스트)**는 이 칸막이를 완전히 허물어버린 기술이다. 전체 100W 안에서 **CPU가 덜 바쁘면 CPU의 15W를 GPU로 몰아주고(게임), GPU가 덜 바쁘면 GPU의 전력을 CPU로 몰아준다(압축/렌더링).**
 > 3. 이를 통해 노트북 두께나 쿨러를 늘리지 않고도 순수 하드웨어 전력 셔틀링(Shifting)만으로 공짜 성능 향상(최대 10~15%)을 이끌어낸다.

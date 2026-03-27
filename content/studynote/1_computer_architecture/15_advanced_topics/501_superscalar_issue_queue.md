@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Superscalar", "Instruction Pipeline"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. **수퍼스칼라 (Superscalar)** 구조는 하나의 코어 안에 여러 개의 연산 유닛(ALU, FPU 등)을 두어, 1클럭 사이클에 여러 개의 명령어를 동시에 실행(Issue)하는 기술이다.
 > 2. 이를 가능하게 하는 핵심 부품이 **발급 큐(Issue Queue) 또는 예약 스테이션(Reservation Station)**이다.
 > 3. 디코딩된 명령어들은 이 큐에 머물면서, 자신이 필요로 하는 데이터(피연산자)가 준비되었는지 매 클럭 감시하다가, 준비가 완료되는 즉시 연산 유닛으로 발사된다(비순차 실행의 기반).

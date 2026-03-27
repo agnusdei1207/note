@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Storage", "NVMe", "Subsystem"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. NVMe 생태계에서 가장 작은 단위가 쪼개진 방(Namespace), 중간이 문지기(Controller)라면, 이 모든 것을 아우르는 **가장 큰 집 전체를 NVMe 서브시스템(Subsystem)**이라고 부른다.
 > 2. 우리가 흔히 쓰는 M.2 SSD 1개는 [1개의 컨트롤러 + 1개의 네임스페이스]를 가진 아주 단순하고 작은 서브시스템이다.
 > 3. 하지만 대형 데이터센터(NVMe-oF)에서는 **1개의 서브시스템 안에 수십 개의 컨트롤러와 수백 개의 네임스페이스를 담아, 포트가 고장 나도 멈추지 않는 궁극의 이중화(Multipath) 모델**을 구성할 수 있다.

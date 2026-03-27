@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Security", "ASLR", "Virtual Memory"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 앞서 배운 ROP나 버퍼 오버플로우 공격이 성공하려면 해커는 반드시 **"시스템의 주요 함수나 내가 심어놓은 악성코드가 메모리 몇 번지에 있는가?"**라는 정확한 주소를 알아야만 한다.
 > 2. **ASLR (Address Space Layout Randomization)**은 프로그램이 실행될 때마다 코드, 데이터, 스택, 힙이 올라가는 **메모리 가상 주소를 매번 무작위(Random)로 섞어버려 해커를 장님으로 만드는 소프트웨어 보안의 핵심 기술**이다.
 > 3. 하지만 해커들이 메모리 릭(Memory Leak) 등으로 주소를 유추해 내어 ASLR을 우회하자, 최근에는 ARM의 PAC나 Intel CET 같은 **하드웨어 기술이 결합되어 ASLR의 취약점을 물리적으로 보완**하고 있다.

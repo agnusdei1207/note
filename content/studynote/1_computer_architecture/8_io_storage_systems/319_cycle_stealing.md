@@ -6,7 +6,7 @@ date = "2026-03-26"
 categories = "studynote-computer-architecture"
 +++
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 사이클 스틸링(Cycle Stealing)은 DMA(Direct Memory Access) 컨트롤러가 데이터 전송을 위해 CPU(Central Processing Unit)의 버스 사용 주기 중 단 하나의 사이클을 일시적으로 점유하여 사용하는 정교한 버스 중재 기술이다.
 > 2. CPU가 내부 연산을 수행하며 시스템 버스(System Bus)를 사용하지 않는 찰나의 순간을 활용하거나, 동시 요청 시 I/O(Input/Output) 장치의 데이터 유실 방지를 위해 DMA에게 우선권을 부여하여 단일 워드(Word) 단위로 전송한다.
 > 3. CPU의 실행을 완전히 중단시키는 버스트 모드(Burst Mode)와 달리, CPU의 명령어 처리 흐름을 방해하지 않으면서 백그라운드에서 실시간 데이터 입출력을 가능케 하여 시스템 전체의 처리량(Throughput)을 극대화한다.

@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Storage", "NVMe", "HMB", "SSD"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. SSD가 제 속도를 내려면 "어떤 데이터가 몇 번 물리 블록에 있는지"를 기록한 거대한 번역 장부(Mapping Table)를 SSD 칩 내부에 있는 **별도의 전용 DRAM(캐시)**에 올려두어야 한다.
 > 2. 단가를 낮추기 위해 이 DRAM 칩을 빼버린 **디램리스(DRAM-less) SSD**는 장부를 굼벵이 같은 낸드 플래시에서 직접 읽어야 하므로, 파일을 많이 쓸 때 컴퓨터가 멈추는 듯한 극심한 프리징(Freezing)을 유발한다.
 > 3. **HMB (Host Memory Buffer)** 기술은 이 문제를 해결하기 위해, SSD가 PCIe 버스를 타고 **호스트 컴퓨터의 빵빵한 메인 메모리(시스템 RAM) 중 약 64MB 정도를 자신의 장부 보관용 캐시로 훔쳐(빌려) 쓰는 영리한 기술**이다.

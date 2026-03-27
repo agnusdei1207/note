@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Security", "Side-channel Attack", "Cache", "Prime+Probe"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 앞 장의 캐시 타이밍 공격 중 하나인 **Prime+Probe**는 해커와 피해자가 메모리 주소를 아예 공유하지 않는(격리된) **클라우드(AWS, Azure)의 서로 다른 VM 환경**에서도 작동하는 무서운 기술이다.
 > 2. 해커는 CPU의 공용 **L3 캐시(LLC)** 전체를 자기 데이터로 꽉꽉 채워 넣는다 (Prime 단계).
 > 3. 피해자가 연산을 하면서 L3 캐시의 특정 방을 비우고 자기 데이터를 넣으면, 해커가 다시 전체 방을 확인(Probe)하여 **"피해자가 몇 번 방을 썼는지(캐시 미스가 나는 위치)"**를 알아내어 비밀 키를 유추한다.

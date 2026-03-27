@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "CXL", "Resource Pooling", "Data Center"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 전통적인 서버 랙 구조에서는 A 서버는 메모리가 남아도는데 CPU가 100%고, B 서버는 CPU는 노는데 메모리가 100% 꽉 차서 죽어가는 극심한 **자원 파편화(Stranded Capacity)** 문제가 있었다.
 > 2. **CXL (Compute Express Link)** 기술은 PCIe 버스의 한계를 뚫고, 물리적으로 다른 서버나 외부 박스에 있는 메모리를 내 CPU가 '로컬 램(RAM)'처럼 직접 읽고 쓸 수 있게 해준다.
 > 3. 이를 통해 데이터센터 전체의 메모리와 GPU를 하나의 거대한 저수지(Pool)로 묶고, 필요한 서버에게 수도꼭지 틀듯 소프트웨어로 자원을 할당해 주는 **자원 풀링(Resource Pooling / Disaggregation)** 시대가 열렸다.

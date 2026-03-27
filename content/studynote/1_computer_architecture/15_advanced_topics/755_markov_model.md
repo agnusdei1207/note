@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Reliability", "Markov Model", "Math"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 앞서 배운 RBD(신뢰성 블록)나 FTA(결함 트리)는 "부품이 고장 나면 그걸로 끝이다"라는 정적인 분석이다. 하지만 실제 서버는 **고장이 나면 사람이 가서 뚝딱뚝딱 고쳐서 다시 쌩쌩하게 살려낸다(수리, Repair).**
 > 2. **마르코프 모델 (Markov Model)**은 이처럼 시간이 흐름에 따라 시스템이 정상 $\rightarrow$ 고장 $\rightarrow$ 수리 $\rightarrow$ 다시 정상으로 끊임없이 변하는 **동적인 상태 변화(State Transition)**를 확률적으로 계산하는 기법이다.
 > 3. 이를 통해 고장률($\lambda$)뿐만 아니라 수리율($\mu$)까지 반영하여, 클라우드 시스템이 "장기적으로 몇 %의 확률로 살아있을 것인가(가용성, Availability)"를 가장 현실과 가깝게 시뮬레이션할 수 있다.

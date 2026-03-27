@@ -6,7 +6,7 @@ date = "2026-03-26"
 categories = "studynote-computer-architecture"
 +++
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. **프로그래밍된 I/O (Programmed I/O)**는 CPU (Central Processing Unit)가 I/O (Input/Output) 장치의 상태를 직접 확인하고 데이터 이동을 전담하는 가장 원시적이고 직관적인 입출력 제어 방식이다.
 > 2. 고성능 시스템에서는 **폴링 (Polling)**에 따른 CPU 자원 낭비가 치명적이지만, 하드웨어 구조가 단순하여 초창기 시스템이나 제어 로직이 고정된 특수 목적 임베디드 환경에서는 여전히 신뢰성이 높다.
 > 3. 현대 아키텍처에서는 인터럽트 (Interrupt) 및 DMA (Direct Memory Access) 기술의 근간이 되는 논리적 출발점으로서, 소프트웨어가 하드웨어를 제어하는 가장 기초적인 메커니즘을 제공한다.

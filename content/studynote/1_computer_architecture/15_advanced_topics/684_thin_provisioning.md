@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Storage", "Thin Provisioning", "Virtualization"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 전통적인 디스크 할당(Thick Provisioning)은 사용자(VM)가 1TB를 달라고 하면, 실제로 1TB의 하드디스크 물리 공간을 즉시 깎아서 독점적으로 내어주었다. (엄청난 낭비 발생)
 > 2. **씬 프로비저닝(Thin Provisioning)**은 사용자가 1TB를 요구하면 윈도우 화면에는 "C드라이브 1TB"라고 보여주지만, **실제 스토리지에는 사용자가 쓴 데이터(예: 10GB)만큼만 아주 얇게(Thin) 공간을 할당**하는 기술이다.
 > 3. 이를 통해 회사 전체의 물리적 디스크 용량이 500GB밖에 없어도, 10명의 직원에게 각각 1TB씩 총 10TB를 나눠줄 수 있는 **초과 할당(Overcommit)**이 가능해져 스토리지 도입 비용을 극적으로 낮춘다.

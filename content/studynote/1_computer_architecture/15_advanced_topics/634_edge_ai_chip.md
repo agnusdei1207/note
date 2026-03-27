@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "AI Accelerator", "Edge Computing", "Hardware"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. AI 연산을 데이터센터(클라우드)에서 처리하면 딜레이(Latency)가 생기고 개인정보 유출 위험이 있다. 이를 해결하기 위해 기기 자체에서 AI를 돌리는 **엣지 AI (Edge AI)**가 대세가 되었다.
 > 2. 하지만 엣지 환경은 클라우드 서버와 달리 수백 와트의 전기를 쓸 수 없고, 배터리(예: 2~5W)로만 연산해야 하는 **가혹한 전력 장벽(Power Constraint)**이 존재한다.
 > 3. 엣지 AI 칩(NPU) 아키텍처는 이 한계를 뚫기 위해 32비트 실수를 버리고 8비트 정수로 계산하는 **양자화(Quantization)**와, RAM 통신 전력을 아끼기 위해 칩 안에 거대한 캐시를 쑤셔 넣는 **SRAM 중심 설계**를 극단적으로 채택한다.

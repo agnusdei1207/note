@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Concurrency", "Lock", "HTM", "Intel TSX"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 멀티스레딩의 필수품인 **락(Lock / Mutex)**은 공유 데이터를 보호하지만, 다른 스레드들을 무작정 대기하게 만들어 멀티코어 성능을 끔찍하게 저하시키는 가장 큰 병목이다.
 > 2. **HLE (Hardware Lock Elision, 하드웨어 락 무시/생략)**는 인텔 TSX 기술의 핵심으로, 개발자가 짜놓은 평범한 락 코드를 CPU가 실행할 때 **"일단 락을 걸지 않은 척 무시하고" 다 같이 동시에 캐시에서 계산부터 해버리는 기법**이다.
 > 3. 만약 기적적으로 데이터 충돌이 없으면 락 없이 고속 통과한 셈이고, 충돌이 발생하면 즉시 계산을 버리고(Rollback) 원래의 느린 락 방식으로 되돌아가는 하드웨어 기반의 낙관적 동시성 제어(Optimistic Concurrency)다.

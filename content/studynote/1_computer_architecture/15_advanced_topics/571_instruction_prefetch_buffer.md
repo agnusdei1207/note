@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Pipeline", "Prefetching"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. CPU 코어(ALU)가 아무리 5GHz로 미친 듯이 빨리 돌아도, 메모리에서 **"다음번 할 일(명령어)"을 제때 갖다주지 않으면 파이프라인은 텅 비어 멈추고 만다(Stall).**
 > 2. 이를 막기 위해 L1 명령어 캐시(I-Cache)와 디코더(Decoder) 사이에 **명령어 프리패치 버퍼(Prefetch Buffer)**라는 작은 임시 창고를 둔다.
 > 3. 이 버퍼는 CPU가 계산에 열중하는 동안 백그라운드에서 메모리 주소를 1씩 증가시키며 미래의 명령어들을 무지성으로 쓸어 담아(Prefetch) 항상 파이프라인의 배를 든든하게 불려주는 역할을 한다.

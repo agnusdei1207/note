@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "PCIe", "Fabric", "GPU"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 과거의 PCIe(Peripheral Component Interconnect Express)는 마더보드(CPU)에 주변기기를 1:1로 연결하는 단순한 트리(Tree) 구조였다.
 > 2. AI 훈련이나 빅데이터 처리를 위해 한 대의 서버에 8개, 16개 이상의 GPU와 NVMe SSD를 달아야 하는 시대가 오면서, CPU의 PCIe 레인(Lane) 수가 턱없이 부족해졌다.
 > 3. 이를 해결하기 위해 네트워크 스위치처럼 기기들을 그물망으로 묶어, CPU를 거치지 않고 **기기들끼리 직접 데이터를 주고받게 해주는 PCIe 스위치 패브릭(Switch Fabric)** 아키텍처가 데이터센터의 표준이 되었다.

@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "SOA", "Network", "Hardware"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 거대한 단일 프로그램(Monolithic) 대신, 독립적인 서비스들이 서로 호출하며 동작하는 **SOA (서비스 지향 아키텍처)**는 시스템의 유연성을 극대화하지만 **네트워크 트래픽과 XML/SOAP 통신 오버헤드라는 치명적인 대가**를 치른다.
 > 2. 서비스 간의 잦은 호출(RPC)은 필연적으로 데이터 직렬화(Serialization)와 역직렬화를 동반하며, 이는 CPU의 무거운 부하(Tax)로 이어진다.
 > 3. 이를 뒷받침하기 위해 SOA 하드웨어 환경은 고대역폭 백본 스위치, XML 파싱을 돕는 하드웨어 가속기(XML Accelerator/Appliance), 그리고 로드 밸런서의 하드웨어 오프로딩 기능을 필수적으로 고려해야 한다.

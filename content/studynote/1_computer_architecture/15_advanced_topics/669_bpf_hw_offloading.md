@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Network", "eBPF", "SmartNIC", "Offloading"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. **eBPF(Extended BPF)**는 커널을 재부팅하지 않고도 네트워크 패킷 모니터링, 방화벽 차단 등의 C언어 프로그램을 리눅스 커널 내부(샌드박스)에 실시간으로 밀어 넣을 수 있는 기적의 소프트웨어 기술이다.
 > 2. 하지만 100Gbps의 엄청난 트래픽이 쏟아지면, 아무리 가벼운 eBPF 프로그램이라도 호스트 CPU 코어 수십 개를 100% 점유해 버리는 병목이 발생한다.
 > 3. 이를 해결하기 위해, 메인 CPU에서 돌던 eBPF 기계어 코드를 통째로 복사해서 **랜카드(SmartNIC, Netronome 등) 안의 내장 칩(eBPF 하드웨어 가속기)으로 오프로딩(Offloading)**시키는 기술이 도입되었다.

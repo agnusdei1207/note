@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Hardware Design", "Clock Domain", "CDC"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 현대의 SoC(시스템 온 칩) 안에는 CPU(5GHz), 메모리(3GHz), USB(480MHz) 등 **서로 다른 시계(클럭)를 가진 수십 개의 구역(Clock Domain)**이 존재한다.
 > 2. 5GHz 동네에서 3GHz 동네로 데이터를 휙 던질 때, 타이밍이 엇갈려 0도 아니고 1도 아닌 애매한 전압 상태에 빠지는 것을 **메타스테빌리티(Metastability)**라고 하며, 이는 칩을 다운시키는 치명적 오류다.
 > 3. 이를 막기 위해 서로 다른 클럭 도메인이 교차하는 경계선(CDC)에는 반드시 **동기화기(Synchronizer, 2-Stage Flip-Flop)**나 **비동기 FIFO 버퍼**를 설계하여 데이터를 안전하게 넘겨야 한다.

@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Big Data", "Hadoop", "HDFS", "Storage"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 구글의 논문(GFS)에서 출발한 **HDFS**는 빅데이터 시대의 문을 연 전설적인 파일 시스템이다.
 > 2. 비싼 고성능 서버 대신 **'아주 싼 일반 컴퓨터(Commodity Hardware)'** 수천 대를 엮어 쓰며, 기계 고장(Failure)을 일상으로 간주하여 데이터를 무조건 3개의 서버에 쪼개서 복사(Replication)해두는 깡패 같은 내결함성을 가진다.
 > 3. 최대 특징은 데이터를 중앙 CPU로 가져와서 처리하는 대신, **'데이터가 있는 서버로 연산 코드(분석 프로그램)를 파견 보내서 그 자리에서 계산하게 만드는(Data Locality)'** 기적의 발상 전환을 이뤘다는 점이다.

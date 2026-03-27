@@ -6,7 +6,7 @@ date = "2026-03-18"
 categories = "studynote-computer-architecture"
 +++
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 온칩 버스(On-Chip Bus)는 스마트폰의 두뇌인 SoC(System on Chip) 내부에서 **CPU, GPU, NPU, 메모리 컨트롤러 등 수많은 IP 블록(부품)들을 하나로 연결해 주는 칩 내부의 초소형 고속도로망**이다.
 > 2. 세계에서 가장 유명한 온칩 버스 규격은 ARM사가 만든 **AMBA(Advanced Microcontroller Bus Architecture)**이며, 전 세계 거의 모든 모바일 칩셋이 이 규격을 표준으로 사용하여 부품들을 조립한다.
 > 3. AMBA는 속도와 용도에 따라 고성능 캐시/메모리 통신을 위한 **AXI**, 일반적인 고속 장치를 위한 **AHB**, 아주 느리고 전기를 적게 먹는 I/O 장치를 위한 **APB** 등 철저한 계층형(Hierarchical) 구조를 가진다.

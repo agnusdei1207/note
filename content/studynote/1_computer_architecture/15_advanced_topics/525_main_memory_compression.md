@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Memory Management", "Compression"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 멀티코어 환경에서 코어 수는 급증하지만 메인 메모리(DRAM) 용량은 그에 비례해 늘어나기 어렵다(비용/발열 문제).
 > 2. 이를 타개하기 위해 운영체제나 메모리 컨트롤러가 **데이터를 압축(Compression)하여 RAM에 저장**하는 기술이 널리 쓰인다. (예: Apple의 M1 메모리 압축, Windows의 Memory Compression)
 > 3. 압축을 하면 8GB 램을 12GB처럼 쓸 수 있고, 메모리 버스(대역폭)를 타는 데이터의 크기도 줄어들어 성능 향상에 도움이 되지만, 압축을 풀고 묶는 **CPU 오버헤드와 지연 시간(Latency)**이 발생한다.

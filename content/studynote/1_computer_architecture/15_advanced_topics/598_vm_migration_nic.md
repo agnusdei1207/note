@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Cloud Computing", "Virtualization", "Live Migration"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 클라우드 데이터센터의 묘미는 물리 서버 A가 고장 날 것 같을 때, 그 위에서 돌아가던 가상 머신(VM)을 살아서 돌아가는 상태 그대로(무중단) 물리 서버 B로 옮기는 **라이브 마이그레이션(Live Migration)**이다.
 > 2. 이를 위해 수십 GB에 달하는 VM의 메모리(RAM)를 네트워크를 통해 통째로 복사해야 하는데, **복사하는 도중에도 VM은 계속 메모리를 변경(Dirty Page)하므로 쫓고 쫓기는 술래잡기**가 발생한다.
 > 3. 과거 CPU가 이 복사를 담당하면 서버 전체가 멈췄지만, 최근에는 스마트 랜카드(DPU, SmartNIC) 내부의 **마이그레이션 전용 하드웨어 블록**이 CPU 개입 없이 더러워진 페이지(Dirty Page)만 즉각 추적하여 몰래 복사해 준다.

@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Distributed System", "Database", "Consistency"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 앞서 다룬 PACELC 정리에서 글로벌 SNS(아마존, 페이스북)는 돈을 버는 데 가장 중요한 **사용자의 체감 속도(Low Latency)와 가용성(Availability)**을 위해, 데이터의 100% 동시 일치(Strong Consistency)를 과감하게 포기했다.
 > 2. **결과적 일관성(Eventual Consistency)**은 사용자가 글을 쓴 직후 다른 서버에서 그 글이 안 보이는 현상(불일치)을 잠시 허용하되, **시스템이 알아서 뒤(Background)에서 데이터를 동기화시켜 "결국 시간이 지나면(Eventual) 모든 서버의 데이터가 완벽히 같아진다"**고 보장하는 모델이다.
 > 3. 이를 통해 CPU는 동기화 대기 시간(Stall) 없이 무한대의 쓰기 속도를 뽐낼 수 있으며, 하드웨어 확장이 가장 자유로운 최신 클라우드 스토리지(S3, NoSQL 등)의 절대적인 통치 이념이 되었다.

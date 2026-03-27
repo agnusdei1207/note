@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Security", "ARM PAC", "Pointer Authentication"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 현대 프로세서는 64비트 주소 체계를 사용하지만 실제 물리/가상 주소로는 하위 48비트 정도만 사용하고 **상위 비트들은 남겨둔다.**
 > 2. **ARM PAC (Pointer Authentication Code)**는 이 남는 상위 비트 공간에 **포인터의 무결성을 증명하는 암호화 서명(PAC)**을 하드웨어적으로 끼워 넣는 기술이다.
 > 3. 포인터를 메모리에 저장할 때 서명을 만들고(PAC), 나중에 그 포인터를 읽어서 점프(Jump)하기 직전에 서명이 맞는지 검증(AUT)함으로써 버퍼 오버플로우나 ROP 공격을 치명적으로 방어한다.

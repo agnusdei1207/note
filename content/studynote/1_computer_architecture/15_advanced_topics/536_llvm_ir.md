@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Compiler", "LLVM", "Instruction Set"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 과거에는 C언어용 컴파일러, 파이썬용 컴파일러를 CPU 아키텍처(x86, ARM 등)마다 일일이 수십 개씩 새로 만들어야 하는 막대한 비효율이 존재했다.
 > 2. **LLVM (Low Level Virtual Machine)**은 이 문제를 해결하기 위해, 모든 프로그래밍 언어를 공통의 **중간 표현(IR, Intermediate Representation)**이라는 '공용어'로 한 번 번역한 뒤, 이 IR을 바탕으로 각 CPU에 맞는 기계어를 찍어내는 3단계 모듈형 아키텍처를 도입했다.
 > 3. 컴퓨터 구조(하드웨어) 설계자들은 새로운 CPU를 만들 때 컴파일러를 통째로 짤 필요 없이, LLVM의 백엔드(Backend)에 자기 CPU 규칙만 추가하면 전 세계의 모든 언어를 즉시 지원받을 수 있게 되었다.

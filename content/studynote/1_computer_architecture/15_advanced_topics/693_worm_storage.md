@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Storage", "Security", "WORM", "Compliance"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 일반적인 하드디스크나 SSD는 관리자(Root) 권한만 얻으면 언제든 데이터를 수정하거나 지울 수 있어, 내부 직원의 횡령(로그 삭제)이나 랜섬웨어의 암호화 공격에 취약하다.
 > 2. **WORM (Write Once Read Many)**은 이름 그대로 **"딱 한 번만 쓸 수 있고, 읽는 건 평생 가능하지만 수정/삭제는 절대 불가능"**한 특수 스토리지 기술이다.
 > 3. 과거에는 진짜 CD-ROM처럼 물리적으로 구워버리는 하드웨어 방식을 썼으나, 현재는 오브젝트 스토리지(AWS S3 Object Lock) 수준에서 특정 기간(예: 10년) 동안 시스템 최고 관리자조차 삭제할 수 없게 만드는 소프트웨어적 WORM(Compliance Mode)이 표준으로 자리 잡았다.

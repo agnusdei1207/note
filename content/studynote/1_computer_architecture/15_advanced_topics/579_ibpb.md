@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Security", "Spectre", "Branch Prediction"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. CPU의 분기 예측기(Branch Predictor)는 성능을 위해 이전에 실행했던 분기 결과(어디로 뛰었는지)를 기억한다. 이 기억은 프로세스가 달라도 하드웨어적으로 **서로 공유(Shared)**된다.
 > 2. 스펙터 v2(분기 목표 주입) 해커는 이를 악용해, 악성 앱에서 예측기를 조작해놓고 커널이나 다른 앱이 실행될 때 오작동(추측 실행)을 일으키도록 유도한다.
 > 3. 이를 차단하기 위해 인텔과 AMD는 **IBPB (Indirect Branch Predictor Barrier)**라는 마이크로코드 명령어를 추가하여, **OS가 프로세스를 바꿀 때마다 "지금까지의 예측 기억을 싹 다 지워라!"라고 지시**할 수 있게 만들었다.

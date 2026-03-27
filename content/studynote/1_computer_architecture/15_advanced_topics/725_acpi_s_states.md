@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Power Management", "ACPI", "OS"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 앞서 배운 C-State(코어), P-State(성능)가 **CPU 하나만의 미시적인 전력 관리**라면, **S-State (Sleep States)**는 램(RAM), 하드디스크, 모니터, 메인보드를 포함한 **컴퓨터 시스템 전체의 거시적인 수면 상태**를 뜻한다.
 > 2. 윈도우의 '절전 모드'는 램에만 전기를 살려두는 **S3 상태(Suspend to RAM)**이고, '최대 절전 모드'는 램의 내용을 디스크에 다 써버리고 전원을 아예 뽑아버리는 **S4 상태(Suspend to Disk)**다.
 > 3. 스마트폰처럼 화면은 꺼졌지만 백그라운드에서 카톡 알람이 오고 즉시 켜지는 현대적인 대기 모드를 위해 최근 **S0ix (Modern Standby)**라는 새로운 상태가 도입되었다.

@@ -6,7 +6,7 @@ date = "2026-03-18"
 categories = "studynote-computer-architecture"
 +++
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 버스 중재(Bus Arbitration)는 CPU, DMA 컨트롤러 등 여러 개의 '버스 마스터(Bus Master)'들이 **동시에 시스템 버스(System Bus)를 사용하겠다고 요청할 때, 충돌을 막기 위해 누구에게 먼저 사용 권한을 줄지 결정하는 교통정리 메커니즘**이다.
 > 2. 중재의 위치에 따라 하나의 전담 칩이 모든 권한을 통제하는 **중앙 집중식(Centralized)**과, 장치들끼리 알아서 순서를 정하는 **분산식(Distributed)**으로 나뉜다.
 > 3. 버스를 공평하게(Fairness) 나눠 쓰게 하면서도, 긴급한 데이터 처리를 요하는 장치(Starvation 방지)에게 우선순위(Priority)를 보장하는 것이 버스 중재기의 핵심 설계 목표이다.

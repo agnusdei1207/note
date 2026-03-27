@@ -6,7 +6,7 @@ date = "2026-03-18"
 categories = "studynote-computer-architecture"
 +++
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. RoCE(RDMA over Converged Ethernet)는 전용 네트워크 장비가 필요한 인피니밴드(InfiniBand)의 비용 문제를 해결하기 위해, **기존의 저렴하고 대중적인 이더넷(Ethernet) 망 위에서 RDMA의 초고속, 초저지연 통신을 가능하게 만든 혁명적인 프로토콜**이다.
 > 2. 이더넷의 치명적 단점인 패킷 유실을 막기 위해 **PFC(Priority-based Flow Control)** 같은 트래픽 통제 기술을 결합하여, 이더넷을 무손실 네트워크(Lossless Network)로 강제 개조하여 사용한다.
 > 3. 라우팅 기능이 없어 같은 스위치 안에서만 통신할 수 있었던 RoCE v1의 한계를 극복하고, IP 헤더와 UDP 헤더를 추가해 인터넷(L3) 너머로도 전송이 가능해진 **RoCE v2가 현대 클라우드와 AI 데이터센터 네트워크의 절대 표준**으로 자리 잡았다.

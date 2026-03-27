@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Power Management", "C-States", "Intel"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. CPU가 일하지 않을 때 전기를 아끼는 모드를 **C-State (Core State)**라고 한다. (C0는 일하는 중, C1~C7은 자는 중)
 > 2. 하지만 코어 4개가 모두 깊은 잠(C7)에 빠졌다고 해서 전기가 0이 되진 않는다. CPU 칩(Package) 껍데기 안에는 코어 말고도 **L3 캐시, 메모리 컨트롤러, PCIe 버스 제어기 등 '비-코어(Uncore)' 부품**들이 여전히 살아서 전기를 엄청나게 먹기 때문이다.
 > 3. **패키지 C-States (Package C-States, PC-States)**는 칩 안의 모든 코어가 잠들었을 때 비로소 이 '비-코어' 부품들까지 통째로 전원을 끊어버려 칩 전체의 전력 소모를 0W에 가깝게 만드는 기술이다.

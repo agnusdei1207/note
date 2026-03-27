@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Network", "Storage", "FCoE", "Convergence"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 전통적인 엔터프라이즈 서버 뒤통수에는 인터넷을 하기 위한 **랜선(Ethernet)** 여러 개와, 스토리지(SAN)와 통신하기 위한 주황색 **광케이블(Fibre Channel, FC)** 여러 개가 복잡하게 꽂혀 있었다. 
 > 2. **FCoE (Fibre Channel over Ethernet)**는 "어차피 둘 다 데이터 통신인데 선을 굳이 2개 깔아야 해?"라는 불만에서 출발하여, **가벼운 FC 껍데기를 이더넷 패킷 안에 쏙 집어넣어(캡슐화) 랜선 1가닥으로 통일(Convergence)**시킨 기술이다.
 > 3. 이를 통해 서버 뒷면의 복잡한 선을 대폭 줄이고 스위치 장비 구매 비용을 아꼈으나, 패킷이 버려지면 안 되는 FC의 깐깐한 성격 때문에 결국 이더넷 스위치를 비싼 '무손실(Lossless)' 스위치로 강제 업그레이드해야 하는 한계에 부딪혔다.

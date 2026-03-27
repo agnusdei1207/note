@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Cache", "Prefetching", "Stream"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 일반적인 루프 프리패처는 단일 배열의 규칙적인 접근(Stride)을 잘 잡지만, 여러 개의 배열을 동시에 읽고 쓰거나 불규칙한 흐름이 섞여 있으면 패턴을 놓치고 혼란에 빠진다.
 > 2. **스트림 프리패처(Stream Prefetcher)**는 메모리 접근의 큰 강줄기(Stream)를 여러 개로 나누어, **각각의 독립적인 데이터 흐름을 동시에 추적(Multi-stream tracking)**하는 강력한 하드웨어 블록이다.
 > 3. 그래픽 렌더링, 동영상 인코딩, 대규모 DB 쿼리 등 복잡한 데이터가 폭포수처럼 쏟아지는 환경에서 대역폭을 극대화하는 인텔/AMD 코어의 필수 기술이다.

@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Virtualization", "VMCS", "Intel VT-x"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 인텔 VT-x 기술을 이용해 가상 머신을 돌릴 때, 하이퍼바이저 모드(Root)와 가상 머신 모드(Non-Root) 사이를 수시로 전환하는 작업을 **VM Entry / VM Exit**라고 부른다.
 > 2. **VMCS (가상 머신 제어 구조)**는 이 두 세계를 넘나들 때, 현재 CPU의 레지스터 상태, 권한, 프로그램 카운터(PC) 등을 백업해 두는 **메모리 상의 핵심 장부(데이터 구조체)**다.
 > 3. VM이 100개 켜져 있다면 메모리에는 100개의 VMCS 장부가 존재하며, 하드웨어가 이 장부를 직접 읽고 쓰면서 초고속으로 문맥 교환(Context Switch)을 수행한다.

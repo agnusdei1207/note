@@ -6,7 +6,7 @@ date = "2026-03-18"
 categories = "studynote-computer-architecture"
 +++
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. RDMA(Remote Direct Memory Access)는 A 서버의 메모리 데이터를 네트워크를 통해 B 서버의 메모리로 전송할 때, **양쪽 서버의 CPU와 운영체제(OS)를 완전히 배제하고 랜카드(NIC)끼리 다이렉트로 복사하는 초고속 통신 기술**이다.
 > 2. 기존 TCP/IP 통신에서 발생하던 패킷 포장, 버퍼 복사, 문맥 교환(Context Switch) 등 치명적인 **소프트웨어 오버헤드를 0으로 만들어(Zero-copy)** 지연 시간(Latency)을 마이크로초($\mu s$) 단위로 끌어내렸다.
 > 3. 과거 인피니밴드(InfiniBand) 같은 값비싼 슈퍼컴퓨터 전용 기술이었으나, 현재는 이더넷(RoCE) 위에서도 구현되어 **거대 AI 모델의 분산 학습과 NVMe-oF 스토리지 네트워크의 필수 기반 기술**로 자리 잡았다.

@@ -6,7 +6,7 @@ date = "2026-03-18"
 categories = "studynote-computer-architecture"
 +++
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. PCIe 루트 컴플렉스(Root Complex, RC)는 CPU와 메모리를 PCIe 네트워크에 연결해 주는 **가장 최상위 계층의 관문이자, PCIe 버스 전체를 통제하는 대장(Root) 역할의 하드웨어 모듈**이다.
 > 2. 점대점(Point-to-Point) 방식인 PCIe 통신에서 CPU가 내뿜는 시스템 버스 신호를 PCIe 패킷으로 변환하고, 반대로 PCIe 장치들의 인터럽트나 데이터를 CPU/메모리에 전달하는 **최상위 스위치(Switch) 역할**을 수행한다.
 > 3. CPU 내부에 내장되어 직접 제공하는 **CPU 직결 PCIe 레인**과, 사우스브리지(PCH)를 거쳐서 제공하는 **칩셋(Chipset) PCIe 레인**을 모두 아우르는 개념적 최상위 루트이다.

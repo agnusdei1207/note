@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Reliability", "OS", "Rejuvenation"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 서버를 1년 내내 안 끄고 돌리면 메모리 누수(Memory Leak), 끝나지 않은 데드락(Deadlock) 찌꺼기, 단편화(Fragmentation)가 쌓여 시스템이 점점 느려지다가 결국 뻗어버리는데, 이를 **소프트웨어 노화(Software Aging)**라고 한다.
 > 2. **소프트웨어 회춘(Software Rejuvenation)**은 이 노화로 인해 시스템이 치명적으로 다운되기 전에, **관리자가 '선제적으로' 그리고 '계획적으로' 서버의 프로세스나 하드웨어 전체를 껐다 켜서(Reboot) 찌든 때를 완전히 날려버리고 초기 상태로 되돌리는 기법**이다.
 > 3. 이를 위해 로드 밸런서 뒤에 서버를 여러 대 두고, 트래픽이 가장 적은 새벽에 서버를 한 대씩 돌아가며(Rolling) 껐다 켜면 무중단으로 전체 시스템의 회춘을 달성할 수 있다.

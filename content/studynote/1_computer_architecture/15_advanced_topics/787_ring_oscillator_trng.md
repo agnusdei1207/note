@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Cryptography", "Hardware", "TRNG", "Ring Oscillator"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. TRNG(진성 난수 생성기)를 만들려면 열잡음 같은 아날로그 현상이 필요한데, 디지털 반도체 칩(FPGA나 스마트카드) 안에는 아날로그 증폭 회로를 우겨넣기가 까다롭고 공간을 많이 차지한다.
 > 2. **링 오실레이터 (Ring Oscillator)**는 오직 디지털 논리 게이트(NOT 게이트)만으로 이루어져 있어 **아주 작고 싸게 칩 안에 찍어낼 수 있는 가장 대중적인 TRNG 회로**다.
 > 3. 홀수 개의 NOT 게이트를 링 모양으로 무한루프 시키면 0과 1이 미친 듯이 진동(Oscillation)하는데, 온도와 전압의 미세한 변화 때문에 이 진동 주기에 찰나의 **엇박자(Jitter)**가 발생하며 이 엇박자를 카운트하여 완벽한 난수를 뽑아낸다.

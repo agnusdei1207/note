@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Security", "Spectre", "Branch Prediction"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. CPU 내부에 있는 **BTB (Branch Target Buffer)**는 분기문(`Jump` 등)이 다음에 어디로 뛸지 미리 기억해두는 이정표(장부) 역할을 한다.
 > 2. **분기 목표 주입(Branch Target Injection)**은 해커가 자신의 코드를 미친 듯이 실행하면서 이 BTB 장부에 "다음에 무조건 악성코드 주소로 뛰어라!"라는 **거짓 이정표를 반복적으로 주입(오염)**하는 공격이다.
 > 3. 이후 피해자(OS 커널이나 다른 프로그램)가 실행될 때, CPU는 오염된 이정표에 속아 자기도 모르게 악성코드 주소로 추측 실행(Speculative Execution)을 해버리게 되며, 이 흔적을 통해 기밀 데이터가 유출된다.

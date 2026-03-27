@@ -7,7 +7,7 @@ taxonomy:
     tags: ["Computer Architecture", "Advanced Topics", "Scale-Up", "SMP", "NUMA", "System Bus"]
 ---
 
-> **핵심 인사이트**
+## 핵심 인사이트 (3줄 요약)
 > 1. 서버 성능을 올리는 방법은 여러 대를 옆으로 붙이는 스케일 아웃(Scale-Out)과, **서버 한 대의 부품(CPU, RAM)을 거대하게 펌핑하는 스케일 업(Scale-Up)**이 있다.
 > 2. 스케일 업 서버는 메인보드 1장에 물리적인 CPU 칩(Socket)을 2개 이상 꽂는 **다중 프로세서 시스템(SMP, NUMA)** 구조를 가진다.
 > 3. 이때 CPU들끼리 "네가 가진 메모리 값 좀 줘"라며 실시간으로 캐시 일관성(Coherence)을 맞추며 통신해야 하므로, 병목을 막기 위해 **UPI(Intel), Infinity Fabric(AMD)** 같은 초고속 포인트 투 포인트(P2P) 시스템 버스가 마더보드에 깔리게 된다.
