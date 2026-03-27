@@ -8,7 +8,7 @@ categories = "studynote-computer-architecture"
 
 # 벡터 프로세서 (Vector Processor)
 
-#### 핵심 인사이트 (3줄 요약)
+## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 크기가 큰 1차원 배열(벡터, Vector) 데이터 전체를 하나의 기계어 명령어(Single Instruction)로 한 번에 처리하도록 설계된 특수 목적의 프로세서 아키텍처다.
 > 2. **가치**: 반복문(for loop)을 처리할 때 매번 명령어를 가져오는(Fetch) 오버헤드를 극단적으로 줄이고, 파이프라인을 100% 가동시켜 과학 계산과 행렬 연산에서 압도적인 데이터 처리량(Throughput)을 달성한다.
 > 3. **융합**: 플린의 분류법 중 SIMD(단일 명령어 다중 데이터)를 충실히 구현한 하드웨어이며, 현대 데스크탑 CPU의 AVX(Advanced Vector Extensions) 명령어와 GPU 아키텍처의 원형이 된 기술이다.
