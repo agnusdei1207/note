@@ -63,7 +63,7 @@ categories = "studynote-computer-architecture"
 
 ---
 
-## 📌 관련 개념 맵 (Knowledge Graph)
+### 📌 관련 개념 맵 (Knowledge Graph)
 - `[RDMA (Remote Direct Memory Access)]`: 인피니밴드가 초저지연을 달성할 수 있는 핵심 통신 기술
 - `[RoCE (RDMA over Converged Ethernet)]`: 비싼 인피니밴드 대신 저렴한 이더넷에서 RDMA를 쓰기 위해 만든 라이벌 기술
 - `[HCA (Host Channel Adapter)]`: 인피니밴드 망에 접속하기 위해 서버에 꽂는 전용 네트워크 카드(랜카드)
@@ -72,7 +72,7 @@ categories = "studynote-computer-architecture"
 
 ---
 
-## 👶 어린이를 위한 3줄 비유 설명
+### 👶 어린이를 위한 3줄 비유 설명
 1. 인피니밴드는 아주 부자 동네(슈퍼컴퓨터)에서만 쓰는 '투명한 진공 튜브 배달망'이에요.
 2. 일반 택배(인터넷)를 쓰면 포장하고 아저씨 기다리느라 며칠이 걸리지만, 이 진공 튜브에 물건을 넣으면 0.1초 만에 옆집 책상 위로 뿅! 하고 도착하죠.
 3. 요즘 수만 대의 똑똑한 로봇(GPU)들이 모여서 인공지능을 공부할 때, 로봇들끼리 빛의 속도로 대화하기 위해 꼭 쓰는 마법의 튜브랍니다!

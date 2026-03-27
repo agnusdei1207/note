@@ -68,7 +68,7 @@ categories = "studynote-computer-architecture"
 
 ---
 
-## 📌 관련 개념 맵 (Knowledge Graph)
+### 📌 관련 개념 맵 (Knowledge Graph)
 - `[HDD (Hard Disk Drive)]`: 회전 지연이라는 숙명을 가진 기계식 저장장치
 - `[Seek Time (탐색 시간)]`: 회전 지연과 합쳐져 디스크 접근 시간(Access Time)의 대부분을 차지하는 지연 요소
 - `[Spindle Motor]`: 회전 지연을 결정짓는 핵심 부품 (RPM 제공)
@@ -77,7 +77,7 @@ categories = "studynote-computer-architecture"
 
 ---
 
-## 👶 어린이를 위한 3줄 비유 설명
+### 👶 어린이를 위한 3줄 비유 설명
 1. 회전 지연은 빙글빙글 돌아가는 수건돌리기 게임에서 수건이 내 앞까지 올 때까지 기다리는 시간이에요.
 2. 수건이 빨리 돌면(RPM이 높으면) 금방 내 차례가 오겠지만, 너무 빨리 돌리면 어지러워서 친구들이 쓰러질 수 있어요.
 3. 그래서 하드디스크는 적당한 속도로만 돌리기로 약속했고, 이 기다리는 시간 때문에 컴퓨터가 조금 느려진답니다!

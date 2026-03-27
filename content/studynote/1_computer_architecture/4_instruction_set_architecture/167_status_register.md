@@ -212,7 +212,7 @@ categories = "studynote-computer-architecture"
 
 ---
 
-## 📌 관련 개념 맵 (Knowledge Graph)
+### 📌 관련 개념 맵 (Knowledge Graph)
 
 | 개념 명칭 | 관계 및 시너지 설명 |
 |:---|:---|
@@ -224,7 +224,7 @@ categories = "studynote-computer-architecture"
 
 ---
 
-## 👶 어린이를 위한 3줄 비유 설명
+### 👶 어린이를 위한 3줄 비유 설명
 1. 상태 레지스터는 컴퓨터 로봇이 가지고 다니는 **'마법의 전광판'**이에요! 
 2. 숙제를 다 하고 나면 전광판에 **"참 잘했어요(Zero)", "너무 어려워요(Overflow)"**라고 반짝반짝 불을 켜서 알려준답니다.
 3. 로봇은 이 전광판을 보고 **다음에 어떤 놀이를 할지** 똑똑하게 결정할 수 있는 거랍니다!

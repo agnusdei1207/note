@@ -67,7 +67,7 @@ categories = "studynote-computer-architecture"
 
 ---
 
-## 📌 관련 개념 맵 (Knowledge Graph)
+### 📌 관련 개념 맵 (Knowledge Graph)
 - `[Centralized Arbitration]`: 분산식 중재와 대비되는, 단 하나의 심판(Arbiter)이 모든 것을 결정하는 중재 방식
 - `[SPOF (Single Point of Failure)]`: 중앙 통제 방식의 맹점이자, 분산식 중재가 100% 극복해 낸 치명적 오류 포인트
 - `[Bus Master]`: 중재의 주체이자 객체로, 분산식에서는 스스로 양보를 결정해야 하는 똑똑한 장치들
@@ -76,7 +76,7 @@ categories = "studynote-computer-architecture"
 
 ---
 
-## 👶 어린이를 위한 3줄 비유 설명
+### 👶 어린이를 위한 3줄 비유 설명
 1. 분산식 중재는 골목길에서 자동차들이 마주쳤을 때, 신호등 없이 '운전자들끼리 눈치껏 양보하는 방법'이에요.
 2. "어? 저쪽이 앰뷸런스네! 내가 비켜줘야지!" 하고 각자 똑똑하게 생각해서 길을 비켜주죠.
 3. 신호등(중앙 중재기)이 고장 나면 꼼짝도 못 하는 길과 달리, 신호등이 아예 없으니 고장 날 일도 없어서 절대 안 멈추는 가장 안전한 동네랍니다!

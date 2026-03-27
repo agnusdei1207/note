@@ -64,7 +64,7 @@ categories = "studynote-computer-architecture"
 
 ---
 
-## 📌 관련 개념 맵 (Knowledge Graph)
+### 📌 관련 개념 맵 (Knowledge Graph)
 - `[Bus Arbitration]`: 충돌을 막기 위해 필수적인 전체 교통정리 시스템
 - `[Distributed Arbitration]`: 중앙 통제자가 없이 장치들 스스로 합의를 도출하는 정반대의 중재 방식
 - `[Daisy Chain]`: 중앙 집중식 방식 중 선을 가장 아낄 수 있는 직렬 연결 기법
@@ -73,7 +73,7 @@ categories = "studynote-computer-architecture"
 
 ---
 
-## 👶 어린이를 위한 3줄 비유 설명
+### 👶 어린이를 위한 3줄 비유 설명
 1. 중앙 집중식 중재는 교실에 '선생님(중재기)'이 딱 한 명 앉아 계신 거예요.
 2. 학생들이 말하고 싶을 때 서로 떠드는 게 아니라, 무조건 손을 들고 선생님이 "철수 말해!"라고 허락해 줄 때만 말할 수 있어요.
 3. 선생님이 똑똑해서 아주 공평하게 순서를 정해주지만, 만약 선생님이 결근하면 교실은 아무도 말을 못 하는 마비 상태가 된답니다!

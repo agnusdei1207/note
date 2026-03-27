@@ -215,7 +215,7 @@ categories = "studynote-computer-architecture"
 
 ---
 
-## 📌 관련 개념 맵 (Knowledge Graph)
+### 📌 관련 개념 맵 (Knowledge Graph)
 
 | 개념 명칭 | 관계 및 시너지 설명 |
 |:---|:---|
@@ -227,7 +227,7 @@ categories = "studynote-computer-architecture"
 
 ---
 
-## 👶 어린이를 위한 3줄 비유 설명
+### 👶 어린이를 위한 3줄 비유 설명
 1. 레벨 트리거는 컴퓨터 나라의 **'열려있는 창문'**이에요! 
 2. 낮(High Level) 동안 창문을 열어두면 바깥바람(데이터)이 방 안으로 계속 들어오고, 우리는 방 안의 온도가 변하는 걸 실시간으로 볼 수 있답니다.
 3. 하지만 해가 지고 창문을 쾅 닫으면(Falling Edge), 마지막에 들어와 있던 그 공기(데이터)만 방 안에 소중하게 갇혀서 기억되는 거랍니다!

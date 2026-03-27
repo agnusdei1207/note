@@ -73,7 +73,7 @@ categories = "studynote-computer-architecture"
 
 ---
 
-## 📌 관련 개념 맵 (Knowledge Graph)
+### 📌 관련 개념 맵 (Knowledge Graph)
 - `[Bus Master]`: 중재의 대상이 되어 시스템 버스의 주도권을 다투는 주체들
 - `[System Bus]`: 버스 중재의 결과로 단 한 명의 마스터만이 사용할 수 있는 공유 자원
 - `[Centralized Arbitration]`: 시스템 내부에 단 1명의 사회자(Arbiter 칩)를 두는 중재 방식
@@ -82,7 +82,7 @@ categories = "studynote-computer-architecture"
 
 ---
 
-## 👶 어린이를 위한 3줄 비유 설명
+### 👶 어린이를 위한 3줄 비유 설명
 1. 버스 중재는 놀이터에 '그네(버스)'가 하나밖에 없을 때 아이들이 싸우지 않게 순서를 정해주는 '선생님'이에요.
 2. 아이들(마스터)이 동시에 "나 탈래!"라고 손을 들면, 선생님은 "가장 오래 기다린 영희부터 타!"라고 교통정리를 해주죠.
 3. 이 선생님이 없으면 아이들이 동시에 그네에 타려고 부딪혀서 다치기(데이터 파괴) 때문에 꼭 필요한 규칙이랍니다!

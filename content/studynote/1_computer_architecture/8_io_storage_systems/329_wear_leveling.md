@@ -66,7 +66,7 @@ categories = "studynote-computer-architecture"
 
 ---
 
-## 📌 관련 개념 맵 (Knowledge Graph)
+### 📌 관련 개념 맵 (Knowledge Graph)
 - `[SSD (Solid State Drive)]`: 마모 평준화 기술이 필수적으로 적용되어야만 상품으로 팔 수 있는 저장 장치
 - `[NAND Flash]`: 지우기/쓰기에 수명 제한(P/E Cycle)이 있는 물리적 반도체 소자
 - `[FTL (Flash Translation Layer)]`: 마모 평준화를 백그라운드에서 몰래 계산하고 실행하는 전용 컨트롤러
@@ -75,7 +75,7 @@ categories = "studynote-computer-architecture"
 
 ---
 
-## 👶 어린이를 위한 3줄 비유 설명
+### 👶 어린이를 위한 3줄 비유 설명
 1. 마모 평준화는 도화지 한 장(SSD)을 쓸 때 한 구석에만 계속 지우개질해서 종이가 찢어지는 걸 막는 방법이에요.
 2. 똑똑한 로봇(FTL)이 내가 그림을 그릴 때마다 "이쪽은 많이 그렸으니까 이번엔 저쪽 빈 곳에 그려!"라고 계속 자리를 옮겨줘요.
 3. 심지어 한구석에 오래 붙어있던 스티커까지 떼서 다른 곳으로 옮긴 다음, 그 깨끗한 자리까지 골고루 쓰게 만들어서 도화지를 엄청 오래 쓸 수 있게 한답니다!

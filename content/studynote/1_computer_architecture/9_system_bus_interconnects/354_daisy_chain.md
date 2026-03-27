@@ -66,7 +66,7 @@ categories = "studynote-computer-architecture"
 
 ---
 
-## 📌 관련 개념 맵 (Knowledge Graph)
+### 📌 관련 개념 맵 (Knowledge Graph)
 - `[Bus Arbitration]`: 데이지 체인이 속한 버스 사용권 교통정리 방법론
 - `[Centralized Arbitration]`: 데이지 체인을 통제하는 단 하나의 칩(Arbiter)이 존재하는 구조
 - `[Priority (우선순위)]`: 데이지 체인이 '물리적 위치'만으로 강제해 버리는 권력의 서열
@@ -75,7 +75,7 @@ categories = "studynote-computer-architecture"
 
 ---
 
-## 👶 어린이를 위한 3줄 비유 설명
+### 👶 어린이를 위한 3줄 비유 설명
 1. 데이지 체인은 수건돌리기 게임처럼 친구들이 동그랗게 앉아서 수건(허락 신호)을 옆으로 전달, 전달하는 방식이에요.
 2. 선생님과 제일 가까운 1번 친구는 항상 수건을 제일 먼저 받을 수 있어서 자기가 하고 싶을 땐 언제든 할 수 있죠.
 3. 하지만 1번 친구가 욕심쟁이라서 수건을 계속 자기가 가지면, 맨 끝에 앉은 친구는 평생 게임을 못 하게 되는 슬픈 규칙이기도 해요!

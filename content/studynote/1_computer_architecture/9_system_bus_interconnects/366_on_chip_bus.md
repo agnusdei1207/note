@@ -70,7 +70,7 @@ categories = "studynote-computer-architecture"
 
 ---
 
-## 📌 관련 개념 맵 (Knowledge Graph)
+### 📌 관련 개념 맵 (Knowledge Graph)
 - `[SoC (System on Chip)]`: AMBA 버스가 맹활약하는, 컴퓨터 한 대를 칩 하나에 우겨넣은 반도체
 - `[ARM Architecture]`: 이 세계 표준 버스 규격(AMBA)을 만들어 모바일 시장을 지배한 장본인
 - `[Bus Arbitration]`: 온칩 버스에서도 여전히 부품 간의 교통정리를 위해 필수적인 기술
@@ -79,7 +79,7 @@ categories = "studynote-computer-architecture"
 
 ---
 
-## 👶 어린이를 위한 3줄 비유 설명
+### 👶 어린이를 위한 3줄 비유 설명
 1. 온칩 버스는 손톱만 한 스마트폰 칩셋 안에 들어있는 '아주아주 작은 마이크로 미니 도로망'이에요.
 2. 이 도로가 있어야 칩 안에 있는 뇌(CPU), 눈(카메라 칩), 귀(마이크 칩)가 서로 정보를 주고받을 수 있죠.
 3. 뇌나 눈처럼 엄청나게 빠른 부품은 KTX 전용선(AXI)을 쓰고, 조금 느린 부품들은 자전거 도로(APB)를 쓰도록 길을 똑똑하게 나눠 놨답니다!

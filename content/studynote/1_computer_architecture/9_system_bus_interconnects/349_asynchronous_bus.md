@@ -64,7 +64,7 @@ categories = "studynote-computer-architecture"
 
 ---
 
-## 📌 관련 개념 맵 (Knowledge Graph)
+### 📌 관련 개념 맵 (Knowledge Graph)
 - `[Synchronous Bus (동기식 버스)]`: 비동기식 버스와 정반대로 클럭에 맞춰 일괄적으로 움직이는 고속 버스
 - `[Handshaking]`: 비동기식 통신의 핵심인 "Ready"와 "Acknowledge"의 주고받기 프로토콜
 - `[Control Bus (제어 버스)]`: 핸드셰이킹 신호들이 물리적으로 흘러 다니는 통로
@@ -73,7 +73,7 @@ categories = "studynote-computer-architecture"
 
 ---
 
-## 👶 어린이를 위한 3줄 비유 설명
+### 👶 어린이를 위한 3줄 비유 설명
 1. 비동기식 버스는 친구랑 야구공을 주고받을 때, "나 던진다!", "응, 던져!", "받았어!"라고 매번 말하면서 던지는 방식이에요.
 2. 매번 확인하고 던지니까 공을 땅에 떨어뜨릴 일은 절대 없고, 느린 친구랑도 호흡을 맞춰서 잘 놀 수 있죠.
 3. 하지만 말하는 시간 때문에 공을 엄청나게 빨리 슉슉 던지는 건 할 수 없다는 단점이 있답니다!
