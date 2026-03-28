@@ -1,9 +1,7 @@
 +++
 weight = 7
 title = "7. 시험 빈출 요약 (2) - IT 감사 심화"
-date = "2026-03-26"
 [extra]
-categories = "studynote-design-supervision"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

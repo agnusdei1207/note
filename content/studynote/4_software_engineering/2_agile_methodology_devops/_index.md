@@ -2,10 +2,9 @@
 title = "2. 애자일 개발 및 최신 방법론"
 sort_by = "weight"
 weight = 3002
-date = 2026-03-27
-categories = ["Software Engineering", "Agile", "DevOps"]
 
 [extra]
+categories = ["Software Engineering", "Agile", "DevOps"]
 core_insights = [
     "애자일 방법론의 핵심은 변화에 대한 민첩한 대응 능력과 짧은 피드백 루프를 통한 مستمر인 개선이며, 이는 팀의 성숙도에 비례한다.",
     "DevOps는 개발과 운영의 조직적 경계를 허물고 CI/CD, IaC, 모니터링을 통합하여 배포 주기를 일주일에서 일수로 단축시킨다.",

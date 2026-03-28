@@ -1,9 +1,7 @@
 +++
 weight = 7004
 title = "4. 자료구조"
-date = "2026-03-27"
 [extra]
-categories = "studynote-algorithm"
 +++
 
 > **핵심 인사이트**

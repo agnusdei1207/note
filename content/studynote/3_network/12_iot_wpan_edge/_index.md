@@ -1,7 +1,6 @@
 +++
 title = "12. 사물인터넷(IoT), WPAN 및 엣지 통신"
 description = "MQTT, CoAP 등 IoT 프로토콜, Zigbee 등 WPAN 기술, 엣지 컴퓨팅 아키텍처"
-date = 2024-01-20
 weight = 2012
 
 [taxonomies]

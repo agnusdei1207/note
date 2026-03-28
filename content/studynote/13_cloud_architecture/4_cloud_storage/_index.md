@@ -1,9 +1,7 @@
 +++
 weight = 12008
 title = "8. 클라우드 스토리지"
-date = "2026-03-26"
 [extra]
-categories = ["studynote-cloud-architecture"]
 +++
 
 # 8. 클라우드 스토리지

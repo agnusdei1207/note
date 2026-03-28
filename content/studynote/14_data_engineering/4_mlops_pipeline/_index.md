@@ -1,7 +1,6 @@
 +++
 weight = 13004
 title = "4. MLOps 및 데이터 파이프라인"
-date = "2026-03-18"
 [extra]
 category = "studynote-data-engineering"
 +++

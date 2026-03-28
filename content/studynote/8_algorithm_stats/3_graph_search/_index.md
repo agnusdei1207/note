@@ -1,9 +1,7 @@
 +++
 weight = 7003
 title = "3. 탐색 및 그래프 알고리즘"
-date = "2026-03-27"
 [extra]
-categories = "studynote-algorithm"
 +++
 
 > **핵심 인사이트**

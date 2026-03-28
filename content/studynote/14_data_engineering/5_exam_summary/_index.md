@@ -1,7 +1,6 @@
 +++
 weight = 13005
 title = "5. 시험 빈출 요약"
-date = "2026-03-18"
 [extra]
 category = "studynote-data-engineering"
 +++

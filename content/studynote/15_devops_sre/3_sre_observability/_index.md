@@ -1,9 +1,7 @@
 +++
 weight = 14003
 title = "3. SRE 및 옵저버빌리티"
-date = "2026-03-18"
 [extra]
-categories = "studynote-devops-sre"
 +++
 
 > **핵심 인사이트**

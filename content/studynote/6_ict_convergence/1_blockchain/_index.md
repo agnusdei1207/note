@@ -1,9 +1,7 @@
 +++
 weight = 5001
 title = "1. Web 3.0 및 블록체인"
-date = "2026-03-20"
 [extra]
-categories = "studynote-ict-convergence"
 +++
 
 # Web 3.0 및 블록체인

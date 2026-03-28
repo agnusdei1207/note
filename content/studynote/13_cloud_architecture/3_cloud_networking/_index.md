@@ -1,9 +1,7 @@
 +++
 weight = 12007
 title = "7. 클라우드 네트워킹"
-date = "2026-03-26"
 [extra]
-categories = ["studynote-cloud-architecture"]
 +++
 
 # 7. 클라우드 네트워킹

@@ -1,9 +1,7 @@
 +++
 weight = 11007
 title = "7. 시험 빈출 핵심 토픽"
-date = "2026-03-18"
 [extra]
-categories = "studynote-it-management"
 rating = 5
 +++
 

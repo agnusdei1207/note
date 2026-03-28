@@ -1,7 +1,6 @@
 +++
 weight = 12002
 title = "2. 컨테이너 및 쿠버네티스"
-date = 2026-03-27
 [extra]
 category = "studynote-cloud-architecture"
 kids_analogy = "레고 블록으로 만든 장난감 자동차를 생각해 봐요. 바퀴, 엔진, 차체 등 블록을 쉽게 바꿀 수 있죠? 컨테이너도 마찬가지로 애플리케이션의 각 부분을 표준화된 블록으로 만들어 쉽게 교체하고 다시 조립할 수 있어요."

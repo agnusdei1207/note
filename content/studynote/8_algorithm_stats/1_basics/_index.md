@@ -1,9 +1,7 @@
 +++
 weight = 7001
 title = "1. 알고리즘 기초"
-date = "2026-03-27"
 [extra]
-categories = "studynote-algorithm"
 +++
 
 > **핵심 인사이트**

@@ -1,9 +1,7 @@
 +++
 weight = 10
 title = "10. 시험 빈출 요약 (5) - 안티패턴 및 테스트"
-date = "2026-03-26"
 [extra]
-categories = "studynote-design-supervision"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

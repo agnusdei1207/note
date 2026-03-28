@@ -1,9 +1,7 @@
 +++
 weight = 6005
 title = "5. 엔터프라이즈 데이터 및 BI"
-date = "2026-03-18"
 [extra]
-categories = "studynote-enterprise"
 +++
 
 > **핵심 인사이트**

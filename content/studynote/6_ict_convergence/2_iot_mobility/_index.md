@@ -1,9 +1,7 @@
 +++
 weight = 5002
 title = "2. 사물인터넷, 모빌리티 및 무선 신기술"
-date = "2026-03-20"
 [extra]
-categories = "studynote-ict-convergence"
 +++
 
 # 사물인터넷, 모빌리티 및 무선 신기술

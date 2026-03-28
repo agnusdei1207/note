@@ -1,8 +1,7 @@
 +++
 title = "9. 빅데이터 플랫폼 및 아키텍처"
 weight = 15009
-date = "2026-03-26"
-[taxonomies]
+[extra]
 categories = ["studynote-bigdata"]
 +++
 

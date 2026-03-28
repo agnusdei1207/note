@@ -1,9 +1,7 @@
 +++
 weight = 7005
 title = "5. 문자열 알고리즘"
-date = "2026-03-27"
 [extra]
-categories = "studynote-algorithm"
 +++
 
 > **핵심 인사이트**

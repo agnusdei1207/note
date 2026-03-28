@@ -1,9 +1,7 @@
 +++
 weight = 8
 title = "8. 시험 빈출 요약 (3) - 아키텍처 설계"
-date = "2026-03-26"
 [extra]
-categories = "studynote-design-supervision"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

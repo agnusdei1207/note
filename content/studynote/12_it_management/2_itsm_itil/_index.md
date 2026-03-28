@@ -1,9 +1,7 @@
 +++
 weight = 11002
 title = "2. IT 서비스 관리 (ITSM/ITIL)"
-date = "2026-03-18"
 [extra]
-categories = "studynote-it-management"
 +++
 
 > **핵심 인사이트**

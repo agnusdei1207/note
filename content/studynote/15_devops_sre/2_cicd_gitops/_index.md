@@ -1,9 +1,7 @@
 +++
 weight = 14002
 title = "2. CI/CD 및 GitOps"
-date = "2026-03-18"
 [extra]
-categories = "studynote-devops-sre"
 +++
 
 > **핵심 인사이트**

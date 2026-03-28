@@ -2,10 +2,9 @@
 title = "3. 요구공학 및 비즈니스 분석"
 sort_by = "weight"
 weight = 3003
-date = 2026-03-27
-categories = ["Software Engineering", "Requirements Engineering"]
 
 [extra]
+categories = ["Software Engineering", "Requirements Engineering"]
 core_insights = [
     "요구공학은 소프트웨어 프로젝트의 비용과 품질을 결정하는 가장 중요한 초기 단계이며,Requirements 오류는 유지보수 단계에서修正 비용이 개발 단계의 100배 이상이다.",
     "기능적 요구사항과 비기능적 요구사항(성능, 보안, 사용성)을 명확히 구분하고,Stakeholder별로 다른View를 관리하는 것이プロジェクト成功의关键이다.",

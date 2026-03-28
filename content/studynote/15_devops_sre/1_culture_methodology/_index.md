@@ -1,9 +1,7 @@
 +++
 weight = 14001
 title = "1. DevOps 문화 및 방법론"
-date = "2026-03-18"
 [extra]
-categories = "studynote-devops-sre"
 +++
 
 > **핵심 인사이트**

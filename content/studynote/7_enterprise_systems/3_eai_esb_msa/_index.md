@@ -1,9 +1,7 @@
 +++
 weight = 6003
 title = "3. 엔터프라이즈 아키텍처 (EAI/ESB/MSA)"
-date = "2026-03-18"
 [extra]
-categories = "studynote-enterprise"
 +++
 
 > **핵심 인사이트**

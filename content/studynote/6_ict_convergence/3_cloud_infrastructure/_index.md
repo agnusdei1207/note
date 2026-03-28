@@ -1,9 +1,7 @@
 +++
 weight = 5003
 title = "3. 클라우드 컴퓨팅 및 인프라 신기술"
-date = "2026-03-20"
 [extra]
-categories = "studynote-ict-convergence"
 +++
 
 # 클라우드 컴퓨팅 및 인프라 신기술

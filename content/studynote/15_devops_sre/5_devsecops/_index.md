@@ -1,9 +1,7 @@
 +++
 weight = 14005
 title = "5. DevSecOps 및 규제 준수"
-date = "2026-03-18"
 [extra]
-categories = "studynote-devops-sre"
 +++
 
 > **핵심 인사이트**

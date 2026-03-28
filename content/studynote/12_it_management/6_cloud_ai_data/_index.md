@@ -1,9 +1,7 @@
 +++
 weight = 11006
 title = "6. 클라우드, AI, 데이터 융합"
-date = "2026-03-18"
 [extra]
-categories = "studynote-it-management"
 rating = 5
 +++
 

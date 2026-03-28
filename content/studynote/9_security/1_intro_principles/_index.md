@@ -1,9 +1,7 @@
 +++
 title = "1. 보안 기초 (Security Fundamentals)"
 weight = 8001
-date = "2026-03-26"
 [taxonomies]
-categories = ["security", "fundamentals"]
 +++
 
 ### 핵심 인사이트 (Core Insights)
@@ -174,3 +172,5 @@ categories = ["security", "fundamentals"]
 1.  **자물쇠와 열쇠**: 우리 집 소중한 보물(데이터)을 지키기 위해 튼튼한 자물쇠를 걸고 허락된 사람만 열쇠를 주는 거예요.
 2.  **도둑 조심**: 집 벽에 구멍(취약점)이 있다면 나쁜 도둑(위협)이 들어올 수 있으니, 구멍을 막고 CCTV를 설치해서 지켜봐야 해요.
 3.  **약속 지키기**: 집 안에서 무엇을 했는지 일기(로그)를 써서, 나중에 물건이 없어졌을 때 누가 가져갔는지 찾아낼 수 있게 하는 규칙이에요.
+[extra]
+categories = ["security", "fundamentals"]

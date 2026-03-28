@@ -1,8 +1,6 @@
 +++
 weight = 5102
 title = "2. 관계형 데이터 모델 및 정규화"
-date = 2024-01-16
-categories = ["study", "database"]
 +++
 
 # 2. 관계형 데이터 모델 및 정규화
@@ -466,3 +464,5 @@ categories = ["study", "database"]
 ---
 
 *최종 수정일: 2024-01-16*
+[extra]
+categories = ["study", "database"]

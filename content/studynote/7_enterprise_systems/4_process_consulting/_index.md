@@ -1,9 +1,7 @@
 +++
 weight = 6004
 title = "4. 프로세스 모델링 및 IT 컨설팅"
-date = "2026-03-18"
 [extra]
-categories = "studynote-enterprise"
 +++
 
 > **핵심 인사이트**

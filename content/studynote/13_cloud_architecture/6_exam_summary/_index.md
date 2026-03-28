@@ -1,9 +1,7 @@
 +++
 weight = 12006
 title = "6. 시험 빈출 핵심 토픽"
-date = "2026-03-26"
 [extra]
-categories = ["studynote-cloud-architecture"]
 +++
 
 # 6. 시험 빈출 핵심 토픽

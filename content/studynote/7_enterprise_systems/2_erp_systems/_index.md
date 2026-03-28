@@ -1,9 +1,7 @@
 +++
 weight = 6002
 title = "2. 전사적 자원 관리 (ERP)"
-date = "2026-03-27"
 [extra]
-categories = "studynote-enterprise"
 +++
 
 > **핵심 인사이트**

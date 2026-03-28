@@ -1,9 +1,7 @@
 +++
 weight = 11001
 title = "1. IT 거버넌스 및 경영 전략"
-date = "2026-03-18"
 [extra]
-categories = "studynote-it-management"
 +++
 
 > **핵심 인사이트**

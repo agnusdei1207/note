@@ -1,9 +1,7 @@
 +++
 weight = 11005
 title = "5. 보안, 감리 및 컴플라이언스"
-date = "2026-03-18"
 [extra]
-categories = "studynote-it-management"
 +++
 
 > **핵심 인사이트**

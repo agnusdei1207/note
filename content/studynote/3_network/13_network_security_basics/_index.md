@@ -1,7 +1,6 @@
 +++
 title = "13. 네트워크 보안 (기본 기법)"
 description = "방화벽, IDS/IPS, VPN, SSL/TLS 등 네트워크 보안 기본 기술"
-date = 2024-01-22
 weight = 2013
 
 [taxonomies]

@@ -1,9 +1,7 @@
 +++
 weight = 6
 title = "6. 시험 빈출 요약 (1) - 감리 기초"
-date = "2026-03-26"
 [extra]
-categories = "studynote-design-supervision"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

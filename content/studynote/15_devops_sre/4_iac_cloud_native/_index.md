@@ -1,9 +1,7 @@
 +++
 weight = 14004
 title = "4. IaC 및 클라우드 네이티브"
-date = "2026-03-18"
 [extra]
-categories = "studynote-devops-sre"
 +++
 
 > **핵심 인사이트**

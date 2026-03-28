@@ -1,13 +1,12 @@
 +++
 title = "2. 다중화 및 다중접속 기술"
-date = 2026-03-27
 sort_by = "weight"
 weight = 2002
-categories = ["Network", "Multiplexing", "Multiple Access"]
 template = "page.html"
 sitemap_enabled = true
 
 [extra]
+categories = ["Network", "Multiplexing", "Multiple Access"]
 authors = ["BrainScience Team"]
 excerpt = "다중화와 다중접속 기술의核心 원리와 구현 방식을 심층적으로 다룬다."
 +++

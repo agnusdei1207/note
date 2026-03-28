@@ -1,13 +1,12 @@
 +++
 title = "1. 데이터Communications 기초 및 신호처리"
-date = 2026-03-27
 sort_by = "weight"
 weight = 2001
-categories = ["Network", "Data Communications", "Physical Layer"]
 template = "page.html"
 sitemap_enabled = true
 
 [extra]
+categories = ["Network", "Data Communications", "Physical Layer"]
 authors = ["BrainScience Team"]
 excerpt = "데이터Communications의 기초 개념과 신호처리의 핵심 원리를 심층적으로 다룬다."
 +++

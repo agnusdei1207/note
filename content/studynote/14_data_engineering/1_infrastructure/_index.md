@@ -1,7 +1,6 @@
 +++
 weight = 13001
 title = "1. 빅데이터 인프라 및 분산 처리"
-date = "2026-03-18"
 [extra]
 category = "studynote-data-engineering"
 +++

@@ -1,9 +1,7 @@
 +++
 weight = 11003
 title = "3. 정보화 전략 및 아키텍처 (EA/ISP)"
-date = "2026-03-18"
 [extra]
-categories = "studynote-it-management"
 +++
 
 > **핵심 인사이트**

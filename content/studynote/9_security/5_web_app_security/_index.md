@@ -1,9 +1,7 @@
 +++
 weight = 8005
 title = "5. 웹 및 애플리케이션 보안 (Web Application Security)"
-date = "2026-03-26"
 [taxonomies]
-categories = ["security", "webapp"]
 +++
 
 ### 핵심 인사이트 3줄
@@ -173,3 +171,5 @@ categories = ["security", "webapp"]
 1.  우리 집 대문(웹사이트)은 누구나 올 수 있게 열려 있지만, 들어올 때 나쁜 물건을 가졌는지 꼼꼼히 검사해야 해요.
 2.  집을 다 짓고 나서 자물쇠를 다는 것보다, 집을 설계할 때부터 도둑이 못 들어오게 튼튼한 벽을 만드는 게 훨씬 중요하다.
 3.  손님이 건네주는 사탕(데이터)은 포장지(인코딩)를 잘 확인해서 독이 들었는지 아닌지 꼭 살펴보고 먹어야 배탈이 나지 않아요.
+[extra]
+categories = ["security", "webapp"]

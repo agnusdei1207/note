@@ -1,9 +1,7 @@
 +++
 weight = 14006
 title = "6. 시험 빈출 요약"
-date = "2026-03-18"
 [extra]
-categories = "studynote-devops-sre"
 +++
 
 > **핵심 인사이트**

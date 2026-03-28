@@ -1,9 +1,7 @@
 +++
 weight = 11004
 title = "4. 정보시스템 개발 및 테스트"
-date = "2026-03-18"
 [extra]
-categories = "studynote-it-management"
 +++
 
 > **핵심 인사이트**
