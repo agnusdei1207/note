@@ -8,7 +8,7 @@ categories = "studynote-computer-architecture"
 
 # 클러스터 컴퓨팅 (Cluster Computing)
 
-#### 핵심 인사이트 (3줄 요약)
+## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 저렴한 범용 상용 컴퓨터(COTS, Commercial Off-The-Shelf) 여러 대를 고속 근거리 통신망(LAN)으로 묶어, 외부에서 볼 때 마치 하나의 거대한 슈퍼컴퓨터처럼 작동하게 만드는 강결합(Tightly Coupled)된 분산 시스템이다. (분산 메모리 시스템의 대표적 구현체)
 > 2. **가치**: 수십억 원짜리 단일 전용 슈퍼컴퓨터를 사는 대신, 수백만 원짜리 노드 수천 대를 이어 붙이는 횡적 확장(Scale-out)을 통해 막대한 병렬 연산력과 고가용성(High Availability)을 극도의 가성비로 달성한다.
 > 3. **융합**: 하드웨어는 파편화되어 있으나, 이를 하나로 묶어주는 미들웨어(메시지 패싱 MPI, 부하 분산 Load Balancing, 고장 감내 Fail-over) 소프트웨어와의 완벽한 융합 없이는 단순한 고철 덩어리에 불과하다.
