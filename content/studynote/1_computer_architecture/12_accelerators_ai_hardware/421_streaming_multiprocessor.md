@@ -8,7 +8,7 @@ categories = "studynote-computer-architecture"
 
 # 스트리밍 멀티프로세서 (SM, Streaming Multiprocessor)
 
-#### 핵심 인사이트 (3줄 요약)
+## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 엔비디아(NVIDIA) GPU 아키텍처를 구성하는 핵심 독립 빌딩 블록(Building Block)으로, 내부에 수십~수백 개의 멍청한 산술 코어(CUDA Core), 거대한 레지스터, 공유 메모리를 한 덩어리로 묶어 놓은 **'독립적인 병렬 연산 공장'**이다.
 > 2. **가치**: CPU의 '단일 코어(Core)' 역할을 대신하며, 세밀한 멀티스레딩(Fine-grained Multithreading) 하드웨어 로직을 통해 수십 개의 스레드 묶음(Warp)을 매 클럭마다 휙휙 교체하여 느린 메모리 접근 지연을 100% 은닉(Latency Hiding)해 버린다.
 > 3. **융합**: 거대한 단일 GPU 칩(Die) 내부에 이 SM을 수십 개에서 백여 개 넘게 복제(Scale-out)하여 전체 연산력(TFLOPS)을 결정지으며, 최신 아키텍처에서는 행렬 곱셈 전용 가속기인 **'텐서 코어(Tensor Core)'**를 SM 내부에 융합 탑재하여 인공지능 딥러닝 트레이닝의 심장부가 되었다.
