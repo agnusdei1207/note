@@ -4,12 +4,11 @@ description = "HTTP의 암호화된 버전 HTTPS의 동작 원리, TLS 핸드셰
 date = 2024-01-29
 weight = 2
 
-[taxonomies]
-subjects = ["network"]
+[extra]
+categories = ["studynote-software-engineering"]
 topics = ["application-layer", "https", "tls", "ssl", "encryption"]
 study_section = ["section-9-application-layer-web-email"]
 
-[extra]
 number = "902"
 core_insight = "HTTPS는 HTTP를 TLS(Transport Layer Security)로 암호화하여,数据传输の機密性/무결성/인증을 보장하는 프로토콜이다. TLS 핸드셰이크로 암호화 키를 교환하고, 인증서 체인을 통해 서버 신원을 검증한다."
 key_points = ["TLS 핸드셰이크 (1-RTT, 0-RTT)", "인증서와 PKI (Public Key Infrastructure)", "대칭/비대칭 암호화 혼합", "HSTS와 Certificate Transparency"]

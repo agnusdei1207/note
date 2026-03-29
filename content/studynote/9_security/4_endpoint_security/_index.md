@@ -1,7 +1,6 @@
 +++
 weight = 8004
 title = "4. 시스템 및 엔드포인트 보안 (Endpoint Security)"
-[taxonomies]
 +++
 
 ### 핵심 인사이트

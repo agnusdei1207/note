@@ -4,9 +4,8 @@ description = "DDD의 개념, 전략적 설계, 전술적 설계, Bounded Contex
 date = 2024-01-21
 weight = 608
 
-[taxonomies]
-subjects = ["software-engineering"]
-authors = ["brainscience"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 
 # 도메인 주도의 설계 (DDD, Domain-Driven Design)

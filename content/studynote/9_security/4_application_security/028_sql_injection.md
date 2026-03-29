@@ -4,8 +4,8 @@ description = "웹 애플리케이션의 가장 흔한 보안 취약점: SQL 인
 date = 2026-03-26
 weight = 28
 
-[taxonomies]
-subjects = ["security"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 
 # SQL 인젝션 (SQL Injection)

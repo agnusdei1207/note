@@ -4,8 +4,8 @@ description = "페이지 단위 복구 기법인 Shadow Paging에 대해 설명"
 date = 2024-01-01
 weight = 23
 
-[taxonomies]
-subjects = ["database"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 +++
 

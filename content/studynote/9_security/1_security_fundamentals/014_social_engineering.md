@@ -4,8 +4,8 @@ description = "인간의 심리적 약점을 利用하는 공격 기법"
 date = 2026-03-26
 weight = 8014
 
-[taxonomies]
-subjects = ["security"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 
 # 사회공학 (Social Engineering)

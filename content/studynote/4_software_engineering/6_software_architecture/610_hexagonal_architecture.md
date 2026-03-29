@@ -4,9 +4,8 @@ description = "헥사고날 아키텍처(Ports and Adapters)의 개념과 클린
 date = 2024-01-23
 weight = 610
 
-[taxonomies]
-subjects = ["software-engineering"]
-authors = ["brainscience"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 
 # 헥사고날 아키텍처 (Hexagonal Architecture)

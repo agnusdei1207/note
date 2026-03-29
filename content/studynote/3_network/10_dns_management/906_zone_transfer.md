@@ -4,12 +4,11 @@ description = "DNS 존 간의 영역 전송과 DNSSEC의 디지털 서명을 통
 date = 2024-02-02
 weight = 2
 
-[taxonomies]
-subjects = ["network"]
+[extra]
+categories = ["studynote-software-engineering"]
 topics = ["dns", "zone-transfer", "dnssec", "axfr"]
 study_section = ["section-10-dns-management"]
 
-[extra]
 number = "906"
 core_insight = "DNS zone transfer는 Primary DNS와 Secondary DNS 사이에서 존 파일을 동기화하는 메커니즘이며, DNSSEC는 DNS 응답에 디지털 서명을附加하여 응답의 출처와 무결성을 검증할 수 있게 한다."
 key_points = ["Zone transfer (AXFR, IXFR)", "Primary/Secondary DNS 구성", "DNSSEC 디지털 서명 (RRSIG)", "DS 레코드와 사슬 검증"]

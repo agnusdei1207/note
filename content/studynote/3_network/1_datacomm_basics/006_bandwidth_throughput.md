@@ -1,6 +1,9 @@
 +++
-title: "대역폭과 처리량 (Bandwidth and Throughput)"
-draft: true
+weight = 6
+title = """006.  대역폭과 처리량 (Bandwidth and Throughput)"""
+date = "2026-03-28"
+[extra]
+categories = "studynote-network"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

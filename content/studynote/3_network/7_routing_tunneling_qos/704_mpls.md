@@ -4,12 +4,11 @@ description = "레이블 기반的高速 패킷 전달 기술 MPLS의 동작 원
 date = 2024-01-24
 weight = 704
 
-[taxonomies]
-subjects = ["network"]
+[extra]
+categories = ["studynote-software-engineering"]
 topics = ["mpls", "label-switching", "traffic-engineering"]
 study_section = ["section-7-routing-tunneling-qos"]
 
-[extra]
 number = "704"
 core_insight = "MPLS는 IP 헤더 분석 없이 레이블(Label)만으로高速路由决定하여,话音やビデオなどのリアルタイムトラフィックに低遅延转发を提供する。TE(Traffic Engineering) 기능을 통해 네트워크 관리자는 명시적으로トラフィック路径を制御できる。"
 key_points = ["레이블 스위칭 (IP 대신)", "LIB (Label Information Base)", "LDP (Label Distribution Protocol)", "MPLS TE (Traffic Engineering)"]

@@ -4,12 +4,11 @@ description = "TCP의 혼잡 제어 메커니즘인 Slow Start, Congestion Avoid
 date = 2024-01-27
 weight = 3
 
-[taxonomies]
-subjects = ["network"]
+[extra]
+categories = ["studynote-software-engineering"]
 topics = ["transport-layer", "tcp", "congestion-control", "aimd"]
 study_section = ["section-8-transport-layer-tcp-udp"]
 
-[extra]
 number = "803"
 core_insight = "TCP 혼잡 제어는 네트워크가 처리할 수 있는 이상의 데이터가 전송되는 것을 방지하여, 인터넷의 안정성을 유지하는 핵심 메커니즘이다. AIMD(Slow Start+线性増加, 손실 시乘法적 감소)로 공정하고 효율적인 대역폭 활용을 달성한다."
 key_points = ["Slow Start (지수적 증가)", "Congestion Avoidance (선형 증가)", "AIMD (Additive Increase, Multiplicative Decrease)", "Fast Retransmit과 Fast Recovery"]

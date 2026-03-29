@@ -4,8 +4,8 @@ description = "암호학의 기본 개념과 원리"
 date = 2026-03-26
 weight = 16
 
-[taxonomies]
-subjects = ["security"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 
 # 암호학 기초 (Cryptography Fundamentals)

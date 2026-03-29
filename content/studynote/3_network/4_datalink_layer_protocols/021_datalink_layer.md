@@ -1,6 +1,9 @@
 +++
-title: "데이터 링크 계층 (Data Link Layer)"
-draft: true
+weight = 21
+title = """021.  데이터 링크 계층 (Data Link Layer)"""
+date = "2026-03-28"
+[extra]
+categories = "studynote-network"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

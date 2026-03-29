@@ -4,9 +4,8 @@ description = "MVC 아키텍처 패턴의 개념과 실무 적용"
 date = 2024-01-17
 weight = 604
 
-[taxonomies]
-subjects = ["software-engineering"]
-authors = ["brainscience"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 
 # MVC 아키텍처 (Model-View-Controller Architecture)

@@ -4,9 +4,8 @@ description = "소프트웨어 아키텍처의 기본 개념과 중요성"
 date = 2024-01-15
 weight = 601
 
-[taxonomies]
-subjects = ["software-engineering"]
-authors = ["brainscience"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 
 # 소프트웨어 아키텍처 (Software Architecture)

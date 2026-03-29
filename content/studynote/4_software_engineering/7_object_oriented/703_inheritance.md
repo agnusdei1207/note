@@ -4,9 +4,8 @@ description = "상속(Inheritance)의 개념, 타입, 오버라이딩"
 date = 2024-02-05
 weight = 703
 
-[taxonomies]
-subjects = ["software-engineering"]
-authors = ["brainscience"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 
 # 상속 (Inheritance)

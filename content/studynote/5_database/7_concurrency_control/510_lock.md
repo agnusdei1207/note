@@ -4,8 +4,8 @@ description = "데이터베이스 동시성 제어의 기본 메커니즘인 잠
 date = 2024-01-01
 weight = 510
 
-[taxonomies]
-subjects = ["database"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 +++
 

@@ -4,9 +4,8 @@ description = "마이크로서비스 아키텍처의 개념, MSA vs SOA, Decompo
 date = 2024-01-19
 weight = 606
 
-[taxonomies]
-subjects = ["software-engineering"]
-authors = ["brainscience"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 
 # 마이크로서비스 아키텍처 (MSA, MicroServices Architecture)

@@ -4,12 +4,11 @@ description = "DNS 기반 DDoS 공격의 유형, 증상, 그리고 방어 메커
 date = 2024-02-03
 weight = 3
 
-[taxonomies]
-subjects = ["network"]
+[extra]
+categories = ["studynote-software-engineering"]
 topics = ["dns", "ddos", "dns-security", "amplification"]
 study_section = ["section-10-dns-management"]
 
-[extra]
 number = "907"
 core_insight = "DDoS 공격은 다수의 분산 호스트에서標적服务器에大量 트래픽을 흘려보내 서비스를 마비시키는 공격이다. DNS는 amplification 공격의 반사점으로 악용되며, Anycast, Rate Limiting, DDoS Mitigation Service 등으로 방어한다."
 key_points = ["DNS Amplification 공격", "Anycast 기반 분산", "Rate Limiting과 RRL", "DDoS Mitigation Service"]

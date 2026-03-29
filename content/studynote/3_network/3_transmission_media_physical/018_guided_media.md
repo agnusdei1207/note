@@ -1,6 +1,9 @@
 +++
-title: "유선 매체 (Guided Media)"
-draft: true
+weight = 18
+title = """018.  유선 매체 (Guided Media)"""
+date = "2026-03-28"
+[extra]
+categories = "studynote-network"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

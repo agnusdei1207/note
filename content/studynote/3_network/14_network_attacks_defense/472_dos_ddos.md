@@ -4,11 +4,10 @@ description = "DoS/DDoS 공격의 종류, 동작 원리, 봇넷, SYN Flood, UDP 
 date = 2024-01-27
 weight = 13
 
-[taxonomies]
-subjects = ["network"]
+[extra]
+categories = ["studynote-software-engineering"]
 tags = ["dos", "ddos", "botnet", "syn flood", "udp flood", "amplification"]
 
-[extra]
 +++
 
 ## 핵심 인사이트 (3줄 요약)

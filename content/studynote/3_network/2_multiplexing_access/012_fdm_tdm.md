@@ -1,6 +1,9 @@
 +++
-title: "주파수 분할 다중화와 시분할 다중화 (FDM and TDM)"
-draft: true
+weight = 12
+title = """012.  주파수 분할 다중화와 시분할 다중화 (FDM and TDM)"""
+date = "2026-03-28"
+[extra]
+categories = "studynote-network"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

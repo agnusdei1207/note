@@ -4,12 +4,11 @@ description = "IP 주소를 동적으로 할당하는 DHCP의 4단계 과정과 
 date = 2024-01-31
 weight = 4
 
-[taxonomies]
-subjects = ["network"]
+[extra]
+categories = ["studynote-software-engineering"]
 topics = ["application-layer", "dhcp", "ip-allocation"]
 study_section = ["section-9-application-layer-web-email"]
 
-[extra]
 number = "904"
 core_insight = "DHCP는 IP 주소, 서브넷 마스크, 게이트웨이, DNS 서버 등의 네트워크 설정을 자동으로 동적 할당하는 프로토콜로, UDP 67/68에서 동작하며 4단계(DORA) 과정을 통해IP 주소를 얻는다."
 key_points = ["4단계 (DORA: Discover, Offer, Request, Ack)", "UDP 67/68 사용", "주소 임대 (Lease)와 갱신 (Renewal)", "DHCP 중계 에이전트 (Relay Agent)"]

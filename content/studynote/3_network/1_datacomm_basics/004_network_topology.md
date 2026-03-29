@@ -1,6 +1,9 @@
 +++
-title: "네트워크 토폴로지 (Network Topology)"
-draft: true
+weight = 4
+title = """004.  네트워크 토폴로지 (Network Topology)"""
+date = "2026-03-28"
+[extra]
+categories = "studynote-network"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

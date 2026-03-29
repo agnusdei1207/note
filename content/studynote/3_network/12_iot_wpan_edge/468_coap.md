@@ -4,11 +4,10 @@ description = "CoAP의 구조, HTTP/REST 매핑, UDP 기반 동작, DTLS 보안,
 date = 2024-01-23
 weight = 9
 
-[taxonomies]
-subjects = ["network"]
+[extra]
+categories = ["studynote-software-engineering"]
 tags = ["coap", "iot", "m2m", "rest", "constrained", "protocol"]
 
-[extra]
 +++
 
 ## 핵심 인사이트 (3줄 요약)

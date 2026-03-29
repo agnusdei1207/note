@@ -1,7 +1,6 @@
 +++
 weight = 8005
 title = "5. 웹 및 애플리케이션 보안 (Web Application Security)"
-[taxonomies]
 +++
 
 ### 핵심 인사이트 3줄

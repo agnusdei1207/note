@@ -4,8 +4,8 @@ description = "보안 사고 발생 시 체계적인 대응 절차와 방법론"
 date = 2026-03-26
 weight = 8009
 
-[taxonomies]
-subjects = ["security"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 
 # 사고 대응 (Incident Response)

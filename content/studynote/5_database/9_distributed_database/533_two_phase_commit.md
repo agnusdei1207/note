@@ -4,8 +4,8 @@ description = "분산 트랜잭션의 원자성을 보장하는 2PC 프로토콜
 date = 2024-01-01
 weight = 533
 
-[taxonomies]
-subjects = ["database"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 +++
 

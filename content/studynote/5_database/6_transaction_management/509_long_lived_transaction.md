@@ -4,8 +4,8 @@ description = "장시간 활성 상태를 유지하는 트랜잭션의 문제점
 date = 2024-01-01
 weight = 9
 
-[taxonomies]
-subjects = ["database"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 +++
 

@@ -4,9 +4,8 @@ description = "모놀리스 아키텍처의 개념, 장단점 및 실무 적용"
 date = 2024-01-15
 weight = 602
 
-[taxonomies]
-subjects = ["software-engineering"]
-authors = ["brainscience"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 
 # 모놀리스 아키텍처 (Monolithic Architecture)

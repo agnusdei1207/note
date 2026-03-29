@@ -4,8 +4,8 @@ description = "다양한 접근 통제 모델: DAC, MAC, RBAC, ABAC의 특징과
 date = 2026-03-26
 weight = 8005
 
-[taxonomies]
-subjects = ["security"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 
 # 접근 통제 모델 (Access Control Models)

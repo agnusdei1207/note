@@ -1,6 +1,9 @@
 +++
-title: "지연과 레이턴시 (Latency and Delay)"
-draft: true
+weight = 7
+title = """007.  지연과 레이턴시 (Latency and Delay)"""
+date = "2026-03-28"
+[extra]
+categories = "studynote-network"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

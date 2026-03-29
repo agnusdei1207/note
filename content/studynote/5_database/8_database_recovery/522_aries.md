@@ -4,8 +4,8 @@ description = "IBM이 개발한著名的한 ARIES 복구 알고리즘에 대해 
 date = 2024-01-01
 weight = 522
 
-[taxonomies]
-subjects = ["database"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 +++
 

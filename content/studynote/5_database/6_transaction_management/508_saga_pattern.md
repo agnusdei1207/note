@@ -4,8 +4,8 @@ description = "분산 환경에서 트랜잭션의 일관성을 유지하는 Sag
 date = 2024-01-01
 weight = 8
 
-[taxonomies]
-subjects = ["database"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 +++
 

@@ -4,8 +4,8 @@ description = "트랜잭션의 네 가지 핵심 특성인 ACID의 개념과 상
 date = 2024-01-01
 weight = 502
 
-[taxonomies]
-subjects = ["database"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 +++
 

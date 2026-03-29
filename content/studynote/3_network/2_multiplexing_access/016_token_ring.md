@@ -1,6 +1,9 @@
 +++
-title: "토큰 링 (Token Ring)"
-draft: true
+weight = 16
+title = """016.  토큰 링 (Token Ring)"""
+date = "2026-03-28"
+[extra]
+categories = "studynote-network"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

@@ -2,8 +2,7 @@
 title = "2. 다중화 및 다중접속 기술"
 sort_by = "weight"
 weight = 2002
-template = "page.html"
-sitemap_enabled = true
+template = "section.html"
 
 [extra]
 categories = ["Network", "Multiplexing", "Multiple Access"]

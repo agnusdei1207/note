@@ -3,9 +3,6 @@ title = "11. 무선통신 및 이동통신 기초/기술"
 description = "WiFi, 블루투스, 4G LTE, 5G NR 등 무선통신 기술의 발전 과정, 아키텍처, 성능 비교"
 weight = 2011
 
-[taxonomies]
-subjects = ["network"]
-tags = ["wireless", "wifi", "bluetooth", "lte", "5g", "mimo", "ofdma"]
 
 [extra]
 +++

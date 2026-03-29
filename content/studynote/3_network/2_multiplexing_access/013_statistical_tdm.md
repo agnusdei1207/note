@@ -1,6 +1,9 @@
 +++
-title: "통계적 시분할 다중화 (Statistical TDM)"
-draft: true
+weight = 13
+title = """013.  통계적 시분할 다중화 (Statistical TDM)"""
+date = "2026-03-28"
+[extra]
+categories = "studynote-network"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

@@ -4,12 +4,11 @@ description = "DNS 질의 과정의 상세 동작과 동적 DNS(DDNS)의 동작 
 date = 2024-02-01
 weight = 1
 
-[taxonomies]
-subjects = ["network"]
+[extra]
+categories = ["studynote-software-engineering"]
 topics = ["dns", "ddns", "name-resolution"]
 study_section = ["section-10-dns-management"]
 
-[extra]
 number = "905"
 core_insight = "DNS resolution은 클라이언트에서 도메인 이름을 입력하면Recursive Resolver를 통해 최종 IP를 얻는 과정이며, DDNS는 DHCP로 할당받은 동적IP를DNS에 실시간으로 반영하는 기술이다."
 key_points = ["Recursive vs Iterative 질의", "로컬 캐시와 네임스택 분해", "DDNS (Dynamic DNS)", "Negative Cache와 NXDOMAIN"]

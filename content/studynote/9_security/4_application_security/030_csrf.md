@@ -4,8 +4,8 @@ description = "사용자의 권한으로 의도치 않은 요청을 실행시키
 date = 2026-03-26
 weight = 30
 
-[taxonomies]
-subjects = ["security"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 
 # CSRF (크로스 사이트 요청 위조)

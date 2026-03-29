@@ -1,6 +1,9 @@
 +++
-title: "OSI 7 Layers (OSI 7계층 모델)"
-draft: true
+weight = 1
+title = """001.  OSI 7 Layers (OSI 7계층 모델)"""
+date = "2026-03-28"
+[extra]
+categories = "studynote-network"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

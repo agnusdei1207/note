@@ -4,9 +4,8 @@ description = "캡슐화의 개념, 정보 은닉, 접근 제어자"
 date = 2024-02-04
 weight = 702
 
-[taxonomies]
-subjects = ["software-engineering"]
-authors = ["brainscience"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 
 # 캡슐화 (Encapsulation)

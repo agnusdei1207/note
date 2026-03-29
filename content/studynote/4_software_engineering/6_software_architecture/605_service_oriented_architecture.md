@@ -4,9 +4,8 @@ description = "SOA의 개념, WS-*/ESB와 현대적 변형"
 date = 2024-01-18
 weight = 605
 
-[taxonomies]
-subjects = ["software-engineering"]
-authors = ["brainscience"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 
 # 서비스 지향 아키텍처 (SOA, Service-Oriented Architecture)

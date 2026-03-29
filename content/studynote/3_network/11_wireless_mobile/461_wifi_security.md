@@ -4,11 +4,10 @@ description = "WiFi 보안의 진화 과정과 각 프로토콜의 취약점, �
 date = 2024-01-16
 weight = 461
 
-[taxonomies]
-subjects = ["network"]
+[extra]
+categories = ["studynote-software-engineering"]
 tags = ["wifi", "security", "wep", "wpa", "wpa2", "wpa3"]
 
-[extra]
 +++
 
 ## 핵심 인사이트 (3줄 요약)

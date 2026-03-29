@@ -1,6 +1,9 @@
 +++
-title: "클라이언트-서버와 P2P 모델 (Client-Server vs Peer-to-Peer)"
-draft: true
+weight = 10
+title = """010.  클라이언트-서버와 P2P 모델 (Client-Server vs Peer-to-Peer)"""
+date = "2026-03-28"
+[extra]
+categories = "studynote-network"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

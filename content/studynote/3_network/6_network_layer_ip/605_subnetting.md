@@ -4,12 +4,11 @@ description = "IPv4 네트워크를 서브넷으로 분할하는 서브넷팅의
 date = 2024-01-19
 weight = 605
 
-[taxonomies]
-subjects = ["network"]
+[extra]
+categories = ["studynote-software-engineering"]
 topics = ["network-layer", "subnetting", "cidr", "vlsm"]
 study_section = ["section-6-network-layer-ip"]
 
-[extra]
 number = "605"
 core_insight = "서브넷팅은 IP 주소의 네트워크부를 분리하여 브로드캐스트 도메인을 논리적으로 분할하는 기술로, CIDR과 VLSM을 통해 주소 공간 활용률을 크게 향상시킨다."
 key_points = ["네트워크부/호스트부 분리", "브로드캐스트 도메인 분할", "CIDR (Classless Inter-Domain Routing)", "VLSM (Variable Length Subnet Mask)"]

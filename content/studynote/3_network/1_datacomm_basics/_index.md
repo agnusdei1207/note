@@ -2,8 +2,7 @@
 title = "1. 데이터Communications 기초 및 신호처리"
 sort_by = "weight"
 weight = 2001
-template = "page.html"
-sitemap_enabled = true
+template = "section.html"
 
 [extra]
 categories = ["Network", "Data Communications", "Physical Layer"]

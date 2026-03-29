@@ -1,7 +1,6 @@
 +++
 weight = 8003
 title = "3. 네트워크 보안 심화 (Network Security)"
-[taxonomies]
 +++
 
 ### 핵심 인사이트

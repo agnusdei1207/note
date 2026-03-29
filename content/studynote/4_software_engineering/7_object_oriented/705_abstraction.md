@@ -4,9 +4,8 @@ description = "추상화(Abstraction)의 개념, 추상 클래스와 인터페�
 date = 2024-02-07
 weight = 705
 
-[taxonomies]
-subjects = ["software-engineering"]
-authors = ["brainscience"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 
 # 추상화 (Abstraction)

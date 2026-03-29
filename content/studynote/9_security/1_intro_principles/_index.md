@@ -1,7 +1,6 @@
 +++
 title = "1. 보안 기초 (Security Fundamentals)"
 weight = 8001
-[taxonomies]
 +++
 
 ### 핵심 인사이트 (Core Insights)

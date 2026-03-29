@@ -4,8 +4,8 @@ description = "데이터베이스 복제의 개념, 방식, 그리고 일관성 
 date = 2024-01-01
 weight = 531
 
-[taxonomies]
-subjects = ["database"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 +++
 

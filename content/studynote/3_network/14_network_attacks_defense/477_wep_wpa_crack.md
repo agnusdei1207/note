@@ -4,11 +4,10 @@ description = "WEP의 구조적 결함, WPA의 TKIP 공격, KRACK, 크래킹 도
 date = 2024-02-01
 weight = 18
 
-[taxonomies]
-subjects = ["network"]
+[extra]
+categories = ["studynote-software-engineering"]
 tags = ["wep crack", "wpa crack", "krack", "aircrack", "wireless security", "wps"]
 
-[extra]
 +++
 
 ## 핵심 인사이트 (3줄 요약)

@@ -1,6 +1,9 @@
 +++
-title: "무선 매체 (Unguided Media)"
-draft: true
+weight = 20
+title = """020.  무선 매체 (Unguided Media)"""
+date = "2026-03-28"
+[extra]
+categories = "studynote-network"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

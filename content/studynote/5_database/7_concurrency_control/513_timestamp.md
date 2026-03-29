@@ -4,8 +4,8 @@ description = "타임스탬프를 사용하여 직렬 가능성을 보장하는 
 date = 2024-01-01
 weight = 513
 
-[taxonomies]
-subjects = ["database"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 +++
 

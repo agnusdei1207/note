@@ -4,12 +4,11 @@ description = "네트워크 계층의 제어 및 오류 보고 프로토콜 ICMP
 date = 2024-01-18
 weight = 604
 
-[taxonomies]
-subjects = ["network"]
+[extra]
+categories = ["studynote-software-engineering"]
 topics = ["network-layer", "icmp", "network-diagnosis"]
 study_section = ["section-6-network-layer-ip"]
 
-[extra]
 number = "604"
 core_insight = "ICMP는 IP 수준의 제어 메시지 및 오류 보고 프로토콜로, ping, traceroute 등의 진단 도구에서 활용되며, 네트워크 신뢰성과 보안에 중요한 역할을 한다."
 key_points = ["IP 수준의 제어/오류 보고", "Type + Code 조합으로 메시지 식별", "ping (Echo), traceroute 활용", "ICMP 기반 공격 방어 (ICMP 필터링)"]

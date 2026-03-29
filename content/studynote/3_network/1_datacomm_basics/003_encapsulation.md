@@ -1,6 +1,9 @@
 +++
-title: "캡슐화와 역캡슐화 (Encapsulation and Decapsulation)"
-draft: true
+weight = 3
+title = """003.  캡슐화와 역캡슐화 (Encapsulation and Decapsulation)"""
+date = "2026-03-28"
+[extra]
+categories = "studynote-network"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

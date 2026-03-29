@@ -4,9 +4,8 @@ description = "계층화 아키텍처의 개념, 장단점 및 실무 적용"
 date = 2024-01-16
 weight = 603
 
-[taxonomies]
-subjects = ["software-engineering"]
-authors = ["brainscience"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 
 # 계층화 아키텍처 (Layered Architecture)

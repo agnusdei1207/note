@@ -4,11 +4,10 @@ description = "무선 주파수 스펙트럼의 분류, 대역별 특성, 스펙
 date = 2024-01-20
 weight = 465
 
-[taxonomies]
-subjects = ["network"]
+[extra]
+categories = ["studynote-software-engineering"]
 tags = ["rf", "spectrum", "frequency", "ISM", "licensied", "unlicensed"]
 
-[extra]
 +++
 
 ## 핵심 인사이트 (3줄 요약)

@@ -4,11 +4,10 @@ description = "블루투스의 발전 과정, 프로토콜 스택, 주파수 호
 date = 2024-01-17
 weight = 462
 
-[taxonomies]
-subjects = ["network"]
+[extra]
+categories = ["studynote-software-engineering"]
 tags = ["bluetooth", "ble", "wireless", "personal area network", "WPAN"]
 
-[extra]
 +++
 
 ## 핵심 인사이트 (3줄 요약)

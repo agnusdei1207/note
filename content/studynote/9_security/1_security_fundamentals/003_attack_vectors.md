@@ -4,8 +4,8 @@ description = "시스템 침입의 다양한 경로와 공격手法"
 date = 2026-03-26
 weight = 8003
 
-[taxonomies]
-subjects = ["security"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 
 # 공격 벡터 (Attack Vector)

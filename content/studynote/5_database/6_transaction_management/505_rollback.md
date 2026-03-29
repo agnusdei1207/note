@@ -4,8 +4,8 @@ description = "트랜잭션 롤백의 개념과 UNDO 로그 기반 복구 메커
 date = 2024-01-01
 weight = 505
 
-[taxonomies]
-subjects = ["database"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 +++
 

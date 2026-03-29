@@ -4,8 +4,8 @@ description = "보안 성과와リスク posture를 측정하는 지표 체계"
 date = 2026-03-26
 weight = 8015
 
-[taxonomies]
-subjects = ["security"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 
 # 보안 지표 (Security Metrics)

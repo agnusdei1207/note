@@ -1,6 +1,9 @@
 +++
-title: "폴링과 알로하 프로토콜 (Polling and ALOHA)"
-draft: true
+weight = 17
+title = """017.  폴링과 알로하 프로토콜 (Polling and ALOHA)"""
+date = "2026-03-28"
+[extra]
+categories = "studynote-network"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

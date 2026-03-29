@@ -1,6 +1,9 @@
 +++
-title: "HDLC (High-Level Data Link Control)"
-draft: true
+weight = 23
+title = """023.  HDLC (High-Level Data Link Control)"""
+date = "2026-03-28"
+[extra]
+categories = "studynote-network"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

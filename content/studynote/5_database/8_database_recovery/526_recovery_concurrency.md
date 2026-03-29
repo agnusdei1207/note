@@ -4,8 +4,8 @@ description = "복구 메커니즘과 동시성 제어 사이의 상호작용과
 date = 2024-01-01
 weight = 26
 
-[taxonomies]
-subjects = ["database"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 +++
 

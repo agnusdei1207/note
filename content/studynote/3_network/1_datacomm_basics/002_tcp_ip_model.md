@@ -1,6 +1,9 @@
 +++
-title: "TCP/IP 4계층 모델 (TCP/IP Four-Layer Model)"
-draft: true
+weight = 2
+title = """002.  TCP/IP 4계층 모델 (TCP/IP Four-Layer Model)"""
+date = "2026-03-28"
+[extra]
+categories = "studynote-network"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

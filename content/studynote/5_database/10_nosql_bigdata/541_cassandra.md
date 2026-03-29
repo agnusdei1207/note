@@ -4,8 +4,8 @@ description = "고성능 분산 NoSQL 데이터베이스 Cassandra의 특징과 
 date = 2024-01-01
 weight = 541
 
-[taxonomies]
-subjects = ["database"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 +++
 

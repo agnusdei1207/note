@@ -1,6 +1,9 @@
 +++
-title: "리피터와 허브 (Repeater and Hub)"
-draft: true
+weight = 25
+title = """025.  리피터와 허브 (Repeater and Hub)"""
+date = "2026-03-28"
+[extra]
+categories = "studynote-network"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

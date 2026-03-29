@@ -1,6 +1,9 @@
 +++
-title: "네트워크 분류 LAN, MAN, WAN (Network Classification)"
-draft: true
+weight = 8
+title = """008.  네트워크 분류 LAN, MAN, WAN (Network Classification)"""
+date = "2026-03-28"
+[extra]
+categories = "studynote-network"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

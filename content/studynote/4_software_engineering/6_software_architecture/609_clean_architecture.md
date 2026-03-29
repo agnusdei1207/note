@@ -4,9 +4,8 @@ description = "클린 아키텍처의 개념, 의존성 규칙,同心円 구조"
 date = 2024-01-22
 weight = 609
 
-[taxonomies]
-subjects = ["software-engineering"]
-authors = ["brainscience"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 
 # 클린 아키텍처 (Clean Architecture)

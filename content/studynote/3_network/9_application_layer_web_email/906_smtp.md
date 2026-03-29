@@ -4,15 +4,14 @@ description = "이메일 전송의 핵심 프로토콜 SMTP의 동작, POP3/IMAP
 date = 2024-02-06
 weight = 6
 
-[taxonomies]
-subjects = ["network"]
+[extra]
+categories = ["studynote-software-engineering"]
 topics = ["application-layer", "smtp", "email", "pop3", "imap"]
 study_section = ["section-9-application-layer-web-email"]
 
-[extra]
 number = "906"
 core_insight = "SMTP는 이메일 전송을 담당하는 프로토콜로, 발신 MDA에서 수신 MDA로 메일을 전달하며, 수신자는 POP3/IMAP으로 메일을 조회한다."
-key_points = ["SMTP (Port 25/587)", "POP3 vs IMAP", "SMTP AUTH", "SPF, DKIM, DMARC"}
+key_points = ["SMTP (Port 25/587)", "POP3 vs IMAP", "SMTP AUTH", "SPF, DKIM, DMARC"]
 +++
 
 ## 핵심 인사이트 (3줄 요약)

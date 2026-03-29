@@ -4,9 +4,8 @@ description = " Anticorruption Layer(ACL)의 개념, 외부 시스템 Integratio
 date = 2024-01-31
 weight = 18
 
-[taxonomies]
-subjects = ["software-engineering"]
-authors = ["brainscience"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 
 # Anticorruption Layer 패턴 (ACL, Anti-Corruption Layer)

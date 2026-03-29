@@ -4,9 +4,8 @@ description = "CQRS(Command Query Responsibility Segregation)의 개념과 활�
 date = 2024-01-27
 weight = 614
 
-[taxonomies]
-subjects = ["software-engineering"]
-authors = ["brainscience"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 
 # CQRS 패턴 (Command Query Responsibility Segregation)

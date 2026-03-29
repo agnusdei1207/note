@@ -1,6 +1,9 @@
 +++
-title: "아날로그와 디지털 전송 (Analog vs Digital Transmission)"
-draft: true
+weight = 11
+title = """011.  아날로그와 디지털 전송 (Analog vs Digital Transmission)"""
+date = "2026-03-28"
+[extra]
+categories = "studynote-network"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

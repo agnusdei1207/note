@@ -1,6 +1,9 @@
 +++
-title: "프로토콜 (Protocol)"
-draft: true
+weight = 5
+title = """005.  프로토콜 (Protocol)"""
+date = "2026-03-28"
+[extra]
+categories = "studynote-network"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

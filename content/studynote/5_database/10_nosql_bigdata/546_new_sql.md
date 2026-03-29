@@ -4,8 +4,8 @@ description = "CAP 이론의 제약을突破하며 ACID와 수평 확장을 동�
 date = 2024-01-01
 weight = 46
 
-[taxonomies]
-subjects = ["database"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 +++
 

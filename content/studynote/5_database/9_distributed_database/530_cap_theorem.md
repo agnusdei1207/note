@@ -4,8 +4,8 @@ description = "분산 시스템에서의 일관성, 가용성, 분단 내성 트
 date = 2024-01-01
 weight = 530
 
-[taxonomies]
-subjects = ["database"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 +++
 

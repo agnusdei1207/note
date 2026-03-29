@@ -1,6 +1,9 @@
 +++
-title: "이더넷 프레임 (Ethernet Frame)"
-draft: true
+weight = 22
+title = """022.  이더넷 프레임 (Ethernet Frame)"""
+date = "2026-03-28"
+[extra]
+categories = "studynote-network"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

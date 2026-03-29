@@ -3,9 +3,6 @@ title = "13. 네트워크 보안 (기본 기법)"
 description = "방화벽, IDS/IPS, VPN, SSL/TLS 등 네트워크 보안 기본 기술"
 weight = 2013
 
-[taxonomies]
-subjects = ["network"]
-tags = ["firewall", "ids", "ips", "vpn", "ssl", "tls", "network security"]
 
 [extra]
 +++

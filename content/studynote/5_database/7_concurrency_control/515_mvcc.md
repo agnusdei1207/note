@@ -4,8 +4,8 @@ description = "버전 관리를 통해 잠금 없이 동시성을 높이는 MVCC
 date = 2024-01-01
 weight = 515
 
-[taxonomies]
-subjects = ["database"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 +++
 

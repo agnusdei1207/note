@@ -4,8 +4,8 @@ description = "분산 환경에서 충돌 없는 복제 데이터 타입 CRDT에
 date = 2024-01-01
 weight = 36
 
-[taxonomies]
-subjects = ["database"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 +++
 

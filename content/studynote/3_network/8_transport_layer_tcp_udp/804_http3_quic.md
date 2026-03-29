@@ -4,12 +4,11 @@ description = "차세대 웹 프로토콜 HTTP/3와 그 기반이 되는 QUIC의
 date = 2024-02-04
 weight = 4
 
-[taxonomies]
-subjects = ["network"]
+[extra]
+categories = ["studynote-software-engineering"]
 topics = ["http", "http3", "quic", "transport-layer"]
 study_section = ["section-8-transport-layer-tcp-udp"]
 
-[extra]
 number = "804"
 core_insight = "HTTP/3은 UDP 기반으로 동작하는 QUIC를 전송 계층으로 사용하며, TCP의 Head-of-Line Blocking을 해결하고 0-RTT 연결 수립으로 지연을 크게 줄인다."
 key_points = ["QUIC (UDP 기반)", "0-RTT, 1-RTT 연결 수립", "스트림 독립성", "HTTP/3 멀티플렉싱"]

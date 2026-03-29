@@ -4,8 +4,8 @@ description = "동일한 키로 암호화와 복호화를 수행하는 AES, DES 
 date = 2026-03-26
 weight = 17
 
-[taxonomies]
-subjects = ["security"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 
 # 대칭키 암호화 (Symmetric Encryption)

@@ -4,11 +4,10 @@ description = "다중 안테나 기술의 발전 과정, SISO/MISO/SIMO/MIMO/Mas
 date = 2024-01-21
 weight = 466
 
-[taxonomies]
-subjects = ["network"]
+[extra]
+categories = ["studynote-software-engineering"]
 tags = ["mimo", "beamforming", "massive mimo", "spatial multiplexing", "smart antenna"]
 
-[extra]
 +++
 
 ## 핵심 인사이트 (3줄 요약)

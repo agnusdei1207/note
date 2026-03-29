@@ -1,6 +1,9 @@
 +++
-title: "CSMA/CD (반송파 감지 다중 접근/충돌 탐지)"
-draft: true
+weight = 14
+title = """014.  CSMA/CD (반송파 감지 다중 접근/충돌 탐지)"""
+date = "2026-03-28"
+[extra]
+categories = "studynote-network"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

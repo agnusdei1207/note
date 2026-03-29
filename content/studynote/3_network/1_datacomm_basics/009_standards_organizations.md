@@ -1,6 +1,9 @@
 +++
-title: "네트워크 표준화 기구 (Standards Organizations)"
-draft: true
+weight = 9
+title = """009.  네트워크 표준화 기구 (Standards Organizations)"""
+date = "2026-03-28"
+[extra]
+categories = "studynote-network"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

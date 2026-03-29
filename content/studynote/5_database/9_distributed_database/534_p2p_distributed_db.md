@@ -4,8 +4,8 @@ description = "P2P 아키텍처를 활용한 분산 데이터베이스 시스템
 date = 2024-01-01
 weight = 534
 
-[taxonomies]
-subjects = ["database"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 +++
 

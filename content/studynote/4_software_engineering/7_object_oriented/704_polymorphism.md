@@ -4,9 +4,8 @@ description = "다형성(Polymorphism)의 개념, 컴파일 타임 vs 런타임 
 date = 2024-02-06
 weight = 704
 
-[taxonomies]
-subjects = ["software-engineering"]
-authors = ["brainscience"]
+[extra]
+categories = ["studynote-software-engineering"]
 +++
 
 # 다형성 (Polymorphism)

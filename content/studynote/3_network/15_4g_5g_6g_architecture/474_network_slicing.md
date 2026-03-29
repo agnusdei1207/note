@@ -4,11 +4,10 @@ description = "5G 네트워크 슬라이싱의 개념, 동작 원리, 종단간 
 date = 2024-01-29
 weight = 15
 
-[taxonomies]
-subjects = ["network"]
+[extra]
+categories = ["studynote-software-engineering"]
 tags = ["network slicing", "5g", "nfv", "sdn", "virtualization", "qos"]
 
-[extra]
 +++
 
 ## 핵심 인사이트 (3줄 요약)

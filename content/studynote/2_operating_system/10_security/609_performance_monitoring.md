@@ -1,256 +1,295 @@
 +++
-title = "609. ìë ëëíë (Performance Monitoring) ë íë ëëë"
-date = "2026-03-25"
+title = "609. 성능 모니터링 (Performance Monitoring) 및 튜닝 방법론"
+date = "2026-03-29"
 [extra]
-categories = "studynote-operating-system"
+categories = ["studynote-operating-system"]
 weight = 609
 +++
 
-# ìë ëëíë (Performance Monitoring) ë íë ëëë
+# 성능 모니터링 (Performance Monitoring) 및 튜닝 방법론
 
-## íì ìììí (3ì ìì)
-> 1. **ëì**: ìë ëëíëì CPU, Memory, I/O, ëíìí ë ììí ìì)ì ììë, Throughput, Latency, Utilization ëì ììììë ìì ìì ëìíì ëëì íìíê, ìë ìí ëì ìì ììììë ëìíê ìí ìììì íì ìì ìëìë.
-> 2. **êì**: ììíì ëë ììì ìíí íìíë, Hardware ìì, Software íë, Architecture ëê ë ìë íì ëë íêê êì íêëëíìí ì ììë, ìë íí ìíë ëìì ììííëì ìë ìëëì íëí ì ìë.
-> 3. **ìí**: ìë ëëíëì OSìíëììì, ëëë êëì, I/O ìììëì êì ìêëì ììë, Prometheus + Grafana, Datadog, Splunk ëìëëíë ìíê êííì ììê Alertìhistorical íëë ëììêëíê íë.
-
----
-
-## 1. êì ë íìì
-
-### êë ë ìì
-ìë ëëíëìë ììììê ìêíëíëìì, ëëë, ëìí I/O, ëíìí ìí, ììí ì ëìMetricìëêì íìíì ììíê, ìë ëìíì ììíì ìíë íêíë íëìë. íì ëíë "íì ììíìì"ë ìë êìë. ììí ìëì ëìíë ëë íê Throughput(ìëë), Latency(ìì ìê), Utilization(ììë), Availability(êìì) ë ëìí ìíê ìë.
-
-**íìì ë ëì ëê**
-êêìë ìë ìíê ëìíë ììí êëìê ï ììíì ìì êì ëìíëìëìê ìëíë, íëì ìëì ìë ìíê ììì ìë ìíë ìëíë  ìííìë ëìíë. ìë ìíìëëìì root cause ëìì ëì ëìíìê,ê ëìíê ìì ììììë íìíë êì ëìëì ììì ììì íìì ëìë.
-
-```
-[ìë ëëíë: ì íìíê?]
-
-[ìëëìëìëì: ì]
-
-ìììê --> Latency --> Timeout ëì
-     |
-     +--> ëìëì! -->  --> êë ìê --> ìì ìì
-
-[ìëëìëì: ì]
-
-ìììê --> ëë ìê íì --> ììì íì --> íí 0!
-     |
-     +--> ëëíëìì_cpu/memory saturation ìë --> ìì ëì
-
-íì Insight:
-- ìë ëìë "ëì í ëì"ëë "ìì íì"ì 10ë ìë
-- Alibabaì íê 1ìê ìëì ìë ì 6ëë ëë ìì
-- ìë"ëí"ìë!
-```
-
-**[ëììêë íì]** ì ëêëìë"ëì""ìì"ì íì. Googleì SRE íì "performance budgets"ëë êëì ììíìììëëìëììììííë êìëìëìëë ëë íííì ìììë 10ë ìì ìëíëê ëíë.
-
-- **ìì ëì**: ìë ëëíëì ìëì êêíê êë. ìì ìì gaugeê ëêë ëë êì ëìíê ëëë ììì êì ëìë, gaugeë ììíëìì ëìê ìë êì íìíìë ê ì ìë.
+## 핵심 인사이트 (3줄 요약)
+> 1. **본질**: 성능 모니터링(Performance Monitoring)은 운영체제(OS)의 CPU, 메모리, 디스크 I/O, 네트워크 등 핵심 자원의 사용률(Utilization), 처리량(Throughput), 지연 시간(Latency)을 지속적으로 측정하고 분석하여, 병목 현상(Bottleneck)을 식별하고 최적화하는 체계적 방법론이다.
+> 2. **가치**: USE 방법론(Utilization-Saturation-Errors)과 같은 구조적 접근법을 적용하면, 수십 개의 성능 지표 중 "지금 가장 시급한 문제가 무엇인가?"를 체계적으로 파악하여, 직관에 의존하지 않는 데이터 기반 성능 튜닝(Data-Driven Performance Tuning)이 가능하다.
+> 3. **융합**: 성능 모니터링은 운영체제의 커널 통계(Perf Events, /proc 파일시스템), 하드웨어 성능 카운터(PMU, Performance Monitoring Unit), 그리고 분산 시스템의 observability 프레임워크(Prometheus, OpenTelemetry)가 융합된 다계층 측정 아키텍처다.
 
 ---
 
-## 2. ìííì ë íì ìë
+## Ⅰ. 개요 및 필요성 (Context & Necessity)
 
-### Linux ìë ëëíë ëê êì êì
+**개념 및 정의**
+성능 모니터링(Performance Monitoring)은 시스템의 동작 상태를 정량적 지표(Metrics)로 지속 측정하고 기록하는 활동이며, 성능 튜닝(Performance Tuning)은 측정 결과를 바탕으로 시스템 매개변수(Parameter)를 조정하여 성능 목표(응답 시간, 처리량, 자원 효율)를 달성하는 최적화 과정이다. 이 둘은 "측정(Measure) → 분석(Analyze) → 조정(Tune) → 검증(Verify)"의 반복적 사이클(PDCA, Plan-Do-Check-Act)로 수행된다.
 
-Linux íêìììëë ìë ìì(level)ì ëêë íí ìëììë.
+**필요성 및 등장 배경**
+현대 시스템은 마이크로서비스 아키텍처(MSA), 컨테이너 오케스트레이션(Kubernetes), 분산 데이터베이스 등으로 고도화되면서, 어느 하나의 컴포넌트에서 발생한 병목(Bottleneck)이 전체 시스템의 연쇄 장애(Cascading Failure)로 이어질 수 있다. 예를 들어, 데이터베이스의 디스크 I/O 지연이 10ms에서 100ms로 증가하면, 이를 호출하는 API 서버의 응답 시간이 10배 증가하고, 연쇄적으로 프론트엔드의 타임아웃이 발생하여 전체 서비스가 마비될 수 있다. 이러한 문제를 사전에 감지하고 해결하기 위해 체계적인 성능 모니터링이 필수적이다.
 
-| ìì | ëê | ìì ëì | íì Metric |
-|---|---|---|---|
-| **ììí ìì** | `top`, `htop`, `glances` | ìì CPU, Memory ììë | %CPU, %MEM, Load Average |
-| **íëìì ëì** | `ps`, `pidstat` | êë íëìì ìì ìì | CPU%, MEM%, RSS, FD count |
-| **CPU** | `mpstat`, `sar` | ììë ììë, ìíìí ììì | %usr, %sys, %idle, cs/sec |
-| **ëëë** | `free`, `vmstat` | RAM ë ìì ììë | available, used, swap in/out |
-| **ëìí I/O** | `iostat`, `iotop` | Throughput, IOPS, latency | tps, kB_read/s, await |
-| **ëíìí** | `netstat`, `ss`, `sar -n DEV` | íí íê, ìê ìí | pkt/s, RX/TX kB/s, retrans |
-| **I/O íê ëí** | `bio`, `blktrace` | block I/O ìì ëí | request size, latency histogram |
-| **ìì/íëíìë** | `perf`, `strace`, `bpftrace` | íì ëì profiling, syscall ìì | call count, latency per function |
-| **ìì ììí** | `sar` (System Activity Reporter) | Historical metric ìì/ìì | ìêëë ëë metricì ëìí |
-
-### Linux ìë ëëíë ìì ëëì ìì ììë
-
-```
-[Linux ìë ëëíë: ìì ëêì ìíí]
-
-[1] CPU ëë íì: top + mpstat
-
-$ top   (ììê CPU/ëëë ììë, Processë ìë)
-
-$ mpstat -P ALL 1 5
---> ê CPU ììë ììëì 1ì êêìë 5ë ìì
---> íì ììë 100%ë single-threaded Process ëë!
-
-[2] ëëë ëë íì: free + vmstat
-
-$ free -h   (ìì ëëë ììë íì)
---> available: ìì ìì êëí ëëë (cached íí)
---> availableì 0ì êêìë OOM Killer ëë êëì!
-
-$ vmstat 1 10  (1ì êêìë 10í ëëë/íëìì íê)
---> si/so: ìì ì/ìì --> ëëë ëìì ìí!
-
-[3] ëìí I/O ëë íì: iostat + iotop
-
-$ iostat -xz 1  (ëìíë I/O íê, 1ì êê)
---> await: I/O ìììì ìë ìëêì íê ëê ìê
---> %util: ëìí ííë (100%ë ëìí íí!)
--->avgqu-sz: ëê í êì --> íê êë ëë!
-
-$ iotop -o  (I/O ììíë íëìì ìë)
-
-[4] ëíìí ëë íì: ss + netstat
-
-$ ss -s   (TCP ìê ìí ìì)
-$ sar -n DEV 1 5  (ëíìí ìííììë íê)
+```text
+┌────────────────────────────────────────────────────────────────┐
+│   성능 병목의 연쇄 효과 (Cascading Bottleneck Effect)          │
+├────────────────────────────────────────────────────────────────┤
+│                                                                │
+│  [정상 상태: Latency Chain]                                    │
+│  Client → Web Server → API Server → DB Server                 │
+│     5ms  +    10ms    +    20ms    +    5ms    = 40ms          │
+│     ✅          ✅          ✅          ✅                      │
+│                                                                │
+│  [DB I/O 병목 발생 시: 연쇄 지연]                             │
+│  Client → Web Server → API Server → DB Server                 │
+│     5ms  +    10ms    +   200ms⬆  +  100ms⬆  = 315ms         │
+│     ✅          ✅        ⚠️경고       ❌병목                  │
+│                                                                │
+│  [연쇄 효과 확산]                                              │
+│  DB 지연 → API 스레드 풀 고갈 → Web 서버 연결 대기 증가       │
+│         → Client 타임아웃 → 서비스 장애!                       │
+│                                                                │
+│  [성능 모니터링으로 사전 감지]                                 │
+│  모니터링: "DB 응답 시간이 5ms→50ms로 점진 증가 중"           │
+│  → 알림: "디스크 I/O 대기 시간(iowait) 임계치 초과"            │
+│  → 조치: 디스크 교체 또는 캐시 증설 → 장애 사전 예방!         │
+└────────────────────────────────────────────────────────────────┘
 ```
 
-**[ëììêë íì]** ê ëêê ììíë ëìíìëëì ëìì ëë ìíì ëëìë. `top`ììì-overviewì ìííê, `sar`ì êê ëìí ëìì ìííë. `iostat`ìì êì ììí Metricì `await`(ìì I/O ëê ìê)ì `%util`(ëìí ííë)ìë.
+**[다이어그램 해설]** 이 다이어그램은 단일 컴포넌트의 성능 저하가 전체 시스템에 미치는 연쇄 효과를 보여준다. 데이터베이스 서버의 디스크 I/O 지연이 증가하면, 이를 호출하는 API 서버의 응답 시간이 길어지고, API 서버의 스레드 풀(Thread Pool)이 고갈되면 웹 서버의 연결 대기열이 길어지며, 최종적으로 클라이언트 요청이 타임아웃되어 서비스 장애로 이어진다. 성능 모니터링은 이러한 연쇄 장애를 "DB 응답 시간이 점진적으로 증가하고 있다"는 미세한 신호(Early Warning)로 사전에 감지하는 역할을 수행한다.
 
-### ëëì ìë ëì ëëë: USE(Utilization, Saturation, Errors) ìì
-
-ìë ëëì ëìíëììíì ëëëìëBrendan Greggê ììí USE(Utilization, Saturation, Errors) ììì ìë.
-
-- **Utilization (ììë)**: ììì ìì ìì ìê ëì
-- **Saturation (ííë)**: ììì ëê í êì ëë ìë ëëì ìêí ìë
-- **Errors (ìëì)**: ìì êë ìë ëì ëë
-
-```
-[USE ëëë: ëë ìììíëìë ëì ìíëìí]
-
-[CPU]
-- Utilization: ìì CPU ììë --> `top`, `mpstat`
-- Saturation: ìí ëê íëìì ì --> Load Average > ììì
-- Errors: CPU ìì ìë --> `/proc/cpuinfo`ìì mce íì
-
-[Memory]
-- Utilization: RAM ììë --> `free -h`
-- Saturation: ìì IN/OUT --> `vmstat` si/so
-- Errors: OOM Killer ëë ëê --> `dmesg | grep -i oom`
-
-[Disk I/O]
-- Utilization: %util --> `iostat -xz`
-- Saturation: avgqu-sz(ëê í êì) --> iostat
-- Errors: ìë count --> `dmesg | grep -i error`
-
-[Network]
-- Utilization: Interface throughput --> `sar -n DEV`
-- Saturation: ìê, ìììì --> `ss -s`, `netstat`
-- Errors: packet error rate --> `sar -n EDEV`
-
-ëì ìì:
-1. Saturationì ììë êì ëì íê (ëê ìì ìì=ëë)
-2. Utilizationì 100%ì êìíë hardware upgrade êí
-3. Errorsê ëììììë ëìë HW ëì êëì--> ìê
-```
-
-**[ëììêë íì]** USE ììì íìì"êì ëì Saturationì íìíë"ë êìë. Utilizationì 80%ììë Saturationì 0ìë ììíììê ìê íìì íì ìì ì ìë. ëëë Utilizationì 50%ììë Saturationì ëìë ëêìì íìëê ìë.
-
-- **ìì ëì**: USE ëëì íë ëë ìê êëì êë. ìê(Utilization)ì 100% ìë truckì(throughput)ë í ì ìëëëì ìë. êëë truckêïíë ìíììë(íí,Saturation)ì 100%ìë ìëëêêìì truckêêìëë êìì íêíì í ëìê ìë.
+- **📢 섹션 요약 비유**: 병원에서 환자의 체온, 혈압, 맥박을 실시간으로 모니터링하는 것과 같습니다. 혈압이 조금씩 올라가는 것(지연 시간 증가)을 일찍 발견하면 약을 먹여(튜닝) 위험한 상태(장애)를 예방할 수 있지만, 모니터링이 없으면 환자가 쓰러진 뒤(서비스 장애)에야 알게 됩니다.
 
 ---
 
-## 3. ìí ëê ë ëêë ëì
+## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
-### ìíì ëëíë vs APM vs eBPF êë ëëíë
+### 핵심 성능 지표(Metrics) 분류
 
-| ëê íë | ìíì ëëíë (sar, top) | APM | eBPF êë ëëíë |
-|---|---|---|---|
-| **ìì ìì** | OS Kernel ëë metric | Application ëë (ìë ìê, ìëì) | Kernel/User ëë ëë |
-| **ìëíë** | ëì ëì | ìê (ìììí êë) | **ëì ëì** (ìë ë ìëëì) |
-| **ìëí** | Process/Thread ìì | íì/ëìë ëì | ëíìí ìëíëë, ìë íì ëì |
-| **ììêì** | ìì~ìë ëì | ìì ëì | **ëìíëì ëì** |
-| **ìì ëê** | sar, top, iostat, vmstat | Datadog, New Relic, AppDynamics | bpftrace, BCC, Cilium Tetragon |
+| 자원 유형 | 핵심 지표 | 측정 도구 | 의미 |
+|:---|:---|:---|:---|
+| **CPU** | %user, %system, %iowait, %idle | top, vmstat, mpstat | CPU 시간 분배 상태 |
+| **메모리** | used, free, cached, swap | free, vmstat, /proc/meminfo | 메모리 압박(Memory Pressure) |
+| **디스크 I/O** | IOPS, throughput(MB/s), await(ms) | iostat, iotop, blktrace | 스토리지 병목 |
+| **네트워크** | bandwidth, packet loss, retransmit | sar, nethogs, tcpdump | 네트워크 지연 |
+| **커널** | context switches, interrupts, run queue | vmstat, perf, /proc/stat | 커널 오버헤드 |
+
+### USE 방법론 (Utilization-Saturation-Errors)
+
+Brendan Gregg가 제안한 USE 방법론은 모든 자원 유형에 대해 세 가지 질문을 순차적으로 던지는 체계적 성능 분석 프레임워크다.
+
+1. **Utilization(사용률)**: 자원이 실제로 작업을 수행하느라 바쁜 비율(%)
+2. **Saturation(포화도)**: 자원이 처리할 수 있는 한계를 넘어 대기 중인 작업의 정도(Queue Length)
+3. **Errors(오류)**: 자원 접근 시 발생한 오류의 수(Error Count)
+
+```text
+┌────────────────────────────────────────────────────────────────┐
+│     USE 방법론 적용: 리소스별 분석 매트릭스                    │
+├────────────────────────────────────────────────────────────────┤
+│                                                                │
+│  자원(Resource) │ Utilization     │ Saturation   │ Errors      │
+│  ─────────────┼────────────────┼─────────────┼──────────── │
+│  CPU           │ %CPU 사용률     │ Run Queue    │ 스케줄러    │
+│                │ (user+system)   │ 길이 (load   │ 오류,       │
+│                │                │ average)     │ 온도 셧다운 │
+│  ─────────────┼────────────────┼─────────────┼──────────── │
+│  메모리        │ 사용률(%)       │ Swap 사용량  │ OOM Kill    │
+│                │                │ Page Fault   │ 횟수        │
+│                │                │ Rate         │             │
+│  ─────────────┼────────────────┼─────────────┼──────────── │
+│  디스크 I/O   │ %util (iostat)  │ await(ms)    │ I/O Error,  │
+│                │                │ Queue Depth  │ Read/Write  │
+│                │                │              │ Error       │
+│  ─────────────┼────────────────┼─────────────┼──────────── │
+│  네트워크     │ 대역폭 사용률(%)│ 송수신 큐    │ Packet Drop │
+│                │                │ 길이         │ Retransmit  │
+│                                                                │
+│  [분석 흐름]                                                   │
+│  ① Utilization > 70%? → YES: Saturation 확인                  │
+│  ② Saturation > 임계값? → YES: 해당 자원이 병목!             │
+│  ③ Errors > 0? → YES: 오류 원인 조사 (최우선)                │
+│  ④ 모두 정상? → 다음 자원 유형으로 이동                       │
+└────────────────────────────────────────────────────────────────┘
+```
+
+**[다이어그램 해설]** USE 매트릭스는 각 자원 유형(CPU, 메모리, 디스크, 네트워크)에 대해 Utilization → Saturation → Errors 순서로 검사하는 체계적 접근법을 제공한다. 가장 먼저 Errors를 확인하는 것이 좋은데, 오류는 명확한 문제 신호이기 때문이다. 그 다음 Utilization이 높은 자원을 식별하고, 마지막으로 Saturation(대기열 길이, 지연 시간)을 확인하여 실제 사용자 경험에 영향을 미치는 병목을 파악한다.
+
+### Linux 핵심 모니터링 도구 체계
+
+```text
+┌────────────────────────────────────────────────────────────────┐
+│     Linux 성능 모니터링 도구 계층도                             │
+├────────────────────────────────────────────────────────────────┤
+│                                                                │
+│  [Layer 5: 가시성 플랫폼]                                     │
+│  Prometheus + Grafana │ Datadog │ New Relic │ ELK Stack       │
+│       │ 시계열 데이터 수집, 대시보드, 알림                     │
+│       ▼                                                        │
+│  [Layer 4: APM / 분산 추적]                                   │
+│  OpenTelemetry │ Jaeger │ Zipkin │ SkyWalking                 │
+│       │ 요청 단위 추적, 서비스맵, 병목 구간 시각화             │
+│       ▼                                                        │
+│  [Layer 3: 고급 분석 도구]                                    │
+│  perf │ eBPF(bcc) │ SystemTap │ bpftrace                      │
+│       │ 커널 함수 추적,火焰图(Flame Graph), 온-CPU/오프-CPU   │
+│       ▼                                                        │
+│  [Layer 2: 시스템 통계 도구]                                  │
+│  vmstat │ iostat │ mpstat │ sar │ pidstat                      │
+│       │ CPU, 메모리, I/O, 네트워크 통계 수집                   │
+│       ▼                                                        │
+│  [Layer 1: 실시간 뷰어]                                       │
+│  top │ htop │ iotop │ nethogs │ btm                            │
+│       │ 실시간 프로세스/자원 상태 표시                         │
+│       ▼                                                        │
+│  [Layer 0: 데이터 소스]                                       │
+│  /proc/* │ /sys/* │ perf_events │ PMU (Hardware Counters)      │
+│       │ 커널이 제공하는 원시 성능 데이터                       │
+└────────────────────────────────────────────────────────────────┘
+```
+
+**[다이어그램 해설]** 이 계층도는 Linux 성능 모니터링 도구를 6계층으로 분류한다. Layer 0(데이터 소스)은 커널의 /proc 파일시스템과 하드웨어 성능 카운터(PMU)로, 모든 모니터링의 근원이다. 상위 계층으로 갈수록 분석 능력이 강력해지지만 오버헤드도 증가한다. 실무에서는 Layer 1-2로 실시간 상태를 파악하고, Layer 3-4로 심층 분석을 수행하며, Layer 5로 장기 추세를 모니터링하는 방식으로 계층별 도구를 조합하여 사용한다.
+
+- **📢 섹션 요약 비유**: 병원 검사도 초진(Layer 1: 체온/혈압) → 기본 검사(Layer 2: 혈액검사) → 전문 검사(Layer 3: CT/MRI) → 종합 판독(Layer 5: AI 진단)으로 단계적입니다. 처음부터 CT를 찍는 것은 비효율적이므로, 기본 검사에서 이상이 발견되면 심층 검사로 넘어가는 체계적인 접근이 필요합니다.
+
+---
+
+## Ⅲ. 비교 분석 (Comparative Analysis)
+
+### 성능 튜닝 접근법 비교
+
+| 접근법 | 장점 | 단점 | 적용 시나리오 |
+|:---|:---|:---|:---|
+| **직관 기반(Intuition)** | 빠른 대응 | 경험 의존, 편향 위험 | 익숙한 시스템의 긴급 대응 |
+| **USE 방법론** | 체계적, 재현 가능 | 자원별 반복 분석 필요 | 일반적 병목 식별 |
+| **부하 테스트(Load Test)** | 실제 한계 탐지 | 환경 구성 비용 | 출시 전 용량 산정 |
+| **프로파일링(Profiling)** | 함수 수준 원인 파악 | 오버헤드, 분석 난이도 | CPU/메모리 핫스팟 탐지 |
+| **AIOps / ML 기반** | 이상 탐지 자동화 | 학습 데이터 필요 | 대규모 분산 시스템 |
+
+### 핵심 성능 튜닝 매개변수 (Linux Kernel)
+
+```text
+┌────────────────────────────────────────────────────────────────┐
+│     Linux 커널 성능 튜닝 핵심 매개변수                        │
+├────────────────────────────────────────────────────────────────┤
+│                                                                │
+│  [CPU 튜닝]                                                    │
+│  /proc/sys/kernel/sched_min_granularity_ns                     │
+│  → 스케줄러 최소 실행 단위 (낮추면 응답성 향상, 높이면       │
+│    처리량 향상)                                                │
+│                                                                │
+│  [메모리 튜닝]                                                 │
+│  /proc/sys/vm/swappiness (0~100)                               │
+│  → 스왑 적극성 (낮출수록 메모리 우선 사용, SSD에서는 10 추천)│
+│  /proc/sys/vm/dirty_ratio / dirty_background_ratio             │
+│  → 디스크 쓰기 버퍼 비율 (DB 서버는 낮춤, 파일 서버는 높임) │
+│                                                                │
+│  [네트워크 튜닝]                                               │
+│  /proc/sys/net/core/somaxconn                                  │
+│  → TCP 백로그 큐 최대 길이 (고부하 웹서버: 65535 설정)       │
+│  /proc/sys/net/ipv4/tcp_tw_reuse                               │
+│  → TIME_WAIT 소켓 재사용 (높은 동시 연결 환경에서 1 설정)    │
+│                                                                │
+│  [I/O 튜닝]                                                    │
+│  /sys/block/sda/queue/scheduler                                │
+│  → I/O 스케줄러 선택 (SSD: none/mq-deadline, HDD: bfq)       │
+│  /proc/sys/fs/file-max                                         │
+│  → 시스템 전체 파일 디스크립터 최대 수                        │
+└────────────────────────────────────────────────────────────────┘
+```
+
+**[다이어그램 해설]** 이 표는 Linux 커널의 주요 성능 튜닝 매개변수를 자원 유형별로 정리한다. 튜닝은 항상 "현재 상태 측정 → 병목 식별 → 매개변수 조정 → 효과 검증"의 사이클로 수행해야 한다. 임의로 매개변수를 조정하면 오히려 성능이 악화될 수 있으므로, USE 방법론으로 병목을 정확히 식별한 후에만 해당 매개변수를 조정해야 한다.
+
+- **📢 섹션 요약 비유**: 자동차 튜닝과 같습니다. 엔진 소리만 듣고 "타이어 공기를 빼자"라고 하면 안 됩니다. 먼저 계기판(모니터링)으로 어느 부분이 문제인지 확인하고, 타이어 문제면 타이어를, 엔진 문제면 엔진을 정비하는 체계적인 접근이 필요합니다.
+
+---
+
+## Ⅳ. 실무 판단 (Practical Judgment)
+
+### 실무 적용 시나리오 및 의사결정
+
+**시나리오 1: 웹 서비스 응답 시간 저하 원인 분석**
+- 1단계: top/vmstat으로 전체 자원 사용률 확인 → CPU 90% 사용률 발견.
+- 2단계: pidstat -p [PID]로 프로세스별 CPU 상세 분석 → 특정 워커 프로세스가 CPU 독점.
+- 3단계: perf top으로 해당 프로세스의 핫스팟(Hotspot) 함수 식별 → JSON 파싱 함수가 40% 차지.
+- 4단계: JSON 파싱 라이브러리를 simdjson으로 교체 → CPU 사용률 45% 감소, 응답 시간 60% 개선.
+
+**시나리오 2: 데이터베이스 쿼리 지연 원인 분석**
+- 1단계: iostat -x 1로 디스크 I/O 상태 확인 → %util 95%, await 80ms (심각한 I/O 병목).
+- 2단계: /proc/meminfo로 캐시 적중률 확인 → Cached 메모리 부족으로 디스크 읽기 빈번.
+- 3단계: vm.swappiness를 10으로 조정 + shared_buffers 증설.
+- 4단계: 쿼리 실행 계획(EXPLAIN)으로 풀 테이블 스캔 쿼리 식별 → 인덱스 추가.
+- 5단계: iostat 재측정 → %util 40%, await 5ms로 개선 확인.
+
+**시나리오 3: 컨테이너 환경의 자원 경합(Resource Contention)**
+- Kubernetes 클러스터에서 특정 Pod의 응답 시간이 간헐적으로 급증.
+- kubectl top + Prometheus 메트릭으로 분석 → 동일 노드의 다른 Pod가 CPU Burst.
+- 해결: CPU Limits/Limits 조정, 노드 어피니티(Anti-Affinity) 설정으로 분산 배치.
+
+```text
+┌────────────────────────────────────────────────────────────────┐
+│     성능 튜닝 의사결정 흐름 (USE + 성능 카운터 기반)          │
+├────────────────────────────────────────────────────────────────┤
+│                                                                │
+│  [성능 이슈 발생]                                              │
+│     │                                                          │
+│     ▼                                                          │
+│  Layer 1: top/htop으로 전체 상태 파악                         │
+│     │                                                          │
+│     ├── CPU 사용률 높음 → perf로 핫스팟 분석                  │
+│     │                         → 코드 최적화 또는 스케일 아웃   │
+│     │                                                          │
+│     ├── 메모리 부족 → /proc/meminfo 분석                      │
+│     │                  → 캐시 튜닝, 메모리 누수 탐지(612번)   │
+│     │                                                          │
+│     ├── I/O 대기 높음 → iostat으로 디스크 병목 확인           │
+│     │                    → I/O 스케줄러 튜닝, 캐시/SSD 증설   │
+│     │                                                          │
+│     └── 네트워크 지연 → tcpdump/sar로 패킷 분석              │
+│                          → TCP 파라미터 튜닝, 대역폭 증설     │
+│                                                                │
+│  [튜닝 후 반드시 검증]                                        │
+│  ① 변경 전/후 벤치마크 비교 (ab, wrk, sysbench)               │
+│  ② USE 지표 재측정 → 개선 효과 정량 확인                     │
+│  ③ 24시간 이상 안정성 관측 → 회귀(Regression) 여부 확인      │
+└────────────────────────────────────────────────────────────────┘
+```
+
+**[다이어그램 해설]** 이 흐름도는 성능 이슈 발생 시 USE 방법론과 계층별 도구를 조합하여 원인을 식별하고 해결하는 의사결정 과정을 보여준다. 핵심은 "측정 없이 튜닝하지 않는다"는 원칙이다. 직관이나 경험에만 의존하여 매개변수를 조정하면, 실제 병목이 아닌 곳을 튜닝하게 되어 오히려 전체 성능이 악화될 수 있다.
+
+- **📢 섹션 요약 비유**: 의사가 환자를 진료할 때, "아프다고 하니 수술합시다"가 아니라, 체온 재고(Layer 1), 혈액 검사(Layer 2), CT 촬영(Layer 3)으로 정확한 원인을 찾은 뒤에 치료(튜닝)하고, 치료 후 재검진(검증)으로 효과를 확인하는 과정과 같습니다.
+
+---
+
+## Ⅴ. 결론 (Conclusion)
+
+성능 모니터링과 튜닝은 운영체제의 안정적 운영과 서비스 품질 보장을 위한 필수 활동이다. USE 방법론은 "Utilization(사용률) → Saturation(포화도) → Errors(오류)"의 체계적 분석 프레임워크를 제공하여, 직관에 의존하지 않는 데이터 기반 성능 분석을 가능하게 한다.
+
+Linux의 풍부한 모니터링 도구 생태계(/proc, perf, eBPF)는 6계층(Layer 0~5)으로 체계적으로 구성되어 있으며, 실무에서는 계층별 도구를 조합하여 실시간 상태 파악(Layer 1-2), 심층 분석(Layer 3-4), 장기 추세 관찰(Layer 5)의 다차원적 모니터링을 수행한다.
+
+성능 튜닝은 항상 "측정 → 분석 → 조정 → 검증"의 반복 사이클로 수행되어야 하며, 커널 매개변수 조정 시에는 변경 전후의 정량적 비교와 충분한 안정성 관측이 필수적이다. 앞으로 eBPF 기반의 제로 오버헤드 모니터링과 AIOps의 자동 이상 탐지가 결합되어, 인간의 개입 없이도 실시간으로 병목을 식별하고 자동 튜닝하는 자율 성능 관리(Autonomous Performance Management)로 발전할 것이다.
+
+---
+
+## 관련 개념 맵
 
 ```
-[ìë ëëíë ëê ìí êìë: ëì ìì]
-
-ëì: êëí Server Health íì
---> `top`, `htop`, `glances`  (ì ëì overview)
-
-ëì: Historical ìë ìì ëì (ìí ëì)
---> `sar` + ìë DB ìì + Grafana Visualization
-
-ëì: íì I/O íí/íëìì profiling
---> `perf`, `strace` (ì-level ìì ëì)
-
-ëì: ëíìí ëë ìì íì (ëì+ìë)
---> `ss`, `tcpdump`, `eBPF` (íí ëë)
-
-ëì: ëì ëìíëìëì ììì ìì (íëìì íë)
---> APM ëê (Jaeger, Zipkin, Datadog APM)
-
-ëì: êê ìì ìRoot Cause 5ë ë íì
---> `perf top`, `bpftrace` (ìë ëë ìì)
+성능 모니터링 (Performance Monitoring)
+├── 방법론
+│   ├── USE (Utilization-Saturation-Errors)
+│   ├── PDCA 사이클 (측정→분석→조정→검증)
+│   └── 부하 테스트 (Load Testing)
+├── 측정 계층 (6-Layer)
+│   ├── Layer 0: /proc, /sys, PMU
+│   ├── Layer 1: top, htop, iotop
+│   ├── Layer 2: vmstat, iostat, sar
+│   ├── Layer 3: perf, eBPF, SystemTap
+│   ├── Layer 4: OpenTelemetry, Jaeger
+│   └── Layer 5: Prometheus, Grafana
+├── 튜닝 대상
+│   ├── CPU 스케줄러 매개변수
+│   ├── 메모리 swappiness, dirty_ratio
+│   ├── I/O 스케줄러 (none, bfq, mq-deadline)
+│   └── TCP/IP 매개변수 (somaxconn, tcp_tw_reuse)
+└── 연관 기술
+    ├── 리틀의 법칙 (610번) → 용량 산정
+    ├── 프로파일링 (613번) → 핫스팟 분석
+    ├── eBPF (615번) → 제로 오버헤드 모니터링
+    └── Amdahl's Law (616번) → 병렬 확장성 분석
 ```
 
-**[ëììêë íì]** ê ëêëê ëëëëëìì. ëìí"ìëêììê?"ë `top`ìë ìëíìë,"íì API ìë ìêì ëëêì ëììê?"ë APMìë `perf`ê íìíê,"ëíìí ëëìì ììí íëíì ìëê?"ë eBPF êë ëêê êì íêììë.
+## 어린이 비유 🧒
 
-- **ìì ëì**: ìë ëëíë ëê ìíìëì ìëê ìíê êë. êëí êêêì(ìëì  ìí)ì ëê(top)ë ìëíìë, êì íìì ìëë ììëê(APM/íëìì ìì)ê íìíê, ìë ììì íìíë íëê(eBPF/ìë ëë ìì)ì íìí êìë.
-
----
-
-## 4. ìë ìì ë êììì íë
-
-### ìë ìëëì: ì ìëìLatency ìêì Root Cause ëì
-
-**ìí**:ëê  ììíë. ìììëì""ë íìíê, Platform Engineering íììëë ììíë.
-
-**ëì êì**:
-1. `top`: CPU ììëì 30%ëìì 70%ë ìì --> CPU Possible Bottleneck!
-2. `mpstat -P ALL`: íì ìì(iowait)ê ìëë overall CPUê ìììë ìì
-3. `pidstat -p ALL 1`: íì íëììêìë ìíëììíê CPU 
-4. `vmstat 1`: ëëë êìë 20%ë, ìì ììë 0%
-5. `iostat -xz 1`: Disk %util 95%, await 80ms --> **Disk I/Oê  ëë!**
-6. `iotop`: ìëìì file system journal syncê I/Oë
-
-**ìë êê**: ëìíëìì Connection Poolì í íêê ììì ê ìëê Disk I/Oë ëëíë ëë ìììë ìëìììê, ìë Disk %utilë ììê ëëìë.
-
-**ëì**: DB Connection Pool íê íë --> Disk I/O êì --> CPU Wait êì --> Latencyì
-
-### ëì ìíëìí
-
-- **BASELINES ìì**: ììíì"ìì" ìë êìì(baseline)ì ììíê, êìììì íê ëìë êììë Alertë ëììíë.
-- **Saturation ìì Alert**: CPU Utilizationëë Load Average > ìì ì, Disk %util > 80%, Memory ìì ììë > 0 ëì Saturation MetricìAlert êììë ììíë.
-- **Historical ëìí ëì**: `sar` ëìíë 90ì ìì ëìíì, ìê/ìê íëë ëìê ëìì êëíëë íë.
-
-### ìííí
-
-- **ëì Metric ìì**: CPU ììëë êìíê I/O ëëì ëìë êì ëíìì ìíííìë.
-- **ëë ìëí Alert**: ëë Metric ëëì Alertë ììíë"Alert íë"ê ìì ììë ììí Alertë ëìê ëë.
-
-- **ìì ëì**: ìë ëëíëììëìì119 ìê ììíê êë. ëë ìììììë ëëë ìêíë(ëë metricì alert)ì ëëì ìëíëëì ëëëê, ëëëìíì ììë íëì ëëì ëê ëìíë.
-
----
-
-## 5. êëíê ë êë
-
-### êëíê
-
-ìë ëëíë ìê êìì ROIë  ëì ì íê íë ìê(MTTR)ì ìí ìì êìëë. êì ìì êì íê ìì íë ìêì 4~8ìêì ëë, ìêì ëëíë + ìì Alert ìêê ììë 30ë~1ìê ëë Root Causeë íìíê ììë ìëí ì ìì, êì ìììì ì~ììë ëëì ììììì ëìí ì ìë.
-
-### ìê íì
-
-- **USE Method (Brendan Gregg)**: ììí ìëëìëë
-- **Google SRE Book**: ìë-budget ë SLI/SLO/SLA êë
-- **NIST SP 800-137**: Information Security Continuous Monitoring (ISCM)
-
-- **ìì ëì**:ìëëëíëìíí ìì ëíêì ììê ADS-Bì êë. ìììê ìë, ìì ìí, êëë ììììë êêíìì íìíëì ììë ëë êêìì, ììì ìíë  êìí(ëëíë ìë)ììë ëìì íìíë.
-
----
-
-## êë êë ë
-
-| êë ëì | êê ë ìëì ìë |
-|---|---|
-| **Load Average** | CPU Saturationì ëíëë íì ìíë, Run Queueì ëê ìì íëìì ìë ëíëë. |
-| **%iowait** | CPUê I/O ìë ëêë ìëí ìê ëìë, CPU ëëìì I/O ëëììë êëíë íì ìíìë. |
-| **MTTR (Mean Time To Repair)** | ìì ëì í ëêêì íê ìì ìêìë, ìë ëëíë ìêê ì êììì ìììë MTTRì íê ëìëë. |
-| **SLI/SLO/SLA** | Service Level Indicator/Objective/Agreementë, ìë ëëíëì ëíì ìì ë íìì íìëë íì íëììíìë. |
-
----
-
-## ìëìë ìí 3ì ëì ìë
-1.ìëëëíëìíê infirmary nurseì êê ìíê êìì. ëì ìììêì ìë íêì ëëí ììëì ìëì(ììì ìì ëì ëìì), ìì ìë ììë ìëì(CPU/ëëë êìì), ëìíìì ëì ììë ìëì(ìë/íì)ë íìíë êììì.
-2. êëì ììë ìììì ëì íìê ìì(íí/ìì íë) nurseêë ìí ì ììì.
-3. ëì nurseê ììë ìíë monitoringíì ììë, ìì ëì ìë ìì ë ììê ìë ìë ëëê ëêíììì íëëë êêë ìëíë.
+컴퓨터에 **건강 검진 기계**가 있다고 생각해 보세요! 이 기계는 컴퓨터의 두뇌(CPU)가 얼마나 바쁜지, 기억력(메모리)이 충분한지, 책상(디스크)이 정리되어 있는지를 실시간으로 체크합니다. 만약 두뇌가 너무 바쁘면 "일을 덜어주세요!"라고 알려주고, 기억력이 부족하면 "기억 공간을 늘려주세요!"라고 말해줍니다. USE 방법론은 "얼마나 바쁜지(Utilization), 줄 서서 기다리는 사람이 있는지(Saturation), 실수는 없는지(Errors)" 세 가지 질문을 순서대로 물어보는 건강 검진 체크리스트와 같아요! 🏥
