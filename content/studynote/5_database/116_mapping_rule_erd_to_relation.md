@@ -1,5 +1,5 @@
 +++
-title = "116. 매핑 룰 (Mapping Rule) - ERD를 테이블로"
+title = "116. 매핑 룰 (Mapping Rule) - ERD 변환"
 weight = 116
 +++
 

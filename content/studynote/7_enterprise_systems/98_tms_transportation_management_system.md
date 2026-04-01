@@ -1,5 +1,5 @@
 +++
-title = "98. TMS (Transportation Management System) - 운송 관리 시스템"
+title = "98. TMS (Transportation Management System)"
 weight = 98
 +++
 

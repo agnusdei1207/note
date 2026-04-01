@@ -1,5 +1,5 @@
 +++
-title = "112. 반정규화 (De-normalization)"
+title = "112. 반정규화 (De-normalization) 개념"
 weight = 112
 +++
 

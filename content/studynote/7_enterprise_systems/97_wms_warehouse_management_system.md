@@ -1,5 +1,5 @@
 +++
-title = "97. WMS (Warehouse Management System) - 창고 관리 시스템"
+title = "97. WMS (Warehouse Management System)"
 weight = 97
 +++
 

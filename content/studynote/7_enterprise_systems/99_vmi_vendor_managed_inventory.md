@@ -1,5 +1,5 @@
 +++
-title = "99. VMI (Vendor Managed Inventory) - 공급자 주도 재고 관리"
+title = "99. VMI (Vendor Managed Inventory)"
 weight = 99
 +++
 
