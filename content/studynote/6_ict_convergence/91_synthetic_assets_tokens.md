@@ -1,5 +1,5 @@
 +++
-title = "91. 합성 자산 (Synthetic Assets) 토큰"
+title = "91. 합성 자산 (Synthetic Assets) 토큰 구조"
 weight = 91
 +++
 
