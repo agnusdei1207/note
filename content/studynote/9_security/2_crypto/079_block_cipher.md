@@ -1,5 +1,5 @@
 +++
-weight = 82
+weight = 79
 title = "82. 블록 암호 (Block Cipher)"
 description = "고정 크기 블록 단위로 암호화를 수행하는 대칭키 암호 시스템"
 date = 2026-03-26

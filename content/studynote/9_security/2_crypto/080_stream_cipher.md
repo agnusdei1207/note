@@ -1,5 +1,5 @@
 +++
-weight = 83
+weight = 80
 title = "83. 스트림 암호 (Stream Cipher)"
 description = "비트 또는 바이트 단위로 실시간 암호화를 수행하는 대칭키 암호 시스템"
 date = 2026-03-26

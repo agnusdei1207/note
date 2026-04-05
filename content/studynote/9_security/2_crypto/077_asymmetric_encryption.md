@@ -1,5 +1,5 @@
 +++
-weight = 80
+weight = 77
 title = "80. 비대칭키 암호 (Asymmetric Encryption)"
 description = "공개키와 개인키 쌍을 사용하여 암호화와 복호화를 수행하는 공개키 암호 시스템"
 date = 2026-03-26
