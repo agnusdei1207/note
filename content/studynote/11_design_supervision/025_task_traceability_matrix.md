@@ -1,5 +1,5 @@
 +++
-title = "025. 과업 대비표 (Task Traceability Matrix)"
+title = "25. 과업 대비표 (Task Traceability Matrix)"
 date = "2026-04-02"
 [extra]
 categories = "studynote-design-supervision"

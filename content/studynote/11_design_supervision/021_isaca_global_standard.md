@@ -1,5 +1,5 @@
 +++
-title = "021. ISACA (Information Systems Audit and Control Association) 글로벌 표준 체계"
+title = "21. ISACA (Information Systems Audit and Control Association) 글로벌 표준 체계"
 date = "2026-04-02"
 [extra]
 categories = "studynote-design-supervision"

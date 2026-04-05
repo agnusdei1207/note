@@ -1,5 +1,5 @@
 +++
-title = "022. CISA (Certified Information Systems Auditor) - 국제 공인 정보시스템 감사사"
+title = "22. CISA (Certified Information Systems Auditor) - 국제 공인 정보시스템 감사사"
 date = "2026-04-02"
 [extra]
 categories = "studynote-design-supervision"
