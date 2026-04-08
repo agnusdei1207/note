@@ -1,4 +1,5 @@
 +++
+weight = 78
 title = "78. BPR/ISP 연계"
 +++
 

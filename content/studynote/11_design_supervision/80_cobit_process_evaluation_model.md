@@ -1,4 +1,5 @@
 +++
+weight = 80
 title = "80. COBIT 프로세스 평가 (APO, BAI, DSS, MEA) 모델 연계 통제 진단"
 +++
 

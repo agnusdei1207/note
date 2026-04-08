@@ -1,4 +1,5 @@
 +++
+weight = 81
 title = "81. 소프트웨어 아키텍처 (Software Architecture)"
 +++
 
