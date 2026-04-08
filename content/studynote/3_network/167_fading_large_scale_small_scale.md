@@ -1,5 +1,5 @@
 +++
-title = "167. 페이딩 (Fading) - 대규모 vs 소규모"
+title = "167. 페이딩 (Fading) - 대규모(Large-scale) 페이딩 vs 소규모(Small-scale) 페이딩"
 weight = 167
 +++
 

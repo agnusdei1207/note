@@ -1,5 +1,5 @@
 +++
-title = "711. SYN Flood 공격"
+title = "711. SYN Flood 공격 (TCP 3way-Handshake 약점 Backlog 큐 포화 자원 마비 유도)"
 weight = 711
 +++
 # 711. SYN Flood 공격 (TCP 3-way Handshake 약점 공격)

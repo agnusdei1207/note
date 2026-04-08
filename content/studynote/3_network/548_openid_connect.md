@@ -1,6 +1,6 @@
 +++
 weight = 548
-title = "548. OpenID Connect (OIDC) - OAuth 2.0 기반 사용자 인증(Authentication) 프로토콜"
+title = "548. OpenID Connect - OAuth 2.0 기반 사용자 식별 프로토콜 (ID Token, JWT)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

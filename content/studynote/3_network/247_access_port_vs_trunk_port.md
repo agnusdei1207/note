@@ -1,5 +1,5 @@
 +++
-title = "247. 접근 포트(Access Port) / 트렁크 포트(Trunk Port)"
+title = "247. 접근 포트 (Access Port) / 트렁크 포트 (Trunk Port)"
 weight = 247
 +++
 

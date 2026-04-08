@@ -1,6 +1,6 @@
 +++
 weight = 703
-title = "상속"
+title = "703. 백파이어링 FP LOC 역산"
 description = "상속(Inheritance)의 개념, 타입, 오버라이딩"
 date = 2024-02-05
 

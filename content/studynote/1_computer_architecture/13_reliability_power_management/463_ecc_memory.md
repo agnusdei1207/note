@@ -1,6 +1,6 @@
 +++
 weight = 463
-title = "463. ECC 메모리 (Error-Correcting Code Memory)"
+title = "463. ECC 메모리 (Error-Correcting Code)"
 date = "2026-03-22"
 [extra]
 categories = "studynote-computer-architecture"

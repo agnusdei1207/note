@@ -1,6 +1,6 @@
 +++
 weight = 497
-title = "497. Chiplet (칩렛) 아키텍처"
+title = "497. 칩렛 (Chiplet) 아키텍처"
 date = "2026-03-20"
 [extra]
 categories = "studynote-computer-architecture"

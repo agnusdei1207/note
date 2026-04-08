@@ -1,5 +1,5 @@
 +++
-title = "58. 데이터 리터러시 (Data Literacy)"
+title = "58. 데이터 리터러시 (Data Literacy) - 전 임직원의 데이터 해석 및 비즈니스 활용 역량"
 date = "2026-04-07"
 [extra]
 categories = "studynote-it-management"

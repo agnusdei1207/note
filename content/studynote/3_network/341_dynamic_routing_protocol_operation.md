@@ -1,5 +1,5 @@
 +++
-title = "341. 동적 라우팅 (Dynamic Routing) - 프로토콜 운영"
+title = "341. 동적 라우팅 (Dynamic Routing) - 라우팅 프로토콜 운영"
 weight = 341
 +++
 

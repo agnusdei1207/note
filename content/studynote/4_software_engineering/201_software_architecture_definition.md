@@ -1,5 +1,5 @@
 +++
-title = "201. 소프트웨어 아키텍처 정의"
+title = "201. 소프트웨어 아키텍처 (Software Architecture) 정의"
 weight = 201
 +++
 # 201. 소프트웨어 아키텍처 (Software Architecture) 정의 - 시스템 뼈대 골격 구성 요소 상호작용 의사결정 비기능적 요구사항(품질 속성) 설계

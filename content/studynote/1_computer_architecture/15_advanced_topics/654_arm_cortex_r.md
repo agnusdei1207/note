@@ -1,5 +1,5 @@
 +++
-title = "ARM Cortex-R 시리즈 특징 (Real-Time)"
+title = "654. ARM Cortex-R 시리즈"
 date = 2026-03-20
 weight = 654
 description = "빠른 성능보다 '절대 지각하지 않는 완벽한 시간 약속'이 생명인 하드디스크 컨트롤러, 자동차 브레이크, 통신 모뎀을 위한 ARM의 실시간(Real-Time) 전용 프로세서"

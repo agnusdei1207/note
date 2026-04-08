@@ -1,5 +1,5 @@
 +++
-title = "374. LSR과 LER (MPLS 라우터의 역할)"
+title = "374. LSR (Label Switch Router), LER (Label Edge Router)"
 weight = 374
 +++
 

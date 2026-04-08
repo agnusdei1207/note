@@ -1,5 +1,5 @@
 +++
-title = "242. 미디어 회복 (Media Recovery)"
+title = "242. 미디어 회복 (Media Recovery) - 디스크 손상 시 백업(덤프) 아카이브와 로그를 이용해 롤포워드(Roll-forward) 복구"
 weight = 242
 +++
 # 242. 미디어 회복 (Media Recovery) - 디스크 손상 백업 덤프(Dump) 아카이브 로그 롤포워드(Roll-forward) 데이터베이스 재난 복구 장애

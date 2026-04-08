@@ -1,5 +1,5 @@
 +++
-title = "325. ETL Extract Transform Load 프로세스 데이터 적재"
+title = "325. ETL (Extract, Transform, Load) 프로세스 - 소스 추출 -> 정제/변환 -> 타겟 적재"
 date = "2026-04-07"
 [extra]
 categories = "studynote-database"

@@ -1,6 +1,6 @@
 +++
 weight = 12
-title = "추론 시스템"
+title = "12. 퍼지 논리 (Fuzzy Logic) - 0과 1 사이의 확률적 연속값(소속도)을 이용해 애매한 개념 처리 (Zadeh 제안)"
 description = "추론 시스템(Reasoning System)의 정의, 추론 방식(연역, 귀납, 연관), 현대 AI 추론 시스템"
 category = "10_ai"
 +++

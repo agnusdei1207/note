@@ -1,6 +1,6 @@
 +++
 weight = 47
-title = "NULL 처리 함수"
+title = "547. 그래프 데이터 최단 경로(Shortest Path) 알고리즘 DB 매핑"
 description = "NVL, COALESCE, IFNULL 등 NULL 처리 함수"
 date = 2026-03-26
 

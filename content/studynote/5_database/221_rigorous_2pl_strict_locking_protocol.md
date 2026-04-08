@@ -1,5 +1,5 @@
 +++
-title = "221. 강건한 2PL (Rigorous 2PL)"
+title = "221. 강건한 2PL (Rigorous 2PL) - S-Lock, X-Lock 모두 커밋 전까지 보유"
 weight = 221
 +++
 # 221. 강건한 2PL (Rigorous 2PL) - 2단계 락킹 프로토콜 최상위 진화형 모든 락(S-Lock, X-Lock) 커밋 시 반납 직렬화 동시성 저하 구현 단순성

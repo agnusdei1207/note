@@ -1,5 +1,5 @@
 +++
-title = "KVM 오버 IP (Keyboard, Video, Mouse over IP)"
+title = "713. KVM (Keyboard, Video, Mouse) 오버 IP"
 date = 2026-03-20
 weight = 713
 description = "서버가 완전히 멈춰 운영체제로 접속할 수 없을 때조차도, 브라우저를 통해 서버의 모니터 화면을 보고 키보드를 타이핑할 수 있게 해주는 궁극의 원격 하드웨어 제어 기술"

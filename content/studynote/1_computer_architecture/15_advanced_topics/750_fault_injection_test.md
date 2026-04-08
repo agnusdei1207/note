@@ -1,5 +1,5 @@
 +++
-title = "결함 주입 테스트 (Fault Injection Test)"
+title = "750. 결함 주입 테스트 (Fault Injection Test)"
 date = 2026-03-20
 weight = 750
 description = "시스템이 고장 났을 때 제대로 복구되는지 확인하기 위해, 쌩쌩 돌아가는 서버나 반도체 회로에 일부러 전기적 충격이나 소프트웨어 에러를 억지로 쑤셔 넣는(Injection) 파괴적 검증 기법"

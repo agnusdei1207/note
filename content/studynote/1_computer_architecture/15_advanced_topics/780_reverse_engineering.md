@@ -1,5 +1,5 @@
 +++
-title = "물리적 분해 분석 (Reverse Engineering)"
+title = "780. 물리적 분해 분석 (Reverse Engineering)"
 date = 2026-03-20
 weight = 780
 description = "경쟁사의 최신 칩이나 적국의 암호 칩을 얻었을 때, 이를 화학 용액으로 녹이고 전자현미경으로 찍어 원자 단위의 3D 설계 도면을 100% 복원해 내는 궁극의 하드웨어 역설계 기술"

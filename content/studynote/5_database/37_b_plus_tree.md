@@ -1,6 +1,6 @@
 +++
 weight = 37
-title = "37. B+Tree 인덱스"
+title = "37. B+Tree - 리프 노드에만 데이터 저장, 리프 노드 간 연결 리스트 (RDB 인덱스 기본)"
 description = "관계형 데이터베이스(RDBMS)의 핵심 저장 구조인 B+Tree의 아키텍처, 검색 메커니즘 및 실무 최적화 방안"
 date = "2026-03-04"
 [taxonomies]

@@ -1,5 +1,5 @@
 +++
-title = "182. 리스트 파티셔닝 (List Partitioning)"
+title = "182. 리스트 파티셔닝 (List Partitioning) - 명시적 특정 값(지역명 등) 기준"
 weight = 182
 +++
 # 182. 리스트 파티셔닝 (List Partitioning) - 명시적 특정 값 기준

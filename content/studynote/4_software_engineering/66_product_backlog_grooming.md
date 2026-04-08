@@ -1,5 +1,5 @@
 +++
-title = "66. 제품 백로그 (Product Backlog)"
+title = "66. 제품 백로그 (Product Backlog) - 요구사항 우선순위 목록"
 weight = 66
 +++
 

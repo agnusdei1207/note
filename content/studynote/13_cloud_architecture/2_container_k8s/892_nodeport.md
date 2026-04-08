@@ -1,6 +1,6 @@
 +++
 weight = 892
-title = "92. NodePort"
+title = "892. NodePort"
 description = "NodePort: 워커 노드의 특정 물리 포트(30000~32767)를 열어 외부 트래픽을 내부 Service로 라우팅하는 쿠버네티스 Service 유형"
 date = 2026-03-26
 

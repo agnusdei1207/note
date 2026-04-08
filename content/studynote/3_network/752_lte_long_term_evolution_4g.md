@@ -1,5 +1,5 @@
 +++
-title = "752. LTE (Long Term Evolution)"
+title = "752. LTE (Long Term Evolution 4세대 망 진화) All-IP 패킷 교환 완전 전환, OFDMA"
 weight = 752
 +++
 # 752. LTE (Long Term Evolution) - All-IP 패킷 교환망 완전 전환

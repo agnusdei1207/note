@@ -1,5 +1,5 @@
 +++
-title = "88. EOA (외부 소유 계정) vs 89. CA (컨트랙트 계정)"
+title = "88. EOA (Externally Owned Account) - 개인키로 통제되는 일반 사용자 계정"
 weight = 88
 +++
 

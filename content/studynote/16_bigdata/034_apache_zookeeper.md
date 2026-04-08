@@ -1,6 +1,6 @@
 +++
 weight = 34
-title = "34. Apache ZooKeeper"
+title = "34. Apache HBase — NoSQL on HDFS, 열 지향, 실시간 랜덤 R/W, ZooKeeper 의존"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

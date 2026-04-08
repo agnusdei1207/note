@@ -1,5 +1,5 @@
 +++
-title = "1078. 클라우드 보안 워크로드 (CWPP)"
+title = "1078. 클라우스 보안 워크로드 CWPP 통제망"
 weight = 1078
 +++
 # 1078. 클라우드 보안 워크로드 CWPP 통제망 - Cloud Workload Protection Platform 가상머신 컨테이너 서버리스 보안 형상 관리 런타임 위협 방어

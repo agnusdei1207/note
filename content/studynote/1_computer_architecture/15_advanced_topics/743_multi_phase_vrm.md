@@ -1,5 +1,5 @@
 +++
-title = "다상 전원부 (Multi-phase VRM)"
+title = "743. 다상 전원부 (Multi-phase VRM)"
 date = 2026-03-20
 weight = 743
 description = "CPU에 200A가 넘는 거대한 전류를 공급할 때, 한두 개의 칩이 감당하다 타버리지 않도록 수십 개의 전원부(Phase)가 교대로 전류를 쪼개어 공급하는 메인보드 하드웨어 설계 기법"

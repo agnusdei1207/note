@@ -1,5 +1,5 @@
 +++
-title = "268. 프레임 릴레이 (Frame Relay) - X.25 간소화"
+title = "268. 프레임 릴레이 (Frame Relay) - X.25 간소화, 흐름/오류제어 생략"
 weight = 268
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 53
-title = "53. 성상도 (Constellation Diagram)"
+title = "53. 성상도 (Constellation Diagram) - 진폭과 위상 표시"
 date = "2026-03-30"
 [extra]
 categories = ["studynote", "Network"]

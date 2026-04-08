@@ -1,6 +1,6 @@
 +++
 weight = 803
-title = "하이브리드 클라우드 (Hybrid Cloud)"
+title = "803. 하이브리드 클라우드 (Hybrid Cloud)"
 description = "하이브리드 클라우드의 정의, 아키텍처, 활용 전략"
 date = 2026-03-26
 

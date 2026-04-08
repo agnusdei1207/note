@@ -1,5 +1,5 @@
 +++
-title = "36. 네트워크 효과 (Network Effect) - 메트칼프의 법칙"
+title = "36. 네트워크 효과 (Network Effect) - 메트칼프의 법칙 (네트워크 가치는 사용자 수의 제곱에 비례)"
 weight = 36
 +++
 

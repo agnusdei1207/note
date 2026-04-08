@@ -1,5 +1,5 @@
 +++
-title = "201. 길쌈 코드 (Convolutional Code)와 비터비 알고리즘"
+title = "201. 길쌈 코드 (Convolutional Code) - 연속 스트림, 비터비 알고리즘"
 weight = 201
 +++
 

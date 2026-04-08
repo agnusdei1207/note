@@ -1,5 +1,5 @@
 +++
-title = "383. IKE, ISAKMP, SA (IPsec 협상)"
+title = "383. IKE (Internet Key Exchange), ISAKMP, SA (Security Associations)"
 weight = 383
 +++
 

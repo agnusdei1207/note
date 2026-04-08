@@ -1,6 +1,6 @@
 +++
 weight = 586
-title = "586. 안테나 증폭 측정 지표: dBm, dBi, EIRP, 반값 전력각(HPBW) 아키텍처"
+title = "586. 안테나 증폭 측정 지표: dBm 반값 전력각 등"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

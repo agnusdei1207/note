@@ -1,5 +1,5 @@
 +++
-title = "69. 후보 키 (Candidate Key) - 유일성 + 최소성"
+title = "69. 후보 키 (Candidate Key) - 유일성과 최소성을 모두 만족하는 키"
 weight = 69
 +++
 

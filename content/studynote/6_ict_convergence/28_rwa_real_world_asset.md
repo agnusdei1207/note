@@ -1,5 +1,5 @@
 +++
-title = "28. RWA (Real World Asset) 토큰화"
+title = "28. RWA (Real World Asset) 토큰화 - 실물 자산(부동산, 미술품 등)의 블록체인 토큰 변환"
 weight = 28
 +++
 

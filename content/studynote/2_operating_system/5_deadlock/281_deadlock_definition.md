@@ -1,6 +1,6 @@
 +++
 weight = 281
-title = "281. 교착 상태 (Deadlock) 정의"
+title = "281. 교착 상태 (Deadlock) 정의 - 대기 중인 프로세스들이 자원을 점유한 채로 결코 일어나지 않을 사건을 기다리는 상태"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

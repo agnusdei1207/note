@@ -1,6 +1,6 @@
 +++
 weight = 448
-title = "448. 폴링 (Polling / Programmed I/O) 바쁜 대기의 고통"
+title = "448. 폴링 (Polling / Programmed I/O) - 상태 비트를 지속적으로 호스트가 읽음 (바쁜 대기)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

@@ -1,5 +1,5 @@
 +++
-title = "111. 가시성 (Observability) - Metrics, Logs, Traces"
+title = "111. 가시성 (Observability) - Metrics, Logs, Traces (3대 요소)"
 weight = 111
 +++
 

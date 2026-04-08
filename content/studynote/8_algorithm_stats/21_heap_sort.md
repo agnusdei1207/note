@@ -1,5 +1,5 @@
 +++
-title = "21. 힙 정렬 (Heap Sort)"
+title = "21. 퀵 정렬 최적화 — 3-way Partition, Median-of-3 Pivot"
 weight = 21
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 37
-title = "037. 위험 수용 (Risk Acceptance)"
+title = "37. 위험 수용 (Risk Acceptance) —管理层 승인 하에"
 date = "2026-04-05"
 [extra]
 categories = "studynote-security"

@@ -1,6 +1,6 @@
 +++
 weight = 425
-title = "425. OOM Killer (Out-of-Memory Killer) 작동 원리와 우선순위"
+title = "425. OOM Killer (Out-of-Memory) 작동 우선순위 점수 (oom_score) 매커니즘"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

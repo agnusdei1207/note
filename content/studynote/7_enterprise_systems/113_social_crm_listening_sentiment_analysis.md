@@ -1,5 +1,5 @@
 +++
-title = "113. 소셜 CRM (Social CRM) - 소셜 리스닝"
+title = "113. 소셜 CRM (Social CRM) - 소셜 미디어 상의 고객 반응/여론 청취(Social Listening) 기반 대응"
 weight = 113
 +++
 

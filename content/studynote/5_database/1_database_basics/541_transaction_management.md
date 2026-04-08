@@ -1,6 +1,6 @@
 +++
 weight = 41
-title = "트랜잭션 관리 (Transaction Management)"
+title = "541. 클라우드 DW 스노우플레이크(Snowflake) 구조적 특징"
 description = "트랜잭션 관리의 핵심 개념"
 date = 2026-03-26
 

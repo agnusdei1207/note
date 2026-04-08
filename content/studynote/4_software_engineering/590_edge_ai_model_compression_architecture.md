@@ -1,5 +1,5 @@
 +++
-title = "590. 엣지 AI (Edge AI) / 온디바이스 AI - 모델 경량화 아키텍처"
+title = "590. 엣지 AI (Edge AI) / 온디바이스 AI (On-Device AI) - 모델 경량화 (양자화, 가지치기, 지식 증류) 아키텍처"
 +++
 
 # 590. 엣지 AI (Edge AI) / 온디바이스 AI (On-Device AI) - 모델 경량화 (양자화, 가지치기, 지식 증류) 아키텍처

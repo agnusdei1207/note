@@ -1,5 +1,5 @@
 +++
-title = "에뮬레이션 지연 (Emulation Latency)"
+title = "531. 에뮬레이션 지연"
 date = 2026-03-20
 weight = 531
 description = "물리적 하드웨어가 없는 기능을 소프트웨어 코드로 모방(Emulate)하여 실행할 때 발생하는 필연적이고 막대한 시간적 오버헤드"

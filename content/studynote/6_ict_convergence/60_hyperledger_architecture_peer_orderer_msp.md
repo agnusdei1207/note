@@ -1,5 +1,5 @@
 +++
-title = "60. 하이퍼레저 아키텍처 - 피어, 오더러, MSP"
+title = "60. 하이퍼레저 아키텍처 - 피어(Peer), 오더러(Orderer, 합의 노드), MSP(Membership Service Provider, 인증)"
 weight = 60
 +++
 

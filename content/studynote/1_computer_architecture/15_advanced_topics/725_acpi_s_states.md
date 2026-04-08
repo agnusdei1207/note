@@ -1,5 +1,5 @@
 +++
-title = "ACPI S-States (S0 ~ S5 System States)"
+title = "725. ACPI S-States (S0 ~ S5)"
 date = 2026-03-20
 weight = 725
 description = "우리가 컴퓨터를 쓸 때 만나는 '켜짐, 절전 모드, 최대 절전 모드, 꺼짐' 이라는 거시적인 시스템 전원 상태를 정의하는 ACPI의 글로벌 표준 분류"

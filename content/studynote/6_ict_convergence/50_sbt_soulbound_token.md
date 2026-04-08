@@ -1,5 +1,5 @@
 +++
-title = "50. 소울바운드 토큰 (SBT, Soulbound Token)"
+title = "50. 소울바운드 토큰 (SBT, Soulbound Token) - 양도/전송이 불가능한 NFT (학위, 자격증, 신원 증명용)"
 weight = 50
 +++
 

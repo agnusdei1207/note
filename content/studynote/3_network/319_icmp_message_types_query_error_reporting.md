@@ -1,5 +1,5 @@
 +++
-title = "319. ICMP 메시지 종류 - Query vs Error"
+title = "319. ICMP 메시지 종류 - Query, Error Reporting"
 weight = 319
 +++
 

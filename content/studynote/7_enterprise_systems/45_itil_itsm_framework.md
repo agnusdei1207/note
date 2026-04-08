@@ -1,5 +1,5 @@
 +++
-title = "45. ITIL (IT Infrastructure Library) / ITSM"
+title = "45. ITIL (IT Infrastructure Library) - IT 서비스 관리(ITSM)의 글로벌 베스트 프랙티스 프레임워크 (V3 라이프사이클 -> V4 서비스 가치 시스템 SVS)"
 weight = 45
 +++
 

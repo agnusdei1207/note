@@ -1,6 +1,6 @@
 +++
 weight = 290
-title = "290. 교착 상태 처리 방법 (Handling Deadlocks)"
+title = "290. 교착 상태 처리 방법 3가지 - 예방/회피, 탐지/복구, 무시"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

@@ -1,5 +1,5 @@
 +++
-title = "262. 디지털 트윈 (Digital Twin)"
+title = "262. 트랜스포머 (Transformer) 어텐션 기반 병렬 연산 구조"
 weight = 262
 +++
 

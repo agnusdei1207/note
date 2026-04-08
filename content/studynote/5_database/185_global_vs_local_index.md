@@ -1,5 +1,5 @@
 +++
-title = "185. 전역 인덱스 vs 지역 인덱스"
+title = "185. 전역 인덱스 (Global Index) vs 지역 인덱스 (Local Index, 파티션별 독립 인덱스)"
 weight = 185
 +++
 # 185. 전역 인덱스 (Global Index) vs 지역 인덱스 (Local Index)

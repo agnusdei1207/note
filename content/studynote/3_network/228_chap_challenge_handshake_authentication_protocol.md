@@ -1,5 +1,5 @@
 +++
-title = "228. CHAP (Challenge Handshake Authentication Protocol) - 해시 인증"
+title = "228. CHAP (Challenge Handshake Authentication Protocol) - 해시 기반 인증 (3-way)"
 weight = 228
 +++
 

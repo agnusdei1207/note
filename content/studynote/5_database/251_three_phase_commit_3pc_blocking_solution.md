@@ -1,5 +1,5 @@
 +++
-title = "251. 3단계 커밋 (3PC)"
+title = "251. 3단계 커밋 (3PC, Three-Phase Commit) - 2PC의 블로킹 한계 보완 (Pre-Commit 추가)"
 weight = 251
 +++
 # 251. 3단계 커밋 (3PC, Three-Phase Commit) - 2PC의 블로킹 한계 보완 분산 트랜잭션 Pre-Commit 단계 추가 코디네이터 단일 장애점 완화 

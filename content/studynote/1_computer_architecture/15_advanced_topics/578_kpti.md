@@ -1,5 +1,5 @@
 +++
-title = "커널 페이지 테이블 격리 (KPTI, Kernel Page-Table Isolation)"
+title = "578. 커널 페이지 테이블 격리 (KPTI)"
 date = 2026-03-20
 weight = 578
 description = "멜트다운(Meltdown) 취약점을 막기 위해, 사용자 모드 프로그램이 커널의 메모리 주소 자체를 아예 볼 수 없도록 페이지 테이블을 두 개로 찢어버리는 운영체제 수준의 긴급 패치"

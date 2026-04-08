@@ -1,5 +1,5 @@
 +++
-title = "818. NVGRE (가상화 캡슐화망)"
+title = "818. NVGRE (Network Virtualization using Generic Routing Encapsulation) MS 주도 캡슐화 통신 체계"
 weight = 818
 +++
 # 818. NVGRE (Network Virtualization using Generic Routing Encapsulation) - MS 주도 캡슐화 통신 체계

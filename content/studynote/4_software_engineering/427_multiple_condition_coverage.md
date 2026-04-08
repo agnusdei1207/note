@@ -1,5 +1,5 @@
 +++
-title = "427. 다중 조건 커버리지 (Multiple Condition Coverage)"
+title = "427. 다중 조건 커버리지 (Multiple Condition Coverage) - 개별 조건의 모든 가능한 진리값 조합 (2^N)"
 date = 2026-04-05
 weight = 427
 +++

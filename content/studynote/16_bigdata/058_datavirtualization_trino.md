@@ -1,6 +1,6 @@
 +++
 weight = 58
-title = "58. 데이터 가상화 / Trino"
+title = "58. AQE (Adaptive Query Execution) — 런타임 통계 기반 자동 최적화 (Spark 3.0+)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

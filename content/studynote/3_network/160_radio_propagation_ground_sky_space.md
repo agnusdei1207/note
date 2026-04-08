@@ -1,5 +1,5 @@
 +++
-title = "160. 지상파 / 천파 / 공간파 (전파의 전파 경로)"
+title = "160. 지상파 (Ground Wave) / 천파 (Sky Wave) / 공간파 (Space Wave)"
 weight = 160
 +++
 

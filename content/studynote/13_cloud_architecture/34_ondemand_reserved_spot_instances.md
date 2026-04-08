@@ -1,6 +1,6 @@
 +++
 weight = 34
-title = "34. 온디맨드/예약/스팟 인스턴스"
+title = "34. 파일 스토리지 (File Storage) - 디렉터리 트리 구조로 파일 공유 (NFS, SMB 프로토콜 / AWS EFS)"
 description = "온디맨드 인스턴스, 예약 인스턴스, 스팟 인스턴스의 핵심 개념, 비용 구조 및 워크로드별 최적 선택 전략"
 date = "2024-05-24"
 [taxonomies]

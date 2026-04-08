@@ -1,6 +1,6 @@
 +++
 weight = 21
-title = "21. 데이터 조작 언어 (DML: Data Manipulation Language)"
+title = "21. DML (Data Manipulation Language) - 데이터 조작 언어 (SELECT, INSERT, UPDATE, DELETE)"
 description = "데이터베이스 내의 데이터를 검색, 삽입, 갱신, 삭제하며 트랜잭션을 발생시키는 데이터 처리 언어"
 date = "2026-03-04"
 [taxonomies]

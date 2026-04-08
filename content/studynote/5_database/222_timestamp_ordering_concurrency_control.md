@@ -1,5 +1,5 @@
 +++
-title = "222. 타임스탬프 순서 (Timestamp Ordering) 기법"
+title = "222. 타임스탬프 순서 (Timestamp Ordering) 기법 - 트랜잭션 진입 시간에 맞춰 직렬화 (비관적 제어 아님, 락 없음)"
 weight = 222
 +++
 # 222. 타임스탬프 순서 (Timestamp Ordering) 기법 - 비관적 제어 아님 무자물쇠 동시성 제어 롤백 트랜잭션 진입 시간 직렬화

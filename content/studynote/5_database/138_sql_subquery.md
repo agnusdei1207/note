@@ -1,6 +1,6 @@
 +++
 weight = 138
-title = "138. 서브쿼리 (Subquery) - 쿼리 내부에 포함된 독립적 질의"
+title = "138. 교차 조인 (Cross Join / Cartesian Product) - M x N 건 생성"
 date = "2026-04-02"
 [extra]
 categories = "studynote-database"

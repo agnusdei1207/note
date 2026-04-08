@@ -1,5 +1,5 @@
 +++
-title = "712. SYN Cookie 기술"
+title = "712. SYN Flood 대응 - SYN Cookie 기술 (상태비저장 SYN/ACK 암호화 처리 후 최종 ACK서 검증) 서버 완화 제어"
 weight = 712
 +++
 # 712. SYN Flood 대응 - SYN Cookie 기술 (상태비저장 검증)

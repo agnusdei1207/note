@@ -1,5 +1,5 @@
 +++
-title = "388. 디자인 바이 컨트랙트 (Design by Contract)"
+title = "388. 디자인 바이 컨트랙트 (Design by Contract) - 사전조건, 사후조건, 불변조건 명시"
 date = 2026-04-05
 weight = 388
 +++

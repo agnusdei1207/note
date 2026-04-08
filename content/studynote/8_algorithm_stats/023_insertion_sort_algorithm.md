@@ -1,6 +1,6 @@
 +++
 weight = 23
-title = "023. 삽입 정렬 (Insertion Sort) 알고리즘"
+title = "23. 계수 정렬 (Counting Sort) — O(n+k), 비교 불필요"
 date = "2026-04-02"
 [extra]
 categories = "studynote-algorithm"

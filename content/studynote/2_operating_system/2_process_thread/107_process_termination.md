@@ -1,6 +1,6 @@
 +++
 weight = 107
-title = "프로세스 종료 (Process Termination)"
+title = "107. 프로세스 종료 (Process Termination) - exit(), wait()"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

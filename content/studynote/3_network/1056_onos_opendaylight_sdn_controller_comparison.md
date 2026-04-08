@@ -1,5 +1,5 @@
 +++
-title = "1056. ONOS vs OpenDaylight"
+title = "1056. ONOS / OpenDaylight 구조 모델 비교"
 weight = 1056
 +++
 # 1056. ONOS / OpenDaylight 구조 모델 비교 - SDN 컨트롤러 오픈소스 플랫폼 데이터센터 텔레콤 통신망 분산 클러스터링 아키텍처

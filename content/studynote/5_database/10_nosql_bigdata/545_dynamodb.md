@@ -1,6 +1,6 @@
 +++
 weight = 45
-title = "Amazon DynamoDB"
+title = "545. 시큐어 코딩 파라 파라미터 매핑 ORM 보안 내재화 방식"
 description = "AWS의 관리형 NoSQL 데이터베이스 DynamoDB의 특징에 대해 설명"
 date = 2024-01-01
 

@@ -1,6 +1,6 @@
 +++
 weight = 435
-title = "435. TLB 슛다운 (TLB Shootdown) 멀티코어 캐시의 재앙"
+title = "435. TLB 슛다운 (TLB Shootdown) - 멀티코어 환경에서 타 코어의 TLB 무효화 오버헤드"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

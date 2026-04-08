@@ -1,5 +1,5 @@
 +++
-title = "314. 다크 데이터 (Dark Data)"
+title = "314. NoSQL 모델링 전략 - 정규화가 아닌 쿼리 패턴 주도 설계 (Query-driven Modeling), 역정규화 내재화"
 weight = 4314
 +++
 

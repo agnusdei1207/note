@@ -1,5 +1,5 @@
 +++
-title = "663. ElGamal / DSA 알고리즘"
+title = "663. ElGamal 및 DSA (디지털 서명용 특화) 시스템"
 weight = 663
 +++
 # 663. ElGamal 및 DSA (디지털 서명 특화) 알고리즘

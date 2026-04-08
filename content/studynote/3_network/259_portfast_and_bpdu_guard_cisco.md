@@ -1,5 +1,5 @@
 +++
-title = "259. 포트 패스트(PortFast) / BPDU Guard"
+title = "259. 포트 패스트 (PortFast) / BPDU Guard (Cisco 확장)"
 weight = 259
 +++
 

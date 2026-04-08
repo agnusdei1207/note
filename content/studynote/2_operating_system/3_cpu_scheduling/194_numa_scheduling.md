@@ -1,6 +1,6 @@
 +++
 weight = 194
-title = "194. NUMA (Non-Uniform Memory Access) 기반 스케줄링"
+title = "194. 비대칭 다중 처리 (ASMP) 스케줄링"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

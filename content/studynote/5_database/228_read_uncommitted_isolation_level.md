@@ -1,5 +1,5 @@
 +++
-title = "228. Read Uncommitted (레벨 0)"
+title = "228. Read Uncommitted (레벨 0) - 커밋 안된 데이터 읽기 허용 (Dirty Read 발생)"
 weight = 228
 +++
 # 228. Read Uncommitted (레벨 0) - 고립화 수준 0단계 트랜잭션 커밋 안된 데이터 오손 읽기 Dirty Read 동시성 최고 무결성 최하

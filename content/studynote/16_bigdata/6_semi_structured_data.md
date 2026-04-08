@@ -1,6 +1,6 @@
 +++
 weight = 6
-title = "06. 반정형 데이터 (Semi-Structured Data)"
+title = "6. 반정형 데이터 — JSON/XML/HTML/CSV — 스키마 부분 보유"
 description = "JSON/XML/CSV 등 반정형 데이터의 구조, 파싱 메커니즘, 그리고 실무적 활용 방안"
 date = "2024-05-20"
 [taxonomies]

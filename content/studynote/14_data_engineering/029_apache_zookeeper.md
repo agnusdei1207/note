@@ -1,6 +1,6 @@
 +++
 weight = 29
-title = "029. 아파치 주키퍼 (Apache ZooKeeper)"
+title = "29. 아파치 즈쿠퍼 (Apache ZooKeeper) - 분산 클러스터 노드 상태 동기화, 분산 락, 스플릿 브레인 방지(리더 선출) 코디네이션"
 date = "2026-04-05"
 [extra]
 categories = "studynote-data-engineering"

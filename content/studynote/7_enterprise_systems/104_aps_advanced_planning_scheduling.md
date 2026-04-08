@@ -1,5 +1,5 @@
 +++
-title = "104. APS (Advanced Planning and Scheduling)"
+title = "104. APS (Advanced Planning and Scheduling) - 제약 조건 최적화 기반 고급 스케줄링 솔루션 (메모리 상 수학적 시뮬레이션)"
 weight = 104
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "261. IoT 스마트 팩토리 (Smart Factory)"
+title = "261. 파운데이션 모델 (Foundation Model) - 스탠퍼드 HAI 정의, 방대한 무라벨 데이터를 자기지도 학습하여 여러 다운스트림 태스크에 전이 가능한 거대 범용 모델"
 weight = 261
 +++
 

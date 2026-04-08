@@ -1,6 +1,6 @@
 +++
 weight = 409
-title = "409. LFU (Least Frequently Used) 알고리즘 빈도의 맹점"
+title = "409. LFU (Least Frequently Used) 알고리즘 - 참조 횟수가 가장 적은 페이지 교체"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

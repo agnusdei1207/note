@@ -1,5 +1,5 @@
 +++
-title = "730. SQL 인젝션 (Injection)"
+title = "730. APT (Advanced Persistent Threat 고도화 공격망 - 침투-탐색-수집-유출-유지 킬체인 프로세스) 내부 인트라넷 통제"
 weight = 730
 +++
 # 730. SQL 인젝션 (Injection) - Error, Blind, UNION 연산 유출 기법

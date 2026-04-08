@@ -1,5 +1,5 @@
 +++
-title = "63. 트라이 자료구조 (Trie Data Structure)"
+title = "63. 힙 (Heap) — 최대/최소 힙, 완전 이진 트리"
 weight = 63
 +++
 

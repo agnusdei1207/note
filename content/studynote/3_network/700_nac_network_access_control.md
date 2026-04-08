@@ -1,5 +1,5 @@
 +++
-title = "700. NAC (네트워크 접근 제어 시스템)"
+title = "700. NAC (Network Access Control 시스템) 내부 접근 단말기 관리 무결성 진단"
 weight = 700
 +++
 # 700. NAC (Network Access Control 시스템) 내부 단말기 관리 무결성 진단

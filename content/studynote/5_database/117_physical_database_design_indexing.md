@@ -1,5 +1,5 @@
 +++
-title = "117. 물리적 설계 (Physical Design) - 인덱스와 스토리지"
+title = "117. 물리적 설계 (Physical Design) - 인덱스, 파티셔닝, 클러스터링, 저장 구조 설계"
 weight = 117
 +++
 

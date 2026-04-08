@@ -1,5 +1,5 @@
 +++
-title = "26. 힙 (Heap) 자료구조"
+title = "26. 팀 정렬 (Timsort) — Python/Java 기본, 합병+삽입 혼합"
 weight = 26
 +++
 

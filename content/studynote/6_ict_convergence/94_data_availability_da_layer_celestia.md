@@ -1,5 +1,5 @@
 +++
-title = "94. 데이터 가용성 (DA, Data Availability) 계층"
+title = "94. 데이터 가용성 (Data Availability, DA) 계층 - 롤업 트랜잭션 데이터가 L1에 안전하게 게시되었는지 보장하는 블록체인 모듈러 분리 계층 (Celestia, EigenLayer)"
 weight = 94
 +++
 

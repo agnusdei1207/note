@@ -1,5 +1,5 @@
 +++
-title = "631. OPC UA - 스마트 팩토리 표준"
+title = "631. OPC UA - 스마트 팩토리, 산업용/제조용 디바이스 안전한 데이터 통신 확장 프로토콜 통합"
 weight = 631
 +++
 # 631. OPC UA (Open Platform Communications Unified Architecture)

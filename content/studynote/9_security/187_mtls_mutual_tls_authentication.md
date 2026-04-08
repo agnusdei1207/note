@@ -1,5 +1,5 @@
 +++
-title = "187. mTLS (Mutual TLS) 서버 클라이언트 상호 인증"
+title = "187. mTLS (Mutual TLS) — 서버+클라이언트 상호 인증"
 date = "2026-04-07"
 [extra]
 categories = "studynote-security"

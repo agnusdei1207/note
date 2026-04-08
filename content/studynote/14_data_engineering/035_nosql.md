@@ -1,6 +1,6 @@
 +++
 weight = 35
-title = "035. NoSQL (Not Only SQL) 데이터베이스 4가지 유형"
+title = "35. NoSQL (Not Only SQL) 데이터베이스 구조 유형 4가지"
 date = "2026-04-05"
 [extra]
 categories = "studynote-data-engineering"

@@ -1,6 +1,6 @@
 +++
 weight = 125
-title = "프로그램 내장 방식 (Stored Program Concept)"
+title = "125. 프로그램 내장 방식 (Stored Program Concept)"
 +++
 
 # 프로그램 내장 방식 (Stored Program Concept)

@@ -1,5 +1,5 @@
 +++
-title = "361. 소프트웨어 복잡도 측정 - 맥케이브 순환 복잡도 V(G)"
+title = "361. 소프트웨어 복잡도 측정 - 맥케이브 순환 복잡도 (McCabe's Cyclomatic Complexity, V(G) = e - n + 2)"
 date = 2026-04-05
 weight = 361
 +++

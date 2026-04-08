@@ -1,6 +1,6 @@
 +++
 weight = 484
-title = "484. RAID 0 (ìíëìí, Striping)"
+title = "484. RAID 0 (스트라이핑, Striping) - 블록 분산 저장, 성능 최고, 신뢰성 없음"
 date = "2026-03-24"
 [extra]
 categories = ["studynote-operating-system"]

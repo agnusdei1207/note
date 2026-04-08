@@ -1,5 +1,5 @@
 +++
-title = "655. 블록 암호 (Block Cipher) - DES"
+title = "655. 블록 암호 (Block Cipher) - DES (56bit 비권장), 3DES (과도기) 모델"
 weight = 655
 +++
 # 655. 블록 암호 (Block Cipher) - DES, 3DES

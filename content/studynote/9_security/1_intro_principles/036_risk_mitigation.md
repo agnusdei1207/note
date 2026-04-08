@@ -1,6 +1,6 @@
 +++
 weight = 36
-title = "036. 위험 완화 (Risk Mitigation)"
+title = "36. 위험 완화 (Risk Mitigation) — 통제措施 도입으로 위험 감소"
 date = "2026-04-05"
 [extra]
 categories = "studynote-security"

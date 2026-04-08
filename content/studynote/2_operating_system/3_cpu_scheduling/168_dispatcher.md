@@ -1,6 +1,6 @@
 +++
 weight = 168
-title = "168. 디스패처 (Dispatcher)"
+title = "168. 디스패처 (Dispatcher) - 문맥 교환 수행 모듈"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

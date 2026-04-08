@@ -1,6 +1,6 @@
 +++
 weight = 587
-title = "587. 무선 메시 네트워크 (WMN) - 데이지 체인 백홀과 자가 치유(Self-Healing) 자동화 구조"
+title = "587. 무선 메시 네트워크 (Wireless Mesh Network) - 데이지 체인 구조 연결 자동화"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

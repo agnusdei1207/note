@@ -1,6 +1,6 @@
 +++
 weight = 24
-title = "024. SDN (Software Defined Networking) - 네트워크 가상화와 제어 분리"
+title = "24. SDN (Software Defined Networking) - 제어 평면(Control Plane)과 데이터 전송 평면(Data Plane)을 분리하여 네트워크 장비를 중앙 집중식으로 프로그래밍 통제"
 date = "2026-04-02"
 [extra]
 categories = "studynote-cloud"

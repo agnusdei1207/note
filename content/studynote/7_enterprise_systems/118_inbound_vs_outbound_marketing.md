@@ -1,6 +1,6 @@
 +++
 weight = 118
-title = "118. 인바운드 마케팅 (Inbound) vs 아웃바운드 마케팅 (Outbound)"
+title = "118. 프로그래매틱 광고 (Programmatic Advertising) - RTB (실시간 입찰, Real-Time Bidding) 기반 광고 자동 구매"
 date = "2026-04-02"
 [extra]
 categories = "studynote-enterprise"

@@ -1,6 +1,6 @@
 +++
 weight = 171
-title = "171. 고정 길이 명령어 (Fixed-Length Instruction)"
+title = "171. 고정 길이 명령어"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

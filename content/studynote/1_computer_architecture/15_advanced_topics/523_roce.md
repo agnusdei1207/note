@@ -1,5 +1,5 @@
 +++
-title = "RoCE (RDMA over Converged Ethernet)"
+title = "523. RoCE (RDMA over Converged Ethernet)"
 date = 2026-03-20
 weight = 523
 description = "비싼 전용망인 인피니밴드 대신, 기존의 저렴하고 범용적인 이더넷(Ethernet) 인프라 위에서 RDMA의 초고속/저지연 성능을 구현하는 네트워크 프로토콜"

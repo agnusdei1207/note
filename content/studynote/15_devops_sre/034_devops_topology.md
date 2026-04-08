@@ -1,6 +1,6 @@
 +++
 weight = 34
-title = "034. DevOps 토폴로지 (DevOps Topology)"
+title = "34. 역 콘웨이 전략 (Inverse Conway Maneuver) - 원하는 마이크로서비스(MSA) 아키텍처 구조에 맞춰 조직 구조(스쿼드, 크로스펑셔널 팀)를 선제적으로 재편하는 전략"
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

@@ -1,6 +1,6 @@
 +++
 weight = 327
-title = "327. 실행 시간 바인딩 (Execution Time) - 실행 중 주소 변경"
+title = "327. 실행 시간 바인딩 (Execution Time) - 실행 중 주소 변경, MMU 필요 (현대 OS 기본)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

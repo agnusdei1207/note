@@ -1,5 +1,5 @@
 +++
-title = "이종 컴퓨팅 메모리 공유 (Heterogeneous Memory Sharing / hUMA)"
+title = "516. 이종 컴퓨팅 메모리 공유"
 date = 2026-03-20
 weight = 516
 description = "CPU와 GPU 등 성격이 다른 연산 장치들이 서로의 메모리를 복사하지 않고, 동일한 메모리 주소 공간을 완벽하게 공유하는 아키텍처"

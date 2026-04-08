@@ -1,6 +1,6 @@
 +++
 weight = 52
-title = "052. 위험 완화 (Risk Mitigation)"
+title = "52. 보안 통제 3가지 유형 — 관리적/기술적/물리적"
 date = "2026-04-05"
 [extra]
 categories = "studynote-security"

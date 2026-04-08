@@ -1,5 +1,5 @@
 +++
-title = "308. Static NAT / Dynamic NAT / PAT (1:N)"
+title = "308. Static NAT (1:1) / Dynamic NAT (M:N) / PAT (Port Address Translation = NAPT, 1:N)"
 weight = 308
 +++
 

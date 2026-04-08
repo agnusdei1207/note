@@ -1,6 +1,6 @@
 +++
 weight = 884
-title = "84. 컨테이너 런타임 (Container Runtime)"
+title = "884. 컨테이너 런타임 (Container Runtime)"
 description = "Container Runtime: 쿠버네티스 파드 내 컨테이너를 실제 생성, 실행, 관리하는 저수준 런타임 엔진"
 date = 2026-03-26
 

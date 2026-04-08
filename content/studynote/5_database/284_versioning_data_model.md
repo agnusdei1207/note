@@ -1,5 +1,5 @@
 +++
-title = "284. 버저닝 데이터 모델"
+title = "284. 맵리듀스 (MapReduce) - NoSQL/Hadoop의 분산 데이터 병렬 처리 프로그래밍 모델 (Map: 매핑/필터링, Reduce: 집계)"
 weight = 284
 +++
 

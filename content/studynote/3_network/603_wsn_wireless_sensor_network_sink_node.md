@@ -1,5 +1,5 @@
 +++
-title = "603. 센서 네트워크 (WSN)"
+title = "603. 센서 네트워크 (WSN, Wireless Sensor Network) / 싱크 노드 (Sink Node) 구성"
 weight = 603
 +++
 # 603. 센서 네트워크 (WSN) / 싱크 노드 구성

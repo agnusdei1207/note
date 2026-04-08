@@ -1,6 +1,6 @@
 +++
 weight = 6
-title = "06. 정전용량 (Capacitance)"
+title = "6. 정전용량 (Capacitance)"
 date = "2026-03-26"
 [extra]
 categories = "studynote-computer-architecture"

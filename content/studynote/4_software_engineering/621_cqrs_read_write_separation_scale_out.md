@@ -1,5 +1,5 @@
 +++
-title = "621. CQRS (명령 조회 책임 분리) 읽기 쓰기 분리 스케일 아웃"
+title = "621. CQRS 읽기 쓰기 분리 스케일 아웃"
 date = "2026-04-07"
 [extra]
 categories = "studynote-se"

@@ -1,6 +1,6 @@
 +++
 weight = 28
-title = "028. 플랫폼 엔지니어링 / IDP (Internal Developer Platform)"
+title = "28. 플랫폼 엔지니어링 (Platform Engineering) - 개발자의 인지 부하(Cognitive Load)를 줄이기 위해 전담 플랫폼 팀이 '내부 개발자 포털(IDP)'을 구축해 툴체인을 셀프 서비스로 제공하는 최신 DevOps 트렌드"
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

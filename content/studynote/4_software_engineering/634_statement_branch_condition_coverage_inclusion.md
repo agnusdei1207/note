@@ -1,5 +1,5 @@
 +++
-title = "634. 구문, 분기, 조건 커버리지 (Coverage) 포함 관계"
+title = "634. 구문, 분기, 조건 커버리지 포함 관계"
 date = "2026-04-07"
 [extra]
 categories = "studynote-se"

@@ -1,6 +1,6 @@
 +++
 weight = 96
-title = "96. 사용자 수준 스레드 (User-level Thread)"
+title = "96. 사용자 수준 스레드 (User-level Thread) - 스레드 라이브러리가 관리, 커널 비개입"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

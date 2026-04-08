@@ -1,5 +1,5 @@
 +++
-title = "42. 롤업 (Rollup)"
+title = "42. 롤업 (Rollup) - 수천 개의 오프체인 트랜잭션을 하나로 묶어(Rollup) L1에 검증"
 weight = 42
 +++
 

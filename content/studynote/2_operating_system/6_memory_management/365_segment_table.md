@@ -1,6 +1,6 @@
 +++
 weight = 365
-title = "365. 세그먼트 테이블 (Segment Table) 가변 크기 주소 번역"
+title = "365. 세그먼트 테이블 (Segment Table) - 기준(Base) 주소와 한계(Limit) 길이"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

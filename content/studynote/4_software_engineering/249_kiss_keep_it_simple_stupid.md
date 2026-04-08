@@ -1,5 +1,5 @@
 +++
-title = "249. KISS 원칙 (Keep It Simple, Stupid)"
+title = "249. KISS (Keep It Simple, Stupid) 원칙"
 weight = 249
 +++
 # 249. KISS (Keep It Simple, Stupid) 원칙 - 단순함 설계 소프트웨어 공학 유지보수 오버 엔지니어링 방지 클린 코드 가독성

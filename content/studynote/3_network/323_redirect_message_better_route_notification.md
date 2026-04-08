@@ -1,5 +1,5 @@
 +++
-title = "323. Redirect 메시지 (더 나은 라우터 경로 통보)"
+title = "323. Redirect 메시지 - 더 나은 라우터 경로 통보"
 weight = 323
 +++
 

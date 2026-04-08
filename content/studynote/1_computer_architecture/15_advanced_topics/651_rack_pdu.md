@@ -1,5 +1,5 @@
 +++
-title = "서버 랙 PDU (Power Distribution Unit)"
+title = "651. 서버 랙 PDU (Power Distribution Unit)"
 date = 2026-03-20
 weight = 651
 description = "데이터센터의 거대한 캐비닛(Rack) 안에 꽂혀 있는 수십 대의 서버에게 전기를 분배해주고, 지능적으로 전력 소모량을 모니터링하며 원격 제어하는 스마트 멀티탭"

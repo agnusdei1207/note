@@ -1,5 +1,5 @@
 +++
-title = "454. QUIC (멀티플렉싱, 0/1-RTT)"
+title = "454. QUIC (Quick UDP Internet Connections) - 전송 계층 혁신 (멀티플렉싱, 0-RTT/1-RTT 핸드셰이크)"
 weight = 454
 +++
 

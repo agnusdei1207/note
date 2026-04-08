@@ -1,5 +1,5 @@
 +++
-title = "293. PMTU (Path MTU Discovery) - 경로 최소 MTU"
+title = "293. PMTU (Path MTU Discovery) - 경로 최소 MTU 확인 알고리즘"
 weight = 293
 +++
 

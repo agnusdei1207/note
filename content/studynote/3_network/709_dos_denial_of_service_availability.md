@@ -1,5 +1,5 @@
 +++
-title = "709. DoS (서비스 거부 공격)"
+title = "709. DoS (Denial of Service 가용성 타격 위협 목적)"
 weight = 709
 +++
 # 709. DoS (Denial of Service) - 가용성 타격 위협 목적

@@ -1,5 +1,5 @@
 +++
-title = "121. 데이터 아키텍처 (DA) 프레임워크 - 잭맨 모델"
+title = "121. 데이터 아키텍처 (DA, Data Architecture) 프레임워크 (Zachman 등)"
 weight = 121
 +++
 

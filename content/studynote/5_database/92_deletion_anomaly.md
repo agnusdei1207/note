@@ -1,5 +1,5 @@
 +++
-title = "92. 삭제 이상 (Deletion Anomaly)"
+title = "92. 삭제 이상 (Deletion Anomaly) - 연쇄 삭제로 인해 필요한 데이터까지 소실되는 현상"
 weight = 92
 +++
 

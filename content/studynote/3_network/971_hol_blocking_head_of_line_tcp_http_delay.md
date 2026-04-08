@@ -1,5 +1,5 @@
 +++
-title = "971. HOL 블로킹"
+title = "971. 홀오브라인 블로킹 (HOL Blocking)"
 weight = 971
 +++
 # 971. 홀오브라인 블로킹 (HOL Blocking) - Head-of-Line 패킷 지연 순차 처리 TCP HTTP 병목 큐잉 문제 통신망 한계 원리

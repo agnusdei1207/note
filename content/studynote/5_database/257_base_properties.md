@@ -1,5 +1,5 @@
 +++
-title = "257. BASE 속성 (BASE Properties)"
+title = "257. BASE 속성 - Basically Available, Soft-state, Eventually consistent (NoSQL의 특성, ACID의 반대)"
 weight = 257
 +++
 

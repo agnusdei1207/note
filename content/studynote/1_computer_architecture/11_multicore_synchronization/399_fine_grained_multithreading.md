@@ -1,6 +1,6 @@
 +++
 weight = 399
-title = "399. 세밀한 멀티스레딩 (Fine-grained Multithreading)"
+title = "399. 세밀한 멀티스레딩 (Fine-grained)"
 date = "2026-03-20"
 [extra]
 categories = "studynote-computer-architecture"

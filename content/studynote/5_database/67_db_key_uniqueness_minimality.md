@@ -1,5 +1,5 @@
 +++
-title = "67. 키 (Key)의 개념 - 유일성과 최소성"
+title = "67. 키 (Key)의 개념 - 유일성(Uniqueness), 최소성(Minimality)"
 weight = 67
 +++
 

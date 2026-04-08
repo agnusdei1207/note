@@ -1,5 +1,5 @@
 +++
-title = "스택 스매싱 프로텍터 (Stack Smashing Protector, SSP / Canary)"
+title = "541. 스택 스매싱 프로텍터"
 date = 2026-03-20
 weight = 541
 description = "스택 버퍼 오버플로우 공격을 방어하기 위해 컴파일러가 스택 메모리에 임의의 검증용 값(카나리아)을 심어두고, 변조 여부를 확인하는 소프트웨어 보안 기술"

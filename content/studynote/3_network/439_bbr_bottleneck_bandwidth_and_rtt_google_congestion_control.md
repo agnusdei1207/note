@@ -1,5 +1,5 @@
 +++
-title = "439. BBR (Google, 지연시간 기반 혼잡제어)"
+title = "439. BBR (Bottleneck Bandwidth and Round-trip propagation time) - 구글, 지연시간 기반 혼잡제어"
 weight = 439
 +++
 

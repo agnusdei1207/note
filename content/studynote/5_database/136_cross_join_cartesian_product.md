@@ -1,6 +1,6 @@
 +++
 weight = 136
-title = "136. 교차 조인 (Cross Join) 및 카티션 프로덕트 (Cartesian Product)"
+title = "136. 외부 조인 (Outer Join) - 합집합 개념, 기준 테이블의 모든 행 추출 + 조인 실패 시 NULL 반환"
 date = "2026-04-02"
 [extra]
 categories = "studynote-database"

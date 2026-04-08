@@ -1,5 +1,5 @@
 +++
-title = "258. 구조 패턴 (Structural Patterns)"
+title = "258. 구조 패턴 (Structural Patterns) - 클래스/객체 조합"
 weight = 258
 +++
 # 258. 구조 패턴 (Structural Patterns) - 클래스 객체 조합 거대 구조 조립 인터페이스 설계 GoF 디자인 패턴

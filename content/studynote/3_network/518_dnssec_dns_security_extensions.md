@@ -1,5 +1,5 @@
 +++
-title = "518. DNSSEC (DNS Security Extensions)"
+title = "518. DNSSEC (DNS Security Extensions) - 데이터 무결성 검증, 캐시 포이즈닝 대응 (디지털 서명 포함)"
 weight = 518
 +++
 # 518. DNSSEC (DNS Security Extensions)

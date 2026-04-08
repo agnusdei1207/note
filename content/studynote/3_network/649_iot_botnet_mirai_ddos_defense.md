@@ -1,5 +1,5 @@
 +++
-title = "649. 홈넷/IoT 봇넷 방어 (Mirai 봇넷)"
+title = "649. 홈넷/IoT 봇넷 방어 기법 (Mirai Botnet DDOS 예방 포트 필터)"
 weight = 649
 +++
 # 649. 홈넷/IoT 봇넷 방어 기법 (Mirai Botnet DDOS 예방)

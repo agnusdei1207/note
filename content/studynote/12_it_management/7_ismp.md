@@ -1,6 +1,6 @@
 +++
 weight = 7
-title = "7. 정보시스템 마스터플랜 (ISMP, Information System Master Plan)"
+title = "7. 정보시스템 마스터플랜 (ISMP) - 특정 정보화 사업 구축을 위한 상세 실행/예산 계획"
 description = "특정 정보화 사업 구축을 위한 상세 실행 및 예산 계획"
 date = "2024-05-20"
 [taxonomies]

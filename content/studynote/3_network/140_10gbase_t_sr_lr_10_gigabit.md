@@ -1,5 +1,5 @@
 +++
-title = "140. 10GBASE-T, 10GBASE-SR (10 Gigabit Ethernet)"
+title = "140. 10GBASE-T / 10GBASE-SR / 10GBASE-LR"
 weight = 140
 +++
 

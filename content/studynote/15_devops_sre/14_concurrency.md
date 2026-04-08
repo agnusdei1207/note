@@ -1,6 +1,6 @@
 +++
 weight = 14
-title = "14. 동시성"
+title = "14. 동시성 (Concurrency) - 프로세스 모델을 통한 스케일 아웃(Scale-out) 수평 확장"
 date = "2026-04-05"
 [taxonomies]
 tags = ["Concurrency", "동시성", "12팩터", "수평 확장", "프로세스 모델"]

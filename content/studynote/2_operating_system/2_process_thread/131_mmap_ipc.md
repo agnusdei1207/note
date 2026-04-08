@@ -1,6 +1,6 @@
 +++
 weight = 131
-title = "메모리 맵 파일 IPC"
+title = "131. 메모리 맵 파일 (Memory-Mapped File, mmap) 기반 IPC"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

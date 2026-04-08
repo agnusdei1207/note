@@ -1,6 +1,6 @@
 +++
 weight = 542
-title = "542. COW (Copy-On-Write) 파일 시스템 (ZFS, Btrfs) - 원본 불멸 스냅샷"
+title = "542. COW (Copy-On-Write) 파일 시스템 (ZFS, Btrfs) - 스냅샷 및 롤백 기능 내장"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

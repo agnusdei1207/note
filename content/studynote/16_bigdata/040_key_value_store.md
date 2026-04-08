@@ -1,6 +1,6 @@
 +++
 weight = 40
-title = "40. 키-값 저장소"
+title = "40. Apache Ambari — Hadoop 클러스터 관리 GUI"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

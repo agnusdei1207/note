@@ -1,6 +1,6 @@
 +++
 weight = 608
-title = "도메인 주도의 설계 (DDD)"
+title = "608. 전략 패턴 알고리즘 교체 용이성"
 description = "DDD의 개념, 전략적 설계, 전술적 설계, Bounded Context"
 date = 2024-01-21
 

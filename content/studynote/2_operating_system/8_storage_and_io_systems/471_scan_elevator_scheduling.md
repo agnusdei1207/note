@@ -1,6 +1,6 @@
 +++
 weight = 471
-title = "471. SCAN 스케줄링 (엘리베이터 알고리즘) 상식의 승리"
+title = "471. SCAN 스케줄링 (엘리베이터 알고리즘) - 한 방향으로 이동하며 끝까지 처리 후 역방향"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

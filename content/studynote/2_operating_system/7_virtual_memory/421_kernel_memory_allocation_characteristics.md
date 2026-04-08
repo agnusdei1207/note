@@ -1,6 +1,6 @@
 +++
 weight = 421
-title = "421. 커널 메모리 할당의 특징"
+title = "421. 커널 메모리 할당의 특징 - 물리적으로 연속되어야 함 (주로 버디 시스템 + 슬랩 할당기)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

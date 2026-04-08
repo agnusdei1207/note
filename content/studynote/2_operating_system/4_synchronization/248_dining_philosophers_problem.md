@@ -1,6 +1,6 @@
 +++
 weight = 248
-title = "248. 식사하는 철학자 문제 (Dining-Philosophers Problem)"
+title = "248. 식사하는 철학자 문제 (Dining-Philosophers Problem) - 교착상태 및 기아 상태 예방"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

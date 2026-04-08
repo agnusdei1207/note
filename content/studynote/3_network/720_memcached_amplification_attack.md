@@ -1,5 +1,5 @@
 +++
-title = "720. Memcached 증폭 서버 공격"
+title = "720. Memcached 증폭 서버 공격 방어 미흡 (5만배 반사)"
 weight = 720
 +++
 # 720. Memcached 증폭 공격 (5만 배의 괴물 반사)

@@ -1,6 +1,6 @@
 +++
 weight = 30
-title = "030. 검증 세트 (Validation Set)"
+title = "30. 차원 축소 (Dimensionality Reduction) 기법"
 date = "2026-04-05"
 [extra]
 categories = "studynote-ai"

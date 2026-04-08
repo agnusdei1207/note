@@ -1,6 +1,6 @@
 +++
 weight = 91
-title = "91. Transformer/BERT (트랜스포머/양방향 인코더 표현)"
+title = "91. Apache Pulsar — Kafka 대안, 컴퓨팅/스토리지 분리, 멀티 테넌시"
 description = "Transformer의 Self-Attention 메커니즘, BERT의 사전 학습 및 파인튜닝, 자연어 처리에서의 혁신"
 date = "2026-04-05"
 [taxonomies]

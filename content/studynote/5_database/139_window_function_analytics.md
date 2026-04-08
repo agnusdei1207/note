@@ -1,6 +1,6 @@
 +++
 weight = 139
-title = "139. 윈도우 함수 (Window Function) - 데이터 분석의 마법사"
+title = "139. 셀프 조인 (Self Join) - 동일 테이블 간의 조인, 계층형 쿼리 등에 활용"
 date = "2026-04-02"
 [extra]
 categories = "studynote-database"

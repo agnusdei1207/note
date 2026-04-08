@@ -1,5 +1,5 @@
 +++
-title = "236. 상태 다이어그램 (State Machine Diagram)"
+title = "236. 상태 다이어그램 (State Machine Diagram) - 객체의 상태 변화 (동적)"
 weight = 236
 +++
 # 236. 상태 다이어그램 (State Machine Diagram) - UML 동적 다이어그램 객체 상태 변화 생명주기 전이(Transition) 이벤트 실시간 시스템 임베디드

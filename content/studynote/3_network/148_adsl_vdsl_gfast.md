@@ -1,5 +1,5 @@
 +++
-title = "148. VDSL / ADSL (Asymmetric DSL) / G.fast"
+title = "148. VDSL (Very high-bit-rate DSL) / ADSL (Asymmetric DSL) / G.fast"
 weight = 148
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 91
-title = "동기식 CDMA vs 비동기식 CDMA (WCDMA)"
+title = "91. 동기식 CDMA vs 비동기식 CDMA (WCDMA)"
 description = "CDMA 시스템에서 동기화 방식에 따른 기지국 간 동기화 여부와 WCDMA의 발전 과정 및 기술적 특징 비교 분석"
 date = 2026-03-31
 [taxonomies]

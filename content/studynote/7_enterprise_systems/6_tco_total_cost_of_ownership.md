@@ -1,6 +1,6 @@
 +++
 weight = 6
-title = "06. 총 소유 비용 (TCO, Total Cost of Ownership)"
+title = "6. 총 소유 비용 (TCO, Total Cost of Ownership) - 하드웨어/소프트웨어 구매 비용 외 운영, 유지보수, 교육 등 숨겨진 비용 전체"
 description = "IT 자산의 도입부터 폐기까지 발생하는 모든 직간접적 비용을 측정하고 관리하는 총 소유 비용 (TCO)의 아키텍처와 실무 적용 방안"
 date = "2026-03-04"
 [taxonomies]

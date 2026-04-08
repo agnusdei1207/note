@@ -1,6 +1,6 @@
 +++
 weight = 39
-title = "039. 피처 플래그 (Feature Flag)"
+title = "39. 워터-스크럼-폴 (Water-Scrum-Fall) 안티 패턴 - 개발만 스크럼으로 하고, 앞단(기획)과 뒷단(배포)은 기존 폭포수(결재) 모델을 유지해 결국 리드 타임이 줄지 않는 현상"
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

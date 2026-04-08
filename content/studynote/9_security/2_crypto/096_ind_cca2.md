@@ -1,5 +1,5 @@
 +++
-title = "096. IND-CCA2 — 강인한 암호학적 안전성"
+title = "96. IND-CCA2 — 강인한 암호학적 안전성"
 date = "2026-04-05"
 weight = 96
 [extra]

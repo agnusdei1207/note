@@ -1,6 +1,6 @@
 +++
 weight = 263
-title = "캐시 히트 / 미스 (Cache Hit / Miss)"
+title = "263. 캐시 히트 (Hit) 및 미스 (Miss)"
 +++
 
 # 캐시 히트 / 미스 (Cache Hit / Miss)

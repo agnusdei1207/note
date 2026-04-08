@@ -1,6 +1,6 @@
 +++
 weight = 134
-title = "134. 외부 조인 (Outer Join) - LEFT, RIGHT, FULL 아키텍처"
+title = "134. 동등 조인 (Equi Join) / 자연 조인 (Natural Join) - 중복 컬럼 제거"
 date = "2026-04-02"
 [extra]
 categories = "studynote-database"

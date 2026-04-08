@@ -1,5 +1,5 @@
 +++
-title = "666. 디피-헬만 (Diffie-Hellman)"
+title = "666. 디피-헬만 상호 키 교환 (Diffie-Hellman Key Exchange) 원리 및 스니핑 취약점"
 weight = 666
 +++
 # 666. 디피-헬만 (Diffie-Hellman Key Exchange) 상호 키 교환 원리

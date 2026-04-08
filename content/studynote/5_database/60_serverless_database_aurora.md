@@ -1,5 +1,5 @@
 +++
-title = "60. 서버리스 데이터베이스 (Serverless DB) - 자동 확장 아키텍처"
+title = "60. 서버리스 데이터베이스 (Serverless DB) - Amazon Aurora Serverless 등 자동 확장 아키텍처"
 weight = 60
 +++
 

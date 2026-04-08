@@ -1,6 +1,6 @@
 +++
 weight = 29
-title = "029. 정성적 위험 분석 (Qualitative Risk Analysis)"
+title = "29. 정성적 위험 분석 — High/Medium/Low 매트릭스"
 date = "2026-04-05"
 [extra]
 categories = "studynote-security"

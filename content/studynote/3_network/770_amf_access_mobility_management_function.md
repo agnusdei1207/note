@@ -1,5 +1,5 @@
 +++
-title = "770. AMF (접근/이동성 관리)"
+title = "770. AMF (Access and Mobility Management Function / MME 대체)"
 weight = 770
 +++
 # 770. AMF (Access and Mobility Management Function) - 5GC 이동성 제어

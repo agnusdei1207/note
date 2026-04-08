@@ -1,5 +1,5 @@
 +++
-title = "694. 오용 탐지 vs 이상 탐지"
+title = "694. 스노트 (Snort), Suricata (병렬 룰 지원) 와 오용 탐지(Misuse) vs 이상 탐지(Anomaly) 엔진"
 weight = 694
 +++
 # 694. 스노트 (Snort), Suricata 와 오용 탐지(Misuse) vs 이상 탐지(Anomaly) 엔진

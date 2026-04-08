@@ -1,6 +1,6 @@
 +++
 weight = 5
-title = "5. 피드백 루프 (Feedback Loop)"
+title = "5. 피드백 루프 (Feedback Loop) - 운영 환경의 이슈와 사용자 반응을 즉각적으로 개발 계획에 반영하는 순환 구조"
 description = "운영 환경의 이슈와 사용자 반응을 즉각적으로 감지하여 개발 계획에 반영하는 시스템적 순환 최적화 메커니즘"
 date = "2024-05-24"
 [taxonomies]

@@ -1,5 +1,5 @@
 +++
-title = "1095. BGP 라우팅 속성 비교"
+title = "1095. BGP 속성 (Local Pref, MED, AS-path 구성비)"
 weight = 1095
 +++
 # 1095. BGP 속성 (Local Pref, MED, AS-path) - Border Gateway Protocol 국가 간 라우팅 정책 속성 기반 길찾기 패스 벡터 트래픽 엔지니어링

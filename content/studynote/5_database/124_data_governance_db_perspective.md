@@ -1,5 +1,5 @@
 +++
-title = "124. 데이터 거버넌스 (Data Governance) - DB 관점"
+title = "124. 데이터 거버넌스 (Data Governance)"
 weight = 124
 +++
 

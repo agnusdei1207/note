@@ -1,6 +1,6 @@
 +++
 weight = 616
-title = "616. ëíìì íìì ëë (Amdahl's Law) ë ìë ë êí ìë"
+title = "616. 멀티코어 확장성 병목 (Amdahl's Law) 및 커널 락 경합 진단"
 date = "2026-03-25"
 [extra]
 categories = "studynote-operating-system"

@@ -1,5 +1,5 @@
 +++
-title = "SLA (Service Level Agreement) 하드웨어 가용성"
+title = "625. SLA (Service Level Agreement) 하드웨어 가용성"
 date = 2026-03-20
 weight = 625
 description = "클라우드 서비스나 하드웨어 공급업체가 고객에게 '우리 시스템은 1년에 몇 분 이상 죽지 않는다'고 법적으로 보장하는 가용성(Availability) 약속"

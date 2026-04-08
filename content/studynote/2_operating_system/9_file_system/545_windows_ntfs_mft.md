@@ -1,6 +1,6 @@
 +++
 weight = 545
-title = "545. 윈도우 NTFS - MFT 구조와 ACL, 압축, 암호화 생태계"
+title = "545. 윈도우 NTFS - MFT (Master File Table), 권한 제어(ACL), 파일 압축 및 암호화 지원"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

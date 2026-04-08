@@ -1,5 +1,5 @@
 +++
-title = "212. 서비스 지향 아키텍처 (SOA)"
+title = "212. 서비스 지향 아키텍처 (SOA, Service Oriented Architecture) - ESB 기반"
 weight = 212
 +++
 # 212. 서비스 지향 아키텍처 (SOA, Service Oriented Architecture) - ESB 기반 웹 서비스 컴포넌트 재사용 버스 구조 SOAP UDDI WSDL 마이크로서비스의 조상

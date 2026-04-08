@@ -1,6 +1,6 @@
 +++
 weight = 272
-title = "LFU (Least Frequently Used)"
+title = "272. LRU (Least Recently Used)"
 +++
 
 # LFU (Least Frequently Used)

@@ -1,5 +1,5 @@
 +++
-title = "27. 주활동 (Primary Activities) 상세 분석"
+title = "27. 주활동 (Inbound Logistics, Operations, Outbound Logistics, Marketing/Sales, Service)"
 weight = 27
 +++
 

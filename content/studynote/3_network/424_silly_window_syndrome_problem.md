@@ -1,5 +1,5 @@
 +++
-title = "424. 어리석은 윈도우 증후군 (Silly Window Syndrome)"
+title = "424. 어리석은 윈도우 증후군 (Silly Window Syndrome) 문제"
 weight = 424
 +++
 

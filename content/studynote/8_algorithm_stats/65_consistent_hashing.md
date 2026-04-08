@@ -1,5 +1,5 @@
 +++
-title = "65. 일관성 해시 (Consistent Hashing)"
+title = "65. 이진 탐색 트리 (BST) — O(log n) 평균, O(n) 최악"
 weight = 65
 +++
 

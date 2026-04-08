@@ -1,5 +1,5 @@
 +++
-title = "248. DRY 원칙 (Don't Repeat Yourself)"
+title = "248. DRY (Don't Repeat Yourself) 원칙"
 weight = 248
 +++
 # 248. DRY (Don't Repeat Yourself) 원칙 - 소프트웨어 중복 배제 재사용성 WET 유지보수 안티패턴 클린 코드

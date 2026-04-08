@@ -1,6 +1,6 @@
 +++
 weight = 471
-title = "HTTPS (HTTP over TLS)"
+title = "471. HTTPS (HTTP over TLS) - 기밀성, 무결성 지원 (포트 443)"
 description = "HTTP 평문 통신의 취약점을 해결하기 위해 TLS/SSL 암호화 계층을 추가하여 기밀성, 무결성, 인증을 보장하는 웹 보안 표준 프로토콜"
 date = 2026-04-03
 [taxonomies]

@@ -1,6 +1,6 @@
 +++
 weight = 180
-title = "180. 우선순위 스케줄링 (Priority Scheduling)"
+title = "180. 우선순위 스케줄링 (Priority Scheduling) - 무한 대기 문제 발생 가능"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

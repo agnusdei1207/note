@@ -1,5 +1,5 @@
 +++
-title = "629. 마이크로 그리드 / AMI 통신망"
+title = "629. 마이크로 그리드 (Microgrid) / AMI (원격검침인프라) 통신 (PLC/RF 장치) 탑재 방식"
 weight = 629
 +++
 # 629. 마이크로 그리드 (Microgrid) / AMI (원격검침인프라)

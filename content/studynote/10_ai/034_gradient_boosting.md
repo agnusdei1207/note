@@ -1,6 +1,6 @@
 +++
 weight = 34
-title = "034. 그래디언트 부스팅 (Gradient Boosting)"
+title = "34. 군집화 (Clustering) - 정답(Label) 없이 데이터의 유사도에 따라 그룹 묶기"
 date = "2026-04-05"
 [extra]
 categories = "studynote-ai"

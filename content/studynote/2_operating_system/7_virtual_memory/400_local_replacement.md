@@ -1,6 +1,6 @@
 +++
 weight = 400
-title = "400. 지역 교체 (Local Replacement) 철창 속의 돌려막기"
+title = "400. 지역 교체 (Local Replacement) - 자신의 프레임 풀 내에서만 교체"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

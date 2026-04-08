@@ -1,6 +1,6 @@
 +++
 weight = 5
-title = "05. 스키마 (Schema)"
+title = "5. 스키마 (Schema) - 데이터베이스의 논리적 구조와 제약 조건에 대한 명세"
 description = "데이터베이스의 논리적 구조와 제약 조건에 대한 명세, 메타데이터로서의 스키마 심층 분석"
 date = "2024-05-20"
 [taxonomies]

@@ -1,5 +1,5 @@
 +++
-title = "160. UWB (초광대역) 통신"
+title = "160. UWB (Ultra-Wideband / 초광대역) 통신 - 매우 짧은 임펄스(Impulse) 신호를 넒은 주파수에 걸쳐 송신, 수 센티미터 단위 정밀 위치 측정(스마트 태그, 디지털 키)"
 weight = 160
 +++
 # 160. UWB (Ultra-Wideband / 초광대역) 통신

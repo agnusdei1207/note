@@ -1,5 +1,5 @@
 +++
-title = "92. SCM (Supply Chain Management, 공급망 관리)"
+title = "92. SCM (Supply Chain Management, 공급망 관리) - 원자재 조달에서 최종 소비자 전달까지 물류, 정보, 자금의 흐름을 전체 네트워크 관점에서 최적화"
 weight = 92
 +++
 

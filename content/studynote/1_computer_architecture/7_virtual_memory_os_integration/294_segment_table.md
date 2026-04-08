@@ -1,6 +1,6 @@
 +++
 weight = 294
-title = "294. 세그먼트 테이블 (Segment Table)"
+title = "294. 세그먼트 테이블"
 date = 2024-01-01
 [taxonomies]
 categories = ["Computer Architecture"]

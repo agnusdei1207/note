@@ -1,6 +1,6 @@
 +++
 weight = 203
-title = "203. 가상 실행 시간 (vruntime)"
+title = "203. 경성 실시간 (Hard Real-time) 시스템"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

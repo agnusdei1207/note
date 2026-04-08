@@ -1,5 +1,5 @@
 +++
-title = "226. 이벤트 소싱 (Event Sourcing)"
+title = "226. 이벤트 소싱 (Event Sourcing) - 상태 변경 이력을 이벤트 스트림으로 저장"
 weight = 226
 +++
 # 226. 이벤트 소싱 (Event Sourcing) - 상태 변경 이력 이벤트 스트림 저장 CQRS 연계 마이크로서비스 동기화 불변 데이터 데이터베이스 복원

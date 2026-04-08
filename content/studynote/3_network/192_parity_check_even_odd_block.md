@@ -1,5 +1,5 @@
 +++
-title = "192. 패리티 검사 (Parity Check)"
+title = "192. 패리티 검사 (Parity Check) - 홀수/짝수, 단방향/이차원(블록) 패리티"
 weight = 192
 +++
 

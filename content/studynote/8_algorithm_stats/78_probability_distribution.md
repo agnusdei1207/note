@@ -1,6 +1,6 @@
 +++
 weight = 78
-title = "78. 확률 분포"
+title = "78. 서픽스 트리 (Suffix Tree) / 서픽스 배열 (Suffix Array)"
 description = "이항분포, 포아송분포, 정규분포, 지수분포, 균등분포의 정의와 실무 활용"
 date = "2024-05-20"
 [taxonomies]

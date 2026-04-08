@@ -1,6 +1,6 @@
 +++
 weight = 513
-title = "속성 (Attribute)"
+title = "513. 트리 구조 CTE (Common Table Expression) WITH 절 재귀"
 description = "ER 모델에서 속성의 정의와 유형"
 date = 2026-03-26
 

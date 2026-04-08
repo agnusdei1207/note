@@ -1,5 +1,5 @@
 +++
-title = "389. 리버스 엔지니어링 (Reverse Engineering)"
+title = "389. 리버스 엔지니어링 (Reverse Engineering) 툴을 통한 난독화 코드 분석"
 date = 2026-04-05
 weight = 389
 +++

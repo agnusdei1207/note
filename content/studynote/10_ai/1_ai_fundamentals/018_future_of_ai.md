@@ -1,6 +1,6 @@
 +++
 weight = 18
-title = "인공지능의 미래"
+title = "18. 허용적 휴리스틱 (Admissible Heuristic) - A*가 최적해를 보장하기 위한 조건, h(n)이 실제 목표까지의 비용을 과대평가하지 않아야 함"
 description = "인공지능의 미래 발전 방향, AGI 가능성, 슈퍼 인텔리전스, 기술 특이점"
 category = "10_ai"
 +++

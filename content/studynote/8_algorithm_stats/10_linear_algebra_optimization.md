@@ -1,6 +1,6 @@
 +++
 weight = 10
-title = "10. 선형대수 및 최적화 (Linear Algebra & Optimization)"
+title = "10. 백트래킹 (Backtracking) — 가지치기"
 description = "머신러닝과 시스템 최적화의 수학적 기반인 행렬 연산과 차원 축소, 볼록 최적화"
 date = "2024-05-20"
 [taxonomies]

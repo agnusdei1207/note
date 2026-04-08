@@ -1,6 +1,6 @@
 +++
 weight = 28
-title = "028. L1/L2 정규화 (Ridge, Lasso)"
+title = "28. 오캄의 면도날 (Occam's Razor) 원칙 - 같은 성능이면 구조가 단순한 모델이 낫다."
 date = "2026-04-05"
 [extra]
 categories = "studynote-ai"

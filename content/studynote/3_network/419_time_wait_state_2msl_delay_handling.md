@@ -1,5 +1,5 @@
 +++
-title = "419. TIME_WAIT 상태 (기본 2MSL 대기)"
+title = "419. TIME_WAIT 상태 (기본 2MSL 대기) - 지연 패킷 수신 및 정상 종료 보장"
 weight = 419
 +++
 

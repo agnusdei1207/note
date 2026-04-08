@@ -1,6 +1,6 @@
 +++
 weight = 614
-title = "CQRS 패턴"
+title = "614. 바운디드 컨텍스트 마이크로서비스 식별 기준"
 description = "CQRS(Command Query Responsibility Segregation)의 개념과 활용"
 date = 2024-01-27
 

@@ -1,5 +1,5 @@
 +++
-title = "59. 마이크로 세그멘테이션 (Micro-segmentation) 및 동서 트래픽 제어"
+title = "59. 마이크로 세그멘테이션 (Micro-segmentation) - VM 또는 컨테이너(Pod) 단위로 방화벽 룰을 세밀하게 적용하여 동서(East-West) 트래픽 횡적 이동 차단"
 date = "2026-04-07"
 [extra]
 categories = "studynote-cloud"

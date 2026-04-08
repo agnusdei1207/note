@@ -1,5 +1,5 @@
 +++
-title = "76. K8s 마스터 노드 컨트롤 플레인 컴포넌트"
+title = "76. K8s 마스터 노드 컴포넌트 4가지"
 date = "2026-04-07"
 [extra]
 categories = "studynote-cloud"

@@ -1,6 +1,6 @@
 +++
 weight = 84
-title = "84. 모델 선택 (Model Selection)"
+title = "84. Apache Kafka — 내구성 있는 메시지 큐, 스트리밍 기반"
 description = "모델 선택의 개념, 다양한 모델 유형 비교, 평가 지표 기반 선택 방법, Bias-Variance 트레이드오프"
 date = "2026-04-05"
 [taxonomies]

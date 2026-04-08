@@ -1,5 +1,5 @@
 +++
-title = "하이퍼바이저 트랩 (Hypervisor Trap)"
+title = "530. 하이퍼바이저 트랩"
 date = 2026-03-20
 weight = 530
 description = "가상 머신(Guest OS)이 시스템을 통제할 수 있는 특권 명령어를 실행하려 할 때, 이를 가로채어 하이퍼바이저로 제어권을 넘기는 메커니즘"

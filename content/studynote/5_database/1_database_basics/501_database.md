@@ -1,6 +1,6 @@
 +++
 weight = 501
-title = "데이터베이스 (Database)"
+title = "501. 스토리지 컴퓨팅 분리 클라우드 네이티브 DW 특장점"
 description = "데이터베이스의 정의, 구성 요소, 필요성"
 date = 2026-03-26
 

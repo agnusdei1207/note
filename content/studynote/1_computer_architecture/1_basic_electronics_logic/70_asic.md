@@ -1,6 +1,6 @@
 +++
 weight = 70
-title = "70. ASIC (Application Specific Integrated Circuit, 주문형 반도체)"
+title = "70. ASIC (주문형 반도체)"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

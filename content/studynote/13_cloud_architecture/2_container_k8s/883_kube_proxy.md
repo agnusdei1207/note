@@ -1,6 +1,6 @@
 +++
 weight = 883
-title = "83. Kube-proxy"
+title = "883. Kube-proxy"
 description = "Kube-proxy: 쿠버네티스 워커 노드에서 서비스의ClusterIP로 들어오는 트래픽을 실제 백엔드 파드로 분산시키는 네트워크 프록시"
 date = 2026-03-26
 

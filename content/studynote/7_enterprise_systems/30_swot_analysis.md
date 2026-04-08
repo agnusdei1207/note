@@ -1,5 +1,5 @@
 +++
-title = "30. SWOT 분석 - 강점, 약점, 기회, 위협 및 교차 전략"
+title = "30. SWOT 분석 - 강점(Strength), 약점(Weakness), 기회(Opportunity), 위협(Threat) 교차 분석(SO, ST, WO, WT 전략)"
 weight = 30
 +++
 

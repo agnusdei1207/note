@@ -1,5 +1,5 @@
 +++
-title = "SRAM PUF (Physical Unclonable Function)"
+title = "788. SRAM PUF (Physical Unclonable Function)"
 date = 2026-03-20
 weight = 788
 description = "반도체 제조 과정에서 발생하는 미세한 공정 편차를 이용해, 전원이 켜질 때마다 칩 고유의 예측 불가능한 암호 키(디지털 지문)를 스스로 만들어내는 하드웨어 보안 기술"

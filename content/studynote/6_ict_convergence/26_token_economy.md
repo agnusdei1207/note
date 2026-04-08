@@ -1,5 +1,5 @@
 +++
-title = "26. 토큰 이코노미 (Token Economy) - 인센티브 보상 구조"
+title = "26. 토큰 이코노미 (Token Economy) - 블록체인 생태계 내의 인센티브 보상 구조"
 weight = 26
 +++
 

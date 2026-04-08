@@ -1,5 +1,5 @@
 +++
-title = "키-밸류 스토리지 (KV-SSD, Key-Value SSD)"
+title = "594. 키-밸류 스토리지 (KV-SSD)"
 date = 2026-03-20
 weight = 594
 description = "블록(Block)이라는 낡은 저장 단위를 버리고, 데이터베이스처럼 키(이름)와 밸류(내용) 쌍으로 데이터를 직접 하드웨어에 저장하는 혁신적인 SSD 아키텍처"

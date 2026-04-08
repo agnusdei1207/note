@@ -1,6 +1,6 @@
 +++
 weight = 51
-title = "51. 데이터 메시 (Data Mesh)"
+title = "51. Apache Spark — 인메모리 분산 처리, MapReduce 대비 최대 100배 빠름"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

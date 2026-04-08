@@ -1,5 +1,5 @@
 +++
-title = "111. 정규화의 역설과 반정규화 (De-normalization)"
+title = "111. 정규화의 역설 / 성능 저하 - 과도한 분해 시 조인(Join) 오버헤드 증가"
 weight = 111
 +++
 

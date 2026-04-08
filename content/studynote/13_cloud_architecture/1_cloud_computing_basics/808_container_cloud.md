@@ -1,6 +1,6 @@
 +++
 weight = 808
-title = "컨테이너와 클라우드 네이티브 (Container & Cloud-Native)"
+title = "808. 컨테이너와 클라우드 네이티브 (Container & Cloud-Native)"
 description = "컨테이너 기술과 클라우드 네이티브 아키텍처의 정의,Docker와Kubernetes"
 date = 2026-03-26
 

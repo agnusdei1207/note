@@ -1,6 +1,6 @@
 +++
 weight = 43
-title = "43. B8ZS / HDB3 (Scrambling, 스크램블링)"
+title = "43. B8ZS (Bipolar with 8-Zero Substitution) / HDB3 (High-Density Bipolar 3 zeros)"
 date = "2026-03-30"
 [extra]
 categories = ["studynote", "Network"]

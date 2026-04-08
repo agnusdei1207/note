@@ -1,5 +1,5 @@
 +++
-title = "179. 파티셔닝 (Partitioning)"
+title = "179. 파티셔닝 (Partitioning) - 대용량 테이블 물리적 분할 관리 기법"
 weight = 179
 +++
 # 179. 파티셔닝 (Partitioning) - 대용량 테이블 분할

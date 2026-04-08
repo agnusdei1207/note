@@ -1,5 +1,5 @@
 +++
-title = "246. 데이터베이스 교착 상태 (Deadlock)"
+title = "246. 데이터베이스 교착 상태 (Deadlock) 처리 기법 - Wait-Die, Wound-Wait (타임스탬프 선점/비선점 기반 예방)"
 weight = 246
 +++
 # 246. 데이터베이스 교착 상태 (Deadlock) 처리 기법 - Wait-Die Wound-Wait 타임스탬프 선점 비선점 트랜잭션 동시성 제어 예방

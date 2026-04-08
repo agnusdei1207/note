@@ -1,6 +1,6 @@
 +++
 weight = 7
-title = "07. 정보시스템 마스터플랜 (ISMP: Information System Master Plan)"
+title = "7. 정보시스템 마스터플랜 (ISMP) - 특정 정보화 사업 구축을 위한 상세 실행/예산 계획"
 description = "정보화 전략 계획에서 도출된 전략적 방향을 바탕으로 시스템 개발 우선순위와 일정을 구체화한 정보시스템 마스터플랜"
 date = "2026-04-05"
 [taxonomies]

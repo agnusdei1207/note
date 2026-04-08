@@ -1,5 +1,5 @@
 +++
-title = "61. CBDC (중앙은행 디지털 화폐) - 소매형 vs 도매형"
+title = "61. CBDC (Central Bank Digital Currency) - 중앙은행이 직접 발행하는 디지털 화폐 (소매형 vs 도매형)"
 weight = 61
 +++
 

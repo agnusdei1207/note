@@ -1,6 +1,6 @@
 +++
 weight = 39
-title = "039. 디자인 씽킹 - 사용자 중심 혁신을 위한 공감과 실험의 方法論"
+title = "39. OKR (Objectives and Key Results) - 인텔/구글 방식, 야심찬 목표(O)와 측정 가능한 핵심 결과(KR)로 구성된 성과 관리"
 date = "2026-04-05"
 [extra]
 categories = "studynote-it-management"

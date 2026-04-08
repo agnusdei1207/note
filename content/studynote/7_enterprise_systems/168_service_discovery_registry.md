@@ -1,5 +1,5 @@
 +++
-title = "168. 서비스 디스커버리 (Service Discovery)"
+title = "168. 서비스 디스커버리 (Service Discovery) - 오토스케일링으로 동적 변경되는 컨테이너(Pod)의 IP/Port 위치를 자동 등록하고 조회하는 레지스트리 (Eureka, Consul)"
 weight = 168
 +++
 # 168. 서비스 디스커버리 (Service Discovery)

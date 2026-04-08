@@ -1,5 +1,5 @@
 +++
-title = "525. DHCP Lease (임대)와 갱신 타이머"
+title = "525. DHCP Lease (임대 시간) / DHCP 갱신 (T1/T2 타이머)"
 weight = 525
 +++
 # 525. DHCP Lease (임대 시간) / DHCP 갱신 (T1/T2 타이머)

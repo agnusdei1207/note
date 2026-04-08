@@ -1,6 +1,6 @@
 +++
 weight = 359
-title = "359. TLB 적중률 (Hit Ratio)과 실질 메모리 접근 시간 (EAT)"
+title = "359. TLB 적중률 (Hit Ratio) / 실질 메모리 접근 시간 (EAT, Effective Access Time)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

@@ -1,5 +1,5 @@
 +++
-title = "65. 섀도우 데이터 (Shadow Data) / 섀도우 IT"
+title = "65. 섀도우 데이터 (Shadow Data) - 통제받지 않은 클라우드 내 산재된 기업 민감 데이터"
 weight = 65
 +++
 

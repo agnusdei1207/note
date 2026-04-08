@@ -1,5 +1,5 @@
 +++
-title = "212. 리호스트 (Rehost / Lift and Shift)"
+title = "212. 리호스트 (Rehost / Lift and Shift) - 온프레미스 앱을 변경 없이 그대로 VM으로 마이그레이션"
 weight = 212
 +++
 # 212. 리호스트 (Rehost / Lift and Shift) - 클라우드 마이그레이션 IaaS 가상 머신(VM) 온프레미스 무변경 이관 클라우드 최적화 실패 6R 전략

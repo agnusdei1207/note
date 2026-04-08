@@ -1,6 +1,6 @@
 +++
 weight = 473
-title = "473. LOOK 및 C-LOOK 바보 엘리베이터에 눈을 달다"
+title = "473. LOOK 및 C-LOOK - 양 끝까지 가지 않고 마지막 요청까지만 이동 후 턴 (SCAN/C-SCAN 최적화)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

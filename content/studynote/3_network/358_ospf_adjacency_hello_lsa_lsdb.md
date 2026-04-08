@@ -1,5 +1,5 @@
 +++
-title = "358. OSPF 인접성, Hello 패킷, LSA, LSDB"
+title = "358. OSPF 인접성(Adjacency), Hello 패킷, LSA (Link State Advertisement), LSDB 교환"
 weight = 358
 +++
 

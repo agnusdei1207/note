@@ -1,5 +1,5 @@
 +++
-title = "193. 검사합 (Checksum) - 1의 보수 합"
+title = "193. 검사합 (Checksum) - 1의 보수 합 검사 (IP/TCP/UDP 헤더에 주로 사용)"
 weight = 193
 +++
 

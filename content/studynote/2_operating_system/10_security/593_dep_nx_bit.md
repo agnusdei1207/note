@@ -1,6 +1,6 @@
 +++
 weight = 593
-title = "593. 데이터 실행 방지 (DEP) 및 NX Bit"
+title = "593. 버퍼 오버플로우 방어 하드웨어 기술 (NX Bit / Data Execution Prevention, DEP)"
 date = "2026-03-25"
 [extra]
 categories = "studynote-operating-system"

@@ -1,6 +1,6 @@
 +++
 weight = 613
-title = "서비스 메시"
+title = "613. 도메인 주도 설계 (DDD) 기본 구성 (엔티티, VO, 리포지토리)"
 description = "서비스 메시(Service Mesh)의 개념, Istio, Linkerd, 사이드카 패턴"
 date = 2024-01-26
 

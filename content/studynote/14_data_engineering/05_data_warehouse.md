@@ -1,6 +1,6 @@
 +++
 weight = 5
-title = "05. 데이터 웨어하우스 (DW, Data Warehouse)"
+title = "5. 데이터 웨어하우스 (DW, Data Warehouse) - 전사적 관점의 비즈니스 인텔리전스(BI)를 위한 통합/주제별/시계열 데이터 저장소 (Inmon 모델)"
 description = "전사적 비즈니스 인텔리전스(BI)를 위한 통합/주제별/시계열적/비휘발성 데이터 저장소의 아키텍처와 Inmon/Kimball 모델"
 date = "2024-05-24"
 [taxonomies]

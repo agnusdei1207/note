@@ -1,5 +1,5 @@
 +++
-title = "192. 전가상화와 반가상화"
+title = "192. 전가상화 (Full Virtualization) vs 반가상화 (Para-virtualization)"
 weight = 192
 +++
 # 192. 전가상화 (Full Virtualization) vs 반가상화 (Para-virtualization) - 하이퍼바이저 OS 수정 여부 트랩 앤 에뮬레이트 하이퍼콜 오버헤드 클라우드 아키텍처

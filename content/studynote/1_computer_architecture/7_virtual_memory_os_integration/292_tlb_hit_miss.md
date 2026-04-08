@@ -1,6 +1,6 @@
 +++
 weight = 292
-title = "292. TLB 히트 및 미스 (TLB Hit & Miss)"
+title = "292. TLB 히트 및 미스"
 date = 2024-01-01
 [taxonomies]
 categories = ["Computer Architecture"]

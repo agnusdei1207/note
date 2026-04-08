@@ -1,5 +1,5 @@
 +++
-title = "338. HOLAP (Hybrid OLAP)"
+title = "338. HOLAP (Hybrid OLAP) - MOLAP의 속도 + ROLAP의 대용량 처리 결합"
 weight = 4338
 +++
 

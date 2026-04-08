@@ -1,6 +1,6 @@
 +++
 weight = 404
-title = "404. FIFO (First-In, First-Out) 교체 맹목적인 시간의 저주"
+title = "404. FIFO (First-In, First-Out) 교체 - 가장 먼저 들어온 페이지 교체 (벨라디 모순 발생)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

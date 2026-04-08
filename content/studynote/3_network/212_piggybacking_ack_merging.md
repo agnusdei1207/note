@@ -1,5 +1,5 @@
 +++
-title = "212. 피기배킹 (Piggybacking) - ACK 업어 타기"
+title = "212. 피기배킹 (Piggybacking) - 데이터 프레임에 ACK 병합"
 weight = 212
 +++
 

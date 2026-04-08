@@ -1,6 +1,6 @@
 +++
 weight = 30
-title = "030. 파괴적 혁신 - 혁신의 격변으로 인한 산업 재편의 과학"
+title = "30. 파괴적 혁신 (Disruptive Innovation) - 로우엔드 시장에서 출발해 주류 시장을 파괴하는 크리스텐슨 교수의 혁신 이론"
 date = "2026-04-05"
 [extra]
 categories = "studynote-it-management"

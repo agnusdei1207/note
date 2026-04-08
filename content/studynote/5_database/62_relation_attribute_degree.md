@@ -1,5 +1,5 @@
 +++
-title = "62. 속성 (Attribute / Column / Degree)"
+title = "62. 속성 (Attribute / Column / Degree) - 릴레이션의 열 (차수)"
 weight = 62
 +++
 

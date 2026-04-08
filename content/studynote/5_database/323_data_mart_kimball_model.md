@@ -1,5 +1,5 @@
 +++
-title = "323. 데이터 마트 Data Mart 소규모 DW Kimball 모델"
+title = "323. 데이터 마트 (Data Mart) - 특정 부서/조직 중심의 소규모 DW (Kimball 모델 - 상향식)"
 date = "2026-04-07"
 [extra]
 categories = "studynote-database"

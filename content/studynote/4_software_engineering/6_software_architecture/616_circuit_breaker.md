@@ -1,6 +1,6 @@
 +++
 weight = 16
-title = "서킷 브레이커 패턴"
+title = "616. 마이크로서비스 API 게이트웨이 인증 통합"
 description = "서킷 브레이커(Circuit Breaker) 패턴의 개념, 폴백, 상태 관리"
 date = 2024-01-29
 

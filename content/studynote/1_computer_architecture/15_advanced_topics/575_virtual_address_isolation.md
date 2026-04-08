@@ -1,5 +1,5 @@
 +++
-title = "가상 주소 공간 분리 (Virtual Address Space Isolation)"
+title = "575. 가상 주소 공간 분리"
 date = 2026-03-20
 weight = 575
 description = "각각의 프로세스가 자신만의 독립된 거대한 메모리 공간을 독점하고 있다고 착각하게 만들며, 다른 프로세스의 해킹이나 충돌을 원천 차단하는 현대 OS의 핵심 보안 기술"

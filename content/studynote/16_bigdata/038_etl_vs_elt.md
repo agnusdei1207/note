@@ -1,6 +1,6 @@
 +++
 weight = 38
-title = "38. ETL vs ELT"
+title = "38. Apache Oozie — Hadoop 워크플로우/코디네이터 스케줄러"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

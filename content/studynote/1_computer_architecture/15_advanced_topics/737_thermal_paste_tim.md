@@ -1,5 +1,5 @@
 +++
-title = "서멀 페이스트 (TIM, Thermal Interface Material)"
+title = "737. 서멀 페이스트 (TIM)"
 date = 2026-03-20
 weight = 737
 description = "현미경으로 보면 울퉁불퉁한 CPU 뚜껑과 쿨러 바닥 사이의 미세한 빈틈을 메워, 열을 차단하는 '공기'를 몰아내고 열전도율을 극대화하는 마법의 회색 연고"

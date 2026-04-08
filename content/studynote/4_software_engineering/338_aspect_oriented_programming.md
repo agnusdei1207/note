@@ -1,5 +1,5 @@
 +++
-title = "338. 관점 지향 프로그래밍 (AOP, Aspect Oriented Programming) - 횡단 관심사 (Cross-cutting Concern) 분리"
+title = "338. 관점 지향 프로그래밍 (AOP, Aspect Oriented Programming) - 횡단 관심사(Cross-cutting Concern) 분리"
 date = 2026-04-05
 weight = 338
 +++

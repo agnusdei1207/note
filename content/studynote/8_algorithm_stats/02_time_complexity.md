@@ -1,5 +1,5 @@
 +++
-title = "02. 시간 복잡도 (Time Complexity)"
+title = "2. 시간 복잡도 (Time Complexity) — Big-O / Ω / Θ 표기법"
 weight = 2
 +++
 

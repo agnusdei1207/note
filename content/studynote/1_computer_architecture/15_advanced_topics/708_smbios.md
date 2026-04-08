@@ -1,5 +1,5 @@
 +++
-title = "SMBIOS (System Management BIOS)"
+title = "708. SMBIOS (System Management BIOS)"
 date = 2026-03-20
 weight = 708
 description = "운영체제(OS)가 컴퓨터를 뜯어보지 않고도 내부에 어떤 CPU, 어떤 램, 어떤 메인보드가 꽂혀 있는지 상세한 스펙을 읽어올 수 있게 해주는 하드웨어 스펙 명세서 표준"

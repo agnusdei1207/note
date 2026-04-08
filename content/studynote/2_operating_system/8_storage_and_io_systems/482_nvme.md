@@ -1,6 +1,6 @@
 +++
 weight = 482
-title = "482. NVMe (Non-Volatile Memory Express)"
+title = "482. NVMe (Non-Volatile Memory Express) - PCIe 버스 기반 고속 플래시 프로토콜 (다중/깊은 큐 지원)"
 date = "2026-03-24"
 [extra]
 categories = ["studynote-operating-system"]

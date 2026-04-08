@@ -1,5 +1,5 @@
 +++
-title = "305. 슈퍼네팅 (Supernetting) / 경로 요약"
+title = "305. 슈퍼네팅 (Supernetting) / 경로 요약 (Route Summarization)"
 weight = 305
 +++
 

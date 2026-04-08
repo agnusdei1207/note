@@ -1,5 +1,5 @@
 +++
-title = "07. 동적 프로그래밍 (Dynamic Programming)"
+title = "7. 동적 프로그래밍 (Dynamic Programming) — 최적 부분구조 + 중복 부분 문제"
 weight = 7
 +++
 

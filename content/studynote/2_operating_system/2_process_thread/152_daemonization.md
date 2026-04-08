@@ -1,6 +1,6 @@
 +++
 weight = 152
-title = "데몬화 절차"
+title = "152. 데몬화 (Daemonization) 절차 - fork, setsid, umask, 파일 디스크립터 닫기"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

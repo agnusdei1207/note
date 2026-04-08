@@ -1,6 +1,6 @@
 +++
 weight = 702
-title = "캡슐화"
+title = "702. PWA (Progressive Web App) 오프라인 워커"
 description = "캡슐화의 개념, 정보 은닉, 접근 제어자"
 date = 2024-02-04
 

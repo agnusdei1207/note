@@ -1,6 +1,6 @@
 +++
 weight = 65
-title = "65. 사이드카 패턴"
+title = "65. 도커 (Docker) - 컨테이너 기술을 대중화시킨 오픈소스 플랫폼"
 date = "2026-04-05"
 [taxonomies]
 tags = ["Cloud", "Kubernetes", "Sidecar", "Pattern", "Architecture"]

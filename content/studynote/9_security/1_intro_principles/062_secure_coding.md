@@ -1,5 +1,5 @@
 +++
-title = "062. Secure Coding — 안전한 소프트웨어 개발"
+title = "62. Secure Coding — 안전한 소프트웨어 개발"
 date = "2026-04-05"
 weight = 62
 [extra]

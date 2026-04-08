@@ -1,5 +1,5 @@
 +++
-title = "62. 보이어-무어 알고리즘 (Boyer-Moore Algorithm)"
+title = "62. 우선순위 큐 (Priority Queue) — 힙 기반 구현"
 weight = 62
 +++
 

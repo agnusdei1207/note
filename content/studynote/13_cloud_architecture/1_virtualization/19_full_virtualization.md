@@ -1,6 +1,6 @@
 +++
 weight = 19
-title = "19. 전가상화 (Full Virtualization)"
+title = "19. 전가상화 (Full Virtualization) - 하드웨어 전체를 에뮬레이션, Guest OS 수정 없이 그대로 구동 (Binary Translation 방식 등, 속도 저하)"
 description = "하드웨어를 완벽히 에뮬레이션하여 수정되지 않은 게스트 OS를 그대로 구동하는 전가상화 아키텍처와 트랩 앤 에뮬레이션의 비밀"
 date = "2024-05-20"
 [taxonomies]

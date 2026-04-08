@@ -1,6 +1,6 @@
 +++
 weight = 286
-title = "286. 순환 대기 (Circular Wait)"
+title = "286. 순환 대기 (Circular Wait) - 대기 그래프가 사이클(Cycle)을 형성"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

@@ -1,5 +1,5 @@
 +++
-title = "418. 화이트박스 테스트 (White-box Test / 구조 기반 테스트)"
+title = "418. 페어와이즈 테스팅 (Pairwise Testing) - 변수 값들의 모든 쌍(Pair) 조합이 최소 한 번 테스트되도록 최적화 (조합 폭발 방지)"
 date = 2026-04-05
 weight = 418
 +++

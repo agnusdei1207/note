@@ -1,5 +1,5 @@
 +++
-title = "941. 샤논-하틀리 정리"
+title = "941. 샤논-하틀리(Shannon-Hartley)"
 weight = 941
 +++
 # 941. 샤논-하틀리(Shannon-Hartley) 법칙 - 채널 용량 잡음 신호비 C=B*log2(1+S/N) 통신망 극한 속도 데이터 처리 한계 통신 이론

@@ -1,5 +1,5 @@
 +++
-title = "84. 확장형 ERP (Extended ERP / ERP II)"
+title = "84. 확장형 ERP (Extended ERP) - 외부 공급망(SCM) 및 고객(CRM)까지 통합 연계 (ERP II)"
 weight = 84
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 134
-title = "D-Bus"
+title = "134. D-Bus (Desktop Bus) - 리눅스 데스크톱 환경 IPC"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

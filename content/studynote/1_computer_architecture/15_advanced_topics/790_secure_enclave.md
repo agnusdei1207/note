@@ -1,6 +1,6 @@
 +++
 weight = 790
-title = "보안 엔클레이브 (Secure Enclave)"
+title = "790. 보안 엔클레이브 (Secure Enclave)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-computer-architecture"

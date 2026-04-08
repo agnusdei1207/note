@@ -1,5 +1,5 @@
 +++
-title = "103. 센서 네트워크 (WSN) / 싱크 노드(Sink Node)"
+title = "103. 센서 네트워크 (WSN, Wireless Sensor Network) / 싱크 노드(Sink Node)"
 weight = 103
 +++
 

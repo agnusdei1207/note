@@ -1,5 +1,5 @@
 +++
-title = "50. 보팅 (Voting) 앙상블 다수결 하드 소프트"
+title = "50. 보팅 (Voting) - 다수결 (Hard Voting) 및 확률 평균 (Soft Voting)"
 date = "2026-04-07"
 [extra]
 categories = "studynote-ai"

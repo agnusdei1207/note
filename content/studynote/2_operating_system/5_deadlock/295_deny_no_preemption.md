@@ -1,6 +1,6 @@
 +++
 weight = 295
-title = "295. 비선점 부정 - 보유 자원 강제 반납"
+title = "295. 비선점 부정 - 자원 요청 대기 시 보유 자원 강제 반납"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

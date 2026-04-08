@@ -1,6 +1,6 @@
 +++
 weight = 25
-title = "025. 스파크 RDD (Resilient Distributed Dataset) - 인메모리 분산 데이터셋"
+title = "25. 아파치 카프카 (Apache Kafka) - 분산 이벤트 스트리밍 플랫폼 (Pub/Sub 메시지 큐), 고성능 로그 파이프라인"
 date = "2026-04-02"
 [extra]
 categories = "studynote-data-engineering"

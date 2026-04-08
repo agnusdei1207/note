@@ -1,5 +1,5 @@
 +++
-title = "323. 데이터옵스 (DataOps)"
+title = "323. 데이터 마트 (Data Mart) - 특정 부서/조직 중심의 소규모 DW (Kimball 모델 - 상향식)"
 weight = 4323
 +++
 

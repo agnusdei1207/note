@@ -1,5 +1,5 @@
 +++
-title = "555. 이벤트 소싱 (Event Sourcing) - CRUD 대신 상태 변경 이력(Event) 자체를 추가 저장"
+title = "555. 이벤트 소싱 (Event Sourcing) - CRUD 대신 상태 변경 이력(Event) 자체를 추가(Append-only) 저장"
 +++
 
 # 555. 이벤트 소싱 (Event Sourcing) - CRUD 대신 상태 변경 이력(Event) 자체를 추가(Append-only) 저장

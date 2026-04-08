@@ -1,5 +1,5 @@
 +++
-title = "112. 분산 추적 (Distributed Tracing)"
+title = "112. 분산 추적 (Distributed Tracing) - 마이크로서비스 간 호출 추적"
 weight = 112
 +++
 

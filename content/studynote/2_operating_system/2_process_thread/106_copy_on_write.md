@@ -1,6 +1,6 @@
 +++
 weight = 106
-title = "Copy-on-Write (COW)"
+title = "106. Copy-on-Write (COW) - fork() 최적화 기법"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

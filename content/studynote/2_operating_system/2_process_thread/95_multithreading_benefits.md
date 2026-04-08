@@ -1,6 +1,6 @@
 +++
 weight = 95
-title = "95. 다중 스레드 (Multithreading)의 장점"
+title = "95. 다중 스레드 (Multithreading)의 장점 - 응답성, 자원 공유, 경제성, 다중 처리기 활용"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

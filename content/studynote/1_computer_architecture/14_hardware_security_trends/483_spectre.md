@@ -1,6 +1,6 @@
 +++
 weight = 483
-title = "483. Spectre (스펙터) 취약점"
+title = "483. 스펙터 (Spectre)"
 date = "2026-03-20"
 [extra]
 categories = "studynote-computer-architecture"

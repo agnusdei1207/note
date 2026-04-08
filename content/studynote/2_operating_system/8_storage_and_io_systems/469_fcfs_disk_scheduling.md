@@ -1,6 +1,6 @@
 +++
 weight = 469
-title = "469. FCFS (First-Come, First-Served) 스케줄링 무지성 줄서기"
+title = "469. FCFS (First-Come, First-Served) 스케줄링"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

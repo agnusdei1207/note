@@ -1,6 +1,6 @@
 +++
 weight = 77
-title = "77. 기수 (Radix / Base)"
+title = "77. 기수 (Radix)"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

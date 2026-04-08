@@ -1,5 +1,5 @@
 +++
-title = "107. 다치 종속성 (MVD, Multi-Valued Dependency)"
+title = "107. 다치 종속성 (MVD, Multi-Valued Dependency) - X->>Y"
 weight = 107
 +++
 

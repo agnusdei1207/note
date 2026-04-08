@@ -1,5 +1,5 @@
 +++
-title = "344. AS (Autonomous System, 자율 시스템)"
+title = "344. AS (Autonomous System, 자율 시스템) / ASN 분배"
 weight = 344
 +++
 

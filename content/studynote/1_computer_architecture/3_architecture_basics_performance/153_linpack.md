@@ -1,6 +1,6 @@
 +++
 weight = 153
-title = "153. 린팩 (Linpack)"
+title = "153. Linpack"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

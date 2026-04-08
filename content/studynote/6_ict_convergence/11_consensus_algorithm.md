@@ -1,6 +1,6 @@
 +++
 weight = 11
-title = "11. 합의 알고리즘 (Consensus Algorithm)"
+title = "11. 합의 알고리즘 (Consensus Algorithm) - 분산 노드 간 상태 일치 달성 매커니즘"
 description = "분산 노드 간 상태 일치 달성 매커니즘"
 date = "2024-05-18"
 [taxonomies]

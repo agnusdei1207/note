@@ -1,5 +1,5 @@
 +++
-title = "데이터 대역폭 압축 인코딩 (Data Bandwidth Compression Encoding)"
+title = "583. 데이터 대역폭 압축 인코딩"
 date = 2026-03-20
 weight = 583
 description = "메모리와 CPU/GPU 간의 데이터 전송량을 줄여 버스 대역폭 병목을 해결하기 위해, 눈에 보이지 않게 데이터를 압축하여 전송하는 하드웨어 통신 기법"

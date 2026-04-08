@@ -1,6 +1,6 @@
 +++
 weight = 37
-title = "037. 애자일 PMO (Agile PMO)"
+title = "37. 심리적 안전감 (Psychological Safety) - 조직 내에서 실수나 의견을 자유롭게 말해도 불이익을 받지 않는다고 느끼는 믿음 (고성과 팀의 핵심 요소)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

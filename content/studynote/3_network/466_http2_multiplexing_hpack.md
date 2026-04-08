@@ -1,6 +1,6 @@
 +++
 weight = 466
-title = "466. HTTP/2 - 바이너리 프레이밍과 멀티플렉싱의 혁명"
+title = "466. HTTP/2 특징 - 바이너리 프레이밍 계층 추가 / SPDY 기반"
 date = "2026-04-02"
 [extra]
 categories = "studynote-network"

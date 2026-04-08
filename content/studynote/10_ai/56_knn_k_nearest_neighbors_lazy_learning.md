@@ -1,5 +1,5 @@
 +++
-title = "56. K-NN K-Nearest Neighbors 최근접 이웃 알고리즘"
+title = "56. K-NN (K-Nearest Neighbors) - 새로운 데이터를 가장 가까운 K개 이웃의 클래스 중 다수결로 판별 (게으른 학습, Lazy Learning)"
 date = "2026-04-07"
 [extra]
 categories = "studynote-ai"

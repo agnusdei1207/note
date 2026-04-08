@@ -1,5 +1,5 @@
 +++
-title = "MAID (Massive Array of Idle Disks)"
+title = "691. MAID (Massive Array of Idle Disks)"
 date = 2026-03-20
 weight = 691
 description = "RAID가 '성능과 복구'를 위해 디스크를 항상 돌려대는 시스템이라면, MAID는 오직 '전력 절감'만을 목적으로 수백 대의 디스크 중 75%를 항상 꺼두는(Idle) 거대한 아카이브용 스토리지 아키텍처"

@@ -1,6 +1,6 @@
 +++
 weight = 80
-title = "80. 패키지 취약점 스캐닝 (SCA, Software Composition Analysis)"
+title = "80. 패키지 취약점 스캐닝 (SCA, Software Composition Analysis) - 의존하는 오픈소스 라이브러리의 CVE 취약점 검사"
 description = "소스코드에 포함된 오픈소스 라이브러리의 알려진 취약점(CVE)과 라이선스 충돌 위험을 자동으로 검사하는 SCA 도구와 CI/CD 파이프라인 통합 방법"
 date = "2026-04-05"
 

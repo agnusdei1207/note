@@ -1,6 +1,6 @@
 +++
 weight = 407
-title = "407. 스래싱과 워킹 셋 (Thrashing & Working Set)"
+title = "407. 2차 기회 알고리즘 (Second-Chance / Clock Algorithm) - 참조 비트가 1이면 0으로 바꾸고 통과, 0이면 교체"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

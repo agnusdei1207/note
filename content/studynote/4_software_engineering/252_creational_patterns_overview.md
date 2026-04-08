@@ -1,5 +1,5 @@
 +++
-title = "252. 생성 패턴 (Creational Patterns)"
+title = "252. 생성 패턴 (Creational Patterns) - 객체 생성 메커니즘"
 weight = 252
 +++
 # 252. 생성 패턴 (Creational Patterns) - 객체 생성 메커니즘 캡슐화 인스턴스화 은닉 GoF 디자인 패턴 결합도

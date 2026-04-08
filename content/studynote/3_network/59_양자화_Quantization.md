@@ -1,6 +1,6 @@
 +++
 weight = 59
-title = "59. 양자화 (Quantization)"
+title = "59. 양자화 (Quantization) - 선형/비선형"
 date = "2026-03-30"
 [extra]
 categories = ["studynote", "Network"]

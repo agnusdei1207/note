@@ -1,5 +1,5 @@
 +++
-title = "219. 도메인 주도 설계 (DDD)"
+title = "219. 도메인 주도 설계 (DDD, Domain-Driven Design) - 에릭 에반스"
 weight = 219
 +++
 # 219. 도메인 주도 설계 (DDD, Domain-Driven Design) - 에릭 에반스 복잡성 비즈니스 도메인 유비쿼터스 언어 바운디드 컨텍스트 MSA 

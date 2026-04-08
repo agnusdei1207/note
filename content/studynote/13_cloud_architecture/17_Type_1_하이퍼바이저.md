@@ -1,6 +1,6 @@
 +++
 weight = 17
-title = "17. Type 1 하이퍼바이저"
+title = "17. Type 1 하이퍼바이저 (베어메탈, Bare-metal) - 하드웨어 위에 OS 없이 직접 설치되어 오버헤드가 적고 고성능 (VMware ESXi, Xen, KVM)"
 description = "물리 하드웨어 위에 직접 설치되어 운영체제 없이 구동되는 베어메탈 하이퍼바이저의 아키텍처와 실무 적용"
 date = "2024-05-24"
 [taxonomies]

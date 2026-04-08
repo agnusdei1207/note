@@ -1,5 +1,5 @@
 +++
-title = "367. 품질 대시보드 (Quality Dashboard)"
+title = "367. 품질 대시보드 (Quality Dashboard) 구축"
 date = 2026-04-05
 weight = 367
 +++

@@ -1,6 +1,6 @@
 +++
 weight = 806
-title = "나선형 모델"
+title = "806. 나선형 모델"
 description = "Spiral Model"
 category = "4_software_engineering"
 +++

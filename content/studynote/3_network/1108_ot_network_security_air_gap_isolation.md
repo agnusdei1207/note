@@ -1,5 +1,5 @@
 +++
-title = "1108. OT 망 분리와 보안"
+title = "1108. OT 망 (운영 기술 망) 분리 원단 통제"
 weight = 1108
 +++
 # 1108. OT 망 (운영 기술 망) 분리 원단 통제 - Operational Technology 스턱스넷 스마트 팩토리 ICS SCADA 보안 에어갭 1방향 다이오드 망분리 아키텍처

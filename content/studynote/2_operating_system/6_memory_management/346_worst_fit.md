@@ -1,6 +1,6 @@
 +++
 weight = 346
-title = "346. 최악 적합 (Worst-Fit) 역발상의 메모리 배치"
+title = "346. 최악 적합 (Worst-Fit) - 가장 큰 공간 할당 (큰 가용 공간 남김)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

@@ -1,5 +1,5 @@
 +++
-title = "34. 최단 경로 알고리즘 - Dijkstra"
+title = "34. 이진 탐색 (Binary Search) — O(log n)"
 weight = 34
 +++
 

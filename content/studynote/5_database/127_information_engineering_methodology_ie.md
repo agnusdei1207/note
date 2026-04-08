@@ -1,5 +1,5 @@
 +++
-title = "정보공학 방법론 (Information Engineering Methodology, IE)"
+title = "127. 정보 공학 방법론 (Information Engineering) - 데이터 중심 개발 (James Martin)"
 weight = 127
 +++
 

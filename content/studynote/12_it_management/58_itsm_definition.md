@@ -1,6 +1,6 @@
 +++
 weight = 58
-title = "58. ITSM 정의 (IT Service Management Definition)"
+title = "58. 데이터 리터러시 (Data Literacy) - 전 임직원의 데이터 해석 및 비즈니스 활용 역량"
 description = "IT 서비스를 고객에게 제공하고 운영하는全过程을 사람, 프로세스, 기술을 통해 체계적으로管理하는 서비스 지향적 IT 관리 프레임워크"
 date = "2026-03-04"
 [taxonomies]

@@ -1,5 +1,5 @@
 +++
-title = "연합 학습 (Federated Learning) 분산 아키텍처"
+title = "636. 연합 학습 (Federated Learning) 분산 아키텍처"
 date = 2026-03-20
 weight = 636
 description = "개인의 프라이버시 데이터를 중앙 서버로 보내지 않고, 수만 대의 스마트폰(엣지)에서 각자 파편화된 AI 모델을 학습시킨 뒤 결과만 중앙으로 모아 합치는 차세대 머신러닝 하드웨어 네트워크 구조"

@@ -1,5 +1,5 @@
 +++
-title = "710. DDoS 공격 (봇넷 / C&C)"
+title = "710. 분산 서비스 거부 공격 (DDoS, Distributed DoS 위협) 봇넷 시스템 C&C 서버 증폭, 감염 및 반사"
 weight = 710
 +++
 # 710. 분산 서비스 거부 공격 (DDoS) 위협 - 봇넷, C&C 서버, 반사/증폭

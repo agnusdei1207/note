@@ -1,6 +1,6 @@
 +++
 weight = 61
-title = "61. 서비스 설계 (Service Design)"
+title = "61. ITSM (IT Service Management) - IT 시스템 중심에서 '서비스'와 '고객' 중심으로 IT 운영 관리 패러다임 전환"
 description = "서비스 전략에서 정의된 가치를 실현하기 위해 서비스의 기능적·비기능적 요건, SLA, 아키텍처, 프로세스를 상세 설계하는 ITIL Lifecycle 단계"
 date = "2026-03-04"
 [taxonomies]

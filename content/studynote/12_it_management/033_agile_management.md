@@ -1,6 +1,6 @@
 +++
 weight = 33
-title = "033. 애자일 경영 - 변동성 시대의 조직적 민첩성과 빠른 적응의 과학"
+title = "33. 플랫폼 비즈니스 모델 (Platform Business Model) - 양면 시장(Two-sided Market) 교차 네트워크 효과"
 date = "2026-04-05"
 [extra]
 categories = "studynote-it-management"

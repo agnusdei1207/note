@@ -1,6 +1,6 @@
 +++
 weight = 801
-title = "퍼블릭 클라우드 (Public Cloud)"
+title = "801. 퍼블릭 클라우드 (Public Cloud)"
 description = "퍼블릭 클라우드의 정의, 특성, 장단점, 주요CSP별 차이"
 date = 2026-03-26
 

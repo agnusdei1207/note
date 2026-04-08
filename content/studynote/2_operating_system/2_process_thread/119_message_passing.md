@@ -1,6 +1,6 @@
 +++
 weight = 119
-title = "119. ��� �� (Message Passing)"
+title = "119. 메시지 전달 (Message Passing) 방식 - 안전, 커널 개입(시스템 콜) 오버헤드"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

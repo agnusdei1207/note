@@ -1,5 +1,5 @@
 +++
-title = "768. 5GC (5G 코어 네트워크)"
+title = "768. 5GC (5G Core Network 차세대 코어망 SBA 아키텍처)"
 weight = 768
 +++
 # 768. 5GC (5G Core Network) - 차세대 코어망

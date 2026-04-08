@@ -1,6 +1,6 @@
 +++
 weight = 462
-title = "462. I/O 완료 포트 (IOCP, I/O Completion Port) 윈도우 서버의 신화"
+title = "462. I/O 완료 포트 (IOCP, I/O Completion Port) - Windows 비동기 I/O 스케일링"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

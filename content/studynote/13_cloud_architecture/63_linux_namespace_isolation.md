@@ -1,5 +1,5 @@
 +++
-title = "63. 리눅스 네임스페이스 (Namespace) 컨테이너 격리 기술"
+title = "63. 리눅스 네임스페이스 (Namespace) - 프로세스별로 PID, 네트워크(Net), 마운트(Mount), 사용자(User) 등 시스템 자원을 독립된 공간처럼 분리/격리하는 리눅스 커널 기술"
 date = "2026-04-07"
 [extra]
 categories = "studynote-cloud"

@@ -1,5 +1,5 @@
 +++
-title = "296. 헤더 체크섬 (Header Checksum) - IPv4"
+title = "296. 헤더 체크섬 (Header Checksum) - IPv4 헤더만 무결성 검증"
 weight = 296
 +++
 

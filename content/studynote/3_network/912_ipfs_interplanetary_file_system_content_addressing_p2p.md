@@ -1,5 +1,5 @@
 +++
-title = "912. IPFS (행성 간 파일 시스템)"
+title = "912. IPFS (InterPlanetary File System 콘텐츠 주소 지정 영구 분산 P2P 해시 기반 웹 스토리지 프로토콜 파일 망 탈중앙 분산망 구성 기술 요지 HTTP 위치 지정 대체망 구조 분석 원리망)"
 weight = 912
 +++
 # 912. IPFS (InterPlanetary File System) - 콘텐츠 주소 지정 영구 분산 P2P 해시 기반 웹 스토리지 대체 탈중앙 분산망 기술

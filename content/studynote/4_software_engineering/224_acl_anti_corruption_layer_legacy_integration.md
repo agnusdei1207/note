@@ -1,5 +1,5 @@
 +++
-title = "224. 안티 코럽션 레이어 (ACL)"
+title = "224. 안티 코럽션 레이어 (ACL, Anti-Corruption Layer)"
 weight = 224
 +++
 # 224. 안티 코럽션 레이어 (ACL, Anti-Corruption Layer) - 충돌 방지 계층 도메인 주도 설계 레거시 시스템 통합 번역기 파사드 패턴 어댑터 

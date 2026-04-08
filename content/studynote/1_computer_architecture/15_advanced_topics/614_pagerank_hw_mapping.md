@@ -1,5 +1,5 @@
 +++
-title = "페이지 랭크 알고리즘 하드웨어 맵핑 (PageRank HW Mapping)"
+title = "614. 페이지 랭크 알고리즘 하드웨어 맵핑"
 date = 2026-03-20
 weight = 614
 description = "구글의 핵심 알고리즘이자 거대 희소 행렬 연산의 결정체인 페이지 랭크(PageRank)를 CPU/GPU가 아닌 하드웨어 가속기(FPGA/ASIC) 구조에 효율적으로 우겨넣는(Mapping) 최적화 기법"

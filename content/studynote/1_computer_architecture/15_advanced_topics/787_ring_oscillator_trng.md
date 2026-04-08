@@ -1,5 +1,5 @@
 +++
-title = "링 오실레이터 (Ring Oscillator) TRNG"
+title = "787. 링 오실레이터 (Ring Oscillator) TRNG"
 date = 2026-03-20
 weight = 787
 description = "가장 널리 쓰이는 진성 난수 생성기(TRNG)의 하드웨어 설계법으로, 홀수 개의 인버터(NOT 게이트)를 둥글게 이어 붙여 무한 진동을 일으키고 그 과정에서 발생하는 미세한 엇박자(Jitter)를 난수로 추출하는 회로"

@@ -1,5 +1,5 @@
 +++
-title = "오픈소스 펌웨어 (Coreboot, LinuxBoot)"
+title = "705. 오픈소스 펌웨어 (Coreboot, LinuxBoot)"
 date = 2026-03-20
 weight = 705
 description = "기존 메인보드 제조사들이 블랙박스 형태로 제공하던 무겁고 느린 BIOS/UEFI를 밀어내고, 보안과 부팅 속도 향상을 위해 구글과 페이스북이 주도하여 도입 중인 리눅스 기반의 초고속 오픈소스 펌웨어"

@@ -1,5 +1,5 @@
 +++
-title = "521. mDNS (Multicast DNS) / LLMNR"
+title = "521. mDNS (Multicast DNS) / LMNR - 로컬망 이름 해석 (Apple Bonjour)"
 weight = 521
 +++
 # 521. mDNS (Multicast DNS) / LLMNR

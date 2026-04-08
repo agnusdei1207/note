@@ -1,6 +1,6 @@
 +++
 weight = 34
-title = "034. 린 스타트업 - 검증된 학습으로 실패를 최소화하는 스타트업 과학"
+title = "34. 애자일 경영 (Agile Management) - 불확실성이 높은 환경에서 빠르게 MVP를 출시하고 학습을 반복하는 조직론"
 date = "2026-04-05"
 [extra]
 categories = "studynote-it-management"

@@ -1,5 +1,5 @@
 +++
-title = "38. zk-SNARKs (비대화형 영지식 증명)"
+title = "38. zk-SNARKs (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge) - 비대화형 영지식 증명"
 weight = 38
 +++
 

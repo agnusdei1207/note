@@ -1,5 +1,5 @@
 +++
-title = "LAPD (Link Access Procedure on the D channel)"
+title = "223. LAPD (Link Access Procedure on the D channel) - ISDN 망"
 weight = 223
 +++
 

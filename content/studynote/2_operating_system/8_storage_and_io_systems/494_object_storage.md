@@ -1,6 +1,6 @@
 +++
 weight = 494
-title = "494. 오브젝트 스토리지 (Object Storage)"
+title = "494. 오브젝트 스토리지 (Object Storage) - 플랫 네임스페이스, REST API 기반 클라우드 (Amazon S3)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

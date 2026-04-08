@@ -1,6 +1,6 @@
 +++
 weight = 90
-title = "90. RNN/LSTM (순환 신경망/장단기 기억 네트워크)"
+title = "90. Azure Event Hubs — Kafka 호환 API, AMQP 지원"
 description = "RNN의 기본 구조와 한계, LSTM의 게이트 메커니즘, 시계열/NLP에서의 활용"
 date = "2026-04-05"
 [taxonomies]

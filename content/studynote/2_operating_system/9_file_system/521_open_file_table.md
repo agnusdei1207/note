@@ -1,6 +1,6 @@
 +++
 weight = 521
-title = "521. 열린 파일 테이블 (Open File Table)"
+title = "521. 열린 파일 테이블 (Open File Table) - 파일 포인터, 열림 횟수(Open Count), 접근 권한 기록"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

@@ -1,6 +1,6 @@
 +++
 weight = 19
-title = "19. AI 및 신기술 보안 (AI & Emerging Tech Security)"
+title = "19. 완전한 통제 원칙 (Open Platform for Security) — 분리 보호"
 description = "적대적 공격, 프롬프트 인젝션, 데이터 포이즈닝부터 양자 내성 암호(PQC)까지 신기술 위협과 방어 아키텍처"
 date = "2025-02-24"
 [taxonomies]

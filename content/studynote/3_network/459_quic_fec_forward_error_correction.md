@@ -1,5 +1,5 @@
 +++
-title = "459. QUIC의 FEC (Forward Error Correction)"
+title = "459. FEC 기능 선택적 포함 (초기)"
 weight = 459
 +++
 

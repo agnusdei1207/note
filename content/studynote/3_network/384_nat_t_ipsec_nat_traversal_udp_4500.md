@@ -1,5 +1,5 @@
 +++
-title = "384. NAT-T (NAT Traversal) - UDP 4500"
+title = "384. NAT-T (NAT Traversal) - IPsec이 NAT를 우회하는 기법 (UDP 4500)"
 weight = 384
 +++
 

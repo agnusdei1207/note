@@ -1,5 +1,5 @@
 +++
-title = "58. IT 컴플라이언스 (Compliance)와 규제"
+title = "58. IT 컴플라이언스 (Compliance) - 사베인스 옥슬리 법(SOX), 바젤 II, ISMS, GDPR 등 규제 준수"
 weight = 58
 +++
 

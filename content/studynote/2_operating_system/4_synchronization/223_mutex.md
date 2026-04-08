@@ -1,6 +1,6 @@
 +++
 weight = 223
-title = "223. 뮤텍스 (Mutex, Mutual Exclusion Object)"
+title = "223. 임계 구역 문제 해결의 3조건 - 상호 배제(Mutual Exclusion), 진행(Progress), 한정된 대기(Bounded Waiting)"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

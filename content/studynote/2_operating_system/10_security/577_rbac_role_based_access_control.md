@@ -1,6 +1,6 @@
 +++
 weight = 577
-title = "577. 역할 기반 접근 제어 (RBAC, Role-Based Access Control)"
+title = "577. 롤 기반 접근 제어 (RBAC, Role-Based Access Control) - 사용자 대신 역할(Role)에 권한 할당"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

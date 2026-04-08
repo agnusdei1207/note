@@ -1,5 +1,5 @@
 +++
-title = "615. LPWAN 개요 (저전력 광역 통신)"
+title = "615. LPWAN (Low-Power Wide-Area Network) 개요 (저전력 광역 통신) - 수십km 커버리지"
 weight = 615
 +++
 # 615. LPWAN (Low-Power Wide-Area Network) 개요

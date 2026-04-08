@@ -1,6 +1,6 @@
 +++
 weight = 28
-title = "028. BCG 매트릭스 - 제품 포트폴리오의 성장과 희석분석 도구"
+title = "28. 포트폴리오 매트릭스 (BCG Matrix) - 시장 점유율과 성장률 기준 사업 분류 (Star, Cash Cow, Question Mark, Dog)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-it-management"

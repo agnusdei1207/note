@@ -1,6 +1,6 @@
 +++
 weight = 540
-title = "MongoDB"
+title = "540. 데이터 가상화 연방 쿼리 (Federated Query) 실행 엔진"
 description = "문서 지향적 NoSQL 데이터베이스 MongoDB의 특징과 아키텍처에 대해 설명"
 date = 2024-01-01
 

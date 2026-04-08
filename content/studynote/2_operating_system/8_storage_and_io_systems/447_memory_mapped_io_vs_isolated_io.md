@@ -1,6 +1,6 @@
 +++
 weight = 447
-title = "447. 메모리 맵 I/O vs 분리된 I/O 하드웨어 지배의 양대 산맥"
+title = "447. 메모리 맵 I/O (Memory-mapped I/O) vs 분리된 I/O (Isolated I/O / Port I/O)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

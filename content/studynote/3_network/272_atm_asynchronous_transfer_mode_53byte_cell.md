@@ -1,5 +1,5 @@
 +++
-title = "272. ATM (Asynchronous Transfer Mode) - 53바이트 셀"
+title = "272. ATM (Asynchronous Transfer Mode) - 비동기 전송 모드, 53바이트 셀"
 weight = 272
 +++
 

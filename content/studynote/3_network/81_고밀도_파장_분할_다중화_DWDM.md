@@ -1,6 +1,6 @@
 +++
 weight = 81
-title = "81. 고밀도 파장 분할 다중화 (DWDM, Dense WDM)"
+title = "81. 고밀도 파장 분할 다중화 (DWDM, Dense WDM) - EDFA 증폭기 사용"
 description = "0.8nm 이하의 극도로 촘촘한 파장 간격과 광 증폭 기술을 통해 수십 Tbps의 초대용량 장거리 전송을 구현한 국가 백본망 핵심 아키텍처"
 date = "2026-03-30"
 [taxonomies]

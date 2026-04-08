@@ -1,5 +1,5 @@
 +++
-title = "16. 선택 정렬 (Selection Sort)"
+title = "16. 선택 정렬 (Selection Sort) — O(n²), 불안정, 제자리"
 weight = 16
 +++
 

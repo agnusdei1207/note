@@ -1,6 +1,6 @@
 +++
 weight = 894
-title = "94. 인그레스 (Ingress)"
+title = "894. 인그레스 (Ingress)"
 description = "Ingress: 단일 외부 IP를 통해 URL 경로나 호스트 이름에 따라 여러 Service로 HTTP/HTTPS 트래픽을 분기하는 L7 게이트웨이 라우팅 규칙"
 date = 2026-03-26
 

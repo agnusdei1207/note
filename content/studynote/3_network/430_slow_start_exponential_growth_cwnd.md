@@ -1,5 +1,5 @@
 +++
-title = "430. 슬로우 스타트 (Slow Start) - 지수적 증가"
+title = "430. 슬로우 스타트 (Slow Start) - CWND 지수적 증가"
 weight = 430
 +++
 

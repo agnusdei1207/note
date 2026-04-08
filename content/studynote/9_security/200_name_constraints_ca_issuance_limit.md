@@ -1,5 +1,5 @@
 +++
-title = "200. nameConstraints CA가 발급 가능한 이름 공간 제한"
+title = "200. nameConstraints — CA가 발급 가능한 이름 공간 제한"
 date = "2026-04-07"
 [extra]
 categories = "studynote-security"

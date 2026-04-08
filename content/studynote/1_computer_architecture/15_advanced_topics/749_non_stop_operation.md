@@ -1,5 +1,5 @@
 +++
-title = "무정전 운영 (Non-Stop Operation) 아키텍처"
+title = "749. 무정전 운영 (Non-Stop Operation) 아키텍처"
 date = 2026-03-20
 weight = 749
 description = "서버가 멈추면 생명이 위협받거나 천문학적 돈이 날아가는 환경(금융, 항공, 우주)에서, 하드웨어의 모든 부품을 이중화/삼중화하여 다운타임(Downtime)을 제로(0)로 만드는 궁극의 시스템 설계"

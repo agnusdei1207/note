@@ -1,6 +1,6 @@
 +++
 weight = 383
-title = "383. 요구 페이징 (Demand Paging) 극단적인 게으름의 미학"
+title = "383. 요구 페이징 (Demand Paging) - 필요한 페이지만 메모리에 적재"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

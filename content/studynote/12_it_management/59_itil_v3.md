@@ -1,6 +1,6 @@
 +++
 weight = 59
-title = "59. ITIL V3 (ITIL Version 3)"
+title = "59. 바이모달 IT (Bimodal IT, 가트너) - 모드 1(안정성/전통적 IT)과 모드 2(민첩성/혁신 IT)의 투트랙 운영 전략"
 description = "ITIL Version 3는 서비스Lifecycle(전략, 설계, 전환, 운영, 지속적 개선)를 기반으로 IT 서비스 관리의Best Practice를体系화한 프레임워크"
 date = "2026-03-04"
 [taxonomies]

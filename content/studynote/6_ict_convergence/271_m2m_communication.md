@@ -1,5 +1,5 @@
 +++
-title = "271. M2M 통신 (Machine-to-Machine Communication)"
+title = "271. 프롬프트 엔지니어링 (Prompt Engineering) - LLM의 숨겨진 능력을 이끌어내기 위해 질문 컨텍스트를 구조화 설계"
 weight = 271
 +++
 

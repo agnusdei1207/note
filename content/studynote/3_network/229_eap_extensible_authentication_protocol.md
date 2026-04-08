@@ -1,5 +1,5 @@
 +++
-title = "229. EAP (Extensible Authentication Protocol) - 확장 인증"
+title = "229. EAP (Extensible Authentication Protocol) - PPP 확장 인증"
 weight = 229
 +++
 

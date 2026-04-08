@@ -1,6 +1,6 @@
 +++
 weight = 24
-title = "24. 위험 기반 감리 (Risk-based Audit)"
+title = "24. 위험 기반 감리 (Risk-based Audit) - 리스크가 높은 영역에 감리 자원 집중"
 date = "2026-04-02"
 [extra]
 categories = "studynote-design-supervision"

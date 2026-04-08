@@ -1,6 +1,6 @@
 +++
 weight = 29
-title = "029. IT 포트폴리오 관리 - 전략적 IT 투자 최적화의 علم"
+title = "29. IT 포트폴리오 관리 (IT PPM) - IT 투자를 인프라, 트랜잭션, 정보, 전략 자산으로 분류하여 예산 최적화"
 date = "2026-04-05"
 [extra]
 categories = "studynote-it-management"

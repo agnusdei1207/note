@@ -1,5 +1,5 @@
 +++
-title = "343. AD (관리 거리) - 프로토콜 우선순위"
+title = "343. 관리 거리 (AD, Administrative Distance) - 프로토콜 우선순위 판단"
 weight = 343
 +++
 

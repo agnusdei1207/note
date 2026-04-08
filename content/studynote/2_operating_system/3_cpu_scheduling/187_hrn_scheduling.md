@@ -1,6 +1,6 @@
 +++
 weight = 187
-title = "187. HRN (Highest Response Ratio Next) 스케줄링"
+title = "187. HRN (Highest Response Ratio Next) 스케줄링 - (대기시간+서비스시간)/서비스시간"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

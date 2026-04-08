@@ -1,5 +1,5 @@
 +++
-title = "UEFI (Unified Extensible Firmware Interface)"
+title = "706. UEFI (Unified Extensible Firmware Interface)"
 date = 2026-03-20
 weight = 706
 description = "과거 16비트의 한계에 갇혀있던 레거시 BIOS를 대체하여, 컴퓨터 하드웨어를 깨우고 운영체제로 넘겨주는 과정을 32/64비트 그래픽 기반으로 확장한 현대적 메인보드 펌웨어 표준"

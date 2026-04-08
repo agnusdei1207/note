@@ -1,5 +1,5 @@
 +++
-title = "439. 휴리스틱 오라클 (Heuristic Oracle)"
+title = "439. 휴리스틱 오라클 (Heuristic Oracle) - 샘플링에 직관적/경험적 판단 추가"
 date = 2026-04-05
 weight = 439
 +++

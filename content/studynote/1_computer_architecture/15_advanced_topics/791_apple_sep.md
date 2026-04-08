@@ -1,6 +1,6 @@
 +++
 weight = 791
-title = "애플 Secure Enclave Processor (SEP)"
+title = "791. 애플 Secure Enclave Processor (SEP)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-computer-architecture"

@@ -1,5 +1,5 @@
 +++
-title = "205. 계층형 아키텍처 (Layered)"
+title = "205. 계층형 아키텍처 (Layered Architecture) - 관심사 분리 (Presentation, Business, Data)"
 weight = 205
 +++
 # 205. 계층형 아키텍처 (Layered Architecture) - 관심사 분리 Presentation Business Data OSI 7계층 수직적 설계 의존성 제어 단방향 통신

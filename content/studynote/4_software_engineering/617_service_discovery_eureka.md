@@ -1,5 +1,5 @@
 +++
-title = "617. 서비스 디스커버리 (Service Discovery)와 Eureka"
+title = "617. 서비스 디스커버리 Eureka"
 date = "2026-04-07"
 [extra]
 categories = "studynote-se"

@@ -1,6 +1,6 @@
 +++
 weight = 22
-title = "22. SR-IOV (Single Root I/O Virtualization)"
+title = "22. SR-IOV (Single Root I/O Virtualization) - 하나의 물리적 PCIe 네트워크 카드(NIC)를 여러 VM에 논리적으로 직접 매핑해 하이퍼바이저 스위치 오버헤드 우회 (초고속 I/O)"
 description = "PCIe 디바이스를 하드웨어적으로 분할하여 VM에 직접 할당하는 SR-IOV의 아키텍처와高性能 네트워킹 구현 원리"
 date = "2024-05-24"
 [taxonomies]

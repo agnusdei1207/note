@@ -1,5 +1,5 @@
 +++
-title = "675. 전자서명 (Digital Signature)"
+title = "675. 전자서명 (Digital Signature) 생성/검증 프로세스 개요 (비대칭키 활용 체계의 무결성 보증)"
 weight = 675
 +++
 # 675. 전자서명 (Digital Signature) 생성/검증 프로세스 개요

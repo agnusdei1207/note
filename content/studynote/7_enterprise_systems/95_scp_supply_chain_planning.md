@@ -1,5 +1,5 @@
 +++
-title = "95. SCP (Supply Chain Planning) - 공급망 계획"
+title = "95. SCP (Supply Chain Planning) - 공급망 계획 (수요 예측, 생산 계획)"
 weight = 95
 +++
 

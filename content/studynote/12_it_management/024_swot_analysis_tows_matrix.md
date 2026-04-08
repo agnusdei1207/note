@@ -1,6 +1,6 @@
 +++
 weight = 24
-title = "024. SWOT 분석 - 강점, 약점, 기회, 위협의 전략적 매트릭스"
+title = "24. SWOT 분석 - 강점(S), 약점(W), 기회(O), 위협(T) 및 교차 전략 (SO, ST, WO, WT)"
 date = "2026-04-02"
 [extra]
 categories = "studynote-it-management"

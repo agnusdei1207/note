@@ -1,5 +1,5 @@
 +++
-title = "49. 블록체인 브리지 (Cross-chain Bridge)"
+title = "49. 블록체인 브리지 (Cross-chain Bridge) - 서로 다른 이기종 블록체인 간 자산 및 데이터 이동 통로"
 weight = 49
 +++
 

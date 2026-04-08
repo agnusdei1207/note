@@ -1,5 +1,5 @@
 +++
-title = "445. 영 윈도우 (Zero Window)와 Persist Timer"
+title = "445. 영 윈도우 (Zero Window) 탐색 - Persist Timer"
 weight = 445
 +++
 

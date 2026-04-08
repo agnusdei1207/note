@@ -1,5 +1,5 @@
 +++
-title = "419. 제어 흐름 테스트 (Control Flow Testing)"
+title = "419. 원인-결과 그래프 (Cause-Effect Graphing)"
 date = 2026-04-05
 weight = 419
 +++

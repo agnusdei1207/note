@@ -1,6 +1,6 @@
 +++
 weight = 491
-title = "491. Fog Computing Hardware (포그 컴퓨팅 하드웨어)"
+title = "491. 포그 컴퓨팅 하드웨어"
 date = "2026-03-20"
 [extra]
 categories = "studynote-computer-architecture"

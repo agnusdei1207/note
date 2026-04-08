@@ -1,5 +1,5 @@
 +++
-title = "89. 린 스타트업 (Lean Startup)"
+title = "89. 린 스타트업 (Lean Startup) - 구축-측정-학습 피드백 루프"
 weight = 89
 +++
 

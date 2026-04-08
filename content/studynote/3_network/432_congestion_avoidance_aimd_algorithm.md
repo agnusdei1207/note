@@ -1,5 +1,5 @@
 +++
-title = "432. 혼잡 회피 (Congestion Avoidance / AIMD)"
+title = "432. 혼잡 회피 (Congestion Avoidance / AIMD 알고리즘) - CWND 선형 증가"
 weight = 432
 +++
 

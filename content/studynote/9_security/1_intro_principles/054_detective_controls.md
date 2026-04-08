@@ -1,6 +1,6 @@
 +++
 weight = 54
-title = "054. 탐지 통제 (Detective Controls)"
+title = "54. 탐지 통제 (Detective Controls) — 이상 징후 발견"
 date = "2026-04-05"
 [extra]
 categories = "studynote-security"

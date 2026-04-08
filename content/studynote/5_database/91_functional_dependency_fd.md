@@ -1,5 +1,5 @@
 +++
-title = "91. 함수적 종속성 (Functional Dependency, FD)"
+title = "91. 삽입 이상 (Insertion Anomaly) - 불필요한 데이터까지 함께 삽입해야 하는 현상"
 weight = 91
 +++
 

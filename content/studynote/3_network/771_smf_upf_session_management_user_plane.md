@@ -1,5 +1,5 @@
 +++
-title = "771. SMF와 UPF (세션/데이터 평면)"
+title = "771. SMF (Session Management Function) / UPF (User Plane Function 데이터 고속 패킷 엣지 통과 모델 구조 지연 개선 구조 체계 데이터 평면 전적 담당 라우팅 모듈 시스템화 방식 고속 스위칭 처리 최적 관리 기능)"
 weight = 771
 +++
 # 771. SMF와 UPF (Session Management / User Plane) - 고속 패킷 엣지 통과 모델

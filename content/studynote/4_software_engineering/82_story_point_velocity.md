@@ -1,5 +1,5 @@
 +++
-title = "82. 스토리 포인트 (Story Point) - 상대적 산정"
+title = "82. 스토리 포인트 (Story Point) - 상대적 규모 산정"
 weight = 82
 +++
 

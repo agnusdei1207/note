@@ -1,5 +1,5 @@
 +++
-title = "1005. 호손율과 블로킹 확률"
+title = "1005. 호손율 / 블로킹 확률 (Blocking Probability)"
 weight = 1005
 +++
 # 1005. 호손율 / 블로킹 확률 (Blocking Probability) - 얼랑 B 공식 Erlang-B 큐잉 지연 거절 회선 용량 임계치 차단 척도 지표 통제 모델망 설계

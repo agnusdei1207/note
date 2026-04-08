@@ -1,5 +1,5 @@
 +++
-title = "데이터 중복 제거 (Data Deduplication)"
+title = "682. 데이터 중복 제거 (Data Deduplication)"
 date = 2026-03-20
 weight = 682
 description = "스토리지나 메모리에 완전히 똑같은 데이터 덩어리가 여러 개 들어올 때, 원본 딱 1개만 저장하고 나머지는 모두 '원본의 주소를 가리키는 포인터'로 대체하여 디스크 용량을 극한으로 아끼는 기술"

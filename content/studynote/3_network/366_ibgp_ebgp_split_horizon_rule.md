@@ -1,5 +1,5 @@
 +++
-title = "366. iBGP, eBGP, BGP Split Horizon"
+title = "366. iBGP (내부 맺음), eBGP (외부 맺음), BGP Split Horizon 룰"
 weight = 366
 +++
 

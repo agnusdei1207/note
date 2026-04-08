@@ -1,5 +1,5 @@
 +++
-title = "184. 파티션 프루닝 (Partition Pruning)"
+title = "184. 파티션 프루닝 (Partition Pruning) - SQL 조건에 맞는 파티션만 스캔 (옵티마이저 최적화)"
 weight = 184
 +++
 # 184. 파티션 프루닝 (Partition Pruning) - 파티션 가지치기

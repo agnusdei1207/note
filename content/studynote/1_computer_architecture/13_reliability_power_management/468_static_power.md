@@ -1,6 +1,6 @@
 +++
 weight = 468
-title = "468. 정적 전력 (Static Power)"
+title = "468. 정적 전력 (Static Power / 누설 전력)"
 date = "2026-03-22"
 [extra]
 categories = "studynote-computer-architecture"

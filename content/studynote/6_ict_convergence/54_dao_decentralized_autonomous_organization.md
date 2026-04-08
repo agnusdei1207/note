@@ -1,5 +1,5 @@
 +++
-title = "54. 다오 (DAO, 탈중앙화 자율 조직)"
+title = "54. 다오 (DAO, Decentralized Autonomous Organization) - 중앙 관리자 없이 스마트 컨트랙트와 거버넌스 토큰 투표로 운영되는 자율 조직"
 weight = 54
 +++
 

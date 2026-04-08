@@ -1,6 +1,6 @@
 +++
 weight = 59
-title = "59. 시계열 DB (Time Series Database)"
+title = "59. Spark Streaming (DStream) — 마이크로배치 스트리밍 (구세대)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

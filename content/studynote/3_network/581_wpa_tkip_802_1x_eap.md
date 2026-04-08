@@ -1,6 +1,6 @@
 +++
 weight = 581
-title = "581. WPA (Wi-Fi Protected Access) - WEP의 붕괴를 막은 TKIP의 동적 키 교환 땜질 처방"
+title = "581. WPA (TKIP + 802.1X + EAP)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

@@ -1,5 +1,5 @@
 +++
-title = "25. 팀 정렬 (Timsort)"
+title = "25. 버킷 정렬 (Bucket Sort) — O(n) 평균, 균등 분포"
 weight = 25
 +++
 

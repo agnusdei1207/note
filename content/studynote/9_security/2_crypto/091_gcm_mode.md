@@ -1,5 +1,5 @@
 +++
-title = "091. GCM (Galois/Counter Mode) — AEAD, 인증 암호화"
+title = "91. GCM (Galois/Counter Mode) — AEAD, 인증 암호화"
 date = "2026-04-05"
 weight = 91
 [extra]

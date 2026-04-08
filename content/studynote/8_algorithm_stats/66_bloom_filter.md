@@ -1,5 +1,5 @@
 +++
-title = "66. 블룸 필터 (Bloom Filter)"
+title = "66. AVL 트리 — 높이 균형, 회전 (LL/RR/LR/RL)"
 weight = 66
 +++
 

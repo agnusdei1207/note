@@ -1,6 +1,6 @@
 +++
 weight = 38
-title = "38. 관계 대수 (Relational Algebra)"
+title = "38. 관계 대수 (Relational Algebra) - 절차적 언어, \"어떻게\" 구할 것인가 명시"
 description = "관계형 모델의 절차적 데이터 처리 언어인 관계 대수의 개념과 연산 메커니즘"
 date = "2026-03-04"
 [taxonomies]

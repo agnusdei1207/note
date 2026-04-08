@@ -1,5 +1,5 @@
 +++
-title = "58. 데이터베이스 인스턴스 (Instance)의 구조"
+title = "58. 데이터베이스 인스턴스 (Database Instance) - 메모리 구조 + 백그라운드 프로세스"
 weight = 58
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "1092. DMVPN 동적 다중 지점 VPN"
+title = "1092. DMVPN 동적 라우팅 결합형 지점"
 weight = 1092
 +++
 # 1092. DMVPN 동적 라우팅 결합형 지점 - Dynamic Multipoint VPN NHRP IPsec GRE 스포크 투 스포크 다이렉트 통신 허브 앤 스포크 한계 극복 

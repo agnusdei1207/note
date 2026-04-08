@@ -1,5 +1,5 @@
 +++
-title = "105. 디지털 공급망과 SCM 컨트롤 타워"
+title = "105. 디지털 공급망 (Digital Supply Chain) 및 SCM 컨트롤 타워 - 글로벌 물류 가시성 확보"
 weight = 105
 +++
 

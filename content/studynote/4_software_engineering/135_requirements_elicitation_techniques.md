@@ -1,5 +1,5 @@
 +++
-title = "요구사항 도출 기법 (Requirements Elicitation Techniques)"
+title = "135. 요구사항 도출 (Elicitation) 기법 - 인터뷰, 설문, 워크숍, 관찰"
 weight = 135
 +++
 

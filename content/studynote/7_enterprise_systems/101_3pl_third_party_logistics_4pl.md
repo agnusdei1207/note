@@ -1,5 +1,5 @@
 +++
-title = "101. 3PL (제3자 물류) / 4PL"
+title = "101. 3PL (Third Party Logistics) / 4PL - 제3자/제4자 물류 아웃소싱 (컨설팅 포함 여부)"
 weight = 101
 +++
 

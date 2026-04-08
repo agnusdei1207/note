@@ -1,6 +1,6 @@
 +++
 weight = 1
-title = "01. 빅데이터 3V / 5V"
+title = "1. 빅데이터 3V / 5V - 볼륨(Volume), 속도(Velocity), 다양성(Variety), + 진실성(Veracity), 가치(Value)"
 description = "빅데이터를 정의하는 5가지 핵심 차원(Volume, Velocity, Variety, Veracity, Value)과 아키텍처적 대응 전략"
 date = "2024-05-24"
 [taxonomies]

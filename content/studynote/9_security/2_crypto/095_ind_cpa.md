@@ -1,5 +1,5 @@
 +++
-title = "095. IND-CPA (Indistinguishability under CPA) — 암호학적 안전성 정의"
+title = "95. IND-CPA (Indistinguishability under CPA) — 암호학적 안전성 정의"
 date = "2026-04-05"
 weight = 95
 [extra]

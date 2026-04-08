@@ -1,5 +1,5 @@
 +++
-title = "183. IaaS (Infrastructure as a Service)"
+title = "183. IaaS (Infrastructure as a Service) - 서버, 스토리지, 네트워크 가상화 제공 (AWS EC2)"
 weight = 183
 +++
 # 183. IaaS (Infrastructure as a Service) - 서버 스토리지 네트워크 가상화 제공 AWS EC2 클라우드 인프라 하이퍼바이저 베어메탈 제어권 

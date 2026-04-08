@@ -1,5 +1,5 @@
 +++
-title = "1116. 자율 구동 네트워크 (ADN)"
+title = "1116. 자율 구동 네트워크 레벨링"
 weight = 1116
 +++
 # 1116. 자율 구동 네트워크 레벨링 - Autonomous Driving Network L0-L5 의도기반 IBN 진화 AI 옵스(AIOps) 제로 터치 폐쇄 루프 통신망 진화 모델

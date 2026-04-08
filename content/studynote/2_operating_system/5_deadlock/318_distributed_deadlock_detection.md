@@ -1,6 +1,6 @@
 +++
 weight = 318
-title = "318. 분산 시스템에서의 교착 상태 탐지 - 분산 대기 그래프"
+title = "318. 분산 시스템에서의 교착 상태 탐지 - 분산 교착 상태 그래프"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

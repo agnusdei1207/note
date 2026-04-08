@@ -1,6 +1,6 @@
 +++
 weight = 18
-title = "18. Type 2 하이퍼바이저"
+title = "18. Type 2 하이퍼바이저 (호스트형, Hosted) - 호스트 OS 위에서 하나의 애플리케이션처럼 구동 (VMware Workstation, VirtualBox)"
 description = "호스트 운영체제 위에서 애플리케이션처럼 동작하는 호스티드 하이퍼바이저의 아키텍처와 실무 적용"
 date = "2024-05-24"
 [taxonomies]

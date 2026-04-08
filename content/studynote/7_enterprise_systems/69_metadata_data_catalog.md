@@ -1,5 +1,5 @@
 +++
-title = "69. 메타데이터 (Metadata) 관리 / 데이터 카탈로그"
+title = "69. 메타데이터 (Metadata) 관리 / 데이터 카탈로그 (Data Catalog)"
 weight = 69
 +++
 

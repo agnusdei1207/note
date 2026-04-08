@@ -1,6 +1,6 @@
 +++
 weight = 10
-title = "계획 및 추론"
+title = "10. 전향 추론 (Forward Chaining) - 데이터에서 시작하여 결론 도출 (데이터 주도)"
 description = "인공지능에서 계획(Planning)과 추론(Reasoning)의 정의, 계획 알고리즘, STRIPS와 PDDL"
 category = "10_ai"
 +++

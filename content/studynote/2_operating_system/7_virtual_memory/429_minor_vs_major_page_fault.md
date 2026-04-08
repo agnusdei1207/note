@@ -1,6 +1,6 @@
 +++
 weight = 429
-title = "429. 마이너 페이지 폴트 vs 메이저 페이지 폴트 (Minor vs Major Page Fault)"
+title = "429. 마이너 페이지 폴트 (Minor Page Fault) vs 메이저 페이지 폴트 (Major Page Fault / 디스크 I/O 동반)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

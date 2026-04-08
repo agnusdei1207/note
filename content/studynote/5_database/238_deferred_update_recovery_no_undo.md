@@ -1,5 +1,5 @@
 +++
-title = "238. 지연 갱신 (Deferred Update)"
+title = "238. 지연 갱신 (Deferred Update) - 트랜잭션 완료 전까지 DB 기록 지연, Undo 불필요, Redo만 수행"
 weight = 238
 +++
 # 238. 지연 갱신 (Deferred Update) - 로그 기반 회복 트랜잭션 완료 시점 DB 기록 연기 Undo 불필요 Redo 전용 무결성

@@ -1,6 +1,6 @@
 +++
 weight = 125
-title = "125. 소켓 (Socket) 통신"
+title = "125. 소켓 (Socket) 통신 - 네트워크, 서로 다른 시스템 간 통신"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

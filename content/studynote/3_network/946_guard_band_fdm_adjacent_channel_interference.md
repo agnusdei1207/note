@@ -1,5 +1,5 @@
 +++
-title = "946. FDM 보호 대역 (가드 밴드)"
+title = "946. FDM 가드 밴드 (Guard Band)"
 weight = 946
 +++
 # 946. FDM 가드 밴드 (Guard Band) - 주파수 분할 다중화 인접 채널 간섭(Aci) 방지 비무장 지대 스펙트럼 낭비 방어벽 대역폭 설정

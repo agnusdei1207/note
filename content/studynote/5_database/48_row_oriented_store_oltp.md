@@ -1,5 +1,5 @@
 +++
-title = "48. 로우 기반 저장소 (Row Store) - 트랜잭션 최적화"
+title = "48. 로우 기반 저장소 (Row Store) - 트랜잭션(OLTP) 최적화"
 weight = 48
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "312. ARP (Address Resolution Protocol) - IP -> MAC"
+title = "312. ARP (Address Resolution Protocol) - 논리 주소를 물리 주소로 (IP -> MAC)"
 weight = 312
 +++
 

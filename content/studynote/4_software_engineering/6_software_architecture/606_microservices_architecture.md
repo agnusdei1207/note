@@ -1,6 +1,6 @@
 +++
 weight = 606
-title = "마이크로서비스 아키텍처"
+title = "606. 옵저버 패턴 (Pub/Sub 연계)"
 description = "마이크로서비스 아키텍처의 개념, MSA vs SOA, Decomposition 전략"
 date = 2024-01-19
 

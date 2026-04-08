@@ -1,6 +1,6 @@
 +++
 weight = 143
-title = "스레드 고정 Thread Affinity/Pinning"
+title = "143. 컨텍스트 스위칭 최소화를 위한 스레드 고정 (Thread Affinity/Pinning)"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

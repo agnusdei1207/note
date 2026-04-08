@@ -1,6 +1,6 @@
 +++
 weight = 15004
-title = "4. 실시간 스트리밍 처리 아키텍처"
+title = "4. 빅데이터 도입 필요성 — 데이터 폭증(제타바이트 시대), 비정형 데이터 급증"
 date = "2026-03-26"
 [extra]
 categories = "studynote-bigdata"

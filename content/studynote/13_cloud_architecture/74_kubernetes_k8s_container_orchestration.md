@@ -1,5 +1,5 @@
 +++
-title = "74. 쿠버네티스 Kubernetes K8s 도커 오케스트레이션"
+title = "74. 쿠버네티스 (Kubernetes, K8s) - 구글 보그(Borg) 시스템에서 유래한 현존 최고의 컨테이너 오케스트레이션 사실상(De facto) 표준"
 date = "2026-04-07"
 [extra]
 categories = "studynote-cloud"

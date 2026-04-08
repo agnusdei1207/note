@@ -1,5 +1,5 @@
 +++
-title = "멀티패스 I/O (Multipath I/O, MPIO)"
+title = "686. 멀티패스 I/O (Multipath I/O)"
 date = 2026-03-20
 weight = 686
 description = "서버와 스토리지 사이에 여러 가닥의 광케이블과 스위치를 엮어(다중 경로), 하나의 선이 끊어지더라도 멈춤 없이 데이터를 전송하고 속도마저 배로 올려주는 무중단 스토리지 네트워크 기술"

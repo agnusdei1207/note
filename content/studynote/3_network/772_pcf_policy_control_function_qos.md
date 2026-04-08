@@ -1,5 +1,5 @@
 +++
-title = "772. PCF (정책 제어 관리)"
+title = "772. PCF (Policy Control Function 사용자 정책 적용 자원 대조 통제 구조 연동 통합 기능 기능망 제어 분산 룰 구조 통제 프로비저닝 데이터베이스)"
 weight = 772
 +++
 # 772. PCF (Policy Control Function) - 사용자 정책 적용 자원 제어

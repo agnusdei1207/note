@@ -1,5 +1,5 @@
 +++
-title = "405. TCP (Transmission Control Protocol) 개요"
+title = "405. TCP (Transmission Control Protocol) - 연결 지향형, 신뢰성 전송, 스트림 기반"
 weight = 405
 +++
 

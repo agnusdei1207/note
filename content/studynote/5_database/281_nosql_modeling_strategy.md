@@ -1,5 +1,5 @@
 +++
-title = "281. NoSQL 모델링 전략 - 쿼리 패턴 주도 설계"
+title = "281. 샤드 키 (Shard Key / Partition Key) - 분산 배치 기준이 되는 키 설계 중요성"
 weight = 281
 +++
 

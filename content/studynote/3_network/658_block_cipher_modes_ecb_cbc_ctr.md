@@ -1,5 +1,5 @@
 +++
-title = "658. 블록 암호 운영 모드"
+title = "658. 블록 암호 운영 모드 (ECB 기본/취약 모드, CBC(IV 필요), CFB, OFB, CTR)"
 weight = 658
 +++
 # 658. 블록 암호 운영 모드 (ECB, CBC, CFB, OFB, CTR)

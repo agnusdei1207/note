@@ -1,5 +1,5 @@
 +++
-title = "도전-응답 쌍 (CRP, Challenge-Response Pair)"
+title = "789. 도전-응답 쌍 (Challenge-Response Pair)"
 date = 2026-03-20
 weight = 789
 description = "서버가 IoT 기기나 스마트카드(PUF 칩)가 진짜 정품인지 해킹 칩인지 확인하기 위해, 수학적 문제를 던지고(Challenge) 그 기기만의 고유한 정답(Response)을 받아 검증하는 무신뢰 기반의 보안 프로토콜"

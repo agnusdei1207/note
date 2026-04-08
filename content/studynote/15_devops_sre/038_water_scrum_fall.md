@@ -1,6 +1,6 @@
 +++
 weight = 38
-title = "038. 워터-스크럼-폴 (Water-Scrum-Fall)"
+title = "38. 애자일 PMO (Agile PMO) - 통제 중심의 기존 PMO에서 애자일 코칭 및 장애물 제거(Servant Leadership) 지원 조직으로 전환"
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

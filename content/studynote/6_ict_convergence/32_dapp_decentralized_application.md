@@ -1,5 +1,5 @@
 +++
-title = "32. 디앱 (DApp, Decentralized Application)"
+title = "32. 디앱 (DApp, Decentralized Application) - 백엔드가 블록체인(스마트 컨트랙트)인 애플리케이션"
 weight = 32
 +++
 

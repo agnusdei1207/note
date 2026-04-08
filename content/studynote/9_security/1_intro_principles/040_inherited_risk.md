@@ -1,6 +1,6 @@
 +++
 weight = 40
-title = "040. 상속된 위험 (Inherited Risk)"
+title = "40. inherited Risk — 상속된 위험"
 date = "2026-04-05"
 [extra]
 categories = "studynote-security"

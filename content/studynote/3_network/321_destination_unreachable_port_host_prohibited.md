@@ -1,5 +1,5 @@
 +++
-title = "321. Destination Unreachable (목적지 도달 불가)"
+title = "321. Destination Unreachable (목적지 도달 불가 - 포트, 호스트 차단)"
 weight = 321
 +++
 

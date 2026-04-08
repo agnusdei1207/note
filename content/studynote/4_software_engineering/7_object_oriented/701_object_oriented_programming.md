@@ -1,6 +1,6 @@
 +++
 weight = 701
-title = "객체 지향 프로그래밍"
+title = "701. WebAssembly (Wasm) 프론트 성능 가속"
 description = "객체 지향 프로그래밍(OOP)의 기본 개념과 4대 특성"
 date = 2024-02-03
 

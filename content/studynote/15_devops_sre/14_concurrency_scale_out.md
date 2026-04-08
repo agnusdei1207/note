@@ -1,6 +1,6 @@
 +++
 weight = 14
-title = "14. 동시성 (Concurrency)"
+title = "14. 동시성 (Concurrency) - 프로세스 모델을 통한 스케일 아웃(Scale-out) 수평 확장"
 description = "12 팩터 앱의 프로세스 모델을 통한 수평 확장: 다중 스레딩에 의존하지 않고 프로세스를 복제하여 동시성과 스케일 아웃을 달성하는 구조"
 date = "2024-05-20"
 [taxonomies]

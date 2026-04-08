@@ -1,5 +1,5 @@
 +++
-title = "1087. BBR 동적 혼잡 제어"
+title = "1087. BBR 구글 TCP 동적 모델 지연 기반 혼잡"
 weight = 1087
 +++
 # 1087. BBR 구글 TCP 동적 모델 지연 기반 혼잡 - Bottleneck Bandwidth and Round-trip time CUBIC 패킷 손실 회피 대역폭 극대화 윈도우 스케일링

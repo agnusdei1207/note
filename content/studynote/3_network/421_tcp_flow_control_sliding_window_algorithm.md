@@ -1,5 +1,5 @@
 +++
-title = "421. TCP 흐름 제어와 슬라이딩 윈도우"
+title = "421. TCP 흐름 제어 (Flow Control) - 수신자 관점, 슬라이딩 윈도우 알고리즘"
 weight = 421
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "29. 대체 불가능 토큰 (NFT, Non-Fungible Token)"
+title = "29. 대체 불가능 토큰 (NFT, Non-Fungible Token) - 고유한 식별자를 가진 디지털 자산 (ERC-721 규격)"
 weight = 29
 +++
 

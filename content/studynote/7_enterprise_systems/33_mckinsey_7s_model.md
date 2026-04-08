@@ -1,5 +1,5 @@
 +++
-title = "33. 7S 모델 (McKinsey 7S Framework)"
+title = "33. 7S 모델 (McKinsey) - Strategy, Structure, Systems, Shared Values, Style, Staff, Skills 조직 진단"
 weight = 33
 +++
 

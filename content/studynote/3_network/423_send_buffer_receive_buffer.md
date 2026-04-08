@@ -1,5 +1,5 @@
 +++
-title = "423. 송신 버퍼와 수신 버퍼"
+title = "423. 송신 버퍼 (Send Buffer) / 수신 버퍼 (Receive Buffer)"
 weight = 423
 +++
 

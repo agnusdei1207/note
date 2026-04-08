@@ -1,5 +1,5 @@
 +++
-title = "1103. WDM 무손실 광 증폭 (EDFA)"
+title = "1103. WDM 무손실 광 증폭"
 weight = 1103
 +++
 # 1103. WDM 무손실 광 증폭 - Wavelength Division Multiplexing 파장 분할 다중화 EDFA 에르븀 첨가 광섬유 증폭기 라만 증폭기 해저 광케이블 장거리 전송

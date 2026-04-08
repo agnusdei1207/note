@@ -1,5 +1,5 @@
 +++
-title = "71. 디지털 트랜스포메이션 DX DT Digital Transformation"
+title = "71. 디지털 트랜스포메이션 (DX / DT, Digital Transformation) - AI, 클라우드, 빅데이터로 비즈니스 모델 전면 혁신"
 date = "2026-04-07"
 [extra]
 categories = "studynote-enterprise"

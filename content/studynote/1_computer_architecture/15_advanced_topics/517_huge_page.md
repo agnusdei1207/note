@@ -1,5 +1,5 @@
 +++
-title = "거대 페이지 (Huge Page / Large Page)"
+title = "517. 거대 페이지 (Huge Page)"
 date = 2026-03-20
 weight = 517
 description = "기본 메모리 페이지 크기(4KB)를 2MB나 1GB 단위로 키워, TLB 캐시 미스를 극적으로 줄이고 가상 메모리 변환 성능을 높이는 시스템 최적화 기법"

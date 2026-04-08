@@ -1,6 +1,6 @@
 +++
 weight = 160
-title = "세션 및 제어 터미널"
+title = "160. 세션 (Session) 및 제어 터미널 (Controlling Terminal)"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

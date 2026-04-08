@@ -1,5 +1,5 @@
 +++
-title = "1076. ARP 스푸핑 방어 (DAI)"
+title = "1076. ARP 스푸핑 중간자 방어 (동적 검사 체계)"
 weight = 1076
 +++
 # 1076. ARP 스푸핑 중간자 방어 (동적 검사 체계) - ARP Spoofing Man-in-the-Middle (MITM) Dynamic ARP Inspection DHCP 스누핑 바인딩 네트워크 L2 보안

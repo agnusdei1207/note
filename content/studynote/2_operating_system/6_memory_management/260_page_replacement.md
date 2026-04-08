@@ -1,6 +1,6 @@
 +++
 weight = 260
-title = "260. 페이지 교체 (Page Replacement)"
+title = "260. ABA 문제 해결책 - 태그/버전 관리"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

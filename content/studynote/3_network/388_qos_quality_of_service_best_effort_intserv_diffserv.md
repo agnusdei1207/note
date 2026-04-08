@@ -1,5 +1,5 @@
 +++
-title = "388. QoS (Quality of Service) - 최선/Int/Diff"
+title = "388. QoS (Quality of Service) - Best Effort, IntServ, DiffServ"
 weight = 388
 +++
 

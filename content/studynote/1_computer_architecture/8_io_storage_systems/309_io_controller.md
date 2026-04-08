@@ -1,6 +1,6 @@
 +++
 weight = 309
-title = "309. I/O 제어기 (I/O Controller)"
+title = "309. 입출력 모듈 (I/O Module)"
 date = "2026-03-26"
 [extra]
 categories = "studynote-computer-architecture"

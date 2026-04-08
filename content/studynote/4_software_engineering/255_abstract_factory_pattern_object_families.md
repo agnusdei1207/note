@@ -1,5 +1,5 @@
 +++
-title = "255. 추상 팩토리 (Abstract Factory)"
+title = "255. 추상 팩토리 (Abstract Factory) - 구체적인 클래스 지정 없이 연관 객체군 생성"
 weight = 255
 +++
 # 255. 추상 팩토리 (Abstract Factory) - 구체적인 클래스 지정 없이 연관 객체군 생성 공장 그룹 테마 UI 생성 패턴 GoF

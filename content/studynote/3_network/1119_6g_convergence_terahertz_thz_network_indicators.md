@@ -1,5 +1,5 @@
 +++
-title = "1119. 6G 테라헤르츠 지표"
+title = "1119. 6G 융합 테라헤르츠 예측 지표망"
 weight = 1119
 +++
 # 1119. 6G 융합 테라헤르츠 예측 지표망 - 6th Generation Mobile Networks THz 통신 1Tbps 극한 초저지연 입체 통신망 홀로그램 AI 내재화 KPI 지표

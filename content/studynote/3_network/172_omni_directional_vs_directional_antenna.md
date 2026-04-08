@@ -1,5 +1,5 @@
 +++
-title = "172. 무지향성 안테나 vs 지향성 안테나"
+title = "172. 무지향성 안테나 (Omni-Directional) vs 지향성 안테나 (Directional)"
 weight = 172
 +++
 

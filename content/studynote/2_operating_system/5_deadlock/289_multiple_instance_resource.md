@@ -1,6 +1,6 @@
 +++
 weight = 289
-title = "289. 다중 인스턴스 자원 환경 (Multiple Instance)"
+title = "289. 다중 인스턴스 자원 환경 - 사이클 존재 != 교착 상태 (필요 조건일 뿐)"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

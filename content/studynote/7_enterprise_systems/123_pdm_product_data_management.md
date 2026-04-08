@@ -1,6 +1,6 @@
 +++
 weight = 123
-title = "123. PDM (Product Data Management) - 제품 설계 데이터 관리"
+title = "123. PDM (Product Data Management) - 도면, BOM 등 제품 설계 데이터 관리 (PLM의 전신)"
 date = "2026-04-02"
 [extra]
 categories = "studynote-enterprise"

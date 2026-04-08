@@ -1,5 +1,5 @@
 +++
-title = "80. 초자동화 (Hyperautomation)"
+title = "80. 초자동화 (Hyperautomation) - RPA에 AI, ML, 프로세스 마이닝 등을 결합한 종단간 자동화 트렌드 (가트너)"
 weight = 80
 +++
 

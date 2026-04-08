@@ -1,6 +1,6 @@
 +++
 weight = 893
-title = "93. LoadBalancer"
+title = "893. LoadBalancer"
 description = "LoadBalancer: 클라우드 인프라와 연동하여 외부 공인 IP를 할당받고 외부 트래픽을 Service로 분산시키는 쿠버네티스 Service 유형"
 date = 2026-03-26
 

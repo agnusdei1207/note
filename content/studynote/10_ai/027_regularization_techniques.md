@@ -1,6 +1,6 @@
 +++
 weight = 27
-title = "027. 정규화 (Regularization) 기법"
+title = "27. 분산 (Variance) - 모델이 학습 데이터의 노이즈까지 과도하게 외워버림 (과대적합, Overfitting)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-ai"

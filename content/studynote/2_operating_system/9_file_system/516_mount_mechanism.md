@@ -1,6 +1,6 @@
 +++
 weight = 516
-title = "516. 마운트 (Mount) 메커니즘"
+title = "516. 마운트 (Mount) 메커니즘 - 다른 파일 시스템을 디렉터리 트리의 특정 지점에 연결"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

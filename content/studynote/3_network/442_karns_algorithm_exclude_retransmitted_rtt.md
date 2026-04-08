@@ -1,5 +1,5 @@
 +++
-title = "442. 칸 알고리즘 (Karn's Algorithm) - RTT 딜레마"
+title = "442. 칸 알고리즘 (Karn's Algorithm) - 재전송 패킷 RTT 샘플 제외"
 weight = 442
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "248. DTP / VTP (Cisco 다이내믹 VLAN 프로토콜)"
+title = "248. DTP (Dynamic Trunking Protocol) / VTP (VLAN Trunking Protocol) - Cisco 전용"
 weight = 248
 +++
 

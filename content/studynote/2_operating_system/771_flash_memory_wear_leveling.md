@@ -1,6 +1,6 @@
 +++
 weight = 771
-title = "771. 플래시 메모리 마모 평준화"
+title = "771. 플래시 메모리 마모 평준화 (Wear Leveling)"
 date = "2026-03-30"
 [extra]
 categories = ["studynote-operating-system"]

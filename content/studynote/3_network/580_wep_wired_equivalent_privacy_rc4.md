@@ -1,5 +1,5 @@
 +++
-title = "580. WEP (Wired Equivalent Privacy)"
+title = "580. WEP (Wired Equivalent Privacy) - RC4 기반, 취약점(정적키) 노출"
 weight = 580
 +++
 # 580. WEP (Wired Equivalent Privacy) - RC4 기반, 정적키 노출

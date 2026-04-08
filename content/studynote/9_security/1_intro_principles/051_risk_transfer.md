@@ -1,6 +1,6 @@
 +++
 weight = 51
-title = "051. 위험 전가 (Risk Transfer)"
+title = "51. North-South 트래픽 통제 — 경계 방어"
 date = "2026-04-05"
 [extra]
 categories = "studynote-security"

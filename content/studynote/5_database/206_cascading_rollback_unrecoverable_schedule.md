@@ -1,5 +1,5 @@
 +++
-title = "206. 연쇄 복귀 (Cascading Rollback)"
+title = "206. 연쇄 복귀 (Cascading Rollback) - 한 트랜잭션 취소 시, 의존하던 다른 트랜잭션도 연쇄 취소"
 weight = 206
 +++
 # 206. 연쇄 복귀 (Cascading Rollback) - 병행 수행 문제 연쇄 취소 의존성 오손 읽기(Dirty Read) 무결성 붕괴 회복 불가능(Unrecoverable) 스케줄

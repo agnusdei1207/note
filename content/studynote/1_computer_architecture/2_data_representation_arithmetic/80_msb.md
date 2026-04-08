@@ -1,6 +1,6 @@
 +++
 weight = 80
-title = "80. MSB (Most Significant Bit, 최상위 비트)"
+title = "80. MSB (Most Significant Bit)"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

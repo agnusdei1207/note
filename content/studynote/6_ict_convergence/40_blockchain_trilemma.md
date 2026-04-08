@@ -1,5 +1,5 @@
 +++
-title = "40. 블록체인 트릴레마 (Blockchain Trilemma)"
+title = "40. 블록체인 트릴레마 (Blockchain Trilemma) - 확장성(Scalability), 탈중앙화(Decentralization), 보안성(Security) 세 가지를 동시에 완벽히 만족할 수 없는 문제"
 weight = 40
 +++
 

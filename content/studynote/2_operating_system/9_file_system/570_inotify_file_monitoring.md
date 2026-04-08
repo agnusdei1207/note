@@ -1,6 +1,6 @@
 +++
 weight = 570
-title = "570. 리눅스 inotify API - 파일 감시 레이더망"
+title = "570. 리눅스 inotify 시스템 - 파일/디렉터리 변경 이벤트 모니터링 API"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

@@ -1,6 +1,6 @@
 +++
 weight = 38
-title = "후보 키와 대체 키 (Candidate Key / Alternate Key)"
+title = "538. 다중 모델 데이터베이스 융합 조회 연동성"
 description = "후보 키와 대체 키의 정의와 관계"
 date = 2026-03-26
 

@@ -1,5 +1,5 @@
 +++
-title = "116. 블루/그린 배포 (Blue/Green Deployment)"
+title = "116. 블루/그린 배포 (Blue/Green Deployment) - 무중단 배포 전략"
 weight = 116
 +++
 

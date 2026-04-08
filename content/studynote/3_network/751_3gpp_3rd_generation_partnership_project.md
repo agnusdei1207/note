@@ -1,5 +1,5 @@
 +++
-title = "751. 3GPP (3rd Generation Partnership Project)"
+title = "751. 3GPP (3rd Generation Partnership Project) 표준 개발"
 weight = 751
 +++
 # 751. 3GPP (3rd Generation Partnership Project) - 이동통신 표준 개발

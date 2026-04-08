@@ -1,6 +1,6 @@
 +++
 weight = 229
-title = "229. 모니터 (Monitor)"
+title = "229. Compare-and-Swap (CAS) 명령어"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

@@ -1,6 +1,6 @@
 +++
 weight = 206
-title = "206. 우선순위 상속 (Priority Inheritance, PI)"
+title = "206. RM (Rate-Monotonic) 스케줄링 - 주기가 짧을수록 높은 우선순위 (정적 우선순위)"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

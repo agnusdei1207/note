@@ -1,5 +1,5 @@
 +++
-title = "1113. 5G SA/NSA 아키텍처 비교"
+title = "1113. 5G SA/NSA 아키텍처 비교망"
 weight = 1113
 +++
 # 1113. 5G SA/NSA 아키텍처 비교망 - Standalone Non-Standalone 5G 코어망 옵션 3X 듀얼 커넥티비티 EPC 융합 5GC 진화 모델 트래픽 오프로드

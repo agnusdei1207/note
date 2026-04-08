@@ -1,5 +1,5 @@
 +++
-title = "Prime+Probe 기법"
+title = "775. Prime+Probe 기법"
 date = 2026-03-20
 weight = 775
 description = "가상 머신 환경이나 클라우드에서, 해커가 캐시 메모리를 자신의 쓰레기 데이터로 가득 채운(Prime) 뒤, 나중에 피해자가 어떤 캐시 공간을 비웠는지 찔러보며(Probe) 비밀을 훔치는 캐시 타이밍 공격 기법"

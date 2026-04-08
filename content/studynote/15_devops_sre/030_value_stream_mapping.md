@@ -1,6 +1,6 @@
 +++
 weight = 30
-title = "030. 가치 흐름 매핑 (Value Stream Mapping)"
+title = "30. 골든 패스 (Golden Path / Paved Road) - 조직 내에서 권장되는 가장 안전하고 자동화된 표준 개발/배포 경로 (가이드라인)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

@@ -1,6 +1,6 @@
 +++
 weight = 584
-title = "584. AppArmor (Application Armor)"
+title = "584. AppArmor - 경로 기반 MAC 구현 모듈"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

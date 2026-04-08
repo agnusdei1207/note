@@ -1,6 +1,6 @@
 +++
 weight = 57
-title = "57. RPA (Robotic Process Automation)"
+title = "57. 구독 경제 (Subscription Economy) / XaaS (Everything as a Service)"
 description = "소프트웨어 로봇을 활용하여(rule-based) 반복적·정형화된 업무 프로세스를 자동화하며, 인간의 컴퓨터 작업을 대체·보완하는RPA 기술"
 date = "2026-03-04"
 [taxonomies]

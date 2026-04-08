@@ -1,5 +1,5 @@
 +++
-title = "1098. LACP 이더채널 포트 그룹화"
+title = "1098. LACP 이더채널 포트 논리 그룹화"
 weight = 1098
 +++
 # 1098. LACP 이더채널 포트 논리 그룹화 - Link Aggregation Control Protocol 물리적 링크 본딩 대역폭 확장 로드밸런싱 포트 트렁킹 802.3ad 이중화 무중단

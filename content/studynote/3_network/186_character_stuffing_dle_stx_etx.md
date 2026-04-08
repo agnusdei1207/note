@@ -1,5 +1,5 @@
 +++
-title = "186. 문자 삽입 (Character/Byte Stuffing) - DLE, STX, ETX"
+title = "186. 플래그(Flag) 방식 - 문자 삽입 (Character/Byte Stuffing) - DLE, STX, ETX"
 weight = 186
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "ERD 표기법 (IE, Barker, IDEF1X)"
+title = "130. ERD 표기법 - IE(Information Engineering, 까마귀발 표기법), Barker, IDEF1X"
 weight = 130
 +++
 

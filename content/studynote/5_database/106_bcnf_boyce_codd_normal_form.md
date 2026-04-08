@@ -1,5 +1,5 @@
 +++
-title = "106. BCNF (보이스-코드 정규형) - 강한 제3정규형"
+title = "106. BCNF (Boyce-Codd Normal Form) - 3NF 만족 및 모든 결정자가 후보키 (강한 3NF)"
 weight = 106
 +++
 

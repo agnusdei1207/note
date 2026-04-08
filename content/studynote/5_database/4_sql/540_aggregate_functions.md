@@ -1,6 +1,6 @@
 +++
 weight = 40
-title = "집계 함수 (Aggregate Functions)"
+title = "540. 데이터 가상화 연방 쿼리 (Federated Query) 실행 엔진"
 description = "주요 SQL 집계 함수"
 date = 2026-03-26
 

@@ -1,6 +1,6 @@
 +++
 weight = 532
-title = "샤딩 (Sharding)"
+title = "532. 3PC 타임아웃 우회 비블로킹 프로토콜 통신 구조"
 description = "데이터를 여러 노드에 분산 저장하는 샤딩에 대해 설명"
 date = 2024-01-01
 

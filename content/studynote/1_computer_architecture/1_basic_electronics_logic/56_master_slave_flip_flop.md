@@ -1,6 +1,6 @@
 +++
 weight = 56
-title = "56. 마스터-슬레이브 플립플롭 (Master-Slave Flip-Flop)"
+title = "56. 마스터-슬레이브 플립플롭"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

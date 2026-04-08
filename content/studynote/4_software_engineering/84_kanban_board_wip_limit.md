@@ -1,5 +1,5 @@
 +++
-title = "84. 칸반 (Kanban) - 워크플로우 시각화와 WIP"
+title = "84. 칸반 (Kanban) - 워크플로우 시각화, WIP(Work In Progress) 제한"
 weight = 84
 +++
 

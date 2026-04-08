@@ -1,5 +1,5 @@
 +++
-title = "270. 복제 (Replication) - 동기식 vs 비동기식"
+title = "270. 복제 (Replication) - 동기식 복제 (Synchronous) vs 비동기식 복제 (Asynchronous)"
 weight = 270
 +++
 

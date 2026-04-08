@@ -1,5 +1,5 @@
 +++
-title = "742. SWG (시큐어 웹 게이트웨이)"
+title = "742. SWG (Secure Web Gateway 시큐어 웹 게이트웨이 / 프록시 보안 패키지 모델 구조적 설계)"
 weight = 742
 +++
 # 742. SWG (Secure Web Gateway) - 프록시 보안 패키지 모델 구조적 설계

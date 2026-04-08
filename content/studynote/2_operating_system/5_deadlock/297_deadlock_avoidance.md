@@ -1,6 +1,6 @@
 +++
 weight = 297
-title = "297. 교착 상태 회피 (Deadlock Avoidance)"
+title = "297. 교착 상태 회피 (Deadlock Avoidance) - 실행 전 자원 할당 상태를 검사하여 안전한 경우에만 승인"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

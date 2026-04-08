@@ -1,6 +1,6 @@
 +++
 weight = 32
-title = "032. 결정 트리 (Decision Tree)"
+title = "32. 회귀 (Regression) - 연속적인 수치 예측 (집값, 주가)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-ai"

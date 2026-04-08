@@ -1,5 +1,5 @@
 +++
-title = "생성 패턴"
+title = "825. 생성 패턴"
 description = "Creational Design Patterns"
 category = "4_software_engineering"
 weight = 825

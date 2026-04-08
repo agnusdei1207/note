@@ -1,5 +1,5 @@
 +++
-title = "50. CMDB (Configuration Management Database)"
+title = "50. CMDB (Configuration Management Database) - IT 인프라 구성 항목(CI) 자산 및 종속성 관리 데이터베이스"
 weight = 50
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "659. GCM 모드 (AEAD)"
+title = "659. GCM (Galois/Counter Mode) 모드 - 암호화와 더불어 데이터 인증 기능 탑재 (AEAD - TLS 1.3의 핵심 모드)"
 weight = 659
 +++
 # 659. GCM (Galois/Counter Mode) 모드 - 암호화와 인증 동시 적용 (AEAD)

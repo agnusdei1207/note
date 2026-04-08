@@ -1,5 +1,5 @@
 +++
-title = "39. 린 스타트업 (Lean Startup)"
+title = "39. 린 스타트업 (Lean Startup) - 에릭 리스, '만들고-측정하고-학습하는(Build-Measure-Learn)' 피드백 루프 기반의 빠른 검증 전략"
 weight = 39
 +++
 

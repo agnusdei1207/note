@@ -1,6 +1,6 @@
 +++
 weight = 47
-title = "047. 계층적 군집화 (Hierarchical Clustering)"
+title = "47. F1-Score - 정밀도와 재현율의 조화 평균"
 date = "2026-04-05"
 [extra]
 categories = "studynote-ai"

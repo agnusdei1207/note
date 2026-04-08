@@ -1,6 +1,6 @@
 +++
 weight = 499
-title = "499. NVMe over Fabrics (NVMe-oF)"
+title = "499. NVMe over Fabrics (NVMe-oF) - RDMA 기반 네트워크 SSD 고속 연결 프로토콜"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

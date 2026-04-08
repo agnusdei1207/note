@@ -1,6 +1,6 @@
 +++
 weight = 493
-title = "493. SAN (Storage Area Network)"
+title = "493. SAN (Storage Area Network) - 블록 단위 전용 네트워크 접근 (Fibre Channel, iSCSI)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

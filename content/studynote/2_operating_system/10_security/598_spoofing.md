@@ -1,6 +1,6 @@
 +++
 weight = 598
-title = "598. 스푸핑 (Spoofing) 위장 공격"
+title = "598. 스푸핑 (Spoofing) - IP/MAC 등 신분 위장"
 date = "2026-03-25"
 [extra]
 categories = "studynote-operating-system"

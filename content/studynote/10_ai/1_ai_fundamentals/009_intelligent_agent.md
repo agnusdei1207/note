@@ -1,6 +1,6 @@
 +++
 weight = 9
-title = "지능형 에이전트"
+title = "9. 전문가 시스템 (Expert System) - 특정 분야 전문가의 지식을 룰 기반으로 구현 (MYCIN, DENDRAL)"
 description = "지능형 에이전트(Intelligent Agent)의 정의, 구조, 종류, 환경과의 상호작용"
 category = "10_ai"
 +++

@@ -1,5 +1,5 @@
 +++
-title = "66. 데이터 거버넌스 (Data Governance)"
+title = "66. 데이터 거버넌스 (Data Governance) - 데이터 품질, 보안, 프라이버시 전사 관리 체계"
 weight = 66
 +++
 

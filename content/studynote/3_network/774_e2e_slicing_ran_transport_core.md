@@ -1,5 +1,5 @@
 +++
-title = "774. E2E 슬라이싱 보장 (RAN-Transport-Core)"
+title = "774. E2E 슬라이싱 보장 모델 관리 (RAN-Transport-Core 종단 통과 자원 보장 체계 통제 연동 규격 파싱 자원 논리 분배 제어 구성 구조 모델 개념 기술 요약망 적용/배포 방침)"
 weight = 774
 +++
 # 774. E2E 슬라이싱 보장 모델 관리 (RAN-Transport-Core 종단 통과)

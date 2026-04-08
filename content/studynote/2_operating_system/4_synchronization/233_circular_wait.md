@@ -1,6 +1,6 @@
 +++
 weight = 233
-title = "233. 순환 대기 (Circular Wait)"
+title = "233. 스핀락 (Spinlock) - 바쁜 대기(Busy Waiting), 다중 코어에서 문맥 교환 오버헤드 없음"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

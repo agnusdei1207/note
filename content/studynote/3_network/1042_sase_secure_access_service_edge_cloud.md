@@ -1,5 +1,5 @@
 +++
-title = "1042. SASE 네트워킹/보안 융합"
+title = "1042. SASE 네트워킹/보안 융합 클라우드"
 weight = 1042
 +++
 # 1042. SASE 네트워킹/보안 융합 클라우드 - Secure Access Service Edge 엣지 보안 통신 아키텍처 SD-WAN SWG CASB ZTNA 융합 모델

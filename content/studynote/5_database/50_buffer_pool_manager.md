@@ -1,5 +1,5 @@
 +++
-title = "50. 버퍼 풀 (Buffer Pool) / 버퍼 관리자"
+title = "50. 버퍼 풀 (Buffer Pool) / 버퍼 관리자 - 디스크 접근 최소화"
 weight = 50
 +++
 

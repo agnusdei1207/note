@@ -1,6 +1,6 @@
 +++
 weight = 27
-title = "027. 위험 식별 (Risk Identification)"
+title = "27. 위험 식별 (Risk Identification) — 자산·위협·취약점 목록화"
 date = "2026-04-05"
 [extra]
 categories = "studynote-security"

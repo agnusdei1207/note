@@ -1,5 +1,5 @@
 +++
-title = "316. Gratuitous ARP (G-ARP) - 무상 ARP"
+title = "316. Gratuitous ARP (G-ARP) - 자신의 IP 충돌 감지 및 캐시 갱신 목적"
 weight = 316
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 44
-title = "반정규화 (Denormalization)"
+title = "544. SQL 인젝션 논리 에러/타임베이스 블라인드 주입 체계망"
 description = "반정규화의 정의와 적용"
 date = 2026-03-26
 

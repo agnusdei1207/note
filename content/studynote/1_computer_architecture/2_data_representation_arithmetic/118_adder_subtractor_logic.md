@@ -1,6 +1,6 @@
 +++
 weight = 118
-title = "가산기/감산기 논리 (Adder/Subtractor Logic)"
+title = "118. 가산기/감산기 논리"
 +++
 
 # 가산기/감산기 논리 (Adder/Subtractor Logic)

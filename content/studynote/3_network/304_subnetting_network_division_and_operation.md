@@ -1,5 +1,5 @@
 +++
-title = "304. 서브네팅 (Subnetting) - AND 연산 분할"
+title = "304. 서브네팅 (Subnetting) - 네트워크 분할 (AND 연산)"
 weight = 304
 +++
 

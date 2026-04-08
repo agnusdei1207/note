@@ -1,5 +1,5 @@
 +++
-title = "361. OSPF 트래픽 엔지니어링 (OSPF-TE)"
+title = "361. OSPF 트래픽엔지니어링(TE) 연동"
 weight = 361
 +++
 

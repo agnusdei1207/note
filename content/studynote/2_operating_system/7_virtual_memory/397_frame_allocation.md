@@ -1,6 +1,6 @@
 +++
 weight = 397
-title = "397. 프레임 할당 (Frame Allocation) 알고리즘 다중 프로그래밍의 파이 나누기"
+title = "397. 프레임 할당 (Frame Allocation) 알고리즘"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

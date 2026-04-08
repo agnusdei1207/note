@@ -1,5 +1,5 @@
 +++
-title = "188. 피쳐 모델 (Feature Model)"
+title = "188. 피쳐 모델 (Feature Model) 가변성 트리"
 weight = 188
 +++
 # 188. 피쳐 모델 (Feature Model) 가변성 트리

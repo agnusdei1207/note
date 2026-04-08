@@ -1,6 +1,6 @@
 +++
 weight = 137
-title = "137. 셀프 조인 (Self Join) - 계층형 및 순환 구조 데이터 탐색"
+title = "137. Left Outer Join / Right Outer Join / Full Outer Join"
 date = "2026-04-02"
 [extra]
 categories = "studynote-database"

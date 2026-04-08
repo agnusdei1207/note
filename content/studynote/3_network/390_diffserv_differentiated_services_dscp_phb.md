@@ -1,5 +1,5 @@
 +++
-title = "390. DiffServ (DSCP 6비트와 PHB)"
+title = "390. DiffServ (Differentiated Services) - 트래픽 차등 처리, DSCP(6bit) PHB"
 weight = 390
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "208. 스케줄 (Schedule / History)"
+title = "208. 스케줄 (Schedule / History) - 트랜잭션 연산의 실행 순서"
 weight = 208
 +++
 # 208. 스케줄 (Schedule / History) - 트랜잭션 연산 실행 순서 병행 제어 인터리빙 직렬 비직렬 다중 프로그래밍 데이터 일관성

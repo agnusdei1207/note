@@ -1,5 +1,5 @@
 +++
-title = "EMFI (Electromagnetic Fault Injection, 전자기 결함 주입)"
+title = "773. EMFI (Electromagnetic Fault Injection)"
 date = 2026-03-20
 weight = 773
 description = "칩에 직접 핀을 꽂지 않고, 강한 전자기파(EMP) 펄스를 칩 표면에 쏴서 내부 트랜지스터를 오작동(Bit-flip)하게 만들어 보안 시스템을 뚫는 비접촉식 하드웨어 해킹"

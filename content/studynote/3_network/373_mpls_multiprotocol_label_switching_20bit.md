@@ -1,5 +1,5 @@
 +++
-title = "373. MPLS (Multiprotocol Label Switching)"
+title = "373. MPLS (Multiprotocol Label Switching) - IP가 아닌 20비트 Label로 스위칭"
 weight = 373
 +++
 

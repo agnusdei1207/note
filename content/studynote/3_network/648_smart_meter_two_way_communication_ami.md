@@ -1,5 +1,5 @@
 +++
-title = "648. 양방향 스마트 계량기 (Smart Meter)"
+title = "648. 양방향 스마트 계량기 (Smart Meter 통신 규격)"
 weight = 648
 +++
 # 648. 양방향 스마트 계량기 (Smart Meter 통신 규격)

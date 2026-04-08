@@ -1,5 +1,5 @@
 +++
-title = "231. 아키텍처 결정 기록 (ADR)"
+title = "231. ADR (Architecture Decision Record) - 아키텍처 결정 기록"
 weight = 231
 +++
 # 231. 아키텍처 결정 기록 (ADR, Architecture Decision Record) - 설계 의사결정 문서화 컨텍스트 트레이드오프 결과 히스토리 마이크로서비스 지식 전수

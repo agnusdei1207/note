@@ -1,5 +1,5 @@
 +++
-title = "75. 애자일 PMO Project Management Office"
+title = "75. 애자일 PMO (Project Management Office) - 폭포수 통제를 넘어 애자일 지원 조직으로의 전환"
 date = "2026-04-07"
 [extra]
 categories = "studynote-enterprise"

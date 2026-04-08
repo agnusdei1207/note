@@ -1,6 +1,6 @@
 +++
 weight = 590
-title = "590. 웜 (Worm) - 자율적 침투자"
+title = "590. 웜 (Worm) - 자가 복제 네트워크 전파 독자 실행"
 date = "2026-03-25"
 [extra]
 categories = "studynote-operating-system"

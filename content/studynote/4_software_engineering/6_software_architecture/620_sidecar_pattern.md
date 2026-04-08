@@ -1,6 +1,6 @@
 +++
 weight = 20
-title = "사이드카 패턴"
+title = "620. 이벤트 소싱 상태 재생 가능성 보장"
 description = "사이카(Sidecar) 패턴의 개념, 프록시 배치, Concern 분리"
 date = 2024-02-02
 

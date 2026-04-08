@@ -1,5 +1,5 @@
 +++
-title = "94. 함수적 종속성 (Functional Dependency, FD)"
+title = "94. 함수적 종속성 (Functional Dependency, FD) - X의 값이 Y의 값을 유일하게 결정할 때 (X -> Y)"
 weight = 94
 +++
 

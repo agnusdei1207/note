@@ -1,6 +1,6 @@
 +++
 weight = 55
-title = "55. Trunk-Based Development (트렁크 기반 개발)"
+title = "55. 워크플로우 오케스트레이터 (Workflow Orchestrator)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

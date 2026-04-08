@@ -1,6 +1,6 @@
 +++
 weight = 3
-title = "03. CALMS 프레임워크"
+title = "3. CALMS 프레임워크 - DevOps 5대 핵심 가치 (Culture 문화, Automation 자동화, Lean 린 IT, Measurement 측정, Sharing 공유)"
 date = "2026-04-05"
 [taxonomies]
 tags = ["CALMS", "데브옵스", "프레임워크", "문화", "자동화"]

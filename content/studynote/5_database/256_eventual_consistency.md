@@ -1,5 +1,5 @@
 +++
-title = "256. 결과적 일관성 (Eventual Consistency)"
+title = "256. 결과적 일관성 (Eventual Consistency) - 일정 시간이 지나면 결국 동기화됨 (AP 시스템 특징, BASE 특성)"
 weight = 256
 +++
 

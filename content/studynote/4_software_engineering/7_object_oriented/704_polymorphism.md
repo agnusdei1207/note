@@ -1,6 +1,6 @@
 +++
 weight = 704
-title = "다형성"
+title = "704. 피쳐 플래그 런타임 기능 토글"
 description = "다형성(Polymorphism)의 개념, 컴파일 타임 vs 런타임 다형성"
 date = 2024-02-06
 

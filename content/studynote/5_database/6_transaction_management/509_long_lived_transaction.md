@@ -1,6 +1,6 @@
 +++
 weight = 9
-title = "장기간 트랜잭션 (Long-Lived Transaction)"
+title = "509. 클러스터링 팩터 인덱스 효율 평가 지표"
 description = "장시간 활성 상태를 유지하는 트랜잭션의 문제점과 대처 방안에 대해 설명"
 date = 2024-01-01
 

@@ -1,5 +1,5 @@
 +++
-title = "Redfish 관리 API"
+title = "711. Redfish 관리 API"
 date = 2026-03-20
 weight = 711
 description = "오래되고 느리고 보안에 취약한 구형 IPMI 프로토콜을 대체하기 위해 등장한, 최신 웹 표준(RESTful API와 JSON) 기반의 차세대 데이터센터 하드웨어 관리 규격"

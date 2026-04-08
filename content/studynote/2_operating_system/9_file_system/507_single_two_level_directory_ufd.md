@@ -1,6 +1,6 @@
 +++
 weight = 507
-title = "507. 1단계 디렉터리 / 2단계 디렉터리 (UFD)"
+title = "507. 1단계 디렉터리 / 2단계 디렉터리 (사용자별 UFD)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

@@ -1,6 +1,6 @@
 +++
 weight = 492
-title = "492. NAS (Network Attached Storage)"
+title = "492. NAS (Network Attached Storage) - 파일 단위 접근 (NFS, SMB/CIFS)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

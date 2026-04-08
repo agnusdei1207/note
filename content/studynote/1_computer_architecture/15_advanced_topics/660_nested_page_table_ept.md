@@ -1,5 +1,5 @@
 +++
-title = "중첩 페이지 테이블 (Nested Page Table, NPT) / 확장 페이지 테이블 (EPT)"
+title = "660. 중첩 페이지 테이블 (Nested Page Table, NPT)"
 date = 2026-03-20
 weight = 660
 description = "가상 머신(VM) 환경에서 2번 번역해야 하는 메모리 주소의 비효율성을 극복하기 위해, CPU 하드웨어 MMU 내부에 2차원 번역기를 달아 속도를 극대화한 메모리 가상화 기술"

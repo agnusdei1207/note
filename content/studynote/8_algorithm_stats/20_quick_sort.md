@@ -1,5 +1,5 @@
 +++
-title = "20. 퀵 정렬 (Quick Sort)"
+title = "20. 퀵 정렬 (Quick Sort) — 평균 O(n log n), 최악 O(n²), 불안정"
 weight = 20
 +++
 

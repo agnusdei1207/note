@@ -1,6 +1,6 @@
 +++
 weight = 2
-title = "튜링 테스트"
+title = "2. 튜링 테스트 (Turing Test) - 앨런 튜링 제안, 기계가 지능이 있는지를 판별하는 텍스트 대화 시험"
 description = "앨런 튜링(Alan Turing)이 제안한 인공지능의 지능 판별 기준, Criticism과 현대적 의의"
 category = "10_ai"
 +++

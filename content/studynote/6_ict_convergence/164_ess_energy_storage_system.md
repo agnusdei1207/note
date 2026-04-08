@@ -1,5 +1,5 @@
 +++
-title = "164. ESS (에너지 저장 장치)"
+title = "164. ESS (Energy Storage System) - 남는 전력을 배터리에 저장했다가 피크 타임에 방전하는 에너지 저장 장치"
 weight = 164
 +++
 # 164. ESS (Energy Storage System)

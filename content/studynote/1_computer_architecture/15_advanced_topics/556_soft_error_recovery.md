@@ -1,5 +1,5 @@
 +++
-title = "소프트 에러 복구 매커니즘 (Soft Error Recovery Mechanism)"
+title = "556. 소프트 에러 복구 매커니즘"
 date = 2026-03-20
 weight = 556
 description = "우주선이나 방사선으로 인해 발생한 일시적인 하드웨어 오류(Soft Error)를 시스템 중단 없이 감지하고 복구하는 아키텍처 수준의 종합 방어 체계"

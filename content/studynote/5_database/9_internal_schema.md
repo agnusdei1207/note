@@ -1,6 +1,6 @@
 +++
 weight = 9
-title = "09. 내부 스키마 (Internal Schema)"
+title = "9. 내부 스키마 (Internal Schema) - 물리적 저장 장치 관점"
 description = "물리적 저장 장치 관점의 데이터베이스 스키마와 최적화 원리"
 date = "2024-05-20"
 [taxonomies]

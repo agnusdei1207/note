@@ -1,5 +1,5 @@
 +++
-title = "726. XSS (크로스 사이트 스크립팅)"
+title = "726. 무차별 대입 공격 (Brute Force / 사전 Dictionary 제어) 통신 로그인/SSH 타격"
 weight = 726
 +++
 # 726. XSS (Cross Site Scripting) 개요와 3대 기법 (Stored / Reflected / DOM)

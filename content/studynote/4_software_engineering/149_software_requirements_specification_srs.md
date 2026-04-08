@@ -1,6 +1,6 @@
 +++
 weight = 149
-title = "소프트웨어 요구사항 명세서 (SRS)"
+title = "149. 소프트웨어 요구사항 명세서 (SRS, Software Requirements Specification)"
 description = "고객의 요구를 시스템이 갖춰야 할 기능과 제약 조건으로 완벽히 번역하여, 개발자와 고객 간의 모호성을 제거하고 프로젝트의 성공 여부를 채점하는 공식 계약서"
 date = 2026-04-03
 [taxonomies]

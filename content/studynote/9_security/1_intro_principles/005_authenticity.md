@@ -1,6 +1,6 @@
 +++
 weight = 5
-title = "05. 인증성 (Authenticity)"
+title = "5. 인증성 (Authenticity) — 신원 확인, PKI, 디지털 서명, 메시지 인증"
 description = "정보 주체의 신원과 정보 출처의 진위 여부를 암호학적으로 증명하는 인증성의 원리, PKI 및 실무 적용 방안"
 date = "2023-10-24"
 [taxonomies]

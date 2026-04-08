@@ -1,5 +1,5 @@
 +++
-title = "811. 인피니밴드 (InfiniBand)"
+title = "811. 인피니밴드 (InfiniBand) - RDMA 기반 초고속, 초저지연 컴퓨터 클러스터 인터커넥트망 (HPC, AI 클러스터 망)"
 weight = 811
 +++
 # 811. 인피니밴드 (InfiniBand) - 고성능 컴퓨팅(HPC) 클러스터 초저지연 스위칭 통신망

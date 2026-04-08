@@ -1,6 +1,6 @@
 +++
 weight = 462
-title = "462. 소프트 에러와 하드 에러 (Soft Error / Hard Error)"
+title = "462. 소프트 에러 (Soft Error)와 하드 에러 (Hard Error)"
 date = "2026-03-22"
 [extra]
 categories = "studynote-computer-architecture"

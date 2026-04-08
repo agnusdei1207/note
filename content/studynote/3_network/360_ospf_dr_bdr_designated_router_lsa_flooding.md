@@ -1,5 +1,5 @@
 +++
-title = "360. DR / BDR - OSPF 브로드캐스트 망 제어"
+title = "360. DR (Designated Router), BDR - 브로드캐스트 망에서 LSA 플러딩 최소화"
 weight = 360
 +++
 

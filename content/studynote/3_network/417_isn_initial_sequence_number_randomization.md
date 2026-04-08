@@ -1,5 +1,5 @@
 +++
-title = "417. ISN (초기 시퀀스 번호) 무작위 할당의 이유"
+title = "417. ISN (Initial Sequence Number) 무작위 할당 이유 (보안성 강화)"
 weight = 417
 +++
 

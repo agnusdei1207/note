@@ -1,5 +1,5 @@
 +++
-title = "114. Modulo 연산 — RSA 핵심인 나머지 연산"
+title = "114. modulo 연산 — RSA 핵심인 나머지 연산"
 date = "2026-04-05"
 weight = 114
 [extra]

@@ -1,6 +1,6 @@
 +++
 weight = 553
-title = "553. 이동통신 셀 토폴로지 - 매크로 셀(Macro), 마이크로/피코/펨토 셀(Small Cell) 아키텍처"
+title = "553. 매크로 뷰 (Macro Cell) 토폴로지 / 피코 셀(Pico)/마이크로 셀(Micro)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

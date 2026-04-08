@@ -1,5 +1,5 @@
 +++
-title = "71. 대체 키 (Alternate Key)"
+title = "71. 대체 키 (Alternate Key) - 후보 키 중 기본 키로 선택되지 않은 나머지 키"
 weight = 71
 +++
 

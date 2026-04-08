@@ -1,6 +1,6 @@
 +++
 weight = 118
-title = "118. 초광대역 (UWB, Ultra-Wideband) 무선 통신 기술"
+title = "118. MQTT (Message Queuing Telemetry Transport) - TCP 기반, 퍼블리시/서브스크라이브 (Pub/Sub) 모델의 초경량 IoT 메시지 프로토콜, 브로커(Broker) 필수"
 date = "2026-04-02"
 [extra]
 categories = "studynote-ict-convergence"

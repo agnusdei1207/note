@@ -1,5 +1,5 @@
 +++
-title = "585. RAG (Retrieval-Augmented Generation) 패턴 아키텍처"
+title = "585. RAG (Retrieval-Augmented Generation) 패턴 아키텍처 통합 설계"
 +++
 
 # 585. RAG (Retrieval-Augmented Generation) 패턴 아키텍처 통합 설계

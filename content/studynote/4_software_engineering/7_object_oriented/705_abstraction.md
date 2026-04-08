@@ -1,6 +1,6 @@
 +++
 weight = 705
-title = "추상화"
+title = "705. 서비스 메시 (Istio) 사이드카 통신 제어"
 description = "추상화(Abstraction)의 개념, 추상 클래스와 인터페이스"
 date = 2024-02-07
 

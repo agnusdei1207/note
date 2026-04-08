@@ -1,5 +1,5 @@
 +++
-title = "229. ATAM"
+title = "229. ATAM (Architecture Trade-off Analysis Method) - 품질 속성 간 상충 관계 분석"
 weight = 229
 +++
 # 229. ATAM (Architecture Trade-off Analysis Method) - 아키텍처 트레이드오프 분석 방법 품질 속성 상충 관계 민감점(Sensitivity Point) 타협점 카네기 멜런 대학(SEI) 평가 표준

@@ -1,5 +1,5 @@
 +++
-title = "440. 일관성 오라클 (Consistent Oracle)"
+title = "440. 일관성 오라클 (Consistent Oracle) - 변경 전/후의 결과가 동일한지 확인 (회귀 테스트에 유용)"
 date = 2026-04-05
 weight = 440
 +++

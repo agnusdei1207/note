@@ -1,5 +1,5 @@
 +++
-title = "1069. WebRTC NAT 횡단 (STUN/TURN/ICE)"
+title = "1069. WebRTC NAT 횡단 (STUN/TURN/ICE 통합)"
 weight = 1069
 +++
 # 1069. WebRTC NAT 횡단 (STUN/TURN/ICE 통합) - 브라우저 P2P 실시간 화상 통신 홀 펀칭 라우터 사설 IP 장벽 돌파 아키텍처

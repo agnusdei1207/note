@@ -1,5 +1,5 @@
 +++
-title = "97. DevOps (개발+운영) - 철학과 CALMS"
+title = "97. DevOps (Development + Operations) - 문화, 자동화, 측정, 공유"
 weight = 97
 +++
 

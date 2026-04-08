@@ -1,5 +1,5 @@
 +++
-title = "168. 다중 경로 페이딩 (Multipath Fading)"
+title = "168. 다중 경로 페이딩 (Multipath Fading) - 주파수 선택적/평탄 페이딩"
 weight = 168
 +++
 

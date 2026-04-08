@@ -1,5 +1,5 @@
 +++
-title = "비순차 메모리 접근 (Out-of-Order Memory Access)"
+title = "506. 비순차 메모리 접근"
 date = 2026-03-20
 weight = 506
 description = "명령어 스케줄링 시 ALU 연산뿐만 아니라 메모리 읽기(Load)/쓰기(Store) 명령어의 순서도 뒤바꾸어 성능을 극대화하는 기법"

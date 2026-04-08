@@ -1,6 +1,6 @@
 +++
 weight = 294
-title = "294. 점유 대기 부정 - 기아 가능성 및 자원 낭비"
+title = "294. 점유 대기 부정 - 실행 전 모든 자원 일괄 할당, 또는 자원 없을 때만 요청 (기아 가능성, 자원 낭비)"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

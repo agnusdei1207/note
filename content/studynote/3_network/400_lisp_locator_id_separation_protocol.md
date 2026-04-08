@@ -1,5 +1,5 @@
 +++
-title = "400. 로케이터/ID 분리 구조 (LISP)"
+title = "400. 로케이터/ID 분리 구조 (LISP - Locator/ID Separation Protocol)"
 weight = 400
 +++
 

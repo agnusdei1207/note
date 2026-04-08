@@ -1,6 +1,6 @@
 +++
 weight = 371
-title = "371. 거대 페이지 (Huge Pages / Transparent Huge Pages)"
+title = "371. 거대 페이지 (Huge Pages / Transparent Huge Pages) - TLB 미스 감소"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

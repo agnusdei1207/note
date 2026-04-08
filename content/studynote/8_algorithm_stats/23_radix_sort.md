@@ -1,5 +1,5 @@
 +++
-title = "23. 기수 정렬 (Radix Sort)"
+title = "23. 계수 정렬 (Counting Sort) — O(n+k), 비교 불필요"
 weight = 23
 +++
 

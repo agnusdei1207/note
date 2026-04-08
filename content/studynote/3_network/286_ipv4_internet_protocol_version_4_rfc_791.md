@@ -1,5 +1,5 @@
 +++
-title = "286. IPv4 (Internet Protocol Version 4) - RFC 791"
+title = "286. IPv4 (Internet Protocol Version 4) - RFC 791, 32비트, 비연결성/최선노력 전송"
 weight = 286
 +++
 

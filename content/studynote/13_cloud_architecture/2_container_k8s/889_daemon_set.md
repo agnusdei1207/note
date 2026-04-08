@@ -1,6 +1,6 @@
 +++
 weight = 889
-title = "89. 데몬셋 (DaemonSet)"
+title = "889. 데몬셋 (DaemonSet)"
 description = "DaemonSet: 클러스터의 모든(또는 특정 레이블 기반) 워커 노드에 1개씩 무조건 실행되어야 하는 백그라운드 파드 배포 리소스"
 date = 2026-03-26
 

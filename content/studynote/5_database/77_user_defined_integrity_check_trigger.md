@@ -1,5 +1,5 @@
 +++
-title = "77. 사용자 정의 무결성 (User-defined Integrity)"
+title = "77. 사용자 정의 무결성 (User-defined Integrity) - 업무 규칙에 따른 제약 (CHECK 제약조건 등)"
 weight = 77
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "455. QUIC 전송 - UDP 상위 구현 (OS 독립성)"
+title = "455. QUIC 전송 - TCP가 아닌 UDP 상위에 구현됨"
 weight = 455
 +++
 

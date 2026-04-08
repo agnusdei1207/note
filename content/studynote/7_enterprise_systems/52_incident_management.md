@@ -1,5 +1,5 @@
 +++
-title = "52. 인시던트 관리 (Incident Management)"
+title = "52. 인시던트 관리 (Incident Management) - 장애 발생 시 서비스의 신속한 복구 목표 (Workaround 웤어라운드 제공)"
 weight = 52
 +++
 

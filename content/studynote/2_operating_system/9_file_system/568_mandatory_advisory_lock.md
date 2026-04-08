@@ -1,6 +1,6 @@
 +++
 weight = 568
-title = "568. 강제적 잠금 (Mandatory Lock) vs 권고적 (Advisory Lock)"
+title = "568. 강제적 잠금 (Mandatory Lock) vs 권고적 잠금 (Advisory Lock)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

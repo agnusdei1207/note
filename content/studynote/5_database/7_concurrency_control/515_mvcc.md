@@ -1,6 +1,6 @@
 +++
 weight = 515
-title = "다중 버전 동시성 제어 (MVCC)"
+title = "515. 시계열 DB 보존 정책 (Retention) 데이터 라이프사이클"
 description = "버전 관리를 통해 잠금 없이 동시성을 높이는 MVCC에 대해 설명"
 date = 2024-01-01
 

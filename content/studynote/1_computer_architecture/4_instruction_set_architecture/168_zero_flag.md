@@ -1,6 +1,6 @@
 +++
 weight = 168
-title = "168. 제로 플래그 (Zero Flag / Z-Flag)"
+title = "168. 제로 플래그 (Zero Flag)"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

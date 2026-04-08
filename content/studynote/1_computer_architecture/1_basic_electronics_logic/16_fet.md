@@ -1,6 +1,6 @@
 +++
 weight = 16
-title = "16. FET (Field Effect Transistor, 전계효과 트랜지스터)"
+title = "16. FET (전계효과 트랜지스터)"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

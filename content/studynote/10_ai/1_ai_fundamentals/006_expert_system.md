@@ -1,6 +1,6 @@
 +++
 weight = 6
-title = "전문가 시스템"
+title = "6. 싱귤래리티 (Singularity / 특이점) - 인공지능이 스스로 자신보다 나은 AI를 만들어내어 기술 발전이 무한히 폭발하는 시점"
 description = "전문가 시스템(Expert System)의 정의, 구성 요소, 작동 원리, 한계와 현대적 의의"
 category = "10_ai"
 +++

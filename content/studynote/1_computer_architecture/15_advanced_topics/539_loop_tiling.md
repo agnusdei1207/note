@@ -1,5 +1,5 @@
 +++
-title = "루프 타일링 (Loop Tiling / Loop Blocking)"
+title = "539. 루프 타일링 (Loop Tiling)"
 date = 2026-03-20
 weight = 539
 description = "거대한 행렬 연산 등에서 데이터가 캐시 용량을 초과하여 쫓겨나는 현상(Cache Thrashing)을 막기 위해, 데이터를 캐시 크기에 맞는 작은 조각(타일/블록)으로 쪼개서 연산하는 소프트웨어 최적화 기법"

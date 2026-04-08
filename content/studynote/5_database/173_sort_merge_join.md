@@ -1,5 +1,5 @@
 +++
-title = "173. 소트 머지 조인 (Sort Merge Join)"
+title = "173. 소트 머지 조인 (Sort Merge Join) - 양쪽 테이블 정렬 후 병합, 인덱스 없을 때나 대량 데이터 조인 시 (동등/비동등 모두 가능)"
 weight = 173
 +++
 # 173. 소트 머지 조인 (Sort Merge Join)

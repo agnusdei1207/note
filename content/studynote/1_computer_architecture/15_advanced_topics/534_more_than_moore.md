@@ -1,5 +1,5 @@
 +++
-title = "무어의 법칙 이후 (More than Moore / Beyond Moore)"
+title = "534. 무어의 법칙 이후 (More than Moore)"
 date = 2026-03-20
 weight = 534
 description = "트랜지스터 집적도를 기하급수적으로 높이던 무어의 법칙이 물리적 한계에 직면함에 따라, 패키징 기술과 이종 결합을 통해 성능 향상을 모색하는 새로운 반도체 발전 패러다임"

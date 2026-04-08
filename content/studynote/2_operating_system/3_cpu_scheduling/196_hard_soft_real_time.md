@@ -1,6 +1,6 @@
 +++
 weight = 196
-title = "196. 하드 실시간 (Hard Real-time) vs 소프트 실시간 (Soft Real-time)"
+title = "196. 부하 균등화 (Load Balancing) - Push Migration vs Pull Migration"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

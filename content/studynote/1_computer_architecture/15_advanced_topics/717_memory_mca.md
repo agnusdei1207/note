@@ -1,5 +1,5 @@
 +++
-title = "메모리 MCA (Machine Check Architecture)"
+title = "717. 메모리 MCA (Machine Check Architecture)"
 date = 2026-03-20
 weight = 717
 description = "CPU 코어 내부나 RAM에서 복구 불가능한 하드웨어 에러가 발생했을 때, 커널 패닉(블루스크린)으로 시스템이 다 같이 죽는 대신 오염된 앱이나 메모리 영역만 도려내어 서버를 살려두는 최후의 생존 아키텍처"

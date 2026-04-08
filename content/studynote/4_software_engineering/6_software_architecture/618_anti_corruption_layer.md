@@ -1,6 +1,6 @@
 +++
 weight = 18
-title = " Anticorruption Layer 패턴"
+title = "618. 서킷 브레이커 장애 연쇄 차단 메커니즘"
 description = " Anticorruption Layer(ACL)의 개념, 외부 시스템 Integration"
 date = 2024-01-31
 

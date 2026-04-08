@@ -1,6 +1,6 @@
 +++
 weight = 57
-title = "57. 샘플링 감리 기법"
+title = "57. 데이터 이행 (Data Migration) 성공 기준 검증 - 추출, 정제, 적재 데이터 건수 및 체크섬 대조"
 date = "2026-04-05"
 [extra]
 categories = "studynote-design-supervision"

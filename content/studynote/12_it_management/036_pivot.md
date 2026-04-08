@@ -1,6 +1,6 @@
 +++
 weight = 36
-title = "036. 피벗 - 실패에서 성공으로 방향을 변환하는 전략적 회피의 기술"
+title = "36. MVP (Minimum Viable Product, 최소 존립 제품)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-it-management"

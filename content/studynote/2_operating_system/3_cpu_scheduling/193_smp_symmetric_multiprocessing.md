@@ -1,6 +1,6 @@
 +++
 weight = 193
-title = "193. 대칭형 다중 처리 (SMP, Symmetric Multiprocessing)"
+title = "193. 다중 처리기 스케줄링 (Multiprocessor Scheduling)"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

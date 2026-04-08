@@ -1,5 +1,5 @@
 +++
-title = "379. L2TP (Layer 2 Tunneling Protocol)"
+title = "379. L2TP (Layer 2 Tunneling Protocol) - PPTP+L2F, VPN 확장형"
 weight = 379
 +++
 

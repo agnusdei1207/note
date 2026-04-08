@@ -1,6 +1,6 @@
 +++
 weight = 28
-title = "28. 소프트웨어 재공학 (Re-engineering)"
+title = "28. 소프트웨어 재공학 (Re-engineering) - 분석, 재구성, 역공학, 이관"
 description = "레거시 시스템 현대화를 위한 소프트웨어 재공학의 4단계(분석, 재구성, 역공학, 이관) 프로세스와 아키텍처 전략"
 date = "2026-03-04"
 [taxonomies]

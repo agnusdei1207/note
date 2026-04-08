@@ -1,6 +1,6 @@
 +++
 weight = 310
-title = "310. 종료 대상 선택 (Victim Selection) 기준"
+title = "310. 종료 대상 선택 (희생자 선택) 기준 - 프로세스 중요도, 연산 시간, 보유 자원 수"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

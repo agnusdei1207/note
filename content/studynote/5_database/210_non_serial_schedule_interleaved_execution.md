@@ -1,5 +1,5 @@
 +++
-title = "210. 비직렬 스케줄 (Non-serial)"
+title = "210. 비직렬 스케줄 (Non-serial Schedule) - 인터리빙 방식 병행 실행"
 weight = 210
 +++
 # 210. 비직렬 스케줄 (Non-serial Schedule) - 인터리빙 병행 실행 동시성 트랜잭션 섞임 성능 극대화 무결성 파괴 위험 

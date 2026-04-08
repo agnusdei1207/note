@@ -1,6 +1,6 @@
 +++
 weight = 302
-title = "302. 은행원 알고리즘 자료구조 - Available, Max, Allocation, Need"
+title = "302. 은행원 알고리즘 자료구조 - Available, Max, Allocation, Need 행렬"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

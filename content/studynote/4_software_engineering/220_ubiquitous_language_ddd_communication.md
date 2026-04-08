@@ -1,5 +1,5 @@
 +++
-title = "220. 유비쿼터스 언어"
+title = "220. 유비쿼터스 언어 (Ubiquitous Language) - 비즈니스와 기술의 공통 언어"
 weight = 220
 +++
 # 220. 유비쿼터스 언어 (Ubiquitous Language) - 비즈니스와 기술의 공통 언어 소통 도메인 전문가 개발자 용어 사전 모델링 일치성 DDD

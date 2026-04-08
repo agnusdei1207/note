@@ -1,5 +1,5 @@
 +++
-title = "378. GRE (Generic Routing Encapsulation)"
+title = "378. GRE (Generic Routing Encapsulation) - 다양한 프로토콜 패키징, 비보안"
 weight = 378
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "341. 스키마 온 리드 (Schema-on-Read)"
+title = "341. 스키마 온 리드 (Schema-on-read) - 데이터 레이크/NoSQL의 조회 시점 스키마 적용"
 weight = 4341
 +++
 

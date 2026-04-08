@@ -1,5 +1,5 @@
 +++
-title = "245. 리스코프 치환 원칙 (LSP)"
+title = "245. LSP (Liskov Substitution Principle) - 리스코프 치환 원칙 (자식은 부모를 대체 가능)"
 weight = 245
 +++
 # 245. LSP (Liskov Substitution Principle) - 리스코프 치환 원칙 SOLID 상속 다형성 하위 클래스 계약 위반 오버라이딩 부모 타입

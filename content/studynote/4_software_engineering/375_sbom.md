@@ -1,5 +1,5 @@
 +++
-title = "375. SBOM (Software Bill of Materials) - 소프트웨어 구성 요소 명세서"
+title = "375. SBOM (Software Bill of Materials) - 소프트웨어 구성 요소 명세서 의무화 동향"
 date = 2026-04-05
 weight = 375
 +++

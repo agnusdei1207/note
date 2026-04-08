@@ -1,5 +1,5 @@
 +++
-title = "09. 타뷸레이션 (Tabulation)"
+title = "9. 타뷸레이션 (Tabulation) — Bottom-Up DP"
 weight = 9
 +++
 

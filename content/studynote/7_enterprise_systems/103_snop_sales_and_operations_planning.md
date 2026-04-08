@@ -1,5 +1,5 @@
 +++
-title = "103. S&OP (Sales and Operations Planning)"
+title = "103. S&OP (Sales and Operations Planning) - 영업 및 생산 운영 계획의 주별/월별 전사 통합 조정 회의체"
 weight = 103
 +++
 

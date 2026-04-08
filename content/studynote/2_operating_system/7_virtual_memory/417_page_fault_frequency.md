@@ -1,6 +1,6 @@
 +++
 weight = 417
-title = "417. 페이지 부재 빈도 (PFF) 직관적인 램 조절기"
+title = "417. 페이지 부재 빈도 (PFF, Page-Fault Frequency) 모델 - 상한/하한 설정하여 동적 프레임 할당 조절"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

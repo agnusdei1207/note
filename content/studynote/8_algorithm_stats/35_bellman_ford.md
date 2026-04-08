@@ -1,5 +1,5 @@
 +++
-title = "35. Bellman-Ford 알고리즘"
+title = "35. 해시 탐색 (Hash Search) — O(1) 평균"
 weight = 35
 +++
 

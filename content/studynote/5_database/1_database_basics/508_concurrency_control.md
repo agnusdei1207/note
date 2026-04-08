@@ -1,6 +1,6 @@
 +++
 weight = 508
-title = "병행 제어 (Concurrency Control)"
+title = "508. 프로시저 vs 함수 컴파일 재사용 구조"
 description = "병행 제어의 정의, 기법, 문제점"
 date = 2026-03-26
 

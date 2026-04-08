@@ -1,6 +1,6 @@
 +++
 weight = 32
-title = "무결성 제약조건 (Integrity Constraints)"
+title = "532. 3PC 타임아웃 우회 비블로킹 프로토콜 통신 구조"
 description = "무결성 제약조건의 유형과 역할"
 date = 2026-03-26
 

@@ -1,5 +1,5 @@
 +++
-title = "188. PL/SQL, T-SQL (절차적 SQL 언어)"
+title = "188. PL/SQL (Oracle), T-SQL (SQL Server) - 절차적 SQL 언어"
 weight = 188
 +++
 # 188. PL/SQL (Oracle), T-SQL (SQL Server) - 절차적 SQL 언어

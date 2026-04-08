@@ -1,6 +1,6 @@
 +++
 weight = 1
-title = "클라우드 컴퓨팅 (Cloud Computing) 5대 특징 (NIST 기준)"
+title = "1. 클라우드 컴퓨팅 (Cloud Computing) 5대 특징 (NIST 기준) - 주문형 셀프 서비스, 광범위한 네트워크 접속, 리소스 풀링, 신속한 탄력성(Elasticity), 측정 가능한 서비스"
 description = "NIST SP 800-145 기준 클라우드 컴퓨팅의 핵심 5대 특징에 대한 실무적 아키텍처 분석 및 적용 가이드"
 date = "2024-05-24"
 [taxonomies]

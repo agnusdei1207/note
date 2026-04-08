@@ -1,5 +1,5 @@
 +++
-title = "78. etcd 엣시디 고가용성 분산 Key Value 저장소"
+title = "78. etcd (엣시디) - 클러스터의 모든 상태 정보(설정, 메타데이터)를 저장하는 고가용성 분산 Key-Value 저장소"
 date = "2026-04-07"
 [extra]
 categories = "studynote-cloud"

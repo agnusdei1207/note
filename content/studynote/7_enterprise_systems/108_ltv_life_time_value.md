@@ -1,5 +1,5 @@
 +++
-title = "108. LTV (Life Time Value, 고객 생애 가치)"
+title = "108. LTV (Life Time Value, 고객 생애 가치) - 한 고객이 기업과 거래하는 전 기간 동안 창출하는 총 이익의 현재 가치 (CRM의 핵심 목표)"
 weight = 108
 +++
 

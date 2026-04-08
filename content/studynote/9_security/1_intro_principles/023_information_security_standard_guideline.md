@@ -1,6 +1,6 @@
 +++
 weight = 23
-title = "023. 정보보안 표준 및 지침 - 보안 정책의 구현 아키텍처"
+title = "23. 정보보안 표준 — 정책實施 위한 구체적 기준"
 date = "2026-04-02"
 [extra]
 categories = "studynote-security"

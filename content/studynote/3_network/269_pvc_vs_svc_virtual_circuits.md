@@ -1,5 +1,5 @@
 +++
-title = "269. PVC / SVC (가상 회선 방식)"
+title = "269. PVC (Permanent Virtual Circuit) / SVC (Switched Virtual Circuit)"
 weight = 269
 +++
 

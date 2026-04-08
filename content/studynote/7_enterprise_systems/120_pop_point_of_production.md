@@ -1,6 +1,6 @@
 +++
 weight = 120
-title = "120. POP (Point of Production) - 생산 시점 정보 관리 시스템"
+title = "120. POP (Point of Production) - 생산 시점 정보 관리 (현장 단말 바코드 스캔)"
 date = "2026-04-02"
 [extra]
 categories = "studynote-enterprise"

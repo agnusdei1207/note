@@ -1,5 +1,5 @@
 +++
-title = "290. DF (Don't Fragment) / MF (More Fragment)"
+title = "290. DF (Don't Fragment) 비트 / MF (More Fragment) 비트"
 weight = 290
 +++
 

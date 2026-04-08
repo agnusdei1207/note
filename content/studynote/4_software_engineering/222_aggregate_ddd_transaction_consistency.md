@@ -1,5 +1,5 @@
 +++
-title = "222. 애그리게이트 (Aggregate)"
+title = "222. 애그리게이트 (Aggregate) - 데이터 변경의 단위가 되는 객체 묶음"
 weight = 222
 +++
 # 222. 애그리게이트 (Aggregate) - 도메인 주도 설계(DDD) 데이터 변경 단위 객체 묶음 루트 엔티티(Root Entity) 트랜잭션 경계 일관성

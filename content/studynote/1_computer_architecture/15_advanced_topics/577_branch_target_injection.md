@@ -1,5 +1,5 @@
 +++
-title = "분기 목표 주입 (Branch Target Injection / Spectre v2)"
+title = "577. 분기 목표 주입 (Branch Target Injection)"
 date = 2026-03-20
 weight = 577
 description = "스펙터(Spectre) 공격의 한 형태로, 해커가 분기 예측기(BTB)를 오염시켜 CPU가 악성 코드가 있는 엉뚱한 주소로 추측 실행(Speculative Execution)을 하도록 유도하는 해킹 기법"

@@ -1,5 +1,5 @@
 +++
-title = "549. JWT (JSON Web Token)"
+title = "549. JWT (JSON Web Token) - 비상태 서버형 인증 저장"
 weight = 549
 +++
 # 549. JWT (JSON Web Token) - 비상태(Stateless) 토큰 인증

@@ -1,6 +1,6 @@
 +++
 weight = 24
-title = "024. 최장 증가 부분 수열 (LIS, Longest Increasing Subsequence)"
+title = "24. 기수 정렬 (Radix Sort) — O(d·n), 고정 자릿수"
 date = "2026-04-02"
 [extra]
 categories = "studynote-algorithm"

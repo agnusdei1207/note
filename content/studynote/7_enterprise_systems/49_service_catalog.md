@@ -1,5 +1,5 @@
 +++
-title = "49. 서비스 카탈로그 (Service Catalog)"
+title = "49. 서비스 카탈로그 (Service Catalog) - 제공 가능한 IT 서비스 목록 명세서"
 weight = 49
 +++
 

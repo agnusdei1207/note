@@ -1,5 +1,5 @@
 +++
-title = "438. TCP BIC / CUBIC (현대 리눅스 기본 알고리즘)"
+title = "438. TCP BIC / CUBIC - 현대 리눅스 커널 기본 알고리즘 (지수함수 기반 고속망 최적화)"
 weight = 438
 +++
 

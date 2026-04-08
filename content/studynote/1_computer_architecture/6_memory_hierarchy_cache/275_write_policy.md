@@ -1,6 +1,6 @@
 +++
 weight = 275
-title = "쓰기 정책 (Write Policy)"
+title = "275. 캐시 쓰기 정책 (Write Policy)"
 +++
 
 # 쓰기 정책 (Write Policy)

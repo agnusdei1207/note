@@ -1,5 +1,5 @@
 +++
-title = "볼티지 글리칭 (Voltage Glitching)"
+title = "771. 볼티지 글리칭 (Voltage Glitching)"
 date = 2026-03-20
 weight = 771
 description = "스마트카드, 콘솔 게임기, IoT 칩에 공급되는 전압을 찰나의 순간에 뚝 떨어뜨려 하드웨어 오작동을 유발하고, 이를 통해 암호화 로직을 건너뛰거나 보안 락을 푸는 물리적 해킹 기법"

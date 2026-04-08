@@ -1,5 +1,5 @@
 +++
-title = "RDMA iWARP 프로토콜"
+title = "673. RDMA iWARP 프로토콜"
 date = 2026-03-20
 weight = 673
 description = "기존의 무거운 TCP/IP 네트워크 위에서 RDMA(원격 직접 메모리 접근)의 초고속/무복사 장점을 그대로 누리게 해주는 실용적인 데이터센터 네트워크 프로토콜"

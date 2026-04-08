@@ -1,5 +1,5 @@
 +++
-title = "274. NoSQL (Not Only SQL) 데이터베이스"
+title = "274. NoSQL (Not Only SQL) 데이터베이스 - 스키마리스(Schemaless), 수평적 확장(Scale-out), 분산 아키텍처"
 weight = 274
 +++
 

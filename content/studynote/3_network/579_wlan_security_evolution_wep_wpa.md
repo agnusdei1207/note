@@ -1,5 +1,5 @@
 +++
-title = "579. 무선 LAN 보안 진화 과정"
+title = "579. 무선 LAN 보안 진화 (WEP -> WPA -> WPA2 -> WPA3)"
 weight = 579
 +++
 # 579. 무선 LAN 보안 진화 (WEP -> WPA -> WPA2 -> WPA3)

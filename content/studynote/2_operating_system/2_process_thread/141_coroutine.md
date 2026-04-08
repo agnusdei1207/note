@@ -1,6 +1,6 @@
 +++
 weight = 141
-title = "코루틴 (Coroutine)"
+title = "141. 코루틴 (Coroutine)"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

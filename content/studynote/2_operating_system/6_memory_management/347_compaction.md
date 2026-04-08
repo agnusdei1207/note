@@ -1,6 +1,6 @@
 +++
 weight = 347
-title = "347. 메모리 압축 (Compaction) 외부 단편화의 극약 처방"
+title = "347. 압축 (Compaction) - 외부 단편화 해결, 동적 재배치 시에만 가능, 오버헤드 막심"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

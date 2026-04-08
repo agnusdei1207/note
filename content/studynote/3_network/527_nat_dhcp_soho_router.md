@@ -1,5 +1,5 @@
 +++
-title = "527. NAT/DHCP 결합 환경 (공유기)"
+title = "527. NAT/DHCP 결합 환경 (Soho 라우터/공유기)"
 weight = 527
 +++
 # 527. NAT/DHCP 결합 환경 (Soho 라우터/공유기)

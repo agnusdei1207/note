@@ -1,6 +1,6 @@
 +++
 weight = 305
-title = "305. 대기 그래프 (Wait-for Graph)"
+title = "305. 대기 그래프 (Wait-for Graph) - 자원 정점을 제거하고 프로세스 간 간선만 남긴 그래프 (단일 자원 탐지용)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

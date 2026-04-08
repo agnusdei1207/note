@@ -1,5 +1,5 @@
 +++
-title = "비순차 실행 윈도우 (Out-of-Order Execution Window)"
+title = "502. 비순차 실행 윈도우"
 date = 2026-03-20
 weight = 502
 description = "CPU가 명령어의 순서를 재배치하기 위해 한 번에 들여다보고 분석할 수 있는 명령어들의 최대 개수(시야각)"

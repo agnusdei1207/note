@@ -1,5 +1,5 @@
 +++
-title = "32. Timsort (합병 정렬 + 삽입 정렬)"
+title = "32. 이분 탐색 (Binary Search) — O(log n), 정렬된 배열 필수"
 weight = 32
 +++
 

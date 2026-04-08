@@ -1,5 +1,5 @@
 +++
-title = "명령어 프리패치 버퍼 (Instruction Prefetch Buffer)"
+title = "571. 명령어 프리패치 버퍼"
 date = 2026-03-20
 weight = 571
 description = "폰 노이만 병목을 극복하고 파이프라인의 굶주림을 막기 위해, CPU가 다음에 실행할 기계어 명령어들을 미리 메모리에서 긁어와 대기시키는 하드웨어 큐"

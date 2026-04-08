@@ -1,6 +1,6 @@
 +++
 weight = 1
-title = "01. 빅데이터 정의 (3V: Volume, Velocity, Variety)"
+title = "1. 빅데이터 정의 — 3V: Volume(양) / Velocity(속도) / Variety(다양성) (Laney, 2001)"
 description = "빅데이터의 근간이 되는 3V 특징과 분산 처리 시스템 아키텍처 관점에서의 심층 분석"
 date = "2024-05-24"
 [taxonomies]

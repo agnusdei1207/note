@@ -1,6 +1,6 @@
 +++
 weight = 26
-title = "026. 위험 관리 프로세스 (Risk Management Process)"
+title = "26. 위험 관리 프로세스 — 식별/분석/평가/대응/모니터링/보고"
 date = "2026-04-05"
 [extra]
 categories = "studynote-security"

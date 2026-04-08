@@ -1,6 +1,6 @@
 +++
 weight = 113
-title = "스레드 로컬 저장소 (Thread-Local Storage, TLS)"
+title = "113. 스레드 로컬 저장소 (TLS, Thread-Local Storage)"
 date = "2026-03-22"
 [extra]
 categories = "studynote-opering-system"

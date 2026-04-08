@@ -1,6 +1,6 @@
 +++
 weight = 23
-title = "23. EA 기반 감리 - 엔터프라이즈 아키텍처 연계 정보시스템 감리"
+title = "23. ITA/EA (Enterprise Architecture) 프레임워크 기반 감리"
 date = "2026-04-02"
 [extra]
 categories = "studynote-design-supervision"

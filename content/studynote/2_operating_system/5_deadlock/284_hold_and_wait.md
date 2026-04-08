@@ -1,6 +1,6 @@
 +++
 weight = 284
-title = "284. 점유하며 대기 (Hold-and-Wait)"
+title = "284. 점유하며 대기 (Hold-and-Wait) - 자원을 보유한 상태로 다른 자원 대기"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

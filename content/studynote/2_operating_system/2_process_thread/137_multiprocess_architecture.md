@@ -1,6 +1,6 @@
 +++
 weight = 137
-title = "137. ������ ���� (�� ���� �)"
+title = "137. 멀티프로세스 아키텍처 (크롬 브라우저 등)"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

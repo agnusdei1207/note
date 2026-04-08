@@ -1,5 +1,5 @@
 +++
-title = "310. ALG (Application Layer Gateway) - NAT 횡단"
+title = "310. ALG (Application Layer Gateway) - NAT 횡단 지원 (FTP 능동모드 등 해결)"
 weight = 310
 +++
 

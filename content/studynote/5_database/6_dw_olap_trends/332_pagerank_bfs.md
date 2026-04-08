@@ -1,5 +1,5 @@
 +++
-title = "332. PageRank / BFS"
+title = "332. 피벗 (Pivot) - 보고서 축 전환 (행렬 변환)"
 weight = 4332
 +++
 

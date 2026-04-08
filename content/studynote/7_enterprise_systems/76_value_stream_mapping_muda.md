@@ -1,5 +1,5 @@
 +++
-title = "76. 가치 흐름 매핑 (Value Stream Mapping, VSM)"
+title = "76. 가치 흐름 매핑 (Value Stream Mapping) - Lean 기법, 낭비(Muda) 요소 식별 제거"
 weight = 76
 +++
 

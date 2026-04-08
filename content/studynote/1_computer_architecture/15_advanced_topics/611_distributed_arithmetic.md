@@ -1,5 +1,5 @@
 +++
-title = "분산 산술 (Distributed Arithmetic) 매크로"
+title = "611. 분산 산술 (Distributed Arithmetic) 매크로"
 date = 2026-03-20
 weight = 611
 description = "곱셈기(Multiplier)를 전혀 사용하지 않고, 덧셈과 룩업 테이블(LUT, 메모리)만으로 복잡한 신호 처리 곱셈을 빛의 속도로 해치우는 천재적인 하드웨어 설계 기법"

@@ -1,6 +1,6 @@
 +++
 weight = 31
-title = "31. 범용 게이트 (Universal Gate)"
+title = "29. NAND, NOR 게이트"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

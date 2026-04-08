@@ -1,6 +1,6 @@
 +++
 weight = 26
-title = "026. 과적합 (Overfitting) / 과소적합 (Underfitting)"
+title = "26. 편향 (Bias) - 모델이 너무 단순하여 실제 데이터 패턴을 놓침 (과소적합, Underfitting)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-ai"

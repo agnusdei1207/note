@@ -1,6 +1,6 @@
 +++
 weight = 487
-title = "487. Root of Trust (루트 오브 트러스트)"
+title = "487. 루트 오브 트러스트 (Root of Trust)"
 date = "2026-03-20"
 [extra]
 categories = "studynote-computer-architecture"

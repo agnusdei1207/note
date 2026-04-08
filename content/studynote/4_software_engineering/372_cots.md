@@ -1,5 +1,5 @@
 +++
-title = "372. 상용 소프트웨어 (COTS, Commercial Off-The-Shelf)"
+title = "372. 상용 소프트웨어 (COTS, Commercial Off-The-Shelf) 통합 및 품질"
 date = 2026-04-05
 weight = 372
 +++

@@ -1,5 +1,5 @@
 +++
-title = "297. IP 주소 고갈 문제, 클라스풀 (Classful)"
+title = "297. IP 주소 고갈 문제, 클라스풀 (Classful) 주소체계"
 weight = 297
 +++
 

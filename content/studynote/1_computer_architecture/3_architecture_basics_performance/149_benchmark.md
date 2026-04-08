@@ -1,6 +1,6 @@
 +++
 weight = 149
-title = "149. 벤치마크 (Benchmark)"
+title = "149. 벤치마크 프로그램 (Benchmark)"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

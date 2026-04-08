@@ -1,6 +1,6 @@
 +++
 weight = 148
-title = "재진입 가능 코드"
+title = "148. 재진입 가능 코드 (Reentrant Code / Pure Code)"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

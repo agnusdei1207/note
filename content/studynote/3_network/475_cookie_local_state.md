@@ -1,6 +1,6 @@
 +++
 weight = 475
-title = "쿠키 (Cookie) - 클라이언트 로컬 저장 상태 값"
+title = "475. 쿠키 (Cookie) - 클라이언트 로컬 저장 상태 값"
 description = "상태를 기억하지 못하는(Stateless) HTTP 통신의 한계를 극복하기 위해, 서버가 클라이언트 브라우저에 남겨두는 작은 텍스트 기반 상태 저장소"
 date = 2026-04-03
 [taxonomies]

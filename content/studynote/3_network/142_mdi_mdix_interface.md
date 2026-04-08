@@ -1,5 +1,5 @@
 +++
-title = "142. MDI / MDI-X (Medium Dependent Interface)"
+title = "142. MDI/MDI-X (Medium Dependent Interface)"
 weight = 142
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "522. DHCP (Dynamic Host Configuration Protocol)"
+title = "522. DHCP (Dynamic Host Configuration Protocol) 포트 67, 68"
 weight = 522
 +++
 # 522. DHCP (Dynamic Host Configuration Protocol) 포트 67, 68

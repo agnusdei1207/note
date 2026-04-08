@@ -1,6 +1,6 @@
 +++
 weight = 247
-title = "247. 독자-저자 문제 (Readers-Writers Problem)"
+title = "247. 독자-저자 문제 (Readers-Writers Problem) - 제1유형(독자 우선), 제2유형(저자 우선)"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

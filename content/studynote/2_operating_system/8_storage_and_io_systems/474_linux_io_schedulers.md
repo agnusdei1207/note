@@ -1,6 +1,6 @@
 +++
 weight = 474
-title = "474. 리눅스 I/O 스케줄러 - NOOP, CFQ, Deadline, BFQ 진화의 연대기"
+title = "474. 리눅스 I/O 스케줄러 - NOOP, CFQ(Completely Fair Queuing), Deadline, BFQ"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

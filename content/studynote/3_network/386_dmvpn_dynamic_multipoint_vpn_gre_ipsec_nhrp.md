@@ -1,5 +1,5 @@
 +++
-title = "386. DMVPN (Dynamic Multipoint VPN)"
+title = "386. DMVPN (Dynamic Multipoint VPN) - GRE + IPsec + NHRP"
 weight = 386
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 553
-title = "553. 분산 파일 시스템 (HDFS, Ceph) - 무한 확장 클러스터와 네임노드의 굴레"
+title = "553. 분산 파일 시스템 (HDFS, Ceph, GlusterFS) 네임노드 및 데이터노드 구조"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

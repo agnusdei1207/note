@@ -1,5 +1,5 @@
 +++
-title = "320. 다중 모델 데이터베이스 (Multi-model Database) ArangoDB"
+title = "320. 다중 모델 데이터베이스 (Multi-model Database) - 단일 엔진 내 Document, Graph, KV, Relational 지원 (ArangoDB 등)"
 date = "2026-04-07"
 [extra]
 categories = "studynote-database"

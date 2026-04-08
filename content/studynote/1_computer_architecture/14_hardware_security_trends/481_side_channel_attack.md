@@ -1,6 +1,6 @@
 +++
 weight = 481
-title = "481. Side-channel Attack (사이드 채널 공격)"
+title = "481. 사이드 채널 공격 (Side-channel Attack)"
 date = "2026-03-20"
 [extra]
 categories = "studynote-computer-architecture"

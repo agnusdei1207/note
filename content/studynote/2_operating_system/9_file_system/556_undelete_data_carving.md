@@ -1,6 +1,6 @@
 +++
 weight = 556
-title = "556. 삭제된 파일 복구 (Undelete) 및 포렌식 디스크 이미지 카빙"
+title = "556. 삭제된 파일 복구 (Undelete) 및 포렌식 디스크 이미지 카빙(Carving) 원리"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

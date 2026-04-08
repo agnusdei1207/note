@@ -1,5 +1,5 @@
 +++
-title = "보안 키 소거 (Secure Key Erasure)"
+title = "785. 보안 키 소거 (Secure Key Erasure)"
 date = 2026-03-20
 weight = 785
 description = "스토리지(SSD/HDD) 전체를 수십 시간 동안 포맷(Format)하는 대신, 데이터를 묶어두고 있는 마스터 암호 키(Master Key) 딱 1개만 파괴하여 테라바이트급 데이터를 1초 만에 영구적인 쓰레기로 만들어버리는 기술"

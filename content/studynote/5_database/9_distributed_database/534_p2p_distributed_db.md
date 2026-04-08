@@ -1,6 +1,6 @@
 +++
 weight = 534
-title = "P2P 분산 데이터베이스 (Peer-to-Peer Distributed DB)"
+title = "534. Saga 패턴 보상 트랜잭션 비즈니스 실패 롤백 모사"
 description = "P2P 아키텍처를 활용한 분산 데이터베이스 시스템에 대해 설명"
 date = 2024-01-01
 

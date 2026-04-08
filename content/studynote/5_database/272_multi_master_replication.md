@@ -1,5 +1,5 @@
 +++
-title = "272. 멀티 마스터 (Multi-Master) 복제"
+title = "272. 멀티 마스터 (Multi-Master / Peer-to-Peer) 복제 - 양방향 쓰기 가능, 충돌 해결 매커니즘 필수"
 weight = 272
 +++
 

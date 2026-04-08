@@ -1,5 +1,5 @@
 +++
-title = "씬 프로비저닝 (Thin Provisioning)"
+title = "684. 씬 프로비저닝 (Thin Provisioning)"
 date = 2026-03-20
 weight = 684
 description = "물리적인 하드디스크 용량이 부족함에도 불구하고, 사용자(VM)에게는 엄청나게 큰 가상의 가짜 용량을 할당해 주어 스토리지 구매 비용을 극한으로 미루는 스토리지 사기(?) 기술"

@@ -1,6 +1,6 @@
 +++
 weight = 28
-title = "Amazon EBS (Elastic Block Store)"
+title = "842. Amazon EBS (Elastic Block Store)"
 description = "EBS의 정의, 볼륨 유형, 스냅샷"
 date = 2026-03-26
 

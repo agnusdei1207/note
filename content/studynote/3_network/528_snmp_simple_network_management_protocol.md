@@ -1,5 +1,5 @@
 +++
-title = "528. SNMP (Simple Network Management Protocol)"
+title = "528. SNMP (Simple Network Management Protocol) - 네트워크 관리 목적, 기본 포트 161 (Manager), 162 (Trap)"
 weight = 528
 +++
 # 528. SNMP (Simple Network Management Protocol)

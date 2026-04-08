@@ -1,6 +1,6 @@
 +++
 weight = 15003
-title = "3. Apache Spark 개요 및 RDD 아키텍처"
+title = "3. 7V — 5V + Visualization(시각화) + Variability(가변성)"
 date = "2026-03-26"
 [extra]
 categories = "studynote-bigdata"

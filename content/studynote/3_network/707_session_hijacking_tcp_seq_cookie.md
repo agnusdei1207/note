@@ -1,5 +1,5 @@
 +++
-title = "707. 세션 하이재킹 (Session Hijacking)"
+title = "707. 세션 하이재킹 (Session Hijacking / TCP Seq 번호 추정 절도 등 탈취/Cookie/토큰 갈취 기법)"
 weight = 707
 +++
 # 707. 세션 하이재킹 (Session Hijacking) - TCP 시퀀스 넘버, 쿠키 갈취 기법

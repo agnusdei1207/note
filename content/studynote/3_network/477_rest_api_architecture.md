@@ -1,6 +1,6 @@
 +++
 weight = 477
-title = "REST API (Representational State Transfer)"
+title = "477. REST API (Representational State Transfer) - 자원 중심 구조, HTTP 메서드 매핑"
 description = "자원(URI)과 행위(HTTP Method)를 분리하고, 상태 비저장과 일관된 인터페이스를 통해 시스템 간의 느슨한 결합을 추구하는 웹 아키텍처 스타일"
 date = 2026-04-03
 [taxonomies]

@@ -1,6 +1,6 @@
 +++
 weight = 23
-title = "분류"
+title = "23. 머신러닝 (Machine Learning) 개념 - 데이터를 통해 기계가 스스로 규칙과 패턴을 학습"
 description = "분류(Classification)의 정의, 이진 분류, 다중 분류, 평가 지표(정확도, 정밀도, 재현율, F1)"
 category = "10_ai"
 +++

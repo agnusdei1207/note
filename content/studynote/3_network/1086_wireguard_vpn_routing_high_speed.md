@@ -1,5 +1,5 @@
 +++
-title = "1086. WireGuard 라우팅 고속망"
+title = "1086. WireGuard 라우팅 고속망 체계"
 weight = 1086
 +++
 # 1086. WireGuard 라우팅 고속망 체계 - 와이어가드 초경량 오픈소스 VPN 크립토 라우팅 커널 공간 모바일 로밍 OpenVPN IPsec 대체 기술

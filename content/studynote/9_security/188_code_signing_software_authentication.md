@@ -1,5 +1,5 @@
 +++
-title = "188. Code Signing (코드 서명) 소프트웨어 인증"
+title = "188. Code Signing — 소프트웨어 원산지 인증"
 date = "2026-04-07"
 [extra]
 categories = "studynote-security"

@@ -1,5 +1,5 @@
 +++
-title = "216. 헥사고날 아키텍처"
+title = "216. 헥사고날 아키텍처 (Hexagonal Architecture / Ports and Adapters)"
 weight = 216
 +++
 # 216. 헥사고날 아키텍처 (Hexagonal Architecture) - Ports and Adapters 포트 앤 어댑터 도메인 중심 설계 결합도 분리 의존성 역전 테스트 용이성 

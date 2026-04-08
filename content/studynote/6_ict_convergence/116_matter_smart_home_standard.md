@@ -1,6 +1,6 @@
 +++
 weight = 116
-title = "116. 매터 (Matter) 표준 - 스마트홈 기기 간 상호 연동성 보장"
+title = "116. 매터 (Matter) 표준 - CSA 주도, 애플/구글/아마존 스마트홈 기기 간 상호 연동성(Interoperability)을 보장하는 단일 앱/프로토콜 규격"
 date = "2026-04-02"
 [extra]
 categories = "studynote-ict-convergence"

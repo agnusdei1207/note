@@ -1,5 +1,5 @@
 +++
-title = "243. 단일 책임 원칙 (SRP)"
+title = "243. SRP (Single Responsibility Principle) - 단일 책임 원칙"
 weight = 243
 +++
 # 243. SRP (Single Responsibility Principle) - 단일 책임 원칙 SOLID 객체지향 설계 응집도 결합도 클래스 분리 유지보수성 리팩토링

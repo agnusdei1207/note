@@ -1,6 +1,6 @@
 +++
 weight = 24
-title = "목표와 핵심 결과 (OKR, Objectives and Key Results)"
+title = "24. OKR (Objectives and Key Results) - 도전적 목표(O)와 구체적/측정가능한 핵심 결과(KR) 기반의 애자일 성과 관리 기법 (인텔, 구글 방식)"
 description = "구글과 인텔이 사용하는 애자일한 성과 관리 기법으로, 도전적인 목표(O)와 이를 달성하기 위한 구체적인 핵심 결과(KR)를 투명하게 공유하는 프레임워크"
 date = "2024-05-24"
 [taxonomies]

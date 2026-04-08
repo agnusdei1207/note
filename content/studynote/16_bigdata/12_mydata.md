@@ -1,6 +1,6 @@
 +++
 weight = 12
-title = "12. 마이데이터 (MyData)"
+title = "12. 마이데이터 (MyData) — 개인정보 자기결정권, 금융 마이데이터"
 description = "개인정보 자기결정권을 실현하는 마이데이터 아키텍처 및 금융/비금융 실무 연계 방안"
 date = "2024-05-23"
 [taxonomies]

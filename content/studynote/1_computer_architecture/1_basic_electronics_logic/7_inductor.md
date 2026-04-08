@@ -1,6 +1,6 @@
 +++
 weight = 7
-title = "07. 인덕터 (Inductor)"
+title = "7. 인덕터 (Inductor)"
 date = "2026-03-26"
 [extra]
 categories = "studynote-computer-architecture"

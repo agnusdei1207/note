@@ -1,5 +1,5 @@
 +++
-title = "53. 결정 트리 알고리즘 (Decision Tree Algorithm)"
+title = "53. 해밀턴 경로 — NP-완전, 백트래킹"
 weight = 53
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 35
-title = "함수 종속성 (Functional Dependency)"
+title = "535. NoSQL BASE 특성 소프트 스테이트 결국 일관 상태 전이"
 description = "함수 종속성의 정의와 유형"
 date = 2026-03-26
 

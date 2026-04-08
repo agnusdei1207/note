@@ -1,5 +1,5 @@
 +++
-title = "42. 그로스 해킹 (Growth Hacking) - 마케팅 엔지니어링"
+title = "42. 그로스 해킹 (Growth Hacking) - 데이터를 기반으로 제품의 사용자 유입, 활성화, 리텐션, 추천, 수익화(AARRR 퍼널)를 최적화하는 마케팅 엔지니어링"
 weight = 42
 +++
 

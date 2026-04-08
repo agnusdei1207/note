@@ -1,5 +1,5 @@
 +++
-title = "119. GitOps - Git을 진실의 원천으로"
+title = "119. GitOps - Git을 진실의 원천(Source of Truth)으로 하는 운영"
 weight = 119
 +++
 

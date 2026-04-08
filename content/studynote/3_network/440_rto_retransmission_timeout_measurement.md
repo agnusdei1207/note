@@ -1,5 +1,5 @@
 +++
-title = "440. RTO (Retransmission TimeOut) 측정"
+title = "440. RTO (Retransmission TimeOut) 측정 방식"
 weight = 440
 +++
 

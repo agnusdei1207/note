@@ -1,5 +1,5 @@
 +++
-title = "Fibre Channel (FC) 프로토콜"
+title = "696. Fibre Channel (FC) 프로토콜"
 date = 2026-03-20
 weight = 696
 description = "TCP/IP라는 무겁고 변덕스러운 네트워크 대신, 스토리지 데이터만을 빠르고 완벽하게 무손실로 전송하기 위해 태어난 데이터센터의 뼈대이자 럭셔리 스토리지 통신 규약"

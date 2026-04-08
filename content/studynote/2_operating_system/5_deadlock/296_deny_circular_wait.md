@@ -1,6 +1,6 @@
 +++
 weight = 296
-title = "296. 순환 대기 부정 (Deny Circular Wait) - 락 순서화"
+title = "296. 순환 대기 부정 - 자원에 고유 번호(순서) 부여, 오름차순으로만 요청 (가장 현실적 예방책)"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

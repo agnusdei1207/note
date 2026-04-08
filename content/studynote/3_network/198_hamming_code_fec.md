@@ -1,5 +1,5 @@
 +++
-title = "198. 해밍 코드 (Hamming Code) - 1비트 수정"
+title = "198. 해밍 코드 (Hamming Code) - 1비트 수정 2비트 오류 검출"
 weight = 198
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 508
-title = "508. 트리 구조 디렉터리 (Tree-structured Directory)"
+title = "508. 트리 구조 디렉터리 (Tree-structured Directory) - 계층 구조, 현재 디렉터리 개념"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

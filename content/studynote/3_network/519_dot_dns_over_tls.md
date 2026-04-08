@@ -1,5 +1,5 @@
 +++
-title = "519. DoT (DNS over TLS)"
+title = "519. DoT (DNS over TLS) - TCP 853 포트, 종단간 DNS 질의 암호화"
 weight = 519
 +++
 # 519. DoT (DNS over TLS)

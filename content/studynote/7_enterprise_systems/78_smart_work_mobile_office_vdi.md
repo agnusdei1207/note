@@ -1,5 +1,5 @@
 +++
-title = "78. 스마트워크 (Smart Work)와 모바일 오피스"
+title = "78. 스마트워크 (Smart Work) / 모바일 오피스"
 weight = 78
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 20
-title = "20. 알파-베타 가지치기 (Alpha-Beta Pruning)"
+title = "20. 알파-베타 가지치기 (Alpha-Beta Pruning) - 미니맥스 트리에서 탐색할 필요가 없는 가지를 잘라내어 연산량 감소"
 description = "미니맥스 트리의 연산량을 극적으로 줄여주는 탐색 공간 최적화 기법"
 date = "2024-05-24"
 [taxonomies]

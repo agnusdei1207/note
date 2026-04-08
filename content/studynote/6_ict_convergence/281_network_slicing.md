@@ -1,5 +1,5 @@
 +++
-title = "281. 네트워크 슬라이싱 (Network Slicing)"
+title = "281. 파인튜닝 (Fine-Tuning / 미세 조정) 전이 학습 방법론"
 weight = 281
 +++
 

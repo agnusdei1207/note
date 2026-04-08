@@ -1,6 +1,6 @@
 +++
 weight = 542
-title = "542. TACACS+ (Terminal Access Controller Access Control System Plus) - Cisco TCP 기반 AAA"
+title = "542. TACACS+ (Terminal Access Controller Access Control System Plus) - Cisco, TCP 기반 AAA, 본문 전체 암호화, 명령어별 인가 제어"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

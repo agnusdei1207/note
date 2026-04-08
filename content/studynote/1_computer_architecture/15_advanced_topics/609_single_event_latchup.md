@@ -1,5 +1,5 @@
 +++
-title = "단일 이벤트 래치업 (SEL, Single Event Latch-up)"
+title = "609. 단일 이벤트 래치업 (SEL)"
 date = 2026-03-20
 weight = 609
 description = "우주선(Cosmic Ray)이나 방사선 입자가 반도체를 때렸을 때, 단순한 데이터 오류(Soft Error)를 넘어 아예 반도체 칩이 전기를 무한정 빨아들이다 타버리는 치명적 물리 파괴 현상"

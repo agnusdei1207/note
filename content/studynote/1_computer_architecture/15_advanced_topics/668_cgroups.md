@@ -1,5 +1,5 @@
 +++
-title = "cgroups (Control Groups) 자원 할당"
+title = "668. cgroups (Control Groups) 자원 할당"
 date = 2026-03-20
 weight = 668
 description = "리눅스 커널에서 프로세스들이 소비하는 하드웨어 자원(CPU, 메모리, I/O)을 완벽하게 통제하고 할당량을 묶어버리는 컨테이너 생태계의 뼈대 기술"

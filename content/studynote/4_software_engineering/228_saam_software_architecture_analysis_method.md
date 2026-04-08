@@ -1,5 +1,5 @@
 +++
-title = "228. SAAM"
+title = "228. SAAM (Software Architecture Analysis Method)"
 weight = 228
 +++
 # 228. SAAM (Software Architecture Analysis Method) - 최초의 아키텍처 평가 기법 시나리오 기반 변경 용이성 기능성 트레이드오프 부재 카네기 멜런 대학(SEI)

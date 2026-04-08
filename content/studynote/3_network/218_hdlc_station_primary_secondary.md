@@ -1,5 +1,5 @@
 +++
-title = "218. HDLC 국(Station) 종류 - 주국, 종국, 혼성국"
+title = "218. HDLC 국(Station) 종류 - 주국(Primary), 종국(Secondary), 혼성국(Combined)"
 weight = 218
 +++
 

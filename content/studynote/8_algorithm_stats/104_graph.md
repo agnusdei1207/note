@@ -1,5 +1,5 @@
 +++
-title = "104. 그래프 (Graph)"
+title = "104. 클리크 문제 (Clique Problem) — NP-완전"
 weight = 104
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "947. OFDM 사이클릭 프리픽스"
+title = "947. OFDM 사이클릭 프리픽스 (Cyclic Prefix, CP)"
 weight = 947
 +++
 # 947. OFDM 사이클릭 프리픽스 (Cyclic Prefix, CP) - 다중경로 페이딩 지연 확산 ISI 심볼 간 간섭 복사 방어 보호 구간(Guard Interval) 삽입 마법 원리

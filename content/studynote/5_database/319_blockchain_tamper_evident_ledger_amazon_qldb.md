@@ -1,5 +1,5 @@
 +++
-title = "319. 블록체인 기반 변조 방지 원장 데이터베이스 Amazon QLDB"
+title = "319. 블록체인 기반 변조 방지 원장 데이터베이스 (Amazon QLDB)"
 date = "2026-04-07"
 [extra]
 categories = "studynote-database"

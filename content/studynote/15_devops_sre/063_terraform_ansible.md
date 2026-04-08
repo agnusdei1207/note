@@ -1,6 +1,6 @@
 +++
 weight = 63
-title = "63. Terraform/Ansible (테라폼/앤서블)"
+title = "63. Git 브랜치 전략 (Git Branching Strategies)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

@@ -1,6 +1,6 @@
 +++
 weight = 58
-title = "58. HPA/VPA"
+title = "58. VXLAN (Virtual eXtensible LAN) - 기존 VLAN의 식별자 한계(4096개)를 극복하기 위해 L2 프레임을 UDP(L4)로 캡슐화하여 수천만 개의 논리망 제공"
 date = "2026-04-05"
 [taxonomies]
 tags = ["Cloud", "Kubernetes", "K8s", "HPA", "VPA", "Autoscaling"]

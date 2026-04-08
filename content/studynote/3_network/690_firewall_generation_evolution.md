@@ -1,5 +1,5 @@
 +++
-title = "690. 방화벽(Firewall) 필터링 진화"
+title = "690. 방화벽 (Firewall) 필터링 1,2,3 세대 진화"
 weight = 690
 +++
 # 690. 방화벽 (Firewall) 필터링 1,2,3 세대 진화

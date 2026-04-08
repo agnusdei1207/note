@@ -1,5 +1,5 @@
 +++
-title = "83. 플래닝 포커 (Planning Poker)"
+title = "83. 플래닝 포커 (Planning Poker) - 다수 전문가 합의 기반 산정"
 weight = 83
 +++
 

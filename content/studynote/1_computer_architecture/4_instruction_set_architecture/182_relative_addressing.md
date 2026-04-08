@@ -1,6 +1,6 @@
 +++
 weight = 182
-title = "182. 상대 주소 지정 (Relative Addressing)"
+title = "182. PC 상대 주소 지정 (PC-Relative)"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

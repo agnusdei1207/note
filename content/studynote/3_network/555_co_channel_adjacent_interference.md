@@ -1,6 +1,6 @@
 +++
 weight = 555
-title = "555. 동일 채널 간섭 (CCI) / 인접 채널 간섭 (ACI) - 셀룰러 주파수 간섭 방어 아키텍처"
+title = "555. Co-channel Interference (동일 채널 간섭) / Adjacent Channel Interference (인접 채널 간섭)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

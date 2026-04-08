@@ -1,5 +1,5 @@
 +++
-title = "246. 인터페이스 분리 원칙 (ISP)"
+title = "246. ISP (Interface Segregation Principle) - 인터페이스 분리 원칙"
 weight = 246
 +++
 # 246. ISP (Interface Segregation Principle) - 인터페이스 분리 원칙 SOLID 거대 인터페이스 결합도 응집도 인터페이스 오염 객체지향 설계

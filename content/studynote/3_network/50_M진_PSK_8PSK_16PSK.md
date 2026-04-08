@@ -1,6 +1,6 @@
 +++
 weight = 50
-title = "50. M진 PSK (M-ary PSK, 8PSK, 16PSK)"
+title = "50. M진 PSK (8PSK, 16PSK)"
 date = "2026-03-30"
 [extra]
 categories = ["studynote", "Network"]

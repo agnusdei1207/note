@@ -1,5 +1,5 @@
 +++
-title = "350. 홀드다운 타이머 / 트리거드 업데이트"
+title = "350. 홀드다운 타이머 (Hold-down Timer), 트리거드 업데이트 (Triggered Update)"
 weight = 350
 +++
 

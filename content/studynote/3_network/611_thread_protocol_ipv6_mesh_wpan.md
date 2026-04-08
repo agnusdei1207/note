@@ -1,5 +1,5 @@
 +++
-title = "611. Thread 프로토콜"
+title = "611. Thread 프로토콜 - IPv6 통신 기반 메시 WPAN 프로토콜 (스마트홈 IoT 지원)"
 weight = 611
 +++
 # 611. Thread 프로토콜 - IPv6 통신 기반 메시 WPAN 프로토콜

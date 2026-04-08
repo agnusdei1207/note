@@ -1,5 +1,5 @@
 +++
-title = "225. CQRS 패턴"
+title = "225. CQRS (Command Query Responsibility Segregation) - 명령과 조회 모델 분리"
 weight = 225
 +++
 # 225. CQRS (Command Query Responsibility Segregation) - 명령과 조회 모델 분리 데이터베이스 읽기 쓰기 분리 이벤트 소싱 성능 최적화 마이크로서비스

@@ -1,5 +1,5 @@
 +++
-title = "311. 데이터 메시 (Data Mesh)"
+title = "311. 데이터베이스 퍼징 (Database Fuzzing) 및 테스트 취약점"
 weight = 4311
 +++
 

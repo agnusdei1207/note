@@ -1,6 +1,6 @@
 +++
 weight = 104
-title = "104. 추론 통계 (Inferential Statistics)"
+title = "104. 장바구니 분석 (Market Basket Analysis) — 구매 패턴, 교차 판매"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

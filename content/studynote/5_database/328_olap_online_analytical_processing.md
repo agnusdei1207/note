@@ -1,5 +1,5 @@
 +++
-title = "328. OLAP On Line Analytical Processing 다차원 분석"
+title = "328. OLAP (On-Line Analytical Processing) - 대용량 다차원 분석, 비정규화(스타 스키마), 읽기 위주"
 date = "2026-04-07"
 [extra]
 categories = "studynote-database"

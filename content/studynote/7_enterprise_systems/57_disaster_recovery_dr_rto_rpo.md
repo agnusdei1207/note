@@ -1,5 +1,5 @@
 +++
-title = "57. 재해 복구 시스템 (DR, Disaster Recovery) / RTO, RPO"
+title = "57. 재해 복구 시스템 (DR, Disaster Recovery) / BIA (Business Impact Analysis)"
 weight = 57
 +++
 

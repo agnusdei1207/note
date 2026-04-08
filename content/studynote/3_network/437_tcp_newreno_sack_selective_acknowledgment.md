@@ -1,5 +1,5 @@
 +++
-title = "437. TCP NewReno / SACK (선택적 확인 응답)"
+title = "437. TCP NewReno / SACK (선택적 확인응답 옵션, 블록 다중유실 회복)"
 weight = 437
 +++
 

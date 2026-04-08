@@ -1,6 +1,6 @@
 +++
 weight = 412
-title = "412. 스래싱 (Thrashing) CPU의 질식사"
+title = "412. 스래싱 (Thrashing) - 프로세스가 실제 실행보다 페이징(스와핑)에 더 많은 시간을 보내는 현상"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

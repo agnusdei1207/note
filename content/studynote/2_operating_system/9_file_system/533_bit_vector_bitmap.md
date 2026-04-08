@@ -1,6 +1,6 @@
 +++
 weight = 533
-title = "533. 비트 벡터 (Bit Vector / Bitmap)"
+title = "533. 비트 벡터 (Bit Vector / Bitmap) - 0과 1로 표현, 1워드 크기 연속 빈 공간 탐색 최적"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

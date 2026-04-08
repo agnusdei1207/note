@@ -1,5 +1,5 @@
 +++
-title = "63. 클라우드 락인 (Cloud Vendor Lock-in) 종속 현상과 회피 전략"
+title = "63. 클라우드 락인 (Cloud Vendor Lock-in) 종속 현상과 회피 전략 (멀티 클라우드, 컨테이너 기반 K8s)"
 weight = 63
 +++
 

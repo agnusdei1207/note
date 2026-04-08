@@ -1,5 +1,5 @@
 +++
-title = "639. A/B 테스팅 (A/B Testing) 가설 검증 통계적 유의성"
+title = "639. A/B 테스팅"
 date = "2026-04-07"
 [extra]
 categories = "studynote-se"

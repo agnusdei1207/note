@@ -1,5 +1,5 @@
 +++
-title = "227. 트랜잭션 고립화 수준 (Isolation Level)"
+title = "227. 트랜잭션 고립화 수준 (Isolation Level) - ANSI/ISO SQL 표준 4단계"
 weight = 227
 +++
 # 227. 트랜잭션 고립화 수준 (Isolation Level) - ANSI ISO SQL 표준 4단계 동시성 제어 격리성 성능 트레이드오프 Dirty Read Phantom Read 오라클 MySQL

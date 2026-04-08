@@ -1,5 +1,5 @@
 +++
-title = "1048. PTP (IEEE 1588) 시각 동기망"
+title = "1048. IEEE 1588 PTP 시각 동기망"
 weight = 1048
 +++
 # 1048. IEEE 1588 PTP 시각 동기망 - Precision Time Protocol 나노초 단위 클럭 동기화 그랜드마스터 투명 클럭 경계 클럭 마스터 슬레이브 구조

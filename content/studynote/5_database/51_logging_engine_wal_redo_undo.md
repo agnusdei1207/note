@@ -1,5 +1,5 @@
 +++
-title = "51. 로깅 엔진과 WAL (Write-Ahead Logging)"
+title = "51. 로깅 엔진 (Logging Engine) - 복구(Recovery)를 위한 로그(WAL) 작성"
 weight = 51
 +++
 

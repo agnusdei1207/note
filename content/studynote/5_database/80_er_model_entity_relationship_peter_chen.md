@@ -1,5 +1,5 @@
 +++
-title = "80. ER 모델 (Entity-Relationship Model) - 개념적 모델링"
+title = "80. ER 모델 (Entity-Relationship Model) - 피터 첸(Peter Chen) 제안, 개념적 모델링"
 weight = 80
 +++
 

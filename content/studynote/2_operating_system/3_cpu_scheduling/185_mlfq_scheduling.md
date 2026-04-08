@@ -1,6 +1,6 @@
 +++
 weight = 185
-title = "185. 다단계 피드백 큐 스케줄링 (Multilevel Feedback Queue, MLFQ)"
+title = "185. 다단계 피드백 큐 스케줄링 (Multilevel Feedback Queue, MLFQ) - 프로세스의 큐 이동 허용"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

@@ -1,5 +1,5 @@
 +++
-title = "85. ERP 구축 생명주기 (도입 4단계)"
+title = "85. ERP 구축 생명주기 - 패키지 선정 -> 커스터마이징 / CBO (Custom Built Object) -> 데이터 이관 -> 빅뱅/점진적 오픈"
 weight = 85
 +++
 

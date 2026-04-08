@@ -1,5 +1,5 @@
 +++
-title = "로드-스토어 큐 (LSQ, Load-Store Queue)"
+title = "508. 로드-스토어 큐 (LSQ)"
 date = 2026-03-20
 weight = 508
 description = "비순차 실행 환경에서 메모리 접근 명령어(Load/Store)들의 주소 충돌을 막고 순서를 제어하기 위한 특수 하드웨어 버퍼"

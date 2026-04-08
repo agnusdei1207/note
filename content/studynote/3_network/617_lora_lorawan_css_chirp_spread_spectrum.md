@@ -1,5 +1,5 @@
 +++
-title = "617. LoRa / LoRaWAN (비면허 대역 최강자)"
+title = "617. LoRa (Long Range) / LoRaWAN 표준 - CSS (Chirp Spread Spectrum) 방식의 비면허 글로벌 저전력 장거리"
 weight = 617
 +++
 # 617. LoRa (Long Range) / LoRaWAN 표준 - CSS 방식 비면허망

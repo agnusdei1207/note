@@ -1,5 +1,5 @@
 +++
-title = "Flush+Reload 기법"
+title = "776. Flush+Reload 기법"
 date = 2026-03-20
 weight = 776
 description = "해커와 피해자가 '공유 라이브러리(Shared Memory)'를 같이 쓸 때, 해커가 특정 메모리 주소를 캐시에서 강제로 쫓아낸(Flush) 뒤 다시 읽어보는(Reload) 방식으로 가장 높은 정확도를 자랑하는 캐시 타이밍 공격"

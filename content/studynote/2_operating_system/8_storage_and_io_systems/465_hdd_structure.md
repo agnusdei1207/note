@@ -1,6 +1,6 @@
 +++
 weight = 465
-title = "465. 하드 디스크 드라이브 (HDD) 구조 데이터의 물리적 고향"
+title = "465. 하드 디스크 드라이브 (HDD) 구조 - 플래터, 트랙, 실린더, 섹터, 헤드"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

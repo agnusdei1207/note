@@ -1,6 +1,6 @@
 +++
 weight = 26
-title = "026. 3C 분석 - 고객, 경쟁사,：公司의 전략적 균형 삼각형"
+title = "26. 3C 분석 - 고객(Customer), 자사(Company), 경쟁사(Competitor)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-it-management"

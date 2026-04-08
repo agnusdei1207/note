@@ -1,6 +1,6 @@
 +++
 weight = 422
-title = "422. 페이지 고정 (Page Pinning / Locking) 디스크 I/O 생존 법칙"
+title = "422. 페이지 고정 (Page Pinning / Locking) - I/O 대기 중인 페이지가 스왑아웃되지 않게 고정 (mlock)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

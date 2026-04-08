@@ -1,5 +1,5 @@
 +++
-title = "95. 모듈러 블록체인 (Modular Blockchain)"
+title = "95. 모듈러 블록체인 (Modular Blockchain) - 실행(Execution), 합의(Consensus), 정산(Settlement), 데이터 가용성(DA) 계층을 분리하여 확장성 극대화"
 weight = 95
 +++
 

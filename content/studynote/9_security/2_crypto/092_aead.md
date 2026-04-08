@@ -1,5 +1,5 @@
 +++
-title = "092. AEAD (Authenticated Encryption with Associated Data) — 암호화+인증 동시"
+title = "92. AEAD (Authenticated Encryption with Associated Data) — 암호화+인증 동시"
 date = "2026-04-05"
 weight = 92
 [extra]

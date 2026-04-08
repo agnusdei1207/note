@@ -1,5 +1,5 @@
 +++
-title = "52. 비트 조작 (Bit Manipulation)"
+title = "52. 오일러 경로/회로 — Fleury / Hierholzer"
 weight = 52
 +++
 

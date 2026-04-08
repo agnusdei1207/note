@@ -1,5 +1,5 @@
 +++
-title = "205. HARQ (Hybrid ARQ)"
+title = "205. HARQ (Hybrid ARQ) - FEC + ARQ 결합기술"
 weight = 205
 +++
 

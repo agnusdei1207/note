@@ -1,6 +1,6 @@
 +++
 weight = 352
-title = "352. 중앙 집중식 중재 (Centralized Arbitration)"
+title = "352. 중앙 집중식 중재"
 date = "2026-03-27"
 [extra]
 categories = "studynote-computer-architecture"

@@ -1,5 +1,5 @@
 +++
-title = "266. 행위 패턴 (Behavioral Patterns)"
+title = "266. 행위 패턴 (Behavioral Patterns) - 알고리즘 및 책임 할당"
 weight = 266
 +++
 # 266. 행위 패턴 (Behavioral Patterns) - 알고리즘 책임 할당 객체 간 상호작용 통신 흐름 결합도 감소 GoF 디자인 패턴

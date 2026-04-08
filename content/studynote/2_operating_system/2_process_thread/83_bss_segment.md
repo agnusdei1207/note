@@ -1,6 +1,6 @@
 +++
 weight = 83
-title = "83. BSS (Block Started by Symbol) 영역"
+title = "83. BSS (Block Started by Symbol) 영역 - 초기화되지 않은 전역 변수"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

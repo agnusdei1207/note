@@ -1,6 +1,6 @@
 +++
 weight = 11
-title = "지식 표현"
+title = "11. 후향 추론 (Backward Chaining) - 가설/목표에서 시작하여 조건 데이터 검증 (목표 주도)"
 description = "지식 표현(Knowledge Representation)의 정의, 종류, 온톨로지, 의미 네트워크"
 category = "10_ai"
 +++

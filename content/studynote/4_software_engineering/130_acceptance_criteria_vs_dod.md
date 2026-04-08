@@ -1,5 +1,5 @@
 +++
-title = "130. 인수 기준 (Acceptance Criteria) 명확화"
+title = "130. 인수 기준 (Acceptance Criteria) 명확화 (INVEST 원칙)"
 weight = 130
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 341
-title = "341. 내부 단편화 (Internal Fragmentation) 닫힌 공간의 낭비"
+title = "341. 내부 단편화 (Internal Fragmentation) - 할당된 공간 내 남는 공간"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

@@ -1,6 +1,6 @@
 +++
 weight = 361
-title = "361. 다단계 페이징 (Hierarchical Paging)"
+title = "361. 다단계 페이징 (Hierarchical Paging) - 페이지 테이블 크기 문제 해결 (2단계, 3단계...)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

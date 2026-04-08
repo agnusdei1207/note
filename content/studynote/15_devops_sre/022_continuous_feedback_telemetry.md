@@ -1,6 +1,6 @@
 +++
 weight = 22
-title = "022. 지속적 피드백 (Continuous Feedback)"
+title = "22. DORA 메트릭스 (DORA Metrics) - 구글 클라우드가 정의한 소프트웨어 개발/운영 성과 측정 4대 지표"
 date = "2026-04-02"
 [extra]
 categories = "studynote-devops-sre"

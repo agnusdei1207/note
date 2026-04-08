@@ -1,6 +1,6 @@
 +++
 weight = 199
-title = "199. 인터럽트 스케줄링 (Interrupt Scheduling)"
+title = "199. 하이퍼스레딩 (Hyper-threading) / SMT (Simultaneous Multithreading) 스케줄링"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

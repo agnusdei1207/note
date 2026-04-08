@@ -1,6 +1,6 @@
 +++
 weight = 330
-title = "330. 한계 레지스터 (Limit Register) 메모리 보호와 주소 범위 검사"
+title = "330. 한계 레지스터 (Limit Register) - 메모리 보호, 주소 범위 검사"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

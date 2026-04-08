@@ -1,6 +1,6 @@
 +++
 weight = 40
-title = "040. 트렁크 기반 개발 (Trunk-Based Development)"
+title = "40. 피처 플래그 (Feature Flag) / 피처 토글 (Feature Toggle) - 코드 재배포 없이 런타임에 설정(API/DB)을 바꿔 특정 신기능을 켜거나 끄는 기법. (트렁크 기반 개발의 핵심 안전망)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

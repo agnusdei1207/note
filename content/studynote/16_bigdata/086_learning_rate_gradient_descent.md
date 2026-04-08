@@ -1,6 +1,6 @@
 +++
 weight = 86
-title = "86. 학습률/경사하강법 (Learning Rate/Gradient Descent)"
+title = "86. Consumer Lag — Kafka 소비 지연 모니터링, Burrow / JMX"
 description = "학습률과 경사하강법의 기본 원리, 다양한 확률적 경사하강법 변형, 학습률 스케줄링 기법"
 date = "2026-04-05"
 [taxonomies]

@@ -1,5 +1,5 @@
 +++
-title = "042. SABSA (Sherwood Applied Business Security Architecture)"
+title = "42. SABSA (Sherwood Applied Business Security Architecture) — 수평×수직 매트릭스"
 date = "2026-04-05"
 weight = 42
 [extra]

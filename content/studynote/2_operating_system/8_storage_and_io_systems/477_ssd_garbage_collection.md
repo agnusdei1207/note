@@ -1,6 +1,6 @@
 +++
 weight = 477
-title = "477. 가비지 컬렉션 (Garbage Collection in SSD) 찌꺼기 청소의 딜레마"
+title = "477. 가비지 컬렉션 (Garbage Collection in SSD) - 유효 페이지 복사 후 블록 전체 지우기"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

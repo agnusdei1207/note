@@ -1,5 +1,5 @@
 +++
-title = "56. 토가프 (TOGAF) - 전사적 아키텍처 프레임워크"
+title = "56. 토가프 (TOGAF) - The Open Group Architecture Framework"
 weight = 56
 +++
 

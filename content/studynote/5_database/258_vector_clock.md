@@ -1,5 +1,5 @@
 +++
-title = "258. 벡터 시계 (Vector Clock) / 타임스탬프"
+title = "258. 벡터 시계 (Vector Clock) / 타임스탬프 - 분산 시스템 데이터 동기화 충돌 해결"
 weight = 258
 +++
 

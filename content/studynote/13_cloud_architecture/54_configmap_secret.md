@@ -1,6 +1,6 @@
 +++
 weight = 54
-title = "54. ConfigMap/Secret"
+title = "54. 클라우드 네이티브 (Cloud Native) 철학 - 12 Factor App 기반 확장성, 탄력성, 관측성을 극대화한 아키텍처"
 date = "2026-04-05"
 [taxonomies]
 tags = ["Cloud", "Kubernetes", "K8s", "ConfigMap", "Secret", "Configuration"]

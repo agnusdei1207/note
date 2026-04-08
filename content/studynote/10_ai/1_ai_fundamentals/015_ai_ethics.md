@@ -1,6 +1,6 @@
 +++
 weight = 15
-title = "인공지능 윤리"
+title = "15. 휴리스틱 탐색 (Heuristic Search / Informed Search) - 직관이나 경험 기반 정보(휴리스틱 함수)를 활용한 최적 탐색"
 description = "인공지능 윤리(AI Ethics)의 정의, 주요 쟁점(편향, 공정성, 설명 가능성), 규제와治理"
 category = "10_ai"
 +++

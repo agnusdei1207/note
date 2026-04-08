@@ -1,5 +1,5 @@
 +++
-title = "11. 분기 한정 (Branch and Bound)"
+title = "11. 분기 한정 (Branch and Bound) — 최적화 탐색"
 weight = 11
 +++
 

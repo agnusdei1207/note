@@ -1,5 +1,5 @@
 +++
-title = "56. 다익스트라 알고리즘 (Dijkstra's Algorithm)"
+title = "56. 최장 증가 부분수열 (LIS) — DP / 이진 탐색"
 weight = 56
 +++
 

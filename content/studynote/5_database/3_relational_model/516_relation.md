@@ -1,6 +1,6 @@
 +++
 weight = 516
-title = "관계 (Relation)"
+title = "516. GNN 그래프 모델 연계 추천 시스템 설계망 적용"
 description = "관계형 데이터베이스에서 관계의 정의와 특성"
 date = 2026-03-26
 

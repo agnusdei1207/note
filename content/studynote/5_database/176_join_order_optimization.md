@@ -1,5 +1,5 @@
 +++
-title = "176. 조인 순서 최적화"
+title = "176. 조인 순서 (Join Order) 최적화 - 동적 계획법(Dynamic Programming), 탐욕 알고리즘"
 weight = 176
 +++
 # 176. 조인 순서 (Join Order) 최적화

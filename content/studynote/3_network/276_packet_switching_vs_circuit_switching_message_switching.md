@@ -1,5 +1,5 @@
 +++
-title = "276. 패킷 교환 vs 회선 교환 vs 메시지 교환"
+title = "276. 패킷 교환 (Packet Switching) vs 회선 교환 (Circuit Switching) vs 메시지 교환"
 weight = 276
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "SGAxe 및 CrossTalk 공격"
+title = "768. SGAxe 및 CrossTalk 공격"
 date = 2026-03-20
 weight = 768
 description = "인텔의 가장 강력한 보안 구역인 SGX(엔클레이브) 내부의 암호화 키를 훔쳐내기 위해, 코어 간 통신(CrossTalk)과 비순차 실행의 틈을 노린 치명적인 하드웨어 취약점"

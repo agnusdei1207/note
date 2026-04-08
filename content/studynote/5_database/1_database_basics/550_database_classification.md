@@ -1,6 +1,6 @@
 +++
 weight = 50
-title = "데이터베이스 분류"
+title = "550. HTAP 기술 OLTP, OLAP 메모리 복제/공유 실시간 아키텍처"
 description = "데이터베이스의 유형 분류"
 date = 2026-03-26
 

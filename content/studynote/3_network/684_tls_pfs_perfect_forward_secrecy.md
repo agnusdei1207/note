@@ -1,5 +1,5 @@
 +++
-title = "684. TLS 전방향 안전성 (PFS)"
+title = "684. TLS 전방향 안전성 (PFS, Perfect Forward Secrecy) 보장 원리 (RSA 직접 복호 문제 해결/임시 세션키)"
 weight = 684
 +++
 # 684. TLS 전방향 안전성 (PFS, Perfect Forward Secrecy) 보장 원리

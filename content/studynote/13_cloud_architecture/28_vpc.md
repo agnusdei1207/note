@@ -1,6 +1,6 @@
 +++
 weight = 28
-title = "28. VPC (Virtual Private Cloud)"
+title = "28. 가상 프라이빗 클라우드 (VPC, Virtual Private Cloud) - 퍼블릭 클라우드 내에 가상의 논리적 격리 네트워크(서브넷, 라우팅, 방화벽)를 구축하는 서비스"
 description = "가상 사설 클라우드의 핵심 개념, 네트워크 설계 원리, 서브넷 아키텍처 및 실무 보안 적용 가이드"
 date = "2024-05-24"
 [taxonomies]

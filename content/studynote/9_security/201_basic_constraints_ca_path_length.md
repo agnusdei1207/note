@@ -1,5 +1,5 @@
 +++
-title = "201. Basic Constraints CA 경로 길이 제한"
+title = "201. Basic Constraints — CA 여부, 경로 길이 제한"
 date = "2026-04-07"
 [extra]
 categories = "studynote-security"

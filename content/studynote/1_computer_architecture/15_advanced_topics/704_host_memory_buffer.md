@@ -1,5 +1,5 @@
 +++
-title = "호스트 메모리 버퍼 (HMB, Host Memory Buffer)"
+title = "704. 호스트 메모리 버퍼 (HMB, Host Memory Buffer)"
 date = 2026-03-20
 weight = 704
 description = "DRAM이 없어 속도가 느려지는 저가형 SSD(DRAM-less SSD)의 한계를 극복하기 위해, 컴퓨터 메인보드에 꽂혀 있는 거대한 시스템 RAM의 일부를 SSD가 빌려 쓰는 NVMe 표준 기술"

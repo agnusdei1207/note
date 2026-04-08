@@ -1,5 +1,5 @@
 +++
-title = "67. 스프린트 (Sprint)"
+title = "67. 스프린트 (Sprint) - 1~4주의 개발 주기"
 weight = 67
 +++
 

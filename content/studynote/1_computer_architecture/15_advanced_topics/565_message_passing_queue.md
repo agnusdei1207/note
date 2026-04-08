@@ -1,5 +1,5 @@
 +++
-title = "메시지 패싱 하드웨어 큐 (Message Passing Hardware Queue)"
+title = "565. 메시지 패싱 하드웨어 큐"
 date = 2026-03-20
 weight = 565
 description = "수백 개의 코어가 공유 메모리의 캐시 일관성(스누핑) 병목을 피해, 하드웨어 수준의 메시지 큐를 통해 데이터를 직접 주고받는 초고효율 분산 통신 기법"

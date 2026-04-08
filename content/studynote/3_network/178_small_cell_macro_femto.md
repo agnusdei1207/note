@@ -1,5 +1,5 @@
 +++
-title = "178. 스몰셀 / 매크로셀 / 펨토셀"
+title = "178. 스몰셀 (Small Cell) / 매크로셀 (Macro Cell) / 펨토셀 (Femto Cell)"
 weight = 178
 +++
 

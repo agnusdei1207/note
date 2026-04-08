@@ -1,5 +1,5 @@
 +++
-title = "1052. EVPN-VXLAN 컨트롤 플레인"
+title = "1052. EVPN-VXLAN BGP 컨트롤 플레인 전이"
 weight = 1052
 +++
 # 1052. EVPN-VXLAN BGP 컨트롤 플레인 전이 - VXLAN 오버레이 라우팅 멀티캐스트 홍수 억제 BGP MAC/IP 동기화 데이터센터 패브릭 스파인 리프 아키텍처

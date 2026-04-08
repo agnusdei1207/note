@@ -1,5 +1,5 @@
 +++
-title = "638. 뮤테이션 테스트 돌연변이 테스트 케이스 검증"
+title = "638. 뮤테이션 테스트 (돌연변이) 테스트 케이스 검증"
 date = "2026-04-07"
 [extra]
 categories = "studynote-se"

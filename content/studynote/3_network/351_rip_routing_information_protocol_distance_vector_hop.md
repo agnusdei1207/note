@@ -1,5 +1,5 @@
 +++
-title = "351. RIP (Routing Information Protocol)"
+title = "351. RIP (Routing Information Protocol) - 거리벡터, 홉 카운트 메트릭(최대 15), 30초 업데이트"
 weight = 351
 +++
 

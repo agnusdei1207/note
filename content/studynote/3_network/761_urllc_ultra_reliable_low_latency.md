@@ -1,5 +1,5 @@
 +++
-title = "761. uRLLC (초고신뢰 초저지연 통신)"
+title = "761. uRLLC (Ultra-Reliable and Low Latency Communications 초안정/초고신뢰 초저지연망 차량 제어/스마트 팩토리 통신 프로토콜 설계 1ms)"
 weight = 761
 +++
 # 761. uRLLC (Ultra-Reliable and Low Latency Communications) - 5G 1ms 초저지연

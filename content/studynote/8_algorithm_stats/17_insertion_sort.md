@@ -1,5 +1,5 @@
 +++
-title = "17. 삽입 정렬 (Insertion Sort)"
+title = "17. 삽입 정렬 (Insertion Sort) — O(n²)/O(n) 최선, 안정, 소규모 효율"
 weight = 17
 +++
 

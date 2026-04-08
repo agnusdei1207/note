@@ -1,5 +1,5 @@
 +++
-title = "ADAS 센서 퓨전 가속기 (Sensor Fusion Accelerator)"
+title = "549. ADAS 센서 퓨전 가속기"
 date = 2026-03-20
 weight = 549
 description = "자율주행 시 카메라, 라이다, 레이더 등 성격이 전혀 다른 센서 데이터를 실시간으로 통합하여 3차원 공간을 재구성하는 전용 하드웨어 연산기"

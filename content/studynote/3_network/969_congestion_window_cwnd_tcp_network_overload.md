@@ -1,5 +1,5 @@
 +++
-title = "969. 혼잡 윈도우 (CWND)"
+title = "969. 혼잡 윈도우 (Congestion Window)"
 weight = 969
 +++
 # 969. 혼잡 윈도우 (Congestion Window) - 혼잡 제어 전송 데이터망 크기 조절 라우터 큐 패킷 드랍 억제 네트워크 과부하 글로벌 체증 감지 지표 제어

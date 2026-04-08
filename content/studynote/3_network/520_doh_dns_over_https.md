@@ -1,5 +1,5 @@
 +++
-title = "520. DoH (DNS over HTTPS)"
+title = "520. DoH (DNS over HTTPS) - TCP 443 내 HTTP 프로토콜 안에 DNS 질의 은닉 (검열 회피/보안)"
 weight = 520
 +++
 # 520. DoH (DNS over HTTPS)

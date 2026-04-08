@@ -1,5 +1,5 @@
 +++
-title = "103. 체인법 (Chaining)"
+title = "103. SAT (Satisfiability) — 최초 NP-완전 증명 (Cook-Levin)"
 weight = 103
 +++
 

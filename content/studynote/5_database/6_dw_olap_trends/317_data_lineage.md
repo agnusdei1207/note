@@ -1,5 +1,5 @@
 +++
-title = "317. 데이터 리니지 (Data Lineage)"
+title = "317. 버저닝 (Versioning) 데이터 모델 설계"
 weight = 4317
 +++
 

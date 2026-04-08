@@ -1,6 +1,6 @@
 +++
 weight = 8608
-title = "오류 처리와 로깅 보안"
+title = "608. PKINIT — Kerberos에서 공개키 인증 사용"
 description = "안전하지 않은 오류 처리와 로깅으로 인한 정보 유출 및 방어 전략"
 date = 2024-01-15
 +++

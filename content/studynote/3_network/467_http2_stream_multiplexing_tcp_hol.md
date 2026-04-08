@@ -1,6 +1,6 @@
 +++
 weight = 467
-title = "467. HTTP/2 스트림 다중화 (Multiplexing)와 TCP HOL 블로킹"
+title = "467. HTTP/2 스트림 (Stream) 다중화 (Multiplexing) - HOL 우회 (단, TCP HOL은 잔존)"
 date = "2026-04-02"
 [extra]
 categories = "studynote-network"

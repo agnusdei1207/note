@@ -1,5 +1,5 @@
 +++
-title = "240. 그림자 페이징 기법"
+title = "240. 그림자 페이징 (Shadow Paging) 기법 - 로그 없이 구버전(그림자) 디렉토리와 현재 디렉토리 유지 교체 (COW 유사)"
 weight = 240
 +++
 # 240. 그림자 페이징 (Shadow Paging) 기법 - 비로그 회복 데이터베이스 복구 페이지 테이블 복사 Copy-on-Write 원자성 Redo/Undo 불필요 단편화

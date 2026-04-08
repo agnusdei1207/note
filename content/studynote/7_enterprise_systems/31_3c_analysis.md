@@ -1,5 +1,5 @@
 +++
-title = "31. 3C 분석 - 고객, 자사, 경쟁사"
+title = "31. 3C 분석 - Customer(고객), Company(자사), Competitor(경쟁사)"
 weight = 31
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "1045. eBPF 커널 네트워킹 후킹"
+title = "1045. eBPF 커널 네트워킹 후킹 시스템"
 weight = 1045
 +++
 # 1045. eBPF 커널 네트워킹 후킹 시스템 - Extended Berkeley Packet Filter 리눅스 커널 동적 프로그래밍 샌드박스 XDP 고성능 패킷 필터링 클라우드 네이티브 모니터링 보안 기술

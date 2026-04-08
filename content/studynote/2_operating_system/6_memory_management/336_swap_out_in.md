@@ -1,6 +1,6 @@
 +++
 weight = 336
-title = "336. 스왑 아웃 (Swap Out)과 스왑 인 (Swap In)"
+title = "336. 스왑 아웃 (Swap out) / 스왑 인 (Swap in)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

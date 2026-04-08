@@ -1,5 +1,5 @@
 +++
-title = "332. IPv4-IPv6 전환 (듀얼 스택, 터널링, NAT64)"
+title = "332. IPv4-IPv6 전환 기술: 듀얼 스택 (Dual Stack), 터널링 (ISATAP, 6to4), 주소 변환 (NAT64/DNS64)"
 weight = 332
 +++
 

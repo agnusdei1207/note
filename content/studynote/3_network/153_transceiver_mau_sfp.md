@@ -1,5 +1,5 @@
 +++
-title = "153. 트랜시버 (Transceiver) / MAU"
+title = "153. 트랜시버 (Transceiver) / MAU (Medium Attachment Unit)"
 weight = 153
 +++
 

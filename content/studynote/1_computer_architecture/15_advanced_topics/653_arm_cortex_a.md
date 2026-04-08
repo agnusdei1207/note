@@ -1,5 +1,5 @@
 +++
-title = "ARM Cortex-A 시리즈 특징 (Application Processor)"
+title = "653. ARM Cortex-A 시리즈 특징"
 date = 2026-03-20
 weight = 653
 description = "스마트폰, 태블릿, 그리고 최신 클라우드 서버의 메인 두뇌로 활약하며, 리눅스와 안드로이드 같은 무거운 운영체제를 완벽히 구동하는 고성능 ARM 아키텍처"

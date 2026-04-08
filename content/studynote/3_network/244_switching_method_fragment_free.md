@@ -1,5 +1,5 @@
 +++
-title = "244. 스위칭 방식 - 프래그먼트 프리 (Fragment-free)"
+title = "244. 스위칭 방식 - 프래그먼트 프리 (Fragment-free) - 앞부분 64바이트만 확인"
 weight = 244
 +++
 

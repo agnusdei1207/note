@@ -1,5 +1,5 @@
 +++
-title = "86. 약한 개체 (Weak Entity)와 식별 관계"
+title = "86. 약한 개체 (Weak Entity) - 이중 사각형, 부모 개체에 종속 (식별 관계)"
 weight = 86
 +++
 

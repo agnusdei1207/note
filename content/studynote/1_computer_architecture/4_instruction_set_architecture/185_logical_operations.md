@@ -1,6 +1,6 @@
 +++
 weight = 185
-title = "185. 논리 연산 명령어 (Logical Operations)"
+title = "185. 논리 연산 명령어"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

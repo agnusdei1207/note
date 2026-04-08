@@ -1,6 +1,6 @@
 +++
 weight = 270
-title = "270. 캐시 미스의 원인 3C (Compulsory, Capacity, Conflict)"
+title = "270. 캐시 미스의 원인 (3C: Compulsory, Capacity, Conflict)"
 date = 2024-01-01
 [taxonomies]
 categories = ["Computer Architecture"]

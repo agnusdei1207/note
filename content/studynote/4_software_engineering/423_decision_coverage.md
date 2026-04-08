@@ -1,5 +1,5 @@
 +++
-title = "423. 결정 커버리지 (Decision Coverage)"
+title = "423. 결정 커버리지 (Decision Coverage / 분기 커버리지) - 분기문(If, While 등)의 참/거짓을 최소 한 번씩 실행"
 date = 2026-04-05
 weight = 423
 +++

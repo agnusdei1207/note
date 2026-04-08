@@ -1,6 +1,6 @@
 +++
 weight = 31
-title = "031. ARO (연간 발생 확률, Annual Rate of Occurrence)"
+title = "31. ARO (Annual Rate of Occurrence) — 연간 발생 확률"
 date = "2026-04-05"
 [extra]
 categories = "studynote-security"

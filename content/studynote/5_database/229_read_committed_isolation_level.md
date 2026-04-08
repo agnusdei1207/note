@@ -1,5 +1,5 @@
 +++
-title = "229. Read Committed (레벨 1)"
+title = "229. Read Committed (레벨 1) - 커밋된 데이터만 읽음 (Oracle 기본, Non-Repeatable Read 발생)"
 weight = 229
 +++
 # 229. Read Committed (레벨 1) - 고립화 수준 1단계 오손 읽기 방지 더티 리드 차단 오라클 기본 트랜잭션 동시성 모순성 발생

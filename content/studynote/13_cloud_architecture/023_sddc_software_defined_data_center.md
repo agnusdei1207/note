@@ -1,6 +1,6 @@
 +++
 weight = 23
-title = "023. 소프트웨어 정의 데이터센터 (SDDC, Software-Defined Data Center)"
+title = "23. 소프트웨어 정의 데이터센터 (SDDC, Software Defined Data Center) - 컴퓨팅, 스토리지, 네트워킹을 모두 가상화(SDC, SDS, SDN)하여 API로 프로비저닝하는 데이터센터"
 date = "2026-04-02"
 [extra]
 categories = "studynote-cloud"

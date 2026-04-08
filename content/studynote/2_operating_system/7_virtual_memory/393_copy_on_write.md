@@ -1,6 +1,6 @@
 +++
 weight = 393
-title = "393. 쓰기 시 복사 (COW, Copy-on-Write) 게으름의 기적"
+title = "393. 쓰기 시 복사 (COW, Copy-on-Write) - fork() 시 자원 공유하다 쓸 때 페이지 복제"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

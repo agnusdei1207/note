@@ -1,6 +1,6 @@
 +++
 weight = 449
-title = "449. 인터럽트 구동 I/O (Interrupt-driven I/O) 비동기 시대의 개막"
+title = "449. 인터럽트 구동 I/O (Interrupt-driven I/O) - 완료 시 장치가 CPU에 인터럽트 발생"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

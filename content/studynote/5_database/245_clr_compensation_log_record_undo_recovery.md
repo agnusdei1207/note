@@ -1,5 +1,5 @@
 +++
-title = "245. Compensation Log Record (CLR)"
+title = "245. Compensation Log Record (CLR) - Undo 수행 시 남기는 보상 로그 (중복 Undo 방지)"
 weight = 245
 +++
 # 245. Compensation Log Record (CLR) - Undo 보상 로그 중복 Undo 방지 ARIES 복구 데이터베이스 회복 멱등성 롤백

@@ -1,5 +1,5 @@
 +++
-title = "414. 경계값 분석 (Boundary Value Analysis)"
+title = "414. 경계값 분석 (Boundary Value Analysis) - 경계 부분에서 결함이 많다는 점 이용 (분할의 가장자리 값)"
 date = 2026-04-05
 weight = 414
 +++

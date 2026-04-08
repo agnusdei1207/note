@@ -1,5 +1,5 @@
 +++
-title = "172. 중첩 루프 조인 (NL Join)"
+title = "172. 중첩 루프 조인 (NL Join, Nested Loop Join) - 선행(Driving) 테이블 행마다 후행(Driven) 테이블 인덱스 탐색, 소량 데이터/온라인(OLTP) 적합"
 weight = 172
 +++
 # 172. 중첩 루프 조인 (NL Join, Nested Loop Join)

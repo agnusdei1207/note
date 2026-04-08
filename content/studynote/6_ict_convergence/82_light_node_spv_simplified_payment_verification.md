@@ -1,5 +1,5 @@
 +++
-title = "82. 라이트 노드 (Light Node / SPV)"
+title = "82. 라이트 노드 (Light Node / SPV, Simplified Payment Verification) - 블록 헤더만 다운로드하여 트랜잭션을 검증하는 모바일/경량 환경용 노드"
 weight = 82
 +++
 

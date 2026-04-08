@@ -1,5 +1,5 @@
 +++
-title = "624. LwM2M (Lightweight M2M)"
+title = "624. LwM2M (Lightweight M2M) 표준 프로토콜 관리 메커니즘"
 weight = 624
 +++
 # 624. LwM2M (Lightweight M2M) - IoT 기기 원격 관리 표준

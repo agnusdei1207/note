@@ -1,6 +1,6 @@
 +++
 weight = 472
-title = "472. C-SCAN (Circular SCAN) 대기 시간의 평등화"
+title = "472. C-SCAN (Circular SCAN) - 한 방향으로만 처리하고 끝에 도달하면 시작점으로 빠르게 복귀 (대기 시간 균등화)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

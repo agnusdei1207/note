@@ -1,5 +1,5 @@
 +++
-title = "86. 지갑 멀티시그 (Multi-Sig, Multi-Signature)"
+title = "86. 지갑 멀티시그 (Multi-Sig, Multi-Signature) - 출금을 위해 N명 중 M명 이상의 서명이 필요한 보안 지갑 구조"
 weight = 86
 +++
 

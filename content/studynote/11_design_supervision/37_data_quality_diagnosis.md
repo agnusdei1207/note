@@ -1,5 +1,5 @@
 +++
-title = "37. 데이터 품질 진단"
+title = "37. PMO (Project Management Office) - 발주자를 대행하여 프로젝트 관리 및 기술 지원을 수행하는 조직 (사전 예방 위주)"
 weight = 37
 +++
 

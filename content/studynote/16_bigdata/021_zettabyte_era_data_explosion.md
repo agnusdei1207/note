@@ -1,6 +1,6 @@
 +++
 weight = 21
-title = "021. 제타바이트 시대 (Zettabyte Era)"
+title = "21. 제타바이트 시대 — 2025년 전 세계 생성 데이터 ~175 ZB"
 date = "2026-04-02"
 [extra]
 categories = "studynote-bigdata"

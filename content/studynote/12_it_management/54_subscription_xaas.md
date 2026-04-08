@@ -1,6 +1,6 @@
 +++
 weight = 54
-title = "54. 구독 경제/XaaS (Subscription Economy / Everything as a Service)"
+title = "54. 정보 시스템 감리 (IT Audit) - 효과성, 효율성, 안전성을 제3자적 관점에서 진단 평가"
 description = "소유에서 사용으로의 전환, 일회성 구매 대신 지속적 구독을 통해客户提供 가치를 제공하고 기업이 안정적인 반복 수익을 확보하는 비즈니스 모델"
 date = "2026-03-04"
 [taxonomies]

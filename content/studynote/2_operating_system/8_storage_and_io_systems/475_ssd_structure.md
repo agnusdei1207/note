@@ -1,6 +1,6 @@
 +++
 weight = 475
-title = "475. 솔리드 스테이트 드라이브 (SSD) 구조 물리적 혁명"
+title = "475. 솔리드 스테이트 드라이브 (SSD, Solid State Drive) 구조 - NAND 플래시, 페이지(Page), 블록(Block)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

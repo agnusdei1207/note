@@ -1,5 +1,5 @@
 +++
-title = "87. ERP 패키지의 3대 장점 (Best Practice 등)"
+title = "87. ERP 패키지의 장점 - 베스트 프랙티스(Best Practice) 내재화, 통합 데이터베이스 구축, 유지보수 용이"
 weight = 87
 +++
 

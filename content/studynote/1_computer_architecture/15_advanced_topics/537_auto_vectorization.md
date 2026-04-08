@@ -1,5 +1,5 @@
 +++
-title = "오토 벡터라이제이션 (Auto-vectorization)"
+title = "537. 오토 벡터라이제이션 (Auto-vectorization)"
 date = 2026-03-20
 weight = 537
 description = "프로그래머가 작성한 일반적인 반복문(스칼라 코드)을 컴파일러가 분석하여, 하드웨어의 SIMD(벡터) 명령어를 사용하도록 자동 변환해주는 최적화 기술"

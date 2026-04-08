@@ -1,6 +1,6 @@
 +++
 weight = 387
-title = "387. 페이지 부재 (Page Fault) 가상 메모리의 심장 박동"
+title = "387. 페이지 부재 (Page Fault) - 무효 페이지 접근 시 발생하는 트랩(인터럽트)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

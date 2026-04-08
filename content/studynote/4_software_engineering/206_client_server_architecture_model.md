@@ -1,5 +1,5 @@
 +++
-title = "206. 클라이언트-서버 아키텍처"
+title = "206. 클라이언트-서버 아키텍처 (Client-Server)"
 weight = 206
 +++
 # 206. 클라이언트-서버 아키텍처 (Client-Server) - 2-Tier 구조 분산 시스템 역할 분담 Thick Client Thin Client 웹 아키텍처 서버 부하 집중

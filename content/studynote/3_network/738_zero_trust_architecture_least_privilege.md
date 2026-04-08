@@ -1,5 +1,5 @@
 +++
-title = "738. 제로 트러스트 보안 (Zero Trust)"
+title = "738. 제로 트러스트 보안 (Zero Trust Architecture, 내부망도 검증, 최소 권한 원칙 지속 검토 적용 프레임워크 설계)"
 weight = 738
 +++
 # 738. 제로 트러스트 보안 (Zero Trust Architecture) - 내부망도 검증, 최소 권한 원칙 프레임워크

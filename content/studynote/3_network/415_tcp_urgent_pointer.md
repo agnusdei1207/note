@@ -1,5 +1,5 @@
 +++
-title = "415. TCP 긴급 포인터 (Urgent Pointer)"
+title = "415. 긴급 포인터 (Urgent Pointer)"
 weight = 415
 +++
 

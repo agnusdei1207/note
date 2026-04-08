@@ -1,5 +1,5 @@
 +++
-title = "375. LDP와 RSVP-TE (MPLS 시그널링)"
+title = "375. LDP (Label Distribution Protocol), RSVP-TE"
 weight = 375
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "396. VRRP (Virtual Router Redundancy Protocol)"
+title = "396. VRRP (Virtual Router Redundancy Protocol) - 개방형 FHRP"
 weight = 396
 +++
 

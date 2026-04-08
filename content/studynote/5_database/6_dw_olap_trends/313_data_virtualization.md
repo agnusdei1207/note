@@ -1,5 +1,5 @@
 +++
-title = "313. 데이터 가상화 (Data Virtualization)"
+title = "313. 그래프 신경망 (GNN) 연계를 위한 그래프 데이터베이스 활용"
 weight = 4313
 +++
 

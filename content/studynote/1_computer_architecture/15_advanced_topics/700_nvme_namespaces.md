@@ -1,5 +1,5 @@
 +++
-title = "NVMe 네임스페이스 (Namespaces)"
+title = "700. NVMe 네임스페이스 (Namespaces)"
 date = 2026-03-20
 weight = 700
 description = "하나의 거대한 물리적 NVMe SSD를 여러 개의 독립된 가상 논리 드라이브로 완벽하게 쪼개어, 다양한 용도나 가상 머신에 할당할 수 있게 해주는 논리적 분할 기능"

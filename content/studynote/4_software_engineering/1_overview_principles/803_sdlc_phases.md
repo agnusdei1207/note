@@ -1,6 +1,6 @@
 +++
 weight = 803
-title = "SDLC 단계별 상세"
+title = "803. SDLC 단계별 상세"
 description = "SDLC Phases Detail"
 category = "4_software_engineering"
 +++

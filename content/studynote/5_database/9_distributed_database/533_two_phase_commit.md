@@ -1,6 +1,6 @@
 +++
 weight = 533
-title = "2단계 커밋 (Two-Phase Commit, 2PC)"
+title = "533. 이벤트 소싱 상태 변경 스트림 영속 저장망 구성"
 description = "분산 트랜잭션의 원자성을 보장하는 2PC 프로토콜에 대해 설명"
 date = 2024-01-01
 

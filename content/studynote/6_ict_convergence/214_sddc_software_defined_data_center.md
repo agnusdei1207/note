@@ -1,5 +1,5 @@
 +++
-title = "214. SDDC (소프트웨어 정의 데이터센터)"
+title = "214. SDDC (Software Defined Data Center) - 컴퓨트, 스토리지, 네트워크 등 데이터센터의 모든 인프라를 가상화하여 소프트웨어로 통제"
 weight = 214
 +++
 # 214. SDDC (Software Defined Data Center) - 컴퓨트 스토리지 네트워크 가상화 인프라 소프트웨어 통제 클라우드 데이터센터 자동화 프로비저닝

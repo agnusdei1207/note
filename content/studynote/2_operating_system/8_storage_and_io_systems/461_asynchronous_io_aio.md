@@ -1,6 +1,6 @@
 +++
 weight = 461
-title = "461. 비동기 I/O (Asynchronous I/O, AIO) 기다림의 완전한 종식"
+title = "461. 비동기 I/O (Asynchronous I/O, AIO) - I/O 요청 후 즉시 작업 진행, 완료 시 시그널/콜백 알림"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

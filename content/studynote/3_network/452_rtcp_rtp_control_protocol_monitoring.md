@@ -1,5 +1,5 @@
 +++
-title = "452. RTCP (RTP Control Protocol)"
+title = "452. RTCP (RTP Control Protocol) - 품질 감시 모니터링"
 weight = 452
 +++
 

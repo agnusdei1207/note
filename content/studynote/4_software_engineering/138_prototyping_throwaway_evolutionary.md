@@ -1,6 +1,6 @@
 +++
 weight = 138
-title = "138. 프로토타이핑 (Prototyping) 모델 - Throwaway와 Evolutionary"
+title = "138. 사용자 여정 지도 (User Journey Map)"
 date = "2026-04-02"
 [extra]
 categories = "studynote-se"

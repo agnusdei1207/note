@@ -1,5 +1,5 @@
 +++
-title = "MESI 프로토콜의 상태 전이도 (State Transition)"
+title = "512. 메시 프로토콜 상태 전이도"
 date = 2026-03-20
 weight = 512
 description = "캐시 일관성을 유지하는 가장 대표적인 표준 알고리즘인 MESI 프로토콜의 4가지 상태와 코어 간의 상호 작용 원리"

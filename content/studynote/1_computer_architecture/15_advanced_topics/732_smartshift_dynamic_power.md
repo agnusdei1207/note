@@ -1,5 +1,5 @@
 +++
-title = "스마트 시프트 (SmartShift / Dynamic Power Share)"
+title = "732. 스마트 시프트 (SmartShift)"
 date = 2026-03-20
 weight = 732
 description = "노트북이라는 한정된 전력(배터리/쿨링) 환경에서, CPU와 GPU가 서로 낭비되는 전력을 0.001초 만에 실시간으로 빌려주고 뺏어오며 게임이나 작업 성능을 극대화하는 전력 교환 기술"

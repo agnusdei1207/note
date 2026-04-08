@@ -1,5 +1,5 @@
 +++
-title = "106. FinOps - 클라우드 비용 최적화"
+title = "106. FinOps - 클라우드 비용 최적화 및 관리"
 weight = 106
 +++
 

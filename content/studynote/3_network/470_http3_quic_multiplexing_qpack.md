@@ -1,6 +1,6 @@
 +++
 weight = 470
-title = "HTTP/3 특징"
+title = "470. HTTP/3 특징 - QUIC 프로토콜 활용, 완전한 멀티플렉싱, QPACK 압축, 연결 지연 거의 없음"
 description = "TCP의 근본적 한계를 극복하고 QUIC(UDP 기반) 프로토콜을 도입하여 완전한 멀티플렉싱과 0-RTT 연결을 달성한 차세대 웹 프로토콜"
 date = 2026-04-03
 [taxonomies]

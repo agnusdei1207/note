@@ -1,5 +1,5 @@
 +++
-title = "237. 로그 기반 회복 기법"
+title = "237. 로그 기반 회복 기법 (Log-based Recovery)"
 weight = 237
 +++
 # 237. 로그 기반 회복 기법 (Log-based Recovery) - 트랜잭션 장애 복구 로그 파일 구조 Redo Undo 트랜잭션 기록 데이터베이스 무결성

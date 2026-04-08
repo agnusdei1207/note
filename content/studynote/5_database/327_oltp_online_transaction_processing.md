@@ -1,5 +1,5 @@
 +++
-title = "327. OLTP On Line Transaction Processing 실시간 트랜잭션"
+title = "327. OLTP (On-Line Transaction Processing) - 실시간 트랜잭션, 정규화된 RDB, 빠른 응답 속도"
 date = "2026-04-07"
 [extra]
 categories = "studynote-database"

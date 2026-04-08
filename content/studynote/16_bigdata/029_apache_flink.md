@@ -1,6 +1,6 @@
 +++
 weight = 29
-title = "29. Apache Flink"
+title = "29. Map 함수 — 입력 → (Key, Value) 쌍 출력"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

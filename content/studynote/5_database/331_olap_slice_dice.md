@@ -1,5 +1,5 @@
 +++
-title = "331. 슬라이스 (Slice) / 다이스 (Dice)"
+title = "331. 슬라이스 (Slice) - 특정 차원의 단일 평면 절단 / 다이스 (Dice) - 여러 차원의 작은 주사위 모양 추출"
 date = "2026-04-07"
 [extra]
 categories = "studynote-db"

@@ -1,5 +1,5 @@
 +++
-title = "88. 클라우드 ERP (SaaS ERP)와 2-Tier 아키텍처"
+title = "88. 클라우드 ERP (SaaS ERP) - 2 Tier ERP 구조 (본사는 On-Premise 구축형 무거운 ERP, 지사는 SaaS 형태 가벼운 ERP 혼용)"
 weight = 88
 +++
 

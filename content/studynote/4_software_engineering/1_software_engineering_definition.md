@@ -1,6 +1,6 @@
 +++
 weight = 1
-title = "01. 소프트웨어 공학의 정의 및 목표"
+title = "1. 소프트웨어 공학 (Software Engineering)의 정의 및 목표 (신뢰성, 효율성, 유지보수성)"
 description = "소프트웨어 공학의 본질적 정의, 핵심 목표(신뢰성, 효율성, 유지보수성) 및 실무적 접근법 분석"
 date = "2024-05-20"
 [taxonomies]

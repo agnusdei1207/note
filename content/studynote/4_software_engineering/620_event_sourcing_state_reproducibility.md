@@ -1,5 +1,5 @@
 +++
-title = "620. 이벤트 소싱 (Event Sourcing) 상태 재생 가능성 보장"
+title = "620. 이벤트 소싱 상태 재생 가능성 보장"
 date = "2026-04-07"
 [extra]
 categories = "studynote-se"

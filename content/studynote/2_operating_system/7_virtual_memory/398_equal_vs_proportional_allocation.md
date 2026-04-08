@@ -1,6 +1,6 @@
 +++
 weight = 398
-title = "398. 균등 할당 vs 비례 할당 (Equal vs Proportional Allocation)"
+title = "398. 균등 할당 (Equal Allocation) vs 비례 할당 (Proportional Allocation)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

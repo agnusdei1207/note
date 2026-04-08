@@ -1,6 +1,6 @@
 +++
 weight = 23
-title = "23. TCL (Transaction Control Language)"
+title = "23. TCL (Transaction Control Language) - 트랜잭션 제어 (COMMIT, ROLLBACK, SAVEPOINT)"
 description = "트랜잭션 제어 언어(TCL)의 동작 원리, 상태 전이 아키텍처 및 복구 메커니즘 심층 분석"
 date = "2024-05-24"
 [taxonomies]

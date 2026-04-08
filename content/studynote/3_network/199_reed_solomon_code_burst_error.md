@@ -1,5 +1,5 @@
 +++
-title = "199. 리드-솔로몬 코드 (Reed-Solomon Code)"
+title = "199. 리드-솔로몬 코드 (Reed-Solomon Code) - 블록 오류 정정"
 weight = 199
 +++
 

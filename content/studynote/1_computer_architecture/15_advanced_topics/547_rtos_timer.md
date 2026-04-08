@@ -1,5 +1,5 @@
 +++
-title = "실시간 시스템 타이머 (Real-Time System Timer)"
+title = "547. 실시간 시스템 타이머"
 date = 2026-03-20
 weight = 547
 description = "마이크로초 단위의 엄격한 데드라인을 지켜야 하는 RTOS 환경에서, 정확한 주기와 스케줄링을 보장하는 특수 하드웨어 타이머"

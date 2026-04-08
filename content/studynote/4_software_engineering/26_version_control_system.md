@@ -1,6 +1,6 @@
 +++
 weight = 26
-title = "26. 버전 관리 시스템 (VCS)"
+title = "26. 버전 관리 시스템 (VCS) - Centralized (SVN) vs Distributed (Git)"
 description = "Centralized (SVN) vs Distributed (Git) 버전 관리 시스템의 심층 분석과 실무 적용 전략"
 date = "2026-03-04"
 [taxonomies]

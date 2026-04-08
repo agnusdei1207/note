@@ -1,5 +1,5 @@
 +++
-title = "776. Massive MIMO (다중 배열 안테나)"
+title = "776. Massive MIMO 대거 다중 배열 안테나 시스템 고주파 전파 빔 관리"
 weight = 776
 +++
 # 776. Massive MIMO (대규모 다중 배열 안테나) 시스템 - 고주파 전파 관리

@@ -1,5 +1,5 @@
 +++
-title = "72. 플랫폼 비즈니스 (Platform Business) - 양면 시장"
+title = "72. 플랫폼 비즈니스 (Platform Business) - 양면 시장 (Two-sided Market) 연결 구조"
 weight = 72
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "609. ZigBee (지그비)"
+title = "609. ZigBee (지그비) - IEEE 802.15.4 초저전력 제어/감시용 메쉬 네트워킹 표준, 250Kbps"
 weight = 609
 +++
 # 609. ZigBee (지그비) - IEEE 802.15.4 메시 네트워크

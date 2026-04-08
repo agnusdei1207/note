@@ -1,5 +1,5 @@
 +++
-title = "265. 복제 투명성 (Replication Transparency)"
+title = "265. 복제 투명성 (Replication Transparency) - 데이터 중복 유지 및 갱신 투명"
 weight = 265
 +++
 

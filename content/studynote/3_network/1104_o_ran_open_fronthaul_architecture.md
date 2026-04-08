@@ -1,5 +1,5 @@
 +++
-title = "1104. O-RAN 오픈 프론트홀 사양"
+title = "1104. O-RAN 프론트홀 개방 사양"
 weight = 1104
 +++
 # 1104. O-RAN 프론트홀 개방 사양 - Open Radio Access Network 기지국 개방형 아키텍처 vRAN 화이트박스 eCPRI O-RU O-DU 벤더 종속성 탈피

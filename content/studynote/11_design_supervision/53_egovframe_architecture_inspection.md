@@ -1,6 +1,6 @@
 +++
 weight = 53
-title = "53. 전자정부 표준 프레임워크 (eGovFrame) 아키텍처 및 적용 기준 점검"
+title = "53. 블록체인 사업 감리 - 스마트 컨트랙트 취약점 점검 및 합의 알고리즘 노드 구성 점검"
 date = "2026-04-05"
 [extra]
 categories = "studynote-design-supervision"

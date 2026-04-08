@@ -1,5 +1,5 @@
 +++
-title = "46. 재현율 (Recall) 미탐지 최소화 평가지표"
+title = "46. 재현율 (Recall / 민감도 / TPR) - 실제 Positive 중에서 모델이 맞춘 비율"
 date = "2026-04-07"
 [extra]
 categories = "studynote-ai"

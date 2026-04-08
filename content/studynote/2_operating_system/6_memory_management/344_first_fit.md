@@ -1,6 +1,6 @@
 +++
 weight = 344
-title = "344. 최초 적합 (First-Fit) 가장 빠른 동적 메모리 배치"
+title = "344. 최초 적합 (First-Fit) - 첫 번째 충분한 공간 할당 (속도 빠름)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

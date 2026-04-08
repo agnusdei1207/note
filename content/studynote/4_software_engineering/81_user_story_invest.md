@@ -1,5 +1,5 @@
 +++
-title = "81. 사용자 스토리 (User Story) - 요구사항 작성법"
+title = "81. 사용자 스토리 (User Story) - Who, What, Why 형식"
 weight = 81
 +++
 

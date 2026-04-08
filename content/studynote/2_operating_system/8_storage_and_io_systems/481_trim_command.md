@@ -1,6 +1,6 @@
 +++
 weight = 481
-title = "481. TRIM 명령어"
+title = "481. TRIM 명령어 - OS가 삭제된 파일의 LBA를 SSD에 알려주어 GC 효율 향상"
 date = "2026-03-24"
 [extra]
 categories = ["studynote-operating-system"]

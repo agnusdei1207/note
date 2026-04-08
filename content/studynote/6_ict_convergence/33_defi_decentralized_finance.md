@@ -1,5 +1,5 @@
 +++
-title = "33. 디파이 (DeFi, Decentralized Finance)"
+title = "33. 디파이 (DeFi, Decentralized Finance) - 탈중앙화 금융 (중개자 없는 대출, 예치, 스왑)"
 weight = 33
 +++
 

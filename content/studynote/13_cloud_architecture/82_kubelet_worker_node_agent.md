@@ -1,5 +1,5 @@
 +++
-title = "82. Kubelet (큐블렛)"
+title = "82. Kubelet (큐블렛) - 마스터 노드의 명령을 받아 파드(Pod)를 생성/관리하고 헬스체크 결과를 보고하는 노드별 에이전트"
 date = "2026-04-07"
 [extra]
 categories = "studynote-cloud"

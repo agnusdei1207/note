@@ -1,5 +1,5 @@
 +++
-title = "102. SLI (서비스 수준 지표) / SLO (서비스 수준 목표)"
+title = "102. SLI (Service Level Indicator) / SLO (Service Level Objective)"
 weight = 102
 +++
 

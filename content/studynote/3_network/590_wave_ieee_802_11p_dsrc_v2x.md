@@ -1,6 +1,6 @@
 +++
 weight = 590
-title = "590. WAVE (IEEE 802.11p) - 무선 차량 통신 (DSRC)의 한계와 OCB 초고속 인증 생략 아키텍처"
+title = "590. WAVE (IEEE 802.11p 무선차량통신) DSRC(단거리전용)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

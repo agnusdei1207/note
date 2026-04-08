@@ -1,6 +1,6 @@
 +++
 weight = 104
-title = "104. ���� �� (Process Creation)"
+title = "104. 프로세스 생성 (Process Creation) - fork(), exec() 시스템 콜"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

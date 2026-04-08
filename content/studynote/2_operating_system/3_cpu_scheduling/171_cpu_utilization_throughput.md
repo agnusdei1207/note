@@ -1,6 +1,6 @@
 +++
 weight = 171
-title = "171. CPU 이용률 (CPU Utilization)과 처리량 (Throughput)"
+title = "171. CPU 이용률 (CPU Utilization) / 처리량 (Throughput)"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

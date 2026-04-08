@@ -1,5 +1,5 @@
 +++
-title = "인라인 압축 (Inline Compression)"
+title = "683. 인라인 압축 (Inline Compression)"
 date = 2026-03-20
 weight = 683
 description = "스토리지나 메모리에 데이터를 기록하기 직전, 하드웨어나 OS가 실시간으로 데이터를 압축하여 디스크 공간을 절약하고 수명을 연장하는 기술"

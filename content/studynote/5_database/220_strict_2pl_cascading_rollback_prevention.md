@@ -1,5 +1,5 @@
 +++
-title = "220. 엄격한 2PL (Strict 2PL)"
+title = "220. 엄격한 2PL (Strict 2PL) - X-Lock을 커밋 전까지 보유 (연쇄 복귀 방지)"
 weight = 220
 +++
 # 220. 엄격한 2PL (Strict 2PL) - 2단계 락킹 프로토콜 진화형 배타 락(X-Lock) 커밋 시 반납 연쇄 복귀 방지 오손 읽기 방지 트랜잭션 고립성 오라클 DB

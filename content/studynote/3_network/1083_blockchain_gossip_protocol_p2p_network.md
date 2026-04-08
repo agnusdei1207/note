@@ -1,5 +1,5 @@
 +++
-title = "1083. 가십 (Gossip) 프로토콜"
+title = "1083. 블록체인 가십 프로토콜 P2P 연결"
 weight = 1083
 +++
 # 1083. 블록체인 가십 프로토콜 P2P 연결 - Gossip Protocol Epidemic 전염병 알고리즘 분산 시스템 상태 동기화 노드 라우팅

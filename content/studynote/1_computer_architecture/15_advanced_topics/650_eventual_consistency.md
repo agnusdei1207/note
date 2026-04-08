@@ -1,5 +1,5 @@
 +++
-title = "결과적 일관성 (Eventual Consistency)"
+title = "650. 결과적 일관성 (Eventual Consistency)"
 date = 2026-03-20
 weight = 650
 description = "글로벌 단위의 분산 시스템에서 속도(Latency)와 가용성(Availability)을 극대화하기 위해, 당장 데이터가 불일치하더라도 '언젠가는(결국에는) 똑같아질 것'이라고 타협하는 데이터 동기화 철학"

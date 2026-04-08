@@ -1,5 +1,5 @@
 +++
-title = "79. 메타포 (Metaphor) - 시스템의 가이드라인"
+title = "79. 메타포 (Metaphor) - 시스템의 전체적 가이드라인"
 weight = 79
 +++
 

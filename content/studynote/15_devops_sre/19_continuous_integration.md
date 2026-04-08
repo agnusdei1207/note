@@ -1,6 +1,6 @@
 +++
 weight = 19
-title = "19. 지속적 통합 (CI, Continuous Integration)"
+title = "19. 지속적 통합 (CI, Continuous Integration) - 다수 개발자의 코드를 메인 브랜치에 수시로 병합하고 자동 빌드/테스트를 수행해 통합 오류를 조기 발견"
 description = "다수의 개발자가 작성한 코드를 중앙 리포지토리에 빈번하게 병합하고, 자동화된 빌드 및 테스트를 수행하여 통합의 결함을 조기에 발견하는 핵심 DevOps 프랙티스"
 date = "2026-03-04"
 

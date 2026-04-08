@@ -1,6 +1,6 @@
 +++
 weight = 325
-title = "325. 회전 지연 시간 (Rotational Latency)"
+title = "325. 회전 지연 (Rotational Latency)"
 date = "2026-03-27"
 [extra]
 categories = "studynote-computer-architecture"

@@ -1,6 +1,6 @@
 +++
 weight = 15
-title = "15. 휴리스틱 탐색 (Heuristic Search)"
+title = "15. 휴리스틱 탐색 (Heuristic Search / Informed Search) - 직관이나 경험 기반 정보(휴리스틱 함수)를 활용한 최적 탐색"
 description = "경험적 지식과 거리 추정 함수를 이용해 유망한 노드를 우선적으로 탐색하여 연산 효율을 극대화하는 정보 기반 탐색"
 date = "2024-05-24"
 [taxonomies]

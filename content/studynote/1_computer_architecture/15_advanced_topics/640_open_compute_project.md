@@ -1,5 +1,5 @@
 +++
-title = "오픈 컴퓨트 프로젝트 (OCP, Open Compute Project)"
+title = "640. 오픈 컴퓨트 프로젝트 (OCP, Open Compute Project)"
 date = 2026-03-20
 weight = 640
 description = "페이스북(Meta)이 주도하여 시작한 하드웨어 민주화 운동으로, 가장 효율적인 데이터센터 서버와 랙(Rack)의 설계도를 전 세계에 무료로 오픈소스로 공개하는 프로젝트"

@@ -1,5 +1,5 @@
 +++
-title = "209. 블랙보드 패턴 (Blackboard)"
+title = "209. 블랙보드 패턴 (Blackboard Pattern) - 음성/패턴 인식, 공용 데이터소스를 여러 지식 모듈이 참조"
 weight = 209
 +++
 # 209. 블랙보드 패턴 (Blackboard Pattern) - 음성/패턴 인식 공용 데이터소스 여러 지식 모듈 협력 AI 전문가 시스템 비결정론적 문제 해결

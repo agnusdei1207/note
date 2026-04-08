@@ -1,5 +1,5 @@
 +++
-title = "237. 충돌 도메인(Collision Domain) / 브로드캐스트 도메인"
+title = "237. 충돌 도메인 (Collision Domain) / 브로드캐스트 도메인 (Broadcast Domain)"
 weight = 237
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "265. 플라이웨이트 (Flyweight)"
+title = "265. 플라이웨이트 (Flyweight) - 인스턴스 공유로 메모리 절약"
 weight = 265
 +++
 # 265. 플라이웨이트 (Flyweight) - 인스턴스 공유 메모리 절약 캐시 팩토리 구조 패턴 객체 재사용 GoF 

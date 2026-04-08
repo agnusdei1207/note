@@ -1,5 +1,5 @@
 +++
-title = "670. SHA-3 패밀리 (Keccak)"
+title = "670. SHA-3 패밀리 - 스펀지(Sponge) 펑션 방식 Keccak 로직, 기존 방어 결함 해소"
 weight = 670
 +++
 # 670. SHA-3 패밀리 - 스펀지(Sponge) 펑션 방식 Keccak 로직

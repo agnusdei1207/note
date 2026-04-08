@@ -1,5 +1,5 @@
 +++
-title = "195. 격리성 (Isolation)"
+title = "195. 격리성 (Isolation) - 실행 중인 트랜잭션 연산에 다른 트랜잭션 간섭 불가 - 병행 제어(Concurrency Control) 보장"
 weight = 195
 +++
 # 195. 격리성 (Isolation) - 고립성 동시성 제어 병행 제어 트랜잭션 간섭 금지 직렬화 가능성 잠금(Lock) MVCC 아키텍처

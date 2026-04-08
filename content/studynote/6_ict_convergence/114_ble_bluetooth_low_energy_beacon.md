@@ -1,5 +1,5 @@
 +++
-title = "114. 블루투스 저전력 (BLE, Bluetooth Low Energy)"
+title = "114. 블루투스 저전력 (BLE, Bluetooth Low Energy) - 비컨(Beacon) 활용 위치 기반 서비스"
 weight = 114
 +++
 

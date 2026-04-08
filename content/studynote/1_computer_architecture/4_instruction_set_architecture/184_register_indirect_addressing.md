@@ -1,6 +1,6 @@
 +++
 weight = 184
-title = "184. 레지스터 간접 주소 지정 (Register Indirect Addressing)"
+title = "184. 산술 연산 명령어"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

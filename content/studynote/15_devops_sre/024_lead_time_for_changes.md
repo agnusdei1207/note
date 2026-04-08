@@ -1,6 +1,6 @@
 +++
 weight = 24
-title = "024. 변경 리드 타임 (Lead Time for Changes)"
+title = "24. 변경 리드 타임 (Lead Time for Changes) - 코드가 커밋된 후 프로덕션에 배포되기까지 걸리는 시간"
 date = "2026-04-02"
 [extra]
 categories = "studynote-devops-sre"

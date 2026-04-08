@@ -1,5 +1,5 @@
 +++
-title = "680. OCSP Stapling (성능 개선)"
+title = "680. OCSP Stapling (TLS Handshake 트래픽 성능 확장용 서버 캐시 상태 전송 메커니즘 개선기법)"
 weight = 680
 +++
 # 680. OCSP Stapling (TLS Handshake 캐시 개선 기법)

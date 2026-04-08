@@ -1,5 +1,5 @@
 +++
-title = "83. 풀 노드 (Full Node)"
+title = "83. 풀 노드 (Full Node) - 제네시스 블록부터 모든 거래 내역을 보관하고 검증하는 노드"
 weight = 83
 +++
 

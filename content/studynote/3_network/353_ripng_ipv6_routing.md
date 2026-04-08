@@ -1,5 +1,5 @@
 +++
-title = "353. RIPng (IPv6 용 Routing Information Protocol)"
+title = "353. RIPng (IPv6 용)"
 weight = 353
 +++
 

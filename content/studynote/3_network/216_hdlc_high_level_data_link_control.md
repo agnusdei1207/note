@@ -1,5 +1,5 @@
 +++
-title = "216. HDLC (High-Level Data Link Control)"
+title = "216. HDLC (High-Level Data Link Control) - 비트 동기식 프로토콜, ISO"
 weight = 216
 +++
 

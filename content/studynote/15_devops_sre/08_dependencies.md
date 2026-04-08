@@ -1,6 +1,6 @@
 +++
 weight = 8
-title = "08. 종속성 격리"
+title = "8. 종속성 (Dependencies) 격리 - 모든 종속성은 명시적으로 선언(package.json, pom.xml 등)"
 date = "2026-04-05"
 [taxonomies]
 tags = ["Dependencies", "종속성", "격리", "패키지 관리", "12팩터"]

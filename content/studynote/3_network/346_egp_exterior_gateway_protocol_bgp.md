@@ -1,5 +1,5 @@
 +++
-title = "346. EGP (Exterior Gateway Protocol) - BGP"
+title = "346. EGP (Exterior Gateway Protocol) - AS 외부간 라우팅 (BGP)"
 weight = 346
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "38. 양손잡이 조직 (Ambidextrous Organization)"
+title = "38. 양손잡이 조직 (Ambidextrous Organization) - 기존 사업의 활용(Exploitation)과 신사업의 탐험(Exploration)을 동시에 수행하는 경영 전략"
 weight = 38
 +++
 

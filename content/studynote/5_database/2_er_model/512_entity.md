@@ -1,6 +1,6 @@
 +++
 weight = 512
-title = "개체 (Entity)"
+title = "512. 반정규화 성능 트레이드오프 파생 컬럼 설계"
 description = "ER 모델에서 개체의 정의와 유형"
 date = 2026-03-26
 

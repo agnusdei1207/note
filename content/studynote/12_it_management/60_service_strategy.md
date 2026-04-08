@@ -1,6 +1,6 @@
 +++
 weight = 60
-title = "60. 서비스 전략 (Service Strategy)"
+title = "60. RPA (Robotic Process Automation) / 초자동화 (Hyperautomation) 업무 효율화"
 description = "IT 서비스가 비즈니스에 창출하는 가치를 정의하고, 서비스 포트폴리오를 설계하며, 재무적 지속 가능성을確保하는 ITIL Lifecycle의 첫 단계"
 date = "2026-03-04"
 [taxonomies]

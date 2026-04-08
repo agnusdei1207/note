@@ -1,6 +1,6 @@
 +++
 weight = 805
-title = "V 모델"
+title = "805. V 모델"
 description = "V-Model"
 category = "4_software_engineering"
 +++

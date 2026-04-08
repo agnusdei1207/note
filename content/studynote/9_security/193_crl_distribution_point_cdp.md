@@ -1,5 +1,5 @@
 +++
-title = "193. CRL Distribution Point CRL 발급 위치"
+title = "193. CRL Distribution Point — CRL 발급 위치"
 date = "2026-04-07"
 [extra]
 categories = "studynote-security"

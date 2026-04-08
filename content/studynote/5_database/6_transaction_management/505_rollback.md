@@ -1,6 +1,6 @@
 +++
 weight = 505
-title = "롤백 (Rollback)"
+title = "505. 트랜잭션 장애 미디어 장애 복구 범위"
 description = "트랜잭션 롤백의 개념과 UNDO 로그 기반 복구 메커니즘에 대해 설명"
 date = 2024-01-01
 

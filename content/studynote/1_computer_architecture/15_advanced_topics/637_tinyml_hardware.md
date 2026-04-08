@@ -1,5 +1,5 @@
 +++
-title = "TinyML 하드웨어 제약 (Tiny Machine Learning)"
+title = "637. TinyML 하드웨어 제약"
 date = 2026-03-20
 weight = 637
 description = "스마트폰이나 라즈베리 파이보다 훨씬 작고, 배터리 하나로 1년을 버텨야 하는 극단적인 초소형 마이크로컨트롤러(MCU)에서 인공지능을 구동하기 위한 하드웨어 설계의 한계점"

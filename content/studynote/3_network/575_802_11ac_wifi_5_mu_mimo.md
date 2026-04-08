@@ -1,5 +1,5 @@
 +++
-title = "575. 802.11ac (Wi-Fi 5)"
+title = "575. 802.11ac (Wi-Fi 5) - MU-MIMO (다운링크 한정), 5GHz 대역폭 80~160MHz"
 weight = 575
 +++
 # 575. 802.11ac (Wi-Fi 5) - MU-MIMO, 5GHz 160MHz 대역폭

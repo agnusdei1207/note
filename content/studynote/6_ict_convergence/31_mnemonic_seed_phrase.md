@@ -1,5 +1,5 @@
 +++
-title = "31. 니모닉 (Mnemonic)과 시드 구문 (Seed Phrase)"
+title = "31. 니모닉 (Mnemonic) - 지갑 복구를 위한 12~24개의 무작위 영단어 조합 (시드 구문)"
 weight = 31
 +++
 

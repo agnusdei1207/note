@@ -1,6 +1,6 @@
 +++
 weight = 552
-title = "552. B-Tree 디렉터리 색인 - 100만 개 파일 폴더의 검색 광속화"
+title = "552. B-Tree / B+Tree 기반 디렉터리 색인 (대규모 디렉터리 검색 최적화)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

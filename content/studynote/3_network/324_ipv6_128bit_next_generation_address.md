@@ -1,5 +1,5 @@
 +++
-title = "324. IPv6 (Internet Protocol Version 6) - 차세대 주소"
+title = "324. IPv6 (Internet Protocol Version 6) - 128비트 차세대 주소"
 weight = 324
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "53. 분산 식별자 (DID Document) 구조"
+title = "53. 분산 식별자 (DID Document) - 퍼블릭 키, 인증 정보, 서비스 엔드포인트 포함"
 weight = 53
 +++
 

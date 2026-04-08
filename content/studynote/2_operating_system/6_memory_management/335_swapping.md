@@ -1,6 +1,6 @@
 +++
 weight = 335
-title = "335. 스와핑 (Swapping)"
+title = "335. 스와핑 (Swapping) - 메모리 부족 시 프로세스를 디스크 백킹 스토어(Backing Store)로 쫓아냄"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

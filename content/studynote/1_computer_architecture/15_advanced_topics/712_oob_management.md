@@ -1,5 +1,5 @@
 +++
-title = "서버 대역외 관리 (OOB Management, Out-Of-Band)"
+title = "712. 서버 대역외 관리 (OOB Management)"
 date = 2026-03-20
 weight = 712
 description = "서비스 트래픽이 쏟아지는 메인 네트워크(In-Band)와 물리적으로 완전히 단절된, 오직 시스템 관리자와 BMC 칩만 소통하는 숨겨진 비밀 통신망 아키텍처"

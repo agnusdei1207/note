@@ -1,5 +1,5 @@
 +++
-title = "689. 양자 내성 암호 (PQC)"
+title = "689. 양자 내성 암호 (PQC, Post-Quantum Cryptography) 체계 및 통신망 교환 표준 (Shor's Algorithm 위협 대처)"
 weight = 689
 +++
 # 689. 양자 내성 암호 (PQC) - 양자 컴퓨터 위협 대처

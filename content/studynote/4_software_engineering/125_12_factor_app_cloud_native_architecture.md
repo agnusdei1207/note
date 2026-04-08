@@ -1,5 +1,5 @@
 +++
-title = "125. 12 팩터 앱 (12-Factor App) 아키텍처"
+title = "125. 12 팩터 앱 (12-Factor App) 아키텍처 방법론"
 weight = 125
 +++
 

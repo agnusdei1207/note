@@ -1,5 +1,5 @@
 +++
-title = "523. DHCP 과정 4단계 (DORA)"
+title = "523. DHCP 과정 4단계 (DORA) - Discover -> Offer -> Request -> Ack"
 weight = 523
 +++
 # 523. DHCP 과정 4단계 (DORA)

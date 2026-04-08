@@ -1,6 +1,6 @@
 +++
 weight = 139
-title = "139. 프로토타이핑 충실도 - Low-fidelity vs High-fidelity"
+title = "139. 프로토타이핑 (Prototyping) - Low-fidelity vs High-fidelity"
 date = "2026-04-02"
 [extra]
 categories = "studynote-se"

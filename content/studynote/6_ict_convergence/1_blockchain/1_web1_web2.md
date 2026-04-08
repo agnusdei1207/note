@@ -1,6 +1,6 @@
 +++
 weight = 1
-title = "01. Web 1.0 및 Web 2.0 기술 아키텍처 진화"
+title = "1. Web 1.0 (Read-only) / Web 2.0 (Read-Write, 플랫폼 중심)"
 description = "초기 정적 단방향 구조의 Web 1.0에서 동적 양방향 소통 및 플랫폼 중심의 Web 2.0으로의 아키텍처 전환과 실무적 함의를 분석합니다."
 date = "2024-05-18"
 [taxonomies]

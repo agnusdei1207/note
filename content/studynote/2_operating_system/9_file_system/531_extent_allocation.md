@@ -1,6 +1,6 @@
 +++
 weight = 531
-title = "531. 익스텐트 (Extent) 할당 기법"
+title = "531. 익스텐트 (Extent) - 연속된 여러 블록의 묶음 할당 기법 (ext4, XFS 적용 - 메타데이터 감소 효과)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

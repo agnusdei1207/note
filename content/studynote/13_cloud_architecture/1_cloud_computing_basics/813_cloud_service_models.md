@@ -1,6 +1,6 @@
 +++
 weight = 813
-title = "클라우드 서비스 모델 (IaaS, PaaS, SaaS)"
+title = "813. 클라우드 서비스 모델 (IaaS, PaaS, SaaS)"
 description = "IaaS, PaaS, SaaS 서비스 모델의 정의, 차이, 선택 기준"
 date = 2026-03-26
 

@@ -1,6 +1,6 @@
 +++
 weight = 7
-title = "기호 인공지능"
+title = "7. 지식 표현 (Knowledge Representation) - 규칙 기반, 의미망, 프레임, 스크립트 등"
 description = "기호 인공지능(Symbolic AI)의 정의, 논리 기반 추론, 지식 표현, 전문가 시스템과의 관계"
 category = "10_ai"
 +++

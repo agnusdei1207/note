@@ -1,6 +1,6 @@
 +++
 weight = 52
-title = "52. 디지털 트랜스포메이션 (Digital Transformation)"
+title = "52. 데이터 거버넌스 (Data Governance) - 데이터의 품질, 보안, 생명주기를 전사적으로 규정하고 관리하는 체계 (정책, 조직, 표준)"
 description = "디지털 기술을 활용하여 비즈니스 모델, 프로세스, 문화를 근본적으로 혁신하여 새로운 가치 창출과 경쟁우위 확보를 추구하는 전략적 전환"
 date = "2026-03-04"
 [taxonomies]

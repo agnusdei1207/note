@@ -1,6 +1,6 @@
 +++
 weight = 307
-title = "307. 교착 상태 복구 (Recovery from Deadlock)"
+title = "307. 교착 상태 복구 (Recovery from Deadlock) - 데드락 해소 조치"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

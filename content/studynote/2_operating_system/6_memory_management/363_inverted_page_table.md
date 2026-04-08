@@ -1,6 +1,6 @@
 +++
 weight = 363
-title = "363. 역 페이지 테이블 (Inverted Page Table) 상식의 파괴"
+title = "363. 역 페이지 테이블 (Inverted Page Table) - 시스템 내 단 하나의 페이지 테이블, 프레임 중심"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

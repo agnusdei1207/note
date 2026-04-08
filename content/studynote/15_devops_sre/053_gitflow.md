@@ -1,6 +1,6 @@
 +++
 weight = 53
-title = "53. GitFlow (깃플로우)"
+title = "53. 백로그 정제 (Backlog Grooming/Refinement)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

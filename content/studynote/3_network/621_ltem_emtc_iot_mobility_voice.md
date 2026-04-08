@@ -1,5 +1,5 @@
 +++
-title = "621. LTE-M (eMTC) 개요"
+title = "621. LTE-M (eMTC) - Cat-M1 등 음성/1Mbps 이동(핸드오버) 및 웨어러블 지원 IoT"
 weight = 621
 +++
 # 621. LTE-M (eMTC) - 음성/이동성 지원 IoT 표준

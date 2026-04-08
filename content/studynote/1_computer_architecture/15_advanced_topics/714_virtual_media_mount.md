@@ -1,5 +1,5 @@
 +++
-title = "원격 미디어 마운트 (Virtual Media Mount)"
+title = "714. 원격 미디어 마운트"
 date = 2026-03-20
 weight = 714
 description = "서버에 물리적인 CD-ROM이나 USB 드라이브를 꽂으러 데이터센터에 갈 필요 없이, 관리자 PC에 있는 OS 설치 파일(ISO)을 원격으로 서버의 하드웨어에 꽂힌 것처럼 속이는 BMC 핵심 기술"

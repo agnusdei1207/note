@@ -1,5 +1,5 @@
 +++
-title = "333. IGMP (인터넷 그룹 관리 프로토콜)"
+title = "333. IGMP (Internet Group Management Protocol) - IPv4 멀티캐스트 그룹 가입/탈퇴"
 weight = 333
 +++
 

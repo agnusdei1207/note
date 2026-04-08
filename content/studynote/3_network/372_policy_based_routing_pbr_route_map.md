@@ -1,5 +1,5 @@
 +++
-title = "372. PBR (Policy-Based Routing) / Route Map"
+title = "372. Policy-Based Routing (PBR) / Route Map - 목적지 기준 라우팅 정책"
 weight = 372
 +++
 

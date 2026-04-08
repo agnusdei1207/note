@@ -1,5 +1,5 @@
 +++
-title = "639. 드론 통신 지연시간 / C2 링크"
+title = "639. 드론 통신 지연시간 관리 및 보안 C2 링크 (Command & Control)"
 weight = 639
 +++
 # 639. 드론 통신 지연시간 관리 및 보안 C2 링크 (Command & Control)

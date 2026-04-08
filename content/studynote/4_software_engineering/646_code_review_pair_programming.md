@@ -1,5 +1,5 @@
 +++
-title = "646. 코드 리뷰와 페어 프로그래밍"
+title = "646. 코드 리뷰 페어 프로그래밍"
 date = "2026-04-07"
 [extra]
 categories = "studynote-se"

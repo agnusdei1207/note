@@ -1,5 +1,5 @@
 +++
-title = "요구사항의 유형 (Types of Requirements)"
+title = "132. 요구사항의 유형 - 기능적 요구사항 vs 비기능적 요구사항"
 weight = 132
 +++
 

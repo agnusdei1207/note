@@ -1,5 +1,5 @@
 +++
-title = "215. 서버리스 아키텍처 (FaaS)"
+title = "215. 서버리스 아키텍처 (Serverless Architecture / FaaS)"
 weight = 215
 +++
 # 215. 서버리스 아키텍처 (Serverless Architecture / FaaS) - Function as a Service 인프라 위임 AWS Lambda 비용 효율 무상태(Stateless) 콜드 스타트 클라우드 네이티브

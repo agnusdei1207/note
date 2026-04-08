@@ -1,5 +1,5 @@
 +++
-title = "387. WireGuard (현대적 차세대 VPN)"
+title = "387. WireGuard (와이어가드) - 터널/트랜스포트 계층 VPN"
 weight = 387
 +++
 

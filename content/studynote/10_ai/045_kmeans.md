@@ -1,6 +1,6 @@
 +++
 weight = 45
-title = "045. 군집화 (Clustering) - K-Means"
+title = "45. 정밀도 (Precision) - 모델이 Positive로 예측한 것 중 실제 Positive의 비율"
 date = "2026-04-05"
 [extra]
 categories = "studynote-ai"

@@ -1,5 +1,5 @@
 +++
-title = "574. 802.11n (Wi-Fi 4)"
+title = "574. 802.11n (Wi-Fi 4) - MIMO 채용, 채널 본딩 (20->40MHz) 300~600Mbps"
 weight = 574
 +++
 # 574. 802.11n (Wi-Fi 4) - MIMO 채용, 채널 본딩 (20->40MHz) 300~600Mbps

@@ -1,6 +1,6 @@
 +++
 weight = 81
-title = "81. 소프트웨어 아키텍처 (Software Architecture)"
+title = "81. 소프트웨어 아키텍처 (Software Architecture) - 소프트웨어를 구성하는 요소들 간의 관계와 속성, 설계 및 진화를 통제하는 기본 구조"
 +++
 
 ### 핵심 인사이트

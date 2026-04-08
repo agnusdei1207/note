@@ -1,6 +1,6 @@
 +++
 weight = 888
-title = "88. 스테이트풀셋 (StatefulSet)"
+title = "888. 스테이트풀셋 (StatefulSet)"
 description = "StatefulSet: 파드에 고정된 identity와 영구 스토리지를 제공하는 상태 저장 애플리케이션용 쿠버네티스 워크로드 리소스"
 date = 2026-03-26
 

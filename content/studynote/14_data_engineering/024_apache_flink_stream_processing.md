@@ -1,6 +1,6 @@
 +++
 weight = 24
-title = "024. 아파치 플링크 (Apache Flink)"
+title = "24. 아파치 플링크 (Apache Flink) - 배치 모사가 아닌 네이티브 이벤트 기반 진정한 실시간 스트림 처리 엔진 (상태 관리, 워터마크 지원 우수)"
 date = "2026-04-02"
 [extra]
 categories = "studynote-data-engineering"

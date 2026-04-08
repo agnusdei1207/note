@@ -1,6 +1,6 @@
 +++
 weight = 138
-title = "138. ����� ���� ���� (� �� �)"
+title = "138. 멀티스레드 아키텍처 오버헤드 (락 경합 등)"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

@@ -1,5 +1,5 @@
 +++
-title = "745. SOAR (보안 오케스트레이션 및 자동화)"
+title = "745. SOAR (Security Orchestration, Automation and Response) 자동화 오케스트레이션 적용 망대응 통합 (플레이북 모델 기술 분석 보안)"
 weight = 745
 +++
 # 745. SOAR (Security Orchestration, Automation and Response) 자동 대응 연동망

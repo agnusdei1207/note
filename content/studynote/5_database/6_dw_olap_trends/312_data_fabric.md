@@ -1,5 +1,5 @@
 +++
-title = "312. 데이터 패브릭 (Data Fabric)"
+title = "312. 클라우드 관리형 DB (DBaaS, Database as a Service) - AWS RDS, Azure SQL 등"
 weight = 4312
 +++
 

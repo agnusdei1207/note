@@ -1,5 +1,5 @@
 +++
-title = "128. 워터-스크럼-폴 (Water-Scrum-Fall) 안티패턴"
+title = "128. 워터스크럼폴 (Water-Scrum-Fall) 안티패턴"
 weight = 128
 +++
 

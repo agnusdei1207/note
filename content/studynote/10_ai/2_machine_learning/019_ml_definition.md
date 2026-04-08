@@ -1,6 +1,6 @@
 +++
 weight = 19
-title = "머신러닝의 정의"
+title = "19. 미니맥스 알고리즘 (Minimax Algorithm) - 턴제 게임 트리(체스, 틱택토)에서 자신은 최대(Max), 상대는 최소(Min)를 선택한다고 가정하고 탐색"
 description = "머신러닝(Machine Learning)의 정의, 구성 요소, 학습 패러다임"
 category = "10_ai"
 +++

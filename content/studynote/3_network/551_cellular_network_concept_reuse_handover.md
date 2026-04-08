@@ -1,6 +1,6 @@
 +++
 weight = 551
-title = "551. 이동통신망 (Cellular Network) 통신 개념 - 셀룰러 아키텍처, 주파수 재사용 및 핸드오버"
+title = "551. 이동통신망(Cellular Network) 통신 개념 (재사용, 핸드오버)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

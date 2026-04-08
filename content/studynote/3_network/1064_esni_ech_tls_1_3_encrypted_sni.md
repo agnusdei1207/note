@@ -1,5 +1,5 @@
 +++
-title = "1064. ESNI (TLS 1.3 ECH)"
+title = "1064. ESNI (TLS 1.3 평문 노출 보안)"
 weight = 1064
 +++
 # 1064. ESNI (TLS 1.3 평문 노출 보안) 및 ECH - Encrypted Client Hello HTTPS SNI 필터링 우회 방통위 차단 무력화 인터넷 프라이버시 기술

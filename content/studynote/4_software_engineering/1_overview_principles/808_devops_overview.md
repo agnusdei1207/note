@@ -1,6 +1,6 @@
 +++
 weight = 808
-title = "DevOps 개요"
+title = "808. DevOps 개요"
 description = "DevOps Overview"
 category = "4_software_engineering"
 +++

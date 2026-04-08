@@ -7,7 +7,7 @@ categories = "studynote-operating-system"
 +++
 
 ---
-title: "시스템 호출 차단 (Seccomp)"
+title = "80. 시스템 호출 차단 (Seccomp)"
 date: 2025-03-24
 draft: false
 ---

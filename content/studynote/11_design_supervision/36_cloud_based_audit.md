@@ -1,5 +1,5 @@
 +++
-title = "36. 클라우드 기반 감리"
+title = "36. 감리 품질 관리 (Quality Assurance of Audit) - 감리 법인 내부의 감리 품질 통제 프로세스"
 weight = 36
 +++
 

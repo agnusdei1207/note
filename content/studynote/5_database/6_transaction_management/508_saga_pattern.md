@@ -1,6 +1,6 @@
 +++
 weight = 8
-title = "사가 패턴 (Saga Pattern)"
+title = "508. 프로시저 vs 함수 컴파일 재사용 구조"
 description = "분산 환경에서 트랜잭션의 일관성을 유지하는 Saga 패턴에 대해 설명"
 date = 2024-01-01
 

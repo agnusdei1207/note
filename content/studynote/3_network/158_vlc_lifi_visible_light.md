@@ -1,5 +1,5 @@
 +++
-title = "158. 가시광 통신 (VLC) / Li-Fi"
+title = "158. 가시광 통신 (VLC, Visible Light Communication) / Li-Fi"
 weight = 158
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "456. HOL (Head-of-Line) 블로킹 문제 해결"
+title = "456. HOL (Head-of-Line) 블로킹 문제 해결 (독립적 스트림 처리 적용)"
 weight = 456
 +++
 

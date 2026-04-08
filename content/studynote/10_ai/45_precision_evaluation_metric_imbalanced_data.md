@@ -1,5 +1,5 @@
 +++
-title = "45. 정밀도 (Precision) 오탐지 최소화 평가지표"
+title = "45. 정밀도 (Precision) - 모델이 Positive로 예측한 것 중 실제 Positive의 비율"
 date = "2026-04-07"
 [extra]
 categories = "studynote-ai"

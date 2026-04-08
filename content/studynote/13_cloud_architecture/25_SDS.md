@@ -1,6 +1,6 @@
 +++
 weight = 25
-title = "25. SDS (소프트웨어 정의 스토리지)"
+title = "25. SDS (Software Defined Storage) - 범용 x86 서버 하드웨어를 묶어 분산/가상화 소프트웨어를 통해 하나의 스토리지 풀로 운영 (Ceph 등)"
 description = "스토리지 하드웨어를 소프트웨어로 추상화하여 논리적 스토리지 풀로 통합하는 SDS의 아키텍처와 차세대 데이터 저장소 실현 원리"
 date = "2024-05-24"
 [taxonomies]

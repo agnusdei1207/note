@@ -1,5 +1,5 @@
 +++
-title = "183. 매체 접근 제어 (MAC) - IEEE 802.3~802.11"
+title = "183. 매체 접근 제어 (MAC, Media Access Control) - IEEE 802.3~802.11"
 weight = 183
 +++
 

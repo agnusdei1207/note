@@ -1,6 +1,6 @@
 +++
 weight = 13
-title = "검색 알고리즘"
+title = "13. 상태 공간 탐색 (State Space Search)"
 description = "인공지능 검색 알고리즘(무정보 검색, 정보성 검색)의 정의, 종류, 예시"
 category = "10_ai"
 +++

@@ -1,5 +1,5 @@
 +++
-title = "682. TLS Handshake 프로토콜"
+title = "682. TLS Handshake 프로토콜 (3-Way 유사 연결 초기화, 세션키 협상, Cipher Suite 교환 포함)"
 weight = 682
 +++
 # 682. TLS Handshake 프로토콜 (초기화 및 세션키 협상)

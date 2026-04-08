@@ -1,6 +1,6 @@
 +++
 weight = 468
-title = "468. ëìí ìììë (Disk Scheduling) ëì ëëì êíìë"
+title = "468. 디스크 스케줄링 (Disk Scheduling) 목적 - 탐색 시간 최소화, 처리량 극대화"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

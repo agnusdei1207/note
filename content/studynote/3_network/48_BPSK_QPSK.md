@@ -1,6 +1,6 @@
 +++
 weight = 48
-title = "48. BPSK (Binary PSK) / QPSK (Quadrature PSK)"
+title = "48. BPSK (Binary PSK, 1bit/symbol) / QPSK (Quadrature PSK, 2bit/symbol)"
 date = "2026-03-30"
 [extra]
 categories = ["studynote", "Network"]

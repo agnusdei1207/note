@@ -1,5 +1,5 @@
 +++
-title = "NVMe 큐 쌍 (Queue Pairs) 아키텍처"
+title = "699. NVMe 큐 쌍 (Queue Pairs)"
 date = 2026-03-20
 weight = 699
 description = "과거 하나의 좁은 문(큐)을 놓고 수백 개의 코어가 싸우던 AHCI/SATA의 병목을 부수기 위해, NVMe가 도입한 6만 4천 개의 거대한 병렬 고속도로(Queue) 시스템"

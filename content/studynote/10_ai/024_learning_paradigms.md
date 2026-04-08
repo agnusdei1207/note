@@ -1,6 +1,6 @@
 +++
 weight = 24
-title = "024. 학습의 3가지 패러다임 - 지도, 비지도, 강화 학습"
+title = "24. 학습의 3가지 패러다임 - 지도 학습(Supervised), 비지도 학습(Unsupervised), 강화 학습(Reinforcement)"
 date = "2026-04-02"
 [extra]
 categories = "studynote-ai"

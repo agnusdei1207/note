@@ -1,5 +1,5 @@
 +++
-title = "서버리스 컴퓨팅 컨테이너 분리 하드웨어 기술 (Serverless HW Isolation)"
+title = "620. 서버리스 컴퓨팅 컨테이너 분리 하드웨어 기술"
 date = 2026-03-20
 weight = 620
 description = "서버리스(AWS Lambda 등) 환경에서 수만 명의 고객이 실행하는 1초짜리 단기 함수(Function)들이 서로 메모리를 훔쳐보지 못하도록, 초고속으로 켜지고 완벽히 격리되는 마이크로VM 하드웨어 기술"

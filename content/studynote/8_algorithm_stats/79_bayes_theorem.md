@@ -1,6 +1,6 @@
 +++
 weight = 79
-title = "79. 베이즈 정리"
+title = "79. 해시맵 (HashMap) vs 트리맵 (TreeMap) — 순서 유무"
 description = "사후 확률 추론의 기본 공리 P(A|B) = P(B|A)P(A)/P(B)의 원리와 실무 적용"
 date = "2024-05-20"
 [taxonomies]

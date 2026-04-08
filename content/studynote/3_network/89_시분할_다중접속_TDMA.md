@@ -1,6 +1,6 @@
 +++
 weight = 89
-title = "89. 시분할 다중 접속 (TDMA, Time Division Multiple Access)"
+title = "89. TDMA (Time Division Multiple Access) - 슬롯 할당"
 description = "디지털 압축을 통해 하나의 주파수를 시간표로 쪼개어 다수의 사용자를 수용하는 TDMA의 원리와 타이밍 동기화"
 date = 2026-03-30
 [taxonomies]

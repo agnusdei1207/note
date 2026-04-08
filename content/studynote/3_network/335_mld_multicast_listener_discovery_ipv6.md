@@ -1,5 +1,5 @@
 +++
-title = "335. MLD (Multicast Listener Discovery) - IPv6"
+title = "335. MLD (Multicast Listener Discovery) - IGMP의 IPv6 버전"
 weight = 335
 +++
 

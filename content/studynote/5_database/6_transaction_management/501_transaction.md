@@ -1,6 +1,6 @@
 +++
 weight = 501
-title = "트랜잭션 (Transaction)"
+title = "501. 스토리지 컴퓨팅 분리 클라우드 네이티브 DW 특장점"
 description = "데이터베이스 트랜잭션의 기본 개념과 ACID 특성에 대해 설명"
 date = 2024-01-01
 

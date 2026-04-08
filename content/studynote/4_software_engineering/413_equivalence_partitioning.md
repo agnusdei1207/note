@@ -1,5 +1,5 @@
 +++
-title = "413. 동등 분할 (Equivalence Partitioning)"
+title = "413. 동등 분할 (Equivalence Partitioning) - 입력 영역을 유효/무효 클래스로 분할하여 대푯값 테스트"
 date = 2026-04-05
 weight = 413
 +++

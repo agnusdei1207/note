@@ -1,5 +1,5 @@
 +++
-title = "355. EIGRP (Enhanced IGRP) - DUAL 알고리즘"
+title = "355. EIGRP (Enhanced IGRP) - 하이브리드(고급 거리벡터), DUAL(Diffusing Update Alg) 알고리즘"
 weight = 355
 +++
 

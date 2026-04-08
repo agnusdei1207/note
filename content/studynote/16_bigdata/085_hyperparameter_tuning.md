@@ -1,6 +1,6 @@
 +++
 weight = 85
-title = "85. 하이퍼파라미터 튜닝 (Hyperparameter Tuning)"
+title = "85. Kafka 파티셔닝 전략 — 키 기반 / 라운드로빈 / 커스텀"
 description = "하이퍼파라미터 튜닝의 개념, Grid Search, Random Search, Bayesian Optimization 등 다양한 기법"
 date = "2026-04-05"
 [taxonomies]

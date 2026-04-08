@@ -1,5 +1,5 @@
 +++
-title = "626. 엣지 컴퓨팅 (Edge Computing)"
+title = "626. 엣지 컴퓨팅 (Edge Computing, 포그 컴퓨팅 구분) - 종단 클라이언트 인접 노드 데이터 분산 처리 방식"
 weight = 626
 +++
 # 626. 엣지 컴퓨팅 (Edge Computing) / 포그 컴퓨팅

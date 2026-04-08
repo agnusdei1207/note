@@ -1,5 +1,5 @@
 +++
-title = "261. 분산 데이터베이스 (Distributed Database)"
+title = "261. 분산 데이터베이스 (Distributed Database) 목표 - 단일 시스템처럼 보이게 하는 투명성(Transparency) 제공"
 weight = 261
 +++
 

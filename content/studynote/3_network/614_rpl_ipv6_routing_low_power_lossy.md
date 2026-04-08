@@ -1,5 +1,5 @@
 +++
-title = "614. RPL (IoT 라우팅 프로토콜)"
+title = "614. RPL (IPv6 Routing Protocol for Low-Power and Lossy Networks) - IoT 무선 최적 라우팅 알고리즘"
 weight = 614
 +++
 # 614. RPL (IoT 무선 최적 라우팅 알고리즘)

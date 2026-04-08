@@ -1,5 +1,5 @@
 +++
-title = "529. MIB / OID"
+title = "529. MIB (Management Information Base) / OID (Object Identifier)"
 weight = 529
 +++
 # 529. MIB (Management Information Base) / OID (Object Identifier)

@@ -1,5 +1,5 @@
 +++
-title = "755. HSS (Home Subscriber Server)"
+title = "755. HSS (Home Subscriber Server 가입자 마스터 정보)"
 weight = 755
 +++
 # 755. HSS (Home Subscriber Server) - 가입자 마스터 정보 DB

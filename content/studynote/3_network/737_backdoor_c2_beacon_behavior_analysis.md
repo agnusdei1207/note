@@ -1,5 +1,5 @@
 +++
-title = "737. 백도어 (Backdoor) C2 Beacon"
+title = "737. 백도어 (Backdoor 포트 / C2 서버 Beacon 정주기 통신 이상 징후 망 행위 분석 대응 기계학습 모델 개발 방향)"
 weight = 737
 +++
 # 737. 백도어 (Backdoor) 포트와 C2 서버 Beacon (이상 행위 분석 대응 모델)

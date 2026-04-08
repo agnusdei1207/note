@@ -1,6 +1,6 @@
 +++
 weight = 394
-title = "394. vfork() COW조차 사치인 초경량 포크"
+title = "394. vfork() - COW 조차 없는 초경량 포크 (즉시 exec() 호출 조건)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

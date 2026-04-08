@@ -1,6 +1,6 @@
 +++
 weight = 63
-title = "63. Service Mesh"
+title = "63. 리눅스 네임스페이스 (Namespace) - 프로세스별로 PID, 네트워크(Net), 마운트(Mount), 사용자(User) 등 시스템 자원을 독립된 공간처럼 분리/격리하는 리눅스 커널 기술"
 date = "2026-04-05"
 [taxonomies]
 tags = ["Cloud", "Kubernetes", "Service Mesh", "MSA", "Istio", "Linkerd"]

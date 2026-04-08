@@ -1,6 +1,6 @@
 +++
 weight = 51
-title = "51. 직교 진폭 변조 (QAM, Quadrature Amplitude Modulation)"
+title = "51. 직교 진폭 변조 (QAM, Quadrature Amplitude Modulation) - ASK+PSK 혼합"
 date = "2026-03-30"
 [extra]
 categories = ["studynote", "Network"]

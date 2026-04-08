@@ -1,5 +1,5 @@
 +++
-title = "54. 변경 관리 (Change Management) - 리스크 통제"
+title = "54. 변경 관리 (Change Management) - 시스템 변경으로 인한 리스크 통제 위원회(CAB)"
 weight = 54
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "554. CQRS (명령과 조회 책임 분리) - 쓰기 DB와 읽기 DB 분리, 동기화 문제 해결"
+title = "554. CQRS (명령과 조회 책임 분리) - 쓰기 DB와 읽기 DB 분리, 동기화 문제 해결 (Eventual Consistency)"
 +++
 
 # 554. CQRS (명령과 조회 책임 분리) - 쓰기 DB와 읽기 DB 분리, 동기화 문제 해결

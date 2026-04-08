@@ -1,6 +1,6 @@
 +++
 weight = 492
-title = "492. Cloud-Native Processor (클라우드 네이티브 프로세서)"
+title = "492. 클라우드 네이티브 프로세서 (ARM Neoverse 등)"
 date = "2026-03-20"
 [extra]
 categories = "studynote-computer-architecture"

@@ -1,5 +1,5 @@
 +++
-title = "212. 충돌 직렬 가능성"
+title = "212. 충돌 직렬 가능성 (Conflict Serializable)"
 weight = 212
 +++
 # 212. 충돌 직렬 가능성 (Conflict Serializable) - 스케줄 직렬화 스와핑 연산 교환 충돌 연산 선행 그래프 동시성 제어 

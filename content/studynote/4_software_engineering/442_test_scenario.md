@@ -1,5 +1,5 @@
 +++
-title = "442. 테스트 시나리오 (Test Scenario)"
+title = "442. 테스트 시나리오 (Test Scenario) - 테스트 케이스들을 흐름에 따라 묶은 집합"
 date = 2026-04-05
 weight = 442
 +++

@@ -1,5 +1,5 @@
 +++
-title = "197. K8s 컴포넌트 구조"
+title = "197. K8s 컴포넌트 - 마스터 노드 (API Server, etcd, Scheduler, Controller Manager), 워커 노드 (Kubelet, Kube-proxy, 컨테이너 런타임)"
 weight = 197
 +++
 # 197. K8s 컴포넌트 - 마스터 노드 컨트롤 플레인 워커 노드 API Server etcd Kubelet Kube-proxy 도커 쿠버네티스 아키텍처

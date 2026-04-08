@@ -1,5 +1,5 @@
 +++
-title = "52. DID 아키텍처 - Issuer, Holder, Verifier, VC/VP"
+title = "52. DID 아키텍처 - Issuer(발행자), Holder(소유자/지갑), Verifier(검증자), Verifiable Credential(VC), Verifiable Presentation(VP)"
 weight = 52
 +++
 

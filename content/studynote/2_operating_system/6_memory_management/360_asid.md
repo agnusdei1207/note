@@ -1,6 +1,6 @@
 +++
 weight = 360
-title = "360. ASID (Address-Space Identifier) TLB 플러시의 종말"
+title = "360. ASID (Address-Space Identifier) - TLB 내 프로세스 식별, 플러시(Flush) 최소화"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

@@ -1,6 +1,6 @@
 +++
 weight = 583
-title = "583. WPA3 - SAE (Simultaneous Auth) 핸드셰이크 도입과 딕셔너리 공격 완전 차단"
+title = "583. WPA3 - SAE (Simultaneous Authentication of Equals) 핸드셰이크 도입 (오프라인 딕셔너리 공격 완전차단), 관리 프레임 보호 (PMF, 필수 적용), 192비트 기업급 보안 스위트(CNSA/Suite B)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

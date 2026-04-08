@@ -1,6 +1,6 @@
 +++
 weight = 180
-title = "180. 인덱스 주소 지정 (Indexed Addressing)"
+title = "180. 베이스 레지스터 주소 지정 (Base Register)"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

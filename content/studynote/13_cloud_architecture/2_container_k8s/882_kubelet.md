@@ -1,6 +1,6 @@
 +++
 weight = 882
-title = "82. Kubelet (큐블렛)"
+title = "882. Kubelet (큐블렛)"
 description = "Kubelet: 쿠버네티스 워커 노드에서 파드를 생성,관리,모니터링하는 노드별 에이전트"
 date = 2026-03-26
 

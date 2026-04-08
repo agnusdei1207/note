@@ -1,5 +1,5 @@
 +++
-title = "SLC 캐싱 (SLC Caching) 기법"
+title = "597. SLC 캐싱 (SLC Caching) 기법"
 date = 2026-03-20
 weight = 597
 description = "느리고 수명이 짧은 TLC/QLC 기반의 고용량 SSD에서, 일부 영역을 빠르고 튼튼한 SLC 모드로 작동시켜 초반 쓰기 속도를 극대화하는 스토리지 컨트롤러 최적화 기술"

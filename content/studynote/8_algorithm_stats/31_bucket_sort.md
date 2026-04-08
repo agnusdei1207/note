@@ -1,5 +1,5 @@
 +++
-title = "31. 버킷 정렬 (Bucket Sort)"
+title = "31. 네트워크 정렬 (Sorting Network) — 병렬 정렬"
 weight = 31
 +++
 

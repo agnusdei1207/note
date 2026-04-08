@@ -1,5 +1,5 @@
 +++
-title = "702. 스푸핑 (Spoofing) 공격"
+title = "702. 스푸핑 (Spoofing) 기만 위장 공격 종류 및 특성 분석"
 weight = 702
 +++
 # 702. 스푸핑 (Spoofing) 기만 위장 공격 종류 및 특성 분석

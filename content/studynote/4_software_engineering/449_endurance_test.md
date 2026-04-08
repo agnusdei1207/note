@@ -1,5 +1,5 @@
 +++
-title = "449. 내구성 테스트 (Endurance / Soak Test)"
+title = "449. 내구성 테스트 (Endurance / Soak Test) - 장시간 부하를 주어 메모리 누수(Leak) 등 확인"
 date = 2026-04-05
 weight = 449
 +++

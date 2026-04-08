@@ -1,6 +1,6 @@
 +++
 weight = 208
-title = "208. 고정 우선순위 스케줄링 (Fixed-Priority Scheduling)"
+title = "208. 비례 배분 스케줄링 (Proportionate Share Scheduling)"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

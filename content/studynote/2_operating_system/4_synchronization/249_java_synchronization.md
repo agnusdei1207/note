@@ -1,6 +1,6 @@
 +++
 weight = 249
-title = "249. 자바 동기화 (Java Synchronization)"
+title = "249. 자바 동기화 - synchronized 키워드, 모니터 락, wait()/notify()"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

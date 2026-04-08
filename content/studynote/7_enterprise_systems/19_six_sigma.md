@@ -1,6 +1,6 @@
 +++
 weight = 19
-title = "19. 식스 시그마 (Six Sigma)"
+title = "19. 식스 시그마 (Six Sigma) - 통계적 척도를 이용해 불량률을 3.4PPM 이하로 줄이는 품질 혁신 기법 (DMAIC 프로세스)"
 description = "통계적 척도를 이용해 모든 프로세스의 품질 불량률을 3.4PPM 이하로 줄이기 위한 데이터 기반의 완벽 추구 품질 경영 기법"
 date = "2026-03-04"
 [taxonomies]

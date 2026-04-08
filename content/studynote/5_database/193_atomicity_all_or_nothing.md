@@ -1,5 +1,5 @@
 +++
-title = "193. 원자성 (Atomicity)"
+title = "193. 원자성 (Atomicity) - All or Nothing (모두 반영되거나 모두 취소) - 회복(Recovery) 관리자가 보장"
 weight = 193
 +++
 # 193. 원자성 (Atomicity) - All or Nothing 모두 반영되거나 모두 취소 회복(Recovery) 관리자가 보장 부분 완료의 금지

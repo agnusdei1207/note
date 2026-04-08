@@ -1,6 +1,6 @@
 +++
 weight = 515
-title = "ER 다이어그램 (ER Diagram)"
+title = "515. 시계열 DB 보존 정책 (Retention) 데이터 라이프사이클"
 description = "ER 다이어그램의 정의, 구성 요소, 작성법"
 date = 2026-03-26
 

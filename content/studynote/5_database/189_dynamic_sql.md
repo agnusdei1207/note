@@ -1,5 +1,5 @@
 +++
-title = "189. 동적 SQL (Dynamic SQL)"
+title = "189. 동적 SQL (Dynamic SQL) - 실행 시점에 문자열 형태로 조립되어 실행"
 weight = 189
 +++
 # 189. 동적 SQL (Dynamic SQL)

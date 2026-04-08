@@ -7,7 +7,7 @@ categories = "studynote-operating-system"
 +++
 
 ---
-title: "ACPI (Advanced Configuration and Power Interface)"
+title = "75. ACPI (Advanced Configuration and Power Interface)"
 date: 2025-03-24
 draft: false
 ---

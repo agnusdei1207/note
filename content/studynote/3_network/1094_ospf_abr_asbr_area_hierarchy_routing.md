@@ -1,5 +1,5 @@
 +++
-title = "1094. OSPF 계층적 Area"
+title = "1094. OSPF ABR / ASBR Area 위계 분산망"
 weight = 1094
 +++
 # 1094. OSPF ABR / ASBR Area 위계 분산망 - Open Shortest Path First 링크 상태 라우팅 구역화 SPF 알고리즘 다익스트라 계층 구조 트래픽 최적화 

@@ -1,5 +1,5 @@
 +++
-title = "1089. DiffServ DSCP 분류"
+title = "1089. DiffServ DSCP 분류 PHB"
 weight = 1089
 +++
 # 1089. DiffServ DSCP 분류 PHB - Differentiated Services 패킷 트래픽 QoS 품질 보장 6비트 마킹 홉 단위 행동 통신사 서비스 등급 차등화

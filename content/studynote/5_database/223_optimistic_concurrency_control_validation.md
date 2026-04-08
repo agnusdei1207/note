@@ -1,5 +1,5 @@
 +++
-title = "223. 낙관적 동시성 제어 (OCC)"
+title = "223. 낙관적 동시성 제어 (Optimistic Concurrency Control) - 작업 먼저 수행 후 종료(Validation) 시점에 충돌 검사"
 weight = 223
 +++
 # 223. 낙관적 동시성 제어 (Optimistic Concurrency Control) - 트랜잭션 충돌 드뭄 검증 단계(Validation) 락 없음(Lock-free) 롤백 오버헤드

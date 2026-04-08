@@ -1,5 +1,5 @@
 +++
-title = "데이터 방향성 패브릭 (Data-centric Fabric)"
+title = "599. 데이터 방향성 패브릭 (Data-centric Fabric)"
 date = 2026-03-20
 weight = 599
 description = "CPU 중심의 전통적인 구조에서 벗어나, 데이터가 있는 곳(메모리/스토리지)을 중심으로 모든 연산 자원(GPU, DPU, FPGA)이 거미줄처럼 연결되어 데이터를 공유하는 차세대 데이터센터 아키텍처"

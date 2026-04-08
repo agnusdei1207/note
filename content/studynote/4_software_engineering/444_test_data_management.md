@@ -1,5 +1,5 @@
 +++
-title = "444. 테스트 데이터 (Test Data) 생성 및 익명화 관리 (TDM)"
+title = "444. 테스트 데이터 (Test Data) 생성 및 익명화 관리 (Test Data Management, TDM)"
 date = 2026-04-05
 weight = 444
 +++

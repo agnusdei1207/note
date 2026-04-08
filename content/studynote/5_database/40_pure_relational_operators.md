@@ -1,6 +1,6 @@
 +++
 weight = 40
-title = "40. 순수 관계 연산자"
+title = "40. 순수 관계 연산자 - 셀렉트(Select, σ), 프로젝트(Project, π), 조인(Join, ⋈), 디비전(Division, ÷)"
 description = "관계형 데이터베이스의 핵심, 테이블 고유의 조작을 위한 Select, Project, Join, Division 연산 원리"
 date = "2026-03-04"
 [taxonomies]

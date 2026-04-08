@@ -1,5 +1,5 @@
 +++
-title = "78. 리팩토링 (Refactoring)"
+title = "78. 리팩토링 (Refactoring) - 외부 동작 변경 없이 내부 구조 개선"
 weight = 78
 +++
 

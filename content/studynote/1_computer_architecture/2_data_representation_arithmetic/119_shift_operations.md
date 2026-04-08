@@ -1,6 +1,6 @@
 +++
 weight = 119
-title = "시프트 연산 (Shift)"
+title = "119. 시프트 연산 (Shift)"
 +++
 
 # 시프트 연산 (Shift)

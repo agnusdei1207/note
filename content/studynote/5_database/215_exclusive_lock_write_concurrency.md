@@ -1,5 +1,5 @@
 +++
-title = "215. 배타 락 (Exclusive Lock / X-Lock)"
+title = "215. 배타 락 (Exclusive Lock / Write Lock, X-Lock) - 읽기/쓰기 모두 불가 독점"
 weight = 215
 +++
 # 215. 배타 락 (Exclusive Lock / Write Lock, X-Lock) - 읽기 쓰기 모두 불가 독점 무결성 보장 데이터베이스 트랜잭션 갱신 동시성 제어 한계

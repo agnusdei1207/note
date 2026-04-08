@@ -1,5 +1,5 @@
 +++
-title = "714. Ping of Death (버퍼 오버플로우)"
+title = "714. Ping of Death 대형 패킷 단편화 버퍼 오버플로우 문제"
 weight = 714
 +++
 # 714. Ping of Death (죽음의 핑) - 대형 패킷 단편화 오버플로우 문제

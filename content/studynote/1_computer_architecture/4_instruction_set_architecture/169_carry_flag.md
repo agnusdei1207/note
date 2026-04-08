@@ -1,6 +1,6 @@
 +++
 weight = 169
-title = "169. 캐리 플래그 (Carry Flag / C-Flag)"
+title = "169. 캐리 플래그 (Carry Flag)"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

@@ -1,5 +1,5 @@
 +++
-title = "110. 내부 개발자 플랫폼 (IDP)"
+title = "110. 내부 개발자 플랫폼 (IDP, Internal Developer Platform)"
 weight = 110
 +++
 

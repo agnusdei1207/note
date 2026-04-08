@@ -1,5 +1,5 @@
 +++
-title = "735. 비인가 AP (Rogue AP)"
+title = "735. 비인가 AP (Rogue AP 무선망 트래픽 위조 가로채기 이블트윈 공격 / WIPS 방어 적용망)"
 weight = 735
 +++
 # 735. 비인가 AP (Rogue AP) 이블트윈 공격 및 WIPS 방어 적용망

@@ -1,5 +1,5 @@
 +++
-title = "315. 프록시 ARP (Proxy ARP) - 서브넷 대행"
+title = "315. Proxy ARP (프록시 ARP) - 다른 서브넷의 IP에 응답 대행"
 weight = 315
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "329. 델타 인코딩 (Delta Encoding)"
+title = "329. OLAP 연산 (Operation) - 롤업, 드릴다운, 슬라이스, 다이스, 피벗"
 weight = 4329
 +++
 

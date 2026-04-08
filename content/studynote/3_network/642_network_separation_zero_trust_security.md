@@ -1,5 +1,5 @@
 +++
-title = "642. 망분리와 제로 트러스트"
+title = "642. 망분리 (Network Separation) 및 제로 트러스트 연결형 논리망 보안 정책"
 weight = 642
 +++
 # 642. 망분리 (Network Separation) 및 제로 트러스트 연결형 논리망 보안 정책

@@ -1,5 +1,5 @@
 +++
-title = "364. L1/L2 라우터, IS-IS 계층 구조"
+title = "364. L1/L2 라우터, L1/L2 Area 체계, IS-IS over Ethernet/IP"
 weight = 364
 +++
 

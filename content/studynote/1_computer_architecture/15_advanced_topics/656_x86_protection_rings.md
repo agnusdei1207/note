@@ -1,5 +1,5 @@
 +++
-title = "x86 Ring 0, 1, 2, 3 보호 모드 (Protection Rings)"
+title = "656. x86 Ring 0, 1, 2, 3 보호 모드"
 date = 2026-03-20
 weight = 656
 description = "운영체제(OS)와 사용자 프로그램(App)의 권한을 4단계의 동심원(Ring)으로 나누어, 악성 프로그램이 시스템 하드웨어를 파괴하지 못하도록 막는 x86 CPU의 핵심 보안 아키텍처"

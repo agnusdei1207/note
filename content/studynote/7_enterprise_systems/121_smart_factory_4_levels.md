@@ -1,6 +1,6 @@
 +++
 weight = 121
-title = "121. 스마트 팩토리 (Smart Factory) 4단계 진화 모델"
+title = "121. 스마트 팩토리 (Smart Factory) 4단계 - ICT 미적용 -> 기초 수준(바코드) -> 중간 수준(IoT/실시간) -> 고도화(AI 제어/자율형)"
 date = "2026-04-02"
 [extra]
 categories = "studynote-enterprise"

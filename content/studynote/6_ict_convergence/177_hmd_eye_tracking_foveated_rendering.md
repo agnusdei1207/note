@@ -1,5 +1,5 @@
 +++
-title = "177. HMD 시선 추적과 렌더링"
+title = "177. HMD (Head Mounted Display) 시선 추적(Eye Tracking), 포비티드 렌더링 (Foveated Rendering - 시선이 머무는 중심부만 초고화질 렌더링하여 GPU 부담 감소 기술)"
 weight = 177
 +++
 # 177. HMD (Head Mounted Display) 시선 추적(Eye Tracking), 포비티드 렌더링 (Foveated Rendering) - 가상현실 VR 메타버스 GPU 최적화 초고화질 그래픽 처리 한계 극복 기술

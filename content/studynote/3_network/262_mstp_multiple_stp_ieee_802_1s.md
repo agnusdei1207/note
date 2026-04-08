@@ -1,5 +1,5 @@
 +++
-title = "262. MSTP (Multiple STP) - IEEE 802.1s"
+title = "262. MSTP (Multiple STP) - IEEE 802.1s, VLAN 인스턴스 묶음"
 weight = 262
 +++
 

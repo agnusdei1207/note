@@ -1,6 +1,6 @@
 +++
 weight = 453
-title = "453. I/O 서브시스템의 커널 서비스 무법지대의 교통정리"
+title = "453. I/O 서브시스템의 커널 서비스 - I/O 스케줄링, 버퍼링, 캐싱, 스풀링, 오류 처리"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

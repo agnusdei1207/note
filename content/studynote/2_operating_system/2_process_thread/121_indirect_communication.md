@@ -1,6 +1,6 @@
 +++
 weight = 121
-title = "121. 간접 통신 (Indirect Communication)"
+title = "121. 간접 통신 (Indirect Communication) - 메일박스/포트 사용"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

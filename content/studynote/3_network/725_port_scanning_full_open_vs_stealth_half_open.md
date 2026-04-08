@@ -1,5 +1,5 @@
 +++
-title = "725. 포트 스캐닝 (Port Scanning)"
+title = "725. 스키밍 (Skimming) 공격"
 weight = 725
 +++
 # 725. 스캐닝 (Port Scanning) 공격 - Full Open vs Stealth 스캔

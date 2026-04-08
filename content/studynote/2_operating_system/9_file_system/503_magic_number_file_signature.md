@@ -1,6 +1,6 @@
 +++
 weight = 503
-title = "503. 매직 넘버 (Magic Number / File Signature)"
+title = "503. 매직 넘버 (Magic Number) - 파일 확장자 외 내용 식별자"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

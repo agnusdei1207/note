@@ -1,6 +1,6 @@
 +++
 weight = 21
-title = "21. ISACA (Information Systems Audit and Control Association) 글로벌 표준 체계"
+title = "21. ISACA (Information Systems Audit and Control Association) - 정보시스템 감사 통제 협회"
 date = "2026-04-02"
 [extra]
 categories = "studynote-design-supervision"

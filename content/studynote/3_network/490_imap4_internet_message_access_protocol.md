@@ -1,6 +1,6 @@
 +++
 weight = 490
-title = "IMAP4 (Internet Message Access Protocol v4) - 서버 중심 메일 동기화"
+title = "490. IMAP4 (Internet Message Access Protocol v4) - 서버에 메일 보관 및 다중기기 동기화 (포트 143)"
 description = "수신된 이메일을 로컬 기기로 다운로드하고 삭제하던 POP3의 한계를 넘어, 모든 메일 원본과 읽음 상태를 서버(클라우드)에 보관하고 여러 기기(PC, 스마트폰) 간에 실시간 동기화하는 현대 이메일의 절대 표준"
 date = 2026-04-03
 [taxonomies]

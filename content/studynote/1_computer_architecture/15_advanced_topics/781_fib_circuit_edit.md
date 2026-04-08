@@ -1,5 +1,5 @@
 +++
-title = "FIB (Focused Ion Beam, 집속 이온 빔) 수정"
+title = "781. FIB (Focused Ion Beam) 수정"
 date = 2026-03-20
 weight = 781
 description = "나노미터 단위의 극미세 이온 빔을 쏘아, 완성된 칩 내부의 전선을 끊거나(Cut) 새로운 구리 선을 허공에서 그려 붙이는(Deposition) 외계인 수준의 반도체 물리 조작 해킹"

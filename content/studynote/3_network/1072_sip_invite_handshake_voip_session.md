@@ -1,5 +1,5 @@
 +++
-title = "1072. SIP 프로토콜 핸드셰이크"
+title = "1072. SIP INVITE 기반 핸드셰이크"
 weight = 1072
 +++
 # 1072. SIP INVITE 기반 핸드셰이크 - Session Initiation Protocol 인터넷 인터넷 전화 VoIP 시그널링 멀티미디어 세션 제어 HTTP 기반 텍스트 프로토콜

@@ -1,5 +1,5 @@
 +++
-title = "705. DNS 스푸핑 (Cache Poisoning)"
+title = "705. DNS 스푸핑 / DNS Cache Poisoning 매칭 결함 포트 번호 난수 제어 취약 노출 방어 기법 (DNSSEC 도입 목적)"
 weight = 705
 +++
 # 705. DNS 스푸핑 / DNS Cache Poisoning 매칭 기만 및 방어 기법 (DNSSEC)

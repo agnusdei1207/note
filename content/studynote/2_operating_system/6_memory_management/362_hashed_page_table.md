@@ -1,6 +1,6 @@
 +++
 weight = 362
-title = "362. 해시 페이지 테이블 (Hashed Page Table) 주소 공간의 압축"
+title = "362. 해시 페이지 테이블 (Hashed Page Table) - 주소 공간이 64비트 이상일 때 사용"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

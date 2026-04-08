@@ -1,6 +1,6 @@
 +++
 weight = 802
-title = "애자일 선언과 가치 체계"
+title = "802. 애자일 선언과 가치 체계"
 description = "Agile Manifesto and Values"
 category = "4_software_engineering"
 +++

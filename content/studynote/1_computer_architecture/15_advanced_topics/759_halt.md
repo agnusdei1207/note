@@ -1,5 +1,5 @@
 +++
-title = "HALT (Highly Accelerated Life Test, 고가속 수명 시험)"
+title = "759. HALT (Highly Accelerated Life Test)"
 date = 2026-03-20
 weight = 759
 description = "제품 설계 단계에서 칩이나 서버를 망치로 때리고, 얼렸다가 끓이는 등 극단적이고 변태적인 스트레스를 가해 '이 제품의 물리적 파괴 한계점'을 찾아내는 하드웨어 고문 테스트"

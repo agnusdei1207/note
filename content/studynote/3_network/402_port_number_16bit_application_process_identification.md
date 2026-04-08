@@ -1,5 +1,5 @@
 +++
-title = "402. 포트 번호 (Port Number) - 16비트"
+title = "402. 포트 번호 (Port Number) - 16비트, 응용 프로세스 식별"
 weight = 402
 +++
 

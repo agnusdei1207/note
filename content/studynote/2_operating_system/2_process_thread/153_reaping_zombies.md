@@ -1,6 +1,6 @@
 +++
 weight = 153
-title = "좀비 사냥"
+title = "153. 좀비 사냥 (Reaping Zombies)"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

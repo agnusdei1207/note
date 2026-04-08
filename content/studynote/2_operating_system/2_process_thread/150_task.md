@@ -1,6 +1,6 @@
 +++
 weight = 150
-title = "태스크"
+title = "150. 태스크 (Task) - 리눅스의 프로세스/스레드 통일된 용어"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

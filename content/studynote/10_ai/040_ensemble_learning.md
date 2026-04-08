@@ -1,6 +1,6 @@
 +++
 weight = 40
-title = "040. 앙상블 학습 (Ensemble Learning)"
+title = "40. 교차 검증 (Cross-Validation) - K-Fold 분할 모델 평가 기법 (과적합 방지, 일반화 성능 확인)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-ai"

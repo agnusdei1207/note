@@ -1,5 +1,5 @@
 +++
-title = "NVMe 서브시스템 (NVMe Subsystem)"
+title = "701. NVMe 서브시스템"
 date = 2026-03-20
 weight = 701
 description = "물리적인 SSD 칩의 경계를 넘어, 여러 개의 컨트롤러, 낸드 칩, 네트워크 포트를 하나의 거대한 논리적 스토리지 몸체로 묶어주는 최상위 관리 단위"

@@ -1,6 +1,6 @@
 +++
 weight = 28
-title = "028. 정량적 위험 분석 (Quantitative Risk Analysis)"
+title = "28. 정량적 위험 분석 — ALE = ARO × SLE, MTBF, MTTF, MTTR"
 date = "2026-04-05"
 [extra]
 categories = "studynote-security"

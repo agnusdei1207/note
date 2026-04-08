@@ -1,6 +1,6 @@
 +++
 weight = 503
-title = "트랜잭션 상태 (Transaction State)"
+title = "503. 데이터 거버넌스 품질 메타 카탈로그 통제 관리"
 description = "트랜잭션의 생명주기인 상태 전이와 각 상태의 의미에 대해 설명"
 date = 2024-01-01
 

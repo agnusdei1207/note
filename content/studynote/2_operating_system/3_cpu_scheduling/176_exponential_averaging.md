@@ -1,6 +1,6 @@
 +++
 weight = 176
-title = "176. 지수 평균법 (Exponential Averaging)"
+title = "176. 지수 평균법 (Exponential Averaging) - 다음 CPU 버스트 길이 예측"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

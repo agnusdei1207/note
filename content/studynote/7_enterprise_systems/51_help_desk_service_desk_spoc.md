@@ -1,5 +1,5 @@
 +++
-title = "51. 헬프 데스크 (Help Desk) / 서비스 데스크 (SPOC)"
+title = "51. 헬프 데스크 (Help Desk) / 서비스 데스크 (Service Desk) - 단일 접점 (SPOC, Single Point of Contact)"
 weight = 51
 +++
 

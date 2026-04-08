@@ -1,5 +1,5 @@
 +++
-title = "ACPI (Advanced Configuration and Power Interface)"
+title = "707. ACPI (Advanced Configuration and Power Interface)"
 date = 2026-03-20
 weight = 707
 description = "노트북 뚜껑을 덮으면 절전 모드로 들어가고 온도가 오르면 쿨링팬을 돌리게 만드는, 하드웨어(전력/온도)와 운영체제(OS) 사이의 절대적인 표준 통신 규약"

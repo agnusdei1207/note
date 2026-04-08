@@ -1,5 +1,5 @@
 +++
-title = "282. FDDI (이중 링 기반 광통신망)"
+title = "282. FDDI (Fiber Distributed Data Interface) - 이중 링 기반 100Mbps"
 weight = 282
 +++
 

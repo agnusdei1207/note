@@ -1,5 +1,5 @@
 +++
-title = "214. 공유 락 (Shared Lock / S-Lock)"
+title = "214. 공유 락 (Shared Lock / Read Lock, S-Lock) - 읽기 허용, 쓰기 불가"
 weight = 214
 +++
 # 214. 공유 락 (Shared Lock / Read Lock, S-Lock) - 읽기 허용 쓰기 불가 동시성 극대화 로킹 기법 다중 트랜잭션 데이터베이스 조회 최적화

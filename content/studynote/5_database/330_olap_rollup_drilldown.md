@@ -1,5 +1,5 @@
 +++
-title = "330. 롤업 (Roll-up) - 요약 / 드릴다운 (Drill-down)"
+title = "330. 롤업 (Roll-up) - 요약 / 드릴다운 (Drill-down) - 구체화 (계층 구조 상하 이동)"
 date = "2026-04-07"
 [extra]
 categories = "studynote-db"

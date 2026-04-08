@@ -1,6 +1,6 @@
 +++
 weight = 46
-title = "NewSQL 데이터베이스"
+title = "546. 공간 데이터 쿼리 기하 연산 MBR 근접 분석 기술 구조"
 description = "CAP 이론의 제약을突破하며 ACID와 수평 확장을 동시에 지원하는 NewSQL에 대해 설명"
 date = 2024-01-01
 

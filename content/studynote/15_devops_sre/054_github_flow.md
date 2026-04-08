@@ -1,6 +1,6 @@
 +++
 weight = 54
-title = "54. GitHub Flow (깃허브 플로우)"
+title = "54. 데일리 스탠드업 (Daily Standup) 및 칸반 보드"
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

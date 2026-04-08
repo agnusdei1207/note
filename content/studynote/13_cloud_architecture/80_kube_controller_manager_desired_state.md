@@ -1,5 +1,5 @@
 +++
-title = "80. Kube Controller Manager K8s 원하는 상태 유지 루프"
+title = "80. Kube-Controller Manager - 클러스터의 원하는 상태(Desired State)와 현재 상태(Current State)를 지속 비교하여 일치시키는 제어 루프 (ReplicaSet 제어 등)"
 date = "2026-04-07"
 [extra]
 categories = "studynote-cloud"

@@ -1,6 +1,6 @@
 +++
 weight = 14
-title = "휴리스틱 검색"
+title = "14. 맹목적 탐색 (Uninformed Search) - DFS(깊이 우선 탐색), BFS(너비 우선 탐색)"
 description = "휴리스틱 검색(Heuristic Search)의 정의, A*, Greedy Best-First Search, 휴리스틱 설계"
 category = "10_ai"
 +++

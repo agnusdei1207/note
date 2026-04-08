@@ -1,5 +1,5 @@
 +++
-title = "606. 옵저버 패턴 (Observer Pattern) - 비동기 이벤트 연계"
+title = "606. 옵저버 패턴 (Pub/Sub 연계)"
 +++
 
 # 606. 옵저버 패턴 (Observer Pattern) - Pub/Sub 연계

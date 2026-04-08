@@ -1,6 +1,6 @@
 +++
 weight = 381
-title = "381. 가상 메모리 (Virtual Memory) 개념"
+title = "381. 가상 메모리 (Virtual Memory) 개념 - 물리 메모리보다 큰 프로그램 실행 가능"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

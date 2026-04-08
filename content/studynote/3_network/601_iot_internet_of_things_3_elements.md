@@ -1,5 +1,5 @@
 +++
-title = "601. 사물인터넷 (IoT) 3대 요소"
+title = "601. 사물인터넷 (IoT, Internet of Things)의 3대 요소 (디바이스, 네트워크, 클라우드/플랫폼)"
 weight = 601
 +++
 # 601. 사물인터넷 (IoT, Internet of Things)의 3대 요소

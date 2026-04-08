@@ -1,6 +1,6 @@
 +++
 weight = 15005
-title = "5. 빅데이터 분석 및 활용"
+title = "5. 비정형 데이터 유형 — 텍스트/이미지/동영상/음성/로그/SNS/IoT 센서"
 date = "2026-03-26"
 [extra]
 categories = "studynote-bigdata"

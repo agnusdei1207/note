@@ -1,5 +1,5 @@
 +++
-title = "111. 분석 CRM (Analytical CRM)"
+title = "111. 분석 CRM (Analytical CRM) - 데이터 웨어하우스(DW)/마이닝 기반 고객 세분화(Segmentation), 이탈 예측 분석"
 weight = 111
 +++
 

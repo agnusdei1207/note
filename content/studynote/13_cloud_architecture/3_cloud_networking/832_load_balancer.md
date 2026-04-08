@@ -1,6 +1,6 @@
 +++
 weight = 23
-title = "로드 밸런서 (Load Balancer)"
+title = "832. 로드 밸런서 (Load Balancer)"
 description = "로드 밸런서의 정의, L4/L7, ALB/NLB/CLB"
 date = 2026-03-26
 

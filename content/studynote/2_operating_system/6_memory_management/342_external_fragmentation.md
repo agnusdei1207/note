@@ -1,6 +1,6 @@
 +++
 weight = 342
-title = "342. 외부 단편화 (External Fragmentation) 흩어진 조각들의 비극"
+title = "342. 외부 단편화 (External Fragmentation) - 가용 공간은 충분하나 불연속적이라 할당 불가"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

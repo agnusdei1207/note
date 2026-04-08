@@ -1,5 +1,5 @@
 +++
-title = "100. SRE (Site Reliability Engineering)와 에러 예산"
+title = "100. SRE (Site Reliability Engineering) - 구글의 운영 방식, 에러 예산"
 weight = 100
 +++
 

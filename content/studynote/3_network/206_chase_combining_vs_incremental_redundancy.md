@@ -1,5 +1,5 @@
 +++
-title = "206. 체이스 컴바이닝 (CC)과 점진적 잉여 (IR)"
+title = "206. Chase Combining / IR (Incremental Redundancy)"
 weight = 206
 +++
 

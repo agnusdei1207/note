@@ -1,5 +1,5 @@
 +++
-title = "243. ARIES 알고리즘"
+title = "243. ARIES 알고리즘 - 현대 DBMS 복구 표준 알고리즘 (Analysis, Redo, Undo 3단계 페이즈)"
 weight = 243
 +++
 # 243. ARIES 알고리즘 - DBMS 복구 표준 로그 기반 회복 Analysis Redo Undo 퍼지 검사점 데이터베이스 무결성

@@ -1,6 +1,6 @@
 +++
 weight = 107
-title = "107. 분류 (Classification)"
+title = "107. 소셜 네트워크 분석 (SNA) — 중심성 / 커뮤니티 탐지 / 영향력"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

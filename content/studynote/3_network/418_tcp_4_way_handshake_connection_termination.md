@@ -1,5 +1,5 @@
 +++
-title = "418. TCP 4-Way Handshake - 연결 종료"
+title = "418. TCP 4-Way Handshake - 연결 종료 과정 (FIN -> ACK -> FIN -> ACK)"
 weight = 418
 +++
 

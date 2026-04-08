@@ -1,5 +1,5 @@
 +++
-title = "1046. P4 네트워크 프로그래밍 모델"
+title = "1046. P4 네트워크 프로그래밍 모델 플로우"
 weight = 1046
 +++
 # 1046. P4 네트워크 프로그래밍 모델 플로우 - Programming Protocol-independent Packet Processors 데이터 플레인 프로그래밍 패킷 처리 파이프라인 화이트박스 스위치 텔레메트리

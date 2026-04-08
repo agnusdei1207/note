@@ -1,6 +1,6 @@
 +++
 weight = 158
-title = "oom_score_adj"
+title = "158. oom_score_adj - OOM 킬러 우선순위 조정"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

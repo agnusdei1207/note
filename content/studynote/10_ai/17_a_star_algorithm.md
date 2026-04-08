@@ -1,6 +1,6 @@
 +++
 weight = 17
-title = "17. A* (A-Star) 알고리즘"
+title = "17. A* (A-Star) 알고리즘 - f(n) = g(n) + h(n), 시작점부터의 실제 비용 g(n)과 목표까지의 예상 비용 h(n)을 합산하여 최단 경로 탐색"
 description = "실제 비용과 예상 비용을 합산하여 최단 경로를 탐색하는 최적 탐색 알고리즘"
 date = "2024-05-24"
 [taxonomies]

@@ -1,5 +1,5 @@
 +++
-title = "213. 흐름 제어 (Flow Control)"
+title = "213. 흐름 제어 (Flow Control) - 수신 버퍼 오버플로우 방지"
 weight = 213
 +++
 

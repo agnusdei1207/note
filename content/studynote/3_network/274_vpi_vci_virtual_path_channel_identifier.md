@@ -1,5 +1,5 @@
 +++
-title = "274. VPI / VCI (가상 경로 / 가상 채널 식별자)"
+title = "274. VPI / VCI (Virtual Path/Channel Identifier)"
 weight = 274
 +++
 

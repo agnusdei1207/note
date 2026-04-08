@@ -1,5 +1,5 @@
 +++
-title = "183. 유저 스토리 맵"
+title = "183. 유저 스토리 맵 (User Story Mapping)"
 weight = 183
 +++
 # 183. 유저 스토리 맵 (User Story Mapping)

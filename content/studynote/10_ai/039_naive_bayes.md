@@ -1,6 +1,6 @@
 +++
 weight = 39
-title = "039. 나이브 베이즈 분류기 (Naive Bayes)"
+title = "39. 스케일링 (Scaling) - 정규화(Normalization, 0~1), 표준화(Standardization, 평균 0 표준편차 1 Z-score)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-ai"

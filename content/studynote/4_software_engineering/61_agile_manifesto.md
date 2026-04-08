@@ -1,5 +1,5 @@
 +++
-title = "61. 애자일 선언문 (Agile Manifesto)"
+title = "61. 애자일 선언문 (Agile Manifesto) - 4가지 가치, 12가지 원칙"
 weight = 61
 +++
 

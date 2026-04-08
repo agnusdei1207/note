@@ -1,6 +1,6 @@
 +++
 weight = 2
-title = "02. 기밀성 (Confidentiality)"
+title = "2. 기밀성 (Confidentiality) — 암호화, 접근 제어, DRM, 분류"
 description = "인가되지 않은 정보 접근 및 유출을 차단하기 위한 기밀성의 핵심 원리, 암호화, 접근 제어 및 실무 적용 방안"
 date = "2023-10-24"
 [taxonomies]

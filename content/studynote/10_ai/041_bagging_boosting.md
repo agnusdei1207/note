@@ -1,6 +1,6 @@
 +++
 weight = 41
-title = "041. 배깅 (Bagging) / 부스팅 (Boosting)"
+title = "41. 하이퍼파라미터 (Hyperparameter) - 모델 학습 전 인간(엔지니어)이 직접 설정해야 하는 변수 (학습률, 트리 깊이 등)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-ai"

@@ -1,6 +1,6 @@
 +++
 weight = 81
-title = "84. RC4 (Rivest Cipher 4)"
+title = "81. RC4 — 스트림 암호, 취약점 발견으로 사용 중단 (WEP)"
 description = "가장 널리 사용되었다가 취약점으로 인해 폐기된 스트림 암호"
 date = 2026-03-26
 

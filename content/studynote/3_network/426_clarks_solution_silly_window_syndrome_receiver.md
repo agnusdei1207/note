@@ -1,5 +1,5 @@
 +++
-title = "426. 클라크 해결책 (Clark's Solution)"
+title = "426. 클라크 해결책 (Clark's Solution) - 수신측 여유 전까지 윈도우 크기 0 유지 (수신측 해결)"
 weight = 426
 +++
 

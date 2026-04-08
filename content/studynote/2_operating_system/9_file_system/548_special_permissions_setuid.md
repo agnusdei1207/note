@@ -1,6 +1,6 @@
 +++
 weight = 548
-title = "548. 특수 권한 (SetUID, SetGID, Sticky Bit) - 일시적 신분 탈취와 해킹 게이트"
+title = "548. SetUID (4000), SetGID (2000), Sticky Bit (1000) 특수 권한"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

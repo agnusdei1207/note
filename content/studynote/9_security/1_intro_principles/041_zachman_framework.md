@@ -1,5 +1,5 @@
 +++
-title = "041. 보안 아키텍처 — Zachman Framework (6×6 매트릭스)"
+title = "41. 보안 아키텍처 — Zachman Framework (6×6 매트릭스)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-security"

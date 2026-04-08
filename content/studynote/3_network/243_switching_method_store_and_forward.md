@@ -1,5 +1,5 @@
 +++
-title = "243. 스위칭 방식 - 스토어 앤 포워드 (Store-and-forward)"
+title = "243. 스위칭 방식 - 스토어 앤 포워드 (Store-and-forward) - 에러 검출율 높음"
 weight = 243
 +++
 

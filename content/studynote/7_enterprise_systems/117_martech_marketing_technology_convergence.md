@@ -1,6 +1,6 @@
 +++
 weight = 117
-title = "117. 마테크 (MarTech) - IT와 마케팅의 융합"
+title = "117. 마테크 (MarTech / Marketing Technology) - IT와 마케팅의 융합"
 date = "2026-04-02"
 [extra]
 categories = "studynote-enterprise"

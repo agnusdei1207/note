@@ -1,5 +1,5 @@
 +++
-title = "088. 블록 암호 모드 — ECB/CBC/CFB/OFB/CTR"
+title = "88. 블록 암호 모드 — ECB/CBC/CFB/OFB/CTR"
 date = "2026-04-05"
 weight = 88
 [extra]

@@ -1,6 +1,6 @@
 +++
 weight = 20
-title = "20. KPI (Key Performance Indicator)"
+title = "20. KPI (Key Performance Indicator) - 핵심 성과 지표 (목표 달성 정도 측정)"
 description = "조직의 목표 달성 정도를 정량적으로 측정하고 평가하기 위해 가장 핵심적으로 관리해야 하는 성과 지표"
 date = "2026-03-04"
 [taxonomies]

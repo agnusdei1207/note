@@ -1,5 +1,5 @@
 +++
-title = "189. BDD의 Given-When-Then 명세"
+title = "189. BDD의 Given-When-Then 문법을 이용한 명세"
 weight = 189
 +++
 # 189. BDD (Behavior-Driven Development)의 Given-When-Then 문법 명세

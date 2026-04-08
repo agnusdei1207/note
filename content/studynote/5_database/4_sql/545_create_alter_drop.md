@@ -1,6 +1,6 @@
 +++
 weight = 45
-title = "CREATE, ALTER, DROP"
+title = "545. 시큐어 코딩 파라 파라미터 매핑 ORM 보안 내재화 방식"
 description = "테이블 생성, 수정, 삭제 DDL 문"
 date = 2026-03-26
 

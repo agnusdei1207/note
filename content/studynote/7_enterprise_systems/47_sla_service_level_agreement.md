@@ -1,5 +1,5 @@
 +++
-title = "47. SLA (Service Level Agreement, 서비스 수준 협약서)"
+title = "47. SLA (Service Level Agreement, 서비스 수준 협약서) - 서비스 제공자와 고객 간의 정량화된 서비스 품질 기준 협약"
 weight = 47
 +++
 

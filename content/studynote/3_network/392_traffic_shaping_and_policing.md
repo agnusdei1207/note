@@ -1,5 +1,5 @@
 +++
-title = "392. 트래픽 쉐이핑(Shaping)과 폴리싱(Policing)"
+title = "392. 트래픽 쉐이핑 (Traffic Shaping) / 폴리싱 (Traffic Policing)"
 weight = 392
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "SDDC (Software Defined Data Center, 소프트웨어 정의 데이터센터)"
+title = "631. SDDC (Software Defined Data Center)"
 date = 2026-03-20
 weight = 631
 description = "서버(컴퓨팅), 스토리지, 네트워크, 보안 등 데이터센터를 구성하는 모든 물리적 하드웨어 인프라를 가상화하여 순수 소프트웨어 코드로 자동 제어하는 궁극의 인프라 모델"

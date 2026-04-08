@@ -1,5 +1,5 @@
 +++
-title = "170. 서킷 브레이커 (Circuit Breaker) 패턴"
+title = "170. 서킷 브레이커 (Circuit Breaker) 패턴 - 대상 서비스 장애 시 호출을 조기 차단(Open 상태)하여 타임아웃 적체 및 시스템 전체 연쇄 장애(Cascading Failure)를 방지하는 내결함성(Resilience) 패턴"
 weight = 170
 +++
 # 170. 서킷 브레이커 (Circuit Breaker) 패턴

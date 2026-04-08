@@ -1,5 +1,5 @@
 +++
-title = "FCoE (Fibre Channel over Ethernet)"
+title = "697. FCoE (Fibre Channel over Ethernet)"
 date = 2026-03-20
 weight = 697
 description = "비싼 파이버 채널(FC) 전용 스위치와 랜(Ethernet) 스위치를 두 개씩 사야 했던 데이터센터의 비용 지옥을 끝내기 위해, 이더넷 랜선 하나에 FC 패킷을 얹어서 보내는 융합 네트워크 기술"

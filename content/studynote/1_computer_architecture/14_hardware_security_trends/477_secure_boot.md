@@ -1,6 +1,6 @@
 +++
 weight = 477
-title = "477. Secure Boot (보안 부팅)"
+title = "477. 보안 부팅 (Secure Boot)"
 date = "2026-03-20"
 [extra]
 categories = "studynote-computer-architecture"

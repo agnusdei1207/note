@@ -1,5 +1,5 @@
 +++
-title = "269. 임베디드 시스템 (Embedded System)"
+title = "269. RLAIF (AI 피드백 기반 강화학습) - 인간 라벨러 대신 GPT-4 등 고성능 AI가 답변 품질 랭킹 채점을 대행 (헌법적 AI / Constitutional AI - Anthropic 제안)"
 weight = 269
 +++
 

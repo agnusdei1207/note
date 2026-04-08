@@ -1,5 +1,5 @@
 +++
-title = "817. VXLAN (가상 확장 랜)"
+title = "817. VXLAN (Virtual eXtensible LAN) - UDP(포트 4789)로 L2 프레임 캡슐화, VLAN 4096개 한계 완화 (1,600만개 VNI 지원)"
 weight = 817
 +++
 # 817. VXLAN (Virtual eXtensible LAN) - 가상화 망 오버레이의 제왕, 1600만 개 VNI 확장 

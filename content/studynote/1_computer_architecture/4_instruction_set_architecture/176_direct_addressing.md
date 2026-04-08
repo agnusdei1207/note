@@ -1,6 +1,6 @@
 +++
 weight = 176
-title = "176. 직접 주소 지정 (Direct Addressing)"
+title = "176. 직접 주소 지정 (Direct)"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

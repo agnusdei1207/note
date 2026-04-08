@@ -1,5 +1,5 @@
 +++
-title = "309. 클라우드 DW - Redshift/BigQuery/Snowflake"
+title = "309. CQRS 아키텍처와 DB 동기화 (Event Sourcing 연동)"
 weight = 4309
 +++
 

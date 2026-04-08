@@ -1,5 +1,5 @@
 +++
-title = "HASS (Highly Accelerated Stress Screen, 고가속 스트레스 스크리닝)"
+title = "760. HASS (Highly Accelerated Stress Screen)"
 date = 2026-03-20
 weight = 760
 description = "앞서 HALT를 통해 알아낸 기계의 한계점을 바탕으로, 대량 생산되는 제품 전체에 파괴되지 않을 만큼의 빠르고 강한 스트레스를 줘서 초기 불량품을 순식간에 걸러내는 공장 출하 전 필수 테스트"

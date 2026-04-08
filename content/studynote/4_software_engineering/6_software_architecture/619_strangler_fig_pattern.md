@@ -1,6 +1,6 @@
 +++
 weight = 19
-title = "스트랭글러 핀 패턴"
+title = "619. 사가 (Saga) 패턴 2PC 한계 극복 분산 트랜잭션"
 description = "스트랭글러 핀(Strangler Fig) 패턴의 개념, 점진적 전환"
 date = 2024-02-01
 

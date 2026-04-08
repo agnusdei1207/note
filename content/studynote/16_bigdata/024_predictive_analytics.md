@@ -1,6 +1,6 @@
 +++
 weight = 24
-title = "024. 예측 분석 (Predictive Analytics) - 빅데이터의 전략적 연금술"
+title = "24. HDFS (Hadoop Distributed File System) — 블록 128MB, 3중 복제, NameNode/DataNode"
 date = "2026-04-02"
 [extra]
 categories = "studynote-bigdata"

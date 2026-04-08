@@ -1,6 +1,6 @@
 +++
 weight = 526
-title = "526. 색인 할당 (Indexed Allocation)"
+title = "526. 색인 할당 (Indexed Allocation) - 모든 블록 포인터를 색인 블록(Index Block) 하나에 모아 저장"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

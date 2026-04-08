@@ -1,5 +1,5 @@
 +++
-title = "60. 위상 정렬 (Topological Sort)"
+title = "60. 큐 (Queue) — FIFO, enqueue/dequeue, BFS/스케줄링"
 weight = 60
 +++
 

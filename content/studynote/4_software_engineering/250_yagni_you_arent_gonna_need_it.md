@@ -1,5 +1,5 @@
 +++
-title = "250. YAGNI 원칙"
+title = "250. YAGNI (You Aren't Gonna Need It) 원칙"
 weight = 250
 +++
 # 250. YAGNI (You Aren't Gonna Need It) 원칙 - 오버 엔지니어링 방지 애자일 설계 익스트림 프로그래밍(XP) 소프트웨어 공학 클린 코드

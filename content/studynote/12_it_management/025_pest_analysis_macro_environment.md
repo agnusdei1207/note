@@ -1,6 +1,6 @@
 +++
 weight = 25
-title = "025. PEST 분석 - 거시 환경(Macro-Environment) 전략 프레임워크"
+title = "25. PEST 분석 (거시 환경 분석) - 정치(Political), 경제(Economic), 사회(Social), 기술(Technological)"
 date = "2026-04-02"
 [extra]
 categories = "studynote-it-management"

@@ -1,5 +1,5 @@
 +++
-title = "디스크 스핀다운 (Disk Spin-down)"
+title = "690. 디스크 스핀다운 (Disk Spin-down)"
 date = 2026-03-20
 weight = 690
 description = "스토리지 서버에서 오랫동안 데이터를 읽거나 쓰지 않는 하드디스크(HDD)의 모터 회전을 강제로 멈춰, 전력 소모와 진동/열을 획기적으로 줄이는 물리적 절전 기술"

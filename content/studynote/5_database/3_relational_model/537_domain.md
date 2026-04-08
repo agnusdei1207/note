@@ -1,6 +1,6 @@
 +++
 weight = 37
-title = "도메인 (Domain)"
+title = "537. 시계열 DB 롤업 다운샘플링 쿼리 효율화"
 description = "관계형 데이터베이스에서 도메인의 정의와 역할"
 date = 2026-03-26
 

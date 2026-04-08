@@ -1,6 +1,6 @@
 +++
 weight = 540
-title = "540. 저널링 3대 모드 (Data/Ordered/Writeback) - 메타 vs 데이터 저널링"
+title = "540. 메타데이터 저널링 vs 데이터 저널링 모드 (순서: 로그 기록 -> 커밋 -> 실제 파일시스템 반영)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

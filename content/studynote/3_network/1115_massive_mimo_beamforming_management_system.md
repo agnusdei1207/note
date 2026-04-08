@@ -1,5 +1,5 @@
 +++
-title = "1115. Massive MIMO 빔 관리"
+title = "1115. Massive MIMO 빔 관리 시스템"
 weight = 1115
 +++
 # 1115. Massive MIMO 빔 관리 시스템 - 대규모 다중 입출력 3D 빔포밍 공간 다중화 사용자 추적 (Beam Tracking) 5G 안테나 용량 한계 극복 

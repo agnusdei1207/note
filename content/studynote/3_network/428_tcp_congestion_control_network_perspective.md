@@ -1,5 +1,5 @@
 +++
-title = "428. TCP 혼잡 제어 (Congestion Control) 개요"
+title = "428. TCP 혼잡 제어 (Congestion Control) - 망(네트워크) 관점, 패킷 유실 방지"
 weight = 428
 +++
 

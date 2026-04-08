@@ -1,5 +1,5 @@
 +++
-title = "14. 재귀 (Recursion)"
+title = "14. 재귀 (Recursion) — 기본 사례, 재귀 사례, 스택 오버플로우"
 weight = 14
 +++
 

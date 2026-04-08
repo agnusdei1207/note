@@ -1,6 +1,6 @@
 +++
 weight = 141
-title = "141. 포커스 그룹 인터뷰 (FGI, Focus Group Interview)"
+title = "141. 포커스 그룹 인터뷰 (FGI)"
 date = "2026-04-02"
 [extra]
 categories = "studynote-se"

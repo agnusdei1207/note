@@ -1,5 +1,5 @@
 +++
-title = "976. DNS 스푸핑"
+title = "976. LLM01: Prompt Injection — 프롬프트 조작"
 weight = 976
 +++
 # 976. DNS 스푸핑 (DNS Spoofing) - 도메인 네임 캐시 포이즈닝 조작 해킹 공격 ARP 스푸핑 연계 가짜 IP 유도 보안 취약점 방어 기법 DNSSEC

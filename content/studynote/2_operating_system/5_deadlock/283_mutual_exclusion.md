@@ -1,6 +1,6 @@
 +++
 weight = 283
-title = "283. 상호 배제 (Mutual Exclusion) - 데드락 관점"
+title = "283. 상호 배제 (Mutual Exclusion) - 자원은 비공유 모드로만 사용 가능"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

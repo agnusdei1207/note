@@ -1,5 +1,5 @@
 +++
-title = "FMEA (Failure Mode and Effects Analysis)"
+title = "752. FMEA (Failure Mode and Effects Analysis)"
 date = 2026-03-20
 weight = 752
 description = "서버, 반도체, 비행기 등 복잡한 시스템을 설계할 때, '부품이 고장 났을 때 어떤 일이 벌어질까?'를 미리 엑셀 표에 다 적어보고 치명적인 약점을 미리 고치는 예방적 신뢰성 분석 기법"

@@ -1,5 +1,5 @@
 +++
-title = "55. 커넥션 풀 (Connection Pool)"
+title = "55. 커넥션 풀 (Connection Pool) - 데이터베이스 연결 오버헤드 감소"
 weight = 55
 +++
 

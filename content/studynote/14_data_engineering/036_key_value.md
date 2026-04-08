@@ -1,6 +1,6 @@
 +++
 weight = 36
-title = "036. 키-값 저장소 (Key-Value Store)"
+title = "36. 키-값 저장소 (Key-Value) - Redis, Memcached (인메모리 초고속 세션/캐시)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-data-engineering"

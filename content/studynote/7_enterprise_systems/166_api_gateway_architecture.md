@@ -1,5 +1,5 @@
 +++
-title = "166. API 게이트웨이 (API Gateway)"
+title = "166. API 게이트웨이 (API Gateway) - 클라이언트 요청을 단일 진입점으로 받아 적절한 마이크로서비스로 라우팅, 인증/인가, 스로틀링(Throttling), 응답 통합(Aggregation) 담당 모듈"
 weight = 166
 +++
 # 166. API 게이트웨이 (API Gateway)

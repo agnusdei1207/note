@@ -1,6 +1,6 @@
 +++
 weight = 431
-title = "431. 더티 페이지 쓰기 (Dirty Page Writeback) 메커니즘"
+title = "431. 더티 페이지 쓰기 (Dirty Page Writeback) 메커니즘 (pdflush / flusher 스레드)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

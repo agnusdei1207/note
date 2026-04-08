@@ -1,5 +1,5 @@
 +++
-title = "414. 체크섬 (Checksum)과 가상 헤더"
+title = "414. 체크섬 (Checksum) - 가상 헤더 (Virtual Header) 포함 (IP + TCP/UDP 헤더)"
 weight = 414
 +++
 

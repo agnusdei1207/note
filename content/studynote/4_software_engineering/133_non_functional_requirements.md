@@ -1,5 +1,5 @@
 +++
-title = "비기능 요구사항 (Non-Functional Requirements, NFR)"
+title = "133. 비기능 요구사항 (Quality Attributes) - 성능, 보안, 가용성, 신뢰성 등"
 weight = 133
 +++
 

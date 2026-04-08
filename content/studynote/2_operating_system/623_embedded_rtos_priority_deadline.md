@@ -1,6 +1,6 @@
 +++
 weight = 623
-title = "623. 임베디드 실시간 OS (RTOS) 우선순위 데드라인 절대 보장 아키텍처"
+title = "623. 임베디드 실시간 OS (RTOS: VxWorks, FreeRTOS 등) 우선순위 데드라인 절대 보장 아키텍처"
 date = "2026-03-29"
 [extra]
 categories = ["studynote-operating-system"]

@@ -1,6 +1,6 @@
 +++
 weight = 58
-title = "58. TDD (Test-Driven Development) / BDD (Behavior-Driven Development)"
+title = "58. 개발자 경험 (DX, Developer Experience) 향상 전략"
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

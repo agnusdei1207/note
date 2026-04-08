@@ -1,5 +1,5 @@
 +++
-title = "318. ICMP (인터넷 제어 메시지 프로토콜)"
+title = "318. ICMP (Internet Control Message Protocol) 진단/오류 알림"
 weight = 318
 +++
 

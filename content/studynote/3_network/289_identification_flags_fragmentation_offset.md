@@ -1,5 +1,5 @@
 +++
-title = "289. 식별자, 플래그, 단편화 오프셋 (Fragmentation)"
+title = "289. 식별자 (Identification), 플래그 (Flags), 단편화 오프셋 (Fragmentation Offset)"
 weight = 289
 +++
 

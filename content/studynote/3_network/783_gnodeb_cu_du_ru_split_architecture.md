@@ -1,5 +1,5 @@
 +++
-title = "783. 기지국 DU / CU / RU 스플릿 구조"
+title = "783. 기지국 DU (Distributed Unit) / CU (Centralized Unit) / RU (Radio Unit 전파 안테나 제어망 연결 구조) 고차원 장비 표준화 인터페이스 (스플릿 옵션망 트래픽 부담 체계 프론트홀 지연 파급망 분석 분산)"
 weight = 783
 +++
 # 783. 기지국 분할 구조 (DU / CU / RU) - 스플릿 옵션망 프론트홀 지연 분석

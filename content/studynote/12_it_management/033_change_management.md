@@ -1,6 +1,6 @@
 +++
 weight = 33
-title = "79. 변경 관리 (Change Management / Change Enablement)"
+title = "33. 플랫폼 비즈니스 모델 (Platform Business Model) - 양면 시장(Two-sided Market) 교차 네트워크 효과"
 description = "시스템 수정/업데이트로 인한 서비스 리스크 통제, 모든 변경은 승인을 거침"
 date = "2024-05-20"
 [taxonomies]

@@ -1,5 +1,5 @@
 +++
-title = "264. 분할 투명성 (Fragmentation/Partition Transparency)"
+title = "264. 분할 투명성 (Fragmentation/Partition Transparency) - 데이터 분할 여부 은닉"
 weight = 264
 +++
 

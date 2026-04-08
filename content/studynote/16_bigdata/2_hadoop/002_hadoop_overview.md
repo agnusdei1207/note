@@ -1,6 +1,6 @@
 +++
 weight = 15002
-title = "2. Hadoop 개요 및 분산 파일 시스템"
+title = "2. 5V — 3V + Veracity(정확성) + Value(가치)"
 date = "2026-03-26"
 [extra]
 categories = "studynote-bigdata"

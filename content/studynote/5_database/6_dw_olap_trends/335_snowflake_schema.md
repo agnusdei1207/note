@@ -1,5 +1,5 @@
 +++
-title = "335. 스노우플레이크 스키마 (Snowflake Schema)"
+title = "335. 스노우플레이크 스키마 (Snowflake Schema) - 차원 테이블을 3NF 정규화하여 중복 제거, 조인 복잡성 증가 눈송이 형태"
 weight = 4335
 +++
 

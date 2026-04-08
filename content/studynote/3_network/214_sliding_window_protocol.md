@@ -1,5 +1,5 @@
 +++
-title = "214. 슬라이딩 윈도우 프로토콜 (Sliding Window Protocol)"
+title = "214. 슬라이딩 윈도우 프로토콜 (Sliding Window Protocol) 개념"
 weight = 214
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "160. Level 2 - HTTP 메서드의 적절한 사용"
+title = "160. Level 2 - HTTP 메서드의 적절한 분리 사용 (가장 대중적 단계)"
 weight = 160
 +++
 # 160. Level 2 - HTTP 메서드의 적절한 분리 사용

@@ -1,5 +1,5 @@
 +++
-title = "1100. 포트 미러링 (SPAN/TAP)"
+title = "1100. 스위치 포트 미러링 (SPAN/TAP)"
 weight = 1100
 +++
 # 1100. 스위치 포트 미러링 (SPAN/TAP) - Port Mirroring Switched Port Analyzer 네트워크 감시 트래픽 복제 IDS/IPS 연동 맹점 OOB (Out-of-Band) 관제망

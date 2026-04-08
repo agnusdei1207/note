@@ -1,6 +1,6 @@
 +++
 weight = 589
-title = "589. V2X (Vehicle to Everything) - 자율주행과 커넥티드 카(C-ITS)의 초연결 통신 아키텍처"
+title = "589. V2X (Vehicle to Everything) - 차량 자율주행, 차량통신 핵심"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

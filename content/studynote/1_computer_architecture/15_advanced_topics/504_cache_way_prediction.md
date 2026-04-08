@@ -1,5 +1,5 @@
 +++
-title = "캐시 웨이 예측 (Cache Way Prediction)"
+title = "504. 캐시 웨이 예측"
 date = 2026-03-20
 weight = 504
 description = "집합 연관 캐시(Set-Associative Cache)에서 전력 소모를 줄이기 위해, 모든 웨이(Way)를 뒤지지 않고 데이터가 있을 법한 하나의 웨이만 미리 짐작하여 전기를 넣는 절전 기술"

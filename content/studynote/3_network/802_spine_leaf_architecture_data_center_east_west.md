@@ -1,5 +1,5 @@
 +++
-title = "802. 데이터센터 Spine-Leaf 아키텍처"
+title = "802. 데이터센터 Spine-Leaf 아키텍처 - 2-Tier 수평 분산 구조 (East-West 트래픽 최적화)"
 weight = 802
 +++
 # 802. 데이터센터 Spine-Leaf 아키텍처 - 2-Tier 수평 분산 구조 (East-West 트래픽 최적화)

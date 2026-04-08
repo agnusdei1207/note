@@ -1,6 +1,6 @@
 +++
 weight = 424
-title = "424. ZRAM / 커널 스왑 압축 기술 한계 상황의 연금술"
+title = "424. ZRAM / 커널 스왑 압축 기술 - 스왑 디스크 I/O 대신 메모리 내 데이터 압축 보관"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

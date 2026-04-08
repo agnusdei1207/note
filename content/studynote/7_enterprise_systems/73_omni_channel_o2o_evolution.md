@@ -1,5 +1,5 @@
 +++
-title = "73. 옴니채널 Omni Channel O2O 진화 통합 고객 경험"
+title = "73. 옴니채널 (Omni-Channel) - 오프라인, 온라인, 모바일 등 모든 채널을 통합해 일관된 고객 경험 제공 (O2O의 진화)"
 date = "2026-04-07"
 [extra]
 categories = "studynote-enterprise"

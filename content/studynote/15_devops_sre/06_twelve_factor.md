@@ -1,6 +1,6 @@
 +++
 weight = 6
-title = "06. 12 팩터 앱"
+title = "6. 12 팩터 앱 (The Twelve-Factor App) - 클라우드 네이티브(SaaS) 애플리케이션 개발을 위한 12가지 베스트 프랙티스 (Heroku 제안)"
 date = "2026-04-05"
 [taxonomies]
 tags = ["12 Factor App", "12팩터", "클라우드 네이티브", "SaaS", "베스트 프랙티스"]

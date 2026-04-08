@@ -1,5 +1,5 @@
 +++
-title = "광 디스크 주크박스 (Optical Disc Jukebox)"
+title = "694. 광 디스크 주크박스"
 date = 2026-03-20
 weight = 694
 description = "CD, DVD, 블루레이 같은 광디스크 수백~수천 장을 기계 안에 넣어두고, 필요할 때마다 로봇 팔이 디스크를 꺼내 드라이브에 삽입하는 물리적인 WORM 아카이브 하드웨어"

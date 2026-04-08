@@ -1,6 +1,6 @@
 +++
 weight = 55
-title = "55. 아날로그 연속파 변조 (AM, FM, PM)"
+title = "55. 아날로그 연속파 변조 - AM, FM, PM"
 date = "2026-03-30"
 [extra]
 categories = ["studynote", "Network"]

@@ -1,6 +1,6 @@
 +++
 weight = 122
-title = "122. oneM2M - 이기종 사물인터넷 상호운용성 글로벌 아키텍처"
+title = "122. oneM2M - 이기종 사물인터넷 플랫폼 간 상호 연동을 위한 글로벌 공통 아키텍처 표준"
 date = "2026-04-02"
 [extra]
 categories = "studynote-ict-convergence"

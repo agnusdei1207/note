@@ -1,5 +1,5 @@
 +++
-title = "클럭 도메인 교차 (CDC, Clock Domain Crossing)"
+title = "607. 클럭 도메인 교차 (CDC, Clock Domain Crossing)"
 date = 2026-03-20
 weight = 607
 description = "서로 다른 클럭 속도로 동작하는 두 개의 하드웨어 블록 사이에서 데이터를 주고받을 때 발생하는 메타스테빌리티(Metastability) 오류를 막기 위한 반도체 설계 기법"

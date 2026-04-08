@@ -1,5 +1,5 @@
 +++
-title = "324. ODS Operational Data Store 운영 데이터 통합 저장소"
+title = "324. ODS (Operational Data Store) - DW로 가기 전의 임시/운영 데이터 통합 영역"
 date = "2026-04-07"
 [extra]
 categories = "studynote-database"

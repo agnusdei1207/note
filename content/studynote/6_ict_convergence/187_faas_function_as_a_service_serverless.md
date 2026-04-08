@@ -1,5 +1,5 @@
 +++
-title = "187. FaaS (Function as a Service)"
+title = "187. FaaS (Function as a Service / Serverless) - 인프라 관리 없이 함수 단위로 코드만 배포 및 호출 시 과금 (AWS Lambda)"
 weight = 187
 +++
 # 187. FaaS (Function as a Service / Serverless) - 인프라 관리 위임 함수 단위 코드 배포 호출 과금 AWS Lambda 콜드 스타트 클라우드 아키텍처

@@ -1,5 +1,5 @@
 +++
-title = "939. 사이버 기만 기술 (허니팟)"
+title = "939. Faraday Cage — 전자기 차폐"
 weight = 939
 +++
 

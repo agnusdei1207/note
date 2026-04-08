@@ -1,6 +1,6 @@
 +++
 weight = 8
-title = "연결주의人工智能"
+title = "8. 지식 베이스 (Knowledge Base) / 추론 엔진 (Inference Engine)"
 description = "연결주의人工智能(Connectionist AI)의 정의, 신경망 기반 학습, 딥러닝과의 관계"
 category = "10_ai"
 +++

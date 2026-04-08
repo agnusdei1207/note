@@ -1,5 +1,5 @@
 +++
-title = "115. CDP (Customer Data Platform, 고객 데이터 플랫폼)"
+title = "115. CDP (Customer Data Platform, 고객 데이터 플랫폼) - 기존 CRM(영업망), DMP(광고 데이터)를 넘어 온라인/오프라인의 자사(1st Party) 고객 행동 로그를 한 곳으로 통합하는 최신 마케팅 플랫폼"
 weight = 115
 +++
 

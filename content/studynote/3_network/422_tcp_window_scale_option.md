@@ -1,5 +1,5 @@
 +++
-title = "422. 윈도우 스케일 옵션 (Window Scale Option)"
+title = "422. 윈도우 스케일옵션 (Window Scale Option) - 최대 1GB까지 윈도우 확장"
 weight = 422
 +++
 

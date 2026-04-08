@@ -1,5 +1,5 @@
 +++
-title = "255. PACELC 정리 (PACELC Theorem)"
+title = "255. PACELC 정리 - CAP 확장판 (분할 P 시 A/C 대안, 정상 작동 E 시 L(지연)/C(일관성) 상충 관계)"
 weight = 255
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 79
-title = "79. 소스코드 정적 분석 도구 (SonarQube)"
+title = "79. 소스코드 정적 분석 도구 (SonarQube) - 잠재적 버그, 코드 스멜, 보안 취약점(SAST) 자동 스캔 및 품질 게이트(Quality Gate) 통제"
 description = "코드를 실행하지 않고 소스코드의 구문, 데이터 흐름, 제어 흐름을 분석하여 잠재적 버그, 코드 스멜, 보안 취약점(SAST)을 자동 스캔하고 품질 게이트(Quality Gate)를 통해 배포를 통제하는 SonarQube의 원리와 활용"
 date = "2026-04-05"
 

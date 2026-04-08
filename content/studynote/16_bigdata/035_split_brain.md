@@ -1,6 +1,6 @@
 +++
 weight = 35
-title = "35. 스플릿 브레인"
+title = "35. Apache Pig — 데이터 흐름 스크립트 언어 (Pig Latin), 복잡한 ETL"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

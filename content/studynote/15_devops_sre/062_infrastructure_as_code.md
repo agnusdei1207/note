@@ -1,6 +1,6 @@
 +++
 weight = 62
-title = "62. Infrastructure as Code (인프라스트럭처 애즈 코드)"
+title = "62. 중앙 집중형 VCS (SVN) vs 분산형 VCS (Git) - Git은 로컬 저장소에 전체 히스토리를 복제하여 오프라인 작업 및 브랜치 병합 속도 극대화"
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

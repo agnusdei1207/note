@@ -1,5 +1,5 @@
 +++
-title = "58. 플로이드-워샬 알고리즘 (Floyd-Warshall Algorithm)"
+title = "58. 연결 리스트 (Linked List) — 단일/이중/순환, 동적 삽입/삭제"
 weight = 58
 +++
 

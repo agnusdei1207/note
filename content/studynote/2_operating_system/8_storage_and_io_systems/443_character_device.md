@@ -1,6 +1,6 @@
 +++
 weight = 443
-title = "443. 문자 장치 (Character Device) 스트림의 일방통행"
+title = "443. 문자 장치 - 키보드, 마우스, 직렬 포트 (스트림 단위, 순차 접근)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

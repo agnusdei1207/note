@@ -1,6 +1,6 @@
 +++
 weight = 535
-title = "535. 그룹화 (Grouping) 및 계수 (Counting) 기법"
+title = "535. 그룹화 (Grouping) / 계수 (Counting) 기법"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

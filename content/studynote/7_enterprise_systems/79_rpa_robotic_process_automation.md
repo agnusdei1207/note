@@ -1,5 +1,5 @@
 +++
-title = "79. RPA (로보틱 프로세스 자동화)"
+title = "79. RPA (Robotic Process Automation) - 단순 반복적 사무 프로세스를 소프트웨어 봇이 자동 처리"
 weight = 79
 +++
 

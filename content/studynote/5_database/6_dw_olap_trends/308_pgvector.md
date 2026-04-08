@@ -1,5 +1,5 @@
 +++
-title = "308. PGVector"
+title = "308. 폴리글랏 퍼시스턴스 (Polyglot Persistence) - 마이크로서비스마다 목적에 맞는 최적의 이기종 DB 선택/혼용"
 weight = 4308
 +++
 

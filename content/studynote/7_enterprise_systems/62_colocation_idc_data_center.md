@@ -1,5 +1,5 @@
 +++
-title = "62. 코로케이션 (Colocation)"
+title = "62. 코로케이션 (Colocation) - 데이터센터의 공간과 전력만 임대하여 자사 서버 운영"
 weight = 62
 +++
 

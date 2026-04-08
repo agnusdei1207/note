@@ -1,5 +1,5 @@
 +++
-title = "314. NoSQL 모델링 전략 - 쿼리 패턴 주도 설계 및 역정규화"
+title = "314. NoSQL 모델링 전략 - 정규화가 아닌 쿼리 패턴 주도 설계 (Query-driven Modeling), 역정규화 내재화"
 date = "2026-04-07"
 [extra]
 categories = "studynote-database"

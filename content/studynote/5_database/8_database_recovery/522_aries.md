@@ -1,6 +1,6 @@
 +++
 weight = 522
-title = "ARIES 복구 알고리즘"
+title = "522. 데이터 거버넌스 3요소 (원칙, 조직, 프로세스)"
 description = "IBM이 개발한著名的한 ARIES 복구 알고리즘에 대해 설명"
 date = 2024-01-01
 

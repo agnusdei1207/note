@@ -1,6 +1,6 @@
 +++
 weight = 891
-title = "91. ClusterIP"
+title = "891. ClusterIP"
 description = "ClusterIP: 쿠버네티스 Service의 기본 유형으로, 클러스터 내부에서만 접근 가능한 가상 IP를 할당하는 서비스"
 date = 2026-03-26
 

@@ -1,5 +1,5 @@
 +++
-title = "209. GBN ARQ (Go-Back-N)"
+title = "209. GBN ARQ (Go-Back-N ARQ) - 오류 발생 프레임부터 재전송 (슬라이딩 윈도우)"
 weight = 209
 +++
 

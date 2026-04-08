@@ -1,5 +1,5 @@
 +++
-title = "677. CA (인증국), RA (등록기관)"
+title = "677. 인증국 (CA, Certificate Authority), 등록기관 (RA, Registration Authority), 저장소 체계"
 weight = 677
 +++
 # 677. 인증국 (CA, Certificate Authority), 등록기관 (RA) 체계

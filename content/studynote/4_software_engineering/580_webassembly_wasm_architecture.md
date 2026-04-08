@@ -1,5 +1,5 @@
 +++
-title = "580. 웹어셈블리 (WebAssembly, WASM) 아키텍처 - 고성능 네이티브 코드 실행"
+title = "580. 웹어셈블리 (WebAssembly, WASM) 아키텍처 - 브라우저 내 고성능 네이티브 코드 실행"
 +++
 
 # 580. 웹어셈블리 (WebAssembly, WASM) 아키텍처 - 브라우저 내 고성능 네이티브 코드 실행

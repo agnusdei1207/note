@@ -1,5 +1,5 @@
 +++
-title = "193. 응집도 (Cohesion)"
+title = "193. 응집도 (Cohesion) - 모듈 내부 요소들의 연관 정도 (높을수록 좋음)"
 weight = 193
 +++
 # 193. 응집도 (Cohesion) - 모듈 내부 요소들의 연관 정도

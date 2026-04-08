@@ -1,5 +1,5 @@
 +++
-title = "1008. MTTR (평균 수리 시간)"
+title = "1008. MTTR (평균 수리 시간) 회선 이중화"
 weight = 1008
 +++
 # 1008. MTTR (평균 수리 시간) - Mean Time To Repair 장애 인지 복구 완료 다운타임 단축 가용성(Availability) 식 계산 통신망 유지보수 회선 이중화 지표

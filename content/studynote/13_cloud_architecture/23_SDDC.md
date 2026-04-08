@@ -1,6 +1,6 @@
 +++
 weight = 23
-title = "23. SDDC (소프트웨어 정의 데이터센터)"
+title = "23. 소프트웨어 정의 데이터센터 (SDDC, Software Defined Data Center) - 컴퓨팅, 스토리지, 네트워킹을 모두 가상화(SDC, SDS, SDN)하여 API로 프로비저닝하는 데이터센터"
 description = "서버, 스토리지, 네트워크를 모두 소프트웨어로 추상화하여 통합 관리하는 SDDC의 아키텍처와 클라우드 네이티브 환경実現 원리"
 date = "2024-05-24"
 [taxonomies]

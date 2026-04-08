@@ -1,5 +1,5 @@
 +++
-title = "분기 예측 실패 페널티 (Branch Misprediction Penalty)"
+title = "503. 분기 예측 실패 페널티"
 date = 2026-03-20
 weight = 503
 description = "CPU가 조건문의 방향을 잘못 예측했을 때, 파이프라인을 비우고 올바른 명령어를 다시 가져오는 과정에서 발생하는 심각한 시간적 손실"

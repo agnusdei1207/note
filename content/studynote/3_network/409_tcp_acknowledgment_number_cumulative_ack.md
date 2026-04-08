@@ -1,5 +1,5 @@
 +++
-title = "409. 확인응답번호 (ACK Number) - 누적 ACK"
+title = "409. 확인응답번호 (Acknowledgment Number, 32bit) - 다음 수신할 바이트 번호 (누적 ACK)"
 weight = 409
 +++
 

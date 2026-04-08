@@ -1,5 +1,5 @@
 +++
-title = "757. LTE-A (캐리어 어그리게이션)"
+title = "757. LTE-A (LTE-Advanced) 캐리어 어그리게이션 (Carrier Aggregation CA 2~5개 주파수 대역 묶음 전송 캐파 향상 제어 속도 증강 기술 규격 제정 진전 표준 체계 진화)"
 weight = 757
 +++
 # 757. LTE-A (LTE-Advanced) - 캐리어 어그리게이션 (CA) 

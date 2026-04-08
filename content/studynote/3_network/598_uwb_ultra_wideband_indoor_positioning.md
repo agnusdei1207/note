@@ -1,6 +1,6 @@
 +++
 weight = 598
-title = "598. UWB (Ultra-Wideband) - 수 나노초 펄스와 센티미터(cm)급 초정밀 실내 측위 아키텍처"
+title = "598. UWB (Ultra-Wideband) - 초광대역 근거리 정밀 위치인식통신, 임펄스 전송 (Apple AirTag 등)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

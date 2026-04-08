@@ -1,6 +1,6 @@
 +++
 weight = 140
-title = "140. ��� (Goroutine) - Go ��� �� ��� (M:N ��)"
+title = "140. 고루틴 (Goroutine) - Go 언어의 경량 스레드 (M:N 모델)"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

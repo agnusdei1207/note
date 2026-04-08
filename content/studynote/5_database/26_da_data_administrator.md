@@ -1,6 +1,6 @@
 +++
 weight = 26
-title = "26. 데이터 관리자 (DA)"
+title = "26. 데이터 관리자 (DA, Data Administrator) - 데이터 표준, 메타데이터 관리"
 description = "데이터 관리자(DA)의 정의, 데이터 거버넌스 아키텍처, 메타데이터 관리 및 실무 표준화 전략"
 date = "2024-05-24"
 [taxonomies]

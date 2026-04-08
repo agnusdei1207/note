@@ -1,5 +1,5 @@
 +++
-title = "422. 구문 커버리지 (Statement Coverage)"
+title = "422. 구문 커버리지 (Statement Coverage) - 코드의 모든 문장을 최소 한 번 실행"
 date = 2026-04-05
 weight = 422
 +++

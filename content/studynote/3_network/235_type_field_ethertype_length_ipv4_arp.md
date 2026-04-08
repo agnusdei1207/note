@@ -1,5 +1,5 @@
 +++
-title = "235. Type 필드 (Ethertype) / Length 필드 (IPv4, ARP 식별)"
+title = "235. Type 필드 (Ethertype) / Length 필드 (IPv4 = 0x0800, ARP = 0x0806)"
 weight = 235
 +++
 

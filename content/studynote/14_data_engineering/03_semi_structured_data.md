@@ -1,6 +1,6 @@
 +++
 weight = 3
-title = "03. 반정형 데이터 (Semi-structured Data)"
+title = "3. 반정형 데이터 (Semi-structured Data) - 데이터 내부(태그)에 구조(메타데이터)를 포함 (XML, JSON, 로그)"
 description = "데이터 내부에 메타데이터(태그,スキーマ)를 포함하는 XML, JSON, 로그 등의 반정형 데이터 유형, NoSQL과 메시지 큐에서의 활용"
 date = "2024-05-24"
 [taxonomies]

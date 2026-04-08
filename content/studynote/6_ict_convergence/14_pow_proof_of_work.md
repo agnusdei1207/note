@@ -1,6 +1,6 @@
 +++
 weight = 14
-title = "14. 작업 증명 (PoW, Proof of Work)"
+title = "14. 작업 증명 (PoW, Proof of Work) - 해시 퍼즐 연산 경쟁 (비트코인), 막대한 전력 소모"
 description = "해시 퍼즐 연산 경쟁, 비트코인의 핵심 합의 알고리즘"
 date = "2024-05-18"
 [taxonomies]

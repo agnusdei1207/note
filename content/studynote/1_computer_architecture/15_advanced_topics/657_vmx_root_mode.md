@@ -1,5 +1,5 @@
 +++
-title = "가상화 VMX Root 모드 (VMX Root & Non-Root Mode)"
+title = "657. 가상화 VMX root 모드"
 date = 2026-03-20
 weight = 657
 description = "기존 CPU의 링(Ring) 권한 구조를 뛰어넘어, 가상 머신(Guest OS)과 하이퍼바이저(Host OS)를 하드웨어 레벨에서 완벽하게 분리하는 인텔의 가상화 확장 구조"

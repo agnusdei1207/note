@@ -1,5 +1,5 @@
 +++
-title = "81. ERP (Enterprise Resource Planning)"
+title = "81. ERP (Enterprise Resource Planning) - 기업 내 모든 경영 활동 프로세스(재무, 인사, 생산, 영업 등)를 통합 연동하는 전사적 자원 관리 시스템"
 date = "2026-04-07"
 [extra]
 categories = "studynote-enterprise"

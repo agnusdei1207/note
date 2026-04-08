@@ -1,5 +1,5 @@
 +++
-title = "191. 하이퍼바이저 (Type 1 vs Type 2)"
+title = "191. 하이퍼바이저 (Hypervisor) Type 1 (베어메탈 - ESXi, Xen) vs Type 2 (호스트형 - VMware Workstation)"
 weight = 191
 +++
 # 191. 하이퍼바이저 (Hypervisor) Type 1 vs Type 2 - VMM 가상 머신 모니터 베어메탈 호스트형 클라우드 데이터센터 VMware ESXi 구조 비교

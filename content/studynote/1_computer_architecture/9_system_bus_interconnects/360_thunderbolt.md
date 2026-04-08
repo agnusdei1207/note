@@ -1,6 +1,6 @@
 +++
 weight = 360
-title = "360. 썬더볼트 (Thunderbolt)"
+title = "360. Thunderbolt"
 date = "2026-03-27"
 [extra]
 categories = "studynote-computer-architecture"

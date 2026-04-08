@@ -1,5 +1,5 @@
 +++
-title = "247. 의존 역전 원칙 (DIP)"
+title = "247. DIP (Dependency Inversion Principle) - 의존 역전 원칙 (추상화에 의존)"
 weight = 247
 +++
 # 247. DIP (Dependency Inversion Principle) - 의존 역전 원칙 SOLID 클린 아키텍처 추상화 인터페이스 의존성 분리 제어의 역전(IoC) 의존성 주입(DI) 

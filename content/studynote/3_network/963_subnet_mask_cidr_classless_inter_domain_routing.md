@@ -1,5 +1,5 @@
 +++
-title = "963. 서브넷 마스크 (CIDR)"
+title = "963. 서브넷 마스크 (Subnet Mask) / CIDR"
 weight = 963
 +++
 # 963. 서브넷 마스크 (Subnet Mask) / CIDR - IP 네트워크 대역 호스트 분리망 가변 길이 마스킹 라우팅 효율 주소 고갈 방어 수학적 비트 쪼개기 체계

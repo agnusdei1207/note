@@ -1,5 +1,5 @@
 +++
-title = "312. 클라우드 관리형 DB (DBaaS) RDS 아키텍처"
+title = "312. 클라우드 관리형 DB (DBaaS, Database as a Service) - AWS RDS, Azure SQL 등"
 date = "2026-04-07"
 [extra]
 categories = "studynote-database"

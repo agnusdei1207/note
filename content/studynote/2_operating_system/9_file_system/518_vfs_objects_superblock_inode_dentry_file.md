@@ -1,6 +1,6 @@
 +++
 weight = 518
-title = "518. VFS 4대 객체 (Superblock, Inode, Dentry, File)"
+title = "518. VFS 객체 - 슈퍼블록 (Superblock), 아이노드 (inode), 덴트리 (dentry), 파일 객체 (file object)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

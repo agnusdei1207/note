@@ -1,5 +1,5 @@
 +++
-title = "698. NGFW (차세대 방화벽)"
+title = "698. NGFW (Next-Generation Firewall, 차세대 방화벽 시그니처 융합 모델 딥 패킷 파싱 애플리케이션 ID 제어 적용)"
 weight = 698
 +++
 # 698. NGFW (차세대 방화벽) - 시그니처 융합과 애플리케이션 ID 제어

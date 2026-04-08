@@ -1,5 +1,5 @@
 +++
-title = "441. RTT와 SRTT (혼잡 제어 동적 타이머)"
+title = "441. RTT (Round Trip Time), SRTT (Smoothed RTT) - 혼잡 제어 동적 타이머"
 weight = 441
 +++
 

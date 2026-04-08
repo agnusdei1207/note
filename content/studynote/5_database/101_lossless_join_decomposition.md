@@ -1,5 +1,5 @@
 +++
-title = "101. 무손실 분해 (Lossless-Join Decomposition)"
+title = "101. 무손실 분해 (Lossless-Join Decomposition) - 조인 시 원래 릴레이션이 복원됨 보장"
 weight = 101
 +++
 

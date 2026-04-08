@@ -1,5 +1,5 @@
 +++
-title = "704. IP 스푸핑 (IP Spoofing)"
+title = "704. IP 스푸핑 (IP Spoofing) - 트러스트 IP 위장 인젝션 우회 및 DDoS 공격 근원"
 weight = 704
 +++
 # 704. IP 스푸핑 (IP Spoofing) - 트러스트 IP 위장 공격

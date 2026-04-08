@@ -1,6 +1,6 @@
 +++
 weight = 62
-title = "62. 업/다운 카운터 (Up/Down Counter)"
+title = "62. 업/다운 카운터"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

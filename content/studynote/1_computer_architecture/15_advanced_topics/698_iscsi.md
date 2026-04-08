@@ -1,5 +1,5 @@
 +++
-title = "iSCSI (Internet Small Computer System Interface)"
+title = "698. iSCSI (Internet Small Computer System Interface)"
 date = 2026-03-20
 weight = 698
 description = "비싼 파이버 채널(FC) 장비를 사지 않고도, 일반적인 랜선(Ethernet/TCP)을 통해 멀리 있는 스토리지의 디스크를 마치 내 컴퓨터에 꽂힌 C드라이브(블록)처럼 쓸 수 있게 해주는 가성비 스토리지 통신 프로토콜"

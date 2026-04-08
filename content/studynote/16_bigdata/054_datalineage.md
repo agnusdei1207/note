@@ -1,6 +1,6 @@
 +++
 weight = 54
-title = "54. 데이터 리니지 (Data Lineage)"
+title = "54. DataFrame / Dataset — 스키마 기반, Catalyst 최적화, Type-safe"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

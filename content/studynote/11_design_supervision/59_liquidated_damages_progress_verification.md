@@ -1,6 +1,6 @@
 +++
 weight = 59
-title = "59. 사업자 지체 상금 (Liquidated Damages) 분쟁 예방을 위한 진척도 및 지연 사유 증빙 점검"
+title = "59. 보안 장비 (방화벽, IPS, WAF) 정책 룰셋(Rule-set) 최적화 상태 점검"
 date = "2026-04-05"
 [extra]
 categories = "studynote-design-supervision"

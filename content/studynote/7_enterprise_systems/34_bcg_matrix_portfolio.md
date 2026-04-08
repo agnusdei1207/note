@@ -1,5 +1,5 @@
 +++
-title = "34. 포트폴리오 매트릭스 (BCG Matrix)"
+title = "34. 포트폴리오 매트릭스 (BCG Matrix) - 시장 점유율과 시장 성장률로 사업부(Cash Cow, Star, Question Mark, Dog) 평가"
 weight = 34
 +++
 

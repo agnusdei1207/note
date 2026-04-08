@@ -1,6 +1,6 @@
 +++
 weight = 88
-title = "88. 옵티마이저 (Optimizer)"
+title = "88. Amazon Kinesis Data Streams — 샤드 기반, AWS 관리형"
 description = "옵티마이저의 개념, 다양한 최적화 알고리즘의 분류와 특성, Adaptive Learning Rate 방법론"
 date = "2026-04-05"
 [taxonomies]

@@ -1,6 +1,6 @@
 +++
 weight = 603
-title = "계층화 아키텍처"
+title = "603. 컴포넌트(Component) 독립 배포 단위"
 description = "계층화 아키텍처의 개념, 장단점 및 실무 적용"
 date = 2024-01-16
 

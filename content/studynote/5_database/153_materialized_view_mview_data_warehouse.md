@@ -1,6 +1,6 @@
 +++
 weight = 153
-title = "구체화된 뷰 (MVIEW, Materialized View) - 물리적 데이터 박제"
+title = "153. 구체화된 뷰 (MVIEW, Materialized View) - 물리적 공간에 실제 데이터 저장, 성능 향상, 동기화(Refresh) 필요"
 description = "가짜 껍데기만 있어서 사장님이 쿼리를 칠 때마다 매번 10억 건을 쌩으로 조인 치느라 서버를 뻗게 만드는 일반 뷰(View)의 한계를 부수고, 밤새 미리 요약된 통계 결과를 진짜 하드디스크의 콘크리트(물리적 공간)로 꽝꽝 얼려 박제해버리는 데이터 웨어하우스(DW)의 궁극적 캐시 무기"
 date = 2026-04-03
 [taxonomies]

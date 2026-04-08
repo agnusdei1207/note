@@ -1,5 +1,5 @@
 +++
-title = "1057. NETCONF / YANG 모델링"
+title = "1057. NETCONF / YANG 모델링 규격체"
 weight = 1057
 +++
 # 1057. NETCONF / YANG 모델링 규격체 - 차세대 네트워크 자동화 SNMP 대체 프로토콜 XML 기반 설정 데이터 모델링 언어 SDN 선언적 인프라

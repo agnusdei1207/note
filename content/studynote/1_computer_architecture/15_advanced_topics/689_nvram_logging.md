@@ -1,5 +1,5 @@
 +++
-title = "NVRAM 로깅 (Non-Volatile RAM Logging)"
+title = "689. NVRAM 로깅"
 date = 2026-03-20
 weight = 689
 description = "데이터베이스와 파일 시스템의 치명적 병목인 동기화 로그(Write-Ahead Log) 쓰기 작업의 속도를 극적으로 높이기 위해, 전원이 꺼져도 지워지지 않는 초고속 RAM(NVRAM)을 활용하는 아키텍처"

@@ -1,5 +1,5 @@
 +++
-title = "275. UWB (초광대역 통신, Ultra-Wideband)"
+title = "275. 환각 (Hallucination / 할루시네이션) - LLM이 학습 데이터의 공백이나 패턴 오류로 인해 그럴싸한 허위 사실(거짓말)을 진실처럼 생성하는 한계점"
 weight = 275
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "SDLC (Synchronous Data Link Control)"
+title = "221. SDLC (Synchronous Data Link Control) - IBM"
 weight = 221
 +++
 

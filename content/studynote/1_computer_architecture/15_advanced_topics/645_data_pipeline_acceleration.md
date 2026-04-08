@@ -1,5 +1,5 @@
 +++
-title = "데이터 파이프라인 (Data Pipeline) 가속"
+title = "645. 데이터 파이프라인 (Data Pipeline) 가속"
 date = 2026-03-20
 weight = 645
 description = "AI 학습이나 빅데이터 분석을 위해 원시 데이터를 읽어오고, 압축을 풀고, 크기를 자르고, GPU로 넘겨주는 일련의 전처리 과정을 CPU 병목 없이 하드웨어 레벨에서 직통으로 뚫어주는 아키텍처"

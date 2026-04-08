@@ -1,5 +1,5 @@
 +++
-title = "195. CRC 다항식(Polynomial)과 생성 다항식"
+title = "195. 다항식(Polynomial) 연산 / 생성 다항식 (Generator Polynomial)"
 weight = 195
 +++
 

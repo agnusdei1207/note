@@ -1,5 +1,5 @@
 +++
-title = "627. MEC (Multi-access Edge Computing)"
+title = "627. MEC (Multi-access Edge Computing / Mobile Edge Computing) - 5G, 이통망 기지국 근접하여 연산, 초저지연 확보"
 weight = 627
 +++
 # 627. MEC (Multi-access Edge Computing) - 5G 엣지 초저지연

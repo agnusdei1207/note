@@ -1,6 +1,6 @@
 +++
 weight = 90
-title = "90. 코드 분할 다중 접속 (CDMA, Code Division Multiple Access)"
+title = "90. CDMA (Code Division Multiple Access) - 왈시 코드 (Walsh Code)"
 description = "CDMA의 직교성 메커니즘, 확산 스펙트럼, 전력 제어 및 실무적 한계 분석"
 date = "2026-03-30"
 [taxonomies]

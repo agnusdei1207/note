@@ -1,6 +1,6 @@
 +++
 weight = 8606
-title = "CSRF"
+title = "606. Protected Users 그룹 — Kerberos 전용 인증"
 description = "사용자의 의지 없이 요청을 실행시키는 CSRF(Cross-Site Request Forgery) 원리와 방어 기법"
 date = 2024-01-15
 +++

@@ -1,6 +1,6 @@
 +++
 weight = 33
-title = "033. 역 콘웨이 전략 (Inverse Conway Maneuver)"
+title = "33. 콘웨이의 법칙 (Conway's Law) - \"소프트웨어의 구조는 그 소프트웨어를 만드는 조직의 통신 구조를 닮는다\""
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

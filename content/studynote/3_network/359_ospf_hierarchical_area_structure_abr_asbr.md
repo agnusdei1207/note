@@ -1,5 +1,5 @@
 +++
-title = "359. OSPF Area 계층적 구조 (ABR, ASBR)"
+title = "359. OSPF Area 계층적 구조 - Area 0 (Backbone, 전이 공간), ABR (Area Border 라우터), ASBR"
 weight = 359
 +++
 

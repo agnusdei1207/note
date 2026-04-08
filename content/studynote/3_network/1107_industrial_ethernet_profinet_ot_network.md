@@ -1,5 +1,5 @@
 +++
-title = "1107. 산업용 이더넷 PROFINET"
+title = "1107. 산업용 이더넷 PROFINET 망"
 weight = 1107
 +++
 # 1107. 산업용 이더넷 PROFINET 망 - Industrial Ethernet 프로피넷 실시간 제어 필드버스 OT 네트워크 스마트 팩토리 등시성 IRT 지터 제거

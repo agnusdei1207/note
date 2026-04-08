@@ -1,5 +1,5 @@
 +++
-title = "버퍼 오버플로우 하드웨어 방어 (Intel CET 등)"
+title = "540. 버퍼 오버플로우 하드웨어 방어 (Intel CET 등)"
 date = 2026-03-20
 weight = 540
 description = "해커가 메모리의 실행 흐름을 조작하는 ROP(Return-Oriented Programming) 등의 악질적인 메모리 해킹 기법을 CPU 하드웨어 레벨에서 원천 차단하는 기술"

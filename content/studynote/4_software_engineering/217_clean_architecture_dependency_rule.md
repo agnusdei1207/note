@@ -1,5 +1,5 @@
 +++
-title = "217. 클린 아키텍처"
+title = "217. 클린 아키텍처 (Clean Architecture) - Robert C. Martin (Uncle Bob)"
 weight = 217
 +++
 # 217. 클린 아키텍처 (Clean Architecture) - 로버트 C. 마틴 (Uncle Bob) 의존성 규칙 엔티티 유스케이스 인터페이스 어댑터 프레임워크 독립성

@@ -1,5 +1,5 @@
 +++
-title = "43. 옵티미스틱 롤업 (Optimistic Rollup) - 사기 증명"
+title = "43. 옵티미스틱 롤업 (Optimistic Rollup) - 기본적으로 트랜잭션이 유효하다고 낙관하고, 사기 증명(Fraud Proof) 기간을 두는 방식 (Arbitrum, Optimism)"
 weight = 43
 +++
 

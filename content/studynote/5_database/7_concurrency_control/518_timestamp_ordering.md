@@ -1,6 +1,6 @@
 +++
 weight = 18
-title = "타임스탬프 순서 동시성 제어 (Timestamp Ordering CC)"
+title = "518. 클린 룸 데이터 공유 샌드박싱 연동"
 description = "타임스탬프를 기반으로 한 동시성 제어 기법의 전체적인 개요"
 date = 2024-01-01
 

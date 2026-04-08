@@ -1,5 +1,5 @@
 +++
-title = "413. 윈도우 크기 (Window Size) - 흐름 제어"
+title = "413. 윈도우 크기 (Window Size, 16bit) - 수신측 버퍼 여유 공간 (흐름 제어용)"
 weight = 413
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "219. 2PL의 한계 (Deadlock & Cascading Rollback)"
+title = "219. 2PL의 한계 - 교착 상태(Deadlock) 발생 가능성, 연쇄 복귀 위험"
 weight = 219
 +++
 # 219. 2PL의 한계 - 교착 상태(Deadlock) 연쇄 복귀(Cascading Rollback) 2단계 락킹 프로토콜 문제점 병행 제어 오버헤드 엄격한 2PL 필요성

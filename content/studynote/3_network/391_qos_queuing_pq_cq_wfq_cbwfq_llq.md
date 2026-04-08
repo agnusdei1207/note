@@ -1,5 +1,5 @@
 +++
-title = "391. 큐잉 기술 (PQ, CQ, WFQ, CBWFQ, LLQ)"
+title = "391. 우선순위 큐 (PQ), 맞춤형 큐 (CQ), WFQ, CBWFQ, LLQ"
 weight = 391
 +++
 

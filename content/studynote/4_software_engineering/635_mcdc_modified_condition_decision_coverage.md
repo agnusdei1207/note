@@ -1,5 +1,5 @@
 +++
-title = "635. MC/DC 변경 조건 결정 커버리지 (항공 자동차 표준)"
+title = "635. MC/DC 항공/자동차 안전 표준 조건"
 date = "2026-04-07"
 [extra]
 categories = "studynote-se"

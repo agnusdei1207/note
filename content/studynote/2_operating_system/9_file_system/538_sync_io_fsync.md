@@ -1,6 +1,6 @@
 +++
 weight = 538
-title = "538. 동기화 I/O (O_SYNC / fsync) 매커니즘"
+title = "538. 동기화 I/O (O_SYNC / fsync)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

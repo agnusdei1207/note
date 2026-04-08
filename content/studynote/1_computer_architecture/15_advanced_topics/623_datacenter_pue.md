@@ -1,5 +1,5 @@
 +++
-title = "데이터센터 PUE (Power Usage Effectiveness)"
+title = "623. 데이터센터 PUE (Power Usage Effectiveness)"
 date = 2026-03-20
 weight = 623
 description = "데이터센터가 소비하는 총 전력 중에서 실제 IT 장비(서버)가 순수하게 사용하는 전력의 비율을 나타내는 글로벌 에너지 효율 지표"

@@ -1,6 +1,6 @@
 +++
 weight = 514
-title = "514. 파티션 (Partition) / 슬라이스 (Slice) / 볼륨 (Volume)"
+title = "514. 파티션 (Partition) / 슬라이스 / 볼륨 (Volume)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

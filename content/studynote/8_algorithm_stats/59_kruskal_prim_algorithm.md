@@ -1,5 +1,5 @@
 +++
-title = "59. 크루스칼/프림 알고리즘 (Kruskal's / Prim's Algorithm)"
+title = "59. 스택 (Stack) — LIFO, push/pop, 재귀/DFS/수식 평가"
 weight = 59
 +++
 

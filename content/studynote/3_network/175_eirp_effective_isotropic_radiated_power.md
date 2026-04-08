@@ -1,5 +1,5 @@
 +++
-title = "175. EIRP (유효 등방성 복사 전력)"
+title = "175. 유효 등방성 복사 전력 (EIRP, Effective Isotropic Radiated Power)"
 weight = 175
 +++
 

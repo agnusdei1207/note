@@ -1,6 +1,6 @@
 +++
 weight = 86
-title = "86. CP (Cyclic Prefix) / GI (Guard Interval)"
+title = "86. CP (Cyclic Prefix) / GI (Guard Interval) - ISI 방지"
 description = "OFDM 시스템에서 다중경로 간섭(ISI)을 방지하고 직교성을 유지하기 위한 순환 전치의 원리와 실무 적용"
 date = 2026-03-30
 [taxonomies]

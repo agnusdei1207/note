@@ -1,5 +1,5 @@
 +++
-title = "32. PEST 분석 (거시 환경 분석) / STEEP 분석"
+title = "32. PEST 분석 - 거시 환경 분석 (Political, Economic, Social, Technological) / STEEP 분석"
 weight = 32
 +++
 

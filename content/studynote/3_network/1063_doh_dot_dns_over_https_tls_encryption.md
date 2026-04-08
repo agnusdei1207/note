@@ -1,5 +1,5 @@
 +++
-title = "1063. DoH / DoT (DNS 암호화)"
+title = "1063. DoH / DoT (웹/전송 보안 계층 DNS 암호화)"
 weight = 1063
 +++
 # 1063. DoH / DoT (웹/전송 보안 계층 DNS 암호화) - DNS over HTTPS TLS 1062 DNSSEC 한계 극복 프라이버시 검열 우회 스니핑 차단 라우팅 평문 노출 방지

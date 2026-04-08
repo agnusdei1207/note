@@ -1,5 +1,5 @@
 +++
-title = "683. Cipher Suite 표기 방식"
+title = "683. Cipher Suite 모델 표기방식 예시 (TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) 이해 방식"
 weight = 683
 +++
 # 683. Cipher Suite 모델 표기방식 예시 이해

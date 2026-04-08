@@ -1,6 +1,6 @@
 +++
 weight = 747
-title = "747. I/O 폴링 (Polling) 오버헤드"
+title = "747. I/O 풀링 (Polling) 오버헤드"
 date = "2026-03-30"
 [extra]
 categories = ["studynote-operating-system"]

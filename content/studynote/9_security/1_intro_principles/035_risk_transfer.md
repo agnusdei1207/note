@@ -1,6 +1,6 @@
 +++
 weight = 35
-title = "035. 위험 전가 (Risk Transfer)"
+title = "35. 위험 전가 (Risk Transfer) — 보험, 외주, 계약 조항"
 date = "2026-04-05"
 [extra]
 categories = "studynote-security"

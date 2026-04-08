@@ -1,6 +1,6 @@
 +++
 weight = 2
-title = "02. 소프트웨어 위기"
+title = "2. 소프트웨어 위기 (Software Crisis) - 비용 초과, 일정 지연, 품질 저하"
 description = "소프트웨어 위기의 발생 원인, 주요 증상(비용 초과, 일정 지연, 품질 저하) 및 해결을 위한 공학적 접근 분석"
 date = "2024-05-20"
 [taxonomies]

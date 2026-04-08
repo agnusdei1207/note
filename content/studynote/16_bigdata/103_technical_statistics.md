@@ -1,6 +1,6 @@
 +++
 weight = 103
-title = "103. 기술 통계 (Descriptive Statistics)"
+title = "103. 연관 규칙 (Association Rules) — Apriori / FP-Growth, 지지도/신뢰도/향상도"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

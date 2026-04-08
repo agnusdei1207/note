@@ -1,6 +1,6 @@
 +++
 weight = 517
-title = "517. VFS (Virtual File System)"
+title = "517. VFS (Virtual File System) - 다양한 파일 시스템(ext4, NTFS, FAT)을 추상화하는 공통 인터페이스 객체 모델"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

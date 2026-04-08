@@ -1,6 +1,6 @@
 +++
 weight = 159
-title = "프로세스 그룹"
+title = "159. 프로세스 그룹 (Process Group)"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

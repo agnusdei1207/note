@@ -1,5 +1,5 @@
 +++
-title = "170. 다이버시티 시스템 (Diversity System) / 경로 이퀄라이저"
+title = "170. 다이버시티 시스템 (Diversity System) / 경로 이퀄라이저 (Equalizer)"
 weight = 170
 +++
 

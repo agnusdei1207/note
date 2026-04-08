@@ -1,5 +1,5 @@
 +++
-title = "109. 조인 종속성 (Join Dependency, JD)"
+title = "109. 조인 종속성 (Join Dependency)"
 weight = 109
 +++
 

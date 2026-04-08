@@ -1,6 +1,6 @@
 +++
 weight = 480
-title = "480. 쓰기 증폭 (Write Amplification) 나비효과의 파국"
+title = "480. 쓰기 증폭 (Write Amplification) 현상"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

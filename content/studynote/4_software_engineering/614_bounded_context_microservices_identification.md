@@ -1,5 +1,5 @@
 +++
-title = "614. 바운디드 컨텍스트 (Bounded Context) 마이크로서비스 식별 기준"
+title = "614. 바운디드 컨텍스트 마이크로서비스 식별 기준"
 date = "2026-04-07"
 [extra]
 categories = "studynote-se"

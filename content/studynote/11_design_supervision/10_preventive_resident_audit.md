@@ -1,6 +1,6 @@
 +++
 weight = 10
-title = "10. 예방 감리 및 상주 감리 (Preventive & Resident Audit)"
+title = "10. 예방 감리 (Preventive Audit) / 상주 감리 (Resident Audit) - 사업 진행 중 상주하며 상시 조언"
 description = "사업 실패 리스크를 조기에 차단하는 예방 감리와 대형 사업에 밀착 대응하는 상주 감리의 운영 아키텍처 및 실무 통제"
 date = "2024-05-24"
 [taxonomies]

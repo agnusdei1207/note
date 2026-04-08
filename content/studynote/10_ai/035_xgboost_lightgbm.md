@@ -1,6 +1,6 @@
 +++
 weight = 35
-title = "035. XGBoost / LightGBM"
+title = "35. 연관 규칙 (Association Rules) - 장바구니 분석 (A를 사면 B도 산다)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-ai"

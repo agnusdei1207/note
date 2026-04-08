@@ -1,6 +1,6 @@
 +++
 weight = 6
-title = "06. NP 이론 및 계산 이론 (NP Theory & Computation)"
+title = "6. 탐욕 알고리즘 (Greedy Algorithm) — 지역 최적 → 전체 최적"
 description = "P/NP 클래스의 정의부터 NP-완전 문제의 실무적 근사 알고리즘 접근법까지"
 date = "2024-05-20"
 [taxonomies]

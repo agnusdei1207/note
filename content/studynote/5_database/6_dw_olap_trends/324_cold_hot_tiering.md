@@ -1,5 +1,5 @@
 +++
-title = "324. 콜드 / 핫 데이터 계층화"
+title = "324. ODS (Operational Data Store) - DW로 가기 전의 임시/운영 데이터 통합 영역"
 weight = 4324
 +++
 

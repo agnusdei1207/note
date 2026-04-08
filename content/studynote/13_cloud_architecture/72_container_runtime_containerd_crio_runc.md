@@ -1,5 +1,5 @@
 +++
-title = "72. 컨테이너 런타임 (Container Runtime) 도커 엔진 심장"
+title = "72. 컨테이너 런타임 (Container Runtime) - 실제 컨테이너를 구동하는 저수준 엔진 (containerd, CRI-O, runc)"
 date = "2026-04-07"
 [extra]
 categories = "studynote-cloud"

@@ -1,5 +1,5 @@
 +++
-title = "76. 도메인 무결성 (Domain Integrity)"
+title = "76. 도메인 무결성 (Domain Integrity) - 속성 값은 정의된 도메인에 속해야 함"
 weight = 76
 +++
 

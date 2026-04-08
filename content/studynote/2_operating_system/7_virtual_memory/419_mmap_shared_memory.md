@@ -1,6 +1,6 @@
 +++
 weight = 419
-title = "419. 파일 I/O 메모리 맵 활용 (버퍼 캐시, 공유 메모리)"
+title = "419. 파일 I/O를 메모리 접근으로 변환, 버퍼 캐시 활용, 프로세스 간 공유 메모리로 사용 가능"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

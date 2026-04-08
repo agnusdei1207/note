@@ -1,5 +1,5 @@
 +++
-title = "96. SCE (Supply Chain Execution) - 공급망 실행"
+title = "96. SCE (Supply Chain Execution) - 공급망 실행 (주문 처리, 물류/창고 제어)"
 weight = 96
 +++
 

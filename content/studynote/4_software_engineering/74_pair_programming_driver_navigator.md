@@ -1,5 +1,5 @@
 +++
-title = "74. 짝 프로그래밍 (Pair Programming)"
+title = "74. 짝 프로그래밍 (Pair Programming) - 내비게이터와 드라이버"
 weight = 74
 +++
 

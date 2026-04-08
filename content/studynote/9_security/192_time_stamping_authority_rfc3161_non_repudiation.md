@@ -1,5 +1,5 @@
 +++
-title = "192. TSA (Time Stamping Authority) RFC 3161 부인방지"
+title = "192. TSA (Time Stamping Authority) — RFC 3161, 부인방지"
 date = "2026-04-07"
 [extra]
 categories = "studynote-security"

@@ -1,6 +1,6 @@
 +++
 weight = 23
-title = "023. 머신러닝 (Machine Learning) - 데이터 주도형 학습 패러다임"
+title = "23. 머신러닝 (Machine Learning) 개념 - 데이터를 통해 기계가 스스로 규칙과 패턴을 학습"
 date = "2026-04-02"
 [extra]
 categories = "studynote-ai"

@@ -1,5 +1,5 @@
 +++
-title = "656. AES (Advanced Encryption Standard)"
+title = "656. AES (Advanced Encryption Standard) - 국제 대표 표준, Rijndael 구조 (128/192/256bit 체계)"
 weight = 656
 +++
 # 656. AES (Advanced Encryption Standard) - 국제 대표 표준 (SPN 구조)

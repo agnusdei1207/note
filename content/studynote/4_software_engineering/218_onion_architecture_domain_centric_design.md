@@ -1,5 +1,5 @@
 +++
-title = "218. 어니언 아키텍처 (Onion)"
+title = "218. 어니언 아키텍처 (Onion Architecture)"
 weight = 218
 +++
 # 218. 어니언 아키텍처 (Onion Architecture) - 제프리 팔레르모 도메인 모델 중심 의존성 역전 외부 결합 분리 테스트 용이성 클린 아키텍처 형제

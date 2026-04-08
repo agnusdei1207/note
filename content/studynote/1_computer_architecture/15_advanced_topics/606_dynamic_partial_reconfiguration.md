@@ -1,5 +1,5 @@
 +++
-title = "FPGA 동적 부분 재구성 (Dynamic Partial Reconfiguration)"
+title = "606. FPGA 동적 재구성 (Dynamic Reconfiguration)"
 date = 2026-03-20
 weight = 606
 description = "서버나 기기가 켜져서 칩이 쌩쌩 돌아가고 있는 와중에, 칩의 일부분만 실시간으로 도려내어 전혀 다른 하드웨어 회로로 변신시키는 궁극의 공간 활용 기술"

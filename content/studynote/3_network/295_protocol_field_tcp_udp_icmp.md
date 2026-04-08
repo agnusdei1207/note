@@ -1,5 +1,5 @@
 +++
-title = "295. 프로토콜 (Protocol) 필드 - TCP, UDP, ICMP"
+title = "295. 프로토콜 (Protocol) 필드 - TCP(6), UDP(17), ICMP(1) 등"
 weight = 295
 +++
 

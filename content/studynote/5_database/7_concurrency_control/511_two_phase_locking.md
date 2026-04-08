@@ -1,6 +1,6 @@
 +++
 weight = 511
-title = "2단계 잠금 프로토콜 (Two-Phase Locking, 2PL)"
+title = "511. 옵티마이저 힌트 사용 인덱스 강제 접근"
 description = "직렬 가능성을 보장하는 2단계 잠금 프로토콜에 대해 설명"
 date = 2024-01-01
 

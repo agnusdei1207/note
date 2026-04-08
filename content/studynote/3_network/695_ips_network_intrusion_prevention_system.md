@@ -1,5 +1,5 @@
 +++
-title = "695. IPS (네트워크 침입 방지 시스템)"
+title = "695. IPS (Network Intrusion Prevention System) 차단 아키텍처 (인라인 구조 배치, 폴스 포지티브 문제 대처방안)"
 weight = 695
 +++
 # 695. IPS (Network Intrusion Prevention System) 차단 아키텍처

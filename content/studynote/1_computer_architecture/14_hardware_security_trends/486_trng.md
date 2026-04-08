@@ -1,6 +1,6 @@
 +++
 weight = 486
-title = "486. TRNG (진성 난수 생성기)"
+title = "486. 난수 생성기 (TRNG)"
 date = "2026-03-20"
 [extra]
 categories = "studynote-computer-architecture"

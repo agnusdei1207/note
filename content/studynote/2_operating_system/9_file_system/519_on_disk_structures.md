@@ -1,6 +1,6 @@
 +++
 weight = 519
-title = "519. 디스크 상의 구조 (On-Disk Structures)"
+title = "519. 디스크 상의 구조 - 부트 제어 블록, 볼륨 제어 블록(슈퍼블록), 디렉터리 구조, FCB(아이노드)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

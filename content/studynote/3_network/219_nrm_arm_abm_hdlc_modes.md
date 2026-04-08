@@ -1,5 +1,5 @@
 +++
-title = "219. NRM, ARM, ABM (데이터 전송 모드)"
+title = "219. NRM (정규 응답 모드) / ARM (비동기 응답 모드) / ABM (비동기 균형 모드)"
 weight = 219
 +++
 

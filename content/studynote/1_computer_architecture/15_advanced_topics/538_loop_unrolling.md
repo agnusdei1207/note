@@ -1,5 +1,5 @@
 +++
-title = "루프 언롤링 (Loop Unrolling)"
+title = "538. 루프 언롤링 (Loop Unrolling)"
 date = 2026-03-20
 weight = 538
 description = "반복문(Loop) 내부의 코드를 여러 번 복사하여 풀어헤침으로써, 조건 검사 횟수(오버헤드)를 줄이고 명령어 병렬성(ILP)을 높이는 컴파일러 최적화 기법"

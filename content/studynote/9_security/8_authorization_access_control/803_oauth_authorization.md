@@ -1,6 +1,6 @@
 +++
 weight = 3
-title = "OAuth 2.0 인가"
+title = "803. 개인정보보호 法律体系 — 한국/미국/EU 비교"
 description = "OAuth 2.0의 권한 위임(Delegation) 원리와 보안"
 date = 2024-01-15
 +++

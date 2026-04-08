@@ -1,6 +1,6 @@
 +++
 weight = 794
-title = "AWS Nitro Enclaves (AWS 니트로 엔클레이브)"
+title = "794. AWS Nitro Enclaves"
 date = "2026-03-21"
 [extra]
 categories = "studynote-computer-architecture"

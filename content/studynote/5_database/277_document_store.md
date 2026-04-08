@@ -1,5 +1,5 @@
 +++
-title = "277. 문서 저장소 (Document Store)"
+title = "277. 문서 저장소 (Document Store) - JSON/XML 형태, BSON 포맷, 유연성, MongoDB, CouchDB"
 weight = 277
 +++
 

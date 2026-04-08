@@ -1,6 +1,6 @@
 +++
 weight = 114
-title = "114. 빅 엔디언 (Big Endian)"
+title = "114. 빅 엔디안 (Big-Endian)"
 date = "2026-03-26"
 [extra]
 categories = "studynote-computer-architecture"

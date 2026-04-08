@@ -1,5 +1,5 @@
 +++
-title = "63. 단층 퍼셉트론의 한계 XOR 배타적 논리합"
+title = "63. 단층 퍼셉트론의 한계 - XOR(배타적 논리합) 문제 등 선형 분리 불가 문제 해결 못함 (AI의 1차 암흑기 원인)"
 date = "2026-04-07"
 [extra]
 categories = "studynote-ai"

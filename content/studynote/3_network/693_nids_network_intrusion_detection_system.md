@@ -1,5 +1,5 @@
 +++
-title = "693. NIDS (네트워크 침입 탐지 시스템)"
+title = "693. NIDS (Network Intrusion Detection System 분산 탐지) 공격"
 weight = 693
 +++
 # 693. NIDS (Network Intrusion Detection System) - 분산 탐지 아키텍처

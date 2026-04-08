@@ -1,6 +1,6 @@
 +++
 weight = 582
-title = "582. 리눅스 보안 모듈 (LSM, Linux Security Modules)"
+title = "582. 리눅스 보안 모듈 (LSM, Linux Security Modules) - 플러그인 훅 구조"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

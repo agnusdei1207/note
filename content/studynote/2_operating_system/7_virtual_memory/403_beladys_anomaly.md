@@ -1,6 +1,6 @@
 +++
 weight = 403
-title = "403. 벨라디의 모순 (Belady's Anomaly) 더 큰 램의 배신"
+title = "403. 벨라디의 모순 (Belady's Anomaly) - 프레임을 늘렸는데 오히려 페이지 부재가 증가하는 현상"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

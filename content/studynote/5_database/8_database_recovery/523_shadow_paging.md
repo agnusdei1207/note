@@ -1,6 +1,6 @@
 +++
 weight = 23
-title = "섀도 페이지ング (Shadow Paging)"
+title = "523. 정보 공학 방법론 데이터 주도적 생명 주기"
 description = "페이지 단위 복구 기법인 Shadow Paging에 대해 설명"
 date = 2024-01-01
 

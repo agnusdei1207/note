@@ -1,5 +1,5 @@
 +++
-title = "322. DW 4대 특징 주젯 지향성 통합성 시계열성 비휘발성"
+title = "322. DW 4대 특징 - 주젯 지향성(Subject-oriented), 통합성(Integrated), 시계열성(Time-variant), 비휘발성(Non-volatile)"
 date = "2026-04-07"
 [extra]
 categories = "studynote-database"

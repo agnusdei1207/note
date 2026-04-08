@@ -1,5 +1,5 @@
 +++
-title = "588. MLOps 파이프라인 - 데이터 수집, 모델 학습, 서빙 자동화"
+title = "588. MLOps 파이프라인 - 데이터 수집, 모델 학습(Training), 서빙(Serving), 모니터링 자동화"
 +++
 
 # 588. MLOps 파이프라인 - 데이터 수집, 모델 학습(Training), 서빙(Serving), 모니터링 자동화

@@ -1,5 +1,5 @@
 +++
-title = "085. AES 키 스케줄 — 라운드 키 생성"
+title = "85. AES 키 스케줄 — 라운드 키 생성"
 date = "2026-04-05"
 weight = 85
 [extra]

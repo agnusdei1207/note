@@ -1,5 +1,5 @@
 +++
-title = "클럭 글리칭 (Clock Glitching)"
+title = "772. 클럭 글리칭 (Clock Glitching)"
 date = 2026-03-20
 weight = 772
 description = "전압이 아닌 CPU의 '시계(클럭)' 신호를 물리적으로 조작하여, 칩이 명령어를 채 끝내기도 전에 다음 명령어를 실행하게 만들어 논리 회로를 붕괴시키는 하드웨어 해킹"

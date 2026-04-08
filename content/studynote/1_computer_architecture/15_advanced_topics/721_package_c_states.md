@@ -1,5 +1,5 @@
 +++
-title = "패키지 C-States (Package C-States)"
+title = "721. 패키지 C-States"
 date = 2026-03-20
 weight = 721
 description = "스마트폰과 노트북의 배터리를 아끼기 위해, CPU 코어뿐만 아니라 L3 캐시, 메모리 컨트롤러 등 CPU 칩(Package) 전체를 깊은 수면 상태로 빠뜨리는 궁극의 전원 관리 기술"

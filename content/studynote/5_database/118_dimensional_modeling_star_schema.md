@@ -1,5 +1,5 @@
 +++
-title = "118. 차원 모델링 (Dimensional Modeling) - 스타 스키마"
+title = "118. 차원 모델링 (Dimensional Modeling) - OLAP, 스타 스키마 (Star Schema), 스노우플레이크 스키마 (Snowflake Schema)"
 weight = 118
 +++
 

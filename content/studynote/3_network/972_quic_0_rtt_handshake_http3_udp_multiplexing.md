@@ -1,5 +1,5 @@
 +++
-title = "972. QUIC (0-RTT)"
+title = "972. QUIC (0-RTT 핸드셰이크)"
 weight = 972
 +++
 # 972. QUIC (Quick UDP Internet Connections) - 구글 주도 UDP 기반 HTTP/3 차세대 프로토콜 0-RTT 핸드셰이크 TCP HOL 블로킹 극복 멀티플렉싱 암호화 내장 통신망

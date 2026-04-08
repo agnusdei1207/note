@@ -1,5 +1,5 @@
 +++
-title = "영지식 증명 (ZKP) 가속 반도체 (ZK-Rollup 하드웨어)"
+title = "616. 영지식 증명 (ZKP) 가속 반도체 (ZK-Rollup)"
 date = 2026-03-20
 weight = 616
 description = "내 비밀을 공개하지 않고도 그 비밀을 알고 있다는 것을 증명하는 '영지식 증명(ZKP)'의 천문학적인 수학 연산을 극복하기 위한 최첨단 전용 반도체(ASIC/FPGA)"

@@ -1,6 +1,6 @@
 +++
 weight = 611
-title = "메시지 큐"
+title = "611. 클린 아키텍처 의존성 규칙 (내부로만 향함)"
 description = "메시지 큐의 개념, Kafka와 RabbitMQ 비교, 비동기 통신 패턴"
 date = 2024-01-24
 

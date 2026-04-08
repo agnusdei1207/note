@@ -1,6 +1,6 @@
 +++
 weight = 1
-title = "1. DIKW 피라미드 (Data, Information, Knowledge, Wisdom)"
+title = "1. 데이터 (Data) / 정보 (Information) / 지식 (Knowledge) / 지혜 (Wisdom) - DIKW 피라미드"
 date = "2026-03-19"
 [extra]
 categories = "studynote-database"

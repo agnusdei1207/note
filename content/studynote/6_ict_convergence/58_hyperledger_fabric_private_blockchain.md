@@ -1,5 +1,5 @@
 +++
-title = "58. 하이퍼레저 패브릭 (Hyperledger Fabric)"
+title = "58. 하이퍼레저 패브릭 (Hyperledger Fabric) - IBM 주도 기업용 프라이빗 블록체인 프레임워크"
 weight = 58
 +++
 

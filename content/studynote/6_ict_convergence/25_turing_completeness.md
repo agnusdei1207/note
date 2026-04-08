@@ -1,6 +1,6 @@
 +++
 weight = 25
-title = "25. 튜링 완전성 (Turing Completeness)"
+title = "25. 튜링 완전성 (Turing Completeness) - 이더리움 스마트 컨트랙트 연산의 무한루프 방지를 위해 Gas 도입"
 description = "컴퓨터 과학의 '정지 문제' 한계를 경제적 매커니즘과 결합하여, 블록체인 위에서 반복문과 조건 분기를 포함한 모든 형태의 알고리즘을 계산해 낼 수 있는 시스템의 능력"
 date = "2024-05-18"
 [taxonomies]

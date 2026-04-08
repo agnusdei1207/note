@@ -1,5 +1,5 @@
 +++
-title = "688. SNI와 ECH (검열 우회)"
+title = "688. SNI (Server Name Indication) 개요 와 ESNI / ECH (Encrypted Client Hello) 검열 우회"
 weight = 688
 +++
 # 688. SNI (Server Name Indication) 개요와 ESNI / ECH 검열 우회 기술

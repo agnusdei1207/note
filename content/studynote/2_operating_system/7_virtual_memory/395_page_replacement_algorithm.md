@@ -1,6 +1,6 @@
 +++
 weight = 395
-title = "395. 페이지 교체 (Page Replacement)의 필요성"
+title = "395. 페이지 교체 (Page Replacement)의 필요성 - 프레임 가용 공간 부족 시 (Over-allocation)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

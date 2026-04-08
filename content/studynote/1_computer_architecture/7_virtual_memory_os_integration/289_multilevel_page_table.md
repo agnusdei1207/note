@@ -1,6 +1,6 @@
 +++
 weight = 289
-title = "289. 다단계 페이지 테이블 (Multilevel Page Table)"
+title = "289. 다단계 페이지 테이블"
 date = 2024-01-01
 [taxonomies]
 categories = ["Computer Architecture"]

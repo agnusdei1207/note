@@ -1,5 +1,5 @@
 +++
-title = "262. 데코레이터 (Decorator)"
+title = "262. 데코레이터 (Decorator) - 동적으로 책임(기능) 추가"
 weight = 262
 +++
 # 262. 데코레이터 (Decorator) - 동적 기능 추가 포장지 래퍼(Wrapper) 구조 패턴 OCP 상속 대안 클래스 폭발 방지 GoF

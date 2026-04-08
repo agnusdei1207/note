@@ -1,5 +1,5 @@
 +++
-title = "전력-성능 트레이드오프 파레토 곡선 (Power-Performance Pareto Frontier)"
+title = "533. 전력-성능 트레이드오프 파레토 곡선"
 date = 2026-03-20
 weight = 533
 description = "컴퓨터 구조 설계에서 성능(Performance)과 전력 소모(Power)가 어떻게 상충하는지를 보여주는 곡선이자, 칩 설계의 한계점과 효율성을 나타내는 최적화 기준선"

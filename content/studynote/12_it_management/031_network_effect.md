@@ -1,6 +1,6 @@
 +++
 weight = 31
-title = "031. 네트워크 효과 - 가치의 급증과 플랫폼 세상을 지배하는 원리"
+title = "31. 롱테일 법칙 (Long Tail) - 디지털 경제에서 하위 80% 다수가 상위 20% 핵심보다 더 큰 가치를 창출하는 현상 (파레토 법칙의 역)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-it-management"

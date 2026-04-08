@@ -1,5 +1,5 @@
 +++
-title = "102. BLAKE2/BLAKE3 — 빠른 성능 해시, AES 대체"
+title = "102. BLAKE2/BLAKE3 — 채택성능 해시, AES 대체"
 date = "2026-04-05"
 weight = 102
 [extra]

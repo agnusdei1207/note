@@ -1,6 +1,6 @@
 +++
 weight = 61
-title = "61. 블룸 필터 (Bloom Filter)"
+title = "61. MLlib — 분산 ML 라이브러리 (분류/회귀/군집/추천/PCA)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

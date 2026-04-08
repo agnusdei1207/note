@@ -1,6 +1,6 @@
 +++
 weight = 489
-title = "489. FHE Accelerator (완전 동형 암호 가속기)"
+title = "489. 동형 암호 가속기 (FHE Accelerator)"
 date = "2026-03-20"
 [extra]
 categories = "studynote-computer-architecture"

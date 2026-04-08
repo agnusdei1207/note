@@ -1,5 +1,5 @@
 +++
-title = "280. 샤딩 (Sharding)"
+title = "280. 샤딩 (Sharding) - NoSQL의 수평적 파티셔닝 기술 (데이터베이스 분할)"
 weight = 280
 +++
 

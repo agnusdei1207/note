@@ -1,6 +1,6 @@
 +++
 weight = 1
-title = "1. 인공지능 (Artificial Intelligence)"
+title = "1. 인공지능 (Artificial Intelligence)의 정의 - 지능적 기계 및 에이전트를 설계하는 학문"
 description = "지능적 기계 및 에이전트를 설계하는 학문이자 소프트웨어 패러다임의 혁명"
 date = "2026-03-04"
 [taxonomies]

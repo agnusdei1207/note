@@ -1,5 +1,5 @@
 +++
-title = "240. 수신/학습(Learning) / 전달(Forwarding) / 플러딩(Flooding)"
+title = "240. 수신/학습 (Learning) / 전달 (Forwarding) / 플러딩 (Flooding) - Unknown Unicast Flooding"
 weight = 240
 +++
 

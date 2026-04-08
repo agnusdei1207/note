@@ -1,5 +1,5 @@
 +++
-title = "435. TCP Tahoe 모델 (타임아웃과 3 Dup-ACK)"
+title = "435. TCP Tahoe (타임아웃, 3 Dup-ACK 모두 1로 하락) 모델"
 weight = 435
 +++
 

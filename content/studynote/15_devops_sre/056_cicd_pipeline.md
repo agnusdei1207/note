@@ -1,6 +1,6 @@
 +++
 weight = 56
-title = "56. CI/CD 파이프라인 (지속적 통합/배포 파이프라인)"
+title = "56. DevOps 툴체인 (Toolchain) 이기종 연동 API"
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

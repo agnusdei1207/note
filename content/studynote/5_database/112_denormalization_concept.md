@@ -1,5 +1,5 @@
 +++
-title = "112. 반정규화 (De-normalization) 개념"
+title = "112. 반정규화 (De-normalization / 비정규화) - 성능 향상을 위해 정규화 원칙을 의도적으로 위배, 중복 허용"
 weight = 112
 +++
 

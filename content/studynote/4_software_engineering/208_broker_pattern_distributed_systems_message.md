@@ -1,5 +1,5 @@
 +++
-title = "208. 브로커 패턴 (Broker)"
+title = "208. 브로커 패턴 (Broker Pattern) - 분산 시스템 메세지 중계"
 weight = 208
 +++
 # 208. 브로커 패턴 (Broker Pattern) - 분산 시스템 메세지 중계 서버 통신 프록시 미들웨어 객체 요청 위치 투명성 CORBA MQTT

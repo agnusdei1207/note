@@ -1,6 +1,6 @@
 +++
 weight = 565
-title = "565. 레이크 수신기 (Rake Receiver) - 다중경로 페이딩(Multipath) 극복과 CDMA 다이버시티 결합"
+title = "565. 레이크 수신기 (Rake Receiver) - 시간 지연된 다중경로 신호 결합(CDMA)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

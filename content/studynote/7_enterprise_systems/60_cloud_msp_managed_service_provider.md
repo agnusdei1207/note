@@ -1,5 +1,5 @@
 +++
-title = "60. 클라우드 매니지드 서비스 (MSP)"
+title = "60. 클라우드 매니지드 서비스 (MSP, Managed Service Provider) - 클라우드 도입/운영 대행 아웃소싱"
 weight = 60
 +++
 

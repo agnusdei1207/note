@@ -1,6 +1,6 @@
 +++
 weight = 33
-title = "33. Apache Hive"
+title = "33. Apache Hive — SQL on Hadoop, HQL, 메타스토어(MySQL/PostgreSQL), 배치형"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

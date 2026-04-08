@@ -1,6 +1,6 @@
 +++
 weight = 22
-title = "22. 가치 사슬 (Value Chain Analysis)"
+title = "22. 가치 사슬 (Value Chain) - 마이클 포터, 주활동(본원적 활동)과 지원 활동 분류 분석"
 description = "기업의 활동을 기본 활동과 지원 활동으로 분류하여 경쟁우위 생성 원천을 분석하는 전략 도구"
 date = "2026-04-05"
 [taxonomies]

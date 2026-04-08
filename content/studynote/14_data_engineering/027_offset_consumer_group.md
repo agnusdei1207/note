@@ -1,6 +1,6 @@
 +++
 weight = 27
-title = "027. 오프셋(Offset)과 컨슈머 그룹(Consumer Group)"
+title = "27. 오프셋 (Offset) 보존 및 컨슈머 그룹 (Consumer Group) 부하 분배 원리"
 date = "2026-04-05"
 [extra]
 categories = "studynote-data-engineering"

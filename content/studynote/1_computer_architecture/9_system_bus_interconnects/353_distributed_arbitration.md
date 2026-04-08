@@ -1,6 +1,6 @@
 +++
 weight = 353
-title = "353. 분산식 중재 (Distributed Arbitration)"
+title = "353. 분산식 중재"
 date = "2026-03-27"
 [extra]
 categories = "studynote-computer-architecture"

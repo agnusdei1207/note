@@ -1,5 +1,5 @@
 +++
-title = "534. SNMP Trap (트랩)"
+title = "534. SNMP Trap - 에이전트 단에서 특정 이벤트 발생 시 자발적/단방향 통지 (알람)"
 weight = 534
 +++
 # 534. SNMP Trap - 에이전트 주도 자발적 통지

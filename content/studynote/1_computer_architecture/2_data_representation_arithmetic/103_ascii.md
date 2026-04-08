@@ -1,6 +1,6 @@
 +++
 weight = 103
-title = "103. ASCII (American Standard Code for Information Interchange)"
+title = "103. ASCII 코드"
 date = "2026-03-26"
 [extra]
 categories = "studynote-computer-architecture"

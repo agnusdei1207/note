@@ -1,6 +1,6 @@
 +++
 weight = 22
-title = "022. 스몰 데이터 (Small Data)"
+title = "22. 데이터 자산 평가 — 재무적 가치화, ISO/IEC 22123"
 date = "2026-04-02"
 [extra]
 categories = "studynote-bigdata"

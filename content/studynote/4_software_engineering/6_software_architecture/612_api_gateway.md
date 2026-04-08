@@ -1,6 +1,6 @@
 +++
 weight = 612
-title = "API 게이트웨이"
+title = "612. 헥사고날 포트와 어댑터 외부 격리"
 description = "API 게이트웨이의 개념, Kong, Zuul, AWS API Gateway 활용"
 date = 2024-01-25
 

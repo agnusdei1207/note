@@ -1,5 +1,5 @@
 +++
-title = "202. 아키텍처 드라이버 (Architecture Drivers)"
+title = "202. 아키텍처 드라이버 (Architecture Drivers) - 비즈니스 목표, 제약, 품질 속성"
 weight = 202
 +++
 # 202. 아키텍처 드라이버 (Architecture Drivers) - 소프트웨어 설계 동인 비즈니스 목표 시스템 제약사항 품질 속성 (Quality Attributes) 트레이드오프

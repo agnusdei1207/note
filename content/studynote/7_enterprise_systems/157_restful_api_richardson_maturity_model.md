@@ -1,5 +1,5 @@
 +++
-title = "157. RESTful API 성숙도 모델"
+title = "157. RESTful API 성숙도 모델 (Richardson Maturity Model)"
 weight = 157
 +++
 # 157. RESTful API 성숙도 모델 (Richardson Maturity Model)

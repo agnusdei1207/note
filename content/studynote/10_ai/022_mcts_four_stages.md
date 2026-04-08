@@ -1,6 +1,6 @@
 +++
 weight = 22
-title = "022. 몬테카를로 트리 탐색 (MCTS)의 4단계 알고리즘"
+title = "22. MCTS 4단계 - 선택(Selection) -> 확장(Expansion) -> 시뮬레이션(Simulation) -> 역전파(Backpropagation)"
 date = "2026-04-02"
 [extra]
 categories = "studynote-ai"

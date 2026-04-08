@@ -1,5 +1,5 @@
 +++
-title = "425. 네이글 알고리즘 (Nagle's Algorithm)"
+title = "425. 네이글 알고리즘 (Nagle's Algorithm) - 작은 패킷 지연 모음 (송신측 해결)"
 weight = 425
 +++
 

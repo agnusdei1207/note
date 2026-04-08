@@ -1,5 +1,5 @@
 +++
-title = "1077. DDoS 반사 증폭 공격"
+title = "1077. DDoS 반사 증폭 원조 (NTP, DNS 포트망)"
 weight = 1077
 +++
 # 1077. DDoS 반사 증폭 원조 (NTP, DNS) - Reflection Amplification Attack 분산 서비스 거부 공격 IP 스푸핑 DRDoS UDP 취약점 비대칭 패킷 공격망

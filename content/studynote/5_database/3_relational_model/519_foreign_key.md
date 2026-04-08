@@ -1,6 +1,6 @@
 +++
 weight = 19
-title = "외래 키 (Foreign Key)"
+title = "519. 서버리스 오로라 스토리지 분산 복제 쿼럼"
 description = "외래 키의 정의, 역할, 참조 무결성"
 date = 2026-03-26
 

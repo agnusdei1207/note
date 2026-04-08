@@ -1,6 +1,6 @@
 +++
 weight = 804
-title = "워터폴 모델"
+title = "804. 워터폴 모델"
 description = "Waterfall Model"
 category = "4_software_engineering"
 +++

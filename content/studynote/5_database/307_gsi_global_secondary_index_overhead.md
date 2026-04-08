@@ -1,5 +1,5 @@
 +++
-title = "307. 글로벌 보조 인덱스 (GSI) 분산 환경 오버헤드"
+title = "307. 글로벌 보조 인덱스 (GSI, Global Secondary Index) 분산 환경 오버헤드"
 date = "2026-04-07"
 [extra]
 categories = "studynote-database"

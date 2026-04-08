@@ -1,6 +1,6 @@
 +++
 weight = 25
-title = "의사결정 트리"
+title = "25. 편향-분산 트레이드오프 (Bias-Variance Trade-off)"
 description = "의사결정 트리(Decision Tree)의 정의, 분류와 회귀への適用, Random Forest"
 category = "10_ai"
 +++

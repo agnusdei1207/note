@@ -1,6 +1,6 @@
 +++
 weight = 490
-title = "490. Edge Computing Hardware (엣지 컴퓨팅 하드웨어)"
+title = "490. 엣지 컴퓨팅 하드웨어 (Edge Computing HW)"
 date = "2026-03-20"
 [extra]
 categories = "studynote-computer-architecture"

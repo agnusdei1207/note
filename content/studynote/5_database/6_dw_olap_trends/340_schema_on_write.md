@@ -1,5 +1,5 @@
 +++
-title = "340. 스키마 온 라이트 (Schema-on-Write)"
+title = "340. 스키마 온 라이트 (Schema-on-write) - RDBMS의 입력 시점 스키마 검증"
 weight = 4340
 +++
 

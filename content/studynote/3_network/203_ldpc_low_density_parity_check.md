@@ -1,5 +1,5 @@
 +++
-title = "203. LDPC (Low Density Parity Check) - 5G의 뼈대"
+title = "203. LDPC (Low Density Parity Check) - 5G, 초고속 정정"
 weight = 203
 +++
 

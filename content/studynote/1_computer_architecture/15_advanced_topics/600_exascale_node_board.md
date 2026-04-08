@@ -1,5 +1,5 @@
 +++
-title = "엑사스케일 컴퓨팅 노드 보드 (Exascale Computing Node Board)"
+title = "600. 엑사스케일 컴퓨팅 노드 보드"
 date = 2026-03-20
 weight = 600
 description = "1초에 100경 번(1 ExaFLOPS)의 연산을 수행하는 인류 최강의 슈퍼컴퓨터를 구성하기 위해, CPU와 GPU, 고대역폭 메모리를 한계까지 밀어 넣은 최첨단 마더보드 아키텍처"

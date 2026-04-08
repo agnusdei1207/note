@@ -1,6 +1,6 @@
 +++
 weight = 463
-title = "463. HTTP 상태 코드 (HTTP Status Codes - 1xx~5xx)"
+title = "463. HTTP 1.0 (비지속 연결, 단점) - 매 요청마다 3-Way Handshake"
 date = "2026-04-02"
 [extra]
 categories = "studynote-network"

@@ -1,5 +1,5 @@
 +++
-title = "리들 (RIDL, Rogue In-Flight Data Load) 공격"
+title = "765. 리들 (RIDL) 공격"
 date = 2026-03-20
 weight = 765
 description = "MDS 공격의 한 종류로, CPU 내부에 있는 'Line Fill Buffer (LFB)'라는 데이터를 퍼나르는 깔때기에서 남의 데이터가 새어나가는 것을 훔쳐보는 인텔 CPU 해킹 기법"

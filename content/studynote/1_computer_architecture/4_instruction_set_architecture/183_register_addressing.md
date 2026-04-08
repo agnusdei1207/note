@@ -1,6 +1,6 @@
 +++
 weight = 183
-title = "183. 레지스터 주소 지정 (Register Addressing)"
+title = "183. 데이터 전송 명령어"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

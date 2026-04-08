@@ -1,6 +1,6 @@
 +++
 weight = 605
-title = "서비스 지향 아키텍처 (SOA)"
+title = "605. 싱글톤 패턴 메모리/쓰레드 세이프 설계"
 description = "SOA의 개념, WS-*/ESB와 현대적 변형"
 date = 2024-01-18
 

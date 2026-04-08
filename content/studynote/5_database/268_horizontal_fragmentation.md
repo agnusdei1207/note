@@ -1,5 +1,5 @@
 +++
-title = "268. 수평 분할 (Horizontal Fragmentation)"
+title = "268. 수평 분할 (Horizontal Fragmentation) - 튜플(행) 단위 분할, 셀렉트 연산"
 weight = 268
 +++
 

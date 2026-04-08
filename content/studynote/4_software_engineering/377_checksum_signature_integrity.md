@@ -1,5 +1,5 @@
 +++
-title = "377. 체크섬/서명을 통한 무결성 검증 (Integrity Verification)"
+title = "377. 체크섬(Checksum), 서명(Signature)을 통한 무결성(Integrity) 검증"
 date = 2026-04-05
 weight = 377
 +++

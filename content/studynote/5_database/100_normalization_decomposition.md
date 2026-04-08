@@ -1,5 +1,5 @@
 +++
-title = "100. 정규화 (Normalization) - 쪼개서 결함 없애기"
+title = "100. 정규화 (Normalization) - 이상 현상 방지를 위해 릴레이션을 분해(Decomposition)하는 과정"
 weight = 100
 +++
 

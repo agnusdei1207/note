@@ -1,6 +1,6 @@
 +++
 weight = 105
-title = "105. 탐색적 데이터 분석 (EDA)"
+title = "105. 감성 분석 (Sentiment Analysis) — 긍/부정/중립, BERT 기반 심화"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

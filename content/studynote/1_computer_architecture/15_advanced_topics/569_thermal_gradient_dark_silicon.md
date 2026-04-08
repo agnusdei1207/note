@@ -1,5 +1,5 @@
 +++
-title = "멀티코어 칩 온도 불균형 (Thermal Gradient / Dark Silicon)"
+title = "569. 멀티코어 칩 온도 불균형 (Thermal Gradient)"
 date = 2026-03-20
 weight = 569
 description = "코어가 많아진 매니코어(Many-core) 시스템에서 열이 고르게 퍼지지 않고 특정 부위만 극심하게 뜨거워지는 현상과, 발열 때문에 일부 코어의 전원을 아예 꺼둬야 하는 다크 실리콘 문제"

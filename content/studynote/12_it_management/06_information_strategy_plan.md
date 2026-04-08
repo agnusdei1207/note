@@ -1,6 +1,6 @@
 +++
 weight = 6
-title = "06. 정보화 전략 계획 (ISP: Information Strategy Planning)"
+title = "6. 정보화 전략 계획 (ISP, Information Strategy Planning) - 전사 비즈니스 목표 달성을 위한 중장기 정보화 마스터플랜"
 description = "기업의 비즈니스 전략과 IT 전략을 정렬시키고 중장기 IT 발전 방향을 제시하는 정보화 전략 계획"
 date = "2026-04-05"
 [taxonomies]

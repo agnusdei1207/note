@@ -1,6 +1,6 @@
 +++
 weight = 446
-title = "446. 포트 (Port) / 버스 (Bus) 하드웨어 통신의 고속도로"
+title = "446. 포트 (Port) / 버스 (Bus) - PCIe, USB, SATA, NVMe"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

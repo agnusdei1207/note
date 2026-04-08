@@ -1,6 +1,6 @@
 +++
 weight = 251
-title = "251. 윈도우 동기화 (Windows Synchronization)"
+title = "251. 윈도우 동기화 - 크리티컬 섹션 객체(유저모드), 디스패처 객체(커널모드 - 이벤트, 뮤텍스, 세마포어)"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

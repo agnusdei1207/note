@@ -1,5 +1,5 @@
 +++
-title = "214. 이벤트 드리븐 아키텍처"
+title = "214. 이벤트 드리븐 아키텍처 (EDA, Event-Driven Architecture)"
 weight = 214
 +++
 # 214. 이벤트 드리븐 아키텍처 (EDA) - Event-Driven Architecture 비동기 메시지 통신 카프카 이벤트 브로커 마이크로서비스 느슨한 결합 시스템 반응성

@@ -1,5 +1,5 @@
 +++
-title = "액체 냉각 시스템 (Liquid Cooling / Direct-to-Chip)"
+title = "601. 액체 냉각 시스템 (Liquid Cooling)"
 date = 2026-03-20
 weight = 601
 description = "공기(바람)로는 더 이상 감당할 수 없는 초고성능 AI 및 엑사스케일 칩의 열을 식히기 위해, 차가운 물(냉각수)을 칩 표면으로 직접 순환시키는 차세대 데이터센터 냉각 아키텍처"

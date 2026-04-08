@@ -1,5 +1,5 @@
 +++
-title = "954. 확산 스펙트럼 통신"
+title = "954. 확산 스펙트럼 (Spread Spectrum)"
 weight = 954
 +++
 # 954. 확산 스펙트럼 (Spread Spectrum) - 주파수 대역폭 넓히기 통신 전파 방해 간섭 극복 은닉 보안 기술 FHSS DSSS 기반 CDMA 기초

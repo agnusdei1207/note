@@ -1,6 +1,6 @@
 +++
 weight = 142
-title = "142. 컴퓨터 성능 방정식 (Computer Performance Equation)"
+title = "142. 컴퓨터 성능 방정식 (Performance Equation)"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

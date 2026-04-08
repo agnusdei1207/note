@@ -1,5 +1,5 @@
 +++
-title = "608. 비컨 (Beacon) 기술"
+title = "608. 비컨 (Beacon) 기술 - iBeacon(애플 환경), Eddystone(오픈 소스 블루투스 로케이터)"
 weight = 608
 +++
 # 608. 비컨 (Beacon) 기술 - iBeacon, Eddystone

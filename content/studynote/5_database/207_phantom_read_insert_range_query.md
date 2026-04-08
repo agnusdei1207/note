@@ -1,5 +1,5 @@
 +++
-title = "207. 유령 읽기 (Phantom Read)"
+title = "207. 유령 읽기 (Phantom Read) - 이전 읽기에 없던 새로운 행(INSERT)이 반복 읽기 시 나타남"
 weight = 207
 +++
 # 207. 유령 읽기 (Phantom Read) - 병행 수행 문제점 동시성 제어 격리성 위배 INSERT DELETE 행(Row) 개수 불일치 범위 쿼리(Range Query) 에러

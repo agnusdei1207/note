@@ -1,5 +1,5 @@
 +++
-title = "194. Authority Information Access AIA OCSP 응답자 위치"
+title = "194. Authority Information Access — OCSP 응답자 위치"
 date = "2026-04-07"
 [extra]
 categories = "studynote-security"

@@ -1,6 +1,6 @@
 +++
 weight = 374
-title = "374. 주소 공간 무작위 배치 (ASLR)"
+title = "374. 주소 공간 무작위 배치 (ASLR, Address Space Layout Randomization)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

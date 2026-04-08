@@ -1,5 +1,5 @@
 +++
-title = "362. 할스테드 복잡도 (Halstead Complexity) - 연산자/피연산자 수 기반"
+title = "362. 할스테드 (Halstead) 복잡도 - 연산자(Operator)와 피연산자(Operand) 수 기반 측정"
 date = 2026-04-05
 weight = 362
 +++

@@ -1,5 +1,5 @@
 +++
-title = "61. 온프레미스 (On-Premise) 레거시 인프라 한계"
+title = "61. 온프레미스 (On-Premise) - 기업이 자체 전산실에 서버를 직접 구축/운영하는 전통적 방식"
 date = "2026-04-07"
 [extra]
 categories = "studynote-enterprise"

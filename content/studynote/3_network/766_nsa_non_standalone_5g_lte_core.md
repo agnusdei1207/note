@@ -1,5 +1,5 @@
 +++
-title = "766. NSA (Non-Standalone 5G 망)"
+title = "766. NSA (Non-Standalone 코어는 LTE EPC / 기지국 제어 무선 NR 결합 구축 진보 비용 최소 고속도 망 적용 구조 융합 통신 모델)"
 weight = 766
 +++
 # 766. NSA (Non-Standalone) - LTE 코어 결합형 5G 융합 구축 모델

@@ -1,5 +1,5 @@
 +++
-title = "992. 상태 추적 방화벽 (SPI)"
+title = "992. Cold Boot Attack — 메모리 잔상 읽기"
 weight = 992
 +++
 # 992. 방화벽 (Stateful Inspection) - 패킷 필터링 한계 극복 연결 상태 추적 메모리 기반 동적 허용망 접근 제어 보안 시스템 진화 모델

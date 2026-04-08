@@ -1,6 +1,6 @@
 +++
 weight = 615
-title = "615. eBPF ëíìí/ëì/ëëíë ìëí ìë ìì í ëìëì"
+title = "615. eBPF 네트워크/보안/모니터링 이벤트 커널 안전 훅 매커니즘"
 date = "2026-03-25"
 [extra]
 categories = "studynote-operating-system"

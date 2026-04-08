@@ -1,5 +1,5 @@
 +++
-title = "251. 디자인 패턴 (Design Patterns) 개요"
+title = "251. 디자인 패턴 (Design Patterns) 개요 - GoF (Gang of Four) 23가지"
 weight = 251
 +++
 # 251. 디자인 패턴 (Design Patterns) 개요 - GoF (Gang of Four) 23가지 객체지향 설계 유지보수성 재사용성 소프트웨어 아키텍처 공통 언어

@@ -1,6 +1,6 @@
 +++
 weight = 542
-title = "Redis"
+title = "542. 데이터 마스킹 부분 비식별화 암호화 비교 체계"
 description = "인메모리 키-값 저장소 Redis의 특징과 활용 사례에 대해 설명"
 date = 2024-01-01
 

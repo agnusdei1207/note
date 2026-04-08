@@ -1,5 +1,5 @@
 +++
-title = "190. 바인드 변수 (Bind Variable)"
+title = "190. 바인드 변수 (Bind Variable) - 파싱 결과 재사용, SQL 인젝션 방지, 하드 파싱 (Hard Parsing) 방지 성능 이점"
 weight = 190
 +++
 # 190. 바인드 변수 (Bind Variable) - 성능과 보안의 마스터키

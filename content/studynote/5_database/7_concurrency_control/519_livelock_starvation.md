@@ -1,6 +1,6 @@
 +++
 weight = 19
-title = "라이브락과 스타베이션 (Livelock & Starvation)"
+title = "519. 서버리스 오로라 스토리지 분산 복제 쿼럼"
 description = "교착 상태 외의 동시성 문제인 라이브락과 스타베이션에 대해 설명"
 date = 2024-01-01
 

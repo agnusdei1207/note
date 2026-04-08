@@ -1,6 +1,6 @@
 +++
 weight = 555
-title = "555. 백업 (Backup) 및 복구 - 전체(Full) vs 증분(Incremental) 백업 모델"
+title = "555. 백업 (Backup) 및 복구 (Restore) / 전체 백업 vs 증분(Incremental) 백업"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

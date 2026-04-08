@@ -1,6 +1,6 @@
 +++
 weight = 385
-title = "385. 선행 페이징 (Prepaging) 공간 지역성의 예측"
+title = "385. 선행 페이징 (Prepaging) - 페이지 부재 감소를 위해 미리 묶어 올림"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

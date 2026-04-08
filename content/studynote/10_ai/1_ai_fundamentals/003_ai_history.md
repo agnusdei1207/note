@@ -1,6 +1,6 @@
 +++
 weight = 3
-title = "인공지능의 역사"
+title = "3. 강인공지능 (Strong AI / AGI, Artificial General Intelligence) - 인간과 같거나 뛰어난 범용 지능"
 description = "인공지능의 탄생부터 현재까지, AI 겨울(AI Winter)을 포함한 발전 과정과 주요 breakthrough"
 category = "10_ai"
 +++

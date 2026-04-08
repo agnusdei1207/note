@@ -1,5 +1,5 @@
 +++
-title = "37. 파괴적 혁신 (Disruptive Innovation)"
+title = "37. 파괴적 혁신 (Disruptive Innovation) - 크리스텐슨 교수의 하위 시장에서 출발해 주류 시장을 파괴하는 혁신 모델"
 weight = 37
 +++
 

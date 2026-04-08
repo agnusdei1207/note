@@ -1,5 +1,5 @@
 +++
-title = "158. Level 0 - 단일 URI, 단일 POST 메서드"
+title = "158. Level 0 - 단일 URI, 단일 POST 메서드만 사용 (RPC 스타일)"
 weight = 158
 +++
 # 158. Level 0 - 단일 URI, 단일 POST 메서드만 사용 (RPC 스타일)

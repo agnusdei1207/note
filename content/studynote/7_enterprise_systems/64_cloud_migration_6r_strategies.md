@@ -1,5 +1,5 @@
 +++
-title = "64. 클라우드 마이그레이션 6R 전략"
+title = "64. 클라우드 마이그레이션 전략 (6R: Rehost, Replatform, Refactor, Repurchase, Retire, Retain)"
 date = "2026-04-07"
 [extra]
 categories = "studynote-enterprise"

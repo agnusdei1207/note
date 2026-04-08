@@ -1,6 +1,6 @@
 +++
 weight = 35
-title = "035. 비난 없는 포스트모템 (Blameless Postmortem)"
+title = "35. 데브옵스 토폴로지 (DevOps Topologies) - 안티 패턴 (Dev 팀과 Ops 팀의 완전 분리) vs 모범 패턴 (협력형, 플랫폼 팀 지원형)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

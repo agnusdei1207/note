@@ -1,5 +1,5 @@
 +++
-title = "433. 빠른 재전송 (Fast Retransmit)"
+title = "433. 빠른 재전송 (Fast Retransmit) - 중복 ACK 3개(3 Dup-ACK) 수신 시 타임아웃 전 재전송"
 weight = 433
 +++
 

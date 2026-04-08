@@ -1,5 +1,5 @@
 +++
-title = "671. 솔트(Salt) 첨가 패스워드 해시"
+title = "671. 솔트 (Salt) 첨가 패스워드 해시 (PBKDF2, bcrypt, Argon2) 체계 - 레인보우 테이블 방지"
 weight = 671
 +++
 # 671. 솔트 (Salt) 첨가 패스워드 해시 (PBKDF2, bcrypt, Argon2) 체계

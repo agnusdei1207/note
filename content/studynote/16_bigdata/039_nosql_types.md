@@ -1,6 +1,6 @@
 +++
 weight = 39
-title = "39. NoSQL 데이터베이스 구조 유형 4가지"
+title = "39. Apache Zookeeper — 분산 코디네이션 서비스, 리더 선출, 잠금"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

@@ -1,5 +1,5 @@
 +++
-title = "276. 키-값 저장소 (Key-Value Store)"
+title = "276. 키-값 저장소 (Key-Value Store) - 속도 최적화, Redis, Memcached, Amazon DynamoDB"
 weight = 276
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "805. Clos 네트워크 (논블로킹)"
+title = "805. Clos 네트워크 - 다단 논블로킹(Non-blocking) 스위칭 구조"
 weight = 805
 +++
 # 805. Clos 네트워크 - 다단 논블로킹(Non-blocking) 스위칭 구조

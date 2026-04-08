@@ -1,5 +1,5 @@
 +++
-title = "SPDK (Storage Performance Development Kit)"
+title = "672. SPDK (Storage Performance Development Kit)"
 date = 2026-03-20
 weight = 672
 description = "네트워크의 DPDK 철학을 NVMe 스토리지에 그대로 적용하여, 리눅스 커널의 느린 파일 시스템을 우회하고 사용자 프로그램이 SSD를 다이렉트로 통제하는 초고속 스토리지 프레임워크"

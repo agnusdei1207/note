@@ -1,5 +1,5 @@
 +++
-title = "348. 유사도 검색 (Similarity Search)"
+title = "348. 유사도 검색 (Similarity Search) - 벡터 간 거리/각도 기반 의미적 탐색 연산 (키워드 일치 검색의 대안)"
 weight = 4348
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 591
-title = "591. C-V2X (Cellular V2X) - 3GPP 5G 융합 차량 통신과 PC5 사이드링크 아키텍처"
+title = "591. C-V2X (Cellular V2X) - 3GPP 표준, 이동통신(LTE/5G) 연계 차량 통신"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

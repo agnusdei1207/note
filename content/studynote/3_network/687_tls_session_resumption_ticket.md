@@ -1,5 +1,5 @@
 +++
-title = "687. 세션 재개 (Session Resumption)"
+title = "687. 세션 재개 (Session Resumption / TLS Ticket) 기능 구성"
 weight = 687
 +++
 # 687. 세션 재개 (Session Resumption / TLS Ticket) 기능 구성

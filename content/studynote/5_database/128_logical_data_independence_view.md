@@ -1,5 +1,5 @@
 +++
-title = "논리적 데이터 독립성과 뷰 (Logical Data Independence & View)"
+title = "128. 논리적 데이터 독립성과 뷰(View)의 관계"
 weight = 128
 +++
 

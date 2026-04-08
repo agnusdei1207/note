@@ -1,5 +1,5 @@
 +++
-title = "812. RDMA (원격 직접 메모리 접근)"
+title = "812. RDMA (Remote Direct Memory Access) - CPU 개입/OS 커널 스택 복사 없이 메모리간 직접 데이터 전송망 기법"
 weight = 812
 +++
 # 812. RDMA (Remote Direct Memory Access) - 커널 바이패스 초고속 메모리 전송 기법

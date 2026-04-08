@@ -1,5 +1,5 @@
 +++
-title = "739. 마이크로 세그멘테이션"
+title = "739. 마이크로 세그멘테이션 (Micro Segmentation 시스템망 트래픽 분할 보안통제구조 수평 전파/Lateral Movement 차단 모델)"
 weight = 739
 +++
 # 739. 마이크로 세그멘테이션 (Micro-Segmentation) - 횡적 확산(Lateral Movement) 차단

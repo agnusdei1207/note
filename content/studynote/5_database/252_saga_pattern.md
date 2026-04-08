@@ -1,5 +1,5 @@
 +++
-title = "252. 사가 패턴 (Saga Pattern)"
+title = "252. Saga 패턴 - MSA 환경의 긴 트랜잭션(Long Lived Transaction) 처리, 이벤트 기반 로컬 트랜잭션 분할 및 보상 트랜잭션(Compensating Transaction) 수행"
 weight = 252
 +++
 

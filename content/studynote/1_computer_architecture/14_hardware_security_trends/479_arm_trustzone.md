@@ -1,6 +1,6 @@
 +++
 weight = 479
-title = "479. ARM TrustZone (트러스트존)"
+title = "479. ARM TrustZone"
 date = "2026-03-20"
 [extra]
 categories = "studynote-computer-architecture"

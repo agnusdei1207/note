@@ -1,6 +1,6 @@
 +++
 weight = 161
-title = "161. 단기 스케줄러 (Short-term Scheduler)"
+title = "161. 단기 스케줄러 (Short-term Scheduler) / CPU 스케줄러"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

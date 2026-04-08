@@ -1,6 +1,6 @@
 +++
 weight = 463
-title = "463. epoll / kqueue 리눅스 웹 서버 천하통일의 일등공신"
+title = "463. epoll / kqueue - 리눅스/BSD 다중 I/O 이벤트 통지 (고성능 소켓 서버)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

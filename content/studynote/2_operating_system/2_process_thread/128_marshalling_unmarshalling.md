@@ -1,6 +1,6 @@
 +++
 weight = 128
-title = "128. ��� (Marshalling) / ���� (Unmarshalling)"
+title = "128. 마샬링 (Marshalling) / 언마샬링 (Unmarshalling)"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

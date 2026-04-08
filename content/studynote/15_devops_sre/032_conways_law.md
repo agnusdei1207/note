@@ -1,6 +1,6 @@
 +++
 weight = 32
-title = "032. 콘웨이의 법칙 (Conway's Law)"
+title = "32. 리드 타임 (Lead Time) vs 사이클 타임 (Cycle Time)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

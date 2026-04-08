@@ -1,6 +1,6 @@
 +++
 weight = 35
-title = "35. 블로킹 팩터 (Blocking Factor)"
+title = "35. 블로킹 팩터 (Blocking Factor) - 하나의 블록에 저장되는 레코드 수"
 description = "데이터베이스 I/O 성능을 결정하는 블로킹 팩터의 개념, 스패닝 레코드 원리 및 실무 메모리 최적화 전략"
 date = "2026-03-04"
 [taxonomies]

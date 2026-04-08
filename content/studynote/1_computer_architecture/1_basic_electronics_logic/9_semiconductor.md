@@ -1,6 +1,6 @@
 +++
 weight = 9
-title = "09. 반도체 (Semiconductor)"
+title = "9. 반도체 (Semiconductor)"
 date = "2026-03-26"
 [extra]
 categories = "studynote-computer-architecture"

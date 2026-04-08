@@ -1,5 +1,5 @@
 +++
-title = "Intel VT-x (Virtualization Technology)"
+title = "658. Intel VT-x"
 date = 2026-03-20
 weight = 658
 description = "소프트웨어 에뮬레이션의 한계를 극복하고 가상 머신의 CPU 연산 속도를 물리적 하드웨어 수준(Native)으로 끌어올린 인텔의 1세대 하드웨어 가상화 기술"

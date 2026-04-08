@@ -1,6 +1,6 @@
 +++
 weight = 377
-title = "377. NUMA 아키텍처와 메모리 할당 정책 (Non-Uniform Memory Access)"
+title = "377. NUMA (Non-Uniform Memory Access) 아키텍처와 메모리 할당 정책"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

@@ -1,5 +1,5 @@
 +++
-title = "336. MOLAP (Multidimensional OLAP)"
+title = "336. MOLAP (Multidimensional OLAP) - 다차원 큐브(Cube) 사전 생성 구조, 초고속 검색, 큐브 갱신 비용 큼"
 weight = 4336
 +++
 

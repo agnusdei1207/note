@@ -1,6 +1,6 @@
 +++
 weight = 567
-title = "567. 파일 잠금 (File Locking) - 공유 잠금 vs 배타적 잠금"
+title = "567. 파일 잠금 (File Locking) - 공유 잠금(Shared lock) vs 배타적 잠금(Exclusive lock)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

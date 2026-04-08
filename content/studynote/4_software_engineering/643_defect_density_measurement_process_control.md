@@ -1,5 +1,5 @@
 +++
-title = "643. 결함 밀도 측정 및 프로세스 통제 Defect Density"
+title = "643. 결함 밀도 측정 및 프로세스 통제"
 date = "2026-04-07"
 [extra]
 categories = "studynote-se"

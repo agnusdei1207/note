@@ -1,6 +1,6 @@
 +++
 weight = 329
-title = "329. 베이스 레지스터 (Base/Relocation Register)"
+title = "329. 베이스 레지스터 (Base/Relocation Register) - 물리 시작 주소 보유"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

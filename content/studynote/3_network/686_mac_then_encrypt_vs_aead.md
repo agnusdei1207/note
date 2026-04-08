@@ -1,5 +1,5 @@
 +++
-title = "686. MAC-then-Encrypt vs AEAD"
+title = "686. MAC-then-Encrypt 패러다임 / AEAD 전환 보안 구조"
 weight = 686
 +++
 # 686. MAC-then-Encrypt 패러다임과 AEAD 전환 보안 구조

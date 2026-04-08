@@ -1,5 +1,5 @@
 +++
-title = "SQL 표준 (ANSI/ISO Standard SQL)"
+title = "131. SQL (Structured Query Language) 국제 표준 (ANSI/ISO SQL)"
 weight = 131
 +++
 

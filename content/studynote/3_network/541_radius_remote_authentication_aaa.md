@@ -1,6 +1,6 @@
 +++
 weight = 541
-title = "541. RADIUS (Remote Authentication Dial-In User Service) - UDP 기반 관리자/사용자 인증(AAA)"
+title = "541. RADIUS (Remote Authentication Dial-In User Service) - UDP 기반 관리자/사용자 인증(AAA), 패스워드만 암호화"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

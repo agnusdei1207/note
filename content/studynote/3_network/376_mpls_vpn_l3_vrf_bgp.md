@@ -1,5 +1,5 @@
 +++
-title = "376. L3 MPLS VPN (BGP/MPLS VPN)"
+title = "376. MPLS VPN - L3 MPLS VPN"
 weight = 376
 +++
 

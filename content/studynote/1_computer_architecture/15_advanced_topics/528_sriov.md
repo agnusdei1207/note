@@ -1,5 +1,5 @@
 +++
-title = "SR-IOV (Single Root I/O Virtualization)"
+title = "528. SR-IOV (Single Root I/O Virtualization)"
 date = 2026-03-20
 weight = 528
 description = "하나의 물리적 PCIe 장치(예: 고성능 랜카드)를 가상 머신(VM)들이 하이퍼바이저 개입 없이 완벽하게 독립적으로 분할하여 직접 사용하는 하드웨어 가상화 기술"

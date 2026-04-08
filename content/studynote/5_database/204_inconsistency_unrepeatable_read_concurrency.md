@@ -1,5 +1,5 @@
 +++
-title = "204. 모순성 (Inconsistency)"
+title = "204. 모순성 (Inconsistency / Unrepeatable Read) - 동일 데이터 반복 읽기 시 값이 달라지는 현상"
 weight = 204
 +++
 # 204. 모순성 (Inconsistency / Unrepeatable Read) - 병행 수행 문제 반복 불가능한 읽기 트랜잭션 격리성 위배 데이터 값 불일치 행위 갱신 에러

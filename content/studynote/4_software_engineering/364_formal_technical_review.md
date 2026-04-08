@@ -1,5 +1,5 @@
 +++
-title = "364. 정형 기술 검토 (FTR, Formal Technical Review)"
+title = "364. 정형 기술 검토 (FTR, Formal Technical Review) 의 지침"
 date = 2026-04-05
 weight = 364
 +++

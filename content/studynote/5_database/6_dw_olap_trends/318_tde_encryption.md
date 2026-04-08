@@ -1,5 +1,5 @@
 +++
-title = "318. TDE / 암호화"
+title = "318. 트리 구조 저장을 위한 NoSQL 모델 (Materialized Path, Nested Sets)"
 weight = 4318
 +++
 

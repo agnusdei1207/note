@@ -1,5 +1,5 @@
 +++
-title = "403. 포트 할당 대역 (Well-Known 등)"
+title = "403. Well-Known 포트 (0~1023), Registered 포트 (1024~49151), Dynamic 포트 (49152~65535)"
 weight = 403
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "533. SNMP 명령 (Get, Set)"
+title = "533. SNMP 명령 - Get, GetNext, Set"
 weight = 533
 +++
 # 533. SNMP 명령 - Get, GetNext, Set

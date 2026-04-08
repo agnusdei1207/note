@@ -1,5 +1,5 @@
 +++
-title = "801. 데이터센터 3-Tier 아키텍처"
+title = "801. 데이터센터 (Data Center) 3-Tier 아키텍처 - Core, Aggregation, Access 계층"
 weight = 801
 +++
 # 801. 데이터센터 (Data Center) 3-Tier 아키텍처 - Core, Aggregation, Access 계층

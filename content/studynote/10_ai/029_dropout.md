@@ -1,6 +1,6 @@
 +++
 weight = 29
-title = "029. 드롭아웃 (Dropout)"
+title = "29. 차원의 저주 (Curse of Dimensionality) - 특성(변수) 공간 차원이 늘어날수록, 데이터 간 거리가 희소해지고 학습 효율이 급감하는 현상"
 date = "2026-04-05"
 [extra]
 categories = "studynote-ai"

@@ -1,5 +1,5 @@
 +++
-title = "스누핑 버스 병목 현상 (Snooping Bus Bottleneck)"
+title = "510. 스누핑 버스 병목 현상"
 date = 2026-03-20
 weight = 510
 description = "멀티코어 시스템에서 캐시 일관성을 유지하기 위해 버스를 감시(Snooping)하는 방식이 코어 수가 증가함에 따라 한계에 부딪히는 현상"

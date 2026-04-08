@@ -1,5 +1,5 @@
 +++
-title = "303. 클래스리스 (Classless) 라우팅 - CIDR"
+title = "303. 클래스리스 (Classless) 라우팅 (CIDR, Classless Inter-Domain Routing)"
 weight = 303
 +++
 

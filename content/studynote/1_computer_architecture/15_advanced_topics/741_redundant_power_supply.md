@@ -1,5 +1,5 @@
 +++
-title = "이중화 전원 공급 장치 (Redundant Power Supply, RPS)"
+title = "741. 이중화 전원 공급 장치 (Redundant Power Supply)"
 date = 2026-03-20
 weight = 741
 description = "서버가 벼락을 맞거나 전원 장치가 타버려도 절대 꺼지지 않도록, 서버 한 대에 2개의 파워서플라이를 장착하고 서로 다른 두 개의 콘센트에서 전기를 끌어오는 필수 생존 아키텍처"

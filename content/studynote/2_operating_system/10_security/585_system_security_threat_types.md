@@ -1,6 +1,6 @@
 +++
 weight = 585
-title = "585. 시스템 보안 위협 유형 (기밀성, 무결성, 가용성, 인증 침해)"
+title = "585. 시스템 보안 위협 유형 - 기밀성, 무결성, 가용성, 인증 침해"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

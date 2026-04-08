@@ -1,5 +1,5 @@
 +++
-title = "히트스프레더 (IHS, Integrated Heat Spreader)"
+title = "736. 히트스프레더 (IHS, Integrated Heat Spreader)"
 date = 2026-03-20
 weight = 736
 description = "부서지기 쉬운 CPU 실리콘 코어(Die)를 보호하고 좁은 핫스팟의 열을 넓은 면적으로 분산시키기 위해 코어를 덮고 있는 은색 금속 뚜껑"

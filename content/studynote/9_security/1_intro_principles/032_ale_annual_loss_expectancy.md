@@ -1,6 +1,6 @@
 +++
 weight = 32
-title = "032. ALE (연간 예상 손실, Annual Loss Expectancy)"
+title = "32. ALE (Annual Loss Expectancy) — 연간 예상 손실"
 date = "2026-04-05"
 [extra]
 categories = "studynote-security"

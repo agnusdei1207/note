@@ -1,6 +1,6 @@
 +++
 weight = 543
-title = "543. LDAP (Lightweight Directory Access Protocol) - X.500 기반 디렉터리 접근 권한 중앙관리"
+title = "543. LDAP (Lightweight Directory Access Protocol) - X.500 기반 디렉터리 접근 권한 중앙관리 (AD 연동)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

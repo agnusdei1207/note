@@ -1,5 +1,5 @@
 +++
-title = "99. VMI (Vendor Managed Inventory)"
+title = "99. VMI (Vendor Managed Inventory) - 공급자 주도 재고 관리 (월마트 방식, 유통업체 재고를 제조사가 직접 모니터링/보충)"
 weight = 99
 +++
 

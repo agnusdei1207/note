@@ -1,6 +1,6 @@
 +++
 weight = 9
-title = "09. 해시 포인터 (Hash Pointer)"
+title = "9. 해시 포인터 (Hash Pointer) - 데이터의 위치와 무결성 정보를 동시에 지님"
 description = "데이터의 위치와 무결성 정보를 동시에 지니며 블록체인의 불변성을 보장하는 핵심 구조"
 date = "2024-03-24"
 [taxonomies]

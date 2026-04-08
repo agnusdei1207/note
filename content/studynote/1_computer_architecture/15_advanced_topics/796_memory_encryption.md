@@ -1,6 +1,6 @@
 +++
 weight = 796
-title = "메모리 암호화 (Intel MKTME, AMD SME/SEV)"
+title = "796. 메모리 암호화 (Intel MKTME, AMD SME/SEV)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-computer-architecture"

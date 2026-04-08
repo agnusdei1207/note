@@ -1,6 +1,6 @@
 +++
 weight = 20
-title = "지도 학습"
+title = "20. 알파-베타 가지치기 (Alpha-Beta Pruning) - 미니맥스 트리에서 탐색할 필요가 없는 가지를 잘라내어 연산량 감소"
 description = "지도 학습(Supervised Learning)의 정의, 분류와 회귀, 주요 알고리즘"
 category = "10_ai"
 +++

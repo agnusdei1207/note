@@ -1,5 +1,5 @@
 +++
-title = "112. 협업 CRM (Collaborative CRM) - 옴니채널"
+title = "112. 협업 CRM (Collaborative CRM) - 다양한 고객 채널(전화, 이메일, 챗봇, 소셜) 간 일관된 커뮤니케이션 지원"
 weight = 112
 +++
 

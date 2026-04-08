@@ -1,5 +1,5 @@
 +++
-title = "246. IEEE 802.1Q - VLAN 태깅(Tagging)"
+title = "246. IEEE 802.1Q - VLAN 태깅(Tagging), TPID, TCI, VID 필드 (4바이트 추가)"
 weight = 246
 +++
 

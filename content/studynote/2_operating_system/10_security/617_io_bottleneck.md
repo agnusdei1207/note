@@ -1,6 +1,6 @@
 +++
 weight = 617
-title = "617. I/O ìë ëë (Bottleneck) íìë"
+title = "617. I/O 성능 병목 (Bottleneck) 탐색법 (iostat, vmstat)"
 date = "2026-03-25"
 [extra]
 categories = "studynote-operating-system"

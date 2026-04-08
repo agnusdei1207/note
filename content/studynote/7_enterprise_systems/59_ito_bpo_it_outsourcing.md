@@ -1,5 +1,5 @@
 +++
-title = "59. 정보기술 아웃소싱 (ITO) 및 BPO 비즈니스 프로세스 아웃소싱"
+title = "59. 정보기술 아웃소싱 (ITO, IT Outsourcing) / BPO (비즈니스 프로세스 아웃소싱)"
 date = "2026-04-07"
 [extra]
 categories = "studynote-enterprise"

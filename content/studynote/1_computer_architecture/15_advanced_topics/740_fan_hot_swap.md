@@ -1,5 +1,5 @@
 +++
-title = "서버 섀시 팬 핫스왑 (Server Chassis Fan Hot-swap)"
+title = "740. 서버 섀시 팬 핫스왑"
 date = 2026-03-20
 weight = 740
 description = "서버의 전원을 끄지 않은 채 작동 중인 상태에서 고장 난 쿨링팬을 맨손으로 뽑고 새것으로 갈아 끼울 수 있는 엔터프라이즈 하드웨어의 생존 설계"

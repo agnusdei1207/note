@@ -1,5 +1,5 @@
 +++
-title = "폴아웃 (Fallout) 공격"
+title = "766. 폴아웃 (Fallout) 공격"
 date = 2026-03-20
 weight = 766
 description = "MDS 공격의 또 다른 변종으로, CPU가 데이터를 메모리에 쓰기 위해 임시로 담아두는 'Store Buffer'의 허점을 찔러 커널이나 다른 스레드의 비밀을 훔치는 기법"

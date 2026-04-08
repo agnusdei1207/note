@@ -1,5 +1,5 @@
 +++
-title = "579. 오프라인 우선 (Offline-first) 아키텍처 (PWA)"
+title = "579. 오프라인 우선 (Offline-first) 아키텍처 (PWA, Service Worker, IndexedDB)"
 +++
 
 # 579. 오프라인 우선 (Offline-first) 아키텍처 (PWA, Service Worker, IndexedDB)

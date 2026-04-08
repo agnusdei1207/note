@@ -1,5 +1,5 @@
 +++
-title = "749. DLP / 다크 데이터 관리"
+title = "749. 다크 데이터 / Data Loss Prevention (DLP 네트워크 기반 메일 메신저 단말 외장 유출 차단 모델 시스템 개념 데이터 기밀 탐지 적용 원리 분석 적용 구조 파편 제어)"
 weight = 749
 +++
 # 749. 다크 데이터 / DLP (Data Loss Prevention 데이터 유출 방지 시스템)

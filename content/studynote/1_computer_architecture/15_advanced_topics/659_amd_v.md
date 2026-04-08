@@ -1,5 +1,5 @@
 +++
-title = "AMD-V (AMD Virtualization)"
+title = "659. AMD-V"
 date = 2026-03-20
 weight = 659
 description = "인텔의 VT-x에 맞서 AMD가 독자적으로 개발한 하드웨어 보조 가상화 기술로, 서버 및 데스크톱 시장에서 고성능 가상 머신 구동을 가능하게 하는 핵심 아키텍처"

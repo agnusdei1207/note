@@ -1,6 +1,6 @@
 +++
 weight = 25
-title = "025. 처방적 분석 (Prescriptive Analytics) - AI 최적화 및 의사결정 자동화"
+title = "25. NameNode — 메타데이터 관리, SPOF 우려 → Secondary NameNode / HA NameNode"
 date = "2026-04-02"
 [extra]
 categories = "studynote-bigdata"

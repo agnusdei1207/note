@@ -1,6 +1,6 @@
 +++
 weight = 159
-title = "159. 연산 코드 (Opcode / Operation Code)"
+title = "159. 연산 코드 (Opcode)"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

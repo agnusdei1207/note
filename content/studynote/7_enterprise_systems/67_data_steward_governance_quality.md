@@ -1,5 +1,5 @@
 +++
-title = "67. 데이터 스튜어드 (Data Steward) 품질 관리 책임자"
+title = "67. 데이터 스튜어드 (Data Steward) - 실무 부서 데이터 품질 관리 책임자"
 date = "2026-04-07"
 [extra]
 categories = "studynote-enterprise"

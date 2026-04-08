@@ -1,5 +1,5 @@
 +++
-title = "94. LeSS (Large-Scale Scrum) - 미니멀리즘 대규모 애자일"
+title = "94. LeSS (Large-Scale Scrum) - 다수 팀 스크럼 확장"
 weight = 94
 +++
 

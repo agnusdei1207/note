@@ -1,6 +1,6 @@
 +++
 weight = 768
-title = "768. CAS (Compare-And-Swap) 명령어 기초"
+title = "768. CAS (Compare And Swap) 명령어 기초"
 date = "2026-03-30"
 [extra]
 categories = ["studynote-operating-system"]

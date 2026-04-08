@@ -1,5 +1,5 @@
 +++
-title = "300. 루프백 IP (Loopback IP) - 127.0.0.1"
+title = "300. 루프백 IP (Loopback IP) - 127.0.0.1 (로컬호스트)"
 weight = 300
 +++
 

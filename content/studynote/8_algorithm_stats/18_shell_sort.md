@@ -1,5 +1,5 @@
 +++
-title = "18. 셸 정렬 (Shell Sort)"
+title = "18. 셸 정렬 (Shell Sort) — 삽입 정렬 개선, O(n^1.5)"
 weight = 18
 +++
 

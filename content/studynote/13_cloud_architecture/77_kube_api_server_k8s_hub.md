@@ -1,5 +1,5 @@
 +++
-title = "77. Kube-API Server K8s 허브 마스터 노드"
+title = "77. Kube-API Server - 모든 K8s 명령(kubectl)을 REST API로 수신하고 컴포넌트 간 통신을 중계하는 허브"
 date = "2026-04-07"
 [extra]
 categories = "studynote-cloud"

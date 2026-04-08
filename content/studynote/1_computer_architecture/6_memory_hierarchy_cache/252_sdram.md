@@ -1,6 +1,6 @@
 +++
 weight = 252
-title = "SDRAM (Synchronous DRAM)"
+title = "252. SDRAM (Synchronous DRAM)"
 +++
 
 # SDRAM (Synchronous DRAM)

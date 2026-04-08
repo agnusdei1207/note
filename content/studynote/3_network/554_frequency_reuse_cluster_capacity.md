@@ -1,6 +1,6 @@
 +++
 weight = 554
-title = "554. 주파수 재사용 (Frequency Reuse) - 셀룰러 클러스터 디자인, 용량 확장 기법"
+title = "554. 주파수 재사용 (Frequency Reuse) - 클러스터 디자인, 용량 확장 기법"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

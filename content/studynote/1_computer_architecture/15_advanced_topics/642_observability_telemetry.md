@@ -1,5 +1,5 @@
 +++
-title = "옵저버빌리티 (Observability) HW 텔레메트리"
+title = "642. 옵저버빌리티 (Observability) HW 텔레메트리"
 date = 2026-03-20
 weight = 642
 description = "시스템의 단순한 모니터링을 넘어, 하드웨어 내부에서 발생하는 모든 미세한 이벤트와 지연(Latency)을 마이크로초 단위로 추적하여 외부로 쏘아주는(Telemetry) 관측 기술"

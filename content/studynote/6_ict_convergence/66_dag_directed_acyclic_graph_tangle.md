@@ -1,5 +1,5 @@
 +++
-title = "66. 지향성 비순환 그래프 (DAG) / IOTA의 Tangle"
+title = "66. 지향성 비순환 그래프 (DAG, Directed Acyclic Graph) - 블록체인 대신 트랜잭션들이 거미줄처럼 서로를 증명하는 분산 원장 구조 (IOTA의 Tangle)"
 weight = 66
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 480
-title = "480. Intel SGX (Software Guard Extensions)"
+title = "480. Intel SGX"
 date = "2026-03-20"
 [extra]
 categories = "studynote-computer-architecture"

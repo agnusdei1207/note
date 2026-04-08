@@ -1,5 +1,5 @@
 +++
-title = "51. 배깅 (Bagging) 랜덤 포레스트 앙상블"
+title = "51. 배깅 (Bagging, Bootstrap Aggregating) - 훈련 데이터를 랜덤 복원 추출하여 독립 모델 병렬 학습 후 평균/다수결 (Random Forest)"
 date = "2026-04-07"
 [extra]
 categories = "studynote-ai"

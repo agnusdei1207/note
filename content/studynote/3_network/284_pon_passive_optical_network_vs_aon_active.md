@@ -1,5 +1,5 @@
 +++
-title = "284. PON (수동) / AON (능동) - 광가입자망(FTTH)"
+title = "284. PON (Passive Optical Network) / AON (Active Optical Network)"
 weight = 284
 +++
 

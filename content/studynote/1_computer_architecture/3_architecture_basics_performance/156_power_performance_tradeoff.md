@@ -1,6 +1,6 @@
 +++
 weight = 156
-title = "156. 전력-성능 트레이드오프 (Power-Performance Trade-off)"
+title = "156. 전력-성능 트레이드오프"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

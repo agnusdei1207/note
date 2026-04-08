@@ -1,6 +1,6 @@
 +++
 weight = 26
-title = "26. HCI (Hyper-Converged Infrastructure)"
+title = "26. HCI (Hyper-Converged Infrastructure) - 서버, 스토리지, 네트워킹 가상화 솔루션을 단일 x86 어플라이언스 노드에 통합 패키징 (VDI 및 프라이빗 클라우드 구축 용이)"
 description = "초融合 인프라структуры의 핵심 개념, 아키텍처 및企业与 데이터 센터 적용 사례에 대한 실용적 가이드"
 date = "2024-05-24"
 [taxonomies]

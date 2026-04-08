@@ -1,6 +1,6 @@
 +++
 weight = 120
-title = "120. 직접 통신 (Direct Communication)"
+title = "120. 직접 통신 (Direct Communication) - 수신자 명시"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

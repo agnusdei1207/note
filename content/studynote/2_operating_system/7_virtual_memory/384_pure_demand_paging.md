@@ -1,6 +1,6 @@
 +++
 weight = 384
-title = "384. 순수 요구 페이징 (Pure Demand Paging) 램 제로의 극한 도전"
+title = "384. 순수 요구 페이징 (Pure Demand Paging) - 시작할 때 아무것도 안 올림"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

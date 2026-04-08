@@ -1,5 +1,5 @@
 +++
-title = "256. 브리지 ID (Bridge ID), 비용 (Path Cost)"
+title = "256. 브리지 ID (Priority + MAC), 비용 (Path Cost)"
 weight = 256
 +++
 

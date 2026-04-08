@@ -1,5 +1,5 @@
 +++
-title = "83. MRP II (제조 자원 계획)"
+title = "83. MRP II (Manufacturing Resource Planning) - 자재뿐 아니라 설비, 인력 등 생산 자원 전체 포괄 계획 (1980년대)"
 weight = 83
 +++
 

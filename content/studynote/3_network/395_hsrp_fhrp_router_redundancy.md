@@ -1,5 +1,5 @@
 +++
-title = "395. HSRP (Hot Standby Router Protocol) - 라우터 이중화"
+title = "395. HSRP (Hot Standby Router Protocol) - FHRP 류, 라우터 이중화"
 weight = 395
 +++
 

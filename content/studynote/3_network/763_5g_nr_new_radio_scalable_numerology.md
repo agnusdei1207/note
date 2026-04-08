@@ -1,5 +1,5 @@
 +++
-title = "763. 5G NR (New Radio)"
+title = "763. 5G NR (New Radio) 신무선 표준 대역"
 weight = 763
 +++
 # 763. 5G NR (New Radio) 신무선 표준 대역 개요

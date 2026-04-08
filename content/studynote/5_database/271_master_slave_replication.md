@@ -1,5 +1,5 @@
 +++
-title = "271. 마스터-슬레이브 (Master-Slave) 복제"
+title = "271. 마스터-슬레이브 (Master-Slave / Primary-Replica) 복제 - 읽기/쓰기 분산 아키텍처"
 weight = 271
 +++
 

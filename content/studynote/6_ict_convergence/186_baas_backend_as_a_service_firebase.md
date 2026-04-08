@@ -1,5 +1,5 @@
 +++
-title = "186. BaaS (Backend as a Service)"
+title = "186. BaaS (Backend as a Service) - 모바일/웹 앱용 백엔드(DB, 인증, 푸시) 제공 (Firebase)"
 weight = 186
 +++
 # 186. BaaS (Backend as a Service) - 모바일 앱 웹 개발용 백엔드 파이어베이스 Firebase 데이터베이스 인증 푸시 알림 서버리스 연동 클라우드 아키텍처

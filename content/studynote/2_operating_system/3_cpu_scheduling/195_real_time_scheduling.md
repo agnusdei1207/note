@@ -1,6 +1,6 @@
 +++
 weight = 195
-title = "195. 실시간 스케줄링 (Real-time Scheduling)"
+title = "195. 대칭 다중 처리 (SMP) 스케줄링"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

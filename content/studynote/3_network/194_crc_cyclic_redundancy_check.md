@@ -1,5 +1,5 @@
 +++
-title = "194. CRC (순환 중복 검사)"
+title = "194. CRC (Cyclic Redundancy Check, 순환 중복 검사)"
 weight = 194
 +++
 

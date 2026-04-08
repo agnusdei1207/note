@@ -1,6 +1,6 @@
 +++
 weight = 144
-title = "CPU 친화성 Soft/Hard Affinity"
+title = "144. CPU 친화성 (CPU Affinity) - Soft Affinity vs Hard Affinity"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

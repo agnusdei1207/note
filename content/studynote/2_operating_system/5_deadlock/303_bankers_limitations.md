@@ -1,6 +1,6 @@
 +++
 weight = 303
-title = "303. 은행원 알고리즘 한계 - 비현실성 및 오버헤드"
+title = "303. 은행원 알고리즘 한계 - 프로세스 수, 최대 자원량 사전 숙지 불가, 오버헤드 큼"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

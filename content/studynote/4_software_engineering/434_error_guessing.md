@@ -1,5 +1,5 @@
 +++
-title = "434. 오류 추정 (Error Guessing)"
+title = "434. 오류 추정 (Error Guessing) - 테스터의 경험을 바탕으로 결함이 발생할 만한 곳을 추정하여 테스트"
 date = 2026-04-05
 weight = 434
 +++

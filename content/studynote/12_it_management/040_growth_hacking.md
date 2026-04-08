@@ -1,6 +1,6 @@
 +++
 weight = 40
-title = "040. 그로스 해킹 - 데이터 기반 빠른 실험으로 사용자를爆炸적으로 늘리는 기술"
+title = "40. 디자인 씽킹 (Design Thinking) - 공감(Empathize) -> 정의 -> 아이디에이션 -> 프로토타입 -> 테스트의 창의적 문제 해결 프레임워크"
 date = "2026-04-05"
 [extra]
 categories = "studynote-it-management"

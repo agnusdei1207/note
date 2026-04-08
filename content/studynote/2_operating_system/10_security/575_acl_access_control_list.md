@@ -1,6 +1,6 @@
 +++
 weight = 575
-title = "575. 접근 제어 목록 (ACL, Access Control List)"
+title = "575. 접근 제어 목록 (ACL, Access Control List) - 객체 중심 (해당 객체에 접근 가능한 주체 목록)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

@@ -1,6 +1,6 @@
 +++
 weight = 810
-title = "클라우드 배포 모델 비교 (Public/Private/Hybrid/Community)"
+title = "810. 클라우드 배포 모델 비교 (Public/Private/Hybrid/Community)"
 description = "4가지 클라우드 배포 모델의 특징과 선택 기준"
 date = 2026-03-26
 

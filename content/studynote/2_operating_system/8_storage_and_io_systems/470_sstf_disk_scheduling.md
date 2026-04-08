@@ -1,6 +1,6 @@
 +++
 weight = 470
-title = "470. SSTF (Shortest Seek Time First) 가까운 곳의 치명적 유혹"
+title = "470. SSTF (Shortest Seek Time First) - 현재 헤드 위치에서 가장 가까운 요청 처리 (기아 발생 가능)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

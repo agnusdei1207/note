@@ -1,6 +1,6 @@
 +++
 weight = 811
-title = "소프트웨어 아키텍처 개요"
+title = "811. 소프트웨어 아키텍처 개요"
 description = "Software Architecture Overview"
 category = "4_software_engineering"
 +++

@@ -1,6 +1,6 @@
 +++
 weight = 595
-title = "595. 저궤도 위성 (LEO) - 스타링크의 파괴적 혁신과 초저지연 글로벌 6G 우주망 아키텍처"
+title = "595. 저궤도 위성 (LEO) - 500~1500km 고도. 초저지연 글로벌 6G 망 구성, Starlink(스타링크), OneWeb(원웹)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

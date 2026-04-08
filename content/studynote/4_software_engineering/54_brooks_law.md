@@ -1,5 +1,5 @@
 +++
-title = "54. 브룩스의 법칙 (Brooks's Law)"
+title = "54. 브룩스의 법칙 (Brooks's Law) - 지체된 프로젝트에 인력 투입 시 더 지체됨"
 weight = 54
 +++
 

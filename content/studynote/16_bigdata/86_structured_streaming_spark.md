@@ -1,5 +1,5 @@
 +++
-title = "86. Structured Streaming"
+title = "86. Consumer Lag — Kafka 소비 지연 모니터링, Burrow / JMX"
 date = "2026-04-07"
 [extra]
 categories = "studynote-bigdata"

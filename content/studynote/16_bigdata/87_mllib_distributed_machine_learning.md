@@ -1,5 +1,5 @@
 +++
-title = "87. MLlib — 분산 ML 라이브러리 (분류/회귀/군집/추천/PCA)"
+title = "87. Kafka MirrorMaker 2 — 클러스터 간 복제, DR"
 weight = 87
 +++
 

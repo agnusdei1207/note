@@ -1,5 +1,5 @@
 +++
-title = "394. WRED (가중치 랜덤 조기 탐지) - 꼬리 자르기 방어"
+title = "394. WRED (Weighted Random Early Detection) 혼잡 제어 꼬리 짜르기 제한"
 weight = 394
 +++
 

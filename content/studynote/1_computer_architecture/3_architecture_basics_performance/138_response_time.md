@@ -1,6 +1,6 @@
 +++
 weight = 138
-title = "138. 응답 시간 (Response Time / Latency)"
+title = "138. 응답 시간 (Response Time)"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

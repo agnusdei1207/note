@@ -1,6 +1,6 @@
 +++
 weight = 6
-title = "6. 감리 프레임워크 3차원 구조 (Audit Framework)"
+title = "6. 감리 프레임워크 (Audit Framework) 3차원 구조 - 감리 영역, 감리 관점, 감리 단계"
 description = "정보시스템 감리의 핵심 3차원 구조(감리 영역, 관점, 단계)의 입체적 분석과 실무 적용"
 date = "2024-05-24"
 [taxonomies]

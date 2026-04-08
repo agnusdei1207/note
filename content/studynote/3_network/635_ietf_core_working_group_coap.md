@@ -1,5 +1,5 @@
 +++
-title = "635. IETF CoRE 워킹그룹 동향"
+title = "635. IETF (Internet Engineering Task Force) 산하 IoT CoRE 워킹그룹 동향"
 weight = 635
 +++
 # 635. IETF 산하 IoT CoRE 워킹그룹 동향

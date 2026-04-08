@@ -1,5 +1,5 @@
 +++
-title = "하드웨어 기반 난독화 (Hardware-based Obfuscation)"
+title = "582. 하드웨어 기반 난독화"
 date = 2026-03-20
 weight = 582
 description = "소프트웨어 코드를 뜯어봐도 해커가 원리를 이해하지 못하도록 꼬아놓는 난독화를 CPU 하드웨어 구조를 이용해 극대화하는 기술"

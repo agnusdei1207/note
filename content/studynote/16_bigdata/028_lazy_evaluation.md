@@ -1,6 +1,6 @@
 +++
 weight = 28
-title = "28. 지연 평가 (Lazy Evaluation)"
+title = "28. MapReduce — Map(분산 처리)/Shuffle&Sort/Reduce(집계) 3단계"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

@@ -1,6 +1,6 @@
 +++
 weight = 57
-title = "57. Jenkins/Buildkite (젠킨스/빌드카이트)"
+title = "57. 데브옵스 에반젤리스트 (DevOps Evangelist) 역할"
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

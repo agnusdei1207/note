@@ -1,5 +1,5 @@
 +++
-title = "인피니밴드 RDMA (InfiniBand RDMA)"
+title = "522. 인피니밴드 RDMA"
 date = 2026-03-20
 weight = 522
 description = "슈퍼컴퓨터와 AI 클러스터에서 노드 간 통신 지연을 극한으로 줄이기 위해, 운영체제를 거치지 않고 상대방 메모리에 직접 데이터를 꽂아넣는 초고속 네트워크 기술"

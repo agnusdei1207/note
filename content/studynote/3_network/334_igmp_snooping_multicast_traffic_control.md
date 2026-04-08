@@ -1,5 +1,5 @@
 +++
-title = "334. IGMP Snooping (스위치 멀티캐스트 제어)"
+title = "334. IGMP Snooping (스위치가 멀티캐스트 트래픽 불필요한 포트에 차단)"
 weight = 334
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 18
-title = "기본 키 (Primary Key)"
+title = "518. 클린 룸 데이터 공유 샌드박싱 연동"
 description = "기본 키의 정의, 특성, 유형"
 date = 2026-03-26
 

@@ -1,6 +1,6 @@
 +++
 weight = 587
-title = "587. 백도어 (Backdoor) / 트랩도어 (Trapdoor)"
+title = "587. 트랩 도어 (Trap Door / Backdoor)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

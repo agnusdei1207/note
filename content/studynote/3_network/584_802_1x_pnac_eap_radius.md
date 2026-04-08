@@ -1,6 +1,6 @@
 +++
 weight = 584
-title = "584. 802.1X (PNAC) - RADIUS와 EAP 기반의 엔터프라이즈 제로 트러스트 인증 체계"
+title = "584. 802.1X (PNAC, Port Based Network Access Control) 인증 및 EAP/RADIUS 체계"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

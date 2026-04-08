@@ -1,5 +1,5 @@
 +++
-title = "그림자 페이지 테이블 (Shadow Page Table)"
+title = "662. 그림자 페이지 테이블 (Shadow Page Table)"
 date = 2026-03-20
 weight = 662
 description = "하드웨어 보조 메모리 가상화(EPT/NPT)가 없던 시절, 하이퍼바이저가 가상 머신의 느린 2단계 메모리 주소 변환을 우회하기 위해 몰래 만들어 관리하던 '직통 번역 장부(소프트웨어)' 기술"

@@ -1,5 +1,5 @@
 +++
-title = "345. 배치 처리 (Batch Processing)"
+title = "345. 배치 처리 (Batch Processing) 파이프라인"
 weight = 4345
 +++
 

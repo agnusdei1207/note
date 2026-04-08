@@ -1,5 +1,5 @@
 +++
-title = "49. 스토리지 엔진 (Storage Engine) 구조 (InnoDB, MyISAM)"
+title = "49. 스토리지 엔진 (Storage Engine) 구조 (InnoDB, MyISAM 등)"
 weight = 49
 +++
 

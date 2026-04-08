@@ -1,5 +1,5 @@
 +++
-title = "172. 마스 (MaaS, Mobility as a Service)"
+title = "172. 마스 (MaaS, Mobility as a Service) - 대중교통, 공유차량, 킥보드 등 모든 이동 수단을 하나의 플랫폼에서 통합 결제 및 최적 경로로 제공하는 서비스"
 weight = 172
 +++
 # 172. 마스 (MaaS, Mobility as a Service)

@@ -1,6 +1,6 @@
 +++
 weight = 592
-title = "592. 위성 통신 (Satellite Comm.) - 글로벌 우주 인프라의 특징과 극단적 지연(Latency) 극복 구조"
+title = "592. 위성 통신 (Satellite Comm.) 특징"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

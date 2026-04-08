@@ -1,5 +1,5 @@
 +++
-title = "633. 페어와이즈 (Pairwise) 직교 배열 (Orthogonal Array) 테스팅"
+title = "633. 페어와이즈 (Pairwise) 직교 배열 (Orthogonal Array)"
 date = "2026-04-07"
 [extra]
 categories = "studynote-se"

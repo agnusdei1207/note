@@ -1,5 +1,5 @@
 +++
-title = "SDN (Software Defined Network) 화이트박스 스위치"
+title = "633. SDN (Software Defined Network) 화이트박스 스위치"
 date = 2026-03-20
 weight = 633
 description = "기존 시스코 등 대기업의 독점적 라우터 장비에서 탈피하여, 깡통 스위치 기계(화이트박스) 위에 내 마음대로 리눅스 OS와 네트워킹 코드를 깔아 쓰는 네트워크 민주화 기술"

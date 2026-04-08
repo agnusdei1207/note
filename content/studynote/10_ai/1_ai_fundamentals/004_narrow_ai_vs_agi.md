@@ -1,6 +1,6 @@
 +++
 weight = 4
-title = "약인공지능과 강인공지능"
+title = "4. 약인공지능 (Weak AI / Narrow AI) - 특정 작업(바둑, 번역, 인식)에만 특화된 지능"
 description = "Narrow AI(약인공지능)와 AGI(강인공지능, Artificial General Intelligence)의 정의, 차이점, 현재 기술 수준"
 category = "10_ai"
 +++

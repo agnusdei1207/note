@@ -1,5 +1,5 @@
 +++
-title = "49. 기능점수 (FP, Function Point) 산정 - 데이터 기능, 트랜잭션 기능"
+title = "49. 기능점수 (FP, Function Point) 산정 - 데이터 기능(ILF, EIF), 트랜잭션 기능(EI, EO, EQ)"
 weight = 49
 +++
 

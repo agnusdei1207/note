@@ -1,5 +1,5 @@
 +++
-title = "자원 풀링 (Resource Pooling, CXL 기반)"
+title = "638. 자원 풀링 (Resource Pooling, CXL 기반)"
 date = 2026-03-20
 weight = 638
 description = "각 서버가 CPU와 메모리를 꽉 움켜쥐고 있던 구조에서 벗어나, CXL 네트워크를 통해 남는 메모리와 가속기를 다른 서버에 빌려주는 데이터센터의 거대한 자원 공유 아키텍처"

@@ -1,5 +1,5 @@
 +++
-title = "740. SASE (Secure Access Service Edge)"
+title = "740. SASE (Secure Access Service Edge 브랜치 사무소 단말 네트워크 엣지 클라우드 보안 통합체계/ SD-WAN + SWG/CASB 등 플랫폼 구조 융합 모델 개요)"
 weight = 740
 +++
 # 740. SASE (Secure Access Service Edge) - 네트워크와 보안의 클라우드 융합 아키텍처

@@ -1,6 +1,6 @@
 +++
 weight = 13
-title = "13. TOGAF 프레임워크 및 ADM"
+title = "13. TOGAF (The Open Group Architecture Framework) - ADM(Architecture Development Method) 기반 국제 표준 EA 프레임워크"
 description = "The Open Group에서 개발한 기업 아키텍처(EA) 표준 프레임워크 TOGAF와 핵심 반복 프로세스인 ADM 심층 분석"
 date = "2024-05-24"
 [taxonomies]

@@ -1,6 +1,6 @@
 +++
 weight = 355
-title = "355. 페이징의 메모리 보호 유효-무효 비트의 방어선"
+title = "355. 페이징의 메모리 보호 - 유효-무효 비트 (Valid-Invalid Bit)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

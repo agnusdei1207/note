@@ -1,5 +1,5 @@
 +++
-title = "208. 서비스 디스커버리 (Service Discovery)"
+title = "208. 서비스 디스커버리 (Service Discovery) 및 분산 클라우드 로드밸런싱"
 weight = 208
 +++
 # 208. 서비스 디스커버리 (Service Discovery) - 클라우드 분산 로드밸런싱 마이크로서비스(MSA) 쿠버네티스 동적 IP 관리 서비스 레지스트리

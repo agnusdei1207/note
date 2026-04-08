@@ -1,5 +1,5 @@
 +++
-title = "69. 데일리 스탠드업 (Daily Scrum)"
+title = "69. 데일리 스탠드업 (Daily Scrum) - 진행 상황 공유, 장애 파악"
 weight = 69
 +++
 

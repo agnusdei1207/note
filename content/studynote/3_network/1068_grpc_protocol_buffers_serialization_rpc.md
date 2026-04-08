@@ -1,5 +1,5 @@
 +++
-title = "1068. gRPC 및 프로토콜 버퍼"
+title = "1068. gRPC / 프로토콜 버퍼 직렬화"
 weight = 1068
 +++
 # 1068. gRPC / 프로토콜 버퍼 직렬화 - Google Remote Procedure Call 초고속 마이크로서비스 통신 바이너리 패킹 HTTP/2 멀티플렉싱 API 아키텍처

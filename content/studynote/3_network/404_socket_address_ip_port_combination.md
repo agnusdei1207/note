@@ -1,5 +1,5 @@
 +++
-title = "404. 소켓 주소 (Socket Address) = IP + 포트"
+title = "404. 소켓 주소 (Socket Address) = IP 주소 + 포트 번호"
 weight = 404
 +++
 

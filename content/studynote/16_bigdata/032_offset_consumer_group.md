@@ -1,6 +1,6 @@
 +++
 weight = 32
-title = "32. 오프셋 및 컨슈머 그룹"
+title = "32. YARN (Yet Another Resource Negotiator) — 자원 관리, Application Master / Container"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

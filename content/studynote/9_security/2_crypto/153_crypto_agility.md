@@ -1,5 +1,5 @@
 +++
-title = "153. Crypto Agility — 알고리즘 교체 능력, PQC 이전 준비"
+title = "153. .crypto agility — 알고리즘 교체 능력, PQC 이전 준비"
 date = "2026-04-05"
 weight = 153
 [extra]

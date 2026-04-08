@@ -1,5 +1,5 @@
 +++
-title = "410. TCP 헤더 길이 / 데이터 오프셋 (Data Offset)"
+title = "410. 헤더 길이/데이터 오프셋 (Data Offset, 4bit)"
 weight = 410
 +++
 

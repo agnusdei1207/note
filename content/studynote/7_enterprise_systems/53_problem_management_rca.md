@@ -1,5 +1,5 @@
 +++
-title = "53. 문제 관리 (Problem Management)"
+title = "53. 문제 관리 (Problem Management) - 인시던트의 근본 원인(Root Cause)을 찾아 영구적 해결책(Known Error) 제시"
 weight = 53
 +++
 

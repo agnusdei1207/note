@@ -1,6 +1,6 @@
 +++
 weight = 177
-title = "177. 간접 주소 지정 (Indirect Addressing)"
+title = "177. 간접 주소 지정 (Indirect)"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

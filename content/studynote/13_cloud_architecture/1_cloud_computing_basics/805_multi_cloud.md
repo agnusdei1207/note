@@ -1,6 +1,6 @@
 +++
 weight = 805
-title = "멀티 클라우드 (Multi-Cloud)"
+title = "805. 멀티 클라우드 (Multi-Cloud)"
 description = "멀티 클라우드의 정의, 전략적 가치, 도입 시 고려사항"
 date = 2026-03-26
 

@@ -1,5 +1,5 @@
 +++
-title = "328. LSM-Tree / 콤팩션"
+title = "328. OLAP (On-Line Analytical Processing) - 대용량 다차원 분석, 비정규화(스타 스키마), 읽기 위주"
 weight = 4328
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 119
-title = "119. MQTT QoS (Quality of Service) - 메시지 전송 품질 수준"
+title = "119. MQTT QoS (Quality of Service) - Level 0 (최대 1회, 유실 가능), Level 1 (최소 1회, 중복 가능), Level 2 (정확히 1회, 오버헤드 큼)"
 date = "2026-04-02"
 [extra]
 categories = "studynote-ict-convergence"

@@ -1,5 +1,5 @@
 +++
-title = "197. 버스트 에러 (Burst Error) 검출 능력"
+title = "197. 버스트 에러 (Burst Error) 검출 능력 유지"
 weight = 197
 +++
 

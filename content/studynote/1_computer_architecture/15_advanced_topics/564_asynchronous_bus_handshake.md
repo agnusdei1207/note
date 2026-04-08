@@ -1,5 +1,5 @@
 +++
-title = "비동기 버스 핸드셰이크 프로토콜 (Asynchronous Bus Handshaking)"
+title = "564. 비동기 버스 핸드셰이크 프로토콜"
 date = 2026-03-20
 weight = 564
 description = "서로 다른 클럭 속도를 가진 장치들이 공통의 클럭 없이 완벽하게 데이터를 주고받기 위해 신호를 상호 교환(Handshake)하는 통신 규약"

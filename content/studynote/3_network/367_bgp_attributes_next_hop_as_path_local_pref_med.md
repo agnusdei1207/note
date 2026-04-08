@@ -1,5 +1,5 @@
 +++
-title = "367. BGP 속성(Attributes)과 정책 제어"
+title = "367. BGP 속성(Attributes) - NEXT_HOP, AS_PATH, LOCAL_PREF, MED"
 weight = 367
 +++
 

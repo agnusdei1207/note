@@ -1,5 +1,5 @@
 +++
-title = "177. 뷰 머징 (View Merging)"
+title = "177. 뷰 머징 (View Merging) - 옵티마이저의 쿼리 변환 (인라인 뷰를 메인 쿼리에 병합)"
 weight = 177
 +++
 # 177. 뷰 머징 (View Merging)

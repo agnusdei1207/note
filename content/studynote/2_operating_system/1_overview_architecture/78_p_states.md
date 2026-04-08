@@ -7,7 +7,7 @@ categories = "studynote-operating-system"
 +++
 
 ---
-title: "프로세서 성능 상태 (P-States)"
+title = "78. 프로세서 성능 상태 (P-States)"
 date: 2025-03-24
 draft: false
 ---

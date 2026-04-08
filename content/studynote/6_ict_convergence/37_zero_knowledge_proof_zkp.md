@@ -1,5 +1,5 @@
 +++
-title = "37. 영지식 증명 (ZKP, Zero-Knowledge Proof)"
+title = "37. 영지식 증명 (ZKP, Zero-Knowledge Proof) - 비밀을 공개하지 않고도 그 비밀을 안다는 것을 증명 (Zcash 등 프라이버시 보호)"
 weight = 37
 +++
 

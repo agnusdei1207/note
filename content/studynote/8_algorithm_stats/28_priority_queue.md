@@ -1,5 +1,5 @@
 +++
-title = "28. 우선순위 큐 (Priority Queue)"
+title = "28. 정렬 안정성 (Stability) — 동일 키 순서 유지 여부"
 weight = 28
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 610
-title = "헥사고날 아키텍처"
+title = "610. MVC, MVP, MVVM 프론트엔드 패턴 진화"
 description = "헥사고날 아키텍처(Ports and Adapters)의 개념과 클린 아키텍처와의 관계"
 date = 2024-01-23
 

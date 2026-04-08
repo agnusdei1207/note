@@ -1,5 +1,5 @@
 +++
-title = "628. 살충제 패러독스 (Pesticide Paradox) 테스트 갱신"
+title = "628. 살충제 패러독스 테스트 갱신"
 date = "2026-04-07"
 [extra]
 categories = "studynote-se"

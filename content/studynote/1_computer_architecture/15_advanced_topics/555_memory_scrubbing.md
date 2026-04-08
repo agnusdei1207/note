@@ -1,5 +1,5 @@
 +++
-title = "메모리 스크러빙 (Memory Scrubbing)"
+title = "555. 메모리 스크러빙 (Memory Scrubbing)"
 date = 2026-03-20
 weight = 555
 description = "서버의 메모리를 주기적으로 스캔하여, 쌓여 있는 소프트 에러를 찾아내고 고치고 다시 기록함으로써 치명적인 이중 오류(Double Error)로 번지는 것을 막는 백그라운드 관리 작업"

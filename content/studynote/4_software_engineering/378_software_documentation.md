@@ -1,5 +1,5 @@
 +++
-title = "378. 소프트웨어 문서화 (Documentation)"
+title = "378. 소프트웨어 문서화 (Documentation) 표준 및 지식 관리 (Wiki, Confluence)"
 date = 2026-04-05
 weight = 378
 +++

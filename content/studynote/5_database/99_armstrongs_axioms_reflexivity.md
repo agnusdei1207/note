@@ -1,5 +1,5 @@
 +++
-title = "99. 암스트롱의 공리 (Armstrong's Axioms)"
+title = "99. 암스트롱의 공리 (Armstrong's Axioms) - 반사의 공리, 첨가의 공리, 이행의 공리"
 weight = 99
 +++
 

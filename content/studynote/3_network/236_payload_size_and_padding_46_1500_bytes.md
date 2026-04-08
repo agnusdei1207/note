@@ -1,5 +1,5 @@
 +++
-title = "236. 페이로드 크기 (46 ~ 1500 bytes) 및 패딩 (Padding)"
+title = "236. 페이로드 크기 (46 ~ 1500 bytes), 패딩(Padding)"
 weight = 236
 +++
 

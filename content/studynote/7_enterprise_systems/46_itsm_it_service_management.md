@@ -1,5 +1,5 @@
 +++
-title = "46. ITSM (IT Service Management) - SLA 기반 운영"
+title = "46. ITSM (IT Service Management) - IT 서비스를 비즈니스 요구에 맞게 제공 및 관리 (SLA 기반 운영)"
 weight = 46
 +++
 

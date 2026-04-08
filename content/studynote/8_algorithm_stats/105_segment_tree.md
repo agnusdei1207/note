@@ -1,5 +1,5 @@
 +++
-title = "105. 세그먼트 트리 (Segment Tree)"
+title = "105. 정점 커버 (Vertex Cover) — NP-완전"
 weight = 105
 +++
 

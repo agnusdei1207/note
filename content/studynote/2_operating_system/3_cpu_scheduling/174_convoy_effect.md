@@ -1,6 +1,6 @@
 +++
 weight = 174
-title = "174. 호위 효과 (Convoy Effect)"
+title = "174. 호위 효과 (Convoy Effect) - FCFS의 단점"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

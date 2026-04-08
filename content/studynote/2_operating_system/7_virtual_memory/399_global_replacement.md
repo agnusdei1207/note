@@ -1,6 +1,6 @@
 +++
 weight = 399
-title = "399. 전역 교체 (Global Replacement) 약육강식의 메모리 생태계"
+title = "399. 전역 교체 (Global Replacement) - 전체 프로세스 프레임 대상 (처리량 높음, 주로 사용)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

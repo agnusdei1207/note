@@ -1,5 +1,5 @@
 +++
-title = "587. 에이전틱 AI (Agentic AI) 시스템 - 도구 직접 호출 모듈"
+title = "587. 에이전틱 AI (Agentic AI) 시스템 - 도구(Tool)를 직접 호출하는 자율형 SW 모듈 설계"
 +++
 
 # 587. 에이전틱 AI (Agentic AI) 시스템 - 도구(Tool)를 직접 호출하는 자율형 SW 모듈 설계

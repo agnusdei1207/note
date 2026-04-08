@@ -1,5 +1,5 @@
 +++
-title = "116. 매핑 룰 (Mapping Rule) - ERD 변환"
+title = "116. 매핑 룰 (Mapping Rule) - 개념적 모델(ERD)을 논리 모델(릴레이션)로 변환하는 규칙"
 weight = 116
 +++
 

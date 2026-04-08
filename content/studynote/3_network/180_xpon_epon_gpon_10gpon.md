@@ -1,5 +1,5 @@
 +++
-title = "180. xPON (수동형 광 가입자망) - EPON, GPON"
+title = "180. xPON (Passive Optical Network) - EPON, GPON, 10G-PON"
 weight = 180
 +++
 

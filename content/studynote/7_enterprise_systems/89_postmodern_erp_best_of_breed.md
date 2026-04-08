@@ -1,5 +1,5 @@
 +++
-title = "89. 포스트 모던 ERP (Postmodern ERP)"
+title = "89. 포스트 모던 ERP (Postmodern ERP) - 거대하고 무거운 단일 모놀리식 벤더 중심에서 벗어나, 코어 ERP와 각 부문별 최적의 SaaS(HR, CRM 등) 솔루션을 느슨하게 결합하는 차세대 전략"
 weight = 89
 +++
 

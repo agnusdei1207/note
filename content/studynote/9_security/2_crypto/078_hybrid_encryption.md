@@ -1,6 +1,6 @@
 +++
 weight = 78
-title = "81. 하이브리드 암호 (Hybrid Encryption)"
+title = "78. 하이브리드 암호 — 대칭+비대칭 결합 (키 교환+데이터 암호화)"
 description = "대칭키 암호와 비대칭키 암호의 장점을 결합한 암호 시스템"
 date = 2026-03-26
 

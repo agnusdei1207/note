@@ -1,5 +1,5 @@
 +++
-title = "1061. BGP RPKI 라우팅 보안"
+title = "1061. BGP RPKI 라우팅 보안 망"
 weight = 1061
 +++
 # 1061. BGP RPKI 라우팅 보안 망 - Resource Public Key Infrastructure BGP 라우팅 하이재킹 차단 경로 검증 BGPsec 

@@ -1,6 +1,6 @@
 +++
 weight = 30
-title = "030. 스플릿 브레인(Split Brain)과 Quorum(정족수) 방어 체계"
+title = "30. 스플릿 브레인 (Split Brain) 장애와 Quorum(정족수 과반 투표) 방어망 체계"
 date = "2026-04-05"
 [extra]
 categories = "studynote-data-engineering"

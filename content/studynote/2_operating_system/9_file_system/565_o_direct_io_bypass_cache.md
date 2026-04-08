@@ -1,6 +1,6 @@
 +++
 weight = 565
-title = "565. Direct I/O (O_DIRECT) - OS 버스 훔쳐 타기 폭주"
+title = "565. Direct I/O (O_DIRECT) - OS 캐시를 우회하여 데이터베이스 등의 자체 캐싱 최적화"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

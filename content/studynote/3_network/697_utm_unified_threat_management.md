@@ -1,5 +1,5 @@
 +++
-title = "697. UTM 통합 위협 관리 장비"
+title = "697. UTM (Unified Threat Management 패키징 통합형 장비)"
 weight = 697
 +++
 # 697. UTM (Unified Threat Management) - 패키징 통합형 보안 장비

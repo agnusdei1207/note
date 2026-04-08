@@ -1,5 +1,5 @@
 +++
-title = "578. 802.11be (Wi-Fi 7)"
+title = "578. 802.11be (Wi-Fi 7) - 320MHz 초광대역폭 채널, 4K-QAM 적용, MLO (Multi-Link Operation, 동시 다중링크 작동) 초저지연"
 weight = 578
 +++
 # 578. 802.11be (Wi-Fi 7) - 320MHz, 4K-QAM, MLO (초저지연)

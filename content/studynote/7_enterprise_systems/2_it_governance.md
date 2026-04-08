@@ -1,6 +1,6 @@
 +++
 weight = 2
-title = "02. IT 거버넌스 (IT Governance) 프레임워크와 이사회 책임"
+title = "2. IT 거버넌스 (IT Governance) - IT가 기업 전략과 목표를 주도하고 지원하도록 하는 이사회/경영진의 책임/프레임워크"
 description = "IT 투자가 비즈니스 가치를 창출하고 위험을 통제하도록 보장하는 IT 거버넌스의 개념, 체계 및 구축 전략"
 date = "2026-03-04"
 [taxonomies]

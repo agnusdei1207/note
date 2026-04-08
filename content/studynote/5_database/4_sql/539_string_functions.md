@@ -1,6 +1,6 @@
 +++
 weight = 39
-title = "문자열 함수 (String Functions)"
+title = "539. 마스터 데이터(MDM) 중복 배제 통합 기준 관리 체계"
 description = "주요 SQL 문자열 함수"
 date = 2026-03-26
 

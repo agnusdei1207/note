@@ -1,6 +1,6 @@
 +++
 weight = 38
-title = "038. 와이드 컬럼 저장소 (Wide-Column Store)"
+title = "38. 컬럼 패밀리 저장소 (Wide-Column) - HBase, Cassandra (수십억 행의 시계열 로깅 데이터 쓰기 최적화)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-data-engineering"

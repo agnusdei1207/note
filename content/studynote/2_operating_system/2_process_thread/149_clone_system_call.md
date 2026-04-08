@@ -1,6 +1,6 @@
 +++
 weight = 149
-title = "clone 시스템 콜"
+title = "149. 클론 (clone) 시스템 콜 (리눅스 프로세스/스레드 생성 범용 API)"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

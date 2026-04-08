@@ -1,6 +1,6 @@
 +++
 weight = 37
-title = "037. 서포트 벡터 머신-커널 트릭 (Kernel Trick)"
+title = "37. 원-핫 인코딩 (One-Hot Encoding) - 범주형 데이터를 0과 1의 벡터로 변환"
 date = "2026-04-05"
 [extra]
 categories = "studynote-ai"

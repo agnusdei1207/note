@@ -1,5 +1,5 @@
 +++
-title = "198. Key Usage 확장 digitalSignature keyEncipherment"
+title = "198. Key Usage 확장 — digitalSignature/keyEncipherment/codeSigning"
 date = "2026-04-07"
 [extra]
 categories = "studynote-security"

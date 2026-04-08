@@ -1,6 +1,6 @@
 +++
 weight = 549
-title = "549. ACL (Access Control List) - 핀셋형 권한 제어와 SRE 통치 룰"
+title = "549. ACL (Access Control List) 확장을 통한 세밀한 사용자별 파일 권한 통제"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

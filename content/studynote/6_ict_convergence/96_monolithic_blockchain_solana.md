@@ -1,5 +1,5 @@
 +++
-title = "96. 모놀리식 블록체인 (Monolithic Blockchain)"
+title = "96. 모놀리식 블록체인 (Monolithic Blockchain) - 모든 작업을 단일 체인(솔라나, 앱토스 등)에서 처리"
 weight = 96
 +++
 

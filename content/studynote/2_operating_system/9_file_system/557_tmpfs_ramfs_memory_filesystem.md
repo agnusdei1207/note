@@ -1,6 +1,6 @@
 +++
 weight = 557
-title = "557. 임시 파일 시스템 (tmpfs / ramfs) - RAM 메모리 상주 극초음속 환상 디스크"
+title = "557. 임시 파일 시스템 (tmpfs / ramfs) - 메모리 상주 파일 시스템"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

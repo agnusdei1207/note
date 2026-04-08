@@ -1,5 +1,5 @@
 +++
-title = "679. OCSP (온라인 인증서 상태 프로토콜)"
+title = "679. OCSP (Online Certificate Status Protocol) - 실시간 인증서 상태 응답 검사 체계"
 weight = 679
 +++
 # 679. OCSP (Online Certificate Status Protocol) - 실시간 인증서 상태 응답 검사 체계

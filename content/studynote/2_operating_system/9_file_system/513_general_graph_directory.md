@@ -1,6 +1,6 @@
 +++
 weight = 513
-title = "513. 일반 그래프 디렉터리 (General Graph Directory)"
+title = "513. 일반 그래프 디렉터리 (순환 허용) - 무한 루프 탐색 방지 알고리즘 (가비지 컬렉션 필요)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

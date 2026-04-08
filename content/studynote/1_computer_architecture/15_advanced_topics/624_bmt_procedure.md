@@ -1,5 +1,5 @@
 +++
-title = "BMT (Bench Mark Test) 절차 및 평가 항목"
+title = "624. BMT (Bench Mark Test) 절차 및 평가 항목"
 date = 2026-03-20
 weight = 624
 description = "기업이나 공공기관이 수백억 원짜리 하드웨어(서버, 스토리지)를 도입하기 전, 실제 환경과 동일한 조건에서 장비의 성능과 안정성을 객관적으로 검증하는 테스트 절차"

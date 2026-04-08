@@ -1,5 +1,5 @@
 +++
-title = "420. 화이트박스 테스트 (White-box Testing)"
+title = "420. 화이트박스 테스트 (White-box Test / 구조 기반 테스트) - 소스코드의 내부 논리 구조를 모두 검증"
 date = 2026-04-05
 weight = 420
 +++

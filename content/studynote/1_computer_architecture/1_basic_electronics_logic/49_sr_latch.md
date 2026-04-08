@@ -1,6 +1,6 @@
 +++
 weight = 49
-title = "49. SR 래치 (SR Latch)"
+title = "49. SR 래치"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

@@ -1,6 +1,6 @@
 +++
 weight = 309
-title = "309. 프로세스 순차 종료 방식 (Abort One-by-One)"
+title = "309. 프로세스 순차 종료 방식 - 하나씩 종료하며 사이클 해소 여부 확인"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

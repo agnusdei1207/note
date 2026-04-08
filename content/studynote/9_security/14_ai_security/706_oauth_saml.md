@@ -1,6 +1,6 @@
 +++
 weight = 6
-title = "OAuth와 SAML"
+title = "706. Kerberoasting — SPN 요청 티켓 hash 추출"
 description = "권한 위임 프로토콜 OAuth 2.0과 인증 프레임워크 SAML 2.0의 원리와 보안"
 date = 2024-01-15
 +++

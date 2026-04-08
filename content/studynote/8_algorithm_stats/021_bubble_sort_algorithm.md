@@ -1,6 +1,6 @@
 +++
 weight = 21
-title = "021. 거품 정렬 (Bubble Sort) 알고리즘"
+title = "21. 퀵 정렬 최적화 — 3-way Partition, Median-of-3 Pivot"
 date = "2026-04-02"
 [extra]
 categories = "studynote-algorithm"

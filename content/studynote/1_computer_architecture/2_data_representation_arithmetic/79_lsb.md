@@ -1,6 +1,6 @@
 +++
 weight = 79
-title = "79. LSB (Least Significant Bit, 최하위 비트)"
+title = "79. LSB (Least Significant Bit)"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

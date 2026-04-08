@@ -1,5 +1,5 @@
 +++
-title = "657. SEED, ARIA, LEA"
+title = "657. SEED, ARIA, LEA - 대한민국의 표준 블록/경량 암호 방식 체계"
 weight = 657
 +++
 # 657. SEED, ARIA, LEA - 대한민국 표준 암호 체계

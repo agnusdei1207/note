@@ -1,5 +1,5 @@
 +++
-title = "AMD Cool'n'Quiet (쿨앤콰이어트)"
+title = "729. AMD Cool'n'Quiet"
 date = 2026-03-20
 weight = 729
 description = "인텔의 스피드스텝에 맞서 AMD가 데스크톱 프로세서에 세계 최초로 대중화시킨, 성능과 소음(발열)을 동시에 잡은 지능형 클럭/전압 스케일링 기술"

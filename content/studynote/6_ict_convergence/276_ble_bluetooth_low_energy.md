@@ -1,5 +1,5 @@
 +++
-title = "276. BLE (블루투스 저전력, Bluetooth Low Energy)"
+title = "276. RAG (Retrieval-Augmented Generation / 검색 증강 생성) - 할루시네이션 극복 아키텍처. 사용자 질문 수신 시 ①외부 사내 DB/문서에서 관련 문단 검색(Retrieve) -> ②검색된 문단을 프롬프트에 주입(Augment) -> ③LLM이 참조하여 답변 생성(Generate)"
 weight = 276
 +++
 

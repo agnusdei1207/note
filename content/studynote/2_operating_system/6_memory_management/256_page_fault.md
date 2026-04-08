@@ -1,6 +1,6 @@
 +++
 weight = 256
-title = "256. 페이지 폴트 (Page Fault)"
+title = "256. 락-프리 (Lock-free) 자료구조 - CAS 연산 적극 활용"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

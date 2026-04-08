@@ -1,5 +1,5 @@
 +++
-title = "NVMe 오버 패브릭 (NVMe-oF)"
+title = "521. NVMe 오버 패브릭 (NVMe-oF)"
 date = 2026-03-20
 weight = 521
 description = "서버 내부에 꽂혀 있던 초고속 NVMe SSD를 네트워크 밖으로 빼내어, 여러 서버가 원격으로 공유하면서도 마치 로컬 디스크처럼 빠른 속도를 유지하는 스토리지 프로토콜"

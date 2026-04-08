@@ -1,6 +1,6 @@
 +++
 weight = 298
-title = "298. 안전 상태와 불안전 상태 (Safe State / Unsafe State)"
+title = "298. 안전 상태 (Safe State) - 모든 프로세스가 정상 종료될 수 있는 안전 순서(Safe Sequence)가 존재"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

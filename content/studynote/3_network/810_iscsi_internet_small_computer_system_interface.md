@@ -1,5 +1,5 @@
 +++
-title = "810. iSCSI (IP 기반 스토리지)"
+title = "810. iSCSI (Internet Small Computer System Interface) - IP망 기반 스토리지 블록 전송 통신망 표준"
 weight = 810
 +++
 # 810. iSCSI (Internet Small Computer System Interface) - IP망 기반 스토리지 블록 전송 통신망 표준

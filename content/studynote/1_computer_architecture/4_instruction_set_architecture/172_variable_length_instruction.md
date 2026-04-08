@@ -1,6 +1,6 @@
 +++
 weight = 172
-title = "172. 가변 길이 명령어 (Variable-Length Instruction)"
+title = "172. 가변 길이 명령어"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

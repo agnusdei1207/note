@@ -1,5 +1,5 @@
 +++
-title = "210. SR ARQ (Selective Repeat)"
+title = "210. SR ARQ (Selective Repeat ARQ) - 오류 프레임만 재전송, 수신측 버퍼링 복잡"
 weight = 210
 +++
 

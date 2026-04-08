@@ -1,5 +1,5 @@
 +++
-title = "PL1, PL2 (Power Limit 1, 2)"
+title = "734. PL1, PL2 (Power Limit 1, 2)"
 date = 2026-03-20
 weight = 734
 description = "현대 CPU가 터보 부스트를 터뜨릴 때, 메인보드가 파괴되지 않도록 '얼마나 많은 전기를', '얼마나 오랫동안' 끌어 쓸 수 있는지 허락해 주는 전력 제한 규격"

@@ -1,6 +1,6 @@
 +++
 weight = 2
-title = "02. Web 3.0 (Read-Write-Own) 아키텍처 및 탈중앙화"
+title = "2. Web 3.0 (Read-Write-Own) - 탈중앙화(Decentralization)와 개인 소유권 보장 웹"
 description = "플랫폼의 데이터 독점을 넘어 사용자가 직접 데이터를 소유하고 통제하는 Web 3.0의 탈중앙화 아키텍처와 블록체인 융합 메커니즘을 분석합니다."
 date = "2024-05-18"
 [taxonomies]

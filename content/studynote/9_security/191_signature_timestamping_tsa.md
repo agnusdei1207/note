@@ -1,5 +1,5 @@
 +++
-title = "191. 서명 타임스탬프 TSA (Time Stamping Authority)"
+title = "191. 서명 타임스탬프 —TSA (Time Stamping Authority)"
 date = "2026-04-07"
 [extra]
 categories = "studynote-security"

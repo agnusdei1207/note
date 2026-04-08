@@ -1,6 +1,6 @@
 +++
 weight = 546
-title = "546. 데이터 중복 제거 (Data Deduplication) - 스토리지 압축"
+title = "546. 데이터 중복 제거 (Data Deduplication) 파일 시스템 기능"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

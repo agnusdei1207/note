@@ -1,5 +1,5 @@
 +++
-title = "259. 래프트 (Raft) / 팍소스 (Paxos) 알고리즘"
+title = "259. 래프트 (Raft) / 팍소스 (Paxos) 알고리즘 - 분산 DB 리더 선출 및 로그 복제 합의 (Consensus)"
 weight = 259
 +++
 

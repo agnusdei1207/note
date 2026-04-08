@@ -1,5 +1,5 @@
 +++
-title = "27. ICO / STO / IEO (토큰 자금 조달 방식)"
+title = "27. ICO (Initial Coin Offering) / STO (Security Token Offering, 증권형 토큰 발행) / IEO"
 weight = 27
 +++
 

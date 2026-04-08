@@ -1,6 +1,6 @@
 +++
 weight = 582
-title = "582. WPA2 (Wi-Fi Protected Access II) - 무결점 AES-CCMP 기반 암호화 및 4-Way Handshake"
+title = "582. WPA2 (AES-CCMP 기반) 강력 암호화, 개인용(PSK)/기업용(Enterprise/RADIUS)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

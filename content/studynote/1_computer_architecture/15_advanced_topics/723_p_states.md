@@ -1,5 +1,5 @@
 +++
-title = "P-States (Performance States)"
+title = "723. P-States (Performance States)"
 date = 2026-03-20
 weight = 723
 description = "CPU가 작업을 수행하고 있는(Active, C0) 도중에, 작업의 부하량에 맞춰 전압과 클럭 주파수를 실시간으로 오르내리며 성능과 전력 소모의 균형을 맞추는 상태"

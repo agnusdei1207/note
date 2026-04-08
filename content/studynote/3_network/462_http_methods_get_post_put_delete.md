@@ -1,6 +1,6 @@
 +++
 weight = 462
-title = "462. HTTP 메서드 (HTTP Methods)"
+title = "462. HTTP 메서드 (GET, POST, PUT, DELETE, PATCH, OPTIONS, HEAD, TRACE)"
 date = "2026-04-02"
 [extra]
 categories = "studynote-network"

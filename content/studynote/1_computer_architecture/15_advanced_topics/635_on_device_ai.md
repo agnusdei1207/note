@@ -1,5 +1,5 @@
 +++
-title = "온디바이스 AI (On-Device AI) 하드웨어 제약"
+title = "635. 온디바이스 AI (On-Device AI)"
 date = 2026-03-20
 weight = 635
 description = "스마트폰, 태블릿 등 사용자 기기 자체에서 거대 언어 모델(LLM)이나 생성형 AI를 오프라인으로 돌리기 위해 요구되는 메모리와 발열 관리의 극한적 한계점들"

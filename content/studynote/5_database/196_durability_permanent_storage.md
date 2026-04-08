@@ -1,5 +1,5 @@
 +++
-title = "196. 영속성 (Durability)"
+title = "196. 영속성 (Durability) - 성공 완료된 트랜잭션 결과는 영구 반영 - 회복(Recovery) 관리자가 보장"
 weight = 196
 +++
 # 196. 영속성 (Durability) - 지속성 성공 완료 트랜잭션 영구 반영 데이터베이스 회복(Recovery) 관리자 Redo 재실행 디스크 쓰기 보장

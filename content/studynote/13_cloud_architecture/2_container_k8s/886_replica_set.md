@@ -1,6 +1,6 @@
 +++
 weight = 886
-title = "86. 레플리카셋 (ReplicaSet)"
+title = "886. 레플리카셋 (ReplicaSet)"
 description = "ReplicaSet: 지정된数量的 동일한 파드가 항상 실행되도록 보장하는 쿠버네티스 컨트롤러"
 date = 2026-03-26
 

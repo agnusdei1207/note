@@ -1,5 +1,5 @@
 +++
-title = "568. 로그 (Logs) - 분산 로그 수집 (ELK Stack / Fluentd)"
+title = "568. 로그 (Logs) - 분산 로그 수집 (ELK Stack - Elasticsearch, Logstash, Kibana / Fluentd)"
 +++
 
 # 568. 로그 (Logs) - 분산 로그 수집 (ELK Stack - Elasticsearch, Logstash, Kibana / Fluentd)

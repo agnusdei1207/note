@@ -1,5 +1,5 @@
 +++
-title = "073. Enigma — 독일 제2차 세계대전 기계식 암호"
+title = "73. Enigma — 독일 제2차 세계대전 기계식 암호"
 date = "2026-04-05"
 weight = 73
 [extra]

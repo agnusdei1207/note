@@ -1,5 +1,5 @@
 +++
-title = "200. SAVEPOINT 명령어"
+title = "200. SAVEPOINT - 트랜잭션 내 중간 복구 지점 설정"
 weight = 200
 +++
 # 200. SAVEPOINT - 트랜잭션 내 중간 복구 지점 설정 세이브포인트 부분 롤백 ROLLBACK TO TCL 트랜잭션 성능 최적화 대규모 연산 제어

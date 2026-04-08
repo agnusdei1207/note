@@ -1,5 +1,5 @@
 +++
-title = "457. QUIC 연결 마이그레이션 (Connection Migration)"
+title = "457. QUIC 연결 마이그레이션 (Connection Migration) - IP 변경시에도 연결 유지 (Connection ID)"
 weight = 457
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 311
-title = "311. 자원 선점 (Resource Preemption) 방식"
+title = "311. 자원 선점 (Resource Preemption) 방식 - 다른 프로세스의 자원을 강제로 뺏음"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

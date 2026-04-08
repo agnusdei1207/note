@@ -1,5 +1,5 @@
 +++
-title = "306. VLSM (Variable Length Subnet Mask)"
+title = "306. VLSM (Variable Length Subnet Mask) - 가변 길이 서브넷 마스크"
 weight = 306
 +++
 

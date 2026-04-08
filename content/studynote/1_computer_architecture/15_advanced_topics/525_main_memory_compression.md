@@ -1,5 +1,5 @@
 +++
-title = "메인 메모리 압축 기술 (Main Memory Compression)"
+title = "525. 메인 메모리 압축 기술"
 date = 2026-03-20
 weight = 525
 description = "DRAM의 용량 한계와 대역폭 병목을 극복하기 위해, 메모리에 데이터를 저장하기 전 하드웨어적으로 압축하여 효율을 극대화하는 기법"

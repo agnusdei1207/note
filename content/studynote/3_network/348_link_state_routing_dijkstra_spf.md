@@ -1,5 +1,5 @@
 +++
-title = "348. 링크 상태 (Link State) - 다익스트라 (SPF)"
+title = "348. 링크 상태 (Link State) 라우팅 알고리즘 - 다익스트라(Dijkstra) 기반 (최단경로/SPF)"
 weight = 348
 +++
 

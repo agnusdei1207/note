@@ -1,5 +1,5 @@
 +++
-title = "701. 도청 (Sniffing, Eavesdropping)"
+title = "701. 도청 (Sniffing, Eavesdropping) 네트워크 토폴로지 취약 (프론미스큐어스 모드, 스위치 잼 체계 해소)"
 weight = 701
 +++
 # 701. 도청 (Sniffing, Eavesdropping) 네트워크 토폴로지 취약점

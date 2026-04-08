@@ -1,6 +1,6 @@
 +++
 weight = 60
-title = "60. 챗옵스 (ChatOps)"
+title = "60. DevOps ROI (투자 수익률) 측정 지표"
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

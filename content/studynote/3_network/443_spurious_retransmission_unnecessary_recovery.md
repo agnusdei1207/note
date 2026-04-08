@@ -1,5 +1,5 @@
 +++
-title = "443. 불필요한 재전송 (Spurious Retransmission)"
+title = "443. 불필요한 재전송 (Spurious Retransmission) 해결 방안"
 weight = 443
 +++
 

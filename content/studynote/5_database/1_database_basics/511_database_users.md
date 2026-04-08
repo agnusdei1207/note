@@ -1,6 +1,6 @@
 +++
 weight = 511
-title = "데이터베이스 사용자 (Database Users)"
+title = "511. 옵티마이저 힌트 사용 인덱스 강제 접근"
 description = "데이터베이스 사용자의 유형과 역할"
 date = 2026-03-26
 

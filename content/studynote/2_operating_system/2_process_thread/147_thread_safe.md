@@ -1,6 +1,6 @@
 +++
 weight = 147
-title = "스레드 안전 함수 및 라이브러리"
+title = "147. 스레드 안전 (Thread-safe) 함수 및 라이브러리"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

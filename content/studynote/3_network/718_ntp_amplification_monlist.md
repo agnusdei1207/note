@@ -1,5 +1,5 @@
 +++
-title = "718. NTP 증폭 (monlist 악용)"
+title = "718. NTP 증폭 (monlist 모니터 목록 명령 악용/수백배 반사)"
 weight = 718
 +++
 # 718. NTP 증폭 (monlist 모니터 목록 명령 악용)

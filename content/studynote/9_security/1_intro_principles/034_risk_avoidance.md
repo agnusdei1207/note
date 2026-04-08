@@ -1,6 +1,6 @@
 +++
 weight = 34
-title = "034. 위험 회피 (Risk Avoidance)"
+title = "34. 위험 회피 (Risk Avoidance) — 위험 원천 제거"
 date = "2026-04-05"
 [extra]
 categories = "studynote-security"

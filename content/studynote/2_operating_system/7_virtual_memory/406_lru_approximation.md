@@ -1,6 +1,6 @@
 +++
 weight = 406
-title = "406. LRU 근사 알고리즘 (LRU Approximation) 이상을 쫓는 현실의 타협"
+title = "406. LRU 근사 알고리즘 (LRU Approximation) - 참조 비트 (Reference Bit) 사용"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

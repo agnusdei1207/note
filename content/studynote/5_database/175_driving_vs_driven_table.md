@@ -1,5 +1,5 @@
 +++
-title = "175. 드라이빙 테이블 vs 드리븐 테이블"
+title = "175. 드라이빙 테이블 (Driving Table / Outer Table) vs 드리븐 테이블 (Driven Table / Inner Table)"
 weight = 175
 +++
 # 175. 드라이빙 테이블 (Driving Table) vs 드리븐 테이블 (Driven Table)

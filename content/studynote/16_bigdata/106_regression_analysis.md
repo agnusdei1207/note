@@ -1,6 +1,6 @@
 +++
 weight = 106
-title = "106. 회귀 분석 (Regression Analysis)"
+title = "106. 텍스트 마이닝 (Text Mining) — TF-IDF / Word2Vec / BERT / LLM"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

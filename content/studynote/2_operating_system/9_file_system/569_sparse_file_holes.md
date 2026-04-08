@@ -1,6 +1,6 @@
 +++
 weight = 569
-title = "569. 스파스 파일 (Sparse File) - 하드 없는 용량 사기 렌더"
+title = "569. 스파스 파일 (Sparse File) 저장 공간 절약 기술"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

@@ -1,5 +1,5 @@
 +++
-title = "416. TCP 3-Way Handshake - 연결 설정"
+title = "416. TCP 3-Way Handshake - 연결 설정 과정 (SYN -> SYN/ACK -> ACK)"
 weight = 416
 +++
 

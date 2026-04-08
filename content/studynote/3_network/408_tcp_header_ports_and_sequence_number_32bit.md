@@ -1,5 +1,5 @@
 +++
-title = "408. 소스/목적지 포트 번호와 시퀀스 넘버"
+title = "408. 소스/목적지 포트 번호, 일련번호 (Sequence Number, 32bit)"
 weight = 408
 +++
 

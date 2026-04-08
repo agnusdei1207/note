@@ -1,6 +1,6 @@
 +++
 weight = 31
-title = "031. 교차 검증 (Cross Validation)"
+title = "31. 독립 변수 (Independent Variable / Feature) / 종속 변수 (Dependent Variable / Target/Label)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-ai"

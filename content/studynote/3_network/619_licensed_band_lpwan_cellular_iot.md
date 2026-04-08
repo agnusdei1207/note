@@ -1,5 +1,5 @@
 +++
-title = "619. 면허 대역 LPWAN 분야"
+title = "619. 면허 대역 LPWAN 분야 (이동통신사 기반형 IoT)"
 weight = 619
 +++
 # 619. 면허 대역 LPWAN 분야 (이동통신사 기반형 IoT)

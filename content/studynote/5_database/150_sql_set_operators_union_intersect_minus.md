@@ -1,6 +1,6 @@
 +++
 weight = 150
-title = "집합 연산자 - UNION, INTERSECT, MINUS (EXCEPT)"
+title = "150. 집합 연산자 - UNION (중복 제거 합집합), UNION ALL (중복 포함 합집합), INTERSECT, MINUS/EXCEPT"
 description = "서로 다른 두 개의 SELECT 쿼리 결과(덩어리)를 조인(Join)의 가로 확장이 아닌 '세로'로 무식하게 얹어 붙이거나, 교집합과 차집합을 수학의 벤 다이어그램처럼 가장 원초적으로 썰어내는 관계 대수의 지배자"
 date = 2026-04-03
 [taxonomies]

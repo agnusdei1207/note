@@ -1,6 +1,6 @@
 +++
 weight = 15
-title = "15. ITA (Information Technology Architecture)"
+title = "15. ITA (Information Technology Architecture) - 과거 EA와 동의어로 쓰이던 용어 (법제화 명칭)"
 description = "정보시스템의 효율적 도입 및 상호운용성을 위한 정보기술아키텍처(ITA)의 개념, 법제화 의의 및 EA와의 관계 심층 분석"
 date = "2024-05-24"
 [taxonomies]

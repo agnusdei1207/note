@@ -1,6 +1,6 @@
 +++
 weight = 563
-title = "563. 플래시 전용 파일 시스템 (F2FS) - 자석 모터의 저주를 깬 반도체 파일 렌더"
+title = "563. 플래시 전용 파일 시스템 (F2FS, JFFS2, YAFFS) 특성 분석"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

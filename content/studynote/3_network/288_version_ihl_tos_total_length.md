@@ -1,5 +1,5 @@
 +++
-title = "288. 버전(VER), 헤더 길이(IHL), TOS(DSCP), 전체 길이"
+title = "288. 버전 (IV), 헤더 길이 (IHL), 서비스 타입 (TOS/DSCP), 전체 길이 (Total Length)"
 weight = 288
 +++
 

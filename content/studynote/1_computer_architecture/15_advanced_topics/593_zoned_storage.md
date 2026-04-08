@@ -1,5 +1,5 @@
 +++
-title = "존 스토리지 (Zoned Storage / ZNS SSD)"
+title = "593. 존 스토리지 (Zoned Storage)"
 date = 2026-03-20
 weight = 593
 description = "거대한 저장 공간을 여러 개의 구역(Zone)으로 나누고, 반드시 순차적으로만 데이터를 쓰게 강제하여 SSD의 수명과 속도를 극대화하는 차세대 스토리지 아키텍처"

@@ -1,5 +1,5 @@
 +++
-title = "60. 하이퍼바이저 우회/탈출 (Hypervisor Escape) VM 보안 위협"
+title = "60. 하이퍼바이저 우회/탈출 (Hypervisor Escape) 보안 위협"
 date = "2026-04-07"
 [extra]
 categories = "studynote-cloud"

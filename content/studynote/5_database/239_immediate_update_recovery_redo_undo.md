@@ -1,5 +1,5 @@
 +++
-title = "239. 즉시 갱신 (Immediate Update)"
+title = "239. 즉시 갱신 (Immediate Update) - 트랜잭션 도중에도 DB 기록, 회복 시 Redo와 Undo 모두 필요"
 weight = 239
 +++
 # 239. 즉시 갱신 (Immediate Update) - 로그 기반 회복 상용 DBMS 표준 실시간 디스크 반영 Redo Undo 병행 원자성 영속성 오버헤드 완화

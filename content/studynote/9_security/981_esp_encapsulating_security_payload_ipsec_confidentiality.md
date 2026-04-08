@@ -1,5 +1,5 @@
 +++
-title = "981. ESP (보안 페이로드 캡슐화)"
+title = "981. LLM06: Sensitive Information Disclosure — 훈련 데이터 유출"
 weight = 981
 +++
 

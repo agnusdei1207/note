@@ -1,6 +1,6 @@
 +++
 weight = 600
-title = "600. RFID와 NFC - 근거리 자기장 통신과 보안 결제(Payment) 아키텍처의 혁명"
+title = "600. RFID / NFC 프로토콜 기본 구상"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

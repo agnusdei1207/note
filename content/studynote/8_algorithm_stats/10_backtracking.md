@@ -1,5 +1,5 @@
 +++
-title = "10. 백트래킹 (Backtracking)"
+title = "10. 백트래킹 (Backtracking) — 가지치기"
 weight = 10
 +++
 

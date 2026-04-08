@@ -1,6 +1,6 @@
 +++
 weight = 75
-title = "78. 현대 암호학 기본 가정 (Computationally Infeasible)"
+title = "75. 현대 암호학 기본 가정 — computationally infeasible"
 description = "현대 암호算法的安全性的数学基础：计算上不可能"
 date = 2026-03-26
 

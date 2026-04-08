@@ -1,5 +1,5 @@
 +++
-title = "63. 제품 책임자 (Product Owner, PO)"
+title = "63. 제품 책임자 (Product Owner) - 비즈니스 가치 극대화, 백로그 관리"
 weight = 63
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "322. Echo Request / Reply (Ping) / Source Quench"
+title = "322. Echo Request/Reply (Ping 원리) / Source Quench (혼잡 제어, 구형)"
 weight = 322
 +++
 

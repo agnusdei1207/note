@@ -1,5 +1,5 @@
 +++
-title = "107. 압축된 트라이 (Compressed Trie / Patricia Trie)"
+title = "107. 배낭 문제 (Knapsack Problem) — NP-완전 (결정 버전)"
 weight = 107
 +++
 

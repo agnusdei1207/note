@@ -1,5 +1,5 @@
 +++
-title = "AMD 프리시전 부스트 (Precision Boost)"
+title = "731. AMD 프리시전 부스트 (Precision Boost)"
 date = 2026-03-20
 weight = 731
 description = "온도와 전력 상황을 1나노초 단위로 감시하며, 정해진 계단(Step) 없이 25MHz 단위로 극한까지 클럭을 깎아 올리는 AMD Ryzen(라이젠)의 초정밀 오버클럭 알고리즘"

@@ -1,5 +1,5 @@
 +++
-title = "089. CBC (Cipher Block Chaining) — 초기화 벡터(IV) 필요, 체인 의존성"
+title = "89. CBC (Cipher Block Chaining) — 초기화 벡터(IV) 필요, 체인 의존성"
 date = "2026-04-05"
 weight = 89
 [extra]

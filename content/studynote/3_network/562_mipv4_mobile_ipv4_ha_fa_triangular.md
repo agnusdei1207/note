@@ -1,6 +1,6 @@
 +++
 weight = 562
-title = "562. MIPv4 (Mobile IPv4) - FA/HA 구조와 세모 라우팅 (Triangular Routing) 문제 해결"
+title = "562. MIPv4 (Mobile IPv4) - FA(Foreign Agent), HA(Home Agent), 세모 라우팅 (Triangular Routing) 문제 해결방안 (RO)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

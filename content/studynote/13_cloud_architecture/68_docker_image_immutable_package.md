@@ -1,5 +1,5 @@
 +++
-title = "68. 도커 이미지 (Docker Image) 불변 패키지 파일"
+title = "68. 도커 이미지 (Docker Image) - 불변(Immutable) 상태의 애플리케이션 실행 패키지 파일"
 date = "2026-04-07"
 [extra]
 categories = "studynote-cloud"

@@ -1,5 +1,5 @@
 +++
-title = "119. 팩트 테이블 (Fact Table)과 차원 테이블 (Dimension Table)"
+title = "119. 팩트 테이블 (Fact Table) / 차원 테이블 (Dimension Table)"
 weight = 119
 +++
 

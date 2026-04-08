@@ -1,5 +1,5 @@
 +++
-title = "109. 고객 획득 비용 (CAC, Customer Acquisition Cost)"
+title = "109. 고객 획득 비용 (CAC, Customer Acquisition Cost) - 신규 고객 1명 유치 비용 (LTV > CAC 필수)"
 weight = 109
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "664. ECC (타원 곡선 암호)"
+title = "664. ECC (Elliptical Curve Cryptography, 타원 곡선 통신망 적용) - 짧은 키 (256bit)로 RSA 3072bit 효과 발휘 (초고속, 모바일/IoT 적용)"
 weight = 664
 +++
 # 664. ECC (Elliptical Curve Cryptography) - 모바일/IoT 공개키

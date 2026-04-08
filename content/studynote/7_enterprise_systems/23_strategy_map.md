@@ -1,6 +1,6 @@
 +++
 weight = 23
-title = "전략 체계도 (Strategy Map)"
+title = "23. 전략 체계도 (Strategy Map) - BSC 관점 간의 인과관계를 시각화한 맵"
 description = "BSC의 4가지 관점 간의 인과관계를 시각적으로 연결하여 기업의 무형자산이 어떻게 전략적 가치로 전환되는지 보여주는 도해"
 date = "2024-05-24"
 [taxonomies]

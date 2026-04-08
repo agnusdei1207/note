@@ -1,6 +1,6 @@
 +++
 weight = 15
-title = "IaaS (Infrastructure as a Service)"
+title = "820. IaaS (Infrastructure as a Service)"
 description = "IaaS의 정의, 서비스 구조, EC2, Azure VM, GCP Compute Engine"
 date = 2026-03-26
 

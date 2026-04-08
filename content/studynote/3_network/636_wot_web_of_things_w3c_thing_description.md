@@ -1,5 +1,5 @@
 +++
-title = "636. W3C WoT (Web of Things)"
+title = "636. W3C WoT (Web of Things) - 모든 기기를 URL 자원으로 통합 제어 개념"
 weight = 636
 +++
 # 636. W3C WoT (Web of Things) - 모든 기기를 URL로 통합

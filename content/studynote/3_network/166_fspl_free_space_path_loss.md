@@ -1,5 +1,5 @@
 +++
-title = "166. 자유 공간 경로 손실 (FSPL)"
+title = "166. 자유 공간 경로 손실 (FSPL, Free Space Path Loss)"
 weight = 166
 +++
 

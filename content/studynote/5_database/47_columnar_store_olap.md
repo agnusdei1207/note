@@ -1,5 +1,5 @@
 +++
-title = "47. 컬럼 기반 저장소 (Columnar Store) - 분석 최적화"
+title = "47. 컬럼 기반 저장소 (Columnar Store) - 분석(OLAP) 최적화, 높은 압축률"
 weight = 47
 +++
 

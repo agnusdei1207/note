@@ -1,6 +1,6 @@
 +++
 weight = 87
-title = "87. 상태 전이: 생성 -> 준비 -> 실행 -> 대기 -> 종료"
+title = "87. 생성 (New) -> 준비 (Ready) -> 실행 (Running) -> 대기 (Waiting/Blocked) -> 종료 (Terminated)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

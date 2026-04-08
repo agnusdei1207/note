@@ -1,5 +1,5 @@
 +++
-title = "245. 가상 랜 (VLAN, Virtual LAN) - 논리적 분할"
+title = "245. 가상 랜 (VLAN, Virtual LAN) - 논리적 분할, 브로드캐스트 제어"
 weight = 245
 +++
 

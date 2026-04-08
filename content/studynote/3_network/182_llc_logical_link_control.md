@@ -1,5 +1,5 @@
 +++
-title = "182. 논리적 링크 제어 (LLC) - IEEE 802.2"
+title = "182. 논리적 링크 제어 (LLC, Logical Link Control) - IEEE 802.2"
 weight = 182
 +++
 

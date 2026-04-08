@@ -1,5 +1,5 @@
 +++
-title = "40. MVP (최소 기능 제품)와 피벗 (Pivot)"
+title = "40. MVP (Minimum Viable Product, 최소 기능 제품) - 가설 검증을 위한 최소한의 피처만 탑재한 제품 배포"
 weight = 40
 +++
 

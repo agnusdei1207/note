@@ -1,5 +1,5 @@
 +++
-title = "55. 그래프 탐색 - BFS/DFS (Breadth-First Search / Depth-First Search)"
+title = "55. 최장 공통 부분수열 (LCS) — DP, O(mn)"
 weight = 55
 +++
 

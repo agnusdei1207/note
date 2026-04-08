@@ -1,5 +1,5 @@
 +++
-title = "275. AAL (ATM Adaptation Layer)"
+title = "275. AAL (ATM Adaptation Layer) - AAL1, AAL2, AAL5 등 트래픽별 지원"
 weight = 275
 +++
 

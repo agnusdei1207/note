@@ -1,6 +1,6 @@
 +++
 weight = 191
-title = "191. 스레드 스케줄링 (PCS vs SCS)"
+title = "191. 스레드 스케줄링 - 프로세스 경쟁 범위(PCS) vs 시스템 경쟁 범위(SCS)"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

@@ -1,6 +1,6 @@
 +++
 weight = 26
-title = "026. 토픽(Topic)과 파티션(Partition)"
+title = "26. 토픽(Topic)과 파티션(Partition) - 메시지 저장 경로 / 파티션 분할을 통한 컨슈머 병렬 분산 처리 달성"
 date = "2026-04-05"
 [extra]
 categories = "studynote-data-engineering"

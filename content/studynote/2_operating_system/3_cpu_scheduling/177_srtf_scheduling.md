@@ -1,6 +1,6 @@
 +++
 weight = 177
-title = "177. SRTF (Shortest Remaining Time First) 스케줄링"
+title = "177. SRTF (Shortest Remaining Time First) 스케줄링 - SJF의 선점형 버전"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

@@ -1,5 +1,5 @@
 +++
-title = "105. DevSecOps - 보안의 좌측 이동 (Shift-Left)"
+title = "105. DevSecOps - 보안의 좌측 이동 (Shift-Left Security)"
 weight = 105
 +++
 

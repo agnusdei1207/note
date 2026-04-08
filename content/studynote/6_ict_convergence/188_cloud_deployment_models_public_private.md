@@ -1,5 +1,5 @@
 +++
-title = "188. 클라우드 배포 모델 (퍼블릭/프라이빗)"
+title = "188. 클라우드 배포 모델 - 퍼블릭(Public), 프라이빗(Private), 하이브리드(Hybrid), 멀티 클라우드(Multi-Cloud)"
 weight = 188
 +++
 # 188. 클라우드 배포 모델 - 퍼블릭(Public), 프라이빗(Private), 하이브리드(Hybrid), 멀티 클라우드(Multi-Cloud) 배포 전략 온프레미스 연동

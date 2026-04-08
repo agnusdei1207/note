@@ -1,5 +1,5 @@
 +++
-title = "IPsec 오프로드 가속기 (IPsec Offload Accelerator)"
+title = "589. IPsec 오프로드 가속기"
 date = 2026-03-20
 weight = 589
 description = "기업용 VPN이나 통신사 기지국에서 필수적으로 사용하는 네트워크 암호화(IPsec)의 막대한 암복호화 연산을 CPU 대신 전담하여 초고속으로 처리하는 하드웨어 칩"

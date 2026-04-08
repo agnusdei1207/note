@@ -7,7 +7,7 @@ categories = "studynote-operating-system"
 +++
 
 ---
-title: "프로세서 전원 상태 (C-States)"
+title = "77. 프로세서 전원 상태 (C-States)"
 date: 2025-03-24
 draft: false
 ---

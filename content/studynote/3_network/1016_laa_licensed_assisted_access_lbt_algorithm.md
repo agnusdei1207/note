@@ -1,5 +1,5 @@
 +++
-title = "1016. LAA (면허 지원 접속)"
+title = "1016. LAA (Licensed Assisted Access)"
 weight = 1016
 +++
 # 1016. LAA (Licensed Assisted Access) - 와이파이 비면허 대역 LBT (Listen Before Talk) 알고리즘 LTE 상생 공존 채널 점유 융합망 표준

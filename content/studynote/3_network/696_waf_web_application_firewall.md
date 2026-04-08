@@ -1,5 +1,5 @@
 +++
-title = "696. WAF (웹 애플리케이션 방화벽)"
+title = "696. WAF (Web Application Firewall, 애플리케이션L7 특화)"
 weight = 696
 +++
 # 696. WAF (Web Application Firewall, 애플리케이션 L7 특화 방화벽)

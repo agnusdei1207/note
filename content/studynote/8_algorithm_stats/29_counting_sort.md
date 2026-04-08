@@ -1,5 +1,5 @@
 +++
-title = "29. 카운팅 정렬 (Counting Sort)"
+title = "29. 외부 정렬 (External Sort) — 대용량 데이터, 멀티웨이 합병"
 weight = 29
 +++
 

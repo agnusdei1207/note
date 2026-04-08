@@ -1,5 +1,5 @@
 +++
-title = "35. 플래시 론 (Flash Loan)"
+title = "35. 플래시 론 (Flash Loan) - 트랜잭션 블록 1개 내에서 무담보 대출 및 상환을 동시에 진행하는 구조"
 weight = 35
 +++
 

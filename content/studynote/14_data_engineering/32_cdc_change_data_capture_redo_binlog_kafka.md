@@ -1,5 +1,5 @@
 +++
-title = "32. CDC (Change Data Capture) - 데이터 이관 핵심 기술"
+title = "32. CDC (Change Data Capture) - 기존 RDBMS(운영 DB)의 트랜잭션 로그(Redo, Binlog)를 긁어내 DB 성능 부하 없이 실시간으로 카프카나 DW에 변경/동기화 시키는 데이터 이관 핵심 기술 (Debezium)"
 weight = 32
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 57
-title = "57. 스토리지와 컴퓨팅 분리 (Storage-Compute Separation)"
+title = "57. Tungsten Engine — CPU/메모리 최적화, Codegen, Off-heap 메모리"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

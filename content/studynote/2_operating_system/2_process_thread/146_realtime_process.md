@@ -1,6 +1,6 @@
 +++
 weight = 146
-title = "��� ����"
+title = "146. 실시간 프로세스 (Real-time Process)"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

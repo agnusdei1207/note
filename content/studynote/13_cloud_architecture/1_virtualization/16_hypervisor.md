@@ -1,6 +1,6 @@
 +++
 weight = 16
-title = "16. 하이퍼바이저 (Hypervisor / VMM)"
+title = "16. 하이퍼바이저 (Hypervisor / VMM) - 가상 머신(Guest OS)을 생성하고 하드웨어를 분배/스케줄링하는 가상화 커널 소프트웨어"
 description = "클라우드 가상화의 핵심 커널인 하이퍼바이저의 아키텍처, 작동 원리, 주요 기능 및 실무 적용 방안"
 date = "2024-05-20"
 [taxonomies]

@@ -1,5 +1,5 @@
 +++
-title = "425. 조건/결정 커버리지 (Condition/Decision Coverage)"
+title = "425. 조건/결정 커버리지 (Condition/Decision Coverage) - 개별 조건과 전체 결정이 모두 참/거짓을 가짐"
 date = 2026-04-05
 weight = 425
 +++

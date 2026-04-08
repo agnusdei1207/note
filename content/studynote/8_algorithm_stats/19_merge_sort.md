@@ -1,5 +1,5 @@
 +++
-title = "19. 합병 정렬 (Merge Sort)"
+title = "19. 합병 정렬 (Merge Sort) — O(n log n), 안정, O(n) 공간"
 weight = 19
 +++
 

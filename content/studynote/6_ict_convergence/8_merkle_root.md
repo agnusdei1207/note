@@ -1,6 +1,6 @@
 +++
 weight = 8
-title = "08. 머클 루트 (Merkle Root)"
+title = "8. 머클 루트 (Merkle Root) - 모든 트랜잭션 해시를 묶은 최종 해시값"
 description = "모든 트랜잭션 해시를 하나로 묶은 최종 해시값과 블록 헤더에서의 역할"
 date = "2024-03-24"
 [taxonomies]

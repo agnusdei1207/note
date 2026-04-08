@@ -1,5 +1,5 @@
 +++
-title = "Zigbee (지그비)"
+title = "112. 지그비 (ZigBee) - IEEE 802.15.4 기반 저전력 메시(Mesh) 네트워크 WPAN 기술"
 weight = 112
 +++
 

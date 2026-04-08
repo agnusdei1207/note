@@ -1,5 +1,5 @@
 +++
-title = "381. AH (Authentication Header) - 무결성과 인증"
+title = "381. AH (Authentication Header) - 무결성, 인증"
 weight = 381
 +++
 

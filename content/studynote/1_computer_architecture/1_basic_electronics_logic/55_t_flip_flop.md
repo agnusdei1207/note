@@ -1,6 +1,6 @@
 +++
 weight = 55
-title = "55. T 플립플롭 (T Flip-Flop)"
+title = "55. T 플립플롭"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

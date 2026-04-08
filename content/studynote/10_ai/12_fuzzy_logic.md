@@ -1,6 +1,6 @@
 +++
 weight = 12
-title = "12. 퍼지 논리 (Fuzzy Logic)"
+title = "12. 퍼지 논리 (Fuzzy Logic) - 0과 1 사이의 확률적 연속값(소속도)을 이용해 애매한 개념 처리 (Zadeh 제안)"
 description = "0과 1의 이분법적 논리를 넘어, 소속도(Membership) 기반의 연속값으로 인간의 애매한 언어와 사고를 정량화하는 제어 기법"
 date = "2024-05-24"
 [taxonomies]

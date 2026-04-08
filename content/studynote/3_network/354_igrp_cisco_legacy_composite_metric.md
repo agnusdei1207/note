@@ -1,5 +1,5 @@
 +++
-title = "354. IGRP (Interior Gateway Routing Protocol)"
+title = "354. IGRP - Cisco 구형, 복합 메트릭 (대역폭+지연 등)"
 weight = 354
 +++
 

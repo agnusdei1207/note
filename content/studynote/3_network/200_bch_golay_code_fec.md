@@ -1,5 +1,5 @@
 +++
-title = "200. BCH 코드 / 골레이 (Golay) 코드"
+title = "200. BCH 코드 / 골레이(Golay) 코드"
 weight = 200
 +++
 

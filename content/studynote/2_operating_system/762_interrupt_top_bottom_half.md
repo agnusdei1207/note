@@ -1,6 +1,6 @@
 +++
 weight = 762
-title = "762. 인터럽트 처리 상반부 하반부 메커니즘"
+title = "762. 인터럽트 처리 상프/하프 메커니즘"
 date = "2026-03-30"
 [extra]
 categories = ["studynote-operating-system"]

@@ -1,6 +1,6 @@
 +++
 weight = 502
-title = "ACID 특성 (Atomicity, Consistency, Isolation, Durability)"
+title = "502. 데이터 리니지 흐름 추적 무결성 감사 구조"
 description = "트랜잭션의 네 가지 핵심 특성인 ACID의 개념과 상호작용에 대해 설명"
 date = 2024-01-01
 

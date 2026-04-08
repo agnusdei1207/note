@@ -1,6 +1,6 @@
 +++
 weight = 493
-title = "493. SCM (차세대 비휘발성 메모리: PRAM, MRAM, ReRAM)"
+title = "493. 차세대 비휘발성 메모리 (SCM: PRAM, MRAM, ReRAM)"
 date = "2026-03-20"
 [extra]
 categories = "studynote-computer-architecture"

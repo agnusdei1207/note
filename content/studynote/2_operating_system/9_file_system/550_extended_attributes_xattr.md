@@ -1,6 +1,6 @@
 +++
 weight = 550
-title = "550. 리눅스 확장 속성 (Extended Attributes, xattr) - 메타데이터 무한 확장 주머니"
+title = "550. 리눅스 확장 속성 (Extended Attributes, xattr)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

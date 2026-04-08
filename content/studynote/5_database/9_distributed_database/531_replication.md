@@ -1,6 +1,6 @@
 +++
 weight = 531
-title = "복제 (Replication)"
+title = "531. 분산 환경 2PC 블로킹 한계 코디네이터 다운"
 description = "데이터베이스 복제의 개념, 방식, 그리고 일관성 모델에 대해 설명"
 date = 2024-01-01
 

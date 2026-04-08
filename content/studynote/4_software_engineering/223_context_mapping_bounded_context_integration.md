@@ -1,5 +1,5 @@
 +++
-title = "223. 컨텍스트 매핑 (Context Mapping)"
+title = "223. 컨텍스트 매핑 (Context Mapping) - 컨텍스트 간의 연동 관계 정의"
 weight = 223
 +++
 # 223. 컨텍스트 매핑 (Context Mapping) - 도메인 주도 설계(DDD) 바운디드 컨텍스트 연동 관계 분산 시스템 파트너십 공유 커널 충돌 방지

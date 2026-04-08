@@ -1,6 +1,6 @@
 +++
 weight = 509
-title = "데이터 딕셔너리 (Data Dictionary)"
+title = "509. 클러스터링 팩터 인덱스 효율 평가 지표"
 description = "데이터 딕셔너리의 정의, 구성, 역할"
 date = 2026-03-26
 

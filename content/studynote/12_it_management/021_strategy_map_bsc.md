@@ -1,6 +1,6 @@
 +++
 weight = 21
-title = "021. 전략 체계도 (Strategy Map) - BSC 기반 전략 시각화"
+title = "21. 전략 체계도 (Strategy Map) - BSC 각 관점의 KPI 인과관계를 도식화"
 date = "2026-04-02"
 [extra]
 categories = "studynote-it-management"

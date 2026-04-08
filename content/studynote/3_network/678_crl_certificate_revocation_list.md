@@ -1,5 +1,5 @@
 +++
-title = "678. CRL (인증서 폐기 목록)"
+title = "678. CRL (Certificate Revocation List) 스펙 및 폐기 문제 및 배포 지연 약점 완화 체계"
 weight = 678
 +++
 # 678. CRL (Certificate Revocation List) 스펙 및 폐기/배포 지연 약점 완화 체계

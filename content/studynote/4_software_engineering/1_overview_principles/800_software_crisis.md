@@ -1,6 +1,6 @@
 +++
 weight = 800
-title = "소프트웨어 위기"
+title = "800. 소프트웨어 공학 기술사 10개년 기출 핵심 융합 토픽 결론 정리"
 description = "Software Crisis"
 category = "4_software_engineering"
 +++

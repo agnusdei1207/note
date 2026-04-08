@@ -1,5 +1,5 @@
 +++
-title = "70. 기본 키 (Primary Key, PK)와 71. 대체 키 (Alternate Key)"
+title = "70. 기본 키 (Primary Key, PK) - 후보 키 중 설계자가 선택한 메인 식별자 (NULL 불가)"
 weight = 70
 +++
 

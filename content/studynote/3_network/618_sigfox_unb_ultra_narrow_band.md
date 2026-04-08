@@ -1,5 +1,5 @@
 +++
-title = "618. Sigfox (시그폭스)"
+title = "618. Sigfox - 초협대역(UNB) 100bps 극초저전력, 소용량/프랑스 기반 상용화"
 weight = 618
 +++
 # 618. Sigfox - 초협대역(UNB) 극초저전력 상용화 망

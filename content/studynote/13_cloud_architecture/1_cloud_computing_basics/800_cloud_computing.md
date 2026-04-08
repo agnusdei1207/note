@@ -1,6 +1,6 @@
 +++
 weight = 1
-title = "클라우드 컴퓨팅 (Cloud Computing)"
+title = "800. 클라우드 / 데이터 / DevOps 융합 아키텍처 마스터 맵 종결"
 description = "클라우드 컴퓨팅의 정의, 특성, 발전 과정"
 date = 2026-03-26
 

@@ -1,5 +1,5 @@
 +++
-title = "62. 퍼셉트론 Perceptron 로젠블랫 단층 신경망"
+title = "62. 퍼셉트론 (Perceptron) - 로젠블랫 제안, 입력값 덧셈 후 임계치 넘으면 1 출력 (단층 신경망)"
 date = "2026-04-07"
 [extra]
 categories = "studynote-ai"

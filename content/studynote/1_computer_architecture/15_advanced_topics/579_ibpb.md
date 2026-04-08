@@ -1,5 +1,5 @@
 +++
-title = "간접 분기 추측 제어 (IBPB, Indirect Branch Predictor Barrier)"
+title = "579. 간접 분기 추측 제어 (IBPB)"
 date = 2026-03-20
 weight = 579
 description = "스펙터(Spectre) 공격을 방어하기 위해, 스레드나 프로세스가 교체될 때 CPU의 분기 예측기(BTB)에 남아있는 이전 작업의 예측 기록을 강제로 지워버리는 하드웨어 명령어"

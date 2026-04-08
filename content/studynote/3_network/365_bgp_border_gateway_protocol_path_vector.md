@@ -1,5 +1,5 @@
 +++
-title = "365. BGP (Border Gateway Protocol) 개요"
+title = "365. BGP (Border Gateway Protocol) - AS 간 인터넷 백본 라우팅, 경로 벡터 (Path-Vector)"
 weight = 365
 +++
 

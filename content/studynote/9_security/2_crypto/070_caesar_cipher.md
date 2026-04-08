@@ -1,5 +1,5 @@
 +++
-title = "070. 카이사르 암호 (Caesar Cipher) — 알파벳 3자리 이동"
+title = "70. 凯撒 암호 (Caesar Cipher) — 알파벳 3자리 이동"
 date = "2026-04-05"
 weight = 70
 [extra]

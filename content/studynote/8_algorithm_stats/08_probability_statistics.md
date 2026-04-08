@@ -1,6 +1,6 @@
 +++
 weight = 8
-title = "08. 확률 및 통계 기초 (Probability & Statistics)"
+title = "8. 메모이제이션 (Memoization) — Top-Down DP"
 description = "데이터 분석과 머신러닝의 뼈대가 되는 통계적 추론과 확률 모델링의 본질"
 date = "2024-05-20"
 [taxonomies]

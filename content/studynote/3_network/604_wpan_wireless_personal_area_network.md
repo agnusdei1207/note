@@ -1,5 +1,5 @@
 +++
-title = "604. WPAN (Wireless Personal Area Network)"
+title = "604. WPAN (Wireless Personal Area Network) - 개인 작업공간 무선"
 weight = 604
 +++
 # 604. WPAN (Wireless Personal Area Network) - 개인 작업공간 무선

@@ -1,6 +1,6 @@
 +++
 weight = 350
-title = "350. 비연속 메모리 할당 (Non-contiguous Memory Allocation) 파편화의 종말"
+title = "350. 비연속 메모리 할당 (Non-contiguous Memory Allocation)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

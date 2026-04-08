@@ -1,5 +1,5 @@
 +++
-title = "339. 데이터 레이크 (Data Lake)"
+title = "339. 데이터 레이크 (Data Lake) - 원시 데이터(Raw data), 정형/반정형/비정형 모두 저장하는 스키마 온 리드(Schema-on-read) 중앙 저장소"
 weight = 4339
 +++
 

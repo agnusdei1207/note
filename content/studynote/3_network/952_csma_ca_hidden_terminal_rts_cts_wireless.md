@@ -1,5 +1,5 @@
 +++
-title = "952. CSMA/CA와 은닉 단말"
+title = "952. 은닉 단말 (Hidden Terminal) 문제 (CSMA/CA RTS/CTS)"
 weight = 952
 +++
 # 952. 은닉 단말 (Hidden Terminal) 문제 (CSMA/CA RTS/CTS) - 무선 LAN 매체 접근 충돌 회피 알고리즘 노출 단말 통신 범위 간섭 회피 프레임 제어

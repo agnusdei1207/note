@@ -1,5 +1,5 @@
 +++
-title = "고수준 합성 (HLS, High-Level Synthesis)"
+title = "605. 고수준 합성 (HLS, High-Level Synthesis)"
 date = 2026-03-20
 weight = 605
 description = "어렵고 복잡한 하드웨어 설계 언어(Verilog/VHDL) 대신, 개발자들에게 친숙한 C/C++ 코드를 작성하면 컴파일러가 알아서 논리 회로 도면으로 번역해 주는 혁신적인 반도체 설계 기술"

@@ -1,6 +1,6 @@
 +++
 weight = 6
-title = "6. 정보화 전략 계획 (ISP, Information Strategy Planning)"
+title = "6. 정보화 전략 계획 (ISP, Information Strategy Planning) - 전사 비즈니스 목표 달성을 위한 중장기 정보화 마스터플랜"
 description = "전사 비즈니스 목표 달성을 위한 중장기 정보화 마스터플랜"
 date = "2024-05-20"
 [taxonomies]

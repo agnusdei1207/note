@@ -1,5 +1,5 @@
 +++
-title = "713. ICMP Smurf 공격 (스머핑)"
+title = "713. ICMP Smurf 공격 (IP 브로드캐스트+스푸핑) / 스머핑 라우터 IP Directed Broadcast 차단 설계"
 weight = 713
 +++
 # 713. ICMP Smurf 공격 (스머핑) - 브로드캐스트와 스푸핑 융합 공격

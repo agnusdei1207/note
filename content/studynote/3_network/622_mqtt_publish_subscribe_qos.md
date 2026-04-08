@@ -1,5 +1,5 @@
 +++
-title = "622. MQTT (메시징 프로토콜)"
+title = "622. MQTT (Message Queuing Telemetry Transport) - TCP 기반 퍼블리시-서브스크라이브 경량 메시지 (QoS 0/1/2 등급 지원) 브로커(Broker) 중심 분산형"
 weight = 622
 +++
 # 622. MQTT (Message Queuing Telemetry Transport) - 브로커 중심 경량 메시지

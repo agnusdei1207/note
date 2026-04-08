@@ -1,5 +1,5 @@
 +++
-title = "101. 사물인터넷 (IoT, Internet of Things) 개념"
+title = "101. 사물인터넷 (IoT, Internet of Things) 개념 - 모든 사물이 센서와 통신 기능을 내장하여 인터넷에 연결되는 기술"
 weight = 101
 +++
 

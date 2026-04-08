@@ -1,5 +1,5 @@
 +++
-title = "1062. DNSSEC 존 (Zone) 서명"
+title = "1062. DNSSEC 존"
 weight = 1062
 +++
 # 1062. DNSSEC 존 (Zone) 서명 - Domain Name System Security Extensions 계층적 체인 오브 트러스트 RRSIG DNSKEY DS 캐시 포이즈닝 원천 차단

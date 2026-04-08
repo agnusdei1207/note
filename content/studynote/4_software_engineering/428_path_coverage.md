@@ -1,5 +1,5 @@
 +++
-title = "428. 경로 커버리지 (Path Coverage)"
+title = "428. 경로 커버리지 (Path Coverage) - 가능한 모든 실행 경로를 테스트"
 date = 2026-04-05
 weight = 428
 +++

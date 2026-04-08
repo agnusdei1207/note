@@ -1,5 +1,5 @@
 +++
-title = "339. 라우팅(Routing) 개요 - 최적 경로(Best Path) 설정"
+title = "339. 라우팅 (Routing) 개요 - 최적 경로(Best Path) 설정"
 weight = 339
 +++
 

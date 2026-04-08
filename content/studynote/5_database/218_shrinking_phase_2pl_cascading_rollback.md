@@ -1,5 +1,5 @@
 +++
-title = "218. 축소 단계 (Shrinking Phase)"
+title = "218. 축소 단계 (Shrinking Phase) - 락 반납만 가능, 획득 불가"
 weight = 218
 +++
 # 218. 축소 단계 (Shrinking Phase) - 2PL 2단계 락 반납 전용 Unlock 락 포인트 다운그레이드 연쇄 복귀 한계 동시성 제어

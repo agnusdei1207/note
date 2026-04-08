@@ -1,6 +1,6 @@
 +++
 weight = 105
-title = "부모 프로세스/자식 프로세스 (Parent/Child Process)"
+title = "105. 부모 프로세스 (Parent Process) / 자식 프로세스 (Child Process)"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

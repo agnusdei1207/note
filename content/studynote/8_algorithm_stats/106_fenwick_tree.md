@@ -1,5 +1,5 @@
 +++
-title = "106. 펜윅 트리 / BIT (Fenwick Tree / Binary Indexed Tree)"
+title = "106. 외판원 문제 (TSP) — NP-hard"
 weight = 106
 +++
 

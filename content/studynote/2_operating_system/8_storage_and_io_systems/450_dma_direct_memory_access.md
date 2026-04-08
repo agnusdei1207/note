@@ -1,6 +1,6 @@
 +++
 weight = 450
-title = "450. 직접 메모리 접근 (DMA, Direct Memory Access) CPU 독립의 혁명"
+title = "450. 직접 메모리 접근 (DMA, Direct Memory Access) - CPU 개입 없이 장치와 메모리 간 직접 데이터 전송"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

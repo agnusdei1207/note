@@ -1,6 +1,6 @@
 +++
 weight = 478
-title = "478. FTL (Flash Translation Layer) 디스크 생태계의 완벽한 첩자"
+title = "478. FTL (Flash Translation Layer) - LBA를 플래시의 물리 주소(PBA)로 매핑하는 펌웨어"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

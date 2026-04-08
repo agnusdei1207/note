@@ -1,6 +1,6 @@
 +++
 weight = 13
-title = "13. 추가 감리 및 시정조치 확인 (Follow-up Audit)"
+title = "13. 추가 감리 / 시정조치 확인 (Follow-up Audit) - 감리 지적 사항(조치 권고) 이행 여부 최종 점검"
 description = "감리 지적 사항의 이행 여부를 최종 점검하여 정보시스템의 무결성을 확정하는 추가 감리 및 시정조치 확인 프레임워크"
 date = "2024-05-20"
 [taxonomies]

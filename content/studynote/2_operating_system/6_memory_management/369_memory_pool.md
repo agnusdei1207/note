@@ -1,6 +1,6 @@
 +++
 weight = 369
-title = "369. 메모리 풀 (Memory Pool) 단편화와 지연의 원천 봉쇄"
+title = "369. 메모리 풀 (Memory Pool) 기법"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

@@ -1,6 +1,6 @@
 +++
 weight = 142
-title = "이벤트 루프 기반 비동기 처리"
+title = "142. 이벤트 루프 (Event Loop) 기반 비동기 처리 (Node.js)"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

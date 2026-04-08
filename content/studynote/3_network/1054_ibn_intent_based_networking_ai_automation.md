@@ -1,5 +1,5 @@
 +++
-title = "1054. 의도 기반 네트워킹 (IBN)"
+title = "1054. IBN(의도기반망) 선행 AI 설계"
 weight = 1054
 +++
 # 1054. IBN(의도 기반 네트워킹) 선행 AI 설계 - Intent-Based Networking 선언적 네트워크 자동화 머신러닝 추론 자율 복구 클로즈드 루프 아키텍처

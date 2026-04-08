@@ -1,5 +1,5 @@
 +++
-title = "368. BGP Route Reflector / Confederation"
+title = "368. BGP Route Reflector / Confederation (iBGP 풀 메시 문제 해결)"
 weight = 368
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "168. 산업용 이더넷 (Industrial Ethernet) 및 TSN"
+title = "168. 산업용 이더넷 (Industrial Ethernet) 및 TSN (Time-Sensitive Networking) - 마이크로초 단위 데이터 전달 시간을 절대적으로 보장(결정론적)하는 산업 공장 통신망"
 weight = 168
 +++
 # 168. 산업용 이더넷 (Industrial Ethernet) 및 TSN (Time-Sensitive Networking)

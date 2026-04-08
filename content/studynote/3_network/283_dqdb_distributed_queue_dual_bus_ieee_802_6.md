@@ -1,5 +1,5 @@
 +++
-title = "283. DQDB (Distributed Queue Dual Bus) - IEEE 802.6"
+title = "283. DQDB (Distributed Queue Dual Bus) - IEEE 802.6 MAN 방식"
 weight = 283
 +++
 

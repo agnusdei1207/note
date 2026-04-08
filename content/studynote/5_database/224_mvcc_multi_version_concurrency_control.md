@@ -1,5 +1,5 @@
 +++
-title = "224. 다중 버전 동시성 제어 (MVCC)"
+title = "224. 다중 버전 동시성 제어 (MVCC, Multi-Version Concurrency Control) - 읽기와 쓰기 락 충돌 배제, 스냅샷 활용 (Oracle, PostgreSQL 기본)"
 weight = 224
 +++
 # 224. 다중 버전 동시성 제어 (MVCC, Multi-Version Concurrency Control) - 오라클 기본 원리 읽기 쓰기 충돌 방지 스냅샷 락 없음 언두 세그먼트 블로킹 완화

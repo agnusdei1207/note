@@ -1,6 +1,6 @@
 +++
 weight = 30
-title = "030. SLE (단일 사고 예상 손실, Single Loss Expectancy)"
+title = "30. SLE (Single Loss Expectancy) — 단일 사고 예상 손실"
 date = "2026-04-05"
 [extra]
 categories = "studynote-security"

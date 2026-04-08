@@ -1,5 +1,5 @@
 +++
-title = "191. 역방향 에러 수정 (ARQ, 자동 재전송 요청)"
+title = "191. 역방향 에러 수정 / 자동 재전송 요청 (ARQ, Automatic Repeat reQuest)"
 weight = 191
 +++
 

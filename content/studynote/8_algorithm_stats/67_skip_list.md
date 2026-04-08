@@ -1,5 +1,5 @@
 +++
-title = "67. 스킵 리스트 (Skip List)"
+title = "67. 레드-블랙 트리 (Red-Black Tree) — O(log n) 보장, Java TreeMap"
 weight = 67
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "06. 탐욕 알고리즘 (Greedy Algorithm)"
+title = "6. 탐욕 알고리즘 (Greedy Algorithm) — 지역 최적 → 전체 최적"
 weight = 6
 +++
 

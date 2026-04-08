@@ -1,5 +1,5 @@
 +++
-title = "140. 세션 키 — 임시 세션용 단기 비밀키 (Short-term Key)"
+title = "140. 세션 키 — 임시 세션용短期密钥"
 date = "2026-04-05"
 weight = 140
 [extra]

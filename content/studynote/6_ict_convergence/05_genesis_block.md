@@ -1,5 +1,5 @@
 +++
-title = "05. 제네시스 블록 (Genesis Block)"
+title = "5. 제네시스 블록 (Genesis Block) - 블록체인의 첫 번째 블록"
 weight = 5
 +++
 

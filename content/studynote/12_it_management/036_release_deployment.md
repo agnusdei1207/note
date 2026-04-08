@@ -1,6 +1,6 @@
 +++
 weight = 36
-title = "82. 릴리스 및 배포 관리 (Release and Deployment Management)"
+title = "36. MVP (Minimum Viable Product, 최소 존립 제품)"
 description = "변경된 소프트웨어/하드웨어를 실제 운영 환경에 이관하는 통제 절차"
 date = "2024-05-20"
 [taxonomies]

@@ -1,5 +1,5 @@
 +++
-title = "28. 지원활동 (Support Activities) 상세 분석"
+title = "28. 지원활동 (Firm Infrastructure, HR, Tech Development, Procurement)"
 weight = 28
 +++
 

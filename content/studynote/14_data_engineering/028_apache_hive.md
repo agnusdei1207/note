@@ -1,6 +1,6 @@
 +++
 weight = 28
-title = "028. 아파치 하이브 (Apache Hive)"
+title = "28. 아파치 하이브 (Apache Hive) - 맵리듀스 자바 코드 대신 HiveQL(SQL) 쿼리를 날려주는 하둡 데이터 웨어하우스 추상화"
 date = "2026-04-05"
 [extra]
 categories = "studynote-data-engineering"

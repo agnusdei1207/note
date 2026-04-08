@@ -1,5 +1,5 @@
 +++
-title = "Evict+Time 기법"
+title = "777. Evict+Time 기법"
 date = 2026-03-20
 weight = 777
 description = "캐시 타이밍 공격의 초기 형태 중 하나로, 특정 캐시 라인을 고의로 밀어낸(Evict) 뒤 타겟 프로그램의 전체 실행 시간(Time)이 얼마나 느려졌는지를 측정하여 비밀 정보를 유추하는 해킹"

@@ -1,6 +1,6 @@
 +++
 weight = 352
-title = "352. 페이지 크기 (Page Size) 메모리 아키텍처의 트레이드오프"
+title = "352. 페이지 크기 (Page Size) - 주로 4KB. 커지면 내부 단편화 증가, 테이블 크기 감소"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

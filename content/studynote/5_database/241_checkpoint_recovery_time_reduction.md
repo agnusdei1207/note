@@ -1,5 +1,5 @@
 +++
-title = "241. 검사점 회복 기법"
+title = "241. 검사점 (Checkpoint / Checkpointing) 회복 기법 - 주기적으로 메모리 버퍼를 디스크에 동기화(Flush)하여 복구 시간(Redo 대상) 단축"
 weight = 241
 +++
 # 241. 검사점 (Checkpoint) 회복 기법 - Checkpointing 복구 시간 단축 Redo 한계 로그 기반 회복 버퍼 플러시(Flush) 데이터베이스 최적화

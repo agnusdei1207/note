@@ -1,5 +1,5 @@
 +++
-title = "369. 멀티캐스트 라우팅 - PIM (Dense vs Sparse)"
+title = "369. 멀티캐스트 라우팅 - PIM (Protocol Independent Multicast) - Dense Mode vs Sparse Mode"
 weight = 369
 +++
 

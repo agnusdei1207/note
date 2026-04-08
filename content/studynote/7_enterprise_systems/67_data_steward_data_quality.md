@@ -1,5 +1,5 @@
 +++
-title = "67. 데이터 스튜어드 (Data Steward) - 데이터 집사"
+title = "67. 데이터 스튜어드 (Data Steward) - 실무 부서 데이터 품질 관리 책임자"
 weight = 67
 +++
 

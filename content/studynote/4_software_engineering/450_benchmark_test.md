@@ -1,5 +1,5 @@
 +++
-title = "450. 벤치마크 테스트 (BMT, Benchmark Test)"
+title = "450. 벤치마크 테스트 (BMT, Benchmark Test) - 동일한 환경에서 여러 제품의 성능을 비교"
 date = 2026-04-05
 weight = 450
 +++

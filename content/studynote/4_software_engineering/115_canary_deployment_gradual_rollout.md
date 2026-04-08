@@ -1,5 +1,5 @@
 +++
-title = "115. 카나리 배포 (Canary Deployment)"
+title = "115. 카나리 배포 (Canary Deployment) - 점진적 릴리즈"
 weight = 115
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 527
-title = "527. 색인 블록 크기 한계 해결 - 연결 색인, 다중 수준 색인"
+title = "527. 색인 블록 크기 한계 해결 - 연결 색인, 다중 수준 색인 (Multilevel Index)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

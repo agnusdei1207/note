@@ -1,5 +1,5 @@
 +++
-title = "180. 레인지 파티셔닝 (Range Partitioning)"
+title = "180. 레인지 파티셔닝 (Range Partitioning) - 범위(날짜 등) 기준"
 weight = 180
 +++
 # 180. 레인지 파티셔닝 (Range Partitioning) - 범위 기준 분할

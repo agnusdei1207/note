@@ -1,5 +1,5 @@
 +++
-title = "110. 비면허 대역 LPWAN (LoRaWAN, Sigfox)"
+title = "110. 비면허 대역 LPWAN - LoRaWAN (Chirp Spread Spectrum 방식), Sigfox (Ultra Narrow Band)"
 weight = 110
 +++
 

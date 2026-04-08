@@ -1,6 +1,6 @@
 +++
 weight = 280
-title = "280. 읽기-쓰기 락 (Read-Write Lock)"
+title = "280. 읽기-쓰기 락 (Read-Write Lock) - 다중 읽기 허용, 쓰기 배타적"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

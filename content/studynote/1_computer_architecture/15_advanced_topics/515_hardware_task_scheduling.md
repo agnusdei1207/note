@@ -1,5 +1,5 @@
 +++
-title = "작업 스케줄링 하드웨어 지원 (Hardware-Assisted Task Scheduling)"
+title = "515. 작업 스케줄링 하드웨어 지원"
 date = 2026-03-20
 weight = 515
 description = "운영체제(OS)가 담당하던 스레드 스케줄링의 부하를 줄이기 위해, 하드웨어(CPU)가 직접 개입하여 스레드를 분배하고 관리하는 최신 기술"

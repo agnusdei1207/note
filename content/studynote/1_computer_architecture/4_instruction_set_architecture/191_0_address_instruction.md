@@ -1,6 +1,6 @@
 +++
 weight = 191
-title = "191. 0-주소 명령어 (Zero-Address Instruction)"
+title = "191. 0-주소 명령어"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

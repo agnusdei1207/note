@@ -1,6 +1,6 @@
 +++
 weight = 550
-title = "550. X.509 v3 - 공개키 기반 구조(PKI)의 디지털 인증서 표준 규격"
+title = "550. X.509 v3 디지털 인증서 표준 규격"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

@@ -1,5 +1,5 @@
 +++
-title = "81. 블록체인 확장성 지표 - TPS, 레이턴시"
+title = "81. 블록체인 확장성 지표 - TPS (Transactions Per Second), 레이턴시 (Latency)"
 weight = 81
 +++
 

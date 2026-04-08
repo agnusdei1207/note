@@ -1,5 +1,5 @@
 +++
-title = "416. 상태 전이 테스트 (State Transition Testing)"
+title = "416. 상태 전이 테스트 (State Transition Testing) - 객체의 상태 변화 시나리오 검증"
 date = 2026-04-05
 weight = 416
 +++

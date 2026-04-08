@@ -1,5 +1,5 @@
 +++
-title = "204. 폴라 코드 (Polar Code) - 5G 제어 채널"
+title = "204. 폴라 코드 (Polar Code) - 5G 제어채널 무오류/고신뢰"
 weight = 204
 +++
 

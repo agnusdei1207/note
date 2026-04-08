@@ -1,5 +1,5 @@
 +++
-title = "382. ESP (Encapsulating Security Payload)"
+title = "382. ESP (Encapsulating Security Payload) - 기밀성, 무결성"
 weight = 382
 +++
 

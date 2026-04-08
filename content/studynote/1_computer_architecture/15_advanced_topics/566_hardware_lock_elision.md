@@ -1,5 +1,5 @@
 +++
-title = "하드웨어 락 엘리전 (HLE, Hardware Lock Elision)"
+title = "566. 하드웨어 락 엘리전 (HLE)"
 date = 2026-03-20
 weight = 566
 description = "기존의 무거운 소프트웨어 자물쇠(Lock) 코드를 건드리지 않고, 하드웨어가 스스로 판단하여 자물쇠를 무시(Elision)하고 낙관적 병렬 처리를 수행하는 마법 같은 기술"

@@ -1,5 +1,5 @@
 +++
-title = "68. CDO (최고 데이터 책임자)와 CIO의 역할 분리"
+title = "68. CDO (Chief Data Officer) / CIO (Chief Information Officer) 역할 분리"
 weight = 68
 +++
 

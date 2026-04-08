@@ -1,6 +1,6 @@
 +++
 weight = 31
-title = "031. 리드 타임 / 사이클 타임 (Lead Time & Cycle Time)"
+title = "31. 가치 흐름 매핑 (VSM, Value Stream Mapping) - 아이디어 발의부터 고객에게 가치가 전달되기까지의 전체 흐름에서 대기 시간(병목, Muda)을 식별하고 린(Lean)하게 제거하는 도식화 기법"
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

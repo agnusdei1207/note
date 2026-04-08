@@ -1,6 +1,6 @@
 +++
 weight = 423
-title = "423. 대형 페이지 (Large Page / Transparent Hugepage) TLB 미스의 파괴자"
+title = "423. 대형 페이지 (Large Page / Transparent Hugepage)의 가상 메모리 성능 이점"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

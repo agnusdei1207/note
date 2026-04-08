@@ -1,5 +1,5 @@
 +++
-title = "122. 마스터 데이터 관리 (MDM) - DB 관점"
+title = "122. 마스터 데이터 관리 (MDM, Master Data Management)"
 weight = 122
 +++
 

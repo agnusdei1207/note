@@ -1,5 +1,5 @@
 +++
-title = "ZNS (Zoned Namespace) SSD 심화"
+title = "703. ZNS (Zoned Namespace) SSD"
 date = 2026-03-20
 weight = 703
 description = "기존의 FTL이 짊어지던 가비지 컬렉션(GC)의 부담을 버리고, 데이터를 순차적으로만 기록하게 강제하여 데이터센터 SSD의 수명과 TCO(총소유비용)를 혁신적으로 개선한 NVMe 표준 아키텍처"

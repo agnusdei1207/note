@@ -1,5 +1,5 @@
 +++
-title = "33. 외부 정렬 (External Sort)"
+title = "33. 선형 탐색 (Linear Search) — O(n)"
 weight = 33
 +++
 

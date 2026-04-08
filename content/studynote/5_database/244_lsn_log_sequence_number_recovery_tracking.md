@@ -1,5 +1,5 @@
 +++
-title = "244. LSN (Log Sequence Number)"
+title = "244. LSN (Log Sequence Number) - 로그 레코드 고유 식별 번호"
 weight = 244
 +++
 # 244. LSN (Log Sequence Number) - 로그 레코드 고유 식별 번호 ARIES 복구 데이터베이스 회복 시간 순서 추적 Redo Undo 

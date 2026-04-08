@@ -1,5 +1,5 @@
 +++
-title = "90. AI 내재화 ERP (Intelligent ERP / AI-ERP)"
+title = "90. AI 내재화 ERP (Intelligent ERP) - 머신러닝을 통한 재무 이상 탐지, 수요 예측 자동화"
 weight = 90
 +++
 

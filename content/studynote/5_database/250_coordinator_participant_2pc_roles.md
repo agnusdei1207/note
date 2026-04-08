@@ -1,5 +1,5 @@
 +++
-title = "250. 코디네이터와 참여자 (2PC 배역)"
+title = "250. 코디네이터 (Coordinator)와 참여자 (Participant) - 1단계(Prepare), 2단계(Commit/Rollback)"
 weight = 250
 +++
 # 250. 코디네이터 (Coordinator)와 참여자 (Participant) - 2단계 커밋 2PC 분산 트랜잭션 관리자 단일 장애점(SPOF) 글로벌 커밋 롤백 노드 통신

@@ -1,6 +1,6 @@
 +++
 weight = 39
-title = "간트 차트 (Gantt Chart)"
+title = "39. 간트 차트 (Gantt Chart) - 일정 시각화"
 description = "프로젝트의 일정을 시간에 따라 막대 형태로 시각화하여 진척도를 직관적으로 파악하는 간트 차트의 핵심 원리와 실무"
 date = 2024-05-24
 [taxonomies]

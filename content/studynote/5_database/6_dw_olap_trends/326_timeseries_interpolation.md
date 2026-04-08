@@ -1,5 +1,5 @@
 +++
-title = "326. 시계열 보간 (Time Series Interpolation)"
+title = "326. ELT (Extract, Load, Transform) 프로세스 - 클라우드 기반 현대 아키텍처, 먼저 적재 후 웨어하우스 내에서 변환 처리"
 weight = 4326
 +++
 

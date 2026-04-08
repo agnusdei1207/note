@@ -1,5 +1,5 @@
 +++
-title = "108. 서픽스 트리 / 서픽스 배열 (Suffix Tree / Suffix Array)"
+title = "108. 근사 알고리즘 — ρ-근사, FPTAS, PTAS"
 weight = 108
 +++
 

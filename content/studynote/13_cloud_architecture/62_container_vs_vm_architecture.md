@@ -1,5 +1,5 @@
 +++
-title = "62. 컨테이너 vs 가상머신(VM) 클라우드 가상화 아키텍처 비교"
+title = "62. 컨테이너 vs 가상머신(VM) - VM은 덩치 큰 Guest OS 전체를 구동하므로 무겁고 느리나 완벽한 물리적 격리 보장. 컨테이너는 커널을 공유하므로 수 밀리초 만에 기동되며 자원 효율이 극대화되나 보안 취약 (Container Escape)"
 date = "2026-04-07"
 [extra]
 categories = "studynote-cloud"

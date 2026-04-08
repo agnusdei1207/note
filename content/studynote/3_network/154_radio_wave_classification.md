@@ -1,5 +1,5 @@
 +++
-title = "154. 전파(Radio Wave)의 분류: 장파~극초단파"
+title = "154. 전파(Radio Wave)의 분류: 장파/중파/단파/초단파(VHF)/극초단파(UHF)"
 weight = 154
 +++
 

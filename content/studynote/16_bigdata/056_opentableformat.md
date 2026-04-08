@@ -1,6 +1,6 @@
 +++
 weight = 56
-title = "56. 오픈 테이블 포맷 (Open Table Format)"
+title = "56. Catalyst Optimizer — 논리 → 물리 실행 계획 최적화"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

@@ -1,6 +1,6 @@
 +++
 weight = 55
-title = "55. 데이터옵스 (DataOps)"
+title = "55. Spark SQL — SQL 쿼리로 DataFrame 처리, Hive 메타스토어 연동"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

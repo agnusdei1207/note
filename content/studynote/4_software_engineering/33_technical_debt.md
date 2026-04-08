@@ -1,6 +1,6 @@
 +++
 weight = 33
-title = "33. 기술 부채 (Technical Debt)"
+title = "33. 기술 부채 (Technical Debt) - 단기적 편의성으로 인한 장기적 비용 증가"
 description = "단기적인 개발 속도를 위해 타협한 품질이 장기적인 유지보수 비용 증가(이자)로 이어지는 기술 부채의 본질, 측정 방식, 그리고 상환 전략을 분석합니다."
 date = "2024-03-04"
 [taxonomies]

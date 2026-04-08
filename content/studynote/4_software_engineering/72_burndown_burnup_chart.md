@@ -1,5 +1,5 @@
 +++
-title = "72. 번다운 차트 (Burndown Chart) / 번업 차트"
+title = "72. 번다운 차트 (Burndown Chart) / 번업 차트 (Burnup Chart)"
 weight = 72
 +++
 

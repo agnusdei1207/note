@@ -1,5 +1,5 @@
 +++
-title = "746. 위협 인텔리전스 (TI)"
+title = "746. TI (Threat Intelligence) 융합 / STIX, TAXII 표준 지표 관리, IoC (침해지표) 반영"
 weight = 746
 +++
 # 746. TI (위협 인텔리전스) / STIX, TAXII, IoC 관리

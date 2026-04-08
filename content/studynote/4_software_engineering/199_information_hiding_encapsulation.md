@@ -1,5 +1,5 @@
 +++
-title = "199. 정보 은닉 (Information Hiding)"
+title = "199. 정보 은닉 (Information Hiding) - 내부 구현 상세를 숨김"
 weight = 199
 +++
 # 199. 정보 은닉 (Information Hiding) - 내부 구현 상세를 숨김 캡슐화 캡슐화 객체 지향 접근 제어자 사이드 이펙트 차단 독립성

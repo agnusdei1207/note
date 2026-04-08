@@ -1,6 +1,6 @@
 +++
 weight = 260
-title = "L1 캐시 (Level 1 Cache)"
+title = "260. L1 캐시"
 +++
 
 # L1 캐시 (Level 1 Cache)

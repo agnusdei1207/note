@@ -1,5 +1,5 @@
 +++
-title = "251. 루프 문제 (Looping) - 브로드캐스트 스톰"
+title = "251. 루프 문제 (Looping) - 브로드캐스트 스톰 (Broadcast Storm)"
 weight = 251
 +++
 

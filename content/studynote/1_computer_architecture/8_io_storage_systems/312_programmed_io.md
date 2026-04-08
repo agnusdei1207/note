@@ -1,6 +1,6 @@
 +++
 weight = 312
-title = "312. 프로그래밍된 I/O (Programmed I/O)"
+title = "312. 프로그램 제어 I/O (Programmed I/O)"
 date = "2026-03-26"
 [extra]
 categories = "studynote-computer-architecture"

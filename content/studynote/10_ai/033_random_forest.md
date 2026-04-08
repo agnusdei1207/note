@@ -1,6 +1,6 @@
 +++
 weight = 33
-title = "033. 랜덤 포레스트 (Random Forest)"
+title = "33. 분류 (Classification) - 이산적인 클래스 판별 (스팸 여부, 개/고양이 사진)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-ai"

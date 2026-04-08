@@ -1,5 +1,5 @@
 +++
-title = "083. AES (Advanced Encryption Standard) — 128/192/256비트 키"
+title = "83. AES (Advanced Encryption Standard) — 128/192/256비트 키"
 date = "2026-04-05"
 weight = 83
 [extra]

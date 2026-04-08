@@ -1,6 +1,6 @@
 +++
 weight = 55
-title = "55. 데이터 품질 진단 (Data Quality Audit)"
+title = "55. ISMS-P 인증 연계 - 개인정보 처리 시스템 취약점 조치 여부 병행 점검"
 date = "2026-04-05"
 [extra]
 categories = "studynote-design-supervision"

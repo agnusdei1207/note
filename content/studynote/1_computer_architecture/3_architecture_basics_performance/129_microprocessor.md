@@ -1,6 +1,6 @@
 +++
 weight = 129
-title = "마이크로프로세서 (Microprocessor)"
+title = "129. 마이크로프로세서 (Microprocessor)"
 +++
 
 # 마이크로프로세서 (Microprocessor)

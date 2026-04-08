@@ -1,5 +1,5 @@
 +++
-title = "205. 컨테이너 이미지 레이어 (Image Layer)"
+title = "205. 컨테이너 이미지 레이어 (Image Layer) 및 OCI (Open Container Initiative) 표준 규격"
 weight = 205
 +++
 # 205. 컨테이너 이미지 레이어 (Image Layer) 및 OCI - 도커 구조 오픈 컨테이너 이니셔티브 유니온 파일 시스템(UFS) 캐싱 불변성 스토리지 최적화

@@ -1,6 +1,6 @@
 +++
 weight = 265
-title = "265. 워킹 셋 (Working Set)"
+title = "265. 낙관적 병행성 제어 (Optimistic Concurrency Control)"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

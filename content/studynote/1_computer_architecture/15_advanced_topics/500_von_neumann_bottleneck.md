@@ -1,5 +1,5 @@
 +++
-title = "폰 노이만 병목 개선 기법"
+title = "500. 폰 노이만 병목 개선 기법"
 date = 2026-03-20
 weight = 500
 description = "CPU와 메모리 사이의 속도 차이로 인해 발생하는 폰 노이만 병목(Von Neumann Bottleneck)을 해결하기 위한 현대 컴퓨터 구조의 다양한 접근법"

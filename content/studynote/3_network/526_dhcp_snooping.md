@@ -1,5 +1,5 @@
 +++
-title = "526. DHCP Snooping (불법 DHCP 차단)"
+title = "526. DHCP Snooping - 불법 DHCP 서버 차단 보안기능 (스위치)"
 weight = 526
 +++
 # 526. DHCP Snooping - 불법 DHCP 서버 차단 보안기능

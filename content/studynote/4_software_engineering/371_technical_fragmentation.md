@@ -1,5 +1,5 @@
 +++
-title = "371. 기술적 단편화 (Technical Fragmentation)"
+title = "371. 기술적 단편화 (Technical Fragmentation) 문제"
 date = 2026-04-05
 weight = 371
 +++

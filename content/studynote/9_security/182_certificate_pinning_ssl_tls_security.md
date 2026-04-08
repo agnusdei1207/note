@@ -1,5 +1,5 @@
 +++
-title = "182. 인증서 핀닝 (Certificate Pinning) 모바일 SSL/TLS 보안"
+title = "182. 인증서 핀닝 —已知 인증서 목록 하드코딩"
 date = "2026-04-07"
 [extra]
 categories = "studynote-security"

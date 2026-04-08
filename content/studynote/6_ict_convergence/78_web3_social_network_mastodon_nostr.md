@@ -1,5 +1,5 @@
 +++
-title = "78. 웹3.0 소셜 네트워크 (Mastodon, Nostr)"
+title = "78. 웹3.0 소셜 네트워크 (Mastodon, Bluesky, Nostr 기반 프로토콜)"
 weight = 78
 +++
 

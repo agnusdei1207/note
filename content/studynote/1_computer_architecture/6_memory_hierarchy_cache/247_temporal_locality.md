@@ -1,6 +1,6 @@
 +++
 weight = 247
-title = "시간적 지역성 (Temporal Locality)"
+title = "247. 시간적 지역성 (Temporal Locality)"
 +++
 
 # 시간적 지역성 (Temporal Locality)

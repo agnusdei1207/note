@@ -1,6 +1,6 @@
 +++
 weight = 878
-title = "78. etcd (엣시디)"
+title = "878. etcd (엣시디)"
 description = "etcd: 쿠버네티스 클러스터의 모든 상태 정보를 저장하는 고가용성 분산 키-값 저장소"
 date = 2026-03-26
 

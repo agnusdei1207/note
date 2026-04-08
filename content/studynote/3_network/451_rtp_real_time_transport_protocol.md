@@ -1,5 +1,5 @@
 +++
-title = "451. RTP (Real-time Transport Protocol)"
+title = "451. RTP (Real-time Transport Protocol) - UDP 위에서 동작 (순서번호, 타임스탬프)"
 weight = 451
 +++
 

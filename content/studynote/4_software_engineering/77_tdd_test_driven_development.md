@@ -1,5 +1,5 @@
 +++
-title = "77. 테스트 주도 개발 (TDD) - Red-Green-Refactor"
+title = "77. 테스트 주도 개발 (TDD, Test Driven Development) - Red-Green-Refactor"
 weight = 77
 +++
 

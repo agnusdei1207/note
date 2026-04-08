@@ -1,6 +1,6 @@
 +++
 weight = 69
-title = "69. 직접 수열 확산 스펙트럼 (DSSS, Direct Sequence Spread Spectrum)"
+title = "69. 직접 수열 확산 스펙트럼 (DSSS, Direct Sequence Spread Spectrum) - PN 시퀀스"
 description = "PN 시퀀스를 사용하여 데이터를 넓은 대역으로 직접 확산시키는 무선 통신 핵심 원리"
 date = "2024-05-24"
 [taxonomies]

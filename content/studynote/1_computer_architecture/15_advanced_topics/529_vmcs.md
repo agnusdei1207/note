@@ -1,5 +1,5 @@
 +++
-title = "가상 머신 제어 구조 (VMCS, Virtual-Machine Control Structure)"
+title = "529. 가상 머신 제어 구조 (VMCS)"
 date = 2026-03-20
 weight = 529
 description = "하이퍼바이저와 가상 머신(VM) 간의 세계가 전환될 때, CPU의 모든 상태 정보를 저장하고 관리하는 하드웨어 가상화의 핵심 메모리 구조체"

@@ -1,6 +1,6 @@
 +++
 weight = 455
-title = "455. ìì ëíë (Double Buffering) 1ìì íë ëíì ìë íí"
+title = "455. 이중 버퍼링 (Double Buffering)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

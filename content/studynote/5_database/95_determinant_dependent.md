@@ -1,5 +1,5 @@
 +++
-title = "95. 결정자 (Determinant)와 종속자 (Dependent)"
+title = "95. 결정자 (Determinant) X / 종속자 (Dependent) Y"
 weight = 95
 +++
 

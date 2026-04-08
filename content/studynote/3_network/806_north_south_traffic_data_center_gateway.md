@@ -1,5 +1,5 @@
 +++
-title = "806. North-South 트래픽"
+title = "806. North-South 트래픽 (외부 사용자-데이터센터간 흐름)"
 weight = 806
 +++
 # 806. North-South 트래픽 (데이터센터 입출력 트래픽) - 방화벽 및 L4 스위치 병목 통제

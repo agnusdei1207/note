@@ -1,6 +1,6 @@
 +++
 weight = 132
-title = "132. System V IPC - 공유 메모리, 세마포어, 메시지 큐"
+title = "132. 시스템 V IPC - 공유 메모리, 세마포어, 메시지 큐"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

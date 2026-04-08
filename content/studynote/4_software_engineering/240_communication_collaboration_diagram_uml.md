@@ -1,5 +1,5 @@
 +++
-title = "240. 통신(커뮤니케이션) 다이어그램"
+title = "240. 통신 다이어그램 (Communication Diagram / Collaboration Diagram)"
 weight = 240
 +++
 # 240. 통신 다이어그램 (Communication Diagram / Collaboration Diagram) - UML 동적 다이어그램 객체 상호작용 메시지 순서 객체 간 관계 네트워크 토폴로지

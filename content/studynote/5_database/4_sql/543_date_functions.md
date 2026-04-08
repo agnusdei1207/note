@@ -1,6 +1,6 @@
 +++
 weight = 43
-title = "날짜/시간 함수 (Date/Time Functions)"
+title = "543. DB 방화벽 프록시 스니핑 방식 모니터링 감사 통제"
 description = "주요 SQL 날짜 및 시간 함수"
 date = 2026-03-26
 

@@ -1,6 +1,6 @@
 +++
 weight = 504
-title = "504. 파일 접근 방법 - 순차 접근(Sequential)과 직접 접근(Direct)"
+title = "504. 파일 접근 방법 - 순차 접근 (Sequential Access), 직접 접근 (Direct Access / Random Access)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

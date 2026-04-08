@@ -1,6 +1,6 @@
 +++
 weight = 52
-title = "52. Git 브랜치 전략 (Git Branching Strategies)"
+title = "52. 기술 부채 (Technical Debt) 모니터링 시스템"
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

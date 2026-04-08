@@ -1,5 +1,5 @@
 +++
-title = "전가상화 (Full Virtualization) I/O vs 반가상화 (Paravirtualization) I/O"
+title = "663. 반가상화 (Paravirtualization) I/O"
 date = 2026-03-20
 weight = 663
 description = "가상 머신(VM)이 네트워크나 디스크 같은 외부 장치(I/O)와 통신할 때, 하드웨어를 완벽히 흉내 내는 전가상화와, OS를 개조하여 효율을 높인 반가상화의 차이"

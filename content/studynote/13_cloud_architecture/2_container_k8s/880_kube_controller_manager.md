@@ -1,6 +1,6 @@
 +++
 weight = 880
-title = "80. Kube-Controller Manager"
+title = "880. Kube-Controller Manager"
 description = "Kube-Controller Manager: 쿠버네티스 클러스터의 현재 상태를 원하는 상태로 지속적으로 일치시키는 제어 루프들의 집합"
 date = 2026-03-26
 

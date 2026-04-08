@@ -1,5 +1,5 @@
 +++
-title = "622. 모듈러 모놀리스 (Modular Monolith) MSA 대안적 접근"
+title = "622. 모듈러 모놀리스 MSA 대안적 접근"
 date = "2026-04-07"
 [extra]
 categories = "studynote-se"

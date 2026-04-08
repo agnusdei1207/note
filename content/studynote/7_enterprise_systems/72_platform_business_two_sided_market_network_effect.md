@@ -1,5 +1,5 @@
 +++
-title = "72. 플랫폼 비즈니스 Platform Business 양면 시장 Two Sided Market"
+title = "72. 플랫폼 비즈니스 (Platform Business) - 양면 시장 (Two-sided Market) 연결 구조"
 date = "2026-04-07"
 [extra]
 categories = "studynote-enterprise"

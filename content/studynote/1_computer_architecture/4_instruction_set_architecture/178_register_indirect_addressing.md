@@ -1,6 +1,6 @@
 +++
 weight = 178
-title = "178. 레지스터 간접 주소 지정 (Register Indirect Addressing)"
+title = "178. 레지스터 간접 주소 지정 (Register Indirect)"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

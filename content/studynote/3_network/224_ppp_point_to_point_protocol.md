@@ -1,5 +1,5 @@
 +++
-title = "PPP (Point-to-Point Protocol)"
+title = "224. PPP (Point-to-Point Protocol) - 직렬 회선 표준, 바이트 지향"
 weight = 224
 +++
 

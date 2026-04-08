@@ -1,5 +1,5 @@
 +++
-title = "260. RSTP (Rapid STP) - IEEE 802.1w"
+title = "260. RSTP (Rapid STP) - IEEE 802.1w, 컨버전스 1~2초 단축"
 weight = 260
 +++
 

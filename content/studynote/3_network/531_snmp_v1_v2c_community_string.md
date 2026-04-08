@@ -1,5 +1,5 @@
 +++
-title = "531. SNMPv1, v2c (Community String)"
+title = "531. SNMPv1, v2c (Community String 노출 단점)"
 weight = 531
 +++
 # 531. SNMPv1, v2c (Community String 노출 단점)

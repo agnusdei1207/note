@@ -1,6 +1,6 @@
 +++
 weight = 562
-title = "562. 무결성 검증 파일 시스템 (dm-verity) - Android 보안 부팅의 핵심"
+title = "562. 무결성 검증 파일 시스템 (dm-verity / Android 적용 보안 파일 구조)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

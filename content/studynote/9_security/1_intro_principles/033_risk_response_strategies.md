@@ -1,6 +1,6 @@
 +++
 weight = 33
-title = "033. 위험 대응 전략 4가지 (Risk Response Strategies)"
+title = "33. 위험 대응 전략 4가지 — 회피/전가/완화/수용"
 date = "2026-04-05"
 [extra]
 categories = "studynote-security"

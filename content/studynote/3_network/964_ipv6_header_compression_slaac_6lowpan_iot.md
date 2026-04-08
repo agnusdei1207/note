@@ -1,5 +1,5 @@
 +++
-title = "964. IPv6 헤더 압축과 SLAAC"
+title = "964. IPv6 헤더 압축 / SLAAC"
 weight = 964
 +++
 # 964. IPv6 헤더 압축 / SLAAC - 무상태 주소 자동 설정 Stateless Address Autoconfiguration 라우터 탐색 헤더 오버헤드 경량화 사물인터넷 IoT 6LoWPAN 융합망

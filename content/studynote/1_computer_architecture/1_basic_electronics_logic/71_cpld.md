@@ -1,6 +1,6 @@
 +++
 weight = 71
-title = "71. CPLD (Complex Programmable Logic Device)"
+title = "71. CPLD"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

@@ -1,5 +1,5 @@
 +++
-title = "1105. vCPE 고객 구내 망 통합 전환"
+title = "1105. vCPE NFV 고객 구내 망 통합 전환"
 weight = 1105
 +++
 # 1105. vCPE NFV 고객 구내 망 통합 전환 - virtual Customer Premises Equipment 네트워크 기능 가상화 통신사 엣지 SD-WAN 화이트박스 하드웨어 종속성 탈피

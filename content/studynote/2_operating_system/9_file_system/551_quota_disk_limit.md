@@ -1,6 +1,6 @@
 +++
 weight = 551
-title = "551. 할당량 (Quota) 시스템 - 유저/그룹 디스크 사용량 제한"
+title = "551. 할당량 (Quota) 시스템 - 유저/그룹 별 디스크 사용량 제한"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

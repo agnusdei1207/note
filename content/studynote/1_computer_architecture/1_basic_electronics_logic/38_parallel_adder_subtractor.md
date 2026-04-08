@@ -1,6 +1,6 @@
 +++
 weight = 38
-title = "38. 병렬 가감산기 (Parallel Adder-Subtractor)"
+title = "38. 병렬 가감산기"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

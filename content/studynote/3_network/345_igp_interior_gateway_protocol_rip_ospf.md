@@ -1,5 +1,5 @@
 +++
-title = "345. IGP (Interior Gateway Protocol) - AS 내부"
+title = "345. IGP (Interior Gateway Protocol) - AS 내부 라우팅 (RIP, OSPF, EIGRP 등)"
 weight = 345
 +++
 

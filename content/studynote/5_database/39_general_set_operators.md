@@ -1,6 +1,6 @@
 +++
 weight = 39
-title = "39. 일반 집합 연산자"
+title = "39. 일반 집합 연산자 - 합집합(Union), 교집합(Intersection), 차집합(Difference), 카티션 프로덕트(Cartesian Product)"
 description = "관계형 대수에서 릴레이션 간의 수학적 집합론을 적용한 합집합, 교집합, 차집합, 카티션 프로덕트의 원리"
 date = "2026-03-04"
 [taxonomies]

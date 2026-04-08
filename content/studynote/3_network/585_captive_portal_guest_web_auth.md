@@ -1,6 +1,6 @@
 +++
 weight = 585
-title = "585. 캡티브 포털 (Captive Portal) - 게스트 접속 제어와 HTTP 리다이렉션 아키텍처"
+title = "585. 캡티브 포털 (Captive Portal) - 게스트 웹 기반 접속 인증"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

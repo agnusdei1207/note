@@ -1,6 +1,6 @@
 +++
 weight = 774
-title = "774. 네트워크 파일 시스템 무상태 설계"
+title = "774. 네트워크 파일 시스템 (NFS) 무상태 (Stateless)"
 date = "2026-03-30"
 [extra]
 categories = ["studynote-operating-system"]

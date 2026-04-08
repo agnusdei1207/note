@@ -1,6 +1,6 @@
 +++
 weight = 22
-title = "강화 학습"
+title = "22. MCTS 4단계 - 선택(Selection) -> 확장(Expansion) -> 시뮬레이션(Simulation) -> 역전파(Backpropagation)"
 description = "강화 학습(Reinforcement Learning)의 정의, MDP, Q-Learning, DQN, Policy Gradient"
 category = "10_ai"
 +++

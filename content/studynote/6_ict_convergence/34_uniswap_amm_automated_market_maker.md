@@ -1,5 +1,5 @@
 +++
-title = "34. 유니스왑 (Uniswap) / AMM (Automated Market Maker)"
+title = "34. 유니스왑 (Uniswap) / AMM (Automated Market Maker) - 자동화된 시장 조성자 알고리즘 (유동성 풀)"
 weight = 34
 +++
 

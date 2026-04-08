@@ -1,5 +1,5 @@
 +++
-title = "399. 애니캐스트(Anycast) 라우팅 - BGP"
+title = "399. Anycast 라우팅 (BGP Anycast - DNS 서버 이중화용)"
 weight = 399
 +++
 

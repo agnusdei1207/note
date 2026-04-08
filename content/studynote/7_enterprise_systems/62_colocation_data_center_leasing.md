@@ -1,5 +1,5 @@
 +++
-title = "62. 코로케이션 (Colocation) 데이터센터 공간 전력 임대"
+title = "62. 코로케이션 (Colocation) - 데이터센터의 공간과 전력만 임대하여 자사 서버 운영"
 date = "2026-04-07"
 [extra]
 categories = "studynote-enterprise"

@@ -1,6 +1,6 @@
 +++
 weight = 124
-title = "BOM (Bill of Materials) - 자재 명세서 (E-BOM / M-BOM)"
+title = "124. BOM (Bill of Materials) - 자재 명세서 (E-BOM 설계 / M-BOM 제조 차이 동기화 이슈)"
 description = "제품을 구성하는 모든 부품과 하위 조립품의 계층적 구조를 명세한 설계도로, 설계(E-BOM)와 제조(M-BOM) 부서 간의 정보 단절을 타파하는 제조 IT 융합의 척추"
 date = 2026-04-03
 [taxonomies]

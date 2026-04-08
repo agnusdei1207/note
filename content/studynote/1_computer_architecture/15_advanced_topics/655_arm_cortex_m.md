@@ -1,5 +1,5 @@
 +++
-title = "ARM Cortex-M 시리즈 특징 (Microcontroller)"
+title = "655. ARM Cortex-M 시리즈"
 date = 2026-03-20
 weight = 655
 description = "스마트워치, 리모컨, IoT 센서 등에 탑재되어 극단적인 저전력과 저비용으로 동작하는 ARM의 초소형 마이크로컨트롤러 전용 아키텍처"

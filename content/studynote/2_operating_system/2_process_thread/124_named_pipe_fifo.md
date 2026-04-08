@@ -1,6 +1,6 @@
 +++
 weight = 124
-title = "124. 지명 파이프 (Named Pipe / FIFO)"
+title = "124. 지명 파이프 (Named Pipe / FIFO) - 양방향 가능, 부모-자식 관계 무관"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

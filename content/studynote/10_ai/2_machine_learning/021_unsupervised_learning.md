@@ -1,6 +1,6 @@
 +++
 weight = 21
-title = "비지도 학습"
+title = "21. 몬테카를로 트리 탐색 (MCTS, Monte Carlo Tree Search) - 바둑(알파고) 등 경우의 수가 방대한 게임에서 무작위 시뮬레이션(롤아웃)을 통해 승률을 계산하여 최적 경로를 확장하는 탐색 기법"
 description = "비지도 학습(Unsupervised Learning)의 정의, 군집화, 차원 축소, 이상 탐지"
 category = "10_ai"
 +++

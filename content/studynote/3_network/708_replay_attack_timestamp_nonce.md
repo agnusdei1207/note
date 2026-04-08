@@ -1,5 +1,5 @@
 +++
-title = "708. 재생 공격 (Replay Attack) 방어"
+title = "708. 재생 공격 (Replay Attack 방어 타임스탬프 원리 / 비표 넌스 Nonce 적용)"
 weight = 708
 +++
 # 708. 재생 공격 (Replay Attack) - 타임스탬프와 Nonce를 활용한 방어

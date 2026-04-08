@@ -1,5 +1,5 @@
 +++
-title = "VFIO 프레임워크 (Virtual Function I/O)"
+title = "666. VFIO 프레임워크"
 date = 2026-03-20
 weight = 666
 description = "가상 머신이나 유저 공간(User-space) 애플리케이션이 호스트 커널(OS)의 간섭 없이 물리적 하드웨어(PCIe 그래픽카드 등)를 완벽하게 독점하고 직접 제어하게 해주는 리눅스 기술"

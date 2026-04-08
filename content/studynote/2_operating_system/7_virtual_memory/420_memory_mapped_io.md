@@ -1,6 +1,6 @@
 +++
 weight = 420
-title = "420. 메모리 맵 I/O (Memory-Mapped I/O) 하드웨어를 지배하는 포인터"
+title = "420. 메모리 맵 I/O (Memory-Mapped I/O) - 디바이스 레지스터 매핑"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

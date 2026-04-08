@@ -1,5 +1,5 @@
 +++
-title = "230. Repeatable Read (레벨 2)"
+title = "230. Repeatable Read (레벨 2) - 트랜잭션 내에서 읽은 데이터 락 유지 (MySQL 기본, Phantom Read 발생 가능성)"
 weight = 230
 +++
 # 230. Repeatable Read (레벨 2) - 고립화 수준 2단계 트랜잭션 모순성 방지 Non-Repeatable Read 차단 공유 락 유지 MySQL 기본 유령 읽기 취약

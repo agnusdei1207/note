@@ -1,5 +1,5 @@
 +++
-title = "269. 수직 분할 (Vertical Fragmentation)"
+title = "269. 수직 분할 (Vertical Fragmentation) - 속성(열) 단위 분할, 프로젝트 연산 (PK 반드시 포함)"
 weight = 269
 +++
 

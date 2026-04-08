@@ -1,6 +1,6 @@
 +++
 weight = 29
-title = "29. 역공학 (Reverse Engineering)"
+title = "29. 역공학 (Reverse Engineering) - 소스코드에서 설계서 추출"
 description = "소스코드에서 아키텍처 설계서를 추출하는 역공학 원리와 보안, 유지보수 측면의 실무 분석"
 date = "2026-03-04"
 [taxonomies]

@@ -1,5 +1,5 @@
 +++
-title = "196. CRC 종류 (CRC-16, CRC-32, CRC-CCITT)"
+title = "196. CRC-16, CRC-32 (Ethernet FCS), CRC-CCITT"
 weight = 196
 +++
 

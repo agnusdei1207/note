@@ -1,5 +1,5 @@
 +++
-title = "620. NB-IoT (Narrowband IoT)"
+title = "620. NB-IoT (Narrowband IoT) - LTE 주파수 여유 대역/보호대역 기반 200kHz 협대역 활용 IoT 표준 (3GPP Rel.13)"
 weight = 620
 +++
 # 620. NB-IoT (Narrowband IoT) - LTE 기반 200kHz 협대역 활용 IoT 표준

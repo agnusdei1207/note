@@ -1,6 +1,6 @@
 +++
 weight = 495
-title = "SPF (Sender Policy Framework) - 송신 서버 IP 검증"
+title = "495. SPF (Sender Policy Framework) - 송신 서버 IP 기반 메일 스푸핑 방지 (DNS TXT 확인)"
 description = "해커가 '사장님 이메일 주소'로 발신자를 위조하는 스푸핑(Spoofing)을 막기 위해, 진짜 우리 회사 메일 서버의 IP 주소 목록을 DNS에 공개적으로 박아두고 수신 서버가 대조하게 만드는 이메일 인증의 최전선 방패"
 date = 2026-04-03
 [taxonomies]

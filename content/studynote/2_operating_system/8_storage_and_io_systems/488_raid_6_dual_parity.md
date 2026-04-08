@@ -1,6 +1,6 @@
 +++
 weight = 488
-title = "488. RAID 6 (분산 이중 패리티)"
+title = "488. RAID 6 (분산 이중 패리티) - 디스크 2개 고장 허용"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

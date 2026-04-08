@@ -1,5 +1,5 @@
 +++
-title = "68. 스택/큐 (Stack / Queue)"
+title = "68. B-트리 (B-Tree) — 다진 탐색, 디스크 기반, 균형"
 weight = 68
 +++
 

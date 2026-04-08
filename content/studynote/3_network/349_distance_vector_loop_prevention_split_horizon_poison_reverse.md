@@ -1,5 +1,5 @@
 +++
-title = "349. 거리 벡터 루프 방지 (스플릿 호라이즌)"
+title = "349. 거리 벡터 라우팅 루프 방지 - 스플릿 호라이즌 (Split Horizon), 포이즌 리버스 (Poison Reverse)"
 weight = 349
 +++
 

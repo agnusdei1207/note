@@ -1,6 +1,6 @@
 +++
 weight = 29
-title = "029. 골든 패스 / �ályu (Golden Path & Value Stream)"
+title = "29. 내부 개발자 포털 (IDP, Internal Developer Portal) - Backstage 등, 개발자가 인프라/K8s를 몰라도 클릭 몇 번으로 인프라 프로비저닝 및 CI/CD 파이프라인 생성"
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

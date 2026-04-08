@@ -1,6 +1,6 @@
 +++
 weight = 18
-title = "AWS 주요 서비스 (IaaS/PaaS)"
+title = "823. AWS 주요 서비스 (IaaS/PaaS)"
 description = "AWS의 IaaS/PaaS 대표 서비스와 활용"
 date = 2026-03-26
 

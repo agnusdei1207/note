@@ -1,6 +1,6 @@
 +++
 weight = 46
-title = "INSERT, UPDATE, DELETE"
+title = "546. 공간 데이터 쿼리 기하 연산 MBR 근접 분석 기술 구조"
 description = "데이터 조작 DML 문"
 date = 2026-03-26
 

@@ -1,6 +1,6 @@
 +++
 weight = 48
-title = "048. 이상 탐지 (Anomaly Detection)"
+title = "48. ROC 커브 (Receiver Operating Characteristic) & AUC (Area Under Curve) - 임계값 변화에 따른 FPR 대비 TPR 그래프"
 date = "2026-04-05"
 [extra]
 categories = "studynote-ai"

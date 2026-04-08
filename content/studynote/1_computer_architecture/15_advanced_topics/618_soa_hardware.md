@@ -1,5 +1,5 @@
 +++
-title = "SOA (Service Oriented Architecture) HW 고려사항"
+title = "618. SOA (Service Oriented Architecture) HW 고려사항"
 date = 2026-03-20
 weight = 618
 description = "기능 단위로 분리된 서비스들이 네트워크를 통해 통신하는 SOA 환경에서, 통신 병목과 직렬화/역직렬화 부하를 감당하기 위해 요구되는 하드웨어 인프라 아키텍처"

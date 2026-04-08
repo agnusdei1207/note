@@ -1,6 +1,6 @@
 +++
 weight = 571
-title = "571. 무선 LAN (WLAN) 구조 - BSS (Basic Service Set), ESS (Extended Service Set) 아키텍처"
+title = "571. 무선 LAN (WLAN) 구조 분산: BSS(Basic Service Set), ESS(Extended Service Set)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

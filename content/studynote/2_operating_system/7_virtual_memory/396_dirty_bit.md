@@ -1,6 +1,6 @@
 +++
 weight = 396
-title = "396. 변경 비트 (Modify Bit / Dirty Bit) 디스크 I/O 절약의 핵심"
+title = "396. 변경 비트 (Modify Bit / Dirty Bit) - 교체 시 디스크 기록 여부 결정, 디스크 I/O 최적화"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

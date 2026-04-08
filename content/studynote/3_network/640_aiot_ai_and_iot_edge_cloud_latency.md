@@ -1,5 +1,5 @@
 +++
-title = "640. AIoT (AI + IoT)"
+title = "640. AIoT (AI + IoT) 모델 및 클라우드 AI 연결 지연 완화 기술"
 weight = 640
 +++
 # 640. AIoT (AI + IoT) 모델 및 클라우드 지연 완화 기술

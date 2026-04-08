@@ -1,6 +1,6 @@
 +++
 weight = 42
-title = "SQL 인젝션 (SQL Injection)"
+title = "542. 데이터 마스킹 부분 비식별화 암호화 비교 체계"
 description = "SQL 인젝션 공격과 방지 방법"
 date = 2026-03-26
 

@@ -1,5 +1,5 @@
 +++
-title = "950. HDLC 비트 스터핑"
+title = "950. HDLC 비트 스터핑 (Bit Stuffing)"
 weight = 950
 +++
 # 950. HDLC 비트 스터핑 (Bit Stuffing) - 투명성 데이터 프레임 동기화 플래그 플래그 바이트 오인 방지 통신망 처리 원리

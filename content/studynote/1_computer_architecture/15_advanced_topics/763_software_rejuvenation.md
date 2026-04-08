@@ -1,5 +1,5 @@
 +++
-title = "소프트웨어 회춘 (Software Rejuvenation)과 HW 리부트"
+title = "763. 소프트웨어 회춘 (Software Rejuvenation)과 HW 리부트"
 date = 2026-03-20
 weight = 763
 description = "시스템을 오래 켜둘수록 램(RAM)에 쓰레기가 쌓이고 느려지는 '소프트웨어 노화(Aging)'를 막기 위해, 장애가 터지기 전에 주기적으로 시스템을 강제로 재부팅(Reboot)하여 젊음을 되찾는 예방적 유지보수 기법"

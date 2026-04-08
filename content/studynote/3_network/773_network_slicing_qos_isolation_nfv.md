@@ -1,5 +1,5 @@
 +++
-title = "773. 5G 네트워크 슬라이싱"
+title = "773. 네트워크 슬라이싱 (Network Slicing 물리적 동일망 복수의 이종 독립 논리적 인스턴스 전용망 분할 보안, QoS 격리(eMBB/URLLC/mMTC) 관리 지원 클라우드 자원 할당 제로 트러스트 자원 관리 제어 체계 자동화 SDN/NFV 필수 적용 기술 망)"
 weight = 773
 +++
 # 773. 네트워크 슬라이싱 (Network Slicing) - QoS 격리 클라우드 전용망

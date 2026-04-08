@@ -1,5 +1,5 @@
 +++
-title = "729. CSRF 방어 (CSRF Token, SameSite)"
+title = "729. 크로스 사이트 요청 위조 (CSRF 원리 및 방어 토큰 방식 SameSite 설정)"
 weight = 729
 +++
 # 729. CSRF 방어용 Synchronizer Token Pattern 및 SameSite 쿠키 제어

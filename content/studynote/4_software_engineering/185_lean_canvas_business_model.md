@@ -1,5 +1,5 @@
 +++
-title = "185. 린 캔버스 (Lean Canvas)"
+title = "185. 린 캔버스 (Lean Canvas) 1페이지 비즈니스 모델"
 weight = 185
 +++
 # 185. 린 캔버스 (Lean Canvas) 1페이지 비즈니스 모델

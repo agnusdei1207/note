@@ -1,6 +1,6 @@
 +++
 weight = 207
-title = "207. 데드라인 스케줄링 (Deadline Scheduling)"
+title = "207. EDF (Earliest Deadline First) 스케줄링 - 마감시간이 빠를수록 높은 우선순위 (동적 우선순위)"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

@@ -1,5 +1,5 @@
 +++
-title = "61. KMP 문자열 매칭 (Knuth-Morris-Pratt Algorithm)"
+title = "61. 덱 (Deque, Double-Ended Queue) — 양방향 큐"
 weight = 61
 +++
 

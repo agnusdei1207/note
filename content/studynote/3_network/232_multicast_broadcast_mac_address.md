@@ -1,5 +1,5 @@
 +++
-title = "232. 멀티캐스트 및 브로드캐스트 MAC 주소"
+title = "232. 멀티캐스트 MAC 주소 / 브로드캐스트 MAC 주소 (FF:FF:FF:FF:FF:FF)"
 weight = 232
 +++
 

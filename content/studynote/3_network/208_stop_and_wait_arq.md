@@ -1,5 +1,5 @@
 +++
-title = "208. 정지-대기 ARQ (Stop-and-Wait ARQ)"
+title = "208. 정지-대기 ARQ (Stop-and-Wait ARQ) - 응답 받을때까지 대기, 효율 낮음"
 weight = 208
 +++
 

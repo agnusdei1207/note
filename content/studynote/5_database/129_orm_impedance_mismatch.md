@@ -1,5 +1,5 @@
 +++
-title = "ORM 패러다임 불일치 (Impedance Mismatch)"
+title = "129. ORM (Object-Relational Mapping) 개념과 임피던스 불일치 (Impedance Mismatch)"
 weight = 129
 +++
 

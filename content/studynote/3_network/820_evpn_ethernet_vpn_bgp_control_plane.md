@@ -1,5 +1,5 @@
 +++
-title = "820. EVPN (이더넷 VPN)"
+title = "820. EVPN (Ethernet VPN) - BGP 제어 평면 기반 L2/L3 오버레이 경로, MAC/IP 동적 학습 및 ARP 브로드캐스트 억제 기술 체계 (VXLAN 결합)"
 weight = 820
 +++
 # 820. EVPN (Ethernet VPN) - BGP 제어 평면 기반 L2/L3 오버레이 경로, ARP 억제 체계 결합

@@ -1,5 +1,5 @@
 +++
-title = "631. 결정 테이블 (Decision Table) 논리 조합 테스트 설계"
+title = "631. 결정 테이블 (Decision Table) 논리 조합"
 date = "2026-04-07"
 [extra]
 categories = "studynote-se"

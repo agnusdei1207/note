@@ -1,5 +1,5 @@
 +++
-title = "LAPB (Link Access Procedure, Balanced)"
+title = "222. LAPB (Link Access Procedure Balanced) - X.25 망"
 weight = 222
 +++
 

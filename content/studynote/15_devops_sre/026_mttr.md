@@ -1,6 +1,6 @@
 +++
 weight = 26
-title = "026. 서비스 복구 시간 (MTTR, Mean Time To Recovery)"
+title = "26. 서비스 복구 시간 (Time to Restore Service / MTTR) - 장애 발생 시 복구에 걸리는 시간"
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

@@ -1,5 +1,5 @@
 +++
-title = "753. EPC (Evolved Packet Core)"
+title = "753. EPC (Evolved Packet Core 코어망 시스템) S-GW, P-GW 제어 망 트래픽 통합"
 weight = 753
 +++
 # 753. EPC (Evolved Packet Core 코어망) - S-GW, P-GW 제어 망 트래픽 통합

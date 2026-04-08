@@ -1,6 +1,6 @@
 +++
 weight = 36
-title = "36. Apache Oozie/Airflow"
+title = "36. Apache Sqoop — RDBMS ↔ HDFS 데이터 임포트/익스포트"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

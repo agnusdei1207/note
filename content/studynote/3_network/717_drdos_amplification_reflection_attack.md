@@ -1,5 +1,5 @@
 +++
-title = "717. 반사 증폭 공격 (DRDoS)"
+title = "717. 반사 증폭 공격 (Amplification Attack / DRDoS)"
 weight = 717
 +++
 # 717. 반사 증폭 공격 (Amplification Attack / DRDoS)

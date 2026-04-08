@@ -1,5 +1,5 @@
 +++
-title = "코드 검토"
+title = "834. 코드 검토"
 description = "Code Review"
 category = "4_software_engineering"
 weight = 834

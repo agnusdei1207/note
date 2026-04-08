@@ -1,6 +1,6 @@
 +++
 weight = 27
-title = "027. 7S 모델 - 조직'efficacité의 7대 요소와 전략 정렬의 비밀"
+title = "27. 7S 모델 (맥킨지) - Strategy, Structure, Systems, Shared Values, Style, Staff, Skills"
 date = "2026-04-05"
 [extra]
 categories = "studynote-it-management"

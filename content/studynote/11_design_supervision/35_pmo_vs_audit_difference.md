@@ -1,5 +1,5 @@
 +++
-title = "35. PMO와 감리의 차이"
+title = "35. 웹 접근성 (Web Accessibility, KWCAG) 및 웹 호환성 준수 여부 진단"
 weight = 35
 +++
 

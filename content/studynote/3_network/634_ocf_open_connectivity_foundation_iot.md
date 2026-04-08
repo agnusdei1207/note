@@ -1,5 +1,5 @@
 +++
-title = "634. OCF (Open Connectivity Foundation)"
+title = "634. OCF (Open Connectivity Foundation) IoT 통합 관리 계층 표준"
 weight = 634
 +++
 # 634. OCF (Open Connectivity Foundation) IoT 통합 표준

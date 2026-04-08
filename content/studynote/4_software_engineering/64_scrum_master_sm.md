@@ -1,5 +1,5 @@
 +++
-title = "64. 스크럼 마스터 (Scrum Master, SM)"
+title = "64. 스크럼 마스터 (Scrum Master) - 가이드, 장애 제거"
 weight = 64
 +++
 

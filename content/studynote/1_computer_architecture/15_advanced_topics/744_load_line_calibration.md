@@ -1,5 +1,5 @@
 +++
-title = "로드 라인 캘리브레이션 (LLC, Load Line Calibration)"
+title = "744. 로드 라인 캘리브레이션 (LLC)"
 date = 2026-03-20
 weight = 744
 description = "CPU가 풀로드 상태로 돌 때 필연적으로 발생하는 전압 강하(Vdroop) 현상을 막기 위해, 메인보드가 하드웨어적으로 전압을 억지로 밀어 올려 안정성을 유지하는 오버클럭 필수 기능"

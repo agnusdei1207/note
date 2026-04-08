@@ -1,6 +1,6 @@
 +++
 weight = 570
-title = "570. WiMAX (IEEE 802.16) / WiBro - 모바일 광대역 인터넷의 개척자"
+title = "570. WiMAX (IEEE 802.16) / 휴대인터넷(WiBro) 개요 - 와이브로(모바일 WiMAX)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

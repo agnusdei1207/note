@@ -1,5 +1,5 @@
 +++
-title = "178. AS-IS / TO-BE 분석"
+title = "178. AS-IS (현재 상태) / TO-BE (미래 상태) 분석"
 weight = 178
 +++
 # 178. AS-IS (현재 상태) / TO-BE (미래 상태) 분석

@@ -1,5 +1,5 @@
 +++
-title = "433. 탐색적 테스팅 (Exploratory Testing)"
+title = "433. 탐색적 테스팅 (Exploratory Testing) - 명세서 없이 테스터의 직관과 경험을 바탕으로 테스트 설계와 수행을 동시 진행 (차터, 타임박스 활용)"
 date = 2026-04-05
 weight = 433
 +++

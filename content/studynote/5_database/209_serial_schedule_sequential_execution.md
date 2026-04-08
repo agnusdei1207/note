@@ -1,5 +1,5 @@
 +++
-title = "209. 직렬 스케줄 (Serial Schedule)"
+title = "209. 직렬 스케줄 (Serial Schedule) - 트랜잭션을 순차적으로 실행 (동시성 0)"
 weight = 209
 +++
 # 209. 직렬 스케줄 (Serial Schedule) - 트랜잭션 순차 실행 동시성 제로 인터리빙 없음 무결성 보장 성능 저하 시스템 대기열

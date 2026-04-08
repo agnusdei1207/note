@@ -1,5 +1,5 @@
 +++
-title = "271. CIR (보장 대역폭) / FECN, BECN 혼잡 알림"
+title = "271. CIR (Committed Information Rate) / FECN, BECN 혼잡 알림"
 weight = 271
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "535. Syslog (시스템 로그 프로토콜)"
+title = "535. Syslog (시스템 로그 프로토콜) - UDP 514, 중앙 로깅"
 weight = 535
 +++
 # 535. Syslog (시스템 로그 프로토콜) - UDP 514

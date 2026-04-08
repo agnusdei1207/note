@@ -1,5 +1,5 @@
 +++
-title = "211. 직렬 가능 스케줄"
+title = "211. 직렬 가능 스케줄 (Serializable Schedule) - 비직렬이지만 결과가 직렬 스케줄과 동일한 스케줄 보장"
 weight = 211
 +++
 # 211. 직렬 가능 스케줄 (Serializable Schedule) - 비직렬 실행 결과 직렬 스케줄 동일 보장 데이터베이스 트랜잭션 동시성 제어 목표 무결성

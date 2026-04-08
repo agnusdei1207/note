@@ -1,6 +1,6 @@
 +++
 weight = 364
-title = "364. 세그멘테이션 (Segmentation) 인간 중심의 메모리 분할"
+title = "364. 세그멘테이션 (Segmentation) - 사용자 관점의 가변 크기 논리적 단위(함수, 객체) 분할"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

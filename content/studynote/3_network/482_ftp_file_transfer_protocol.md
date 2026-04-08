@@ -1,6 +1,6 @@
 +++
 weight = 482
-title = "FTP (File Transfer Protocol) - 양방향 연결 (제어포트 21, 데이터포트 20)"
+title = "482. FTP (File Transfer Protocol) - 양방향 연결 (제어포트 21, 데이터포트 20)"
 description = "네트워크 상에서 대용량 파일을 전송하기 위해 1971년부터 사용된 고전 프로토콜로, 제어(Control)와 데이터(Data) 채널을 물리적으로 분리한 이원화 아키텍처"
 date = 2026-04-03
 [taxonomies]

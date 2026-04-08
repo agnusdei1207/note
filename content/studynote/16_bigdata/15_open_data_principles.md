@@ -1,6 +1,6 @@
 +++
 weight = 15
-title = "15. 오픈데이터 원칙 (FAIR)"
+title = "15. 오픈데이터 원칙 — FAIR (Findable/Accessible/Interoperable/Reusable)"
 description = "데이터의 기계 판독성과 재사용성을 극대화하는 FAIR 원칙의 아키텍처 및 실무 도입 전략"
 date = "2024-05-23"
 [taxonomies]

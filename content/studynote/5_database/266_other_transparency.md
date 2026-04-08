@@ -1,5 +1,5 @@
 +++
-title = "266. 병행 투명성 / 장애 투명성 / 지역 사상 투명성"
+title = "266. 병행 투명성 (Concurrency) / 장애 투명성 (Failure) / 지역 사상 투명성 (Local Mapping)"
 weight = 266
 +++
 

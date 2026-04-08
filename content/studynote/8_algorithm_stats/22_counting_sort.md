@@ -1,5 +1,5 @@
 +++
-title = "22. 계수 정렬 (Counting Sort)"
+title = "22. 힙 정렬 (Heap Sort) — O(n log n), 불안정, 제자리"
 weight = 22
 +++
 

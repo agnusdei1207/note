@@ -1,5 +1,5 @@
 +++
-title = "PCIe AER (Advanced Error Reporting)"
+title = "716. PCIe AER (Advanced Error Reporting)"
 date = 2026-03-20
 weight = 716
 description = "서버에 꽂힌 그래픽카드(GPU)나 랜카드(NIC)가 통신 중 치명적인 에러를 일으켰을 때, 시스템 전체가 블루스크린으로 뻗어버리는 것을 막고 에러의 원인을 상세히 보고하여 복구를 시도하는 PCIe 버스의 핵심 방어선"

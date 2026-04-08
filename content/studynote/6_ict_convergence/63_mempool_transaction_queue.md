@@ -1,5 +1,5 @@
 +++
-title = "63. 트랜잭션 풀 (Mempool / Memory Pool)"
+title = "63. 트랜잭션 풀 (Mempool / Memory Pool) - 블록에 포함되지 않은 대기 중인 트랜잭션 저장소"
 weight = 63
 +++
 

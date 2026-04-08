@@ -1,5 +1,5 @@
 +++
-title = "1049. NTP 및 GPS 동기화"
+title = "1049. NTP / GPS 동기화"
 weight = 1049
 +++
 # 1049. NTP / GPS 동기화 - Network Time Protocol 인터넷 표준 시각 동기 계층적 스트라텀(Stratum) 구조 밀리초 동기화 GNSS 원자시계 결합망

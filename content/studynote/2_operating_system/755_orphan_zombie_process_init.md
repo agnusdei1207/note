@@ -1,6 +1,6 @@
 +++
 weight = 755
-title = "755. 고아 프로세스와 좀비 프로세스"
+title = "755. 고아 좀비 프로세스 init 처리"
 date = "2026-03-30"
 [extra]
 categories = ["studynote-operating-system"]

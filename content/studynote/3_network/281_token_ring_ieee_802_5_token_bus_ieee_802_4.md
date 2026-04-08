@@ -1,5 +1,5 @@
 +++
-title = "281. 토큰 링 (IEEE 802.5) / 토큰 버스 (IEEE 802.4)"
+title = "281. 토큰 링 (Token Ring) - IEEE 802.5 / 토큰 버스 (Token Bus) - IEEE 802.4"
 weight = 281
 +++
 

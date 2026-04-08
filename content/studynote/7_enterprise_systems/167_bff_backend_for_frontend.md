@@ -1,5 +1,5 @@
 +++
-title = "167. BFF (Backend For Frontend)"
+title = "167. BFF (Backend For Frontend) - 모바일, 웹 데스크톱 등 프론트엔드 환경별로 맞춤형 API 게이트웨이를 별도 구축하는 패턴"
 weight = 167
 +++
 # 167. BFF (Backend For Frontend)

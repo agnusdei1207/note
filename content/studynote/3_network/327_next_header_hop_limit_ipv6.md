@@ -1,5 +1,5 @@
 +++
-title = "327. Next Header와 Hop Limit (IPv6)"
+title = "327. Next Header, 홉 제한 (Hop Limit, TTL 대응)"
 weight = 327
 +++
 

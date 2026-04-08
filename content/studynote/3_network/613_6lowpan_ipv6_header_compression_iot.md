@@ -1,5 +1,5 @@
 +++
-title = "613. 6LoWPAN"
+title = "613. 6LoWPAN - IEEE 802.15.4 환경의 저전력 장치를 IP 계층인 IPv6 로 인터넷 연동시키는 헤더 압축/단편화 (IoT 핵심)"
 weight = 613
 +++
 # 613. 6LoWPAN - 헤더 압축과 단편화 (IoT의 핏줄)

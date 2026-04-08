@@ -1,5 +1,5 @@
 +++
-title = "804. ECMP (Equal-Cost Multi-Path)"
+title = "804. ECMP (Equal-Cost Multi-Path) 스파인-리프 병렬 라우팅 경로 활성화"
 weight = 804
 +++
 # 804. ECMP (Equal-Cost Multi-Path) - 스파인-리프 병렬 라우팅 경로 활성화

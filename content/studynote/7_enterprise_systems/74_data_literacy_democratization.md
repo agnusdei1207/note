@@ -1,5 +1,5 @@
 +++
-title = "74. 데이터 리터러시 (Data Literacy)"
+title = "74. 데이터 리터러시 (Data Literacy) - 조직원의 데이터 해독 및 활용 능력"
 weight = 74
 +++
 

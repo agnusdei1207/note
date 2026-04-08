@@ -1,6 +1,6 @@
 +++
 weight = 21
-title = "21. 전략 체계도 (전략 맵: Strategy Map)"
+title = "21. 전략 체계도 (Strategy Map) - BSC 각 관점의 KPI 인과관계를 도식화"
 description = "기업 전략의 인과 관계를 4개 관점에서 시각화하여 전략 실행력을 높이는 전략 관리 도구"
 date = "2026-04-05"
 [taxonomies]

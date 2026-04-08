@@ -1,6 +1,6 @@
 +++
 weight = 574
-title = "574. 전역 테이블 (Global Table) 방식"
+title = "574. 전역 테이블 (Global Table) 방식 구현 (행렬 희소성 문제)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

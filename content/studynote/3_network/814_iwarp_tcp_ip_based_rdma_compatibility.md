@@ -1,5 +1,5 @@
 +++
-title = "814. iWARP (TCP/IP 기반 RDMA)"
+title = "814. iWARP - TCP/IP 기반의 RDMA 구현 망 호환성 중시 프로토콜 단"
 weight = 814
 +++
 # 814. iWARP - TCP/IP 기반의 RDMA 구현 망 호환성 중시 프로토콜

@@ -1,5 +1,5 @@
 +++
-title = "DPDK (Data Plane Development Kit)"
+title = "671. DPDK (Data Plane Development Kit)"
 date = 2026-03-20
 weight = 671
 description = "느려터진 리눅스 커널(OS)의 네트워크 스택을 완전히 무시하고, 랜카드(NIC)의 패킷을 유저 모드(User-space) 애플리케이션으로 다이렉트로 퍼 올리는 초고속 패킷 처리 프레임워크"

@@ -1,6 +1,6 @@
 +++
 weight = 36
-title = "CRDT (Conflict-Free Replicated Data Type)"
+title = "536. 샤드 키 불균형 데이터 핫스팟 현상 대처"
 description = "분산 환경에서 충돌 없는 복제 데이터 타입 CRDT에 대해 설명"
 date = 2024-01-01
 

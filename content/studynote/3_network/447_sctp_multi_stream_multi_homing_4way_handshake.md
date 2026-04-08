@@ -1,5 +1,5 @@
 +++
-title = "447. SCTP (Stream Control Transmission Protocol)"
+title = "447. SCTP (Stream Control Transmission Protocol) - 다중 스트림, 멀티 호밍 (Multi-homing), 4단계 핸드셰이크(쿠키방식)"
 weight = 447
 +++
 

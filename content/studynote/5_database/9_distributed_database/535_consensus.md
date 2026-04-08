@@ -1,6 +1,6 @@
 +++
 weight = 35
-title = "분산 Consensus 알고리즘 (Paxos, Raft)"
+title = "535. NoSQL BASE 특성 소프트 스테이트 결국 일관 상태 전이"
 description = "분산 시스템에서 합의를 달성하는 Paxos와 Raft 알고리즘에 대해 설명"
 date = 2024-01-01
 

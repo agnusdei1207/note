@@ -1,5 +1,5 @@
 +++
-title = "197. LDH Limited Distribution Hypothesis 인증서 배포 모델"
+title = "197. LDH (Limited Distribution Hypothesis) — 인증서 배포 모델"
 date = "2026-04-07"
 [extra]
 categories = "studynote-security"

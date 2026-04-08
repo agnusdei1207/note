@@ -1,5 +1,5 @@
 +++
-title = "703. ARP 스푸핑 (ARP Spoofing)"
+title = "703. ARP 스푸핑 (ARP Spoofing) - MAC 주소 기만 타겟 PC 트래픽 탈취, 중간자 정적대응 방어 (Static ARP)"
 weight = 703
 +++
 # 703. ARP 스푸핑 - MAC 주소 기만 타겟 PC 트래픽 탈취, 정적 대응 방어

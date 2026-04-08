@@ -1,5 +1,5 @@
 +++
-title = "캐시 라인 프리패치 (Cache Line Prefetch)"
+title = "505. 캐시 라인 프리패치"
 date = 2026-03-20
 weight = 505
 description = "CPU가 곧 필요로 할 데이터를 미리 예측하여 캐시 메모리로 당겨오는 하드웨어 최적화 기술"

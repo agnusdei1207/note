@@ -1,6 +1,6 @@
 +++
 weight = 53
-title = "053. 예방 통제 (Preventive Controls)"
+title = "53. 예방 통제 (Preventive Controls) — 사전 차단"
 date = "2026-04-05"
 [extra]
 categories = "studynote-security"

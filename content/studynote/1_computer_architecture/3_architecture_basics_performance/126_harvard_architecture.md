@@ -1,6 +1,6 @@
 +++
 weight = 126
-title = "하버드 아키텍처 (Harvard Architecture)"
+title = "126. 하버드 아키텍처 (Harvard Architecture)"
 +++
 
 # 하버드 아키텍처 (Harvard Architecture)

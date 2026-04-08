@@ -1,6 +1,6 @@
 +++
 weight = 122
-title = "순환 시프트 (Circular Shift / Rotate)"
+title = "122. 순환 시프트 (Rotate)"
 +++
 
 # 순환 시프트 (Circular Shift / Rotate)

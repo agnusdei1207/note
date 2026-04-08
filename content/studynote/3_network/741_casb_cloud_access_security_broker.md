@@ -1,5 +1,5 @@
 +++
-title = "741. CASB (클라우드 보안 브로커)"
+title = "741. CASB (Cloud Access Security Broker 클라우드 망 접속 보안 모니터/가시성 유지 시스템)"
 weight = 741
 +++
 # 741. CASB (Cloud Access Security Broker) - 클라우드 망 접속 보안 모니터/가시성

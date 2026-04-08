@@ -1,6 +1,6 @@
 +++
 weight = 544
-title = "Apache Hive"
+title = "544. SQL 인젝션 논리 에러/타임베이스 블라인드 주입 체계망"
 description = "Hadoop 기반 데이터 웨어하우스 Hive의 특징과 SQL 인터페이스에 대해 설명"
 date = 2024-01-01
 

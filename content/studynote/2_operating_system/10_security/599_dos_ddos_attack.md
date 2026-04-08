@@ -1,6 +1,6 @@
 +++
 weight = 599
-title = "599. 서비스 거부 (DoS) 및 분산 서비스 거부 (DDoS)"
+title = "599. 서비스 거부 (DoS) 및 분산 서비스 거부 (DDoS) 네트워크 자원 고갈 공격"
 date = "2026-03-25"
 [extra]
 categories = "studynote-operating-system"

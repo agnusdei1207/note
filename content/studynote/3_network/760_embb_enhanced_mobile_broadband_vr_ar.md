@@ -1,5 +1,5 @@
 +++
-title = "760. eMBB (초고속 대용량 통신)"
+title = "760. eMBB (Enhanced Mobile Broadband 초고속 광대역 대용량 증강 기술 적용) AR/VR 기술 지원 파급 체계 지원"
 weight = 760
 +++
 # 760. eMBB (Enhanced Mobile Broadband 초고속 대용량) 및 AR/VR 지원 체계

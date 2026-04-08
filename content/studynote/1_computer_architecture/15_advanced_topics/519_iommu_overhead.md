@@ -1,5 +1,5 @@
 +++
-title = "IOMMU 성능 오버헤드"
+title = "519. IOMMU 성능 오버헤드"
 date = 2026-03-20
 weight = 519
 description = "주변기기(PCIe, 네트워크 카드 등)의 안전한 가상 메모리 접근을 돕는 IOMMU가 초고속 I/O 환경에서 유발하는 병목 현상과 해결책"

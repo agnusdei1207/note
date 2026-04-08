@@ -1,5 +1,5 @@
 +++
-title = "338. CEF (Cisco Express Forwarding) - 하드웨어 스위칭"
+title = "338. CEF (Cisco Express Forwarding) 물리적 포워딩 / 하드웨어 스위칭 (ASIC)"
 weight = 338
 +++
 

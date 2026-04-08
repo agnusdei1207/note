@@ -1,5 +1,5 @@
 +++
-title = "389. IntServ (Integrated Services) - 자원 예약 기반"
+title = "389. IntServ (Integrated Services) - 자원 예약 기반 (RSVP)"
 weight = 389
 +++
 

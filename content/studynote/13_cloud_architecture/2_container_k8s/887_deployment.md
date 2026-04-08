@@ -1,6 +1,6 @@
 +++
 weight = 887
-title = "87. 디플로이먼트 (Deployment)"
+title = "887. 디플로이먼트 (Deployment)"
 description = "Deployment: 레플리카셋을 관리하며 롤링 업데이트, 롤백, 버전 관리를 제공하는 쿠버네티스 워크로드 리소스"
 date = 2026-03-26
 

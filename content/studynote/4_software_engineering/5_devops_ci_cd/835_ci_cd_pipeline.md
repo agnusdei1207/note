@@ -1,5 +1,5 @@
 +++
-title = "CI/CD 파이프라인"
+title = "835. CI/CD 파이프라인"
 description = "CI/CD Pipeline"
 category = "4_software_engineering"
 weight = 835

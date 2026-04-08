@@ -1,6 +1,6 @@
 +++
 weight = 62
-title = "62. 서비스 전환 (Service Transition)"
+title = "62. ITIL (IT Infrastructure Library) - ITSM 구축을 위한 영국(OGC) 제정 글로벌 베스트 프랙티스 라이브러리"
 description = "설계 단계에서 정의된 서비스를 구축, 테스트, 검증하여 운영 환경에 안전하게 배포하는 ITIL Lifecycle의 terceiro 단계"
 date = "2026-03-04"
 [taxonomies]

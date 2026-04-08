@@ -1,6 +1,6 @@
 +++
 weight = 41
-title = "041. AARRR 퍼널 - 사용자 생애 가치의 모든 단계를 측정하는 성장 도구"
+title = "41. 그로스 해킹 (Growth Hacking) - 제품 기능과 마케팅 데이터를 결합해 사용자 유입과 성장을 극대화하는 기법"
 date = "2026-04-05"
 [extra]
 categories = "studynote-it-management"

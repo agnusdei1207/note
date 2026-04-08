@@ -1,6 +1,6 @@
 +++
 weight = 454
-title = "454. 버퍼링 (Buffering) 속도와 크기 차이의 완충재"
+title = "454. 버퍼링 (Buffering) - 송수신자 간 데이터 전송 속도 차이, 전송 단위 차이 극복"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

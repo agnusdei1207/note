@@ -1,5 +1,5 @@
 +++
-title = "265. PoE (Power over Ethernet) - 랜선으로 전력 공급"
+title = "265. PoE (Power over Ethernet) - IEEE 802.3af/at/bt, 랜선으로 전력 공급"
 weight = 265
 +++
 

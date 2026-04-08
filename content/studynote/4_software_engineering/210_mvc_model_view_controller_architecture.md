@@ -1,5 +1,5 @@
 +++
-title = "210. 모델-뷰-컨트롤러 (MVC)"
+title = "210. 모델-뷰-컨트롤러 (MVC, Model-View-Controller)"
 weight = 210
 +++
 # 210. 모델-뷰-컨트롤러 (MVC, Model-View-Controller) - UI 비즈니스 로직 분리 웹 애플리케이션 스프링 프레임워크 아키텍처 패턴 프론트엔드 백엔드

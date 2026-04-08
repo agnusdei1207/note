@@ -1,5 +1,5 @@
 +++
-title = "66. 가중치 (Weight) / 편향 (Bias)"
+title = "66. 가중치 (Weight, W) / 편향 (Bias, b) - 선형 방정식의 파라미터 (y = Wx + b)"
 date = "2026-04-07"
 [extra]
 categories = "studynote-ai"

@@ -1,6 +1,6 @@
 +++
 weight = 209
-title = "209. 동적 우선순위 스케줄링 (Dynamic Priority Scheduling)"
+title = "209. POSIX 스케줄링 API - SCHED_FIFO, SCHED_RR, SCHED_OTHER"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

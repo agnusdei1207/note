@@ -1,5 +1,5 @@
 +++
-title = "197. 트랜잭션 상태 전이"
+title = "197. 트랜잭션 상태 전이 - 활동(Active) -> 부분 완료(Partially Committed) -> 완료(Committed) / 실패(Failed) -> 철회(Aborted)"
 weight = 197
 +++
 # 197. 트랜잭션 상태 전이 - 활동(Active) 부분 완료(Partially Committed) 완료(Committed) 실패(Failed) 철회(Aborted) 데이터베이스 동작 흐름

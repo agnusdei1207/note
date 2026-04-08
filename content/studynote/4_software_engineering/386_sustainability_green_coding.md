@@ -1,5 +1,5 @@
 +++
-title = "386. 지속 가능성 및 그린 코딩 (Sustainability and Green Coding)"
+title = "386. 지속 가능성 (Sustainability) 및 그린 코딩 (Green Coding) - 탄소 배출 저감 코드"
 date = 2026-04-05
 weight = 386
 +++

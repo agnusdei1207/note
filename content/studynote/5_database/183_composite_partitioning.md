@@ -1,5 +1,5 @@
 +++
-title = "183. 컴포지트 파티셔닝 (Composite Partitioning)"
+title = "183. 컴포지트 파티셔닝 (Composite Partitioning) - 복합 (Range + Hash 등)"
 weight = 183
 +++
 # 183. 컴포지트 파티셔닝 (Composite Partitioning) - 복합 파티셔닝

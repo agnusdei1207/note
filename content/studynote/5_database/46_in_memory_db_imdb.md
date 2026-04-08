@@ -1,5 +1,5 @@
 +++
-title = "46. 인-메모리 데이터베이스 (IMDB) - Redis, SAP HANA"
+title = "46. 인-메모리 데이터베이스 (IMDB, In-Memory DB) - Redis, Memcached, SAP HANA (디스크 I/O 병목 제거)"
 weight = 46
 +++
 

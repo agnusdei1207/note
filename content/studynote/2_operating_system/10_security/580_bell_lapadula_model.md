@@ -1,6 +1,6 @@
 +++
 weight = 580
-title = "580. 벨-라파둘라 모델 (Bell-LaPadula Model)"
+title = "580. 벨-라파둘라 모델 (Bell-LaPadula) - 기밀성 위주 보안 정책 (No Read Up, No Write Down)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

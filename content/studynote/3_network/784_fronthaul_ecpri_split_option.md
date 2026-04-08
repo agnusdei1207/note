@@ -1,5 +1,5 @@
 +++
-title = "784. 프론트홀 (eCPRI 규격)"
+title = "784. 프론트홀 (Fronthaul 안테나-DU망 광인터페이스 eCPRI 규격 모델 구조 구성 패킷망 확장망)"
 weight = 784
 +++
 # 784. 프론트홀 (Fronthaul) 광인터페이스 - eCPRI 규격 및 패킷망 확장

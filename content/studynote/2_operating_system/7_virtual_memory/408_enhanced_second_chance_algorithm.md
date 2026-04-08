@@ -1,6 +1,6 @@
 +++
 weight = 408
-title = "408. 개선된 2차 기회 알고리즘 (Enhanced Second-Chance) 디스크 지연 회피의 극의"
+title = "408. 개선된 2차 기회 알고리즘 - 참조 비트와 변경 비트의 조합 (0,0 -> 0,1 -> 1,0 -> 1,1 우선순위 교체)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

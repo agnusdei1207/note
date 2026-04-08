@@ -1,6 +1,6 @@
 +++
 weight = 25
-title = "25. 과업 대비표 (Task Traceability Matrix)"
+title = "25. 과업 대비표 (Task Traceability Matrix) - RFP, 제안서, 요구사항 명세서 간의 과업 이행 여부 추적 맵"
 date = "2026-04-02"
 [extra]
 categories = "studynote-design-supervision"

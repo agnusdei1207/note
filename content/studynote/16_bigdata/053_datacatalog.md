@@ -1,6 +1,6 @@
 +++
 weight = 53
-title = "53. 데이터 카탈로그 (Data Catalog)"
+title = "53. Transformation vs Action — Lazy Evaluation (변환은 지연, 액션은 즉시)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

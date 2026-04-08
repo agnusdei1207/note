@@ -1,5 +1,5 @@
 +++
-title = "673. MAC (Message Authentication Code)"
+title = "673. MAC (Message Authentication Code) 변수 및 기능"
 weight = 673
 +++
 # 673. MAC (Message Authentication Code) 변수 및 기능

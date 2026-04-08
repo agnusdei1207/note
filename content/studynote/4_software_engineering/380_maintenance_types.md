@@ -1,5 +1,5 @@
 +++
-title = "380. 소프트웨어 유지보수의 종류 - 수정, 적응, 완전/개선, 예방"
+title = "380. 소프트웨어 유지보수의 종류 - 수정(Corrective), 적응(Adaptive), 완전/개선(Perfective), 예방(Preventive)"
 date = 2026-04-05
 weight = 380
 +++

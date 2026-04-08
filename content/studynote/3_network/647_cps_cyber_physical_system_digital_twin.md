@@ -1,5 +1,5 @@
 +++
-title = "647. CPS (Cyber-Physical System)"
+title = "647. CPS (Cyber-Physical System 트윈/메타 데이터 전송 요구사항)"
 weight = 647
 +++
 # 647. CPS (Cyber-Physical System) - 메타 데이터 전송 요구사항

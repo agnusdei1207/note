@@ -1,5 +1,5 @@
 +++
-title = "186. Stapling of OCSP Response TLS 핸드셰이크 최적화"
+title = "186. Stapling of OCSP Response — TLS 핸드셰이크 최적화"
 date = "2026-04-07"
 [extra]
 categories = "studynote-security"

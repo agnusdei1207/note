@@ -1,5 +1,5 @@
 +++
-title = "115. 논리적 설계 (Logical Design)와 정규화"
+title = "115. 논리적 설계 (Logical Design) - ERD를 릴레이션 스키마로 변환, 정규화 수행"
 weight = 115
 +++
 

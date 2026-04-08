@@ -1,5 +1,5 @@
 +++
-title = "랙 스케일 아키텍처 (Rack Scale Architecture, RSA)"
+title = "639. 랙 스케일 아키텍처 (Rack Scale Architecture)"
 date = 2026-03-20
 weight = 639
 description = "서버 한 대가 아닌, 서버 수십 대가 꽂혀 있는 커다란 쇳덩어리 캐비닛(Rack) 전체를 거대한 '단일 컴퓨터'처럼 설계하고 통제하는 데이터센터 아키텍처"

@@ -1,5 +1,5 @@
 +++
-title = "352. RIPv1 vs RIPv2 (클래스풀과 클래스리스)"
+title = "352. RIPv1 (클래스풀, 브로드캐스트) vs RIPv2 (클래스리스/VLSM, 멀티캐스트: 224.0.0.9)"
 weight = 352
 +++
 

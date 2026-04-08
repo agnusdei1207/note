@@ -1,6 +1,6 @@
 +++
 weight = 24
-title = "24. SDN (소프트웨어 정의 네트워킹)"
+title = "24. SDN (Software Defined Networking) - 제어 평면(Control Plane)과 데이터 전송 평면(Data Plane)을 분리하여 네트워크 장비를 중앙 집중식으로 프로그래밍 통제"
 description = "네트워크 제어부와 데이터 전달부를 분리하여 소프트웨어로 프로그래밍하는 SDN의 아키텍처와 클라우드 네이티브 네트워킹実現 원리"
 date = "2024-05-24"
 [taxonomies]

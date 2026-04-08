@@ -1,6 +1,6 @@
 +++
 weight = 544
-title = "544. AFS (Andrew File) / SMB/CIFS 파일 공유 시스템"
+title = "544. AFS (Andrew File System) / SMB/CIFS (Windows 파일 공유)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

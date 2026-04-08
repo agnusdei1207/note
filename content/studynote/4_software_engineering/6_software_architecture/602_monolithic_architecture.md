@@ -1,6 +1,6 @@
 +++
 weight = 602
-title = "모놀리스 아키텍처"
+title = "602. 정보 은닉(Information Hiding) 캡슐화 연계"
 description = "모놀리스 아키텍처의 개념, 장단점 및 실무 적용"
 date = 2024-01-15
 

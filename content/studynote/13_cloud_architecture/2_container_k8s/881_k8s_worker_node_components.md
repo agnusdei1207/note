@@ -1,6 +1,6 @@
 +++
 weight = 881
-title = "81. K8s 워커 노드 컴포넌트 3가지"
+title = "881. K8s 워커 노드 컴포넌트 3가지"
 description = "쿠버네티스 워커 노드의 3대 핵심 컴포넌트: Kubelet, Kube-proxy, Container Runtime의 역할과 동작 원리"
 date = 2026-03-26
 

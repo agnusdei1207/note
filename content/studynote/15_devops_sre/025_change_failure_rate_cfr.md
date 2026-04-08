@@ -1,6 +1,6 @@
 +++
 weight = 25
-title = "025. 변경 실패율 (CFR, Change Failure Rate)"
+title = "25. 변경 실패율 (Change Failure Rate) - 배포 후 장애/버그로 인해 핫픽스나 롤백이 필요한 비율"
 date = "2026-04-02"
 [extra]
 categories = "studynote-devops-sre"

@@ -1,5 +1,5 @@
 +++
-title = "716. UDP Flood / Null, Christmas 공격"
+title = "716. UDP Flood 리소스 고갈 유도 / Null/Christmas Tree 플래그 비대칭공격 타격"
 weight = 716
 +++
 # 716. UDP Flood (리소스 고갈) 및 비정상 플래그 타격 (Null / Christmas Tree)

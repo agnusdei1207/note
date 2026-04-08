@@ -1,6 +1,6 @@
 +++
 weight = 566
-title = "566. 등화기 (Equalizer) - 다중경로에 의한 ISI(심볼 간 간섭) 상쇄 및 복원 필터"
+title = "566. 등화기 (Equalizer) - ISI 상쇄 필터"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

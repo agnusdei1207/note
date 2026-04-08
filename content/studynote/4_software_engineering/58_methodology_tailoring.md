@@ -1,5 +1,5 @@
 +++
-title = "58. 방법론 테일러링 (Tailoring)"
+title = "58. 방법론 테일러링 (Tailoring) - 표준 프로세스를 조직/프로젝트에 맞게 최적화"
 weight = 58
 +++
 

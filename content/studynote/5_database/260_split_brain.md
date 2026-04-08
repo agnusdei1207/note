@@ -1,5 +1,5 @@
 +++
-title = "260. 스플릿 브레인 (Split Brain) 현상"
+title = "260. 스플릿 브레인 (Split Brain) 현상 - 네트워크 단절로 두 개의 마스터가 독립적 작동 (Quorum/과반수 투표로 방지)"
 weight = 260
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 56
-title = "56. 바이모달 IT (Bimodal IT)"
+title = "56. 옴니채널 (Omni-Channel) 마케팅 전략 - 온라인과 오프라인의 모든 고객 접점을 매끄럽게 통합"
 description = "안정적인 코어 시스템을 위한 예측 가능한 모드1과 민첩한 혁신을 위한 탐험적 모드2를 동시에 운영하는 이중 속도 IT 운영 전략"
 date = "2026-03-04"
 [taxonomies]

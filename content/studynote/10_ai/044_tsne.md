@@ -1,6 +1,6 @@
 +++
 weight = 44
-title = "044. t-SNE (t-분포 확률적 근접 이웃嵌入)"
+title = "44. 정확도 (Accuracy) - 전체 대비 정답 비율 (데이터 불균형 시 왜곡)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-ai"

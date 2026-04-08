@@ -1,5 +1,5 @@
 +++
-title = "202. 터보 코드 (Turbo Code) - 4G LTE의 심장"
+title = "202. 터보 코드 (Turbo Code) - 샤논 한계에 근접, LTE"
 weight = 202
 +++
 

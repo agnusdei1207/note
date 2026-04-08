@@ -1,6 +1,6 @@
 +++
 weight = 122
-title = "122. PLM (Product Lifecycle Management) - 제품 수명 주기 관리"
+title = "122. PLM (Product Lifecycle Management) - 제품 수명 주기 관리 (기획-설계-생산-폐기) (CAD/CAM/CAE 데이터 연동 BOM 관리)"
 date = "2026-04-02"
 [extra]
 categories = "studynote-enterprise"

@@ -1,5 +1,5 @@
 +++
-title = "54. 힙 정렬 (Heap Sort)"
+title = "54. 외판원 문제 (TSP) — NP-hard, DP+비트마스크"
 weight = 54
 +++
 

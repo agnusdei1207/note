@@ -1,6 +1,6 @@
 +++
 weight = 74
-title = "77.一次性密码本 (One-Time Pad)"
+title = "74. 一次性密码本 (One-Time Pad) — 정보 이론적으로 완벽한 안전성"
 description = "정보 이론적으로 완벽한 안전성을 제공하는 일회성 패드 암호"
 date = 2026-03-26
 

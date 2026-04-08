@@ -1,6 +1,6 @@
 +++
 weight = 604
-title = "MVC 아키텍처"
+title = "604. 디자인 패턴 23가지 구조적 분류"
 description = "MVC 아키텍처 패턴의 개념과 실무 적용"
 date = 2024-01-17
 

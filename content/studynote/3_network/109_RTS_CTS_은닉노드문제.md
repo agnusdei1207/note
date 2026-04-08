@@ -1,6 +1,6 @@
 +++
 weight = 109
-title = "109. RTS/CTS 메커니즘과 은닉 노드 문제 (Hidden Node Problem)"
+title = "109. RTS/CTS (Request To Send / Clear To Send) - 은닉 노드 문제 해결"
 description = "무선 통신에서 서로를 감지하지 못하는 노드 간의 충돌 문제를 해결하기 위한 사전 예약 프레임워크"
 date = "2026-04-01"
 [taxonomies]

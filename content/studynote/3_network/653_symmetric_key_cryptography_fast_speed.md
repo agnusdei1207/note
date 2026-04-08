@@ -1,5 +1,5 @@
 +++
-title = "653. 대칭키 암호화 (Symmetric Key)"
+title = "653. 대칭키 암호화 (Symmetric Key) - 암/복호화 키 동일, 공유기밀 분배, 고속 처리"
 weight = 653
 +++
 # 653. 대칭키 암호화 (Symmetric Key) - 암/복호화 키 동일

@@ -1,5 +1,5 @@
 +++
-title = "64. 해시 테이블 충돌 해결 (Hash Table Collision Resolution)"
+title = "64. 이진 트리 (Binary Tree) — 전위/중위/후위 순회"
 weight = 64
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "64. 도메인 (Domain) - 속성의 허용 값 집합"
+title = "64. 도메인 (Domain) - 속성이 가질 수 있는 원자값(Atomic Value)들의 집합"
 weight = 64
 +++
 

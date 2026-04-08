@@ -1,5 +1,5 @@
 +++
-title = "24. 버킷 정렬 (Bucket Sort)"
+title = "24. 기수 정렬 (Radix Sort) — O(d·n), 고정 자릿수"
 weight = 24
 +++
 

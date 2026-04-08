@@ -1,5 +1,5 @@
 +++
-title = "329. 링크 로컬 (Link-Local, fe80::) / 사이트 로컬"
+title = "329. 링크 로컬 주소 (IPv6 Link Local, FE80::) / 사이트 로컬 주소"
 weight = 329
 +++
 

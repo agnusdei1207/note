@@ -1,6 +1,6 @@
 +++
 weight = 351
-title = "351. 페이징 (Paging) 가상 메모리의 뼈대"
+title = "351. 페이징 (Paging) - 물리 메모리를 프레임(Frame), 논리 메모리를 페이지(Page)로 고정 크기 분할"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

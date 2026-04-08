@@ -1,5 +1,5 @@
 +++
-title = "72. 외래 키 (Foreign Key, FK)"
+title = "72. 외래 키 (Foreign Key, FK) - 다른 릴레이션의 기본 키를 참조하는 속성"
 weight = 72
 +++
 

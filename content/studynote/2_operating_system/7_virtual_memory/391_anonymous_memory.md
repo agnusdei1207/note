@@ -1,6 +1,6 @@
 +++
 weight = 391
-title = "391. 익명 메모리 (Anonymous Memory) 디스크에 고향이 없는 데이터"
+title = "391. 익명 메모리 (Anonymous Memory) - 파일 시스템과 무관한 힙/스택 데이터 (스왑 영역 사용)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

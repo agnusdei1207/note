@@ -1,5 +1,5 @@
 +++
-title = "632. TSN (Time-Sensitive Networking)"
+title = "632. TSN (Time-Sensitive Networking) - IEEE 802.1 / 시간 결정형 유선 이더넷, 정밀 동기(마이크로/나노단위 트래픽 자원 보장/동기화) (산업용 이더넷 대체 5G망 연계)"
 weight = 632
 +++
 # 632. TSN (Time-Sensitive Networking) - 정밀 시간 동기 유선망

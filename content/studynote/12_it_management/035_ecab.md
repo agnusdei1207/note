@@ -1,6 +1,6 @@
 +++
 weight = 35
-title = "81. 긴급 변경 위원회 (ECAB, Emergency Change Advisory Board)"
+title = "35. 린 스타트업 (Lean Startup) - 에릭 리스, '만들고-측정하고-학습하는' (Build-Measure-Learn) 피드백 루프 적용"
 description = "보안 패치 등 촌각을 다투는 변경을 심의하는 위원회"
 date = "2024-05-20"
 [taxonomies]

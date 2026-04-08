@@ -1,6 +1,6 @@
 +++
 weight = 3
-title = "03. 아날로그 신호 vs 디지털 신호 (연속적, 이산적 특징 비교)"
+title = "3. 아날로그 신호 (연속적, 증폭기) vs 디지털 신호 (이산적, 리피터)"
 date = "2026-03-30"
 [extra]
 categories = ["studynote", "Network"]

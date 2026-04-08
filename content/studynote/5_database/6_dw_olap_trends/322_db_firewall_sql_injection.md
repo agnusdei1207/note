@@ -1,5 +1,5 @@
 +++
-title = "322. DB 방화벽 / SQL 인젝션"
+title = "322. DW 4대 특징 - 주젯 지향성(Subject-oriented), 통합성(Integrated), 시계열성(Time-variant), 비휘발성(Non-volatile)"
 weight = 4322
 +++
 

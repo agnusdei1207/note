@@ -1,5 +1,5 @@
 +++
-title = "331. SLAAC (무상태 주소 자동 설정) - NDP 활용"
+title = "331. SLAAC (Stateless Address Autoconfiguration) 무상태 주소 자동 설정 - NDP 활용"
 weight = 331
 +++
 

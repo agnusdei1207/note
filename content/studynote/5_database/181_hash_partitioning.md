@@ -1,5 +1,5 @@
 +++
-title = "181. 해시 파티셔닝 (Hash Partitioning)"
+title = "181. 해시 파티셔닝 (Hash Partitioning) - 해시 함수 결과, 균등 분산용"
 weight = 181
 +++
 # 181. 해시 파티셔닝 (Hash Partitioning) - 해시 함수 기준 분할

@@ -1,5 +1,5 @@
 +++
-title = "1015. 언면허 대역망 (LTE-U/NR-U)"
+title = "1015. 언면허 대역망 (Unlicensed Band LTE-U / NR-U)"
 weight = 1015
 +++
 # 1015. 언면허 대역망 (Unlicensed Band LTE-U / NR-U) - 비면허 주파수 와이파이 간섭 회피 스몰셀 확장망 대역폭 고갈 해결 LAA 보완 융합 모델

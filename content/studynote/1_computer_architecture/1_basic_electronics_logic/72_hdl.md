@@ -1,6 +1,6 @@
 +++
 weight = 72
-title = "72. 하드웨어 기술 언어 (HDL, Hardware Description Language)"
+title = "72. 하드웨어 기술 언어 (VHDL, Verilog)"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

@@ -1,6 +1,6 @@
 +++
 weight = 39
-title = "039. 그래프 저장소 (Graph Database)"
+title = "39. 그래프 저장소 (Graph DB) - Neo4j (노드와 엣지 관계 맵핑, 조인 오버헤드 없는 최단경로/추천 탐색)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-data-engineering"

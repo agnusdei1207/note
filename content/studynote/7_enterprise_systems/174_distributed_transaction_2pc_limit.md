@@ -1,5 +1,5 @@
 +++
-title = "174. 분산 트랜잭션의 한계 및 2PC 배제 이유"
+title = "174. 분산 트랜잭션 한계 및 2PC (Two-Phase Commit) 배제 이유 - 블로킹 오버헤드"
 weight = 174
 +++
 # 174. 분산 트랜잭션 한계 및 2PC (Two-Phase Commit) 배제 이유

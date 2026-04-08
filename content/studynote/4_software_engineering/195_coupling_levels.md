@@ -1,5 +1,5 @@
 +++
-title = "195. 결합도 (Coupling)"
+title = "195. 결합도 (Coupling) - 모듈 간 상호 의존 정도 (낮을수록 좋음)"
 weight = 195
 +++
 # 195. 결합도 (Coupling) - 모듈 간 상호 의존 정도

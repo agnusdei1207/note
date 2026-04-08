@@ -1,5 +1,5 @@
 +++
-title = "292. 패킷 캡슐화, MTU (이더넷 1500바이트)"
+title = "292. 패킷 캡슐화, MTU (Maximum Transmission Unit) - 이더넷 1500바이트"
 weight = 292
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "415. 의사 결정 테이블 (Decision Table)"
+title = "415. 의사 결정 테이블 (Decision Table) - 복잡한 논리적 조건들의 조합을 표로 구성하여 테스트"
 date = 2026-04-05
 weight = 415
 +++

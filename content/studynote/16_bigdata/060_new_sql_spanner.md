@@ -1,6 +1,6 @@
 +++
 weight = 60
-title = "60. 뉴에스큐엘 / 스패너 (NewSQL / Spanner)"
+title = "60. Structured Streaming — DataFrame API 스트리밍, 연속 처리, Watermark"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

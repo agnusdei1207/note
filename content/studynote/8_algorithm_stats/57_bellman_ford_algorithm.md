@@ -1,5 +1,5 @@
 +++
-title = "57. 벨만-포드 알고리즘 (Bellman-Ford Algorithm)"
+title = "57. 배열 (Array) — 연속 메모리, O(1) 랜덤 접근"
 weight = 57
 +++
 

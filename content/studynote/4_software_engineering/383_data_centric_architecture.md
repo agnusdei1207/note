@@ -1,5 +1,5 @@
 +++
-title = "383. 데이터 중심 아키텍처 (Data-Centric Architecture)"
+title = "383. 데이터 중심(Data-Centric) 아키텍처의 품질 보증"
 date = 2026-04-05
 weight = 383
 +++

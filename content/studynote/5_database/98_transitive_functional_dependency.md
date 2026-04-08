@@ -1,5 +1,5 @@
 +++
-title = "98. 이행적 함수적 종속 (Transitive Dependency)"
+title = "98. 이행적 함수적 종속 (Transitive Functional Dependency) - X->Y, Y->Z 일 때 X->Z 종속 발생"
 weight = 98
 +++
 

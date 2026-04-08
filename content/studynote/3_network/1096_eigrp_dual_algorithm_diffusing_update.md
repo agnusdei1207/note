@@ -1,5 +1,5 @@
 +++
-title = "1096. EIGRP DUAL 지연 스케일"
+title = "1096. EIGRP DUAL 지연 스케일 분산"
 weight = 1096
 +++
 # 1096. EIGRP DUAL 지연 스케일 분산 - Enhanced Interior Gateway Routing Protocol 하이브리드 라우팅 시스코 전용 DUAL 알고리즘 Successor Feasible Successor

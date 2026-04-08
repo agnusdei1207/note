@@ -1,6 +1,6 @@
 +++
 weight = 797
-title = "동적 메모리 암호화 (Dynamic Memory Encryption)"
+title = "797. 동적 메모리 암호화"
 date = "2026-03-21"
 [extra]
 categories = "studynote-computer-architecture"

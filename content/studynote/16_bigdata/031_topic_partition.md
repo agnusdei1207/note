@@ -1,6 +1,6 @@
 +++
 weight = 31
-title = "31. 토픽과 파티션"
+title = "31. Shuffle & Sort — Map 출력을 Reduce로 분배 (네트워크 병목)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

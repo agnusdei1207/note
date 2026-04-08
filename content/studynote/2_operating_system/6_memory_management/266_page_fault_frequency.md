@@ -1,6 +1,6 @@
 +++
 weight = 266
-title = "266. 페이지 부재 빈도 (PFF, Page Fault Frequency)"
+title = "266. 비관적 병행성 제어 (Pessimistic Concurrency Control)"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

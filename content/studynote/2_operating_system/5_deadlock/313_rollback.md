@@ -1,6 +1,6 @@
 +++
 weight = 313
-title = "313. 후퇴 (Rollback)"
+title = "313. 후퇴 (Rollback) - 프로세스를 안전한 상태로 롤백 후 재시작"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

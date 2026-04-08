@@ -1,6 +1,6 @@
 +++
 weight = 314
-title = "314. 기아 상태 (Starvation) 발생 방지"
+title = "314. 기아 상태 (Starvation) 발생 방지 (희생자 선택에 횟수 제한)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

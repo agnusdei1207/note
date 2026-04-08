@@ -1,5 +1,5 @@
 +++
-title = "85. 참여 제약조건 (Participation Constraint) - 필수와 선택"
+title = "85. 참여 제약조건 (Participation Constraint) - 필수 참여(전체), 선택 참여(부분)"
 weight = 85
 +++
 

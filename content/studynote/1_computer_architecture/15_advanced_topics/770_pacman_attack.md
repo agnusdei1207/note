@@ -1,5 +1,5 @@
 +++
-title = "PACMAN 공격 (ARM PAC 우회 공격)"
+title = "770. PACMAN 공격 (ARM PAC 우회)"
 date = 2026-03-20
 weight = 770
 description = "스마트폰과 Mac을 지키는 철통같은 방어막인 ARM PAC(포인터 인증)의 암호 서명을, 스펙터(추측 실행)를 이용해 우회하고 파훼해 버리는 천재적인 보안 취약점"

@@ -1,5 +1,5 @@
 +++
-title = "영(Zero) 데이터 건너뛰기 로직 (Zero-skipping)"
+title = "585. 영(Zero) 데이터 건너뛰기 로직 (Zero-skipping)"
 date = 2026-03-20
 weight = 585
 description = "캐시나 메모리에 기록되는 값이 0일 때, 불필요한 스위칭 전력 소모나 캐시 오염을 막기 위해 0이라는 값 자체의 기록/연산을 아예 건너뛰는 초절전 하드웨어 설계"

@@ -1,6 +1,6 @@
 +++
 weight = 514
-title = "관계 (Relationship)"
+title = "514. 팩트 테이블 차원 모델 비즈니스 수치 저장"
 description = "ER 모델에서 관계의 정의와 유형"
 date = 2026-03-26
 

@@ -1,5 +1,5 @@
 +++
-title = "55. IPFS (InterPlanetary File System)"
+title = "55. IPFS (InterPlanetary File System) - P2P 분산 파일 시스템, 위치 기반(HTTP URL)이 아닌 콘텐츠 해시(CID) 기반 검색"
 weight = 55
 +++
 

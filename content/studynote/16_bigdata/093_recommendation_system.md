@@ -1,6 +1,6 @@
 +++
 weight = 93
-title = "93. 추천 시스템 (Recommendation System)"
+title = "93. 카파 아키텍처 — 스트리밍만으로 단순화, Kafka + Flink"
 description = "추천 시스템의 개념, 협업 필터링, 콘텐츠 기반 필터링, 딥러닝 기반 추천, 실전 적용 사례"
 date = "2026-04-05"
 [taxonomies]

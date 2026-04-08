@@ -1,6 +1,6 @@
 +++
 weight = 23
-title = "023. DORA 메트릭스: 배포 빈도 (Deployment Frequency)"
+title = "23. 배포 빈도 (Deployment Frequency) - 프로덕션에 얼마나 자주 배포하는가"
 date = "2026-04-02"
 [extra]
 categories = "studynote-devops-sre"

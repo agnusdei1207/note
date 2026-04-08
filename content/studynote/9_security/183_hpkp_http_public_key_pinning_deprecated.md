@@ -1,5 +1,5 @@
 +++
-title = "183. HPKP (HTTP Public Key Pinning) 동적 핀닝의 한계"
+title = "183. HPKP (HTTP Public Key Pinning) — deprecated, 동적 핀닝 권장"
 date = "2026-04-07"
 [extra]
 categories = "studynote-security"

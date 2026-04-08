@@ -1,6 +1,6 @@
 +++
 weight = 795
-title = "Confidential Computing (기밀 컴퓨팅)"
+title = "795. Confidential Computing (기밀 컴퓨팅)"
 date = "2026-03-21"
 [extra]
 categories = "studynote-computer-architecture"

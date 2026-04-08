@@ -1,5 +1,5 @@
 +++
-title = "186. 스토어드 프로시저 / 트리거"
+title = "186. 스토어드 프로시저 (Stored Procedure) / 트리거 (Trigger) - DB 서버 내에 컴파일되어 저장된 모듈"
 weight = 186
 +++
 # 186. 스토어드 프로시저 (Stored Procedure) / 트리거 (Trigger)

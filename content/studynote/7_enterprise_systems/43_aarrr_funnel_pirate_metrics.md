@@ -1,5 +1,5 @@
 +++
-title = "43. AARRR 퍼널 (해적 지표)"
+title = "43. AARRR 퍼널 (Acquisition, Activation, Retention, Referral, Revenue) 해적 지표"
 weight = 43
 +++
 

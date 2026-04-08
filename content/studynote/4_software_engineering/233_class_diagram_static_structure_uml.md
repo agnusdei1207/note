@@ -1,5 +1,5 @@
 +++
-title = "233. 클래스 다이어그램 (Class Diagram)"
+title = "233. 클래스 다이어그램 (Class Diagram) - 정적 구조 표현"
 weight = 233
 +++
 # 233. 클래스 다이어그램 (Class Diagram) - UML 정적 구조 표현 객체지향 모델링 속성 오퍼레이션 접근 제어자 시스템 뼈대 설계

@@ -1,6 +1,6 @@
 +++
 weight = 530
-title = "CAP 이론 (CAP Theorem)"
+title = "530. Serializable 성능 저하 임계 영역 데드락 방어"
 description = "분산 시스템에서의 일관성, 가용성, 분단 내성 트레이드오프에 대해 설명"
 date = 2024-01-01
 

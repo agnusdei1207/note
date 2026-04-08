@@ -1,6 +1,6 @@
 +++
 weight = 222
-title = "222. 스핀락 (Spinlock)"
+title = "222. 임계 구역 (Critical Section) - 공유 데이터 접근 코드 영역"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

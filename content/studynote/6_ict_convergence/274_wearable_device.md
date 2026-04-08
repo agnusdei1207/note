@@ -1,5 +1,5 @@
 +++
-title = "274. 웨어러블 디바이스 (Wearable Device)"
+title = "274. ToT (Tree of Thoughts) / GoT (Graph of Thoughts) - 단일 사슬을 넘어 여러 추론 경로를 탐색/평가하며 분기하는 고도화 프롬프팅"
 weight = 274
 +++
 

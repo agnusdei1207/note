@@ -1,6 +1,6 @@
 +++
 weight = 523
-title = "523. 연속 할당 (Contiguous Allocation)"
+title = "523. 연속 할당 (Contiguous Allocation) - 시작 블록과 길이 저장, 속도 빠름, 외부 단편화 심각"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

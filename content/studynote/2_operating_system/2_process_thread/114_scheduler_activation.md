@@ -1,6 +1,6 @@
 +++
 weight = 114
-title = "114. 스케줄러 액티베이션 (Scheduler Activation)"
+title = "114. 스케줄러 액티베이션 (Scheduler Activation) / 경량 프로세스(LWP)"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

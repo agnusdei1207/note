@@ -1,5 +1,5 @@
 +++
-title = "보안 해시 함수 회로 (SHA-3 / Keccak Hardware)"
+title = "610. 보안 해시 함수 회로 (SHA-3 / Keccak)"
 date = 2026-03-20
 weight = 610
 description = "스펀지 구조(Sponge Construction)라는 독특한 알고리즘을 사용하는 차세대 해시 표준 SHA-3를 CPU나 가속기 내부에서 초고속으로 처리하기 위한 전용 하드웨어 설계"

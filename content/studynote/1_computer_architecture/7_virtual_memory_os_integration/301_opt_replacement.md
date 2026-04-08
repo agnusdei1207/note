@@ -1,6 +1,6 @@
 +++
 weight = 301
-title = "301. OPT (최적 교체, Optimal Replacement)"
+title = "301. OPT (최적 교체)"
 date = 2024-01-01
 [taxonomies]
 categories = ["Computer Architecture"]

@@ -1,5 +1,5 @@
 +++
-title = "인터럽트 지연 시간 최소화 (Interrupt Latency Minimization)"
+title = "545. 인터럽트 지연 시간 (Interrupt Latency) 최소화"
 date = 2026-03-20
 weight = 545
 description = "외부 이벤트 발생 시 CPU가 반응하기까지 걸리는 지연 시간을 극도로 줄여, 자동차나 공장 제어 시스템 같은 실시간 운영체제(RTOS)의 핵심 요구사항을 달성하는 기법"

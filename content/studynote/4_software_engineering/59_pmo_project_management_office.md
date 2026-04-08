@@ -1,5 +1,5 @@
 +++
-title = "59. PMO (Project Management Office)"
+title = "59. PMO (Project Management Office) - 전사 프로젝트 관리 조직"
 weight = 59
 +++
 

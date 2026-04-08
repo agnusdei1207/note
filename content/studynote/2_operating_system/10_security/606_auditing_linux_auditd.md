@@ -1,6 +1,6 @@
 +++
 weight = 606
-title = "606. 시스템 감사 (Auditing) 로깅 프레임워크"
+title = "606. 감사 (Auditing) 로깅 프레임워크 (Linux Auditd)"
 date = "2026-03-25"
 [extra]
 categories = "studynote-operating-system"

@@ -1,5 +1,5 @@
 +++
-title = "139. 1000BASE-T (Gigabit Ethernet) - 4페어 사용, PAM-5 변조"
+title = "139. 1000BASE-T (Gigabit Ethernet) - 4페어 사용, 5단계 PAM 변조"
 weight = 139
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "363. IS-IS (Intermediate System to Intermediate System)"
+title = "363. IS-IS (Intermediate System to Intermediate System) - CLNP 기반 링크 상태 라우팅, 통신사/백본 선호"
 weight = 363
 +++
 

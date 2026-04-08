@@ -1,5 +1,5 @@
 +++
-title = "754. MME (이동성 관리 장비)"
+title = "754. MME (Mobility Management Entity 제어 데이터 평면 구조적 통제 핸드오버)"
 weight = 754
 +++
 # 754. MME (Mobility Management Entity) - 제어 데이터 평면 분리 및 핸드오버 통제

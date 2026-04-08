@@ -1,5 +1,5 @@
 +++
-title = "PCIe 스위치 패브릭 (PCIe Switch Fabric)"
+title = "520. PCIe 스위치 패브릭"
 date = 2026-03-20
 weight = 520
 description = "서버 내의 한정된 PCIe 슬롯을 넘어, 수십 개의 GPU와 스토리지를 그물망처럼 연결하여 거대한 클러스터를 구성하는 확장 기술"

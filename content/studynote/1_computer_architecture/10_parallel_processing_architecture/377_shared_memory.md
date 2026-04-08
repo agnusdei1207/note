@@ -1,6 +1,6 @@
 +++
 weight = 377
-title = "377. 공유 메모리 시스템 (Shared Memory System)"
+title = "377. 공유 메모리 시스템 (Shared Memory)"
 date = "2026-03-20"
 [extra]
 categories = "studynote-computer-architecture"

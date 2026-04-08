@@ -1,5 +1,5 @@
 +++
-title = "SOLID 원칙"
+title = "821. SOLID 원칙"
 description = "SOLID Design Principles"
 category = "4_software_engineering"
 weight = 821

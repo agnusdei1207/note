@@ -1,6 +1,6 @@
 +++
 weight = 607
-title = "이벤트驱动 아키텍처"
+title = "607. 팩토리 메서드 vs 추상 팩토리"
 description = "이벤트驱动 아키텍처(EDA)의 개념과 CQRS, Kafka 활용"
 date = 2024-01-20
 

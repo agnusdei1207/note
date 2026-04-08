@@ -1,6 +1,6 @@
 +++
 weight = 513
-title = "타임스탬프 기반 동시성 제어 (Timestamp-Based CC)"
+title = "513. 트리 구조 CTE (Common Table Expression) WITH 절 재귀"
 description = "타임스탬프를 사용하여 직렬 가능성을 보장하는 동시성 제어 기법에 대해 설명"
 date = 2024-01-01
 

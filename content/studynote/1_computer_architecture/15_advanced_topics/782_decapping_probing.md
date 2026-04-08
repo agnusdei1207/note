@@ -1,5 +1,5 @@
 +++
-title = "디캡핑 (Decapping) 및 프로빙 (Probing)"
+title = "782. 디캡핑 (Decapping) 및 프로빙 (Probing)"
 date = 2026-03-20
 weight = 782
 description = "반도체 칩을 감싸고 있는 까만 플라스틱 껍데기를 화학 약품으로 녹여내고(Decapping), 밖으로 노출된 실리콘 알맹이에 머리카락보다 얇은 침(Probe)을 꽂아 전기가 흐르는 데이터를 몰래 도청하는 하드웨어 해킹의 가장 첫 관문"

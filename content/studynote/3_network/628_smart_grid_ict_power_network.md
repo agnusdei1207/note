@@ -1,5 +1,5 @@
 +++
-title = "628. 스마트 그리드 (Smart Grid)"
+title = "628. 스마트 그리드 (Smart Grid 파워 네트워크 통신 인프라)"
 weight = 628
 +++
 # 628. 스마트 그리드 (Smart Grid 파워 네트워크 통신 인프라)

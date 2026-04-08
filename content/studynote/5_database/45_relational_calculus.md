@@ -1,5 +1,5 @@
 +++
-title = "45. 관계 해석 (Relational Calculus) - 비절차적 언어"
+title = "45. 관계 해석 (Relational Calculus) - 비절차적 언어, \"무엇을\" 구할 것인가 명시 (튜플 관계 해석, 도메인 관계 해석)"
 weight = 45
 +++
 

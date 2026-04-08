@@ -1,5 +1,5 @@
 +++
-title = "406. UDP (User Datagram Protocol) 개요"
+title = "406. UDP (User Datagram Protocol) - 비연결형, 비신뢰성, 빠른 속도, 메시지 기반"
 weight = 406
 +++
 

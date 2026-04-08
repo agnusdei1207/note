@@ -1,6 +1,6 @@
 +++
 weight = 119
-title = "119. MES (Manufacturing Execution System) - 제조 실행 시스템"
+title = "119. MES (Manufacturing Execution System) - 제조 실행 시스템 (공장 작업 지시, 자재/품질 실시간 추적 제어) (ERP와 공장 설비 사이의 미들웨어 격)"
 date = "2026-04-02"
 [extra]
 categories = "studynote-enterprise"

@@ -1,6 +1,6 @@
 +++
 weight = 54
-title = "54. 클라우드 기반 정보화 사업 감리 가이드"
+title = "54. ITIL / ITSM 프레임워크 기반 운영 감리 프로세스 점검 (SLA 달성 여부)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-design-supervision"

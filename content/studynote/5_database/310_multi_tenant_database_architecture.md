@@ -1,5 +1,5 @@
 +++
-title = "310. 멀티테넌트 데이터베이스 구조 스키마 인스턴스 분리"
+title = "310. 멀티테넌트 (Multi-tenant) 데이터베이스 구조 - 논리적 스키마 분리, 물리적 인스턴스 분리 격리"
 date = "2026-04-07"
 [extra]
 categories = "studynote-database"

@@ -1,5 +1,5 @@
 +++
-title = "803. 오버서브스크립션 비율"
+title = "803. 오버서브스크립션 비율 (Oversubscription Ratio) 설계 개념 분산망 대역"
 weight = 803
 +++
 # 803. 오버서브스크립션 비율 (Oversubscription Ratio) - 데이터센터망 대역 설계 개념

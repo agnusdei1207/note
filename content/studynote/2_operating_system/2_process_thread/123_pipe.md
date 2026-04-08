@@ -1,6 +1,6 @@
 +++
 weight = 123
-title = "123. 파이프 (Pipe)"
+title = "123. 파이프 (Pipe) - 단방향(Half-duplex), 부모-자식 간"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

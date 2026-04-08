@@ -1,5 +1,5 @@
 +++
-title = "48. SLM / OLA (운영 수준 협약) / UC (기초 계약)"
+title = "48. SLM (Service Level Management) / OLA (운영 수준 협약) / UC (기초 계약)"
 weight = 48
 +++
 

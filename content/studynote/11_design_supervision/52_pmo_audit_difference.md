@@ -1,6 +1,6 @@
 +++
 weight = 52
-title = "52. PMO와 감리의 차이"
+title = "52. IoT 구축 사업 감리 - 디바이스 펌웨어 무결성, 경량 통신 프로토콜 안정성 점검"
 date = "2026-04-05"
 [extra]
 categories = "studynote-design-supervision"

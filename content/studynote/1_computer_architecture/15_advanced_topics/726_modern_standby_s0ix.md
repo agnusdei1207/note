@@ -1,5 +1,5 @@
 +++
-title = "모던 스탠바이 (Modern Standby, S0ix)"
+title = "726. 모던 스탠바이 (Modern Standby, S0ix)"
 date = 2026-03-20
 weight = 726
 description = "전통적인 멍청한 S3 절전 모드를 대체하여, 노트북 화면을 덮어도 스마트폰처럼 백그라운드에서 이메일과 카톡 알림을 실시간으로 수신할 수 있게 해주는 인텔의 차세대 저전력 유휴 상태"

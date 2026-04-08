@@ -1,6 +1,6 @@
 +++
 weight = 576
-title = "576. 802.11ax (Wi-Fi 6) - OFDMA 도입, 양방향 MU-MIMO, TWT(Target Wake Time)"
+title = "576. 802.11ax (Wi-Fi 6) - OFDMA 도입, 양방향 MU-MIMO, 타겟 웨이크 타임(TWT), 고밀도망 속도 저하 해소"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

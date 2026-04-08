@@ -1,6 +1,6 @@
 +++
 weight = 7
-title = "중첩 트랜잭션 (Nested Transaction)"
+title = "507. 트리거 (Trigger 이벤트 연동 프로시저 콜)"
 description = "부모-자식 계층 구조를 가지는 중첩 트랜잭션에 대해 설명"
 date = 2024-01-01
 

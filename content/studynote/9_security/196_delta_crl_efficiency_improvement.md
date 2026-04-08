@@ -1,5 +1,5 @@
 +++
-title = "196. delta CRL 增量 CRL 효율성 향상"
+title = "196. delta CRL —增量 CRL, 효율성 향상"
 date = "2026-04-07"
 [extra]
 categories = "studynote-security"

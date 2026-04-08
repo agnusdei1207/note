@@ -1,5 +1,5 @@
 +++
-title = "370. RP (Rendezvous Point)와 RPF 루프 방지"
+title = "370. RP (Rendezvous Point, PIM-SM), RPF (Reverse Path Forwarding) 멀티캐스트 루프 방지"
 weight = 370
 +++
 

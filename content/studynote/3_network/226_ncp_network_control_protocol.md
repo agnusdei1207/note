@@ -1,5 +1,5 @@
 +++
-title = "226. NCP (Network Control Protocol) - 네트워크 계층 동적 설정"
+title = "226. NCP (Network Control Protocol) - 네트워크 계층 동적 설정 (IPCP, IPXCP)"
 weight = 226
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "인텔 스피드스텝 (SpeedStep) 기술"
+title = "728. 인텔 스피드스텝 (SpeedStep)"
 date = 2026-03-20
 weight = 728
 description = "현대 CPU 전력 관리의 시초가 된 기술로, 배터리와 전원 어댑터 연결 상태 및 CPU 부하에 따라 클럭 속도와 전압을 단계적으로 조절하는 인텔의 1세대 DVFS 구현체"

@@ -1,5 +1,5 @@
 +++
-title = "187. 소프트웨어 제품 라인 (SPL) 요구사항 분석"
+title = "187. 소프트웨어 제품 라인 (SPL) 요구사항 가변성(Variability) 분석"
 weight = 187
 +++
 # 187. 소프트웨어 제품 라인 (SPL) 요구사항 가변성(Variability) 분석

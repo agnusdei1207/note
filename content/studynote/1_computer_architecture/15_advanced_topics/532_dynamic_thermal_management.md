@@ -1,5 +1,5 @@
 +++
-title = "동적 써멀 관리 (DTM, Dynamic Thermal Management)"
+title = "532. 동적 써멀 관리 (DTM)"
 date = 2026-03-20
 weight = 532
 description = "칩 내부의 온도 센서 데이터를 실시간으로 수집하여 클럭, 전압, 작업 배치를 능동적으로 조절함으로써 발열로 인한 시스템 손상을 막는 종합 전력 관리 기법"

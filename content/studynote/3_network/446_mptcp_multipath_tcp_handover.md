@@ -1,5 +1,5 @@
 +++
-title = "446. MPTCP (Multipath TCP) - 다중 경로"
+title = "446. MPTCP (Multipath TCP) - 다중 경로 대역폭 결합, 모바일/Wi-Fi 핸드오버 무단절"
 weight = 446
 +++
 

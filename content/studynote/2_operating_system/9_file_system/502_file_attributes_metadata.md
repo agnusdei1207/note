@@ -1,6 +1,6 @@
 +++
 weight = 502
-title = "502. 파일 속성 (Attributes / Metadata)"
+title = "502. 파일 속성 (Attributes) - 이름, 식별자, 타입, 위치, 크기, 보호(권한), 타임스탬프"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

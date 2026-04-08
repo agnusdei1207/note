@@ -1,6 +1,6 @@
 +++
 weight = 23
-title = "023. 마이클 포터의 5 Forces 모델 - 산업 구조 분석"
+title = "23. 5 Forces 모델 - 기존 경쟁자, 신규 진입자 위협, 대체재 위협, 공급자 교섭력, 구매자 교섭력"
 date = "2026-04-02"
 [extra]
 categories = "studynote-it-management"

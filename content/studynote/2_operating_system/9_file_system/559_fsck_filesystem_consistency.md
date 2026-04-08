@@ -1,6 +1,6 @@
 +++
 weight = 559
-title = "559. 파일 시스템 일관성 검사 (fsck / chkdsk) - 박살난 장부 꿰매기 수술"
+title = "559. 파일 시스템 일관성 검사 (fsck / chkdsk)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

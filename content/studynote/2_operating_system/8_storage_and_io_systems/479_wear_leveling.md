@@ -1,6 +1,6 @@
 +++
 weight = 479
-title = "479. 마모 평준화 (Wear Leveling) 반도체의 수명 연장술"
+title = "479. 마모 평준화 (Wear Leveling) - 수명 연장을 위해 쓰기 작업을 전체 블록에 고르게 분산"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

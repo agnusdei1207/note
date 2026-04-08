@@ -1,5 +1,5 @@
 +++
-title = "비기능적 요구사항"
+title = "819. 비기능적 요구사항"
 description = "Non-Functional Requirements"
 category = "4_software_engineering"
 weight = 819

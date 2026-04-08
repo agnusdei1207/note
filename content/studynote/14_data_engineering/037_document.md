@@ -1,6 +1,6 @@
 +++
 weight = 37
-title = "037. 도큐먼트 저장소 (Document Store)"
+title = "37. 도큐먼트 저장소 (Document) - MongoDB (JSON 형태 유연한 계층 저장, 부분 필드 검색 용이)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-data-engineering"

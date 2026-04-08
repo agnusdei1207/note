@@ -1,5 +1,5 @@
 +++
-title = "314. RARP (Reverse ARP) - MAC으로 IP 얻기"
+title = "314. RARP (Reverse ARP) - MAC으로 IP 얻기 (DHCP 이전)"
 weight = 314
 +++
 

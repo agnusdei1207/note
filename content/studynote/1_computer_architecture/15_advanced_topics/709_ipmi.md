@@ -1,5 +1,5 @@
 +++
-title = "IPMI (Intelligent Platform Management Interface)"
+title = "709. IPMI (Intelligent Platform Management Interface)"
 date = 2026-03-20
 weight = 709
 description = "서버의 운영체제가 완전히 죽어버렸거나 전원이 꺼져 있는 상태에서도, 원격으로 서버의 온도를 확인하고 전원을 강제로 껐다 켤 수 있게 해주는 데이터센터의 절대 반지 같은 하드웨어 통신 표준"

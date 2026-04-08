@@ -1,5 +1,5 @@
 +++
-title = "74. 개체 무결성 (Entity Integrity)"
+title = "74. 개체 무결성 (Entity Integrity) - 기본 키는 NULL이나 중복값을 가질 수 없음"
 weight = 74
 +++
 

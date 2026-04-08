@@ -1,5 +1,5 @@
 +++
-title = "230. CBAM"
+title = "230. CBAM (Cost Benefit Analysis Method) - 경제적 관점의 평가"
 weight = 230
 +++
 # 230. CBAM (Cost Benefit Analysis Method) - 아키텍처 경제성 평가 비용 편익 분석 ATAM 연계 소프트웨어 품질 ROI 투자 대비 효과

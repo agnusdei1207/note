@@ -1,5 +1,5 @@
 +++
-title = "오픈 채널 SSD 구조 (Open-Channel SSD)"
+title = "592. 오픈 채널 SSD 구조"
 date = 2026-03-20
 weight = 592
 description = "SSD 내부에 꽁꽁 숨겨져 있던 플래시 변환 계층(FTL)을 밖으로 끄집어내어, 호스트 운영체제(OS)가 낸드 플래시 메모리를 직접 통제하게 만드는 데이터센터용 스토리지 아키텍처"

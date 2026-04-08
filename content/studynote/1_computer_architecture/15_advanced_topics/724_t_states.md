@@ -1,5 +1,5 @@
 +++
-title = "T-States (Throttling States)"
+title = "724. T-States (Throttling States)"
 date = 2026-03-20
 weight = 724
 description = "과거 클럭(Frequency)을 내릴 수 없던 시절, 강제로 클럭 신호를 중간중간 빼먹게(Modulation) 하여 온도를 억제하던 구형 시스템의 스로틀링 기법"

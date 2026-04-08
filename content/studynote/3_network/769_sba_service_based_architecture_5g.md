@@ -1,5 +1,5 @@
 +++
-title = "769. SBA (서비스 기반 아키텍처)"
+title = "769. SBA (Service Based Architecture 네트워크 기능 요소가 컨테이너/마이크로 서비스 RESTful API 간 메시지 연동 호출 통신 플랫폼 융합 모델 기반 구축 코어 서비스 규격 표준)"
 weight = 769
 +++
 # 769. SBA (Service Based Architecture) - 5G 코어 통신 플랫폼 모델

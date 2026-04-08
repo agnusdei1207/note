@@ -1,6 +1,6 @@
 +++
 weight = 22
-title = "022. 선택 정렬 (Selection Sort) 알고리즘"
+title = "22. 힙 정렬 (Heap Sort) — O(n log n), 불안정, 제자리"
 date = "2026-04-02"
 [extra]
 categories = "studynote-algorithm"

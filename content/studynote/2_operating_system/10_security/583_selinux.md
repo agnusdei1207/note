@@ -1,6 +1,6 @@
 +++
 weight = 583
-title = "583. SELinux (Security-Enhanced Linux) - NSA가 만든 리눅스 커널용 강제 접근 제어 보안 모듈"
+title = "583. SELinux - 레이블 기반 MAC 구현체, 보안 컨텍스트"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

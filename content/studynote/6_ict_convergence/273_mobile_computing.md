@@ -1,5 +1,5 @@
 +++
-title = "273. 모바일 컴퓨팅 (Mobile Computing)"
+title = "273. 생각의 사슬 (CoT, Chain-of-Thought) - \"단계별로 차근차근 생각해 보자\"는 명령을 통해 중간 추론 과정(Reasoning Path)을 생성하게 유도하여 수학/논리 문제 정답률 극대화"
 weight = 273
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 135
-title = "135. 비동등 조인 (Non-Equi Join) - 등호(=)를 제외한 조건 연산"
+title = "135. 비동등 조인 (Non-Equi Join) - BETWEEN, >, < 등 등호 이외 연산자 사용 조인"
 date = "2026-04-02"
 [extra]
 categories = "studynote-database"

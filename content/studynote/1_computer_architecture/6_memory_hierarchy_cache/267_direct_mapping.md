@@ -1,6 +1,6 @@
 +++
 weight = 267
-title = "직접 매핑 (Direct Mapping)"
+title = "267. 직접 사상 (Direct Mapping)"
 +++
 
 # 직접 매핑 (Direct Mapping)

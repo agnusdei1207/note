@@ -1,6 +1,6 @@
 +++
 weight = 482
-title = "482. Meltdown (멜트다운) 취약점"
+title = "482. 멜트다운 (Meltdown)"
 date = "2026-03-20"
 [extra]
 categories = "studynote-computer-architecture"

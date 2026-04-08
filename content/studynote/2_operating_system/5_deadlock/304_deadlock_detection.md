@@ -1,6 +1,6 @@
 +++
 weight = 304
-title = "304. 교착 상태 탐지 (Deadlock Detection) - 주기적 감시망"
+title = "304. 교착 상태 탐지 (Deadlock Detection) - 알고리즘을 주기적으로 실행하여 데드락 확인"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

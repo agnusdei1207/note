@@ -1,6 +1,6 @@
 +++
 weight = 25
-title = "025. 유니온-파인드 (Union-Find / Disjoint Set) 자료구조"
+title = "25. 버킷 정렬 (Bucket Sort) — O(n) 평균, 균등 분포"
 date = "2026-04-02"
 [extra]
 categories = "studynote-algorithm"

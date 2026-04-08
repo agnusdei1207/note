@@ -1,6 +1,6 @@
 +++
 weight = 292
-title = "292. 교착 상태 예방 (Deadlock Prevention)"
+title = "292. 교착 상태 예방 (Deadlock Prevention) - 4조건 중 하나를 원천적 부정 (효율성 매우 낮음)"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

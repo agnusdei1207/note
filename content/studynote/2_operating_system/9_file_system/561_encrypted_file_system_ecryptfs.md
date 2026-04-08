@@ -1,6 +1,6 @@
 +++
 weight = 561
-title = "561. 암호화 파일 시스템 (eCryptfs / EFS) - 도둑 디스크 발췌 마스킹"
+title = "561. 암호화 파일 시스템 (eCryptfs / Windows EFS)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

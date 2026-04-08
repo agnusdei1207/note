@@ -1,5 +1,5 @@
 +++
-title = "디렉터리 캐시 (Directory-based Cache Coherence)"
+title = "511. 디렉터리 캐시"
 date = 2026-03-20
 weight = 511
 description = "코어 수가 수십 개 이상인 매니코어 시스템에서 브로드캐스트의 낭비를 막고 중앙 장부(Directory)를 통해 캐시 일관성을 유지하는 프로토콜"

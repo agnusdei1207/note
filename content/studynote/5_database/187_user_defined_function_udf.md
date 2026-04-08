@@ -1,5 +1,5 @@
 +++
-title = "187. 사용자 정의 함수 (UDF)"
+title = "187. 사용자 정의 함수 (UDF, User Defined Function)"
 weight = 187
 +++
 # 187. 사용자 정의 함수 (UDF, User Defined Function)

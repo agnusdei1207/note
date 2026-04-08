@@ -1,5 +1,5 @@
 +++
-title = "722. 슬로우로리스 (Slowloris 공격)"
+title = "722. 트래픽 혼잡공격 (CC Attack 봇넷 HTTP 임의페이지 무한 요청) 유도 및 캡챠 적용"
 weight = 722
 +++
 # 722. 슬로우로리스 (Slowloris / HTTP GET 지연 공격)

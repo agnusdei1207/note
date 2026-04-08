@@ -1,6 +1,6 @@
 +++
 weight = 497
-title = "497. SR-IOV (Single Root I/O Virtualization)"
+title = "497. SR-IOV (Single Root I/O Virtualization) - 가상 머신에 물리적 PCIe 장치 직접 매핑"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

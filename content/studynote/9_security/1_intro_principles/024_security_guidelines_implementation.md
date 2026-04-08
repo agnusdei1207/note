@@ -1,6 +1,6 @@
 +++
 weight = 24
-title = "024. 정보보안 지침 (Security Guideline) - 표준 적용의 유연한 방법론"
+title = "24. 정보보안 지침 — 표준 적용 방법론"
 date = "2026-04-02"
 [extra]
 categories = "studynote-security"

@@ -1,6 +1,6 @@
 +++
 weight = 9
-title = "9. 설정 (Config)"
+title = "9. 설정 (Config) - 환경 변수(Env Vars)에 설정을 저장하여 코드와 분리"
 description = "코드와 설정을 엄격히 분리하여 런타임 환경 변수(Env Vars)로 주입하는 원칙"
 date = "2024-05-24"
 [taxonomies]

@@ -1,5 +1,5 @@
 +++
-title = "70. 마스터 데이터 관리 MDM Master Data Management"
+title = "70. 마스터 데이터 관리 (MDM, Master Data Management) - 전사 공통 기준정보 단일화 (Single Source of Truth)"
 date = "2026-04-07"
 [extra]
 categories = "studynote-enterprise"

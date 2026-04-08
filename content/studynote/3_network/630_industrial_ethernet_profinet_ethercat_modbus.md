@@ -1,5 +1,5 @@
 +++
-title = "630. 산업용 이더넷 표준"
+title = "630. 산업용 이더넷 표준 (Industrial Ethernet) - PROFINET, EtherCAT, Modbus TCP (타임크리티컬)"
 weight = 630
 +++
 # 630. 산업용 이더넷 표준 (Industrial Ethernet) - PROFINET, EtherCAT

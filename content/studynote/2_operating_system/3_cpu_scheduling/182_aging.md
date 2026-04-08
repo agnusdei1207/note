@@ -1,6 +1,6 @@
 +++
 weight = 182
-title = "182. 노화 (Aging)"
+title = "182. 노화 (Aging) - 기아 상태 해결책 (우선순위 점진적 상승)"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

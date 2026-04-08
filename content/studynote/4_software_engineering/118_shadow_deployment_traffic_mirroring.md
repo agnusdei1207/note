@@ -1,5 +1,5 @@
 +++
-title = "118. 섀도우 배포 (Shadow Deployment)"
+title = "118. 섀도우 배포 (Shadow Deployment) - 실트래픽 미러링 테스트"
 weight = 118
 +++
 

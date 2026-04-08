@@ -1,5 +1,5 @@
 +++
-title = "674. HMAC (Hash-based MAC)"
+title = "674. HMAC (Hash-based MAC) 통신 기반 IPsec 등 활용 구조 - 공유키 결합 해시"
 weight = 674
 +++
 # 674. HMAC (Hash-based MAC) 통신 기반 IPsec 등 활용 구조

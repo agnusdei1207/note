@@ -1,6 +1,6 @@
 +++
 weight = 36
-title = "036. 서포트 벡터 머신 (SVM)"
+title = "36. 특성 공학 (Feature Engineering) - 도메인 지식을 활용하여 모델 학습에 좋은 피처(Feature)를 추출/가공"
 date = "2026-04-05"
 [extra]
 categories = "studynote-ai"

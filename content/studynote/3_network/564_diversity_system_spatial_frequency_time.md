@@ -1,6 +1,6 @@
 +++
 weight = 564
-title = "564. 다이버시티 시스템 (Diversity System) - 페이딩 극복 (공간, 주파수, 시간, 편파 다이버시티)"
+title = "564. 다이버시티 시스템(Diversity System) - 공간(안테나), 주파수, 시간, 편파(Polarize) 다이버시티"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

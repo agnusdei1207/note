@@ -1,5 +1,5 @@
 +++
-title = "232. UML (Unified Modeling Language)"
+title = "232. UML (Unified Modeling Language) - OMG 표준 객체지향 모델링 언어"
 weight = 232
 +++
 # 232. UML (Unified Modeling Language) - OMG 표준 객체지향 모델링 언어 설계 도면 가시화 문서화 시스템 청사진 사물 관계 다이어그램

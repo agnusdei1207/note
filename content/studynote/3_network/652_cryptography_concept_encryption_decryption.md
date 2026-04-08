@@ -1,5 +1,5 @@
 +++
-title = "652. 암호학 (Cryptography) 개요"
+title = "652. 암호학 (Cryptography) 개요 통신망 보안 적용 (평문->암호문->평문 변환 체계)"
 weight = 652
 +++
 # 652. 암호학 (Cryptography) 개요와 통신망 보안 적용

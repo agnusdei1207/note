@@ -1,6 +1,6 @@
 +++
 weight = 109
-title = "좀비 프로세스 (Zombie Process)"
+title = "109. 좀비 프로세스 (Zombie Process) - 종료되었으나 부모가 wait()하지 않은 상태"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

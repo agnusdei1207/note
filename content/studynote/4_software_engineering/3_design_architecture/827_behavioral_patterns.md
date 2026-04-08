@@ -1,5 +1,5 @@
 +++
-title = "행동 패턴"
+title = "827. 행동 패턴"
 description = "Behavioral Design Patterns"
 category = "4_software_engineering"
 weight = 827

@@ -1,5 +1,5 @@
 +++
-title = "623. CoAP (경량 애플리케이션 프로토콜)"
+title = "623. CoAP (Constrained Application Protocol) - UDP 제어 기반, REST/HTTP 메타 대응 경량 프로토콜, 브로커리스 구조(DTLS 접속 지원)"
 weight = 623
 +++
 # 623. CoAP (Constrained Application Protocol) - HTTP의 다이어트 버전

@@ -1,5 +1,5 @@
 +++
-title = "1109. OPC UA 자동화 프레임"
+title = "1109. OPC UA 자동화 프레임 표준 통신"
 weight = 1109
 +++
 # 1109. OPC UA 자동화 프레임 표준 통신 - Open Platform Communications Unified Architecture 스마트 팩토리 산업용 IoT M2M 독립 플랫폼 데이터 모델링 보안 프로토콜

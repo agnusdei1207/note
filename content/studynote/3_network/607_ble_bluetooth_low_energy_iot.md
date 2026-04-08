@@ -1,5 +1,5 @@
 +++
-title = "607. BLE (Bluetooth Low Energy)"
+title = "607. BLE (Bluetooth Low Energy) - BT 4.0, 저전력 특화, IoT 핵심"
 weight = 607
 +++
 # 607. BLE (Bluetooth Low Energy) - BT 4.0, IoT 핵심

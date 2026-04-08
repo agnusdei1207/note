@@ -1,5 +1,5 @@
 +++
-title = "253. 스패닝 트리 프로토콜 (STP, IEEE 802.1D)"
+title = "253. 스패닝 트리 프로토콜 (STP, Spanning Tree Protocol) - IEEE 802.1D"
 weight = 253
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "249. 2단계 커밋 (2PC)"
+title = "249. 2단계 커밋 (2PC, Two-Phase Commit) - 분산 트랜잭션의 원자성 보장 프로토콜"
 weight = 249
 +++
 # 249. 2단계 커밋 (2PC, Two-Phase Commit) - 분산 트랜잭션 원자성 보장 프로토콜 코디네이터 참여자 Prepare Commit 블로킹 문제 데이터 동기화

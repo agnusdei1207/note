@@ -1,6 +1,6 @@
 +++
 weight = 32
-title = "032. 플랫폼 비즈니스 - ecosystems를 연결하는 새 경제 주체의 설계"
+title = "32. 네트워크 효과 (Network Effect) / 메트칼프의 법칙 - 사용자 수의 제곱에 비례하여 네트워크 가치가 증가"
 date = "2026-04-05"
 [extra]
 categories = "studynote-it-management"

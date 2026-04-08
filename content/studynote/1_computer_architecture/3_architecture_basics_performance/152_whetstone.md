@@ -1,6 +1,6 @@
 +++
 weight = 152
-title = "152. 웻스톤 (Whetstone)"
+title = "152. Whetstone"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

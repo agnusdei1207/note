@@ -1,5 +1,5 @@
 +++
-title = "180. 마인드 맵 및 친화도"
+title = "180. 마인드 맵 (Mind Map) 및 친화도 (Affinity Diagram)"
 weight = 180
 +++
 # 180. 마인드 맵 (Mind Map) 및 친화도 (Affinity Diagram)

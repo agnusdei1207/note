@@ -1,6 +1,6 @@
 +++
 weight = 596
-title = "596. 반환 지향 프로그래밍 (ROP)"
+title = "596. ROP (Return-Oriented Programming) 기법 - ASLR/DEP 우회를 위해 코드 가젯 체이닝"
 date = "2026-03-25"
 [extra]
 categories = "studynote-operating-system"

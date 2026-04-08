@@ -1,5 +1,5 @@
 +++
-title = "TRNG (True Random Number Generator) 엔트로피 소스"
+title = "786. TRNG (True Random Number Generator) 엔트로피 소스"
 date = 2026-03-20
 weight = 786
 description = "결정론적인 기계인 컴퓨터가 절대 예측 불가능한 '진짜 난수(무작위 숫자)'를 만들기 위해, 자연계의 무질서함(Entropy)을 아날로그적으로 측정해 가져오는 하드웨어의 근원"

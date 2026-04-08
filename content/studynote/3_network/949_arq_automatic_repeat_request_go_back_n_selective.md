@@ -1,5 +1,5 @@
 +++
-title = "949. ARQ (자동 재전송 요구)"
+title = "949. 자동 재전송 요구 (ARQ) 선택적/GBN"
 weight = 949
 +++
 # 949. 자동 재전송 요구 (ARQ) - Stop-and-Wait, Go-Back-N, Selective Repeat 데이터 링크/전송 계층 오류 복구 재전송 통신 프로토콜 슬라이딩 윈도우

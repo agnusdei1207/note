@@ -1,6 +1,6 @@
 +++
 weight = 5
-title = "AI와 ML과 DL의 관계"
+title = "5. 초인공지능 (ASI, Artificial Super Intelligence) - 모든 면에서 인간을 초월한 지능"
 description = "인공지능(AI), 머신러닝(ML), 딥러닝(DL)의 계층적 관계와 각 기술의 범위, 차이점"
 category = "10_ai"
 +++

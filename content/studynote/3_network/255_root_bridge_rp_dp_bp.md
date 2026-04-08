@@ -1,5 +1,5 @@
 +++
-title = "255. 루트 브리지(Root), RP, DP, 차단 포트(Block)"
+title = "255. 루트 브리지 (Root Bridge), 루트 포트 (RP), 지정 포트 (DP), 차단 포트 (BP, Non-Designated)"
 weight = 255
 +++
 

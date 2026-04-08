@@ -1,6 +1,6 @@
 +++
 weight = 145
-title = "윈도우 함수 (Window Function / 분석 함수)"
+title = "145. 윈도우 함수 (Window Function / 분석 함수) - 행 간의 관계를 분석 (RANK, DENSE_RANK, ROW_NUMBER, LEAD, LAG)"
 description = "GROUP BY의 치명적인 데이터 병합(압축) 단점을 극복하고, 개별 데이터 행(Row)을 그대로 살려둔 채 행과 행 사이의 순위, 누적, 차이 등을 분석해 내는 현대 SQL 통계 분석의 끝판왕"
 date = 2026-04-03
 [taxonomies]

@@ -1,5 +1,5 @@
 +++
-title = "357. OSPF (Open Shortest Path First) 개요"
+title = "357. OSPF (Open Shortest Path First) - 대표적 링크 상태 프로토콜"
 weight = 357
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 150
-title = "150. SPEC 벤치마크 (Standard Performance Evaluation Corporation)"
+title = "150. SPEC 벤치마크"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

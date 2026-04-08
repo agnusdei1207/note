@@ -1,5 +1,5 @@
 +++
-title = "337. ROLAP (Relational OLAP)"
+title = "337. ROLAP (Relational OLAP) - 관계형 DB 기반 SQL 실시간 분석, 대용량 처리에 적합"
 weight = 4337
 +++
 

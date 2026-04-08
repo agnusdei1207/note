@@ -1,6 +1,6 @@
 +++
 weight = 23
-title = "023. 지연 평가 (Lazy Evaluation)"
+title = "23. 지연 평가 (Lazy Evaluation) - 트랜스포메이션 연산(map, filter)은 즉시 실행 안하고 DAG 궤적만 그리다가, 액션(count, save) 명령 시 옵티마이저가 묶어서 한 번에 최적 처리"
 date = "2026-04-02"
 [extra]
 categories = "studynote-data-engineering"

@@ -1,5 +1,5 @@
 +++
-title = "75. 조합론적 탐색 (Combinatorics) - 순열과 조합"
+title = "75. 세그먼트 트리 (Segment Tree) — 구간 쿼리/업데이트"
 weight = 75
 +++
 

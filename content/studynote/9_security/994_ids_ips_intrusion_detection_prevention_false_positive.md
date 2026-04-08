@@ -1,5 +1,5 @@
 +++
-title = "994. IDS와 IPS"
+title = "994. Firewire 공격 — IEEE 1394 DMA 활용"
 weight = 994
 +++
 

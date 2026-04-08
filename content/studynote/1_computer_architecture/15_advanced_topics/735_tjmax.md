@@ -1,5 +1,5 @@
 +++
-title = "TjMax (Tjunction Max Temperature)"
+title = "735. TjMax (Tunction Max Temperature)"
 date = 2026-03-20
 weight = 735
 description = "CPU 코어 내부의 반도체(실리콘)가 견딜 수 있는 물리적인 최고 온도 한계선으로, 스로틀링과 강제 셧다운을 결정짓는 절대적인 기준점"

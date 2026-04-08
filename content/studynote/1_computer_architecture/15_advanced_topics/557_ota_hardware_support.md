@@ -1,5 +1,5 @@
 +++
-title = "펌웨어 OTA 하드웨어 지원 (Firmware OTA Hardware Support)"
+title = "557. 펌웨어 OTA 하드웨어 지원"
 date = 2026-03-20
 weight = 557
 description = "자동차나 IoT 기기가 작동을 멈추지 않고 안전하게 무선으로 펌웨어를 업데이트(OTA)할 수 있도록 지원하는 듀얼 뱅크 플래시(Dual-Bank Flash) 등의 하드웨어 구조"

@@ -1,6 +1,6 @@
 +++
 weight = 494
-title = "494. Optane Memory (옵테인 메모리)"
+title = "494. 옵테인 메모리 (3D XPoint)"
 date = "2026-03-20"
 [extra]
 categories = "studynote-computer-architecture"

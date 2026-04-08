@@ -1,5 +1,5 @@
 +++
-title = "104. 초소형 운영체제 (TinyOS, RIOT)"
+title = "104. 초소형 운영체제 (TinyOS, RIOT, FreeRTOS)"
 weight = 104
 +++
 

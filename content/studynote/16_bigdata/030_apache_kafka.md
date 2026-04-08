@@ -1,6 +1,6 @@
 +++
 weight = 30
-title = "30. Apache Kafka"
+title = "30. Reduce 함수 — 동일 Key의 Value 집계, 최종 결과 출력"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

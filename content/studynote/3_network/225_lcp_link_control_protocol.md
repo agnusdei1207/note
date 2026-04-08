@@ -1,5 +1,5 @@
 +++
-title = "LCP (Link Control Protocol)"
+title = "225. LCP (Link Control Protocol) - 링크 설정/폐기 규약"
 weight = 225
 +++
 

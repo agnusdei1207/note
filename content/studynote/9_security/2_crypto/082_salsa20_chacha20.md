@@ -1,6 +1,6 @@
 +++
 weight = 82
-title = "85. Salsa20/ChaCha20"
+title = "82. Salsa20/ChaCha20 — ARX 기반 스트림 암호, TLS 1.3"
 description = "ARX 구조 기반의 현대적 스트림 암호로 TLS 1.3과 Signal Protocol에서 사용"
 date = 2026-03-26
 

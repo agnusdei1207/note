@@ -1,5 +1,5 @@
 +++
-title = "654. 스트림 암호 (RC4, ChaCha20)"
+title = "654. 스트림 암호 (Stream Cipher) - RC4 (WEP 등, 최신 사장), ChaCha20"
 weight = 654
 +++
 # 654. 스트림 암호 (Stream Cipher) - RC4 (사장), ChaCha20

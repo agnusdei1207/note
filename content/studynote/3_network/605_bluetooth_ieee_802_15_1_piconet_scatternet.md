@@ -1,5 +1,5 @@
 +++
-title = "605. 블루투스 (Bluetooth) 개요"
+title = "605. 블루투스 (Bluetooth) - IEEE 802.15.1, ISM 대역(2.4GHz), 피코넷(Piconet), 스캐터넷(Scatternet) 마스터/슬레이브"
 weight = 605
 +++
 # 605. 블루투스 (Bluetooth) - IEEE 802.15.1 피코넷, 스캐터넷

@@ -1,6 +1,6 @@
 +++
 weight = 97
-title = "97. 커널 수준 스레드 (Kernel-level Thread)"
+title = "97. 커널 수준 스레드 (Kernel-level Thread) - OS가 직접 관리"
 date = "2026-03-21"
 [extra]
 categories = "studynote-operating-system"

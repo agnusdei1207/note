@@ -1,5 +1,5 @@
 +++
-title = "356. EIGRP 특징 (부분 업데이트, Unequal Cost 분산)"
+title = "356. EIGRP 특징: 부분/바운디드 업데이트, Unequal-Cost 부하분산, Successor / Feasible Successor"
 weight = 356
 +++
 

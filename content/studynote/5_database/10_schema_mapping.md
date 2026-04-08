@@ -1,6 +1,6 @@
 +++
 weight = 10
-title = "10. 스키마 매핑 (Schema Mapping)"
+title = "10. 스키마 매핑 (Mapping) - 외부/개념 사상, 개념/내부 사상"
 description = "데이터 독립성을 보장하는 3단계 스키마 간의 사상(Mapping) 메커니즘"
 date = "2024-05-20"
 [taxonomies]

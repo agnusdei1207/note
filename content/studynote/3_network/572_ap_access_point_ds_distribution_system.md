@@ -1,5 +1,5 @@
 +++
-title = "572. AP (Access Point)와 DS"
+title = "572. AP (Access Point) / DS (Distribution System, 분배 시스템)"
 weight = 572
 +++
 # 572. AP (Access Point) / DS (Distribution System, 분배 시스템)

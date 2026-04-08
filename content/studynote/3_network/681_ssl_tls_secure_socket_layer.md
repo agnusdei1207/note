@@ -1,5 +1,5 @@
 +++
-title = "681. SSL/TLS 통신 모델 개요"
+title = "681. SSL/TLS (Secure Socket Layer / Transport Layer Security) 통신 모델 개요"
 weight = 681
 +++
 # 681. SSL/TLS (Secure Socket Layer / Transport Layer Security) 통신 모델 개요

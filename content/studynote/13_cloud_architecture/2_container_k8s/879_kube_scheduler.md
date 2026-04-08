@@ -1,6 +1,6 @@
 +++
 weight = 879
-title = "79. Kube-Scheduler (스케줄러)"
+title = "879. Kube-Scheduler (스케줄러)"
 description = "Kube-Scheduler: 새로 생성된 Pod를 클러스터 내 적절한 Worker Node에 배치하는 쿠버네티스 컴포넌트"
 date = 2026-03-26
 

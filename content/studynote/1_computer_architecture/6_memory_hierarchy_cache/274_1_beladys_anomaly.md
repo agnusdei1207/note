@@ -1,6 +1,6 @@
 +++
 weight = 274
-title = "벨라디의 모순 (Bélády's Anomaly)"
+title = "274. FIFO (First In First Out)"
 +++
 
 # 벨라디의 모순 (Bélády's Anomaly)

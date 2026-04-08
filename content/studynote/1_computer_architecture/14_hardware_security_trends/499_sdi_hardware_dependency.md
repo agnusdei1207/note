@@ -1,6 +1,6 @@
 +++
 weight = 499
-title = "499. SDI Hardware Dependency (소프트웨어 정의 인프라 하드웨어 종속성)"
+title = "499. 소프트웨어 정의 인프라 (SDI) 하드웨어 종속성"
 date = "2026-03-20"
 [extra]
 categories = "studynote-computer-architecture"

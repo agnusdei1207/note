@@ -1,5 +1,5 @@
 +++
-title = "185. 동적 핀닝 인증서 투명성 (CT) 로그 기반 핀닝"
+title = "185. 동적 핀닝 — CT 로그 기반pins"
 date = "2026-04-07"
 [extra]
 categories = "studynote-security"

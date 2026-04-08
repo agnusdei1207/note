@@ -1,6 +1,6 @@
 +++
 weight = 39
-title = "039. 검출 위험 vs 미검출 위험 (Detected vs Undetected Risk)"
+title = "39. 검출 위험 (Detected Risk) vs 미검출 위험 (Undetected Risk)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-security"

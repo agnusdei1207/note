@@ -1,5 +1,5 @@
 +++
-title = "257. 프로토타입 (Prototype)"
+title = "257. 프로토타입 (Prototype) - 원본 객체를 복사하여 생성"
 weight = 257
 +++
 # 257. 프로토타입 (Prototype) - 원본 객체 복사 복제(Clone) 생성 패턴 깊은 복사 얕은 복사 성능 최적화 GoF

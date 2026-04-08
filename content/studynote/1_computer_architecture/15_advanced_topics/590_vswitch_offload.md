@@ -1,5 +1,5 @@
 +++
-title = "가상 스위치 오프로드 (vSwitch Offload)"
+title = "590. 가상 스위치 오프로드 (vSwitch Offload)"
 date = 2026-03-20
 weight = 590
 description = "클라우드 서버에서 가상 머신(VM)들끼리의 네트워크 통신을 연결하던 무거운 소프트웨어 스위치(OVS)를 하드웨어 스마트 랜카드(SmartNIC)로 떠넘기는 기술"

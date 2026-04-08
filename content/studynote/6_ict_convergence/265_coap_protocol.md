@@ -1,5 +1,5 @@
 +++
-title = "265. CoAP 프로토콜 (Constrained Application Protocol)"
+title = "265. 창발성 (Emergent Abilities) - 파라미터와 훈련 데이터 규모가 특정 임계치를 넘겼을 때, 사전에 프로그래밍/학습하지 않은 복잡한 추론 논리 능력이 스스로 발현되는 현상"
 weight = 265
 +++
 

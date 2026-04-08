@@ -1,5 +1,5 @@
 +++
-title = "211. MVP / MVVM 아키텍처"
+title = "211. MVP (Model-View-Presenter) / MVVM (Model-View-ViewModel)"
 weight = 211
 +++
 # 211. MVP (Model-View-Presenter) / MVVM (Model-View-ViewModel) - MVC 패턴 한계 극복 안드로이드 iOS 프론트엔드 아키텍처 데이터 바인딩 옵저버 패턴

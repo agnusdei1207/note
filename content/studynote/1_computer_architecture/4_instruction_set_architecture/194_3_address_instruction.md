@@ -1,6 +1,6 @@
 +++
 weight = 194
-title = "194. 3-주소 명령어 (Three-Address Instruction)"
+title = "194. 3-주소 명령어"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

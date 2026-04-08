@@ -1,5 +1,5 @@
 +++
-title = "253. CAP 정리 (CAP Theorem)"
+title = "253. CAP 정리 (CAP Theorem) - 일관성(Consistency), 가용성(Availability), 분단 허용성(Partition Tolerance) 3가지를 동시 만족 불가 (분산 DB 이론)"
 weight = 253
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "이머전 쿨링 (Immersion Cooling, 액침 냉각)"
+title = "602. 이머전 쿨링 (Immersion Cooling)"
 date = 2026-03-20
 weight = 602
 description = "서버 전체를 전기가 통하지 않는 특수 냉매 용액에 푹 담가버려, 공랭식이나 수랭식 파이프의 한계를 뛰어넘는 궁극의 데이터센터 냉각 솔루션"

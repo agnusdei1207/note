@@ -1,6 +1,6 @@
 +++
 weight = 23
-title = "23. EVM (Ethereum Virtual Machine)"
+title = "23. EVM (Ethereum Virtual Machine) - 이더리움 스마트 컨트랙트 런타임 환경"
 description = "이더리움 네트워크에서 스마트 컨트랙트 바이트코드를 실행하여 상태 전이를 유발하는 튜링 완전한 스택 기반의 런타임 환경"
 date = "2024-05-18"
 [taxonomies]

@@ -1,6 +1,6 @@
 +++
 weight = 123
-title = "123. OCF (Open Connectivity Foundation) - IoT 플랫폼 상호연동 표준"
+title = "123. OCF (Open Connectivity Foundation) 표준"
 date = "2026-04-02"
 [extra]
 categories = "studynote-ict-convergence"

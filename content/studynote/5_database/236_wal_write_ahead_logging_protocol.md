@@ -1,5 +1,5 @@
 +++
-title = "236. WAL 프로토콜"
+title = "236. WAL (Write-Ahead Logging) 프로토콜 - 데이터 갱신 전 반드시 로그부터 디스크에 안전하게 기록"
 weight = 236
 +++
 # 236. WAL (Write-Ahead Logging) 프로토콜 - 데이터 갱신 전 로그 기록 트랜잭션 회복 영속성 성능 최적화 오버헤드 

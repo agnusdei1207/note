@@ -1,5 +1,5 @@
 +++
-title = "279. 그래프 저장소 (Graph Store)"
+title = "279. 그래프 저장소 (Graph Store) - 노드(Node), 엣지(Edge), 속성(Property) 구조, 관계 탐색 최적화, Neo4j, Amazon Neptune"
 weight = 279
 +++
 

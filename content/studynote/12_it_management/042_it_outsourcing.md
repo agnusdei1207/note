@@ -1,6 +1,6 @@
 +++
 weight = 42
-title = "042. IT 아웃소싱 - 핵심 역량의 집중과 외부 전문성의 전략적 활용"
+title = "42. AARRR 퍼널 - 획득(Acquisition), 활성화(Activation), 유지(Retention), 추천(Referral), 수익(Revenue)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-it-management"

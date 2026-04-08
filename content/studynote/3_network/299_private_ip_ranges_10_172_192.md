@@ -1,5 +1,5 @@
 +++
-title = "299. 사설 IP (Private IP) 영역 (10.x, 172.16.x, 192.168.x)"
+title = "299. 사설 IP (Private IP) 영역: 10.x, 172.16.x~172.31.x, 192.168.x"
 weight = 299
 +++
 

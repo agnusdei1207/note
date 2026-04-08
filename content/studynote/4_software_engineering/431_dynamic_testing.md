@@ -1,5 +1,5 @@
 +++
-title = "431. 동적 테스팅 (Dynamic Testing)"
+title = "431. 동적 테스팅 (Dynamic Testing) - 코드를 직접 컴파일하고 실행하여 검증"
 date = 2026-04-05
 weight = 431
 +++

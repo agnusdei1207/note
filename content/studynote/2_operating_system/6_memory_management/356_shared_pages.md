@@ -1,6 +1,6 @@
 +++
 weight = 356
-title = "356. 페이징에서의 공유 페이지 (Shared Pages)"
+title = "356. 페이징에서의 공유 페이지 (Shared Pages) - 읽기 전용 코드(Reentrant code) 공유"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

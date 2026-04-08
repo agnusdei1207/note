@@ -1,5 +1,5 @@
 +++
-title = "213. 마이크로서비스 아키텍처 (MSA)"
+title = "213. 마이크로서비스 아키텍처 (MSA, Microservices Architecture)"
 weight = 213
 +++
 # 213. 마이크로서비스 아키텍처 (MSA, Microservices Architecture) - 모놀리식 클라우드 네이티브 컨테이너 도커 분산 시스템 데브옵스 API 게이트웨이 결합도

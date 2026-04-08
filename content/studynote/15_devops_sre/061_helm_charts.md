@@ -1,6 +1,6 @@
 +++
 weight = 61
-title = "61. Helm/Charts (헬름/차트)"
+title = "61. 형상 관리 (Configuration Management) / 버전 관리 시스템 (VCS)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

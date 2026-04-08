@@ -1,6 +1,6 @@
 +++
 weight = 354
-title = "354. PTBR / PTLR 하드웨어 매핑의 길잡이"
+title = "354. PTBR (Page-Table Base Register) / PTLR (Page-Table Length Register)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

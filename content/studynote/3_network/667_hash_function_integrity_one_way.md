@@ -1,5 +1,5 @@
 +++
-title = "667. 해시 함수 (Hash Function)"
+title = "667. 해시 함수 (Hash Function) - 무결성 점검을 위한 일방향 고정길이 압축"
 weight = 667
 +++
 # 667. 해시 함수 (Hash Function) - 무결성 보장을 위한 압축

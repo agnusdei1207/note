@@ -1,6 +1,6 @@
 +++
 weight = 37
-title = "037. 양손잡이 조직 - 안정과 혁신을 동시에 추구하는 조직 설계의 과학"
+title = "37. 피벗 (Pivot) - 고객 반응을 바탕으로 사업 방향을 전략적으로 전환"
 date = "2026-04-05"
 [extra]
 categories = "studynote-it-management"

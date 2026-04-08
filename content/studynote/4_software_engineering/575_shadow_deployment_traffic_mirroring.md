@@ -1,5 +1,5 @@
 +++
-title = "575. 섀도우 배포 (Shadow Deployment) - 실운영 트래픽 복제 테스트"
+title = "575. 섀도우 배포 (Shadow Deployment / 트래픽 미러링) - 실운영 트래픽을 복제하여 신규 버전에 테스트"
 +++
 
 # 575. 섀도우 배포 (Shadow Deployment / 트래픽 미러링) - 실운영 트래픽을 복제하여 신규 버전에 테스트

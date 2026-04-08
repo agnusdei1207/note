@@ -1,5 +1,5 @@
 +++
-title = "30. 암호화폐 지갑 - 핫 월렛 vs 콜드 월렛, 니모닉"
+title = "30. 암호화폐 지갑 (Cryptocurrency Wallet) - 핫 월렛 (온라인) vs 콜드 월렛 (오프라인/하드웨어)"
 weight = 30
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "336. NDP (Neighbor Discovery Protocol) - IPv6"
+title = "336. NDP (Neighbor Discovery Protocol) - IPv6의 ARP/ICMP 대체, RS/RA/NS/NA 교환"
 weight = 336
 +++
 

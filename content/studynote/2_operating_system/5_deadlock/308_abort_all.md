@@ -1,6 +1,6 @@
 +++
 weight = 308
-title = "308. 교착 상태 프로세스 전체 강제 종료 (Abort all)"
+title = "308. 프로세스 종료 방식 - 교착 상태 프로세스 전체 강제 종료 (Abort all)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

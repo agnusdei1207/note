@@ -1,5 +1,5 @@
 +++
-title = "411. TCP 제어 플래그(6비트) - URG, ACK, PSH, RST, SYN, FIN"
+title = "411. TCP 제어 플래그(6bit) - URG(긴급), ACK(응답), PSH(푸시), RST(초기화), SYN(동기화), FIN(종료)"
 weight = 411
 +++
 

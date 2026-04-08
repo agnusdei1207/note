@@ -1,6 +1,6 @@
 +++
 weight = 38
-title = "038. 잔여 위험 (Residual Risk)"
+title = "38. 잔여 위험 (Residual Risk) — 통제 후 남은 위험"
 date = "2026-04-05"
 [extra]
 categories = "studynote-security"

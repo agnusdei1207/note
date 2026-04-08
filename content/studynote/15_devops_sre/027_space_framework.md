@@ -1,6 +1,6 @@
 +++
 weight = 27
-title = "027. SPACE 프레임워크 (Developer Experience Measurement Framework)"
+title = "27. SPACE 프레임워크 - 개발자 생산성을 단순 코드량(LOC)이 아닌 만족도, 성과, 활동, 커뮤니케이션, 효율성 5가지 차원으로 다각화 측정"
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

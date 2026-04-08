@@ -1,5 +1,5 @@
 +++
-title = "250. Native VLAN (네이티브 VLAN) - 언태그드 트래픽"
+title = "250. Native VLAN (언태그드 트래픽 처리용)"
 weight = 250
 +++
 

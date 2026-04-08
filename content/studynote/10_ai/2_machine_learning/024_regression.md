@@ -1,6 +1,6 @@
 +++
 weight = 24
-title = "회귀"
+title = "24. 학습의 3가지 패러다임 - 지도 학습(Supervised), 비지도 학습(Unsupervised), 강화 학습(Reinforcement)"
 description = "회귀(Regression)의 정의, 선형 회귀, 손실 함수, 과적합과 정규화"
 category = "10_ai"
 +++

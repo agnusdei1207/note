@@ -1,5 +1,5 @@
 +++
-title = "813. RoCE (이더넷 위 RDMA)"
+title = "813. RoCE (RDMA over Converged Ethernet) - 이더넷 환경에서 RDMA 구현"
 weight = 813
 +++
 # 813. RoCE (RDMA over Converged Ethernet) - 이더넷 환경에서 RDMA 구현 

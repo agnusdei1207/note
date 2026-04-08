@@ -1,5 +1,5 @@
 +++
-title = "254. CP 시스템 / AP 시스템 / CA 시스템"
+title = "254. CP 시스템 (HBase, MongoDB 기본) / AP 시스템 (Cassandra, DynamoDB) / CA 시스템 (RDBMS, 네트워크 분할 없는 단일망)"
 weight = 254
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "93. 스마트 컨트랙트 정형 검증 (Formal Verification)"
+title = "93. 스마트 컨트랙트 정형 검증 (Formal Verification) - 수학적 모델링을 통해 컨트랙트 코드 무결성 증명"
 weight = 93
 +++
 

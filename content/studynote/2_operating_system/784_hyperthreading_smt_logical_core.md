@@ -1,6 +1,6 @@
 +++
 weight = 784
-title = "784. 하이퍼스레딩: 물리 코어와 논리 코어"
+title = "784. 하이퍼스레딩 물리 코어 논리 코어 분할 구조"
 date = "2026-03-30"
 [extra]
 categories = ["studynote-operating-system"]

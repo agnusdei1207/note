@@ -1,6 +1,6 @@
 +++
 weight = 26
-title = "26. Apache Spark"
+title = "26. DataNode — 실제 데이터 블록 저장, 주기적 Heartbeat"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

@@ -1,6 +1,6 @@
 +++
 weight = 110
-title = "고아 프로세스 (Orphan Process)"
+title = "110. 고아 프로세스 (Orphan Process) - 부모가 먼저 종료된 상태 (init 프로세스가 입양)"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

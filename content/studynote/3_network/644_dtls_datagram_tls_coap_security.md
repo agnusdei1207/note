@@ -1,5 +1,5 @@
 +++
-title = "644. DTLS (Datagram TLS)"
+title = "644. DTLS (Datagram TLS) 프로토콜 CoAP 결합"
 weight = 644
 +++
 # 644. DTLS (Datagram TLS) 프로토콜과 CoAP 결합

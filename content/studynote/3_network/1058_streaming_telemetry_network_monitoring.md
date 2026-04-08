@@ -1,5 +1,5 @@
 +++
-title = "1058. 스트리밍 텔레메트리"
+title = "1058. 트래픽 텔레메트리 (Streaming Telemetry)"
 weight = 1058
 +++
 # 1058. 트래픽 텔레메트리 (Streaming Telemetry) - 차세대 네트워크 모니터링 Push 기반 구조 SNMP 폴링 한계 극복 gRPC 마이크로버스트 실시간 가시성 AI 분석

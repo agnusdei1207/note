@@ -1,6 +1,6 @@
 +++
 weight = 428
-title = "428. VMA (Virtual Memory Area) 구조체 리눅스의 가상 우주 지도"
+title = "428. VMA (Virtual Memory Area) 구조체 (리눅스 커널 프로세스 주소 공간 매핑)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

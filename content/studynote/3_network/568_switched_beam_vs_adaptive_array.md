@@ -1,6 +1,6 @@
 +++
 weight = 568
-title = "568. 스위칭 빔 (Switched Beam) vs 적응형 배열 (Adaptive Array) - 스마트 안테나 세부 아키텍처"
+title = "568. 스위칭 빔 (Switched Beam) vs 적응형 어레이 (Adaptive Array 안테나)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

@@ -1,6 +1,6 @@
 +++
 weight = 55
-title = "55. Ingress/Service 타입"
+title = "55. 가상 스위치 (vSwitch) / OVS (Open vSwitch)"
 date = "2026-04-05"
 [taxonomies]
 tags = ["Cloud", "Kubernetes", "K8s", "Ingress", "Service", "LoadBalancer"]

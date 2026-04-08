@@ -1,6 +1,6 @@
 +++
 weight = 53
-title = "53. 옴니채널 (Omni-Channel)"
+title = "53. 데이터 스튜어드십 (Data Stewardship) - 현업 부서의 데이터 품질 실무 책임"
 description = "고객이 채널이나 디바이스에 관계없이 일관된 통합된 경험을 제공하며, 모든 접점을 연결하여 끊김 없는 고객 여정을 실현하는 채널 전략"
 date = "2026-03-04"
 [taxonomies]

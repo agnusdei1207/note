@@ -1,5 +1,5 @@
 +++
-title = "382. 방어적 프로그래밍 (Defensive Programming)"
+title = "382. 방어적 프로그래밍 (Defensive Programming) - 예외 처리, Assertion 적극 활용"
 date = 2026-04-05
 weight = 382
 +++

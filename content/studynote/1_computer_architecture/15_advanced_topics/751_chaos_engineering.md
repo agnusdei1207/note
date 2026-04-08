@@ -1,5 +1,5 @@
 +++
-title = "카오스 엔지니어링 (Chaos Engineering) HW 모의"
+title = "751. 카오스 엔지니어링 (Chaos Engineering) HW 모의"
 date = 2026-03-20
 weight = 751
 description = "실제 고객들이 서비스를 이용 중인 상용 서버 환경에서, 무작위로 네트워크를 끊거나 서버 전원을 뽑는 공격을 의도적으로 가해 시스템의 회복 탄력성(Resiliency)을 단련하는 극한의 운영 철학"

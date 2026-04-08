@@ -1,5 +1,5 @@
 +++
-title = "59. 체인코드 (Chaincode)"
+title = "59. 체인코드 (Chaincode) - 하이퍼레저의 스마트 컨트랙트"
 weight = 59
 +++
 

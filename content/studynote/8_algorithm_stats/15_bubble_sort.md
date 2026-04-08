@@ -1,5 +1,5 @@
 +++
-title = "15. 버블 정렬 (Bubble Sort)"
+title = "15. 버블 정렬 (Bubble Sort) — O(n²), 안정, 제자리"
 weight = 15
 +++
 

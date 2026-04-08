@@ -1,5 +1,5 @@
 +++
-title = "184. Certificate Patrol / Firefox 브라우저 핀닝"
+title = "184. Certificate Patrol / Security/Telemetry — Firefox 브라우저 핀닝"
 date = "2026-04-07"
 [extra]
 categories = "studynote-security"

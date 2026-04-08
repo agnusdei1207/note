@@ -1,5 +1,5 @@
 +++
-title = "436. TCP Reno 모델 (빠른 회복 지원)"
+title = "436. TCP Reno (빠른 재전송/빠른 회복 지원) 모델"
 weight = 436
 +++
 

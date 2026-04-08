@@ -1,5 +1,5 @@
 +++
-title = "231. MAC 주소 (Media Access Control Address) - 48비트"
+title = "231. MAC 주소 (Media Access Control Address) - 48비트 (OUI 24bit + NIC 24bit)"
 weight = 231
 +++
 

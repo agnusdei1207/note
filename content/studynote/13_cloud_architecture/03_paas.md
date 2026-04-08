@@ -1,6 +1,6 @@
 +++
 weight = 3
-title = "03. PaaS (Platform as a Service)"
+title = "3. PaaS (Platform as a Service) - OS, 런타임, 미들웨어, DB가 세팅된 개발/운영 플랫폼 제공 (AWS Elastic Beanstalk, Heroku)"
 description = "운영체제와 미들웨어가 사전 구성된 개발 및 런타임 환경을 제공하여 개발 생산성을 극대화하는 PaaS의 원리 분석"
 date = "2024-05-24"
 [taxonomies]

@@ -1,6 +1,6 @@
 +++
 weight = 19
-title = "19. 미니맥스 알고리즘 (Minimax Algorithm)"
+title = "19. 미니맥스 알고리즘 (Minimax Algorithm) - 턴제 게임 트리(체스, 틱택토)에서 자신은 최대(Max), 상대는 최소(Min)를 선택한다고 가정하고 탐색"
 description = "적대적 게임 환경에서 자신은 최대 이익을, 상대는 최소 이익을 선택한다고 가정하여 최적의 수를 찾는 트리 탐색 기법"
 date = "2024-05-24"
 [taxonomies]

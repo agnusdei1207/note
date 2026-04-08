@@ -1,5 +1,5 @@
 +++
-title = "412. ECN 징후 플래그 (CWR, ECE)"
+title = "412. ECN 징후 플래그 - CWR, ECE"
 weight = 412
 +++
 

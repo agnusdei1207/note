@@ -1,6 +1,6 @@
 +++
 weight = 614
-title = "614. ììí DTrace ììì ëì íëìì ìì ëìëì"
+title = "614. 시스템 DTrace 선언적 동적 트레이싱 엔진 메커니즘"
 date = "2026-03-25"
 [extra]
 categories = "studynote-operating-system"

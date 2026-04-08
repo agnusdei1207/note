@@ -1,5 +1,5 @@
 +++
-title = "248. 분산 트랜잭션"
+title = "248. 분산 트랜잭션 (Distributed Transaction) - 둘 이상의 노드/DB에 걸친 트랜잭션"
 weight = 248
 +++
 # 248. 분산 트랜잭션 (Distributed Transaction) - 분산 데이터베이스 원자성 여러 노드 데이터 동기화 네트워크 지연 2PC 

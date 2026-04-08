@@ -1,6 +1,6 @@
 +++
 weight = 56
-title = "56. Helm/차트"
+title = "56. 언더레이 네트워크 (Underlay Network) - 실제 물리적 스위치/라우터 기반의 기반 네트워크"
 date = "2026-04-05"
 [taxonomies]
 tags = ["Cloud", "Kubernetes", "K8s", "Helm", "Chart", "Package Manager"]

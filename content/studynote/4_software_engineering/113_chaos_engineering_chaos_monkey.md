@@ -1,5 +1,5 @@
 +++
-title = "113. 카오스 엔지니어링 (Chaos Engineering)"
+title = "113. 카오스 엔지니어링 (Chaos Engineering) - 시스템 회복력 테스트"
 weight = 113
 +++
 

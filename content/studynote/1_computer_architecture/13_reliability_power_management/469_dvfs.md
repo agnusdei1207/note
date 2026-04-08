@@ -1,6 +1,6 @@
 +++
 weight = 469
-title = "469. DVFS (Dynamic Voltage and Frequency Scaling)"
+title = "469. DVFS (동적 전압 및 주파수 스케일링)"
 date = "2026-03-22"
 [extra]
 categories = "studynote-computer-architecture"

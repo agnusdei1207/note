@@ -1,6 +1,6 @@
 +++
 weight = 371
-title = "371. MISD (다중 명령어 단일 데이터)"
+title = "371. MISD"
 date = "2026-03-20"
 [extra]
 categories = "studynote-computer-architecture"

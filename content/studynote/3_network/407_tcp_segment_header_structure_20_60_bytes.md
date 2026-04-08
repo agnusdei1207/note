@@ -1,5 +1,5 @@
 +++
-title = "407. TCP 세그먼트(Segment) 헤더 구조"
+title = "407. TCP 세그먼트 (Segment) 헤더 - 기본 20바이트 ~ 60바이트"
 weight = 407
 +++
 

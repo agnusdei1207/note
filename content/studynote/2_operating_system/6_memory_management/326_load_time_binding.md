@@ -1,6 +1,6 @@
 +++
 weight = 326
-title = "326. 적재 시간 바인딩 (Load Time) - 재배치 가능 코드 생성"
+title = "326. 적재 시간 바인딩 (Load Time) - 재배치 가능 코드 (Relocatable Code)"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

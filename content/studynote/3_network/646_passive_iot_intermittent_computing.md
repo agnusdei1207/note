@@ -1,5 +1,5 @@
 +++
-title = "646. 무전원 통신 (Passive IoT)"
+title = "646. 무전원 통신 (Passive IoT 통신) 환경 적응"
 weight = 646
 +++
 # 646. 무전원 통신 (Passive IoT 통신) 환경 적응

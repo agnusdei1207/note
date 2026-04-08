@@ -1,5 +1,5 @@
 +++
-title = "1091. GRE 터널링 캡슐화"
+title = "1091. GRE 일반 캡슐화 포맷 오버헤드"
 weight = 1091
 +++
 # 1091. GRE 일반 캡슐화 포맷 오버헤드 - Generic Routing Encapsulation 시스코 터널링 비보안 IP in IP 멀티캐스트 전송 이기종 프로토콜 지원

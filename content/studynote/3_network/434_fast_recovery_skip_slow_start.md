@@ -1,5 +1,5 @@
 +++
-title = "434. 빠른 회복 (Fast Recovery) 알고리즘"
+title = "434. 빠른 회복 (Fast Recovery) - 재전송 후 슬로우 스타트 생략하고 혼잡회피로 진입"
 weight = 434
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 197
-title = "197. 로드/스토어 아키텍처 (Load/Store Architecture)"
+title = "197. 로드/스토어 아키텍처 (Load/Store)"
 date = "2026-03-19"
 [extra]
 categories = "studynote-computer-architecture"

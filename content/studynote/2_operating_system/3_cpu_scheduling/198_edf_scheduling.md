@@ -1,6 +1,6 @@
 +++
 weight = 198
-title = "198. EDF (Earliest Deadline First) 스케줄링"
+title = "198. 멀티코어 스케줄링 (Multicore Scheduling) - 메모리 스톨 (Memory Stall) 대응"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

@@ -1,5 +1,5 @@
 +++
-title = "278. 컬럼 패밀리 저장소 (Column Family / Wide-Column Store)"
+title = "278. 컬럼 패밀리 저장소 (Column Family / Wide-Column Store) - 대량 쓰기/읽기 특화, 압축 우수, HBase, Cassandra"
 weight = 278
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 116
-title = "116. 협력적 프로세스 vs 독립적 프로세스"
+title = "116. 협력적 프로세스 (Cooperating Process) vs 독립적 프로세스 (Independent Process)"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

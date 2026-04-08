@@ -1,6 +1,6 @@
 +++
 weight = 3
-title = "03. 저항 (Resistance)"
+title = "3. 저항 (Resistance)"
 date = "2026-03-26"
 [extra]
 categories = "studynote-computer-architecture"

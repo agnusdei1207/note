@@ -1,5 +1,5 @@
 +++
-title = "427. 지연된 ACK (Delayed ACK) - TCP 최적화"
+title = "427. 지연된 ACK (Delayed ACK) - 응답 패킷 모아서 전송"
 weight = 427
 +++
 

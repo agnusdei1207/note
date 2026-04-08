@@ -1,5 +1,5 @@
 +++
-title = "44. ZK 롤업 (Zero-Knowledge Rollup) - 유효성 증명"
+title = "44. ZK 롤업 (Zero-Knowledge Rollup) - 트랜잭션 배치마다 영지식 증명(Validity Proof)을 생성해 L1에 즉시 확정 (속도 빠름, 연산 복잡)"
 weight = 44
 +++
 

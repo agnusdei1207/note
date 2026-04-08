@@ -1,6 +1,6 @@
 +++
 weight = 52
-title = "52. 데이터 패브릭 (Data Fabric)"
+title = "52. RDD (Resilient Distributed Dataset) — 불변, 분산, 결함 허용, Lineage 기반 복구"
 date = "2026-04-05"
 [extra]
 categories = "studynote-bigdata"

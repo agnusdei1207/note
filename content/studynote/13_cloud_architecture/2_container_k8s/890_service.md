@@ -1,6 +1,6 @@
 +++
 weight = 890
-title = "90. 서비스 (Service)"
+title = "890. 서비스 (Service)"
 description = "Service: 오토스케일링과 파드 재생성 시 동적으로 변하는 파드IP를抽象화하여 고정된 진입점(ClusterIP)과 도메인 네임을 제공하는 쿠버네티스 네트워킹 리소스"
 date = 2026-03-26
 

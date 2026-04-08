@@ -1,5 +1,5 @@
 +++
-title = "클래스 다이어그램"
+title = "815. 클래스 다이어그램"
 description = "Class Diagram"
 category = "4_software_engineering"
 weight = 815

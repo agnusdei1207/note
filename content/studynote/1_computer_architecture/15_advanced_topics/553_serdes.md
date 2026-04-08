@@ -1,5 +1,5 @@
 +++
-title = "초고속 SerDes (Serializer/Deserializer)"
+title = "553. 초고속 SerDes"
 date = 2026-03-20
 weight = 553
 description = "칩 내부의 수많은 병렬 데이터를 하나의 가느다란 직렬 고속도로로 압축해 전송하고 다시 풀어주는 통신 하드웨어 회로"

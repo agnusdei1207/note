@@ -1,5 +1,5 @@
 +++
-title = "79. Kube Scheduler 팟 배치 워커 노드 결정"
+title = "79. Kube-Scheduler (스케줄러) - 새로 생성된 Pod가 자원 여유가 있는 어떤 워커 노드에 배치될지 결정"
 date = "2026-04-07"
 [extra]
 categories = "studynote-cloud"

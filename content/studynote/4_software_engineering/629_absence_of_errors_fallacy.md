@@ -1,5 +1,5 @@
 +++
-title = "629. 오류 부재의 궤변 (Absence of errors fallacy) 테스트 7원칙"
+title = "629. 오류 부재의 궤변 요구사항 미달"
 date = "2026-04-07"
 [extra]
 categories = "studynote-se"

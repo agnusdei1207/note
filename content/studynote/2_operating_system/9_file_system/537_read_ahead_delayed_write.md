@@ -1,6 +1,6 @@
 +++
 weight = 537
-title = "537. 미리 읽기 (Read-ahead) 및 지연 쓰기 (Delayed-write) 기법"
+title = "537. 미리 읽기 (Read-ahead) 및 지연 쓰기 (Delayed-write / Write-behind)"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

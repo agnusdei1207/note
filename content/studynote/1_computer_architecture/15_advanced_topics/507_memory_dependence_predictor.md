@@ -1,5 +1,5 @@
 +++
-title = "메모리 의존성 예측기 (Memory Dependence Predictor)"
+title = "507. 메모리 의존성 예측기"
 date = 2026-03-20
 weight = 507
 description = "비순차 실행 시 앞선 Store 명령어와 뒤의 Load 명령어가 같은 주소를 사용하는지 미리 예측하여 메모리 충돌 페널티를 방지하는 하드웨어"

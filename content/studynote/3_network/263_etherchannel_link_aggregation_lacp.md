@@ -1,5 +1,5 @@
 +++
-title = "263. 이더채널 / 링크 어그리게이션 (LACP)"
+title = "263. 이더채널 (EtherChannel) / 링크 어그리게이션 (LACP, IEEE 802.3ad/802.1AX) - 포트 결합 대역폭 확장"
 weight = 263
 +++
 

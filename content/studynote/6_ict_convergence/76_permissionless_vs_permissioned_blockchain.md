@@ -1,5 +1,5 @@
 +++
-title = "76. 무허가형(Public) vs 허가형(Private) 블록체인"
+title = "76. 무허가형 (Permissionless) vs 허가형 (Permissioned) 블록체인"
 weight = 76
 +++
 

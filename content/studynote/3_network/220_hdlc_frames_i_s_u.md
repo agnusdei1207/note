@@ -1,5 +1,5 @@
 +++
-title = "220. HDLC 프레임 종류 (I, S, U 프레임)"
+title = "220. 정보 프레임(I-Frame), 감독/제어(S-Frame / RR, RNR, REJ, SREJ), 비번호(U-Frame)"
 weight = 220
 +++
 

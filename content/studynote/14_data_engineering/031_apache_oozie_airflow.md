@@ -1,6 +1,6 @@
 +++
 weight = 31
-title = "031. 아파치 우지(Apache Oozie)와 에어플로우(Apache Airflow)"
+title = "31. 아파치 우지 (Apache Oozie) / 아파치 에어플로우 (Apache Airflow) - 복잡한 분산 파이프라인 작업 간 DAG 의존성 스케줄링 관리"
 date = "2026-04-05"
 [extra]
 categories = "studynote-data-engineering"

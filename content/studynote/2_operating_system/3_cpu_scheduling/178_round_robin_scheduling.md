@@ -1,6 +1,6 @@
 +++
 weight = 178
-title = "178. 라운드 로빈 (Round Robin, RR) 스케줄링"
+title = "178. 라운드 로빈 (Round Robin, RR) 스케줄링 - 시분할 시스템, 선점형"
 date = "2026-03-22"
 [extra]
 categories = ["studynote-operating-system"]

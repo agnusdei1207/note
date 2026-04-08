@@ -1,5 +1,5 @@
 +++
-title = "플런더버그 (Plundervolt) 공격"
+title = "769. 플런더버그 (Plundervolt)"
 date = 2026-03-20
 weight = 769
 description = "CPU에 공급되는 전압을 소프트웨어로 미세하게 조작(언더볼팅)하여 하드웨어 내부에서 의도적인 계산 오류(Fault)를 일으키고, 이를 통해 암호화 키를 빼내는 전압 주입 해킹 기법"

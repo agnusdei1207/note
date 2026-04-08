@@ -1,5 +1,5 @@
 +++
-title = "524. DHCP Relay Agent (DHCP 릴레이)"
+title = "524. DHCP Relay Agent (DHCP 릴레이) - 브로드캐스트 패킷을 라우터 넘어로 Unicast 중계 제어"
 weight = 524
 +++
 # 524. DHCP Relay Agent (DHCP 릴레이)

@@ -1,5 +1,5 @@
 +++
-title = "97. 부분 함수적 종속 (Partial Functional Dependency)"
+title = "97. 부분 함수적 종속 (Partial Functional Dependency) - 복합키의 일부 속성에만 종속"
 weight = 97
 +++
 

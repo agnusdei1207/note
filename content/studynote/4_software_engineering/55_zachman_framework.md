@@ -1,5 +1,5 @@
 +++
-title = "55. 잭맨 프레임워크 (Zachman Framework)"
+title = "55. 잭맨 프레임워크 (Zachman Framework) - 전사적 아키텍처(EA) 프레임워크"
 weight = 55
 +++
 

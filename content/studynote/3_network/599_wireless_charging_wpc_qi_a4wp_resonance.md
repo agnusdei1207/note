@@ -1,6 +1,6 @@
 +++
 weight = 599
-title = "599. 무선 충전 전송 원리 - WPC(Qi) 자기 유도와 A4WP 자기 공명 아키텍처"
+title = "599. 무선 충전 전송 원리 (자기 유도형 WPC Qi, 자기 공명형 A4WP)"
 date = "2026-04-05"
 [extra]
 categories = "studynote-network"

@@ -1,5 +1,5 @@
 +++
-title = "레지스터 파일 포트 (Register File Ports)"
+title = "509. 레지스터 파일 포트"
 date = 2026-03-20
 weight = 509
 description = "수퍼스칼라 코어에서 여러 연산 유닛이 동시에 레지스터에 접근할 수 있도록 하는 물리적인 데이터 입출력 통로(Port)의 개념과 설계 한계"

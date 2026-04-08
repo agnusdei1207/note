@@ -1,5 +1,5 @@
 +++
-title = "45. 사이드체인 (Sidechain) - 독립된 블록체인"
+title = "45. 사이드체인 (Sidechain) - 메인체인과 브리지로 연결된 별도의 독립된 블록체인 (Polygon 등)"
 weight = 45
 +++
 

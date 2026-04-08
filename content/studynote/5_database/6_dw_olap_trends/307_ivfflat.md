@@ -1,5 +1,5 @@
 +++
-title = "307. 벡터 인덱스 IVFFlat"
+title = "307. 글로벌 보조 인덱스 (GSI, Global Secondary Index) 분산 환경 오버헤드"
 weight = 4307
 +++
 

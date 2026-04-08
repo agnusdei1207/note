@@ -1,5 +1,5 @@
 +++
-title = "110. 운영 CRM (Operational CRM)"
+title = "110. 운영 CRM (Operational CRM) - 영업 자동화(SFA), 캠페인 관리, 콜센터 등 프론트 오피스 고객 접점 업무 지원"
 weight = 110
 +++
 

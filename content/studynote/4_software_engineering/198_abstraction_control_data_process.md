@@ -1,5 +1,5 @@
 +++
-title = "198. 추상화 (Abstraction)"
+title = "198. 추상화 (Abstraction) - 제어, 자료, 과정 추상화"
 weight = 198
 +++
 # 198. 추상화 (Abstraction) - 제어 자료 과정 추상화 소프트웨어 설계 복잡도 관리 개념화 다형성 인터페이스 객체지향 

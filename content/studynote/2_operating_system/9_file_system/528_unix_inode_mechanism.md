@@ -1,6 +1,6 @@
 +++
 weight = 528
-title = "528. 유닉스 i-node (Index Node) 메커니즘"
+title = "528. 유닉스 i-node (Index Node) 매커니즘 - 파일 메타데이터 및 다중 접근 포인터 보유"
 date = "2026-03-25"
 [extra]
 categories = ["studynote-operating-system"]

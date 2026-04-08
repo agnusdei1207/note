@@ -1,6 +1,6 @@
 +++
 weight = 21
-title = "관리형 vs 비관리형 서비스"
+title = "826. 관리형 vs 비관리형 서비스"
 description = "관리형(Managed)과 비관리형(Unmanaged) 클라우드 서비스의 차이와 선택 기준"
 date = 2026-03-26
 

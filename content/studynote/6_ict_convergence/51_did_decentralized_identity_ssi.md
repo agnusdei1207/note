@@ -1,5 +1,5 @@
 +++
-title = "51. 탈중앙화 신원증명 (DID, Decentralized Identity)"
+title = "51. 탈중앙화 신원증명 (DID, Decentralized Identity) - W3C 표준, 사용자가 자신의 신원 정보를 직접 관리하고 통제 (SSI, Self-Sovereign Identity)"
 weight = 51
 +++
 

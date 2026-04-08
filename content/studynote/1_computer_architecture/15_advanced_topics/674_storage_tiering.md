@@ -1,5 +1,5 @@
 +++
-title = "스토리지 티어링 (Storage Tiering)"
+title = "674. 스토리지 티어링 (Storage Tiering)"
 date = 2026-03-20
 weight = 674
 description = "비싼 고속 저장장치(SSD)와 저렴한 저속 저장장치(HDD/Tape)를 섞어서 구성한 뒤, 데이터의 사용 빈도(온도)에 따라 위치를 자동으로 이동시켜 비용과 성능을 극대화하는 계층형 스토리지 아키텍처"

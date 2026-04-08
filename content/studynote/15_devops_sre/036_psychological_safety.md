@@ -1,6 +1,6 @@
 +++
 weight = 36
-title = "036. 심리적 안전감 (Psychological Safety)"
+title = "36. 비난 없는 포스트모템 (Blameless Post-mortem) - 장애 발생 시 '누가' 잘못했는지가 아니라 '무엇이' 문제였고 시스템이 어떻게 막지 못했는지 시스템적 관점에서 분석하는 회고 문화"
 date = "2026-04-05"
 [extra]
 categories = "studynote-devops-sre"

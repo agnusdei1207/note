@@ -1,5 +1,5 @@
 +++
-title = "347. 거리 벡터 (Distance Vector) - 벨만포드"
+title = "347. 거리 벡터 (Distance Vector) 라우팅 알고리즘 - 벨만-포드(Bellman-Ford) 기반"
 weight = 347
 +++
 

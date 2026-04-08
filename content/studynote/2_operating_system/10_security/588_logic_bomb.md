@@ -1,6 +1,6 @@
 +++
 weight = 588
-title = "588. 로직 폭탄 (Logic Bomb) / 시간 폭탄 (Time Bomb)"
+title = "588. 로직 밤 (Logic Bomb) / 타이머 밤"
 date = "2026-03-25"
 [extra]
 categories = "studynote-operating-system"

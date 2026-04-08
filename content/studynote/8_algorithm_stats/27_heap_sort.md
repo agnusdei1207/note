@@ -1,5 +1,5 @@
 +++
-title = "27. 힙 정렬 (Heap Sort)"
+title = "27. 인트로 정렬 (Introsort) — 퀵+힙+삽입 혼합, C++ STL"
 weight = 27
 +++
 

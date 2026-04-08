@@ -1,5 +1,5 @@
 +++
-title = "244. 개방-폐쇄 원칙 (OCP)"
+title = "244. OCP (Open-Closed Principle) - 개방-폐쇄 원칙 (확장엔 열려있고 변경엔 닫혀있음)"
 weight = 244
 +++
 # 244. OCP (Open-Closed Principle) - 개방-폐쇄 원칙 SOLID 다형성 추상화 인터페이스 확장성 유지보수 디자인 패턴 객체지향 심장 

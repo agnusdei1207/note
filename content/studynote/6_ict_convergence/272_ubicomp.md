@@ -1,5 +1,5 @@
 +++
-title = "272. 유비쿼터스 컴퓨팅 (Ubiquitous Computing)"
+title = "272. 제로샷 (Zero-shot) / 원샷 (One-shot) / 퓨샷 (Few-shot) 프롬프팅"
 weight = 272
 +++
 

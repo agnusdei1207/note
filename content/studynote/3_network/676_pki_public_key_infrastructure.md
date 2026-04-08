@@ -1,5 +1,5 @@
 +++
-title = "676. PKI (공개키 기반 구조)"
+title = "676. 공개키 기반 구조 (PKI, Public Key Infrastructure) 아키텍처 보안 증명 시스템"
 weight = 676
 +++
 # 676. PKI (Public Key Infrastructure) 공개키 기반 구조 시스템

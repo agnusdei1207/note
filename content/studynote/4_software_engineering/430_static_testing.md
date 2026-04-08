@@ -1,5 +1,5 @@
 +++
-title = "430. 정적 테스팅 (Static Testing)"
+title = "430. 정적 테스팅 (Static Testing) - 코드를 실행하지 않고 리뷰나 도구를 통해 검증 (인스펙션, 정적 분석)"
 date = 2026-04-05
 weight = 430
 +++

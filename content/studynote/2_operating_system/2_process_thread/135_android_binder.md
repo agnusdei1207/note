@@ -1,6 +1,6 @@
 +++
 weight = 135
-title = "Android Binder"
+title = "135. 안드로이드 바인더 (Android Binder) - 객체 지향적 경량 IPC"
 date = "2026-03-22"
 [extra]
 categories = "studynote-operating-system"

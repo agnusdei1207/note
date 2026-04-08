@@ -1,6 +1,6 @@
 +++
 weight = 452
-title = "452. DMA 산란-수집 (Scatter-Gather) 가상 메모리 파편화의 구원자"
+title = "452. DMA 산란-수집 (Scatter-Gather) - 불연속적 물리 메모리 블록을 한 번의 DMA로 전송"
 date = "2026-03-23"
 [extra]
 categories = ["studynote-operating-system"]

@@ -1,5 +1,5 @@
 +++
-title = "317. ARP 캐시 오염 (ARP Spoofing)"
+title = "317. ARP 캐시 오염 (ARP Cache Poisoning, 스푸핑 공격)"
 weight = 317
 +++
 

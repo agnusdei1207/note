@@ -1,5 +1,5 @@
 +++
-title = "320. 난독화 / 마스킹 / FPE"
+title = "320. 다중 모델 데이터베이스 (Multi-model Database) - 단일 엔진 내 Document, Graph, KV, Relational 지원 (ArangoDB 등)"
 weight = 4320
 +++
 

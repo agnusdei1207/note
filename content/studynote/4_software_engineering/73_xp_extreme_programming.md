@@ -1,5 +1,5 @@
 +++
-title = "73. XP (eXtreme Programming)"
+title = "73. XP (e/Xtreme Programming) - 5가지 가치, 12가지 실천 방법"
 weight = 73
 +++
 

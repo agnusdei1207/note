@@ -1,5 +1,5 @@
 +++
-title = "618. 서킷 브레이커 (Circuit Breaker) 장애 연쇄 차단 메커니즘"
+title = "618. 서킷 브레이커 장애 연쇄 차단 메커니즘"
 date = "2026-04-07"
 [extra]
 categories = "studynote-se"

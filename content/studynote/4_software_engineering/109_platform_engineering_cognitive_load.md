@@ -1,5 +1,5 @@
 +++
-title = "109. 플랫폼 엔지니어링 (Platform Engineering) - 차세대 DevOps"
+title = "109. 플랫폼 엔지니어링 (Platform Engineering) - 개발자 셀프 서비스 포털 (IDP)"
 weight = 109
 +++
 
