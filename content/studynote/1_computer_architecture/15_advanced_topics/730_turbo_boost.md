@@ -1,11 +1,11 @@
----
-title: "인텔 터보부스트 (Turbo Boost)"
-date: 2026-03-20
-weight: 730
-description: "멀티코어 환경에서 놀고 있는 코어의 전력을 강제로 뺏어와, 일하고 있는 소수의 코어에 몰아줌으로써 단일 스레드 성능을 공장 스펙 이상으로 뻥튀기하는 인텔의 오버클럭 마법"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Power Management", "Turbo Boost", "Intel", "Performance"]
----
++++
+title = "인텔 터보부스트 (Turbo Boost)"
+date = 2026-03-20
+weight = 730
+description = "멀티코어 환경에서 놀고 있는 코어의 전력을 강제로 뺏어와, 일하고 있는 소수의 코어에 몰아줌으로써 단일 스레드 성능을 공장 스펙 이상으로 뻥튀기하는 인텔의 오버클럭 마법"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Power Management", "Turbo Boost", "Intel", "Performance"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거에는 CPU 클럭이 3.0GHz라고 적혀있으면, 무슨 짓을 해도 3.0GHz까지만 달릴 수 있었다.

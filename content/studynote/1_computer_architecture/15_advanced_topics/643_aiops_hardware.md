@@ -1,11 +1,11 @@
----
-title: "AIOps 기반 하드웨어 이상 탐지"
-date: 2026-03-20
-weight: 643
-description: "머신러닝과 인공지능을 활용하여, 데이터센터의 수만 대 서버에서 쏟아지는 방대한 하드웨어 상태 데이터를 분석하고 장애가 발생하기 전에 선제적으로 대응하는 지능형 운영 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "AIOps", "Data Center", "Machine Learning"]
----
++++
+title = "AIOps 기반 하드웨어 이상 탐지"
+date = 2026-03-20
+weight = 643
+description = "머신러닝과 인공지능을 활용하여, 데이터센터의 수만 대 서버에서 쏟아지는 방대한 하드웨어 상태 데이터를 분석하고 장애가 발생하기 전에 선제적으로 대응하는 지능형 운영 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "AIOps", "Data Center", "Machine Learning"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 수만 대의 서버가 돌아가는 하이퍼스케일 데이터센터에서는 1초에 수백만 개의 로그(온도, 전압, 팬 속도, 디스크 I/O)가 쏟아져 나와 **사람(관리자)의 눈으로는 도저히 모니터링이 불가능**하다.

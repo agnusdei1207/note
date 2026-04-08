@@ -1,11 +1,11 @@
----
-title: "하드웨어 락 엘리전 (HLE, Hardware Lock Elision)"
-date: 2026-03-20
-weight: 566
-description: "기존의 무거운 소프트웨어 자물쇠(Lock) 코드를 건드리지 않고, 하드웨어가 스스로 판단하여 자물쇠를 무시(Elision)하고 낙관적 병렬 처리를 수행하는 마법 같은 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Concurrency", "Lock", "HTM", "Intel TSX"]
----
++++
+title = "하드웨어 락 엘리전 (HLE, Hardware Lock Elision)"
+date = 2026-03-20
+weight = 566
+description = "기존의 무거운 소프트웨어 자물쇠(Lock) 코드를 건드리지 않고, 하드웨어가 스스로 판단하여 자물쇠를 무시(Elision)하고 낙관적 병렬 처리를 수행하는 마법 같은 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Concurrency", "Lock", "HTM", "Intel TSX"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 멀티스레딩의 필수품인 **락(Lock / Mutex)**은 공유 데이터를 보호하지만, 다른 스레드들을 무작정 대기하게 만들어 멀티코어 성능을 끔찍하게 저하시키는 가장 큰 병목이다.

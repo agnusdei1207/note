@@ -1,11 +1,11 @@
----
-title: "초고속 SerDes (Serializer/Deserializer)"
-date: 2026-03-20
-weight: 553
-description: "칩 내부의 수많은 병렬 데이터를 하나의 가느다란 직렬 고속도로로 압축해 전송하고 다시 풀어주는 통신 하드웨어 회로"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Hardware", "Network", "PCIe"]
----
++++
+title = "초고속 SerDes (Serializer/Deserializer)"
+date = 2026-03-20
+weight = 553
+description = "칩 내부의 수많은 병렬 데이터를 하나의 가느다란 직렬 고속도로로 압축해 전송하고 다시 풀어주는 통신 하드웨어 회로"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Hardware", "Network", "PCIe"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **SerDes (Serializer/Deserializer, 직렬화/역직렬화)** 회로는 여러 가닥의 병렬(Parallel) 선으로 들어오는 데이터를, 아주 빠른 속도의 **단일(Serial) 선 하나로 뭉쳐서 보내는(Serialize)** 송신부와, 이를 받아 다시 병렬로 푸는(Deserialize) 수신부를 뜻한다.

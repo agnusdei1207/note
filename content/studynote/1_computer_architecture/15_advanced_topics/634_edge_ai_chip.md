@@ -1,11 +1,11 @@
----
-title: "엣지 AI 칩 아키텍처"
-date: 2026-03-20
-weight: 634
-description: "스마트폰, CCTV, 드론 등 전력이 극도로 부족한 말단 기기에서 인터넷 연결 없이 스스로 인공지능 추론을 수행하기 위해 깎아낸 초저전력 하드웨어 설계"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "AI Accelerator", "Edge Computing", "Hardware"]
----
++++
+title = "엣지 AI 칩 아키텍처"
+date = 2026-03-20
+weight = 634
+description = "스마트폰, CCTV, 드론 등 전력이 극도로 부족한 말단 기기에서 인터넷 연결 없이 스스로 인공지능 추론을 수행하기 위해 깎아낸 초저전력 하드웨어 설계"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "AI Accelerator", "Edge Computing", "Hardware"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. AI 연산을 데이터센터(클라우드)에서 처리하면 딜레이(Latency)가 생기고 개인정보 유출 위험이 있다. 이를 해결하기 위해 기기 자체에서 AI를 돌리는 **엣지 AI (Edge AI)**가 대세가 되었다.

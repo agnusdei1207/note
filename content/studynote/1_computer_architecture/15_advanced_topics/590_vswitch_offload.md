@@ -1,11 +1,11 @@
----
-title: "가상 스위치 오프로드 (vSwitch Offload)"
-date: 2026-03-20
-weight: 590
-description: "클라우드 서버에서 가상 머신(VM)들끼리의 네트워크 통신을 연결하던 무거운 소프트웨어 스위치(OVS)를 하드웨어 스마트 랜카드(SmartNIC)로 떠넘기는 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Network", "SDN", "SmartNIC", "OVS"]
----
++++
+title = "가상 스위치 오프로드 (vSwitch Offload)"
+date = 2026-03-20
+weight = 590
+description = "클라우드 서버에서 가상 머신(VM)들끼리의 네트워크 통신을 연결하던 무거운 소프트웨어 스위치(OVS)를 하드웨어 스마트 랜카드(SmartNIC)로 떠넘기는 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Network", "SDN", "SmartNIC", "OVS"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 클라우드 서버(AWS 등) 안에는 수십 개의 가상 머신(VM)이 살고 있으며, 이들끼리 카카오톡을 주고받듯 통신하게 해주는 내선 공유기 역할을 **소프트웨어 가상 스위치(Open vSwitch, OVS)**가 담당한다.

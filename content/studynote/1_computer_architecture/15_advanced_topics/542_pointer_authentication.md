@@ -1,11 +1,11 @@
----
-title: "포인터 인증 (Pointer Authentication, ARM PAC)"
-date: 2026-03-20
-weight: 542
-description: "메모리 상의 포인터 주소를 사용하기 전에 하드웨어적으로 암호화 서명을 검증하여, 해커의 임의 주소 조작(ROP 등)을 원천 차단하는 최신 보안 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "ARM PAC", "Pointer Authentication"]
----
++++
+title = "포인터 인증 (Pointer Authentication, ARM PAC)"
+date = 2026-03-20
+weight = 542
+description = "메모리 상의 포인터 주소를 사용하기 전에 하드웨어적으로 암호화 서명을 검증하여, 해커의 임의 주소 조작(ROP 등)을 원천 차단하는 최신 보안 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "ARM PAC", "Pointer Authentication"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 현대 프로세서는 64비트 주소 체계를 사용하지만 실제 물리/가상 주소로는 하위 48비트 정도만 사용하고 **상위 비트들은 남겨둔다.**

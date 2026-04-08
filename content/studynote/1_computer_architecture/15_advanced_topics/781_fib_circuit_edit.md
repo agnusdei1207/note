@@ -1,11 +1,11 @@
----
-title: "FIB (Focused Ion Beam, 집속 이온 빔) 수정"
-date: 2026-03-20
-weight: 781
-description: "나노미터 단위의 극미세 이온 빔을 쏘아, 완성된 칩 내부의 전선을 끊거나(Cut) 새로운 구리 선을 허공에서 그려 붙이는(Deposition) 외계인 수준의 반도체 물리 조작 해킹"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "Hardware", "FIB", "Reverse Engineering"]
----
++++
+title = "FIB (Focused Ion Beam, 집속 이온 빔) 수정"
+date = 2026-03-20
+weight = 781
+description = "나노미터 단위의 극미세 이온 빔을 쏘아, 완성된 칩 내부의 전선을 끊거나(Cut) 새로운 구리 선을 허공에서 그려 붙이는(Deposition) 외계인 수준의 반도체 물리 조작 해킹"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "Hardware", "FIB", "Reverse Engineering"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 앞 장의 디레이어링(깎아내기)이 단순히 칩을 '보는' 것이라면, **FIB (집속 이온 빔)**는 칩 내부의 수 나노미터짜리 미세한 전선을 **'내 맘대로 뜯어고치는(Edit)' 수술 도구**다.

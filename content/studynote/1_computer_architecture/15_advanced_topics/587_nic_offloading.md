@@ -1,11 +1,11 @@
----
-title: "네트워크 인터페이스 카드 (NIC) 오프로딩"
-date: 2026-03-20
-weight: 587
-description: "CPU가 처리해야 할 무거운 네트워크 연산들을 랜카드(NIC) 내부의 전용 하드웨어로 떠넘겨(Offload), CPU 점유율을 낮추고 전체 시스템 성능을 끌어올리는 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Network", "NIC", "Offloading"]
----
++++
+title = "네트워크 인터페이스 카드 (NIC) 오프로딩"
+date = 2026-03-20
+weight = 587
+description = "CPU가 처리해야 할 무거운 네트워크 연산들을 랜카드(NIC) 내부의 전용 하드웨어로 떠넘겨(Offload), CPU 점유율을 낮추고 전체 시스템 성능을 끌어올리는 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Network", "NIC", "Offloading"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거에는 랜카드(NIC)가 단순히 전기 신호를 받아 메모리에 올려놓는 역할만 하고, 패킷의 오류 검사(Checksum)나 쪼개기(Segmentation) 등은 모두 **메인 CPU가 소프트웨어(OS 커널)로 연산**했다.

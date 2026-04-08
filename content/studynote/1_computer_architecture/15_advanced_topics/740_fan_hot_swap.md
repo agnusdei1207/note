@@ -1,11 +1,11 @@
----
-title: "서버 섀시 팬 핫스왑 (Server Chassis Fan Hot-swap)"
-date: 2026-03-20
-weight: 740
-description: "서버의 전원을 끄지 않은 채 작동 중인 상태에서 고장 난 쿨링팬을 맨손으로 뽑고 새것으로 갈아 끼울 수 있는 엔터프라이즈 하드웨어의 생존 설계"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Hardware", "Server", "Hot-swap", "Cooling"]
----
++++
+title = "서버 섀시 팬 핫스왑 (Server Chassis Fan Hot-swap)"
+date = 2026-03-20
+weight = 740
+description = "서버의 전원을 끄지 않은 채 작동 중인 상태에서 고장 난 쿨링팬을 맨손으로 뽑고 새것으로 갈아 끼울 수 있는 엔터프라이즈 하드웨어의 생존 설계"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Hardware", "Server", "Hot-swap", "Cooling"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 일반 PC는 선풍기(Fan)가 고장 나면 컴퓨터를 끄고 십자드라이버로 나사를 풀고 전원 핀을 뽑아야 한다.

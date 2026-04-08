@@ -1,11 +1,11 @@
----
-title: "테이프 라이브러리 (Tape Library)"
-date: 2026-03-20
-weight: 692
-description: "엑사바이트(EB) 단위의 인류 지식과 빅데이터를 해킹(랜섬웨어)과 전력 낭비로부터 보호하기 위해, 수만 개의 카세트테이프를 로봇 팔이 자동으로 꽂고 빼는 거대한 아날로그/디지털 융합 저장소"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "Tape Library", "Cold Data", "Backup"]
----
++++
+title = "테이프 라이브러리 (Tape Library)"
+date = 2026-03-20
+weight = 692
+description = "엑사바이트(EB) 단위의 인류 지식과 빅데이터를 해킹(랜섬웨어)과 전력 낭비로부터 보호하기 위해, 수만 개의 카세트테이프를 로봇 팔이 자동으로 꽂고 빼는 거대한 아날로그/디지털 융합 저장소"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "Tape Library", "Cold Data", "Backup"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 디지털과 클라우드 시대에 구시대의 유물인 '자기 테이프(Tape)'가 멸종했을 것이라 생각하지만, 구글, MS, 아마존과 글로벌 대형 은행의 지하 벙커를 지탱하는 **최후의 보루(Tier 3, Cold Data)는 100% 테이프 라이브러리**다.

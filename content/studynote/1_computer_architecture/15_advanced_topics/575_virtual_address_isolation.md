@@ -1,11 +1,11 @@
----
-title: "가상 주소 공간 분리 (Virtual Address Space Isolation)"
-date: 2026-03-20
-weight: 575
-description: "각각의 프로세스가 자신만의 독립된 거대한 메모리 공간을 독점하고 있다고 착각하게 만들며, 다른 프로세스의 해킹이나 충돌을 원천 차단하는 현대 OS의 핵심 보안 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Memory Management", "Virtual Memory", "Security"]
----
++++
+title = "가상 주소 공간 분리 (Virtual Address Space Isolation)"
+date = 2026-03-20
+weight = 575
+description = "각각의 프로세스가 자신만의 독립된 거대한 메모리 공간을 독점하고 있다고 착각하게 만들며, 다른 프로세스의 해킹이나 충돌을 원천 차단하는 현대 OS의 핵심 보안 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Memory Management", "Virtual Memory", "Security"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거의 컴퓨터(MS-DOS 시절 등)는 모든 프로그램이 하나의 물리적 메모리(RAM)를 공유하여, A 프로그램의 버그나 악의적인 해킹으로 B 프로그램이나 운영체제(OS)가 죽는 일이 흔했다.

@@ -1,11 +1,11 @@
----
-title: "고수준 합성 (HLS, High-Level Synthesis)"
-date: 2026-03-20
-weight: 605
-description: "어렵고 복잡한 하드웨어 설계 언어(Verilog/VHDL) 대신, 개발자들에게 친숙한 C/C++ 코드를 작성하면 컴파일러가 알아서 논리 회로 도면으로 번역해 주는 혁신적인 반도체 설계 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "FPGA", "HLS", "EDA", "Hardware Design"]
----
++++
+title = "고수준 합성 (HLS, High-Level Synthesis)"
+date = 2026-03-20
+weight = 605
+description = "어렵고 복잡한 하드웨어 설계 언어(Verilog/VHDL) 대신, 개발자들에게 친숙한 C/C++ 코드를 작성하면 컴파일러가 알아서 논리 회로 도면으로 번역해 주는 혁신적인 반도체 설계 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "FPGA", "HLS", "EDA", "Hardware Design"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 전통적인 반도체 회로(RTL) 설계는 Verilog나 VHDL 같은 **어려운 하드웨어 설명 언어**를 써서 트랜지스터와 클럭 타이밍을 하나하나 수동으로 깎는 극한의 노가다 작업이었다.

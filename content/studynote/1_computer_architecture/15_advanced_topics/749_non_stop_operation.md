@@ -1,11 +1,11 @@
----
-title: "무정전 운영 (Non-Stop Operation) 아키텍처"
-date: 2026-03-20
-weight: 749
-description: "서버가 멈추면 생명이 위협받거나 천문학적 돈이 날아가는 환경(금융, 항공, 우주)에서, 하드웨어의 모든 부품을 이중화/삼중화하여 다운타임(Downtime)을 제로(0)로 만드는 궁극의 시스템 설계"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "High Availability", "Fault Tolerance", "Non-Stop"]
----
++++
+title = "무정전 운영 (Non-Stop Operation) 아키텍처"
+date = 2026-03-20
+weight = 749
+description = "서버가 멈추면 생명이 위협받거나 천문학적 돈이 날아가는 환경(금융, 항공, 우주)에서, 하드웨어의 모든 부품을 이중화/삼중화하여 다운타임(Downtime)을 제로(0)로 만드는 궁극의 시스템 설계"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "High Availability", "Fault Tolerance", "Non-Stop"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 일반적인 클라우드 클러스터링(Active-Standby)은 장애가 났을 때 다른 서버로 넘어가느라 **아주 짧은 시간(수 초~수 분)의 서비스 중단(Downtime)**이 필연적으로 발생한다.

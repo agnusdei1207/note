@@ -1,11 +1,11 @@
----
-title: "디캡핑 (Decapping) 및 프로빙 (Probing)"
-date: 2026-03-20
-weight: 782
-description: "반도체 칩을 감싸고 있는 까만 플라스틱 껍데기를 화학 약품으로 녹여내고(Decapping), 밖으로 노출된 실리콘 알맹이에 머리카락보다 얇은 침(Probe)을 꽂아 전기가 흐르는 데이터를 몰래 도청하는 하드웨어 해킹의 가장 첫 관문"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "Hardware", "Probing", "Decapping"]
----
++++
+title = "디캡핑 (Decapping) 및 프로빙 (Probing)"
+date = 2026-03-20
+weight = 782
+description = "반도체 칩을 감싸고 있는 까만 플라스틱 껍데기를 화학 약품으로 녹여내고(Decapping), 밖으로 노출된 실리콘 알맹이에 머리카락보다 얇은 침(Probe)을 꽂아 전기가 흐르는 데이터를 몰래 도청하는 하드웨어 해킹의 가장 첫 관문"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "Hardware", "Probing", "Decapping"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 모든 하드웨어 해킹(FIB, EMA, 광학 역설계)을 시작하려면, 가장 먼저 칩을 감싸고 있는 **까만색 에폭시 수지 패키징(껍데기)을 부수고 내부의 은색 실리콘 코어를 맨눈으로 볼 수 있게 노출**시켜야 하는데 이를 **디캡핑(Decapping)**이라 한다.

@@ -1,11 +1,11 @@
----
-title: "이중화 전원 공급 장치 (Redundant Power Supply, RPS)"
-date: 2026-03-20
-weight: 741
-description: "서버가 벼락을 맞거나 전원 장치가 타버려도 절대 꺼지지 않도록, 서버 한 대에 2개의 파워서플라이를 장착하고 서로 다른 두 개의 콘센트에서 전기를 끌어오는 필수 생존 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Power Management", "Hardware", "High Availability"]
----
++++
+title = "이중화 전원 공급 장치 (Redundant Power Supply, RPS)"
+date = 2026-03-20
+weight = 741
+description = "서버가 벼락을 맞거나 전원 장치가 타버려도 절대 꺼지지 않도록, 서버 한 대에 2개의 파워서플라이를 장착하고 서로 다른 두 개의 콘센트에서 전기를 끌어오는 필수 생존 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Power Management", "Hardware", "High Availability"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 일반 컴퓨터는 파워서플라이(전원 장치)가 1개다. 파워가 퍽 하고 터지거나 멀티탭(콘센트)을 누가 발로 차면 컴퓨터는 즉사한다.

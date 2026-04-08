@@ -1,11 +1,11 @@
----
-title: "초기 고장기, 우발 고장기, 마모 고장기"
-date: 2026-03-20
-weight: 757
-description: "배스터브 곡선(Bathtub Curve)을 구성하는 3단계 고장 시기의 원인과 특징, 그리고 이를 극복하기 위한 번인(Burn-in) 테스트와 예방 보전의 상관관계"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Reliability", "Maintenance"]
----
++++
+title = "초기 고장기, 우발 고장기, 마모 고장기"
+date = 2026-03-20
+weight = 757
+description = "배스터브 곡선(Bathtub Curve)을 구성하는 3단계 고장 시기의 원인과 특징, 그리고 이를 극복하기 위한 번인(Burn-in) 테스트와 예방 보전의 상관관계"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Reliability", "Maintenance"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **초기 고장기 (Decreasing Failure Rate, DFR)**: 공장에서 태어난 직후 약한 부품들이 죽어나가는 시기로, 고장률이 시간이 지남에 따라 급격히 감소한다. **번인(Burn-in) 테스트**로 솎아낸다.

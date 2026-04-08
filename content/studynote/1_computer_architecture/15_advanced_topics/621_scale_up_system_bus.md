@@ -1,11 +1,11 @@
----
-title: "스케일 업 (Scale-Up) 시스템 버스 아키텍처"
-date: 2026-03-20
-weight: 621
-description: "서버 한 대에 2개, 4개, 8개의 CPU를 미친 듯이 꽂아 넣어 단일 기계의 극한 성능을 뽑아내기 위해, CPU 간의 메모리 동기화를 보장하는 초고속 내부 연결 버스 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Scale-Up", "SMP", "NUMA", "System Bus"]
----
++++
+title = "스케일 업 (Scale-Up) 시스템 버스 아키텍처"
+date = 2026-03-20
+weight = 621
+description = "서버 한 대에 2개, 4개, 8개의 CPU를 미친 듯이 꽂아 넣어 단일 기계의 극한 성능을 뽑아내기 위해, CPU 간의 메모리 동기화를 보장하는 초고속 내부 연결 버스 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Scale-Up", "SMP", "NUMA", "System Bus"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 서버 성능을 올리는 방법은 여러 대를 옆으로 붙이는 스케일 아웃(Scale-Out)과, **서버 한 대의 부품(CPU, RAM)을 거대하게 펌핑하는 스케일 업(Scale-Up)**이 있다.

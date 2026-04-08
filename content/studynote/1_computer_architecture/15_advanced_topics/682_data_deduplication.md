@@ -1,11 +1,11 @@
----
-title: "데이터 중복 제거 (Data Deduplication)"
-date: 2026-03-20
-weight: 682
-description: "스토리지나 메모리에 완전히 똑같은 데이터 덩어리가 여러 개 들어올 때, 원본 딱 1개만 저장하고 나머지는 모두 '원본의 주소를 가리키는 포인터'로 대체하여 디스크 용량을 극한으로 아끼는 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "Deduplication", "Efficiency"]
----
++++
+title = "데이터 중복 제거 (Data Deduplication)"
+date = 2026-03-20
+weight = 682
+description = "스토리지나 메모리에 완전히 똑같은 데이터 덩어리가 여러 개 들어올 때, 원본 딱 1개만 저장하고 나머지는 모두 '원본의 주소를 가리키는 포인터'로 대체하여 디스크 용량을 극한으로 아끼는 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "Deduplication", "Efficiency"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 기업의 스토리지(NAS/SAN) 안에는 직원 100명이 똑같은 첨부파일(PDF)을 다운받아 각자 폴더에 저장하거나, 수백 대의 윈도우 가상 머신(VM)이 동일한 C드라이브 OS 파일들을 각자 품고 있는 등 **엄청난 량의 '똑같은(중복된) 데이터'**가 낭비되고 있다.

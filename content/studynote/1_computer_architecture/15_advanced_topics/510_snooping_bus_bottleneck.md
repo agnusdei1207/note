@@ -1,11 +1,11 @@
----
-title: "스누핑 버스 병목 현상 (Snooping Bus Bottleneck)"
-date: 2026-03-20
-weight: 510
-description: "멀티코어 시스템에서 캐시 일관성을 유지하기 위해 버스를 감시(Snooping)하는 방식이 코어 수가 증가함에 따라 한계에 부딪히는 현상"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Cache Coherence", "Multicore"]
----
++++
+title = "스누핑 버스 병목 현상 (Snooping Bus Bottleneck)"
+date = 2026-03-20
+weight = 510
+description = "멀티코어 시스템에서 캐시 일관성을 유지하기 위해 버스를 감시(Snooping)하는 방식이 코어 수가 증가함에 따라 한계에 부딪히는 현상"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Cache Coherence", "Multicore"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 멀티코어 환경에서 캐시 일관성(Cache Coherence)을 맞추는 가장 기본적이고 널리 쓰이는 방법은 모든 코어가 공유 버스를 통해 서로의 캐시 상태를 감시하는 **스누핑(Snooping) 프로토콜**이다.

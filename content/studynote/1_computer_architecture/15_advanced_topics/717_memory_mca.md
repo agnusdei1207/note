@@ -1,11 +1,11 @@
----
-title: "메모리 MCA (Machine Check Architecture)"
-date: 2026-03-20
-weight: 717
-description: "CPU 코어 내부나 RAM에서 복구 불가능한 하드웨어 에러가 발생했을 때, 커널 패닉(블루스크린)으로 시스템이 다 같이 죽는 대신 오염된 앱이나 메모리 영역만 도려내어 서버를 살려두는 최후의 생존 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Reliability", "MCA", "Hardware Error", "OS"]
----
++++
+title = "메모리 MCA (Machine Check Architecture)"
+date = 2026-03-20
+weight = 717
+description = "CPU 코어 내부나 RAM에서 복구 불가능한 하드웨어 에러가 발생했을 때, 커널 패닉(블루스크린)으로 시스템이 다 같이 죽는 대신 오염된 앱이나 메모리 영역만 도려내어 서버를 살려두는 최후의 생존 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Reliability", "MCA", "Hardware Error", "OS"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 방사선이나 회로 노후화로 인해 메인 메모리(DRAM)나 CPU L1/L2 캐시에서 2비트 이상이 동시에 뒤집히는 **에러(Uncorrectable Error)**가 발생하면 ECC 하드웨어로도 고칠 수 없다.

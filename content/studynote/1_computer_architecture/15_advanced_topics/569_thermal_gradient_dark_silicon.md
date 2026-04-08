@@ -1,11 +1,11 @@
----
-title: "멀티코어 칩 온도 불균형 (Thermal Gradient / Dark Silicon)"
-date: 2026-03-20
-weight: 569
-description: "코어가 많아진 매니코어(Many-core) 시스템에서 열이 고르게 퍼지지 않고 특정 부위만 극심하게 뜨거워지는 현상과, 발열 때문에 일부 코어의 전원을 아예 꺼둬야 하는 다크 실리콘 문제"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Thermal Management", "Multicore", "Dark Silicon"]
----
++++
+title = "멀티코어 칩 온도 불균형 (Thermal Gradient / Dark Silicon)"
+date = 2026-03-20
+weight = 569
+description = "코어가 많아진 매니코어(Many-core) 시스템에서 열이 고르게 퍼지지 않고 특정 부위만 극심하게 뜨거워지는 현상과, 발열 때문에 일부 코어의 전원을 아예 꺼둬야 하는 다크 실리콘 문제"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Thermal Management", "Multicore", "Dark Silicon"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 반도체 공정이 나노 단위로 미세화되면서, 칩셋 안에 무수히 많은 트랜지스터(코어)를 때려 넣을 수는 있게 되었지만 **그 트랜지스터들이 뿜어내는 열을 식히는 기술은 이를 따라가지 못했다.**

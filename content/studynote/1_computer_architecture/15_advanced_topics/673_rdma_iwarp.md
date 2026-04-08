@@ -1,11 +1,11 @@
----
-title: "RDMA iWARP 프로토콜"
-date: 2026-03-20
-weight: 673
-description: "기존의 무거운 TCP/IP 네트워크 위에서 RDMA(원격 직접 메모리 접근)의 초고속/무복사 장점을 그대로 누리게 해주는 실용적인 데이터센터 네트워크 프로토콜"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Network", "RDMA", "iWARP", "TCP/IP"]
----
++++
+title = "RDMA iWARP 프로토콜"
+date = 2026-03-20
+weight = 673
+description = "기존의 무거운 TCP/IP 네트워크 위에서 RDMA(원격 직접 메모리 접근)의 초고속/무복사 장점을 그대로 누리게 해주는 실용적인 데이터센터 네트워크 프로토콜"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Network", "RDMA", "iWARP", "TCP/IP"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 앞서 배운 RoCE(RDMA over Converged Ethernet)는 이더넷 위에서 RDMA를 돌리지만, 패킷 유실을 극도로 혐오하여 스위치(하드웨어)에 무손실(Lossless) 세팅을 해야 하는 까다로움이 있었다.

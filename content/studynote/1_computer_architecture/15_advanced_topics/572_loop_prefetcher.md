@@ -1,11 +1,11 @@
----
-title: "루프 프리패처 (Loop Prefetcher)"
-date: 2026-03-20
-weight: 572
-description: "프로그램의 반복문(Loop) 패턴을 인식하여, 메모리에서 데이터가 필요해지기 전에 미리 캐시로 가져와 병목을 줄이는 지능형 하드웨어 프리패처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Cache", "Prefetching", "Loop"]
----
++++
+title = "루프 프리패처 (Loop Prefetcher)"
+date = 2026-03-20
+weight = 572
+description = "프로그램의 반복문(Loop) 패턴을 인식하여, 메모리에서 데이터가 필요해지기 전에 미리 캐시로 가져와 병목을 줄이는 지능형 하드웨어 프리패처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Cache", "Prefetching", "Loop"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 프로그램 실행 시간의 대부분은 `for`나 `while` 같은 **반복문(Loop)** 안에서 소비되며, 이때 동일한 간격으로 배열 데이터에 접근하는 패턴이 흔히 발생한다.

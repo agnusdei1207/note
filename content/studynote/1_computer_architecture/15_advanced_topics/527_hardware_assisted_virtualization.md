@@ -1,11 +1,11 @@
----
-title: "가상화 오버헤드 감소 (하드웨어 보조 가상화)"
-date: 2026-03-20
-weight: 527
-description: "가상 머신(VM)을 구동할 때 소프트웨어 기반의 번역 작업(Emulation) 때문에 느려지는 문제를 CPU 하드웨어 명령어를 통해 직접 해결하는 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Virtualization", "Hypervisor"]
----
++++
+title = "가상화 오버헤드 감소 (하드웨어 보조 가상화)"
+date = 2026-03-20
+weight = 527
+description = "가상 머신(VM)을 구동할 때 소프트웨어 기반의 번역 작업(Emulation) 때문에 느려지는 문제를 CPU 하드웨어 명령어를 통해 직접 해결하는 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Virtualization", "Hypervisor"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 초기 클라우드의 **가상 머신(Virtual Machine, VM)**은 하드웨어를 소프트웨어로 흉내 내는(Emulation/Binary Translation) 방식을 써서 진짜 하드웨어보다 속도가 수십 배 느린 치명적인 오버헤드가 있었다.

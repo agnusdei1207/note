@@ -1,11 +1,11 @@
----
-title: "가속 수명 시험 (ALT, Accelerated Life Testing)"
-date: 2026-03-20
-weight: 762
-description: "스토리지나 반도체가 10년 동안 버틸 수 있는지 확인하기 위해, 10년을 실제로 기다리는 대신 스트레스(온도, 전압)를 팍 높여 몇 주 만에 기계를 늙게 만들어 수명을 예측하는 타임머신 같은 실험"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Reliability", "Testing", "ALT"]
----
++++
+title = "가속 수명 시험 (ALT, Accelerated Life Testing)"
+date = 2026-03-20
+weight = 762
+description = "스토리지나 반도체가 10년 동안 버틸 수 있는지 확인하기 위해, 10년을 실제로 기다리는 대신 스트레스(온도, 전압)를 팍 높여 몇 주 만에 기계를 늙게 만들어 수명을 예측하는 타임머신 같은 실험"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Reliability", "Testing", "ALT"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 기업용 NVMe SSD는 보통 "보증 기간 5년, 매일 1테라바이트 쓰기(1 DWPD) 보장!"이라고 광고한다. 제조사는 이 5년이라는 수명을 어떻게 증명했을까? 공장에서 5년 동안 디스크를 켜놓고 테스트했을 리는 없다.

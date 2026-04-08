@@ -1,11 +1,11 @@
----
-title: "도전-응답 쌍 (CRP, Challenge-Response Pair)"
-date: 2026-03-20
-weight: 789
-description: "서버가 IoT 기기나 스마트카드(PUF 칩)가 진짜 정품인지 해킹 칩인지 확인하기 위해, 수학적 문제를 던지고(Challenge) 그 기기만의 고유한 정답(Response)을 받아 검증하는 무신뢰 기반의 보안 프로토콜"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "Authentication", "PUF"]
----
++++
+title = "도전-응답 쌍 (CRP, Challenge-Response Pair)"
+date = 2026-03-20
+weight = 789
+description = "서버가 IoT 기기나 스마트카드(PUF 칩)가 진짜 정품인지 해킹 칩인지 확인하기 위해, 수학적 문제를 던지고(Challenge) 그 기기만의 고유한 정답(Response)을 받아 검증하는 무신뢰 기반의 보안 프로토콜"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "Authentication", "PUF"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 아무리 내 칩에 강력한 PUF(지문)가 있어도, 네트워크로 통신할 때 내 암호 키를 인터넷에 그대로 쏘면 해커가 중간에서 가로채는(Replay Attack) 사고가 터진다.

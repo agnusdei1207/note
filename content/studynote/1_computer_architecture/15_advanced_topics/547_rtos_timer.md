@@ -1,11 +1,11 @@
----
-title: "실시간 시스템 타이머 (Real-Time System Timer)"
-date: 2026-03-20
-weight: 547
-description: "마이크로초 단위의 엄격한 데드라인을 지켜야 하는 RTOS 환경에서, 정확한 주기와 스케줄링을 보장하는 특수 하드웨어 타이머"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "RTOS", "Timer", "Embedded Systems"]
----
++++
+title = "실시간 시스템 타이머 (Real-Time System Timer)"
+date = 2026-03-20
+weight = 547
+description = "마이크로초 단위의 엄격한 데드라인을 지켜야 하는 RTOS 환경에서, 정확한 주기와 스케줄링을 보장하는 특수 하드웨어 타이머"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "RTOS", "Timer", "Embedded Systems"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 일반 PC의 타이머는 1~10밀리초(ms) 단위로 대충 작동해도 문제가 없지만, **실시간 운영체제(RTOS)**가 구동되는 우주선이나 로봇에서는 나노초(ns) 단위의 오차(Jitter)도 허용되지 않는다.

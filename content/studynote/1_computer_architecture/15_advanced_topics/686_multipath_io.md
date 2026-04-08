@@ -1,11 +1,11 @@
----
-title: "멀티패스 I/O (Multipath I/O, MPIO)"
-date: 2026-03-20
-weight: 686
-description: "서버와 스토리지 사이에 여러 가닥의 광케이블과 스위치를 엮어(다중 경로), 하나의 선이 끊어지더라도 멈춤 없이 데이터를 전송하고 속도마저 배로 올려주는 무중단 스토리지 네트워크 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "Network", "MPIO", "SAN"]
----
++++
+title = "멀티패스 I/O (Multipath I/O, MPIO)"
+date = 2026-03-20
+weight = 686
+description = "서버와 스토리지 사이에 여러 가닥의 광케이블과 스위치를 엮어(다중 경로), 하나의 선이 끊어지더라도 멈춤 없이 데이터를 전송하고 속도마저 배로 올려주는 무중단 스토리지 네트워크 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "Network", "MPIO", "SAN"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 서버에 하드디스크가 내장되어 있지 않고 네트워크 너머의 SAN 스토리지(LUN)를 쓴다면, **서버와 스토리지 사이를 잇는 '광케이블 1가닥'이 끊어지는 순간 서버는 하드디스크가 뽑힌 것처럼 블루스크린을 뿜고 즉사**한다.

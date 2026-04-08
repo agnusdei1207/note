@@ -1,11 +1,11 @@
----
-title: "제로 트러스트 아키텍처의 하드웨어 루트 오브 트러스트 (Hardware RoT)"
-date: 2026-03-20
-weight: 644
-description: "'아무도, 심지어 내부 망의 기기조차 믿지 마라'는 제로 트러스트(Zero Trust) 보안 모델을 물리적으로 실현하기 위해, 기기의 신원을 증명하는 최하단의 칩 기반 보증 시스템"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "Zero Trust", "Hardware RoT"]
----
++++
+title = "제로 트러스트 아키텍처의 하드웨어 루트 오브 트러스트 (Hardware RoT)"
+date = 2026-03-20
+weight = 644
+description = "'아무도, 심지어 내부 망의 기기조차 믿지 마라'는 제로 트러스트(Zero Trust) 보안 모델을 물리적으로 실현하기 위해, 기기의 신원을 증명하는 최하단의 칩 기반 보증 시스템"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "Zero Trust", "Hardware RoT"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 기존 보안은 "회사 내부망(방화벽 안)에 들어온 컴퓨터는 무조건 착한 놈이다"라고 믿는 경계(Perimeter) 보안이었다. 하지만 해커가 직원 노트북 하나만 뚫고 들어오면 내부 망 전체가 초토화되는 치명적 약점이 있었다.

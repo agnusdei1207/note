@@ -1,11 +1,11 @@
----
-title: "버퍼 오버플로우 하드웨어 방어 (Intel CET 등)"
-date: 2026-03-20
-weight: 540
-description: "해커가 메모리의 실행 흐름을 조작하는 ROP(Return-Oriented Programming) 등의 악질적인 메모리 해킹 기법을 CPU 하드웨어 레벨에서 원천 차단하는 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "Buffer Overflow", "Intel CET"]
----
++++
+title = "버퍼 오버플로우 하드웨어 방어 (Intel CET 등)"
+date = 2026-03-20
+weight = 540
+description = "해커가 메모리의 실행 흐름을 조작하는 ROP(Return-Oriented Programming) 등의 악질적인 메모리 해킹 기법을 CPU 하드웨어 레벨에서 원천 차단하는 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "Buffer Overflow", "Intel CET"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 전통적인 **버퍼 오버플로우(Buffer Overflow)** 공격은 해커가 입력창에 쓸데없이 긴 데이터를 밀어 넣어, 함수가 끝나고 돌아갈 주소(Return Address)를 악성 코드가 있는 곳으로 덮어써 버리는 해킹 기법이다.

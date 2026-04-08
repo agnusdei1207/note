@@ -1,11 +1,11 @@
----
-title: "TjMax (Tjunction Max Temperature)"
-date: 2026-03-20
-weight: 735
-description: "CPU 코어 내부의 반도체(실리콘)가 견딜 수 있는 물리적인 최고 온도 한계선으로, 스로틀링과 강제 셧다운을 결정짓는 절대적인 기준점"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Thermal Management", "TjMax", "Hardware"]
----
++++
+title = "TjMax (Tjunction Max Temperature)"
+date = 2026-03-20
+weight = 735
+description = "CPU 코어 내부의 반도체(실리콘)가 견딜 수 있는 물리적인 최고 온도 한계선으로, 스로틀링과 강제 셧다운을 결정짓는 절대적인 기준점"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Thermal Management", "TjMax", "Hardware"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. CPU 스펙 시트의 **TjMax (Tjunction Max)**는 실리콘 칩 가장 깊숙한 트랜지스터 접합부(Junction)가 녹아내리지 않고 버틸 수 있는 '공장 출고 시 정해진 최대 온도'를 뜻한다. (보통 $100^\circ C \sim 105^\circ C$)

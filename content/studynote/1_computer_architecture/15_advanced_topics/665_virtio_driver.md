@@ -1,11 +1,11 @@
----
-title: "Virtio 드라이버 모델"
-date: 2026-03-20
-weight: 665
-description: "여러 종류의 하이퍼바이저와 운영체제가 파편화된 반가상화 환경을 하나로 대통합시킨 리눅스의 표준 I/O 반가상화 프레임워크"
-taxonomy:
-    tags: ["Computer Architecture", "Virtualization", "Virtio", "Linux", "I/O"]
----
++++
+title = "Virtio 드라이버 모델"
+date = 2026-03-20
+weight = 665
+description = "여러 종류의 하이퍼바이저와 운영체제가 파편화된 반가상화 환경을 하나로 대통합시킨 리눅스의 표준 I/O 반가상화 프레임워크"
+taxonomy =  ""
+tags = ["Computer Architecture", "Virtualization", "Virtio", "Linux", "I/O"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거에는 반가상화 I/O를 위해 VMware 전용 드라이버, Xen 전용 드라이버, Hyper-V 전용 드라이버를 OS마다 일일이 따로 깔아야 하는 **드라이버 지옥(Driver Hell)**이 펼쳐졌다.

@@ -1,11 +1,11 @@
----
-title: "모던 스탠바이 (Modern Standby, S0ix)"
-date: 2026-03-20
-weight: 726
-description: "전통적인 멍청한 S3 절전 모드를 대체하여, 노트북 화면을 덮어도 스마트폰처럼 백그라운드에서 이메일과 카톡 알림을 실시간으로 수신할 수 있게 해주는 인텔의 차세대 저전력 유휴 상태"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Power Management", "S0ix", "Modern Standby", "Intel"]
----
++++
+title = "모던 스탠바이 (Modern Standby, S0ix)"
+date = 2026-03-20
+weight = 726
+description = "전통적인 멍청한 S3 절전 모드를 대체하여, 노트북 화면을 덮어도 스마트폰처럼 백그라운드에서 이메일과 카톡 알림을 실시간으로 수신할 수 있게 해주는 인텔의 차세대 저전력 유휴 상태"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Power Management", "S0ix", "Modern Standby", "Intel"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 전통적인 PC의 S3 절전 모드는 CPU와 랜카드의 전원을 완전히 끊어버리기 때문에 전력은 아끼지만, **절전 중에는 네트워크 통신이 아예 불가능**하여 다운로드나 알림 수신이 멈추는 치명적 한계가 있었다.

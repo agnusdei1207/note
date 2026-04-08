@@ -1,11 +1,11 @@
----
-title: "다상 전원부 (Multi-phase VRM)"
-date: 2026-03-20
-weight: 743
-description: "CPU에 200A가 넘는 거대한 전류를 공급할 때, 한두 개의 칩이 감당하다 타버리지 않도록 수십 개의 전원부(Phase)가 교대로 전류를 쪼개어 공급하는 메인보드 하드웨어 설계 기법"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Hardware", "VRM", "Power Management"]
----
++++
+title = "다상 전원부 (Multi-phase VRM)"
+date = 2026-03-20
+weight = 743
+description = "CPU에 200A가 넘는 거대한 전류를 공급할 때, 한두 개의 칩이 감당하다 타버리지 않도록 수십 개의 전원부(Phase)가 교대로 전류를 쪼개어 공급하는 메인보드 하드웨어 설계 기법"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Hardware", "VRM", "Power Management"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. CPU가 소모하는 전력이 200W, 전류가 200A에 육박하는 현대 환경에서, 전압을 깎아주는 1개의 VRM(전원부) 회로에 이 거대한 전류를 통과시키면 10초 만에 칩이 불타버린다.

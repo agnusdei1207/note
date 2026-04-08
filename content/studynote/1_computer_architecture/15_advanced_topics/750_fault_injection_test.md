@@ -1,11 +1,11 @@
----
-title: "결함 주입 테스트 (Fault Injection Test)"
-date: 2026-03-20
-weight: 750
-description: "시스템이 고장 났을 때 제대로 복구되는지 확인하기 위해, 쌩쌩 돌아가는 서버나 반도체 회로에 일부러 전기적 충격이나 소프트웨어 에러를 억지로 쑤셔 넣는(Injection) 파괴적 검증 기법"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Reliability", "Testing", "Fault Injection"]
----
++++
+title = "결함 주입 테스트 (Fault Injection Test)"
+date = 2026-03-20
+weight = 750
+description = "시스템이 고장 났을 때 제대로 복구되는지 확인하기 위해, 쌩쌩 돌아가는 서버나 반도체 회로에 일부러 전기적 충격이나 소프트웨어 에러를 억지로 쑤셔 넣는(Injection) 파괴적 검증 기법"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Reliability", "Testing", "Fault Injection"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 엔지니어가 아무리 "우리 서버는 이중화되어 있어서 랜선 하나 뽑혀도 1초 만에 복구됩니다!"라고 주장해도, 실제 장애가 터지면 숨겨진 버그 때문에 시스템이 박살 나는 경우가 허다하다.

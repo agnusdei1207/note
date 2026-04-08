@@ -1,11 +1,11 @@
----
-title: "하드웨어 기반 난독화 (Hardware-based Obfuscation)"
-date: 2026-03-20
-weight: 582
-description: "소프트웨어 코드를 뜯어봐도 해커가 원리를 이해하지 못하도록 꼬아놓는 난독화를 CPU 하드웨어 구조를 이용해 극대화하는 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "Obfuscation", "Hardware"]
----
++++
+title = "하드웨어 기반 난독화 (Hardware-based Obfuscation)"
+date = 2026-03-20
+weight = 582
+description = "소프트웨어 코드를 뜯어봐도 해커가 원리를 이해하지 못하도록 꼬아놓는 난독화를 CPU 하드웨어 구조를 이용해 극대화하는 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "Obfuscation", "Hardware"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 게임 핵 제작자나 악성코드 분석가들은 프로그램의 기계어 코드를 역어셈블(Disassemble)하여 원리를 파악한다. 이를 막기 위해 코드의 흐름을 스파게티처럼 꼬아놓는 것을 **난독화(Obfuscation)**라고 한다.

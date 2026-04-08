@@ -1,11 +1,11 @@
----
-title: "BMT (Bench Mark Test) 절차 및 평가 항목"
-date: 2026-03-20
-weight: 624
-description: "기업이나 공공기관이 수백억 원짜리 하드웨어(서버, 스토리지)를 도입하기 전, 실제 환경과 동일한 조건에서 장비의 성능과 안정성을 객관적으로 검증하는 테스트 절차"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "BMT", "Hardware Evaluation", "Performance"]
----
++++
+title = "BMT (Bench Mark Test) 절차 및 평가 항목"
+date = 2026-03-20
+weight = 624
+description = "기업이나 공공기관이 수백억 원짜리 하드웨어(서버, 스토리지)를 도입하기 전, 실제 환경과 동일한 조건에서 장비의 성능과 안정성을 객관적으로 검증하는 테스트 절차"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "BMT", "Hardware Evaluation", "Performance"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 제조사(IBM, HP, Dell 등)가 카탈로그에 적어놓은 "최대 100만 IOPS 속도 보장!"이라는 스펙은 보통 텅 빈 연구실에서 최적의 셋팅으로 측정한 '뻥스펙'일 확률이 높다.

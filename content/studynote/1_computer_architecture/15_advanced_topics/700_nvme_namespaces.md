@@ -1,11 +1,11 @@
----
-title: "NVMe 네임스페이스 (Namespaces)"
-date: 2026-03-20
-weight: 700
-description: "하나의 거대한 물리적 NVMe SSD를 여러 개의 독립된 가상 논리 드라이브로 완벽하게 쪼개어, 다양한 용도나 가상 머신에 할당할 수 있게 해주는 논리적 분할 기능"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "NVMe", "Namespace"]
----
++++
+title = "NVMe 네임스페이스 (Namespaces)"
+date = 2026-03-20
+weight = 700
+description = "하나의 거대한 물리적 NVMe SSD를 여러 개의 독립된 가상 논리 드라이브로 완벽하게 쪼개어, 다양한 용도나 가상 머신에 할당할 수 있게 해주는 논리적 분할 기능"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "NVMe", "Namespace"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. NVMe SSD를 하나 사면 OS에서 `C: 드라이브` 하나로 보이지만, 엔터프라이즈 환경에서는 16TB짜리 물리 디스크 1개를 통짜로 쓰는 것은 비효율적이다.

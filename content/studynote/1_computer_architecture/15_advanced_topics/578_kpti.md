@@ -1,11 +1,11 @@
----
-title: "커널 페이지 테이블 격리 (KPTI, Kernel Page-Table Isolation)"
-date: 2026-03-20
-weight: 578
-description: "멜트다운(Meltdown) 취약점을 막기 위해, 사용자 모드 프로그램이 커널의 메모리 주소 자체를 아예 볼 수 없도록 페이지 테이블을 두 개로 찢어버리는 운영체제 수준의 긴급 패치"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "OS", "Meltdown", "KPTI"]
----
++++
+title = "커널 페이지 테이블 격리 (KPTI, Kernel Page-Table Isolation)"
+date = 2026-03-20
+weight = 578
+description = "멜트다운(Meltdown) 취약점을 막기 위해, 사용자 모드 프로그램이 커널의 메모리 주소 자체를 아예 볼 수 없도록 페이지 테이블을 두 개로 찢어버리는 운영체제 수준의 긴급 패치"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "OS", "Meltdown", "KPTI"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거 OS는 효율성을 위해, 사용자 프로그램(User Space)이 도는 동안에도 커널의 메모리 지도(Page Table)를 항상 메모리 상단에 같이 올려두었다. (어차피 권한 비트 때문에 접근은 못 한다고 믿었기 때문)

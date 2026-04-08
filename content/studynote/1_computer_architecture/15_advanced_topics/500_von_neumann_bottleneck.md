@@ -1,11 +1,11 @@
----
-title: "폰 노이만 병목 개선 기법"
-date: 2026-03-20
-weight: 500
-description: "CPU와 메모리 사이의 속도 차이로 인해 발생하는 폰 노이만 병목(Von Neumann Bottleneck)을 해결하기 위한 현대 컴퓨터 구조의 다양한 접근법"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Von Neumann Bottleneck", "Memory"]
----
++++
+title = "폰 노이만 병목 개선 기법"
+date = 2026-03-20
+weight = 500
+description = "CPU와 메모리 사이의 속도 차이로 인해 발생하는 폰 노이만 병목(Von Neumann Bottleneck)을 해결하기 위한 현대 컴퓨터 구조의 다양한 접근법"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Von Neumann Bottleneck", "Memory"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **폰 노이만 병목(Von Neumann Bottleneck)**은 연산 장치(CPU)와 저장 장치(메모리)가 물리적으로 분리되어 있어, 둘 사이의 데이터 전송 속도(대역폭)가 CPU의 연산 속도를 따라가지 못해 시스템 전체 성능이 저하되는 현상이다.

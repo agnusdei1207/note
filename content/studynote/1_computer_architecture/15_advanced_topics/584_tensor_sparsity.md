@@ -1,11 +1,11 @@
----
-title: "딥러닝 텐서 희소성 (Sparsity) 인코더"
-date: 2026-03-20
-weight: 584
-description: "AI 딥러닝 연산에서 행렬의 대부분을 차지하는 쓸모없는 '0' 값들을 연산과 전송에서 아예 제외시켜버려 AI 성능을 2배 이상 폭증시키는 특수 하드웨어 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "AI Accelerator", "Sparsity", "Deep Learning"]
----
++++
+title = "딥러닝 텐서 희소성 (Sparsity) 인코더"
+date = 2026-03-20
+weight = 584
+description = "AI 딥러닝 연산에서 행렬의 대부분을 차지하는 쓸모없는 '0' 값들을 연산과 전송에서 아예 제외시켜버려 AI 성능을 2배 이상 폭증시키는 특수 하드웨어 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "AI Accelerator", "Sparsity", "Deep Learning"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 딥러닝 모델(신경망)에서 가중치(Weight)나 활성화(Activation) 값의 상당수(50%~90%)는 **'0(Zero)'**인 경우가 많다. 이렇게 0이 듬성듬성 섞인 상태를 **희소성(Sparsity)**이라 부른다.

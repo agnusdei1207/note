@@ -1,11 +1,11 @@
----
-title: "UEFI (Unified Extensible Firmware Interface)"
-date: 2026-03-20
-weight: 706
-description: "과거 16비트의 한계에 갇혀있던 레거시 BIOS를 대체하여, 컴퓨터 하드웨어를 깨우고 운영체제로 넘겨주는 과정을 32/64비트 그래픽 기반으로 확장한 현대적 메인보드 펌웨어 표준"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Firmware", "UEFI", "BIOS", "Booting"]
----
++++
+title = "UEFI (Unified Extensible Firmware Interface)"
+date = 2026-03-20
+weight = 706
+description = "과거 16비트의 한계에 갇혀있던 레거시 BIOS를 대체하여, 컴퓨터 하드웨어를 깨우고 운영체제로 넘겨주는 과정을 32/64비트 그래픽 기반으로 확장한 현대적 메인보드 펌웨어 표준"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Firmware", "UEFI", "BIOS", "Booting"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 수십 년간 PC를 켤 때 삐~ 소리와 함께 뜨던 파란색 화면의 **레거시 BIOS(Basic Input/Output System)**는 16비트 환경에서 1MB의 메모리만 쓸 수 있고 2TB 이상의 하드디스크를 인식하지 못하는 끔찍한 한계가 있었다.

@@ -1,11 +1,11 @@
----
-title: "MIL-HDBK-217 고장률 예측"
-date: 2026-03-20
-weight: 761
-description: "군사용 무기부터 데이터센터 서버까지, 기계가 언제 고장 날 것인지(MTBF)를 부품들의 종류와 환경 스트레스를 수학적 공식으로 더하여 예측하는 가장 고전적이고 절대적인 신뢰성 예측 표준"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Reliability", "MIL-HDBK-217", "MTBF"]
----
++++
+title = "MIL-HDBK-217 고장률 예측"
+date = 2026-03-20
+weight = 761
+description = "군사용 무기부터 데이터센터 서버까지, 기계가 언제 고장 날 것인지(MTBF)를 부품들의 종류와 환경 스트레스를 수학적 공식으로 더하여 예측하는 가장 고전적이고 절대적인 신뢰성 예측 표준"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Reliability", "MIL-HDBK-217", "MTBF"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 고객이 "이 서버 수명(MTBF)이 몇 시간입니까?"라고 물었을 때, 엔지니어가 "글쎄요, 한 10년 써봐야 알지 않을까요?"라고 대답할 수는 없다. 출시 전 설계 도면만 보고도 수명을 예측할 '공식'이 필요했다.

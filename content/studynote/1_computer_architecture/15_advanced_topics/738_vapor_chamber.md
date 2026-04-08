@@ -1,11 +1,11 @@
----
-title: "베이퍼 체임버 (Vapor Chamber)"
-date: 2026-03-20
-weight: 738
-description: "스마트폰이나 얇은 울트라북처럼 좁은 공간에서 칩의 열을 넓은 면적으로 순식간에 퍼뜨리기 위해, 내부의 액체가 기화와 액화를 반복하며 열을 빼앗는 2차원 평면형 쿨링 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Hardware", "Thermal", "Vapor Chamber"]
----
++++
+title = "베이퍼 체임버 (Vapor Chamber)"
+date = 2026-03-20
+weight = 738
+description = "스마트폰이나 얇은 울트라북처럼 좁은 공간에서 칩의 열을 넓은 면적으로 순식간에 퍼뜨리기 위해, 내부의 액체가 기화와 액화를 반복하며 열을 빼앗는 2차원 평면형 쿨링 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Hardware", "Thermal", "Vapor Chamber"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 일반적인 구리판(Heatsink)은 열이 퍼져나가는 속도가 느려 칩 중앙(핫스팟)만 펄펄 끓고 가장자리는 차가운 열 병목 현상이 발생한다.

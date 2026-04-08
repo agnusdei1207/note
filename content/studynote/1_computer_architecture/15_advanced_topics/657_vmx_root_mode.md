@@ -1,11 +1,11 @@
----
-title: "가상화 VMX Root 모드 (VMX Root & Non-Root Mode)"
-date: 2026-03-20
-weight: 657
-description: "기존 CPU의 링(Ring) 권한 구조를 뛰어넘어, 가상 머신(Guest OS)과 하이퍼바이저(Host OS)를 하드웨어 레벨에서 완벽하게 분리하는 인텔의 가상화 확장 구조"
-taxonomy:
-    tags: ["Computer Architecture", "Virtualization", "Intel", "VMX"]
----
++++
+title = "가상화 VMX Root 모드 (VMX Root & Non-Root Mode)"
+date = 2026-03-20
+weight = 657
+description = "기존 CPU의 링(Ring) 권한 구조를 뛰어넘어, 가상 머신(Guest OS)과 하이퍼바이저(Host OS)를 하드웨어 레벨에서 완벽하게 분리하는 인텔의 가상화 확장 구조"
+taxonomy =  ""
+tags = ["Computer Architecture", "Virtualization", "Intel", "VMX"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거에는 운영체제(OS)가 시스템의 최고 권력자(Ring 0)였다. 하지만 가상 머신(VM) 환경에서는 여러 개의 가짜 OS(Guest OS)와 하나의 진짜 관리자(Hypervisor)가 공존해야 하므로, **누가 진짜 왕인지 구별할 새로운 권한 체계**가 필요했다.

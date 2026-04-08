@@ -1,11 +1,11 @@
----
-title: "캐시 라인 프리패치 (Cache Line Prefetch)"
-date: 2026-03-20
-weight: 505
-description: "CPU가 곧 필요로 할 데이터를 미리 예측하여 캐시 메모리로 당겨오는 하드웨어 최적화 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Cache", "Prefetching"]
----
++++
+title = "캐시 라인 프리패치 (Cache Line Prefetch)"
+date = 2026-03-20
+weight = 505
+description = "CPU가 곧 필요로 할 데이터를 미리 예측하여 캐시 메모리로 당겨오는 하드웨어 최적화 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Cache", "Prefetching"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **캐시 라인 프리패치(Prefetch)**는 CPU가 데이터를 명시적으로 요청하기 전에, 하드웨어가 스스로 메모리 접근 패턴을 분석하여 **"다음에 쓸 것 같은" 데이터를 미리 캐시에 올려놓는 기술**이다.

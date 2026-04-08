@@ -1,11 +1,11 @@
----
-title: "P-States (Performance States)"
-date: 2026-03-20
-weight: 723
-description: "CPU가 작업을 수행하고 있는(Active, C0) 도중에, 작업의 부하량에 맞춰 전압과 클럭 주파수를 실시간으로 오르내리며 성능과 전력 소모의 균형을 맞추는 상태"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Power Management", "P-States", "ACPI"]
----
++++
+title = "P-States (Performance States)"
+date = 2026-03-20
+weight = 723
+description = "CPU가 작업을 수행하고 있는(Active, C0) 도중에, 작업의 부하량에 맞춰 전압과 클럭 주파수를 실시간으로 오르내리며 성능과 전력 소모의 균형을 맞추는 상태"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Power Management", "P-States", "ACPI"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 앞서 배운 C-State(Core State)가 "CPU가 놀 때(Idle) 어떻게 잠을 재울 것인가?"에 대한 수면 모드라면, **P-State(Performance State)**는 "CPU가 일할 때(Active, C0) 얼마나 빡세게 뛸 것인가?"에 대한 달리기 모드다.

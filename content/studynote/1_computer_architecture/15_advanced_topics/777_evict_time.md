@@ -1,11 +1,11 @@
----
-title: "Evict+Time 기법"
-date: 2026-03-20
-weight: 777
-description: "캐시 타이밍 공격의 초기 형태 중 하나로, 특정 캐시 라인을 고의로 밀어낸(Evict) 뒤 타겟 프로그램의 전체 실행 시간(Time)이 얼마나 느려졌는지를 측정하여 비밀 정보를 유추하는 해킹"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "Side-channel Attack", "Cache", "Evict+Time"]
----
++++
+title = "Evict+Time 기법"
+date = 2026-03-20
+weight = 777
+description = "캐시 타이밍 공격의 초기 형태 중 하나로, 특정 캐시 라인을 고의로 밀어낸(Evict) 뒤 타겟 프로그램의 전체 실행 시간(Time)이 얼마나 느려졌는지를 측정하여 비밀 정보를 유추하는 해킹"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "Side-channel Attack", "Cache", "Evict+Time"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 앞서 배운 Prime+Probe나 Flush+Reload는 내가(해커가) 캐시를 직접 읽어보며(Probe/Reload) 히트냐 미스냐를 판별했다.

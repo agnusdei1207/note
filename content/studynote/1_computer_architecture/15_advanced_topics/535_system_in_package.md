@@ -1,11 +1,11 @@
----
-title: "시스템 온 패키지 (SiP, System in Package)"
-date: 2026-03-20
-weight: 535
-description: "단일 칩(SoC) 설계의 한계를 극복하기 위해, 각기 다른 공정으로 만들어진 여러 종류의 칩과 소자를 하나의 기판(패키지) 안에 고밀도로 통합하는 후공정 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Packaging", "SiP", "SoC"]
----
++++
+title = "시스템 온 패키지 (SiP, System in Package)"
+date = 2026-03-20
+weight = 535
+description = "단일 칩(SoC) 설계의 한계를 극복하기 위해, 각기 다른 공정으로 만들어진 여러 종류의 칩과 소자를 하나의 기판(패키지) 안에 고밀도로 통합하는 후공정 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Packaging", "SiP", "SoC"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **SoC(System on Chip)**는 CPU, GPU, 메모리 컨트롤러 등 모든 부품을 **'하나의 둥근 실리콘 웨이퍼 위'**에 한 번에 그려 넣는 기술이다. 크기가 가장 작지만 공정이 복잡하고 원가가 비싸다.

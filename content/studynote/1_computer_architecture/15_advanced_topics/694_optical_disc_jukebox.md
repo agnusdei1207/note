@@ -1,11 +1,11 @@
----
-title: "광 디스크 주크박스 (Optical Disc Jukebox)"
-date: 2026-03-20
-weight: 694
-description: "CD, DVD, 블루레이 같은 광디스크 수백~수천 장을 기계 안에 넣어두고, 필요할 때마다 로봇 팔이 디스크를 꺼내 드라이브에 삽입하는 물리적인 WORM 아카이브 하드웨어"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "Archive", "Optical Disc", "WORM"]
----
++++
+title = "광 디스크 주크박스 (Optical Disc Jukebox)"
+date = 2026-03-20
+weight = 694
+description = "CD, DVD, 블루레이 같은 광디스크 수백~수천 장을 기계 안에 넣어두고, 필요할 때마다 로봇 팔이 디스크를 꺼내 드라이브에 삽입하는 물리적인 WORM 아카이브 하드웨어"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "Archive", "Optical Disc", "WORM"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거 테이프 라이브러리가 자성(Magnetic)을 이용해 데이터를 보관했다면, **광 디스크 주크박스**는 CD/DVD/블루레이(Blu-ray) 같은 빛(Optical)을 이용한 매체를 수천 장 보관하는 거대한 아카이브 장비다.

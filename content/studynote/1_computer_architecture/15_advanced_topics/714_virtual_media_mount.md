@@ -1,11 +1,11 @@
----
-title: "원격 미디어 마운트 (Virtual Media Mount)"
-date: 2026-03-20
-weight: 714
-description: "서버에 물리적인 CD-ROM이나 USB 드라이브를 꽂으러 데이터센터에 갈 필요 없이, 관리자 PC에 있는 OS 설치 파일(ISO)을 원격으로 서버의 하드웨어에 꽂힌 것처럼 속이는 BMC 핵심 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Infrastructure", "BMC", "Virtual Media"]
----
++++
+title = "원격 미디어 마운트 (Virtual Media Mount)"
+date = 2026-03-20
+weight = 714
+description = "서버에 물리적인 CD-ROM이나 USB 드라이브를 꽂으러 데이터센터에 갈 필요 없이, 관리자 PC에 있는 OS 설치 파일(ISO)을 원격으로 서버의 하드웨어에 꽂힌 것처럼 속이는 BMC 핵심 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Infrastructure", "BMC", "Virtual Media"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 깡통 서버(OS가 없는 서버)를 샀을 때, 그 서버에 윈도우나 리눅스를 설치하려면 원칙적으로 부팅 가능한 **USB나 CD를 서버 앞구멍에 직접 꽂아야** 한다.

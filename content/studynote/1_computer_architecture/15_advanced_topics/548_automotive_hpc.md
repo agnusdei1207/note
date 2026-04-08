@@ -1,11 +1,11 @@
----
-title: "자율주행용 고성능 컴퓨터 (Automotive HPC)"
-date: 2026-03-20
-weight: 548
-description: "기존의 수백 개로 파편화된 자동차 제어 유닛(ECU)을 하나로 통합하고, 자율주행 AI 연산을 전담하는 차량 내장형 슈퍼컴퓨터 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Automotive", "HPC", "Autonomous Driving"]
----
++++
+title = "자율주행용 고성능 컴퓨터 (Automotive HPC)"
+date = 2026-03-20
+weight = 548
+description = "기존의 수백 개로 파편화된 자동차 제어 유닛(ECU)을 하나로 통합하고, 자율주행 AI 연산을 전담하는 차량 내장형 슈퍼컴퓨터 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Automotive", "HPC", "Autonomous Driving"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거의 자동차는 창문용 칩, 와이퍼용 칩, 엔진용 칩 등 수십~수백 개의 저성능 **ECU(전자 제어 유닛)**가 파편화되어 달려있었다.

@@ -1,11 +1,11 @@
----
-title: "단일 이벤트 래치업 (SEL, Single Event Latch-up)"
-date: 2026-03-20
-weight: 609
-description: "우주선(Cosmic Ray)이나 방사선 입자가 반도체를 때렸을 때, 단순한 데이터 오류(Soft Error)를 넘어 아예 반도체 칩이 전기를 무한정 빨아들이다 타버리는 치명적 물리 파괴 현상"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Reliability", "Hardware", "Aerospace"]
----
++++
+title = "단일 이벤트 래치업 (SEL, Single Event Latch-up)"
+date = 2026-03-20
+weight = 609
+description = "우주선(Cosmic Ray)이나 방사선 입자가 반도체를 때렸을 때, 단순한 데이터 오류(Soft Error)를 넘어 아예 반도체 칩이 전기를 무한정 빨아들이다 타버리는 치명적 물리 파괴 현상"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Reliability", "Hardware", "Aerospace"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 방사선이 칩을 때려서 메모리의 0이 1로 바뀌는 가벼운 현상을 소프트 에러(SEU, 비트 플립)라고 한다. 이 정도는 ECC나 재부팅으로 고칠 수 있다.

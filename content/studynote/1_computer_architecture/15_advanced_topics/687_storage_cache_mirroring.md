@@ -1,11 +1,11 @@
----
-title: "스토리지 컨트롤러 캐시 미러링 (Cache Mirroring)"
-date: 2026-03-20
-weight: 687
-description: "기업용 스토리지(SAN)의 전원이 갑자기 꺼지더라도, 메모리(RAM)에 머물러 있던 미기록 데이터가 증발하지 않도록 2개의 컨트롤러가 캐시를 실시간으로 쌍둥이처럼 복제해 두는 핵심 무중단 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "Cache", "High Availability"]
----
++++
+title = "스토리지 컨트롤러 캐시 미러링 (Cache Mirroring)"
+date = 2026-03-20
+weight = 687
+description = "기업용 스토리지(SAN)의 전원이 갑자기 꺼지더라도, 메모리(RAM)에 머물러 있던 미기록 데이터가 증발하지 않도록 2개의 컨트롤러가 캐시를 실시간으로 쌍둥이처럼 복제해 두는 핵심 무중단 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "Cache", "High Availability"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 엔터프라이즈 스토리지는 속도를 높이기 위해, 서버에서 받은 데이터를 굼벵이 같은 물리 디스크에 즉시 쓰지 않고 **스토리지 내부의 초고속 RAM(Write Cache)에 먼저 던져놓고 "저장 완료!"라고 사기(Write-back)**를 친다.

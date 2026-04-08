@@ -1,11 +1,11 @@
----
-title: "거대 페이지 (Huge Page / Large Page)"
-date: 2026-03-20
-weight: 517
-description: "기본 메모리 페이지 크기(4KB)를 2MB나 1GB 단위로 키워, TLB 캐시 미스를 극적으로 줄이고 가상 메모리 변환 성능을 높이는 시스템 최적화 기법"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Memory Management", "TLB", "Virtual Memory"]
----
++++
+title = "거대 페이지 (Huge Page / Large Page)"
+date = 2026-03-20
+weight = 517
+description = "기본 메모리 페이지 크기(4KB)를 2MB나 1GB 단위로 키워, TLB 캐시 미스를 극적으로 줄이고 가상 메모리 변환 성능을 높이는 시스템 최적화 기법"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Memory Management", "TLB", "Virtual Memory"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 운영체제는 물리 메모리를 쪼개어 쓸 때 수십 년간 기본적으로 **4KB 단위의 작은 페이지(Page)**를 사용해왔다.

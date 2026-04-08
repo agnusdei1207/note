@@ -1,11 +1,11 @@
----
-title: "Prime+Probe 기법"
-date: 2026-03-20
-weight: 775
-description: "가상 머신 환경이나 클라우드에서, 해커가 캐시 메모리를 자신의 쓰레기 데이터로 가득 채운(Prime) 뒤, 나중에 피해자가 어떤 캐시 공간을 비웠는지 찔러보며(Probe) 비밀을 훔치는 캐시 타이밍 공격 기법"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "Side-channel Attack", "Cache", "Prime+Probe"]
----
++++
+title = "Prime+Probe 기법"
+date = 2026-03-20
+weight = 775
+description = "가상 머신 환경이나 클라우드에서, 해커가 캐시 메모리를 자신의 쓰레기 데이터로 가득 채운(Prime) 뒤, 나중에 피해자가 어떤 캐시 공간을 비웠는지 찔러보며(Probe) 비밀을 훔치는 캐시 타이밍 공격 기법"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "Side-channel Attack", "Cache", "Prime+Probe"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 앞 장의 캐시 타이밍 공격 중 하나인 **Prime+Probe**는 해커와 피해자가 메모리 주소를 아예 공유하지 않는(격리된) **클라우드(AWS, Azure)의 서로 다른 VM 환경**에서도 작동하는 무서운 기술이다.

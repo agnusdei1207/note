@@ -1,11 +1,11 @@
----
-title: "ABA 문제 (ABA Problem)"
-date: 2026-03-20
-weight: 568
-description: "락-프리(Lock-free) 알고리즘에서 CAS(Compare-And-Swap) 연산을 사용할 때, 메모리 값이 A에서 B로 변했다가 다시 A로 돌아왔음에도 시스템이 변경 사실을 눈치채지 못해 발생하는 치명적인 동기화 버그"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Concurrency", "Lock-free", "CAS"]
----
++++
+title = "ABA 문제 (ABA Problem)"
+date = 2026-03-20
+weight = 568
+description = "락-프리(Lock-free) 알고리즘에서 CAS(Compare-And-Swap) 연산을 사용할 때, 메모리 값이 A에서 B로 변했다가 다시 A로 돌아왔음에도 시스템이 변경 사실을 눈치채지 못해 발생하는 치명적인 동기화 버그"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Concurrency", "Lock-free", "CAS"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 멀티스레드 환경에서 자물쇠(Lock)의 낭비를 없애기 위해 가장 널리 쓰이는 하드웨어 명령어가 **CAS (Compare-And-Swap)**이다.

@@ -1,11 +1,11 @@
----
-title: "물리적 분해 분석 (Reverse Engineering)"
-date: 2026-03-20
-weight: 780
-description: "경쟁사의 최신 칩이나 적국의 암호 칩을 얻었을 때, 이를 화학 용액으로 녹이고 전자현미경으로 찍어 원자 단위의 3D 설계 도면을 100% 복원해 내는 궁극의 하드웨어 역설계 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "Hardware", "Reverse Engineering"]
----
++++
+title = "물리적 분해 분석 (Reverse Engineering)"
+date = 2026-03-20
+weight = 780
+description = "경쟁사의 최신 칩이나 적국의 암호 칩을 얻었을 때, 이를 화학 용액으로 녹이고 전자현미경으로 찍어 원자 단위의 3D 설계 도면을 100% 복원해 내는 궁극의 하드웨어 역설계 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "Hardware", "Reverse Engineering"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 보안의 끝판왕은 칩 내부에 아무도 모르게 숨겨놓은 하드코딩된 암호 키나 독자적인 회로 설계(Obfuscation)다. 하지만 해커(국가 기관 등)가 이 **칩을 물리적으로 산산조각 내어 뜯어본다면 비밀은 결국 풀리게 된다.**

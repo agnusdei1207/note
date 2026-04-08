@@ -1,11 +1,11 @@
----
-title: "메시지 패싱 하드웨어 큐 (Message Passing Hardware Queue)"
-date: 2026-03-20
-weight: 565
-description: "수백 개의 코어가 공유 메모리의 캐시 일관성(스누핑) 병목을 피해, 하드웨어 수준의 메시지 큐를 통해 데이터를 직접 주고받는 초고효율 분산 통신 기법"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Multicore", "Message Passing"]
----
++++
+title = "메시지 패싱 하드웨어 큐 (Message Passing Hardware Queue)"
+date = 2026-03-20
+weight = 565
+description = "수백 개의 코어가 공유 메모리의 캐시 일관성(스누핑) 병목을 피해, 하드웨어 수준의 메시지 큐를 통해 데이터를 직접 주고받는 초고효율 분산 통신 기법"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Multicore", "Message Passing"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 코어 수가 극단적으로 많은 매니코어(Many-core) 시스템에서는, 변수 하나를 공유 메모리에 두고 수십 개의 코어가 캐시를 동기화하며 수정하는 **공유 메모리(Shared Memory) 아키텍처**가 심각한 버스 병목(스누핑 폭풍)을 일으킨다.

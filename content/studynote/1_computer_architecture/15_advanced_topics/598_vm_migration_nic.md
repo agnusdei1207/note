@@ -1,11 +1,11 @@
----
-title: "가상 머신 마이그레이션 네트워크 칩"
-date: 2026-03-20
-weight: 598
-description: "클라우드 환경에서 실행 중인 가상 머신(VM)을 다운타임(멈춤) 없이 다른 물리적 서버로 이사(Live Migration)시키기 위해, 메모리 상태를 초고속으로 복사해 주는 특수 네트워크 하드웨어"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Cloud Computing", "Virtualization", "Live Migration"]
----
++++
+title = "가상 머신 마이그레이션 네트워크 칩"
+date = 2026-03-20
+weight = 598
+description = "클라우드 환경에서 실행 중인 가상 머신(VM)을 다운타임(멈춤) 없이 다른 물리적 서버로 이사(Live Migration)시키기 위해, 메모리 상태를 초고속으로 복사해 주는 특수 네트워크 하드웨어"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Cloud Computing", "Virtualization", "Live Migration"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 클라우드 데이터센터의 묘미는 물리 서버 A가 고장 날 것 같을 때, 그 위에서 돌아가던 가상 머신(VM)을 살아서 돌아가는 상태 그대로(무중단) 물리 서버 B로 옮기는 **라이브 마이그레이션(Live Migration)**이다.

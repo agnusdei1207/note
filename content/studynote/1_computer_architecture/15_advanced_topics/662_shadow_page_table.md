@@ -1,11 +1,11 @@
----
-title: "그림자 페이지 테이블 (Shadow Page Table)"
-date: 2026-03-20
-weight: 662
-description: "하드웨어 보조 메모리 가상화(EPT/NPT)가 없던 시절, 하이퍼바이저가 가상 머신의 느린 2단계 메모리 주소 변환을 우회하기 위해 몰래 만들어 관리하던 '직통 번역 장부(소프트웨어)' 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Virtualization", "Memory Management", "Shadow Page Table"]
----
++++
+title = "그림자 페이지 테이블 (Shadow Page Table)"
+date = 2026-03-20
+weight = 662
+description = "하드웨어 보조 메모리 가상화(EPT/NPT)가 없던 시절, 하이퍼바이저가 가상 머신의 느린 2단계 메모리 주소 변환을 우회하기 위해 몰래 만들어 관리하던 '직통 번역 장부(소프트웨어)' 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Virtualization", "Memory Management", "Shadow Page Table"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 가상 머신(VM)에서 메모리를 읽으려면 `VM의 가상 주소 $\rightarrow$ VM의 가짜 물리 주소 $\rightarrow$ 진짜 서버의 물리 주소`라는 끔찍한 2단계 번역을 거쳐야 한다.

@@ -1,11 +1,11 @@
----
-title: "오브젝트 스토리지 (Object Storage)"
-date: 2026-03-20
-weight: 677
-description: "폴더와 디렉터리라는 계층적 구조를 찢어버리고, 수십억 개의 데이터를 1차원 평면 위에 늘어놓은 뒤 고유 식별자(ID)와 메타데이터만으로 빛의 속도로 찾아내는 클라우드 시대의 표준 저장소"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "Object Storage", "Cloud", "AWS S3"]
----
++++
+title = "오브젝트 스토리지 (Object Storage)"
+date = 2026-03-20
+weight = 677
+description = "폴더와 디렉터리라는 계층적 구조를 찢어버리고, 수십억 개의 데이터를 1차원 평면 위에 늘어놓은 뒤 고유 식별자(ID)와 메타데이터만으로 빛의 속도로 찾아내는 클라우드 시대의 표준 저장소"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "Object Storage", "Cloud", "AWS S3"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 우리가 쓰는 윈도우/리눅스는 **파일 스토리지(폴더 안에 폴더, 트리 구조)**를 쓴다. 파일이 10만 개일 때는 좋지만, 파일이 100억 개가 되면 폴더 경로를 찾아 들어가는 과정 자체가 치명적인 컴퓨팅 병목을 일으킨다.

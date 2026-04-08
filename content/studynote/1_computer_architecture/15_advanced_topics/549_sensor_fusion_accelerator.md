@@ -1,11 +1,11 @@
----
-title: "ADAS 센서 퓨전 가속기 (Sensor Fusion Accelerator)"
-date: 2026-03-20
-weight: 549
-description: "자율주행 시 카메라, 라이다, 레이더 등 성격이 전혀 다른 센서 데이터를 실시간으로 통합하여 3차원 공간을 재구성하는 전용 하드웨어 연산기"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Automotive", "Sensor Fusion", "Hardware Accelerator"]
----
++++
+title = "ADAS 센서 퓨전 가속기 (Sensor Fusion Accelerator)"
+date = 2026-03-20
+weight = 549
+description = "자율주행 시 카메라, 라이다, 레이더 등 성격이 전혀 다른 센서 데이터를 실시간으로 통합하여 3차원 공간을 재구성하는 전용 하드웨어 연산기"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Automotive", "Sensor Fusion", "Hardware Accelerator"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 자율주행 자동차(ADAS)는 하나의 센서에만 의존하지 않는다. 카메라는 색깔(신호등)을 잘 보지만 밤에 취약하고, 레이더는 밤이나 안개에 강하지만 형태를 모른다.

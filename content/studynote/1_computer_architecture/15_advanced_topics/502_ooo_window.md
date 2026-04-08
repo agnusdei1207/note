@@ -1,11 +1,11 @@
----
-title: "비순차 실행 윈도우 (Out-of-Order Execution Window)"
-date: 2026-03-20
-weight: 502
-description: "CPU가 명령어의 순서를 재배치하기 위해 한 번에 들여다보고 분석할 수 있는 명령어들의 최대 개수(시야각)"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Out-of-Order Execution", "ROB"]
----
++++
+title = "비순차 실행 윈도우 (Out-of-Order Execution Window)"
+date = 2026-03-20
+weight = 502
+description = "CPU가 명령어의 순서를 재배치하기 위해 한 번에 들여다보고 분석할 수 있는 명령어들의 최대 개수(시야각)"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Out-of-Order Execution", "ROB"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **비순차 실행 윈도우 (OoO Window)**는 CPU가 프로그램의 명령어들을 순서대로 실행하지 않고 뒤섞어(Out-of-Order) 실행하기 위해, **한순간에 CPU 내부에서 분석하고 대기시킬 수 있는 전체 명령어의 수(크기)**를 의미한다.

@@ -1,11 +1,11 @@
----
-title: "자원 풀링 (Resource Pooling, CXL 기반)"
-date: 2026-03-20
-weight: 638
-description: "각 서버가 CPU와 메모리를 꽉 움켜쥐고 있던 구조에서 벗어나, CXL 네트워크를 통해 남는 메모리와 가속기를 다른 서버에 빌려주는 데이터센터의 거대한 자원 공유 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "CXL", "Resource Pooling", "Data Center"]
----
++++
+title = "자원 풀링 (Resource Pooling, CXL 기반)"
+date = 2026-03-20
+weight = 638
+description = "각 서버가 CPU와 메모리를 꽉 움켜쥐고 있던 구조에서 벗어나, CXL 네트워크를 통해 남는 메모리와 가속기를 다른 서버에 빌려주는 데이터센터의 거대한 자원 공유 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "CXL", "Resource Pooling", "Data Center"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 전통적인 서버 랙 구조에서는 A 서버는 메모리가 남아도는데 CPU가 100%고, B 서버는 CPU는 노는데 메모리가 100% 꽉 차서 죽어가는 극심한 **자원 파편화(Stranded Capacity)** 문제가 있었다.

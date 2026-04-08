@@ -1,11 +1,11 @@
----
-title: "벡터형 인터럽트 컨트롤러 (VIC, NVIC)"
-date: 2026-03-20
-weight: 559
-description: "수십~수백 개의 인터럽트가 발생했을 때, CPU가 누가 불렀는지 일일이 묻지 않고 즉시 해당 처리 루틴의 주소(Vector)로 점프하게 해주는 하드웨어 모듈"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Interrupt", "NVIC", "Microcontroller"]
----
++++
+title = "벡터형 인터럽트 컨트롤러 (VIC, NVIC)"
+date = 2026-03-20
+weight = 559
+description = "수십~수백 개의 인터럽트가 발생했을 때, CPU가 누가 불렀는지 일일이 묻지 않고 즉시 해당 처리 루틴의 주소(Vector)로 점프하게 해주는 하드웨어 모듈"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Interrupt", "NVIC", "Microcontroller"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 초기 컴퓨터는 인터럽트가 걸리면 CPU가 "키보드 님이 부르셨소? 아니면 마우스 님인가요?"라며 모든 장치에게 일일이 물어보고 다니는 **폴링(Polling)**과 소프트웨어 판별 방식을 써서 매우 느렸다.

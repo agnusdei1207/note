@@ -1,11 +1,11 @@
----
-title: "S0ix 저전력 유휴 상태 (Idle States)"
-date: 2026-03-20
-weight: 727
-description: "스마트폰처럼 즉각적으로 깨어나면서도(S0) 극한의 절전(S3급)을 달성하기 위해 SoC(시스템 온 칩) 전체의 전력 도메인을 조각조각 제어하는 세밀한 하드웨어 절전 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Power Management", "S0ix", "SoC"]
----
++++
+title = "S0ix 저전력 유휴 상태 (Idle States)"
+date = 2026-03-20
+weight = 727
+description = "스마트폰처럼 즉각적으로 깨어나면서도(S0) 극한의 절전(S3급)을 달성하기 위해 SoC(시스템 온 칩) 전체의 전력 도메인을 조각조각 제어하는 세밀한 하드웨어 절전 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Power Management", "S0ix", "SoC"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 모던 스탠바이(Modern Standby)를 소프트웨어(윈도우) 관점에서 부르는 말이라면, **S0ix**는 이를 뒷받침하는 **인텔 SoC(System on Chip) 하드웨어의 물리적인 초저전력 상태**를 지칭하는 엔지니어링 용어다.

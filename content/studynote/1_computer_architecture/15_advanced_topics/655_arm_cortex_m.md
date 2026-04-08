@@ -1,11 +1,11 @@
----
-title: "ARM Cortex-M 시리즈 특징 (Microcontroller)"
-date: 2026-03-20
-weight: 655
-description: "스마트워치, 리모컨, IoT 센서 등에 탑재되어 극단적인 저전력과 저비용으로 동작하는 ARM의 초소형 마이크로컨트롤러 전용 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Hardware", "ARM", "Microcontroller", "IoT"]
----
++++
+title = "ARM Cortex-M 시리즈 특징 (Microcontroller)"
+date = 2026-03-20
+weight = 655
+description = "스마트워치, 리모컨, IoT 센서 등에 탑재되어 극단적인 저전력과 저비용으로 동작하는 ARM의 초소형 마이크로컨트롤러 전용 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Hardware", "ARM", "Microcontroller", "IoT"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. ARM 라인업의 막내인 **Cortex-M (Microcontroller)** 시리즈는 성능이나 실시간성을 포기한 대신, **크기를 먼지 만하게 줄이고 배터리 하나로 수년을 버티는 '극단적 가성비와 저전력'**에 영혼을 판 칩이다.

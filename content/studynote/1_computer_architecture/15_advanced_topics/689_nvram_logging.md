@@ -1,11 +1,11 @@
----
-title: "NVRAM 로깅 (Non-Volatile RAM Logging)"
-date: 2026-03-20
-weight: 689
-description: "데이터베이스와 파일 시스템의 치명적 병목인 동기화 로그(Write-Ahead Log) 쓰기 작업의 속도를 극적으로 높이기 위해, 전원이 꺼져도 지워지지 않는 초고속 RAM(NVRAM)을 활용하는 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "NVRAM", "Database", "Logging"]
----
++++
+title = "NVRAM 로깅 (Non-Volatile RAM Logging)"
+date = 2026-03-20
+weight = 689
+description = "데이터베이스와 파일 시스템의 치명적 병목인 동기화 로그(Write-Ahead Log) 쓰기 작업의 속도를 극적으로 높이기 위해, 전원이 꺼져도 지워지지 않는 초고속 RAM(NVRAM)을 활용하는 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "NVRAM", "Database", "Logging"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 오라클이나 MySQL 같은 관계형 데이터베이스(RDBMS)는 데이터가 깨지는 것을 막기 위해, 실제 데이터를 디스크에 쓰기 전에 무조건 **'로그(일기장, WAL)'부터 디스크에 먼저 기록하고 동기화(fsync)**해야만 다음 작업으로 넘어가는 고집(병목)이 있다.

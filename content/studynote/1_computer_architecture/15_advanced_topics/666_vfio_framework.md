@@ -1,11 +1,11 @@
----
-title: "VFIO 프레임워크 (Virtual Function I/O)"
-date: 2026-03-20
-weight: 666
-description: "가상 머신이나 유저 공간(User-space) 애플리케이션이 호스트 커널(OS)의 간섭 없이 물리적 하드웨어(PCIe 그래픽카드 등)를 완벽하게 독점하고 직접 제어하게 해주는 리눅스 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Virtualization", "Linux", "VFIO", "PCIe Passthrough"]
----
++++
+title = "VFIO 프레임워크 (Virtual Function I/O)"
+date = 2026-03-20
+weight = 666
+description = "가상 머신이나 유저 공간(User-space) 애플리케이션이 호스트 커널(OS)의 간섭 없이 물리적 하드웨어(PCIe 그래픽카드 등)를 완벽하게 독점하고 직접 제어하게 해주는 리눅스 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Virtualization", "Linux", "VFIO", "PCIe Passthrough"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 클라우드에서 AI 모델을 훈련하려면 가상 머신(VM) 안에서 최신 Nvidia GPU를 100% 성능으로 돌려야 한다.

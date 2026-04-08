@@ -1,11 +1,11 @@
----
-title: "PCIe AER (Advanced Error Reporting)"
-date: 2026-03-20
-weight: 716
-description: "서버에 꽂힌 그래픽카드(GPU)나 랜카드(NIC)가 통신 중 치명적인 에러를 일으켰을 때, 시스템 전체가 블루스크린으로 뻗어버리는 것을 막고 에러의 원인을 상세히 보고하여 복구를 시도하는 PCIe 버스의 핵심 방어선"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "PCIe", "Error Handling", "Hardware"]
----
++++
+title = "PCIe AER (Advanced Error Reporting)"
+date = 2026-03-20
+weight = 716
+description = "서버에 꽂힌 그래픽카드(GPU)나 랜카드(NIC)가 통신 중 치명적인 에러를 일으켰을 때, 시스템 전체가 블루스크린으로 뻗어버리는 것을 막고 에러의 원인을 상세히 보고하여 복구를 시도하는 PCIe 버스의 핵심 방어선"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "PCIe", "Error Handling", "Hardware"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거의 PCI 버스 시절에는 그래픽카드나 랜카드가 전기를 잘못 뱉거나 신호가 꼬이면, 마더보드가 당황해서 CPU를 멈춰 세우고 즉시 **치명적 오류(NMI, 블루스크린)**를 띄우며 다 같이 죽어버렸다.

@@ -1,11 +1,11 @@
----
-title: "패킷 분류 알고리즘 (TCAM 기반 라우팅)"
-date: 2026-03-20
-weight: 591
-description: "네트워크 라우터와 방화벽이 초당 수천만 개의 패킷이 쏟아지는 환경에서, 데이터베이스를 1클럭 만에 뒤져서 목적지와 허용 여부를 찾아내는 특수 메모리 하드웨어"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Network", "TCAM", "Hardware"]
----
++++
+title = "패킷 분류 알고리즘 (TCAM 기반 라우팅)"
+date = 2026-03-20
+weight = 591
+description = "네트워크 라우터와 방화벽이 초당 수천만 개의 패킷이 쏟아지는 환경에서, 데이터베이스를 1클럭 만에 뒤져서 목적지와 허용 여부를 찾아내는 특수 메모리 하드웨어"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Network", "TCAM", "Hardware"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 라우터나 방화벽은 패킷이 들어올 때마다 수만 줄의 라우팅 테이블(규칙)을 뒤져 "이 패킷을 1번 포트로 보낼지, 2번으로 보낼지, 버릴지"를 결정해야 한다.

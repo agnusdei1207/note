@@ -1,11 +1,11 @@
----
-title: "MESI 프로토콜의 상태 전이도 (State Transition)"
-date: 2026-03-20
-weight: 512
-description: "캐시 일관성을 유지하는 가장 대표적인 표준 알고리즘인 MESI 프로토콜의 4가지 상태와 코어 간의 상호 작용 원리"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Cache Coherence", "MESI"]
----
++++
+title = "MESI 프로토콜의 상태 전이도 (State Transition)"
+date = 2026-03-20
+weight = 512
+description = "캐시 일관성을 유지하는 가장 대표적인 표준 알고리즘인 MESI 프로토콜의 4가지 상태와 코어 간의 상호 작용 원리"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Cache Coherence", "MESI"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **MESI 프로토콜**은 멀티코어 환경에서 동일한 데이터가 여러 캐시에 존재할 때 발생할 수 있는 충돌을 막기 위해 고안된 '캐시 블록의 4가지 상태 규칙'이다.

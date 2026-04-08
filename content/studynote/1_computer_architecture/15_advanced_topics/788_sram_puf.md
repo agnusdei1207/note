@@ -1,11 +1,11 @@
----
-title: "SRAM PUF (Physical Unclonable Function)"
-date: 2026-03-20
-weight: 788
-description: "반도체 제조 과정에서 발생하는 미세한 공정 편차를 이용해, 전원이 켜질 때마다 칩 고유의 예측 불가능한 암호 키(디지털 지문)를 스스로 만들어내는 하드웨어 보안 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "Hardware", "PUF", "SRAM"]
----
++++
+title = "SRAM PUF (Physical Unclonable Function)"
+date = 2026-03-20
+weight = 788
+description = "반도체 제조 과정에서 발생하는 미세한 공정 편차를 이용해, 전원이 켜질 때마다 칩 고유의 예측 불가능한 암호 키(디지털 지문)를 스스로 만들어내는 하드웨어 보안 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "Hardware", "PUF", "SRAM"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 보안의 핵심인 비밀 키(Secret Key)를 플래시 메모리나 ROM에 구워놓으면, 해커가 칩을 뜯어(Decapping) 현미경으로 읽어낼 위험이 항상 존재한다.

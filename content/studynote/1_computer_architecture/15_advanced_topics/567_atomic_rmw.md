@@ -1,11 +1,11 @@
----
-title: "원자적 읽기-수정-쓰기 (RMW, Read-Modify-Write)"
-date: 2026-03-20
-weight: 567
-description: "멀티코어 환경에서 공유 변수를 안전하게 변경하기 위해, 읽고 수정하고 쓰는 세 단계를 절대 쪼개지지 않는 하나의 덩어리(원자)로 묶어 실행하는 하드웨어 명령어"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Concurrency", "Synchronization", "Atomic"]
----
++++
+title = "원자적 읽기-수정-쓰기 (RMW, Read-Modify-Write)"
+date = 2026-03-20
+weight = 567
+description = "멀티코어 환경에서 공유 변수를 안전하게 변경하기 위해, 읽고 수정하고 쓰는 세 단계를 절대 쪼개지지 않는 하나의 덩어리(원자)로 묶어 실행하는 하드웨어 명령어"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Concurrency", "Synchronization", "Atomic"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 일반적인 덧셈 연산(`i++`)은 메모리에서 값을 **읽고(Read)**, CPU에서 **수정(Modify)**하고, 다시 메모리에 **쓰는(Write)** 3단계로 나뉘어 있어, 그사이에 다른 스레드가 개입하면 데이터가 박살 나는 '경쟁 상태(Race Condition)'를 유발한다.

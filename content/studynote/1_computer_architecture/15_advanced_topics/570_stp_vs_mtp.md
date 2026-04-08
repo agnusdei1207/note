@@ -1,11 +1,11 @@
----
-title: "단일 스레드 성능 (STP) vs 다중 스레드 성능 (MTP)"
-date: 2026-03-20
-weight: 570
-description: "현대 프로세서 아키텍처 설계의 가장 큰 딜레마인, 코어 1개의 절대적인 힘(STP)을 키울 것인가 아니면 코어 개수를 늘려 전체 처리량(MTP)을 높일 것인가에 대한 트레이드오프"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Multicore", "Performance", "Amdahl's Law"]
----
++++
+title = "단일 스레드 성능 (STP) vs 다중 스레드 성능 (MTP)"
+date = 2026-03-20
+weight = 570
+description = "현대 프로세서 아키텍처 설계의 가장 큰 딜레마인, 코어 1개의 절대적인 힘(STP)을 키울 것인가 아니면 코어 개수를 늘려 전체 처리량(MTP)을 높일 것인가에 대한 트레이드오프"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Multicore", "Performance", "Amdahl's Law"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **STP (Single-Thread Performance)**는 오직 1개의 코어가 얼마나 빠르고 묵직하게 단일 작업을 처리해 내는가를 나타내는 지표다. (게이밍, 실시간 반응에 중요)

@@ -1,11 +1,11 @@
----
-title: "ACPI S-States (S0 ~ S5 System States)"
-date: 2026-03-20
-weight: 725
-description: "우리가 컴퓨터를 쓸 때 만나는 '켜짐, 절전 모드, 최대 절전 모드, 꺼짐' 이라는 거시적인 시스템 전원 상태를 정의하는 ACPI의 글로벌 표준 분류"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Power Management", "ACPI", "OS"]
----
++++
+title = "ACPI S-States (S0 ~ S5 System States)"
+date = 2026-03-20
+weight = 725
+description = "우리가 컴퓨터를 쓸 때 만나는 '켜짐, 절전 모드, 최대 절전 모드, 꺼짐' 이라는 거시적인 시스템 전원 상태를 정의하는 ACPI의 글로벌 표준 분류"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Power Management", "ACPI", "OS"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 앞서 배운 C-State(코어), P-State(성능)가 **CPU 하나만의 미시적인 전력 관리**라면, **S-State (Sleep States)**는 램(RAM), 하드디스크, 모니터, 메인보드를 포함한 **컴퓨터 시스템 전체의 거시적인 수면 상태**를 뜻한다.

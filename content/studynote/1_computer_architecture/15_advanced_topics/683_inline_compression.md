@@ -1,11 +1,11 @@
----
-title: "인라인 압축 (Inline Compression)"
-date: 2026-03-20
-weight: 683
-description: "스토리지나 메모리에 데이터를 기록하기 직전, 하드웨어나 OS가 실시간으로 데이터를 압축하여 디스크 공간을 절약하고 수명을 연장하는 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "Compression", "Efficiency"]
----
++++
+title = "인라인 압축 (Inline Compression)"
+date = 2026-03-20
+weight = 683
+description = "스토리지나 메모리에 데이터를 기록하기 직전, 하드웨어나 OS가 실시간으로 데이터를 압축하여 디스크 공간을 절약하고 수명을 연장하는 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "Compression", "Efficiency"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 일반적인 파일 압축(Zip 등)은 사용자가 직접 수동으로 수행하며, 풀 때도 시간이 걸린다.

@@ -1,11 +1,11 @@
----
-title: "오류 정정 부호 (ECC, Error Correcting Code) 하드웨어 회로"
-date: 2026-03-20
-weight: 554
-description: "메모리 칩 안이나 메모리 컨트롤러에 하드웨어 논리 게이트로 심어져, 소프트 에러를 실시간으로 탐지하고 수학적으로 원래 데이터로 고쳐내는 회로"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Reliability", "ECC", "Memory"]
----
++++
+title = "오류 정정 부호 (ECC, Error Correcting Code) 하드웨어 회로"
+date = 2026-03-20
+weight = 554
+description = "메모리 칩 안이나 메모리 컨트롤러에 하드웨어 논리 게이트로 심어져, 소프트 에러를 실시간으로 탐지하고 수학적으로 원래 데이터로 고쳐내는 회로"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Reliability", "ECC", "Memory"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 방사선(우주선)이나 노이즈로 인해 메모리의 값이 바뀌는 비트 플립(Soft Error)을 막기 위해, 데이터 저장 시 **잉여 비트(Parity/Syndrome)**를 함께 저장한다.

@@ -1,11 +1,11 @@
----
-title: "ARM Cortex-A 시리즈 특징 (Application Processor)"
-date: 2026-03-20
-weight: 653
-description: "스마트폰, 태블릿, 그리고 최신 클라우드 서버의 메인 두뇌로 활약하며, 리눅스와 안드로이드 같은 무거운 운영체제를 완벽히 구동하는 고성능 ARM 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Hardware", "ARM", "Processor", "Mobile"]
----
++++
+title = "ARM Cortex-A 시리즈 특징 (Application Processor)"
+date = 2026-03-20
+weight = 653
+description = "스마트폰, 태블릿, 그리고 최신 클라우드 서버의 메인 두뇌로 활약하며, 리눅스와 안드로이드 같은 무거운 운영체제를 완벽히 구동하는 고성능 ARM 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Hardware", "ARM", "Processor", "Mobile"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. ARM의 프로세서 라인업은 역할에 따라 A(Application), R(Real-time), M(Microcontroller) 세 가지로 나뉜다.

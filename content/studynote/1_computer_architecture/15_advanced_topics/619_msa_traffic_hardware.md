@@ -1,11 +1,11 @@
----
-title: "MSA (Microservices Architecture) 트래픽 처리용 하드웨어"
-date: 2026-03-20
-weight: 619
-description: "수천 개의 초소형 마이크로서비스들이 벌떼처럼 통신하는 클라우드 네이티브 환경에서, 막대한 동서(East-West) 트래픽과 서비스 메시(Service Mesh) 프록시의 부하를 감당하는 하드웨어 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Cloud Computing", "MSA", "SmartNIC", "Service Mesh"]
----
++++
+title = "MSA (Microservices Architecture) 트래픽 처리용 하드웨어"
+date = 2026-03-20
+weight = 619
+description = "수천 개의 초소형 마이크로서비스들이 벌떼처럼 통신하는 클라우드 네이티브 환경에서, 막대한 동서(East-West) 트래픽과 서비스 메시(Service Mesh) 프록시의 부하를 감당하는 하드웨어 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Cloud Computing", "MSA", "SmartNIC", "Service Mesh"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **MSA (Microservices Architecture)**는 애플리케이션을 수십~수백 개의 아주 작은 컨테이너(Docker/Kubernetes) 단위로 잘게 쪼개어 배포하는 최신 클라우드 표준이다.

@@ -1,11 +1,11 @@
----
-title: "엑사스케일 컴퓨팅 노드 보드 (Exascale Computing Node Board)"
-date: 2026-03-20
-weight: 600
-description: "1초에 100경 번(1 ExaFLOPS)의 연산을 수행하는 인류 최강의 슈퍼컴퓨터를 구성하기 위해, CPU와 GPU, 고대역폭 메모리를 한계까지 밀어 넣은 최첨단 마더보드 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Supercomputer", "Exascale", "HPC"]
----
++++
+title = "엑사스케일 컴퓨팅 노드 보드 (Exascale Computing Node Board)"
+date = 2026-03-20
+weight = 600
+description = "1초에 100경 번(1 ExaFLOPS)의 연산을 수행하는 인류 최강의 슈퍼컴퓨터를 구성하기 위해, CPU와 GPU, 고대역폭 메모리를 한계까지 밀어 넣은 최첨단 마더보드 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Supercomputer", "Exascale", "HPC"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **엑사스케일(Exascale)**은 1초에 100경 번의 부동소수점 연산(1 ExaFLOPS)을 수행할 수 있는 컴퓨터의 성능 단위다. 이는 우주 시뮬레이션이나 거대 언어 모델(LLM) 훈련을 위해 필요하다.

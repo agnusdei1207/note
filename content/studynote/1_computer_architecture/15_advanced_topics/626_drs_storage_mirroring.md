@@ -1,11 +1,11 @@
----
-title: "재해 복구 시스템 (DRS) 스토리지 미러링"
-date: 2026-03-20
-weight: 626
-description: "지진, 화재, 테러 등으로 메인 데이터센터가 완전히 파괴되었을 때를 대비하여, 수백 km 떨어진 백업 센터에 스토리지 데이터를 실시간 또는 비동기로 완벽하게 복제하는 하드웨어 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "DR", "Mirroring"]
----
++++
+title = "재해 복구 시스템 (DRS) 스토리지 미러링"
+date = 2026-03-20
+weight = 626
+description = "지진, 화재, 테러 등으로 메인 데이터센터가 완전히 파괴되었을 때를 대비하여, 수백 km 떨어진 백업 센터에 스토리지 데이터를 실시간 또는 비동기로 완벽하게 복제하는 하드웨어 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "DR", "Mirroring"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 서버 랙 수준의 이중화(RAID, 이중 파워)는 데이터센터 건물 자체에 화재가 나거나 정전이 발생하면 속수무책으로 당할 수밖에 없다.

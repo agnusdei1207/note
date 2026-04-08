@@ -1,11 +1,11 @@
----
-title: "스트림 프리패처 (Stream Prefetcher)"
-date: 2026-03-20
-weight: 573
-description: "배열과 달리 불규칙해 보이는 다수의 데이터 흐름(Stream) 속에서, 독립적인 여러 개의 순차적 접근 패턴을 동시에 추적하고 데이터를 미리 가져오는 하드웨어 최적화"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Cache", "Prefetching", "Stream"]
----
++++
+title = "스트림 프리패처 (Stream Prefetcher)"
+date = 2026-03-20
+weight = 573
+description = "배열과 달리 불규칙해 보이는 다수의 데이터 흐름(Stream) 속에서, 독립적인 여러 개의 순차적 접근 패턴을 동시에 추적하고 데이터를 미리 가져오는 하드웨어 최적화"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Cache", "Prefetching", "Stream"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 일반적인 루프 프리패처는 단일 배열의 규칙적인 접근(Stride)을 잘 잡지만, 여러 개의 배열을 동시에 읽고 쓰거나 불규칙한 흐름이 섞여 있으면 패턴을 놓치고 혼란에 빠진다.

@@ -1,11 +1,11 @@
----
-title: "메모리 의존성 예측기 (Memory Dependence Predictor)"
-date: 2026-03-20
-weight: 507
-description: "비순차 실행 시 앞선 Store 명령어와 뒤의 Load 명령어가 같은 주소를 사용하는지 미리 예측하여 메모리 충돌 페널티를 방지하는 하드웨어"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Memory", "Prediction"]
----
++++
+title = "메모리 의존성 예측기 (Memory Dependence Predictor)"
+date = 2026-03-20
+weight = 507
+description = "비순차 실행 시 앞선 Store 명령어와 뒤의 Load 명령어가 같은 주소를 사용하는지 미리 예측하여 메모리 충돌 페널티를 방지하는 하드웨어"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Memory", "Prediction"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. CPU가 성능을 높이려면 앞의 쓰기(Store)를 무시하고 읽기(Load)를 새치기(Bypass)시켜야 하지만, 두 주소가 같다면 심각한 오류가 발생해 파이프라인을 다 버려야(Flush) 한다.

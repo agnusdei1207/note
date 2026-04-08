@@ -1,11 +1,11 @@
----
-title: "안전한 컨텍스트 스위칭 (Secure Context Switching)"
-date: 2026-03-20
-weight: 544
-description: "CPU가 스레드나 프로세스를 전환할 때, 이전 작업의 민감한 데이터(암호화 키 등)가 레지스터에 남아 다음 작업으로 유출되지 않도록 보장하는 보안 메커니즘"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "Context Switching", "OS"]
----
++++
+title = "안전한 컨텍스트 스위칭 (Secure Context Switching)"
+date = 2026-03-20
+weight = 544
+description = "CPU가 스레드나 프로세스를 전환할 때, 이전 작업의 민감한 데이터(암호화 키 등)가 레지스터에 남아 다음 작업으로 유출되지 않도록 보장하는 보안 메커니즘"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "Context Switching", "OS"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. CPU가 하나의 스레드를 멈추고 다른 스레드로 넘어가는 **컨텍스트 스위칭(Context Switching)**은 시분할 운영체제의 핵심이다.

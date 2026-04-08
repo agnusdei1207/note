@@ -1,11 +1,11 @@
----
-title: "링 오실레이터 (Ring Oscillator) TRNG"
-date: 2026-03-20
-weight: 787
-description: "가장 널리 쓰이는 진성 난수 생성기(TRNG)의 하드웨어 설계법으로, 홀수 개의 인버터(NOT 게이트)를 둥글게 이어 붙여 무한 진동을 일으키고 그 과정에서 발생하는 미세한 엇박자(Jitter)를 난수로 추출하는 회로"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Cryptography", "Hardware", "TRNG", "Ring Oscillator"]
----
++++
+title = "링 오실레이터 (Ring Oscillator) TRNG"
+date = 2026-03-20
+weight = 787
+description = "가장 널리 쓰이는 진성 난수 생성기(TRNG)의 하드웨어 설계법으로, 홀수 개의 인버터(NOT 게이트)를 둥글게 이어 붙여 무한 진동을 일으키고 그 과정에서 발생하는 미세한 엇박자(Jitter)를 난수로 추출하는 회로"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Cryptography", "Hardware", "TRNG", "Ring Oscillator"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. TRNG(진성 난수 생성기)를 만들려면 열잡음 같은 아날로그 현상이 필요한데, 디지털 반도체 칩(FPGA나 스마트카드) 안에는 아날로그 증폭 회로를 우겨넣기가 까다롭고 공간을 많이 차지한다.

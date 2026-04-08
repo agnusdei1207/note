@@ -1,11 +1,11 @@
----
-title: "NVMe 오버 패브릭 (NVMe-oF)"
-date: 2026-03-20
-weight: 521
-description: "서버 내부에 꽂혀 있던 초고속 NVMe SSD를 네트워크 밖으로 빼내어, 여러 서버가 원격으로 공유하면서도 마치 로컬 디스크처럼 빠른 속도를 유지하는 스토리지 프로토콜"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "NVMe-oF", "Network"]
----
++++
+title = "NVMe 오버 패브릭 (NVMe-oF)"
+date = 2026-03-20
+weight = 521
+description = "서버 내부에 꽂혀 있던 초고속 NVMe SSD를 네트워크 밖으로 빼내어, 여러 서버가 원격으로 공유하면서도 마치 로컬 디스크처럼 빠른 속도를 유지하는 스토리지 프로토콜"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "NVMe-oF", "Network"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **NVMe(Non-Volatile Memory Express)**는 PCIe 버스를 타고 SSD의 최고 속도를 끌어내는 프로토콜이다. 단점은 "내 메인보드에 꽂힌 디스크만" 이 속도를 낼 수 있다는 것이다.

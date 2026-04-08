@@ -1,11 +1,11 @@
----
-title: "SLA (Service Level Agreement) 하드웨어 가용성"
-date: 2026-03-20
-weight: 625
-description: "클라우드 서비스나 하드웨어 공급업체가 고객에게 '우리 시스템은 1년에 몇 분 이상 죽지 않는다'고 법적으로 보장하는 가용성(Availability) 약속"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "SLA", "Availability", "Cloud Computing"]
----
++++
+title = "SLA (Service Level Agreement) 하드웨어 가용성"
+date = 2026-03-20
+weight = 625
+description = "클라우드 서비스나 하드웨어 공급업체가 고객에게 '우리 시스템은 1년에 몇 분 이상 죽지 않는다'고 법적으로 보장하는 가용성(Availability) 약속"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "SLA", "Availability", "Cloud Computing"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 시스템이 죽지 않고 살아있는 비율을 **가용성(Availability)**이라고 하며, 하드웨어 공급자(AWS 등)와 고객 간에 맺는 "목표 가용성을 달성하지 못하면 돈을 물어주겠다"는 계약서가 **SLA (서비스 수준 협약)**다.

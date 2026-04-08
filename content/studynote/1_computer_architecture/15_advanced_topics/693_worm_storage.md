@@ -1,11 +1,11 @@
----
-title: "WORM (Write Once Read Many) 스토리지"
-date: 2026-03-20
-weight: 693
-description: "한 번 기록된 데이터는 무슨 수를 써도 영원히 덮어쓰거나 지울 수 없게 만드는, 법적 컴플라이언스와 랜섬웨어 방어의 최후의 물리적/논리적 보루"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "Security", "WORM", "Compliance"]
----
++++
+title = "WORM (Write Once Read Many) 스토리지"
+date = 2026-03-20
+weight = 693
+description = "한 번 기록된 데이터는 무슨 수를 써도 영원히 덮어쓰거나 지울 수 없게 만드는, 법적 컴플라이언스와 랜섬웨어 방어의 최후의 물리적/논리적 보루"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "Security", "WORM", "Compliance"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 일반적인 하드디스크나 SSD는 관리자(Root) 권한만 얻으면 언제든 데이터를 수정하거나 지울 수 있어, 내부 직원의 횡령(로그 삭제)이나 랜섬웨어의 암호화 공격에 취약하다.

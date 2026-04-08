@@ -1,11 +1,11 @@
----
-title: "콜드 데이터 (Cold Data) 아카이빙"
-date: 2026-03-20
-weight: 676
-description: "법적 의무나 만약의 사태를 위해 지울 수는 없지만 평소엔 절대 읽어보지 않는 엄청난 양의 얼어붙은 데이터(Cold Data)를, 가장 싸고 느린 저장 매체에 압축하여 영구 보존하는 인프라 전략"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "Cold Data", "Archiving"]
----
++++
+title = "콜드 데이터 (Cold Data) 아카이빙"
+date = 2026-03-20
+weight = 676
+description = "법적 의무나 만약의 사태를 위해 지울 수는 없지만 평소엔 절대 읽어보지 않는 엄청난 양의 얼어붙은 데이터(Cold Data)를, 가장 싸고 느린 저장 매체에 압축하여 영구 보존하는 인프라 전략"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "Cold Data", "Archiving"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 기업 데이터의 80% 이상은 생성된 지 한 달만 지나면 아무도 쳐다보지 않는 **콜드 데이터(Cold Data)**로 변한다. (예: 10년 전 세금 영수증, 병원의 과거 X-ray 사진, CCTV 1년 치 녹화본)

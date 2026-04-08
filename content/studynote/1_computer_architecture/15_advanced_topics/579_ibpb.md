@@ -1,11 +1,11 @@
----
-title: "간접 분기 추측 제어 (IBPB, Indirect Branch Predictor Barrier)"
-date: 2026-03-20
-weight: 579
-description: "스펙터(Spectre) 공격을 방어하기 위해, 스레드나 프로세스가 교체될 때 CPU의 분기 예측기(BTB)에 남아있는 이전 작업의 예측 기록을 강제로 지워버리는 하드웨어 명령어"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "Spectre", "Branch Prediction"]
----
++++
+title = "간접 분기 추측 제어 (IBPB, Indirect Branch Predictor Barrier)"
+date = 2026-03-20
+weight = 579
+description = "스펙터(Spectre) 공격을 방어하기 위해, 스레드나 프로세스가 교체될 때 CPU의 분기 예측기(BTB)에 남아있는 이전 작업의 예측 기록을 강제로 지워버리는 하드웨어 명령어"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "Spectre", "Branch Prediction"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. CPU의 분기 예측기(Branch Predictor)는 성능을 위해 이전에 실행했던 분기 결과(어디로 뛰었는지)를 기억한다. 이 기억은 프로세스가 달라도 하드웨어적으로 **서로 공유(Shared)**된다.

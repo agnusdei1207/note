@@ -1,11 +1,11 @@
----
-title: "보안 해시 함수 회로 (SHA-3 / Keccak Hardware)"
-date: 2026-03-20
-weight: 610
-description: "스펀지 구조(Sponge Construction)라는 독특한 알고리즘을 사용하는 차세대 해시 표준 SHA-3를 CPU나 가속기 내부에서 초고속으로 처리하기 위한 전용 하드웨어 설계"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Hardware Accelerator", "Cryptography", "SHA-3"]
----
++++
+title = "보안 해시 함수 회로 (SHA-3 / Keccak Hardware)"
+date = 2026-03-20
+weight = 610
+description = "스펀지 구조(Sponge Construction)라는 독특한 알고리즘을 사용하는 차세대 해시 표준 SHA-3를 CPU나 가속기 내부에서 초고속으로 처리하기 위한 전용 하드웨어 설계"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Hardware Accelerator", "Cryptography", "SHA-3"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 블록체인(Ethereum 등)이나 최신 데이터 무결성 검증에 주로 쓰이는 **SHA-3 (Keccak 알고리즘)**는 과거의 SHA-2와 달리 논리 연산(XOR, AND, NOT)의 거대한 3차원 믹서기처럼 작동하는 '스펀지 구조'를 가진다.

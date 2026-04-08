@@ -1,11 +1,11 @@
----
-title: "양자 내성 암호 (PQC) 가속기"
-date: 2026-03-20
-weight: 543
-description: "미래의 양자 컴퓨터가 현재의 RSA/ECC 암호를 깨트릴 것에 대비하여, 양자 컴퓨터로도 풀기 어려운 새로운 수학적 알고리즘(PQC)을 고속으로 처리하는 하드웨어"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Quantum Computing", "Cryptography", "PQC"]
----
++++
+title = "양자 내성 암호 (PQC) 가속기"
+date = 2026-03-20
+weight = 543
+description = "미래의 양자 컴퓨터가 현재의 RSA/ECC 암호를 깨트릴 것에 대비하여, 양자 컴퓨터로도 풀기 어려운 새로운 수학적 알고리즘(PQC)을 고속으로 처리하는 하드웨어"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Quantum Computing", "Cryptography", "PQC"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 양자 컴퓨터가 상용화되면(특히 쇼어 알고리즘(Shor's Algorithm) 적용 시) 현재 우리가 인터넷 뱅킹에 사용하는 **RSA나 ECC 같은 공개키 암호 체계가 단 몇 분 만에 해킹**될 수 있다.

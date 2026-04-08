@@ -1,11 +1,11 @@
----
-title: "스마트 컨트랙트 검증 보조 코프로세서"
-date: 2026-03-20
-weight: 615
-description: "블록체인 네트워크에서 폭주하는 스마트 컨트랙트 실행과 트랜잭션 검증 연산을 메인 CPU 대신 초고속으로 처리하기 위해 도입되는 전용 하드웨어 칩"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Blockchain", "Smart Contract", "Coprocessor"]
----
++++
+title = "스마트 컨트랙트 검증 보조 코프로세서"
+date = 2026-03-20
+weight = 615
+description = "블록체인 네트워크에서 폭주하는 스마트 컨트랙트 실행과 트랜잭션 검증 연산을 메인 CPU 대신 초고속으로 처리하기 위해 도입되는 전용 하드웨어 칩"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Blockchain", "Smart Contract", "Coprocessor"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 이더리움 같은 스마트 컨트랙트(Smart Contract) 블록체인은 단순한 장부가 아니라 **'전 세계가 공유하는 하나의 거대한 컴퓨터(EVM)'**다.

@@ -1,11 +1,11 @@
----
-title: "ASLR과 하드웨어 기반 우회 방어"
-date: 2026-03-20
-weight: 576
-description: "해커가 악성코드를 심을 메모리 위치를 찾지 못하도록 실행할 때마다 주소를 무작위로 섞는 ASLR 기술과, 이를 뚫으려는 해커를 막는 하드웨어 방어막"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "ASLR", "Virtual Memory"]
----
++++
+title = "ASLR과 하드웨어 기반 우회 방어"
+date = 2026-03-20
+weight = 576
+description = "해커가 악성코드를 심을 메모리 위치를 찾지 못하도록 실행할 때마다 주소를 무작위로 섞는 ASLR 기술과, 이를 뚫으려는 해커를 막는 하드웨어 방어막"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "ASLR", "Virtual Memory"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 앞서 배운 ROP나 버퍼 오버플로우 공격이 성공하려면 해커는 반드시 **"시스템의 주요 함수나 내가 심어놓은 악성코드가 메모리 몇 번지에 있는가?"**라는 정확한 주소를 알아야만 한다.

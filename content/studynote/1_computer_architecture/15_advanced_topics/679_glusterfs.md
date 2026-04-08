@@ -1,11 +1,11 @@
----
-title: "GlusterFS 분산 스토리지"
-date: 2026-03-20
-weight: 679
-description: "리눅스의 평범한 하드디스크 폴더들을 네트워크로 하나로 엮어, 거대한 무제한 용량의 공유 파일 스토리지(NAS)를 만들어내는 심플하고 강력한 분산 파일 시스템"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "GlusterFS", "NAS"]
----
++++
+title = "GlusterFS 분산 스토리지"
+date = 2026-03-20
+weight = 679
+description = "리눅스의 평범한 하드디스크 폴더들을 네트워크로 하나로 엮어, 거대한 무제한 용량의 공유 파일 스토리지(NAS)를 만들어내는 심플하고 강력한 분산 파일 시스템"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "GlusterFS", "NAS"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 앞 장의 Ceph가 밑바닥부터 뜯어고친 복잡한 범용 스토리지 생태계라면, **GlusterFS(글러스터FS)**는 오로지 **"수많은 서버의 빈 하드디스크들을 묶어 하나의 거대한 공유 폴더(File System)로 만드는 것"**에 극한으로 집중한 기술이다.

@@ -1,11 +1,11 @@
----
-title: "번인 (Burn-in) 테스트"
-date: 2026-03-20
-weight: 758
-description: "반도체나 서버 장비를 출하하기 전, 고온과 고전압의 가혹한 환경에서 일정 시간 동안 강제로 굴려 숨어있는 초기 불량품을 미리 죽여서 솎아내는 신뢰성 테스트"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Reliability", "Testing", "Manufacturing"]
----
++++
+title = "번인 (Burn-in) 테스트"
+date = 2026-03-20
+weight = 758
+description = "반도체나 서버 장비를 출하하기 전, 고온과 고전압의 가혹한 환경에서 일정 시간 동안 강제로 굴려 숨어있는 초기 불량품을 미리 죽여서 솎아내는 신뢰성 테스트"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Reliability", "Testing", "Manufacturing"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 모든 전자기기는 처음 만들었을 때(초기 고장기) 불량률이 가장 높다. 납땜이 덜 됐거나 실리콘 잉곳에 미세한 불순물이 섞여 있는 경우다.

@@ -1,11 +1,11 @@
----
-title: "그래프 탐색 (BFS/DFS) 전용 메모리 서브시스템"
-date: 2026-03-20
-weight: 613
-description: "기존 CPU 캐시 메모리를 무용지물로 만드는 무작위적(Random) 메모리 접근의 끝판왕 '그래프(Graph) 연산'을 초고속으로 처리하기 위한 특수 하드웨어 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Hardware Accelerator", "Graph Processing", "Memory"]
----
++++
+title = "그래프 탐색 (BFS/DFS) 전용 메모리 서브시스템"
+date = 2026-03-20
+weight = 613
+description = "기존 CPU 캐시 메모리를 무용지물로 만드는 무작위적(Random) 메모리 접근의 끝판왕 '그래프(Graph) 연산'을 초고속으로 처리하기 위한 특수 하드웨어 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Hardware Accelerator", "Graph Processing", "Memory"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 페이스북 친구 추천 알고리즘, 구글 지도 길 찾기, 뇌의 뉴런 시뮬레이션 등은 모두 데이터를 점(Node)과 선(Edge)으로 표현하는 **그래프(Graph) 연산**이다.

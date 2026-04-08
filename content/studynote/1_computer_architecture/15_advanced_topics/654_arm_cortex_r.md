@@ -1,11 +1,11 @@
----
-title: "ARM Cortex-R 시리즈 특징 (Real-Time)"
-date: 2026-03-20
-weight: 654
-description: "빠른 성능보다 '절대 지각하지 않는 완벽한 시간 약속'이 생명인 하드디스크 컨트롤러, 자동차 브레이크, 통신 모뎀을 위한 ARM의 실시간(Real-Time) 전용 프로세서"
-taxonomy:
-    tags: ["Computer Architecture", "Hardware", "ARM", "Processor", "Real-Time"]
----
++++
+title = "ARM Cortex-R 시리즈 특징 (Real-Time)"
+date = 2026-03-20
+weight = 654
+description = "빠른 성능보다 '절대 지각하지 않는 완벽한 시간 약속'이 생명인 하드디스크 컨트롤러, 자동차 브레이크, 통신 모뎀을 위한 ARM의 실시간(Real-Time) 전용 프로세서"
+taxonomy =  ""
+tags = ["Computer Architecture", "Hardware", "ARM", "Processor", "Real-Time"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. ARM의 **Cortex-R (Real-Time)** 시리즈는 스마트폰 메인 CPU(Cortex-A)처럼 앱을 여러 개 돌리거나 복잡한 연산을 하는 것이 목적이 아니라, **"외부 자극에 대해 무조건 1밀리초(ms) 안에 반드시 대답한다"는 결정론적(Deterministic) 타이밍**이 목적인 칩이다.

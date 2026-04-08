@@ -1,11 +1,11 @@
----
-title: "x86 Ring 0, 1, 2, 3 보호 모드 (Protection Rings)"
-date: 2026-03-20
-weight: 656
-description: "운영체제(OS)와 사용자 프로그램(App)의 권한을 4단계의 동심원(Ring)으로 나누어, 악성 프로그램이 시스템 하드웨어를 파괴하지 못하도록 막는 x86 CPU의 핵심 보안 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "OS", "Security", "x86 Rings"]
----
++++
+title = "x86 Ring 0, 1, 2, 3 보호 모드 (Protection Rings)"
+date = 2026-03-20
+weight = 656
+description = "운영체제(OS)와 사용자 프로그램(App)의 권한을 4단계의 동심원(Ring)으로 나누어, 악성 프로그램이 시스템 하드웨어를 파괴하지 못하도록 막는 x86 CPU의 핵심 보안 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "OS", "Security", "x86 Rings"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거 MS-DOS 시절에는 워드프로세서가 하드디스크의 0번지 섹터를 마음대로 지우거나 컴퓨터 전원을 끌 수 있었다. (보안 0점)

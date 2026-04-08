@@ -1,11 +1,11 @@
----
-title: "FPGA 동적 부분 재구성 (Dynamic Partial Reconfiguration)"
-date: 2026-03-20
-weight: 606
-description: "서버나 기기가 켜져서 칩이 쌩쌩 돌아가고 있는 와중에, 칩의 일부분만 실시간으로 도려내어 전혀 다른 하드웨어 회로로 변신시키는 궁극의 공간 활용 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "FPGA", "Hardware", "Virtualization"]
----
++++
+title = "FPGA 동적 부분 재구성 (Dynamic Partial Reconfiguration)"
+date = 2026-03-20
+weight = 606
+description = "서버나 기기가 켜져서 칩이 쌩쌩 돌아가고 있는 와중에, 칩의 일부분만 실시간으로 도려내어 전혀 다른 하드웨어 회로로 변신시키는 궁극의 공간 활용 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "FPGA", "Hardware", "Virtualization"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 일반적인 FPGA는 내부 회로(기능)를 바꿀 수 있지만, 바꾸려면 **칩 전체의 전원을 끄고 새로운 설계도를 통째로 처음부터 끝까지 다시 구워야(다운로드) 하는 단점**이 있다. (수 초~수십 초 소요, 시스템 중단)

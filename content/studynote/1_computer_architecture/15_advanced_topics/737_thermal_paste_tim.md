@@ -1,11 +1,11 @@
----
-title: "서멀 페이스트 (TIM, Thermal Interface Material)"
-date: 2026-03-20
-weight: 737
-description: "현미경으로 보면 울퉁불퉁한 CPU 뚜껑과 쿨러 바닥 사이의 미세한 빈틈을 메워, 열을 차단하는 '공기'를 몰아내고 열전도율을 극대화하는 마법의 회색 연고"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Hardware", "Thermal", "TIM"]
----
++++
+title = "서멀 페이스트 (TIM, Thermal Interface Material)"
+date = 2026-03-20
+weight = 737
+description = "현미경으로 보면 울퉁불퉁한 CPU 뚜껑과 쿨러 바닥 사이의 미세한 빈틈을 메워, 열을 차단하는 '공기'를 몰아내고 열전도율을 극대화하는 마법의 회색 연고"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Hardware", "Thermal", "TIM"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 눈으로 보기에 CPU 뚜껑(IHS)과 쿨러의 구리 바닥은 완벽하게 평평해 보이지만, **현미경으로 확대해 보면 달 표면처럼 울퉁불퉁**하다.

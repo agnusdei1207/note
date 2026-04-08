@@ -1,11 +1,11 @@
----
-title: "행렬 분해 (LU, QR) 전용 병렬 구조"
-date: 2026-03-20
-weight: 612
-description: "과학 기술 연산(슈퍼컴퓨터)의 핵심인 역행렬 계산과 선형 방정식 풀이를 위해, LU 및 QR 행렬 분해를 초고속으로 처리하는 특화된 하드웨어 병렬 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Hardware Accelerator", "Matrix", "HPC"]
----
++++
+title = "행렬 분해 (LU, QR) 전용 병렬 구조"
+date = 2026-03-20
+weight = 612
+description = "과학 기술 연산(슈퍼컴퓨터)의 핵심인 역행렬 계산과 선형 방정식 풀이를 위해, LU 및 QR 행렬 분해를 초고속으로 처리하는 특화된 하드웨어 병렬 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Hardware Accelerator", "Matrix", "HPC"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 날씨 예측, 양자 역학, 유체 역학 같은 거대한 과학 시뮬레이션(HPC)의 뼈대는 결국 수만 개의 변수가 얽힌 연립방정식을 푸는 것이며, 이는 **거대한 행렬의 역행렬을 구하는 문제**로 귀결된다.

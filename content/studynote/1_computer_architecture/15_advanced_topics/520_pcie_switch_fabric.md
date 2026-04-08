@@ -1,11 +1,11 @@
----
-title: "PCIe 스위치 패브릭 (PCIe Switch Fabric)"
-date: 2026-03-20
-weight: 520
-description: "서버 내의 한정된 PCIe 슬롯을 넘어, 수십 개의 GPU와 스토리지를 그물망처럼 연결하여 거대한 클러스터를 구성하는 확장 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "PCIe", "Fabric", "GPU"]
----
++++
+title = "PCIe 스위치 패브릭 (PCIe Switch Fabric)"
+date = 2026-03-20
+weight = 520
+description = "서버 내의 한정된 PCIe 슬롯을 넘어, 수십 개의 GPU와 스토리지를 그물망처럼 연결하여 거대한 클러스터를 구성하는 확장 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "PCIe", "Fabric", "GPU"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거의 PCIe(Peripheral Component Interconnect Express)는 마더보드(CPU)에 주변기기를 1:1로 연결하는 단순한 트리(Tree) 구조였다.

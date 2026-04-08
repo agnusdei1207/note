@@ -1,11 +1,11 @@
----
-title: "리들 (RIDL, Rogue In-Flight Data Load) 공격"
-date: 2026-03-20
-weight: 765
-description: "MDS 공격의 한 종류로, CPU 내부에 있는 'Line Fill Buffer (LFB)'라는 데이터를 퍼나르는 깔때기에서 남의 데이터가 새어나가는 것을 훔쳐보는 인텔 CPU 해킹 기법"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "RIDL", "MDS"]
----
++++
+title = "리들 (RIDL, Rogue In-Flight Data Load) 공격"
+date = 2026-03-20
+weight = 765
+description = "MDS 공격의 한 종류로, CPU 내부에 있는 'Line Fill Buffer (LFB)'라는 데이터를 퍼나르는 깔때기에서 남의 데이터가 새어나가는 것을 훔쳐보는 인텔 CPU 해킹 기법"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "RIDL", "MDS"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 앞 장에서 배운 MDS(데이터 샘플링) 취약점 중에서, **Line Fill Buffer (LFB)**라는 특정 하드웨어 부품을 노린 공격을 **RIDL (리들)**이라고 부른다.

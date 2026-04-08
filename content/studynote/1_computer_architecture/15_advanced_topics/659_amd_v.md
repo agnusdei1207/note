@@ -1,11 +1,11 @@
----
-title: "AMD-V (AMD Virtualization)"
-date: 2026-03-20
-weight: 659
-description: "인텔의 VT-x에 맞서 AMD가 독자적으로 개발한 하드웨어 보조 가상화 기술로, 서버 및 데스크톱 시장에서 고성능 가상 머신 구동을 가능하게 하는 핵심 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Virtualization", "AMD", "AMD-V", "CPU"]
----
++++
+title = "AMD-V (AMD Virtualization)"
+date = 2026-03-20
+weight = 659
+description = "인텔의 VT-x에 맞서 AMD가 독자적으로 개발한 하드웨어 보조 가상화 기술로, 서버 및 데스크톱 시장에서 고성능 가상 머신 구동을 가능하게 하는 핵심 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Virtualization", "AMD", "AMD-V", "CPU"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **AMD-V (코드명 Pacifica)**는 인텔의 VT-x와 똑같은 목적(소프트웨어 가상화 오버헤드 제거)을 달성하기 위해 AMD가 자사 CPU에 탑재한 **하드웨어 가상화 확장 명령어 세트**다.

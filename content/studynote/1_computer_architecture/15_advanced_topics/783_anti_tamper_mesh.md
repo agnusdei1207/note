@@ -1,11 +1,11 @@
----
-title: "안티 탬퍼 (Anti-Tamper) 메시/쉴드"
-date: 2026-03-20
-weight: 783
-description: "스마트카드나 HSM 같은 초고도 보안 칩을 해커가 물리적으로 뜯어보거나 레이저를 쏘는 것을 막기 위해, 칩 가장 바깥층을 빈틈없이 둘러싼 거미줄 같은 함정 회로"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "Hardware", "Anti-Tamper"]
----
++++
+title = "안티 탬퍼 (Anti-Tamper) 메시/쉴드"
+date = 2026-03-20
+weight = 783
+description = "스마트카드나 HSM 같은 초고도 보안 칩을 해커가 물리적으로 뜯어보거나 레이저를 쏘는 것을 막기 위해, 칩 가장 바깥층을 빈틈없이 둘러싼 거미줄 같은 함정 회로"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "Hardware", "Anti-Tamper"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 보안 칩 내부에 아무리 강력한 AES-256 암호를 걸어두어도, 해커가 칩을 염산으로 녹여서(Decapping) 현미경으로 들여다보거나 바늘을 꽂으면(Probing) 물리적으로 뚫릴 수밖에 없다.

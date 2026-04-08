@@ -1,11 +1,11 @@
----
-title: "부동소수점 곱셈기 파이프라인 (FPU Multiplier Pipeline)"
-date: 2026-03-20
-weight: 586
-description: "과학 연산과 3D 그래픽의 핵심인 '소수점 곱셈'을 고속으로 처리하기 위해, 복잡한 연산 과정을 여러 단계의 파이프라인으로 쪼개어 매 클럭마다 실행하는 하드웨어 구조"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "FPU", "Pipeline", "Floating Point"]
----
++++
+title = "부동소수점 곱셈기 파이프라인 (FPU Multiplier Pipeline)"
+date = 2026-03-20
+weight = 586
+description = "과학 연산과 3D 그래픽의 핵심인 '소수점 곱셈'을 고속으로 처리하기 위해, 복잡한 연산 과정을 여러 단계의 파이프라인으로 쪼개어 매 클럭마다 실행하는 하드웨어 구조"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "FPU", "Pipeline", "Floating Point"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 일반적인 정수 덧셈(ALU)은 구조가 단순해 1클럭 만에 끝낼 수 있지만, IEEE 754 표준을 따르는 **부동소수점 곱셈(Floating-Point Multiplication)**은 가수부 곱셈, 지수부 덧셈, 정규화 등 과정이 너무 길어 1클럭에 절대 끝낼 수 없다.

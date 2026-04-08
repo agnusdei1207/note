@@ -1,11 +1,11 @@
----
-title: "SDN (Software Defined Network) 화이트박스 스위치"
-date: 2026-03-20
-weight: 633
-description: "기존 시스코 등 대기업의 독점적 라우터 장비에서 탈피하여, 깡통 스위치 기계(화이트박스) 위에 내 마음대로 리눅스 OS와 네트워킹 코드를 깔아 쓰는 네트워크 민주화 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Network", "SDN", "Whitebox"]
----
++++
+title = "SDN (Software Defined Network) 화이트박스 스위치"
+date = 2026-03-20
+weight = 633
+description = "기존 시스코 등 대기업의 독점적 라우터 장비에서 탈피하여, 깡통 스위치 기계(화이트박스) 위에 내 마음대로 리눅스 OS와 네트워킹 코드를 깔아 쓰는 네트워크 민주화 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Network", "SDN", "Whitebox"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거의 네트워크 장비(라우터, 스위치)는 패킷을 물리적으로 전달하는 부분(Data Plane)과 어디로 보낼지 결정하는 뇌(Control Plane)가 하나의 쇳덩어리에 결합된 블랙박스 장비였다.

@@ -1,11 +1,11 @@
----
-title: "연합 학습 (Federated Learning) 분산 아키텍처"
-date: 2026-03-20
-weight: 636
-description: "개인의 프라이버시 데이터를 중앙 서버로 보내지 않고, 수만 대의 스마트폰(엣지)에서 각자 파편화된 AI 모델을 학습시킨 뒤 결과만 중앙으로 모아 합치는 차세대 머신러닝 하드웨어 네트워크 구조"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "AI", "Federated Learning", "Distributed System"]
----
++++
+title = "연합 학습 (Federated Learning) 분산 아키텍처"
+date = 2026-03-20
+weight = 636
+description = "개인의 프라이버시 데이터를 중앙 서버로 보내지 않고, 수만 대의 스마트폰(엣지)에서 각자 파편화된 AI 모델을 학습시킨 뒤 결과만 중앙으로 모아 합치는 차세대 머신러닝 하드웨어 네트워크 구조"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "AI", "Federated Learning", "Distributed System"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 전통적인 AI 학습은 모든 고객의 개인 데이터(사진, 채팅 내용)를 **클라우드 중앙 서버**의 거대한 스토리지로 모조리 쓸어온 뒤, 강력한 GPU 클러스터로 한 방에 학습(Training)하는 방식이었다. (프라이버시 침해 논란)

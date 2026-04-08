@@ -1,11 +1,11 @@
----
-title: "결정론적 이더넷 (TSN) 하드웨어"
-date: 2026-03-20
-weight: 546
-description: "기존 이더넷의 통신 지연 예측 불가 문제를 해결하고, 나노초 단위의 완벽한 시간 동기화와 패킷 전송을 보장하는 시간 민감형 네트워크 하드웨어"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Network", "TSN", "RTOS"]
----
++++
+title = "결정론적 이더넷 (TSN) 하드웨어"
+date = 2026-03-20
+weight = 546
+description = "기존 이더넷의 통신 지연 예측 불가 문제를 해결하고, 나노초 단위의 완벽한 시간 동기화와 패킷 전송을 보장하는 시간 민감형 네트워크 하드웨어"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Network", "TSN", "RTOS"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 우리가 쓰는 일반적인 랜선(Ethernet)은 대용량 데이터 전송에는 뛰어나지만, 누군가 영화를 다운받으면 트래픽이 몰려 카톡 메시지가 1초 늦게 가는 등 **지연 시간(Latency)을 절대 보장하지 못하는 비결정론적(Non-deterministic) 특성**이 있다.

@@ -1,11 +1,11 @@
----
-title: "분기 예측 실패 페널티 (Branch Misprediction Penalty)"
-date: 2026-03-20
-weight: 503
-description: "CPU가 조건문의 방향을 잘못 예측했을 때, 파이프라인을 비우고 올바른 명령어를 다시 가져오는 과정에서 발생하는 심각한 시간적 손실"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Branch Prediction", "Pipeline"]
----
++++
+title = "분기 예측 실패 페널티 (Branch Misprediction Penalty)"
+date = 2026-03-20
+weight = 503
+description = "CPU가 조건문의 방향을 잘못 예측했을 때, 파이프라인을 비우고 올바른 명령어를 다시 가져오는 과정에서 발생하는 심각한 시간적 손실"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Branch Prediction", "Pipeline"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 최신 프로세서는 파이프라인(Pipeline)을 쉬지 않고 돌리기 위해 `if` 문이 참(True)일지 거짓(False)일지 미리 찍고(분기 예측, Branch Prediction) 코드를 먼저 실행한다.

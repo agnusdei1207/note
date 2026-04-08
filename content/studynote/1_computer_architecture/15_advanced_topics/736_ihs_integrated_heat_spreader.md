@@ -1,11 +1,11 @@
----
-title: "히트스프레더 (IHS, Integrated Heat Spreader)"
-date: 2026-03-20
-weight: 736
-description: "부서지기 쉬운 CPU 실리콘 코어(Die)를 보호하고 좁은 핫스팟의 열을 넓은 면적으로 분산시키기 위해 코어를 덮고 있는 은색 금속 뚜껑"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Hardware", "Thermal", "IHS"]
----
++++
+title = "히트스프레더 (IHS, Integrated Heat Spreader)"
+date = 2026-03-20
+weight = 736
+description = "부서지기 쉬운 CPU 실리콘 코어(Die)를 보호하고 좁은 핫스팟의 열을 넓은 면적으로 분산시키기 위해 코어를 덮고 있는 은색 금속 뚜껑"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Hardware", "Thermal", "IHS"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 우리가 컴퓨터를 조립할 때 보는 은색의 네모난 CPU 쇳덩어리는 CPU 알맹이가 아니라, 진짜 뇌(실리콘 코어)를 덮고 있는 뚜껑인 **IHS(히트스프레더)**다.

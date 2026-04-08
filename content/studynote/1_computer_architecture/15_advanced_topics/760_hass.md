@@ -1,11 +1,11 @@
----
-title: "HASS (Highly Accelerated Stress Screen, 고가속 스트레스 스크리닝)"
-date: 2026-03-20
-weight: 760
-description: "앞서 HALT를 통해 알아낸 기계의 한계점을 바탕으로, 대량 생산되는 제품 전체에 파괴되지 않을 만큼의 빠르고 강한 스트레스를 줘서 초기 불량품을 순식간에 걸러내는 공장 출하 전 필수 테스트"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Reliability", "Testing", "HASS", "Manufacturing"]
----
++++
+title = "HASS (Highly Accelerated Stress Screen, 고가속 스트레스 스크리닝)"
+date = 2026-03-20
+weight = 760
+description = "앞서 HALT를 통해 알아낸 기계의 한계점을 바탕으로, 대량 생산되는 제품 전체에 파괴되지 않을 만큼의 빠르고 강한 스트레스를 줘서 초기 불량품을 순식간에 걸러내는 공장 출하 전 필수 테스트"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Reliability", "Testing", "HASS", "Manufacturing"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. HALT는 '설계 도면'을 고치기 위해 샘플 기계를 진짜로 부숴버리는 연구소의 고문 테스트다. 반면 **HASS는 공장에서 쏟아져 나오는 '판매용 완성품'을 부수지 않고 불량만 빠르게 솎아내는(Screening) 출하 테스트**다.

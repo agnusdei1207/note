@@ -1,11 +1,11 @@
----
-title: "LLVM IR 변환 (컴파일러와 하드웨어 인터페이스)"
-date: 2026-03-20
-weight: 536
-description: "고급 프로그래밍 언어를 특정 CPU의 기계어로 변환하는 과정에서 중간 다리 역할을 하는 범용 중간 표현(IR) 구조와 최적화 원리"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Compiler", "LLVM", "Instruction Set"]
----
++++
+title = "LLVM IR 변환 (컴파일러와 하드웨어 인터페이스)"
+date = 2026-03-20
+weight = 536
+description = "고급 프로그래밍 언어를 특정 CPU의 기계어로 변환하는 과정에서 중간 다리 역할을 하는 범용 중간 표현(IR) 구조와 최적화 원리"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Compiler", "LLVM", "Instruction Set"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거에는 C언어용 컴파일러, 파이썬용 컴파일러를 CPU 아키텍처(x86, ARM 등)마다 일일이 수십 개씩 새로 만들어야 하는 막대한 비효율이 존재했다.

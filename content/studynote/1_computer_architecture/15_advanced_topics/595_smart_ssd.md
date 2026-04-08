@@ -1,11 +1,11 @@
----
-title: "스마트 SSD (연산 기능 포함)"
-date: 2026-03-20
-weight: 595
-description: "단순히 데이터를 저장만 하던 무식한 디스크에 FPGA나 연산 코어를 박아 넣어, 디스크가 스스로 데이터를 검색하고 가공하여 서버 CPU의 부하를 줄여주는 차세대 저장장치"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "Smart SSD", "Processing-in-Storage"]
----
++++
+title = "스마트 SSD (연산 기능 포함)"
+date = 2026-03-20
+weight = 595
+description = "단순히 데이터를 저장만 하던 무식한 디스크에 FPGA나 연산 코어를 박아 넣어, 디스크가 스스로 데이터를 검색하고 가공하여 서버 CPU의 부하를 줄여주는 차세대 저장장치"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "Smart SSD", "Processing-in-Storage"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 빅데이터 시대에는 10TB의 데이터를 분석(예: 특정 단어 검색)하기 위해 디스크에서 메인 메모리와 CPU까지 **10TB의 데이터를 꾸역꾸역 다 끌고 올라와야 하는 막대한 PCIe 버스 병목**이 발생한다.

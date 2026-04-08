@@ -1,11 +1,11 @@
----
-title: "컨테이너 런타임 (runc) 하드웨어 네임스페이스"
-date: 2026-03-20
-weight: 667
-description: "무거운 하이퍼바이저 가상화(VM) 대신, 리눅스 커널의 네임스페이스(Namespace)를 이용해 프로세스에게 완벽히 독립된 가짜 하드웨어 환경을 제공하는 도커(Docker)의 핵심 원리"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Container", "Docker", "Linux", "Virtualization"]
----
++++
+title = "컨테이너 런타임 (runc) 하드웨어 네임스페이스"
+date = 2026-03-20
+weight = 667
+description = "무거운 하이퍼바이저 가상화(VM) 대신, 리눅스 커널의 네임스페이스(Namespace)를 이용해 프로세스에게 완벽히 독립된 가짜 하드웨어 환경을 제공하는 도커(Docker)의 핵심 원리"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Container", "Docker", "Linux", "Virtualization"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 전통적인 가상 머신(VM)은 가짜 메인보드, 가짜 CPU를 하나하나 하드웨어 수준에서 다 모방(Emulation/VT-x)해야 하므로 덩치가 크고 부팅이 느리다.

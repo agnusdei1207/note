@@ -1,11 +1,11 @@
----
-title: "씬 프로비저닝 (Thin Provisioning)"
-date: 2026-03-20
-weight: 684
-description: "물리적인 하드디스크 용량이 부족함에도 불구하고, 사용자(VM)에게는 엄청나게 큰 가상의 가짜 용량을 할당해 주어 스토리지 구매 비용을 극한으로 미루는 스토리지 사기(?) 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "Thin Provisioning", "Virtualization"]
----
++++
+title = "씬 프로비저닝 (Thin Provisioning)"
+date = 2026-03-20
+weight = 684
+description = "물리적인 하드디스크 용량이 부족함에도 불구하고, 사용자(VM)에게는 엄청나게 큰 가상의 가짜 용량을 할당해 주어 스토리지 구매 비용을 극한으로 미루는 스토리지 사기(?) 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "Thin Provisioning", "Virtualization"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 전통적인 디스크 할당(Thick Provisioning)은 사용자(VM)가 1TB를 달라고 하면, 실제로 1TB의 하드디스크 물리 공간을 즉시 깎아서 독점적으로 내어주었다. (엄청난 낭비 발생)

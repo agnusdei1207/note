@@ -1,11 +1,11 @@
----
-title: "부채널 공격 - 캐시 타이밍 공격 (Cache Timing Attack)"
-date: 2026-03-20
-weight: 774
-description: "CPU의 캐시(L1, L2, L3) 메모리 구조를 악용하여, 다른 프로그램(또는 커널)이 데이터를 읽고 쓰는 '시간의 차이'를 측정해 남의 비밀번호를 훔쳐내는 소프트웨어 기반 부채널 해킹"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "Side-channel Attack", "Cache"]
----
++++
+title = "부채널 공격 - 캐시 타이밍 공격 (Cache Timing Attack)"
+date = 2026-03-20
+weight = 774
+description = "CPU의 캐시(L1, L2, L3) 메모리 구조를 악용하여, 다른 프로그램(또는 커널)이 데이터를 읽고 쓰는 '시간의 차이'를 측정해 남의 비밀번호를 훔쳐내는 소프트웨어 기반 부채널 해킹"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "Side-channel Attack", "Cache"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. CPU는 속도를 높이기 위해, 방금 쓴 데이터는 매우 빠른 **캐시(Cache)**에 남겨두고, 안 쓴 데이터는 느린 **램(RAM)**에 둔다.

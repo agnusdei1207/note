@@ -1,11 +1,11 @@
----
-title: "비휘발성 메모리 마모 평준화 (Wear Leveling)"
-date: 2026-03-20
-weight: 526
-description: "SSD(NAND 플래시)나 SCM 등 비휘발성 메모리가 가진 '제한된 쓰기 수명'을 극복하기 위해 데이터를 칩 전체에 골고루 분산하여 기록하는 수명 연장 알고리즘"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "SSD", "Wear Leveling"]
----
++++
+title = "비휘발성 메모리 마모 평준화 (Wear Leveling)"
+date = 2026-03-20
+weight = 526
+description = "SSD(NAND 플래시)나 SCM 등 비휘발성 메모리가 가진 '제한된 쓰기 수명'을 극복하기 위해 데이터를 칩 전체에 골고루 분산하여 기록하는 수명 연장 알고리즘"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "SSD", "Wear Leveling"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. NAND 플래시(SSD)나 PRAM 같은 비휘발성 메모리는 데이터를 기록할 때마다 절연막(산화막)에 고전압의 전기적 충격을 주므로, 한 셀당 **지울 수 있는 횟수(P/E Cycle, 보통 수천 번)가 정해져 있는 시한부 생명**을 가진다.

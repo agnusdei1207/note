@@ -1,11 +1,11 @@
----
-title: "Erasure Coding (삭제 코딩 / 이레이저 코딩) 하드웨어 연산"
-date: 2026-03-20
-weight: 681
-description: "데이터를 3번 무식하게 복사하는 방식의 막대한 용량 낭비를 막기 위해, 고등 수학(갈루아 체)을 이용해 원본을 쪼개고 복구 공식을 섞어서 저장하는 궁극의 스토리지 공간 절약 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "Erasure Coding", "Hardware Accelerator"]
----
++++
+title = "Erasure Coding (삭제 코딩 / 이레이저 코딩) 하드웨어 연산"
+date = 2026-03-20
+weight = 681
+description = "데이터를 3번 무식하게 복사하는 방식의 막대한 용량 낭비를 막기 위해, 고등 수학(갈루아 체)을 이용해 원본을 쪼개고 복구 공식을 섞어서 저장하는 궁극의 스토리지 공간 절약 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "Erasure Coding", "Hardware Accelerator"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 앞 장의 HDFS(하둡)나 Ceph 등은 고장을 대비해 데이터를 무조건 3배(3x Replication)로 뻥튀기하여 저장했다. 이는 10PB를 저장하려면 물리 디스크를 30PB나 사야 하는 **엄청난 비용 낭비(Overhead 200%)**를 유발한다.

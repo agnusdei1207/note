@@ -1,11 +1,11 @@
----
-title: "서버 랙 PDU (Power Distribution Unit)"
-date: 2026-03-20
-weight: 651
-description: "데이터센터의 거대한 캐비닛(Rack) 안에 꽂혀 있는 수십 대의 서버에게 전기를 분배해주고, 지능적으로 전력 소모량을 모니터링하며 원격 제어하는 스마트 멀티탭"
-taxonomy:
-    tags: ["Computer Architecture", "Data Center", "Hardware", "PDU", "Power Management"]
----
++++
+title = "서버 랙 PDU (Power Distribution Unit)"
+date = 2026-03-20
+weight = 651
+description = "데이터센터의 거대한 캐비닛(Rack) 안에 꽂혀 있는 수십 대의 서버에게 전기를 분배해주고, 지능적으로 전력 소모량을 모니터링하며 원격 제어하는 스마트 멀티탭"
+taxonomy =  ""
+tags = ["Computer Architecture", "Data Center", "Hardware", "PDU", "Power Management"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 일반 가정의 PC는 벽 콘센트에 전원 선을 바로 꽂지만, 데이터센터의 랙(Rack)에 꽂힌 40대의 서버를 모두 벽에 꽂을 수는 없다. 그래서 랙 기둥에 길쭉하게 달려있는 **산업용 거대 멀티탭이 PDU(Power Distribution Unit)**다.

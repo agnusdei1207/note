@@ -1,11 +1,11 @@
----
-title: "비동기 버스 핸드셰이크 프로토콜 (Asynchronous Bus Handshaking)"
-date: 2026-03-20
-weight: 564
-description: "서로 다른 클럭 속도를 가진 장치들이 공통의 클럭 없이 완벽하게 데이터를 주고받기 위해 신호를 상호 교환(Handshake)하는 통신 규약"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "System Bus", "Communication"]
----
++++
+title = "비동기 버스 핸드셰이크 프로토콜 (Asynchronous Bus Handshaking)"
+date = 2026-03-20
+weight = 564
+description = "서로 다른 클럭 속도를 가진 장치들이 공통의 클럭 없이 완벽하게 데이터를 주고받기 위해 신호를 상호 교환(Handshake)하는 통신 규약"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "System Bus", "Communication"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. CPU처럼 5GHz로 엄청나게 빠르게 도는 칩과, USB나 하드디스크처럼 느리게 도는 칩이 통신할 때 하나의 시계(클럭)로 속도를 맞추려 하면(동기식 버스) 가장 느린 장치에 속도가 하향 평준화되는 문제가 발생한다.

@@ -1,11 +1,11 @@
----
-title: "EDAC (Error Detection and Correction)"
-date: 2026-03-20
-weight: 718
-description: "리눅스 커널이 하드웨어(CPU, RAM, PCIe)에서 뿜어내는 ECC(오류 정정) 로그를 수집하여, 부품의 노후화와 고장 징후를 관리자에게 보고하는 소프트웨어 서브시스템"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Reliability", "Linux", "ECC", "EDAC"]
----
++++
+title = "EDAC (Error Detection and Correction)"
+date = 2026-03-20
+weight = 718
+description = "리눅스 커널이 하드웨어(CPU, RAM, PCIe)에서 뿜어내는 ECC(오류 정정) 로그를 수집하여, 부품의 노후화와 고장 징후를 관리자에게 보고하는 소프트웨어 서브시스템"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Reliability", "Linux", "ECC", "EDAC"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 하드웨어의 ECC(오류 정정 부호)나 PCIe AER 기능은 에러를 발견하면 1나노초 만에 하드웨어 레벨에서 조용히 고쳐버린다.

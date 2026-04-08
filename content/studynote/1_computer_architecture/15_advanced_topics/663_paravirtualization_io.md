@@ -1,11 +1,11 @@
----
-title: "전가상화 (Full Virtualization) I/O vs 반가상화 (Paravirtualization) I/O"
-date: 2026-03-20
-weight: 663
-description: "가상 머신(VM)이 네트워크나 디스크 같은 외부 장치(I/O)와 통신할 때, 하드웨어를 완벽히 흉내 내는 전가상화와, OS를 개조하여 효율을 높인 반가상화의 차이"
-taxonomy:
-    tags: ["Computer Architecture", "Virtualization", "I/O", "Hypervisor"]
----
++++
+title = "전가상화 (Full Virtualization) I/O vs 반가상화 (Paravirtualization) I/O"
+date = 2026-03-20
+weight = 663
+description = "가상 머신(VM)이 네트워크나 디스크 같은 외부 장치(I/O)와 통신할 때, 하드웨어를 완벽히 흉내 내는 전가상화와, OS를 개조하여 효율을 높인 반가상화의 차이"
+taxonomy =  ""
+tags = ["Computer Architecture", "Virtualization", "I/O", "Hypervisor"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 가상 머신(VM)에서 랜카드나 하드디스크를 쓸 때, 하이퍼바이저가 "네가 쓰는 랜카드는 진짜 리얼텍(Realtek) 구형 랜카드야"라고 완벽하게 속여 흉내(Emulation) 내는 방식을 **전가상화(Full Virtualization) I/O**라고 한다.

@@ -1,11 +1,11 @@
----
-title: "영(Zero) 데이터 건너뛰기 로직 (Zero-skipping)"
-date: 2026-03-20
-weight: 585
-description: "캐시나 메모리에 기록되는 값이 0일 때, 불필요한 스위칭 전력 소모나 캐시 오염을 막기 위해 0이라는 값 자체의 기록/연산을 아예 건너뛰는 초절전 하드웨어 설계"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Power Management", "Cache", "Optimization"]
----
++++
+title = "영(Zero) 데이터 건너뛰기 로직 (Zero-skipping)"
+date = 2026-03-20
+weight = 585
+description = "캐시나 메모리에 기록되는 값이 0일 때, 불필요한 스위칭 전력 소모나 캐시 오염을 막기 위해 0이라는 값 자체의 기록/연산을 아예 건너뛰는 초절전 하드웨어 설계"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Power Management", "Cache", "Optimization"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 일반적인 컴퓨터 프로그램과 데이터 배열에는 **아무 의미 없는 `0(Zero)` 값**이 엄청나게 많이 섞여 있다 (버퍼 초기화, 빈 공간 등).

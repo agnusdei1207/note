@@ -1,11 +1,11 @@
----
-title: "중첩 페이지 테이블 (Nested Page Table, NPT) / 확장 페이지 테이블 (EPT)"
-date: 2026-03-20
-weight: 660
-description: "가상 머신(VM) 환경에서 2번 번역해야 하는 메모리 주소의 비효율성을 극복하기 위해, CPU 하드웨어 MMU 내부에 2차원 번역기를 달아 속도를 극대화한 메모리 가상화 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Virtualization", "Memory Management", "EPT", "NPT"]
----
++++
+title = "중첩 페이지 테이블 (Nested Page Table, NPT) / 확장 페이지 테이블 (EPT)"
+date = 2026-03-20
+weight = 660
+description = "가상 머신(VM) 환경에서 2번 번역해야 하는 메모리 주소의 비효율성을 극복하기 위해, CPU 하드웨어 MMU 내부에 2차원 번역기를 달아 속도를 극대화한 메모리 가상화 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Virtualization", "Memory Management", "EPT", "NPT"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 일반 PC는 프로그램 가상 주소 $\rightarrow$ 물리 주소(1번 번역)로 끝나지만, 가상 머신(VM)은 **[VM 안의 가상 주소 $\rightarrow$ VM의 가짜 물리 주소 $\rightarrow$ 진짜 서버의 물리 주소]**라는 2단계의 번역을 거쳐야 한다.

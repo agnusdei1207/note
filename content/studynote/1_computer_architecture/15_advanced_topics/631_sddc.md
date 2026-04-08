@@ -1,11 +1,11 @@
----
-title: "SDDC (Software Defined Data Center, 소프트웨어 정의 데이터센터)"
-date: 2026-03-20
-weight: 631
-description: "서버(컴퓨팅), 스토리지, 네트워크, 보안 등 데이터센터를 구성하는 모든 물리적 하드웨어 인프라를 가상화하여 순수 소프트웨어 코드로 자동 제어하는 궁극의 인프라 모델"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Data Center", "SDDC", "Cloud Computing"]
----
++++
+title = "SDDC (Software Defined Data Center, 소프트웨어 정의 데이터센터)"
+date = 2026-03-20
+weight = 631
+description = "서버(컴퓨팅), 스토리지, 네트워크, 보안 등 데이터센터를 구성하는 모든 물리적 하드웨어 인프라를 가상화하여 순수 소프트웨어 코드로 자동 제어하는 궁극의 인프라 모델"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Data Center", "SDDC", "Cloud Computing"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **SDDC (소프트웨어 정의 데이터센터)**는 특정 장비 하나를 가상화하는 수준을 넘어, **데이터센터라는 거대한 건물 전체의 통제권**을 물리적 쇠붙이(하드웨어)에서 소프트웨어 중앙 통제실로 100% 빼앗아 오는 패러다임이다.

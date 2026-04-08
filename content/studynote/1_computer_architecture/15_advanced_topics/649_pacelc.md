@@ -1,11 +1,11 @@
----
-title: "PACELC 정리 (PACELC Theorem)"
-date: 2026-03-20
-weight: 649
-description: "기존 CAP 정리가 '장애가 났을 때(P)'의 상황만 설명하는 한계를 넘어, '장애가 없을 때(E)' 평상시에도 지연 시간(L)과 일관성(C) 중 하나를 희생해야 한다는 것을 밝혀낸 현대 분산 시스템의 확장된 법칙"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Distributed System", "PACELC", "Database"]
----
++++
+title = "PACELC 정리 (PACELC Theorem)"
+date = 2026-03-20
+weight = 649
+description = "기존 CAP 정리가 '장애가 났을 때(P)'의 상황만 설명하는 한계를 넘어, '장애가 없을 때(E)' 평상시에도 지연 시간(L)과 일관성(C) 중 하나를 희생해야 한다는 것을 밝혀낸 현대 분산 시스템의 확장된 법칙"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Distributed System", "PACELC", "Database"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. CAP 정리는 "네트워크가 끊어졌을 때(P), 일관성(C)을 포기할래 가용성(A)을 포기할래?"라는 비상사태에 대한 딜레마다.

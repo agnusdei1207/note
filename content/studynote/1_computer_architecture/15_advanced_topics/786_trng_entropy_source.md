@@ -1,11 +1,11 @@
----
-title: "TRNG (True Random Number Generator) 엔트로피 소스"
-date: 2026-03-20
-weight: 786
-description: "결정론적인 기계인 컴퓨터가 절대 예측 불가능한 '진짜 난수(무작위 숫자)'를 만들기 위해, 자연계의 무질서함(Entropy)을 아날로그적으로 측정해 가져오는 하드웨어의 근원"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Cryptography", "Hardware", "TRNG", "Entropy"]
----
++++
+title = "TRNG (True Random Number Generator) 엔트로피 소스"
+date = 2026-03-20
+weight = 786
+description = "결정론적인 기계인 컴퓨터가 절대 예측 불가능한 '진짜 난수(무작위 숫자)'를 만들기 위해, 자연계의 무질서함(Entropy)을 아날로그적으로 측정해 가져오는 하드웨어의 근원"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Cryptography", "Hardware", "TRNG", "Entropy"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 앞서 배운 TRNG(진성 난수 생성기)가 암호화 키를 만들 때, 가장 중요한 것은 "얼마나 완벽하게 예측 불가능한가(무질서도, Entropy)?"이다. 이 무질서의 씨앗을 캐내는 곳을 **엔트로피 소스(Entropy Source)**라고 한다.

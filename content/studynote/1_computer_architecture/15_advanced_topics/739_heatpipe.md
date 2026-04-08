@@ -1,11 +1,11 @@
----
-title: "히트파이프 (Heatpipe)"
-date: 2026-03-20
-weight: 739
-description: "데스크탑 CPU와 그래픽카드 쿨러에 박혀있는 구리관으로, 베이퍼 체임버와 같은 기화/액화 원리를 1차원 선(Line) 형태로 구현하여 열을 방열핀으로 신속하게 옮겨주는 핵심 부품"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Hardware", "Thermal", "Heatpipe"]
----
++++
+title = "히트파이프 (Heatpipe)"
+date = 2026-03-20
+weight = 739
+description = "데스크탑 CPU와 그래픽카드 쿨러에 박혀있는 구리관으로, 베이퍼 체임버와 같은 기화/액화 원리를 1차원 선(Line) 형태로 구현하여 열을 방열핀으로 신속하게 옮겨주는 핵심 부품"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Hardware", "Thermal", "Heatpipe"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 이전 장의 '베이퍼 체임버'가 얇은 공간에서 열을 **2차원(면)으로 넓게 퍼뜨리는** 역할이라면, **히트파이프(Heatpipe)**는 좁은 칩에서 발생한 열을 멀리 떨어져 있는 거대한 방열판으로 **1차원(선)으로 길게 끌어다 나르는(이동)** 역할에 특화되어 있다.

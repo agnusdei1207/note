@@ -1,11 +1,11 @@
----
-title: "T-States (Throttling States)"
-date: 2026-03-20
-weight: 724
-description: "과거 클럭(Frequency)을 내릴 수 없던 시절, 강제로 클럭 신호를 중간중간 빼먹게(Modulation) 하여 온도를 억제하던 구형 시스템의 스로틀링 기법"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Power Management", "Throttling", "T-States"]
----
++++
+title = "T-States (Throttling States)"
+date = 2026-03-20
+weight = 724
+description = "과거 클럭(Frequency)을 내릴 수 없던 시절, 강제로 클럭 신호를 중간중간 빼먹게(Modulation) 하여 온도를 억제하던 구형 시스템의 스로틀링 기법"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Power Management", "Throttling", "T-States"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. ACPI 전력 관리 규격에는 C-State(수면), P-State(성능) 외에도 **T-State(스로틀링 상태)**라는 오래된 개념이 존재한다.

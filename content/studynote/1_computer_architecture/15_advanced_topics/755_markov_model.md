@@ -1,11 +1,11 @@
----
-title: "마르코프 모델 (Markov Model) 신뢰성 분석"
-date: 2026-03-20
-weight: 755
-description: "시스템이 고장 났다가 수리되어 다시 살아나는 복잡한 '상태 변화' 과정을 시간에 따른 확률(상태 전이도)로 계산해 내는 수학적 신뢰성 분석 기법"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Reliability", "Markov Model", "Math"]
----
++++
+title = "마르코프 모델 (Markov Model) 신뢰성 분석"
+date = 2026-03-20
+weight = 755
+description = "시스템이 고장 났다가 수리되어 다시 살아나는 복잡한 '상태 변화' 과정을 시간에 따른 확률(상태 전이도)로 계산해 내는 수학적 신뢰성 분석 기법"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Reliability", "Markov Model", "Math"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 앞서 배운 RBD(신뢰성 블록)나 FTA(결함 트리)는 "부품이 고장 나면 그걸로 끝이다"라는 정적인 분석이다. 하지만 실제 서버는 **고장이 나면 사람이 가서 뚝딱뚝딱 고쳐서 다시 쌩쌩하게 살려낸다(수리, Repair).**

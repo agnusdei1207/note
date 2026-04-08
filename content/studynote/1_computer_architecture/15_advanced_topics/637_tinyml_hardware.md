@@ -1,11 +1,11 @@
----
-title: "TinyML 하드웨어 제약 (Tiny Machine Learning)"
-date: 2026-03-20
-weight: 637
-description: "스마트폰이나 라즈베리 파이보다 훨씬 작고, 배터리 하나로 1년을 버텨야 하는 극단적인 초소형 마이크로컨트롤러(MCU)에서 인공지능을 구동하기 위한 하드웨어 설계의 한계점"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "AI Accelerator", "TinyML", "Embedded Systems"]
----
++++
+title = "TinyML 하드웨어 제약 (Tiny Machine Learning)"
+date = 2026-03-20
+weight = 637
+description = "스마트폰이나 라즈베리 파이보다 훨씬 작고, 배터리 하나로 1년을 버텨야 하는 극단적인 초소형 마이크로컨트롤러(MCU)에서 인공지능을 구동하기 위한 하드웨어 설계의 한계점"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "AI Accelerator", "TinyML", "Embedded Systems"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 일반적인 엣지 AI(스마트폰 NPU)조차 수 와트(W)의 전기를 소모한다. 반면 **TinyML**은 산불 감지 센서, 보청기처럼 배터리 교체 없이 수년간 버텨야 하는 기기에서 인공지능을 돌리는 것을 목표로 하므로 가용 전력이 **밀리와트(mW) 또는 마이크로와트($\mu W$) 수준**에 불과하다.

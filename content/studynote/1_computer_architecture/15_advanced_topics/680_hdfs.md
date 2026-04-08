@@ -1,11 +1,11 @@
----
-title: "HDFS (Hadoop Distributed File System)"
-date: 2026-03-20
-weight: 680
-description: "수천 대의 저렴한 컴퓨터를 연결하여 수 페타바이트(PB)의 빅데이터를 안전하게 보관하고, 데이터가 있는 곳으로 연산 코드(MapReduce)를 직접 보내 처리하는 하둡의 핵심 스토리지"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Big Data", "Hadoop", "HDFS", "Storage"]
----
++++
+title = "HDFS (Hadoop Distributed File System)"
+date = 2026-03-20
+weight = 680
+description = "수천 대의 저렴한 컴퓨터를 연결하여 수 페타바이트(PB)의 빅데이터를 안전하게 보관하고, 데이터가 있는 곳으로 연산 코드(MapReduce)를 직접 보내 처리하는 하둡의 핵심 스토리지"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Big Data", "Hadoop", "HDFS", "Storage"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 구글의 논문(GFS)에서 출발한 **HDFS**는 빅데이터 시대의 문을 연 전설적인 파일 시스템이다.

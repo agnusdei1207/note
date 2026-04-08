@@ -1,11 +1,11 @@
----
-title: "온디바이스 AI (On-Device AI) 하드웨어 제약"
-date: 2026-03-20
-weight: 635
-description: "스마트폰, 태블릿 등 사용자 기기 자체에서 거대 언어 모델(LLM)이나 생성형 AI를 오프라인으로 돌리기 위해 요구되는 메모리와 발열 관리의 극한적 한계점들"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "On-Device AI", "Hardware", "LLM"]
----
++++
+title = "온디바이스 AI (On-Device AI) 하드웨어 제약"
+date = 2026-03-20
+weight = 635
+description = "스마트폰, 태블릿 등 사용자 기기 자체에서 거대 언어 모델(LLM)이나 생성형 AI를 오프라인으로 돌리기 위해 요구되는 메모리와 발열 관리의 극한적 한계점들"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "On-Device AI", "Hardware", "LLM"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 이전 장의 '엣지 AI'가 얼굴 인식 같은 비교적 가벼운 AI 추론을 말한다면, 최근 화두인 **온디바이스 AI(On-Device AI)**는 챗GPT 같은 **수십억 개의 파라미터를 가진 거대 언어 모델(LLM)을 내 스마트폰에서 인터넷 없이 돌리는 것**을 말한다. (예: 갤럭시 AI)

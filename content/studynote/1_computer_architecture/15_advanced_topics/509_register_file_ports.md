@@ -1,11 +1,11 @@
----
-title: "레지스터 파일 포트 (Register File Ports)"
-date: 2026-03-20
-weight: 509
-description: "수퍼스칼라 코어에서 여러 연산 유닛이 동시에 레지스터에 접근할 수 있도록 하는 물리적인 데이터 입출력 통로(Port)의 개념과 설계 한계"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Superscalar", "Register File"]
----
++++
+title = "레지스터 파일 포트 (Register File Ports)"
+date = 2026-03-20
+weight = 509
+description = "수퍼스칼라 코어에서 여러 연산 유닛이 동시에 레지스터에 접근할 수 있도록 하는 물리적인 데이터 입출력 통로(Port)의 개념과 설계 한계"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Superscalar", "Register File"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **레지스터 파일(Register File)**은 CPU 내부에서 가장 빠른 저장 공간(SRAM 배열)으로, ALU가 계산을 하기 위해 데이터를 꺼내고(Read) 넣는(Write) 핵심 장소다.

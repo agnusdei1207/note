@@ -1,11 +1,11 @@
----
-title: "ZNS (Zoned Namespace) SSD 심화"
-date: 2026-03-20
-weight: 703
-description: "기존의 FTL이 짊어지던 가비지 컬렉션(GC)의 부담을 버리고, 데이터를 순차적으로만 기록하게 강제하여 데이터센터 SSD의 수명과 TCO(총소유비용)를 혁신적으로 개선한 NVMe 표준 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "NVMe", "ZNS", "Data Center"]
----
++++
+title = "ZNS (Zoned Namespace) SSD 심화"
+date = 2026-03-20
+weight = 703
+description = "기존의 FTL이 짊어지던 가비지 컬렉션(GC)의 부담을 버리고, 데이터를 순차적으로만 기록하게 강제하여 데이터센터 SSD의 수명과 TCO(총소유비용)를 혁신적으로 개선한 NVMe 표준 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "NVMe", "ZNS", "Data Center"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 일반적인 SSD는 무작위 쓰기(Random Write)를 처리하기 위해 내부적으로 더미 공간(Over-Provisioning)을 20% 이상 남겨두고, 끊임없이 조각 모음(GC)을 수행하느라 **수명 저하(Write Amplification)와 지연 시간 튐(Latency Spike)**이 발생한다.

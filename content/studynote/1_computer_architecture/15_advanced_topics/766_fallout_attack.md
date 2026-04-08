@@ -1,11 +1,11 @@
----
-title: "폴아웃 (Fallout) 공격"
-date: 2026-03-20
-weight: 766
-description: "MDS 공격의 또 다른 변종으로, CPU가 데이터를 메모리에 쓰기 위해 임시로 담아두는 'Store Buffer'의 허점을 찔러 커널이나 다른 스레드의 비밀을 훔치는 기법"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "Fallout", "MDS"]
----
++++
+title = "폴아웃 (Fallout) 공격"
+date = 2026-03-20
+weight = 766
+description = "MDS 공격의 또 다른 변종으로, CPU가 데이터를 메모리에 쓰기 위해 임시로 담아두는 'Store Buffer'의 허점을 찔러 커널이나 다른 스레드의 비밀을 훔치는 기법"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "Fallout", "MDS"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 앞 장의 RIDL이 데이터를 '읽을 때(Load)' 쓰는 LFB 버퍼를 턴 것이라면, **폴아웃(Fallout)** 공격은 CPU가 데이터를 '쓸 때(Store)' 잠시 놔두는 **스토어 버퍼(Store Buffer)**를 털어먹는 해킹 기법이다.

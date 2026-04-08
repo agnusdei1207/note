@@ -1,11 +1,11 @@
----
-title: "IPMI (Intelligent Platform Management Interface)"
-date: 2026-03-20
-weight: 709
-description: "서버의 운영체제가 완전히 죽어버렸거나 전원이 꺼져 있는 상태에서도, 원격으로 서버의 온도를 확인하고 전원을 강제로 껐다 켤 수 있게 해주는 데이터센터의 절대 반지 같은 하드웨어 통신 표준"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Infrastructure", "IPMI", "OOB"]
----
++++
+title = "IPMI (Intelligent Platform Management Interface)"
+date = 2026-03-20
+weight = 709
+description = "서버의 운영체제가 완전히 죽어버렸거나 전원이 꺼져 있는 상태에서도, 원격으로 서버의 온도를 확인하고 전원을 강제로 껐다 켤 수 있게 해주는 데이터센터의 절대 반지 같은 하드웨어 통신 표준"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Infrastructure", "IPMI", "OOB"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 평범한 PC는 윈도우(OS)가 뻗어버리면 무조건 사람이 걸어가서 전원 버튼을 손으로 눌러야(Hard Reset) 한다.

@@ -1,11 +1,11 @@
----
-title: "이머전 쿨링 (Immersion Cooling, 액침 냉각)"
-date: 2026-03-20
-weight: 602
-description: "서버 전체를 전기가 통하지 않는 특수 냉매 용액에 푹 담가버려, 공랭식이나 수랭식 파이프의 한계를 뛰어넘는 궁극의 데이터센터 냉각 솔루션"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Hardware", "Cooling", "Immersion Cooling"]
----
++++
+title = "이머전 쿨링 (Immersion Cooling, 액침 냉각)"
+date = 2026-03-20
+weight = 602
+description = "서버 전체를 전기가 통하지 않는 특수 냉매 용액에 푹 담가버려, 공랭식이나 수랭식 파이프의 한계를 뛰어넘는 궁극의 데이터센터 냉각 솔루션"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Hardware", "Cooling", "Immersion Cooling"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 이전 챕터의 D2C(수랭식 파이프)는 호스 연결부에서 1방울의 누수만 발생해도 서버 전체가 숏트(합선)로 타버리는 치명적인 약점이 있다.

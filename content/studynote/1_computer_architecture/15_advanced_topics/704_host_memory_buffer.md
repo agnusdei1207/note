@@ -1,11 +1,11 @@
----
-title: "호스트 메모리 버퍼 (HMB, Host Memory Buffer)"
-date: 2026-03-20
-weight: 704
-description: "DRAM이 없어 속도가 느려지는 저가형 SSD(DRAM-less SSD)의 한계를 극복하기 위해, 컴퓨터 메인보드에 꽂혀 있는 거대한 시스템 RAM의 일부를 SSD가 빌려 쓰는 NVMe 표준 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "NVMe", "HMB", "SSD"]
----
++++
+title = "호스트 메모리 버퍼 (HMB, Host Memory Buffer)"
+date = 2026-03-20
+weight = 704
+description = "DRAM이 없어 속도가 느려지는 저가형 SSD(DRAM-less SSD)의 한계를 극복하기 위해, 컴퓨터 메인보드에 꽂혀 있는 거대한 시스템 RAM의 일부를 SSD가 빌려 쓰는 NVMe 표준 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "NVMe", "HMB", "SSD"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. SSD가 제 속도를 내려면 "어떤 데이터가 몇 번 물리 블록에 있는지"를 기록한 거대한 번역 장부(Mapping Table)를 SSD 칩 내부에 있는 **별도의 전용 DRAM(캐시)**에 올려두어야 한다.

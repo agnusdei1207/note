@@ -1,11 +1,11 @@
----
-title: "서버리스 컴퓨팅 컨테이너 분리 하드웨어 기술 (Serverless HW Isolation)"
-date: 2026-03-20
-weight: 620
-description: "서버리스(AWS Lambda 등) 환경에서 수만 명의 고객이 실행하는 1초짜리 단기 함수(Function)들이 서로 메모리를 훔쳐보지 못하도록, 초고속으로 켜지고 완벽히 격리되는 마이크로VM 하드웨어 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Cloud Computing", "Serverless", "Firecracker"]
----
++++
+title = "서버리스 컴퓨팅 컨테이너 분리 하드웨어 기술 (Serverless HW Isolation)"
+date = 2026-03-20
+weight = 620
+description = "서버리스(AWS Lambda 등) 환경에서 수만 명의 고객이 실행하는 1초짜리 단기 함수(Function)들이 서로 메모리를 훔쳐보지 못하도록, 초고속으로 켜지고 완벽히 격리되는 마이크로VM 하드웨어 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Cloud Computing", "Serverless", "Firecracker"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **서버리스(Serverless)** 환경(예: AWS Lambda)에서는 서버 한 대에 수천 명의 서로 다른 고객 코드가 단 몇 초(또는 밀리초)만 실행되었다가 사라진다.

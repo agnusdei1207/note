@@ -1,11 +1,11 @@
----
-title: "패키지 C-States (Package C-States)"
-date: 2026-03-20
-weight: 721
-description: "스마트폰과 노트북의 배터리를 아끼기 위해, CPU 코어뿐만 아니라 L3 캐시, 메모리 컨트롤러 등 CPU 칩(Package) 전체를 깊은 수면 상태로 빠뜨리는 궁극의 전원 관리 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Power Management", "C-States", "Intel"]
----
++++
+title = "패키지 C-States (Package C-States)"
+date = 2026-03-20
+weight = 721
+description = "스마트폰과 노트북의 배터리를 아끼기 위해, CPU 코어뿐만 아니라 L3 캐시, 메모리 컨트롤러 등 CPU 칩(Package) 전체를 깊은 수면 상태로 빠뜨리는 궁극의 전원 관리 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Power Management", "C-States", "Intel"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. CPU가 일하지 않을 때 전기를 아끼는 모드를 **C-State (Core State)**라고 한다. (C0는 일하는 중, C1~C7은 자는 중)

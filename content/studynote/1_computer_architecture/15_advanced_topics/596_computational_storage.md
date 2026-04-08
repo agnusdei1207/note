@@ -1,11 +1,11 @@
----
-title: "컴퓨테이셔널 스토리지 (Computational Storage)"
-date: 2026-03-20
-weight: 596
-description: "스마트 SSD와 같은 연산형 저장장치들을 표준화하고, OS가 이를 하나의 거대한 분산 연산 자원으로 인식하여 활용할 수 있게 하는 아키텍처 모델 및 산업 표준"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "SNIA", "Computational Storage"]
----
++++
+title = "컴퓨테이셔널 스토리지 (Computational Storage)"
+date = 2026-03-20
+weight = 596
+description = "스마트 SSD와 같은 연산형 저장장치들을 표준화하고, OS가 이를 하나의 거대한 분산 연산 자원으로 인식하여 활용할 수 있게 하는 아키텍처 모델 및 산업 표준"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "SNIA", "Computational Storage"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 앞 장의 '스마트 SSD'가 개별 제품을 지칭한다면, **컴퓨테이셔널 스토리지 (Computational Storage)**는 SNIA(글로벌 스토리지 네트워킹 산업 협회)가 주도하는 **'저장소에서 연산을 수행하는 구조' 전체를 아우르는 산업 표준 아키텍처**다.

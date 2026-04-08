@@ -1,11 +1,11 @@
----
-title: "비디오 코덱 하드웨어 가속 (H.265 / AV1)"
-date: 2026-03-20
-weight: 551
-description: "유튜브 4K 영상이나 넷플릭스 등 초고화질 비디오를 재생/녹화할 때 CPU의 과부하를 막기 위해, GPU 내부에 탑재된 비디오 인코딩/디코딩 전용 실리콘 블록"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "GPU", "Hardware Accelerator", "Video Codec"]
----
++++
+title = "비디오 코덱 하드웨어 가속 (H.265 / AV1)"
+date = 2026-03-20
+weight = 551
+description = "유튜브 4K 영상이나 넷플릭스 등 초고화질 비디오를 재생/녹화할 때 CPU의 과부하를 막기 위해, GPU 내부에 탑재된 비디오 인코딩/디코딩 전용 실리콘 블록"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "GPU", "Hardware Accelerator", "Video Codec"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 원본 4K 비디오는 용량이 상상을 초월하기 때문에 H.265(HEVC)나 AV1 같은 극도로 복잡한 수학적 알고리즘을 사용해 압축(인코딩)하여 전송한다.

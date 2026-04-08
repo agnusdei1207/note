@@ -1,11 +1,11 @@
----
-title: "NVMe 서브시스템 (NVMe Subsystem)"
-date: 2026-03-20
-weight: 701
-description: "물리적인 SSD 칩의 경계를 넘어, 여러 개의 컨트롤러, 낸드 칩, 네트워크 포트를 하나의 거대한 논리적 스토리지 몸체로 묶어주는 최상위 관리 단위"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "NVMe", "Subsystem"]
----
++++
+title = "NVMe 서브시스템 (NVMe Subsystem)"
+date = 2026-03-20
+weight = 701
+description = "물리적인 SSD 칩의 경계를 넘어, 여러 개의 컨트롤러, 낸드 칩, 네트워크 포트를 하나의 거대한 논리적 스토리지 몸체로 묶어주는 최상위 관리 단위"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "NVMe", "Subsystem"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. NVMe 생태계에서 가장 작은 단위가 쪼개진 방(Namespace), 중간이 문지기(Controller)라면, 이 모든 것을 아우르는 **가장 큰 집 전체를 NVMe 서브시스템(Subsystem)**이라고 부른다.

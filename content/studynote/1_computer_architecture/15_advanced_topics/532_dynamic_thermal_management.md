@@ -1,11 +1,11 @@
----
-title: "동적 써멀 관리 (DTM, Dynamic Thermal Management)"
-date: 2026-03-20
-weight: 532
-description: "칩 내부의 온도 센서 데이터를 실시간으로 수집하여 클럭, 전압, 작업 배치를 능동적으로 조절함으로써 발열로 인한 시스템 손상을 막는 종합 전력 관리 기법"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Thermal Management", "Power Management"]
----
++++
+title = "동적 써멀 관리 (DTM, Dynamic Thermal Management)"
+date = 2026-03-20
+weight = 532
+description = "칩 내부의 온도 센서 데이터를 실시간으로 수집하여 클럭, 전압, 작업 배치를 능동적으로 조절함으로써 발열로 인한 시스템 손상을 막는 종합 전력 관리 기법"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Thermal Management", "Power Management"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거에는 최고 온도를 가정하여 무식하게 거대한 쿨링팬을 다는 '정적' 방식을 썼지만, 모바일과 고밀도 서버 환경에서는 불가능해졌다.

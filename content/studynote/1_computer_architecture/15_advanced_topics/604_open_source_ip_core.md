@@ -1,11 +1,11 @@
----
-title: "오픈 소스 IP 코어 (Open-source IP Core)"
-date: 2026-03-20
-weight: 604
-description: "특정 기업이 독점하던 반도체 설계 도면(IP)을 소프트웨어 오픈 소스처럼 무료로 공개하여, 누구나 자유롭게 CPU나 가속기를 설계하고 찍어낼 수 있게 하는 하드웨어 민주화 운동"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Hardware", "RISC-V", "Open Source"]
----
++++
+title = "오픈 소스 IP 코어 (Open-source IP Core)"
+date = 2026-03-20
+weight = 604
+description = "특정 기업이 독점하던 반도체 설계 도면(IP)을 소프트웨어 오픈 소스처럼 무료로 공개하여, 누구나 자유롭게 CPU나 가속기를 설계하고 찍어낼 수 있게 하는 하드웨어 민주화 운동"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Hardware", "RISC-V", "Open Source"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 전통적으로 CPU나 반도체를 만들려면 ARM이나 Intel 같은 회사에 수십억 원의 로열티를 내고 **'반도체 설계 도면(IP Core)'**을 빌려와야만 했다.

@@ -1,11 +1,11 @@
----
-title: "소프트 에러 복구 매커니즘 (Soft Error Recovery Mechanism)"
-date: 2026-03-20
-weight: 556
-description: "우주선이나 방사선으로 인해 발생한 일시적인 하드웨어 오류(Soft Error)를 시스템 중단 없이 감지하고 복구하는 아키텍처 수준의 종합 방어 체계"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Reliability", "Soft Error", "Fault Tolerance"]
----
++++
+title = "소프트 에러 복구 매커니즘 (Soft Error Recovery Mechanism)"
+date = 2026-03-20
+weight = 556
+description = "우주선이나 방사선으로 인해 발생한 일시적인 하드웨어 오류(Soft Error)를 시스템 중단 없이 감지하고 복구하는 아키텍처 수준의 종합 방어 체계"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Reliability", "Soft Error", "Fault Tolerance"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 앞서 다룬 ECC 회로나 메모리 스크러빙은 '메모리(RAM)'에 발생한 소프트 에러를 막는 기술이다. 하지만 에러는 메모리가 아닌 **CPU 내부의 레지스터, 캐시, 버스**에서도 똑같이 발생한다.

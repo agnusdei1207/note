@@ -1,11 +1,11 @@
----
-title: "블록체인 노드 스토리지 병목 현상 (Blockchain Storage Bottleneck)"
-date: 2026-03-20
-weight: 646
-description: "비트코인이나 이더리움 같은 퍼블릭 블록체인의 원장을 저장하는 노드 서버가 겪게 되는 극단적인 무작위 읽기/쓰기 부하와 이를 막기 위한 스토리지 하드웨어 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Blockchain", "Storage", "Performance"]
----
++++
+title = "블록체인 노드 스토리지 병목 현상 (Blockchain Storage Bottleneck)"
+date = 2026-03-20
+weight = 646
+description = "비트코인이나 이더리움 같은 퍼블릭 블록체인의 원장을 저장하는 노드 서버가 겪게 되는 극단적인 무작위 읽기/쓰기 부하와 이를 막기 위한 스토리지 하드웨어 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Blockchain", "Storage", "Performance"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 블록체인은 단순한 파일 저장소가 아니라, 과거의 모든 거래 내역과 현재 모든 사용자의 잔고 상태(State)를 거대한 머클 트리(Merkle Trie) 구조로 엮어놓은 **극한의 복잡한 데이터베이스**다.

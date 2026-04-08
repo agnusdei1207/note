@@ -1,11 +1,11 @@
----
-title: "하이퍼바이저 트랩 (Hypervisor Trap)"
-date: 2026-03-20
-weight: 530
-description: "가상 머신(Guest OS)이 시스템을 통제할 수 있는 특권 명령어를 실행하려 할 때, 이를 가로채어 하이퍼바이저로 제어권을 넘기는 메커니즘"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Virtualization", "Hypervisor"]
----
++++
+title = "하이퍼바이저 트랩 (Hypervisor Trap)"
+date = 2026-03-20
+weight = 530
+description = "가상 머신(Guest OS)이 시스템을 통제할 수 있는 특권 명령어를 실행하려 할 때, 이를 가로채어 하이퍼바이저로 제어권을 넘기는 메커니즘"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Virtualization", "Hypervisor"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 운영체제는 하드웨어를 직접 제어하기 위해 '특권 명령어(Privileged Instruction)'를 사용하지만, 가상 머신(VM) 환경에서는 여러 OS가 동시에 하드웨어를 제어하려 하면 충돌이 일어난다.

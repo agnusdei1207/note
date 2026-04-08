@@ -1,11 +1,11 @@
----
-title: "스마트 팩토리 엣지 게이트웨이 하드웨어"
-date: 2026-03-20
-weight: 550
-description: "수십 년 된 구형 공장 설비(OT)의 아날로그 신호를 최신 IT 네트워크(클라우드)로 변환해 주고 보안을 책임지는 산업용 필수 중계 장비"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Edge Computing", "IoT", "Smart Factory"]
----
++++
+title = "스마트 팩토리 엣지 게이트웨이 하드웨어"
+date = 2026-03-20
+weight = 550
+description = "수십 년 된 구형 공장 설비(OT)의 아날로그 신호를 최신 IT 네트워크(클라우드)로 변환해 주고 보안을 책임지는 산업용 필수 중계 장비"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Edge Computing", "IoT", "Smart Factory"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 수십 년 된 공장 기계들(OT, 운영 기술)은 인터넷(IT)과 연결할 수 없는 자신들만의 폐쇄적인 아날로그나 구형 통신 규격(RS-232, Modbus 등)을 사용한다.

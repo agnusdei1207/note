@@ -1,11 +1,11 @@
----
-title: "다중 스트림 쓰기 (Multi-stream Write)"
-date: 2026-03-20
-weight: 702
-description: "수명이 다른 데이터들이 SSD 내부의 같은 블록에 뒤섞여 저장되는 것을 막기 위해, 데이터의 성격(Stream)에 따라 물리적 저장 위치를 분류하여 SSD의 수명과 속도를 획기적으로 개선하는 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "SSD", "Flash Memory", "Optimization"]
----
++++
+title = "다중 스트림 쓰기 (Multi-stream Write)"
+date = 2026-03-20
+weight = 702
+description = "수명이 다른 데이터들이 SSD 내부의 같은 블록에 뒤섞여 저장되는 것을 막기 위해, 데이터의 성격(Stream)에 따라 물리적 저장 위치를 분류하여 SSD의 수명과 속도를 획기적으로 개선하는 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "SSD", "Flash Memory", "Optimization"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 일반적인 SSD는 OS가 던지는 데이터의 성격(수명)을 전혀 모른 채 빈 공간이 보이는 대로 아무렇게나 뒤섞어 쓴다(Mixed IO).

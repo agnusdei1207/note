@@ -1,11 +1,11 @@
----
-title: "데이터센터 PUE (Power Usage Effectiveness)"
-date: 2026-03-20
-weight: 623
-description: "데이터센터가 소비하는 총 전력 중에서 실제 IT 장비(서버)가 순수하게 사용하는 전력의 비율을 나타내는 글로벌 에너지 효율 지표"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Data Center", "PUE", "Power Management"]
----
++++
+title = "데이터센터 PUE (Power Usage Effectiveness)"
+date = 2026-03-20
+weight = 623
+description = "데이터센터가 소비하는 총 전력 중에서 실제 IT 장비(서버)가 순수하게 사용하는 전력의 비율을 나타내는 글로벌 에너지 효율 지표"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Data Center", "PUE", "Power Management"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 하드웨어 성능이 좋아질수록 데이터센터는 엄청난 전기를 먹는 하마가 된다. 이때 전기가 모두 서버 연산에 쓰이는 것이 아니라, **서버 열을 식히는 에어컨(냉각)과 조명 등에 막대한 전력이 버려진다.**

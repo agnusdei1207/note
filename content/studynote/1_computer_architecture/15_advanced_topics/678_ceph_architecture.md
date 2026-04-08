@@ -1,11 +1,11 @@
----
-title: "Ceph 스토리지 아키텍처"
-date: 2026-03-20
-weight: 678
-description: "서버 수만 대의 디스크를 묶어 중앙 서버 없이 수학적 알고리즘(CRUSH)만으로 데이터를 완벽하게 분산 저장하고 복구하는 오픈소스 소프트웨어 정의 스토리지(SDS)의 제왕"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "Ceph", "SDS", "Distributed System"]
----
++++
+title = "Ceph 스토리지 아키텍처"
+date = 2026-03-20
+weight = 678
+description = "서버 수만 대의 디스크를 묶어 중앙 서버 없이 수학적 알고리즘(CRUSH)만으로 데이터를 완벽하게 분산 저장하고 복구하는 오픈소스 소프트웨어 정의 스토리지(SDS)의 제왕"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "Ceph", "SDS", "Distributed System"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거의 스토리지(SAN/NAS) 시스템은 무조건 중앙에 '마스터 노드'나 '메타데이터 서버'를 두어 파일의 위치를 장부에 적었다. 하지만 서버가 1만 대가 넘어가면 이 중앙 서버 자체가 끔찍한 병목이 된다.

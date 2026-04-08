@@ -1,11 +1,11 @@
----
-title: "옵저버빌리티 (Observability) HW 텔레메트리"
-date: 2026-03-20
-weight: 642
-description: "시스템의 단순한 모니터링을 넘어, 하드웨어 내부에서 발생하는 모든 미세한 이벤트와 지연(Latency)을 마이크로초 단위로 추적하여 외부로 쏘아주는(Telemetry) 관측 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Observability", "Telemetry", "Data Center"]
----
++++
+title = "옵저버빌리티 (Observability) HW 텔레메트리"
+date = 2026-03-20
+weight = 642
+description = "시스템의 단순한 모니터링을 넘어, 하드웨어 내부에서 발생하는 모든 미세한 이벤트와 지연(Latency)을 마이크로초 단위로 추적하여 외부로 쏘아주는(Telemetry) 관측 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Observability", "Telemetry", "Data Center"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거의 모니터링은 "CPU 점유율이 80%네, 핑(Ping)이 10ms네" 수준의 겉핥기였다면, 현대 클라우드의 **옵저버빌리티(Observability, 관측 가능성)**는 "어떤 패킷이 3번 스위치를 통과할 때 정확히 1.2$\mu s$의 병목이 생겼다"를 투시하는 기술이다.

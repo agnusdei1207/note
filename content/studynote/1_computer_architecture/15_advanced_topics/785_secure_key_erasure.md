@@ -1,11 +1,11 @@
----
-title: "보안 키 소거 (Secure Key Erasure)"
-date: 2026-03-20
-weight: 785
-description: "스토리지(SSD/HDD) 전체를 수십 시간 동안 포맷(Format)하는 대신, 데이터를 묶어두고 있는 마스터 암호 키(Master Key) 딱 1개만 파괴하여 테라바이트급 데이터를 1초 만에 영구적인 쓰레기로 만들어버리는 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "Security", "SSD", "Crypto Erase"]
----
++++
+title = "보안 키 소거 (Secure Key Erasure)"
+date = 2026-03-20
+weight = 785
+description = "스토리지(SSD/HDD) 전체를 수십 시간 동안 포맷(Format)하는 대신, 데이터를 묶어두고 있는 마스터 암호 키(Master Key) 딱 1개만 파괴하여 테라바이트급 데이터를 1초 만에 영구적인 쓰레기로 만들어버리는 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "Security", "SSD", "Crypto Erase"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 데이터센터에서 다 쓴 하드디스크(HDD/SSD)를 중고로 팔거나 폐기할 때, 해커가 복구하지 못하도록 `0`으로 가득 덮어쓰는 작업(Wipe)을 하면 10TB 디스크 기준 며칠이 꼬박 걸리며 디스크 수명도 엄청나게 깎인다.

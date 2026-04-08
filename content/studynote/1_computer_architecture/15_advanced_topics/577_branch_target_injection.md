@@ -1,11 +1,11 @@
----
-title: "분기 목표 주입 (Branch Target Injection / Spectre v2)"
-date: 2026-03-20
-weight: 577
-description: "스펙터(Spectre) 공격의 한 형태로, 해커가 분기 예측기(BTB)를 오염시켜 CPU가 악성 코드가 있는 엉뚱한 주소로 추측 실행(Speculative Execution)을 하도록 유도하는 해킹 기법"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "Spectre", "Branch Prediction"]
----
++++
+title = "분기 목표 주입 (Branch Target Injection / Spectre v2)"
+date = 2026-03-20
+weight = 577
+description = "스펙터(Spectre) 공격의 한 형태로, 해커가 분기 예측기(BTB)를 오염시켜 CPU가 악성 코드가 있는 엉뚱한 주소로 추측 실행(Speculative Execution)을 하도록 유도하는 해킹 기법"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "Spectre", "Branch Prediction"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. CPU 내부에 있는 **BTB (Branch Target Buffer)**는 분기문(`Jump` 등)이 다음에 어디로 뛸지 미리 기억해두는 이정표(장부) 역할을 한다.

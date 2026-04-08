@@ -1,11 +1,11 @@
----
-title: "Flush+Reload 기법"
-date: 2026-03-20
-weight: 776
-description: "해커와 피해자가 '공유 라이브러리(Shared Memory)'를 같이 쓸 때, 해커가 특정 메모리 주소를 캐시에서 강제로 쫓아낸(Flush) 뒤 다시 읽어보는(Reload) 방식으로 가장 높은 정확도를 자랑하는 캐시 타이밍 공격"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "Side-channel Attack", "Cache", "Flush+Reload"]
----
++++
+title = "Flush+Reload 기법"
+date = 2026-03-20
+weight = 776
+description = "해커와 피해자가 '공유 라이브러리(Shared Memory)'를 같이 쓸 때, 해커가 특정 메모리 주소를 캐시에서 강제로 쫓아낸(Flush) 뒤 다시 읽어보는(Reload) 방식으로 가장 높은 정확도를 자랑하는 캐시 타이밍 공격"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "Side-channel Attack", "Cache", "Flush+Reload"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 앞 장의 Prime+Probe가 넓은 바다에서 그물을 치는 방식이라면, **Flush+Reload**는 해커와 피해자가 **같은 파일(예: `libc.so` 같은 리눅스 공유 라이브러리)**을 메모리에 올려놓고 쓸 때 사용하는 정밀 저격수(Sniper) 같은 방식이다.

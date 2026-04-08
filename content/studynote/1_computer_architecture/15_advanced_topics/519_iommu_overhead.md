@@ -1,11 +1,11 @@
----
-title: "IOMMU 성능 오버헤드"
-date: 2026-03-20
-weight: 519
-description: "주변기기(PCIe, 네트워크 카드 등)의 안전한 가상 메모리 접근을 돕는 IOMMU가 초고속 I/O 환경에서 유발하는 병목 현상과 해결책"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "IOMMU", "Virtualization", "PCIe"]
----
++++
+title = "IOMMU 성능 오버헤드"
+date = 2026-03-20
+weight = 519
+description = "주변기기(PCIe, 네트워크 카드 등)의 안전한 가상 메모리 접근을 돕는 IOMMU가 초고속 I/O 환경에서 유발하는 병목 현상과 해결책"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "IOMMU", "Virtualization", "PCIe"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. CPU가 가상 주소를 변환하기 위해 MMU(Memory Management Unit)를 쓰듯, 네트워크 카드(NIC)나 그래픽카드 같은 주변기기도 메모리에 직접 접근(DMA)할 때 주소를 변환하고 권한을 검사하기 위해 **IOMMU (Input/Output MMU)**를 반드시 거쳐야 한다.

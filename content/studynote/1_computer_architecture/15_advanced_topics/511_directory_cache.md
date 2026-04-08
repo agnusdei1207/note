@@ -1,11 +1,11 @@
----
-title: "디렉터리 캐시 (Directory-based Cache Coherence)"
-date: 2026-03-20
-weight: 511
-description: "코어 수가 수십 개 이상인 매니코어 시스템에서 브로드캐스트의 낭비를 막고 중앙 장부(Directory)를 통해 캐시 일관성을 유지하는 프로토콜"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Cache Coherence", "Directory", "Multicore"]
----
++++
+title = "디렉터리 캐시 (Directory-based Cache Coherence)"
+date = 2026-03-20
+weight = 511
+description = "코어 수가 수십 개 이상인 매니코어 시스템에서 브로드캐스트의 낭비를 막고 중앙 장부(Directory)를 통해 캐시 일관성을 유지하는 프로토콜"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Cache Coherence", "Directory", "Multicore"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **디렉터리 기반 캐시 일관성 (Directory-based Protocol)**은 수십~수백 개의 코어가 존재하는 시스템에서 스누핑(Snooping) 프로토콜의 병목을 해결하기 위해 고안된 방식이다.

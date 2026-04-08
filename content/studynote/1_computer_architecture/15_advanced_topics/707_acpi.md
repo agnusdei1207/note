@@ -1,11 +1,11 @@
----
-title: "ACPI (Advanced Configuration and Power Interface)"
-date: 2026-03-20
-weight: 707
-description: "노트북 뚜껑을 덮으면 절전 모드로 들어가고 온도가 오르면 쿨링팬을 돌리게 만드는, 하드웨어(전력/온도)와 운영체제(OS) 사이의 절대적인 표준 통신 규약"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Power Management", "ACPI", "OS"]
----
++++
+title = "ACPI (Advanced Configuration and Power Interface)"
+date = 2026-03-20
+weight = 707
+description = "노트북 뚜껑을 덮으면 절전 모드로 들어가고 온도가 오르면 쿨링팬을 돌리게 만드는, 하드웨어(전력/온도)와 운영체제(OS) 사이의 절대적인 표준 통신 규약"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Power Management", "ACPI", "OS"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거에는 절전 모드나 쿨링팬 속도 조절을 메인보드의 BIOS(하드웨어 펌웨어)가 독단적으로 결정하여, 운영체제(Windows)가 통제권을 가질 수 없어 프로그램이 꼬이는 일이 흔했다.

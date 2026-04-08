@@ -1,11 +1,11 @@
----
-title: "좀비로드 (ZombieLoad) 공격"
-date: 2026-03-20
-weight: 767
-description: "MDS(마이크로아키텍처 데이터 샘플링) 취약점의 완전체로, 칩 내부의 '채우기 버퍼(LFB)'가 에러로 멈춘 찰나에 발생하는 비순차 실행의 틈을 타 좀비처럼 남의 데이터를 빨아먹는 파괴적 해킹"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "ZombieLoad", "MDS"]
----
++++
+title = "좀비로드 (ZombieLoad) 공격"
+date = 2026-03-20
+weight = 767
+description = "MDS(마이크로아키텍처 데이터 샘플링) 취약점의 완전체로, 칩 내부의 '채우기 버퍼(LFB)'가 에러로 멈춘 찰나에 발생하는 비순차 실행의 틈을 타 좀비처럼 남의 데이터를 빨아먹는 파괴적 해킹"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "ZombieLoad", "MDS"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **좀비로드(ZombieLoad)**는 RIDL, Fallout과 같은 시기(2019년)에 발표된 MDS 취약점 삼대장 중 하나로, 하이퍼스레딩(SMT) 구조의 약점을 가장 악랄하게 후벼판 기술이다.

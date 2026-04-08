@@ -1,11 +1,11 @@
----
-title: "소프트웨어 정의 엑셀러레이터 (Software-Defined Accelerator)"
-date: 2026-03-20
-weight: 603
-description: "고정된 회로를 가진 하드웨어 칩의 한계를 벗어나, 소프트웨어 코드를 통해 칩의 내부 논리 구조를 실시간으로 재구성하여 원하는 가속기로 둔갑시키는 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "FPGA", "Hardware Accelerator", "Software-Defined"]
----
++++
+title = "소프트웨어 정의 엑셀러레이터 (Software-Defined Accelerator)"
+date = 2026-03-20
+weight = 603
+description = "고정된 회로를 가진 하드웨어 칩의 한계를 벗어나, 소프트웨어 코드를 통해 칩의 내부 논리 구조를 실시간으로 재구성하여 원하는 가속기로 둔갑시키는 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "FPGA", "Hardware Accelerator", "Software-Defined"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 일반적인 ASIC(주문형 반도체, 예: 비디오 인코더 칩)은 성능은 최고지만, 공장에서 **회로가 물리적으로 박제되어 나오기 때문에 새로운 알고리즘이 등장하면 고철 덩어리**가 된다.

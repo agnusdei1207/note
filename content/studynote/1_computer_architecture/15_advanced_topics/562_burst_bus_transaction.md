@@ -1,11 +1,11 @@
----
-title: "버스트 버스 트랜잭션 (Burst Bus Transaction)"
-date: 2026-03-20
-weight: 562
-description: "메모리에서 연속된 대량의 데이터를 읽고 쓸 때, 매번 주소를 보내는 오버헤드를 없애고 한 번의 주소 전송으로 여러 데이터를 연속으로 쏟아내는 고속 버스 전송 기법"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "System Bus", "Memory"]
----
++++
+title = "버스트 버스 트랜잭션 (Burst Bus Transaction)"
+date = 2026-03-20
+weight = 562
+description = "메모리에서 연속된 대량의 데이터를 읽고 쓸 때, 매번 주소를 보내는 오버헤드를 없애고 한 번의 주소 전송으로 여러 데이터를 연속으로 쏟아내는 고속 버스 전송 기법"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "System Bus", "Memory"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. CPU가 메모리에서 데이터를 가져올 때, 가장 시간을 많이 잡아먹는 과정은 **데이터를 가져오는 것 자체가 아니라 "몇 번 주소를 달라"고 요청(주소 버스 사용)하고 응답을 기다리는 시간**이다.

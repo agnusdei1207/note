@@ -1,11 +1,11 @@
----
-title: "NVMe 큐 쌍 (Queue Pairs) 아키텍처"
-date: 2026-03-20
-weight: 699
-description: "과거 하나의 좁은 문(큐)을 놓고 수백 개의 코어가 싸우던 AHCI/SATA의 병목을 부수기 위해, NVMe가 도입한 6만 4천 개의 거대한 병렬 고속도로(Queue) 시스템"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "NVMe", "Queue", "Parallel Processing"]
----
++++
+title = "NVMe 큐 쌍 (Queue Pairs) 아키텍처"
+date = 2026-03-20
+weight = 699
+description = "과거 하나의 좁은 문(큐)을 놓고 수백 개의 코어가 싸우던 AHCI/SATA의 병목을 부수기 위해, NVMe가 도입한 6만 4천 개의 거대한 병렬 고속도로(Queue) 시스템"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "NVMe", "Queue", "Parallel Processing"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거 하드디스크(HDD)를 위해 설계된 SATA(AHCI) 인터페이스는 **단 1개의 큐(대기열)**만 가지고 있었으며, 여기에 최대 32개의 명령어만 세워둘 수 있었다. 코어가 64개라도 입구가 1개뿐이라 심각한 병목이 일어났다.

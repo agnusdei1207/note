@@ -1,11 +1,11 @@
----
-title: "핫 데이터 (Hot Data) 캐싱"
-date: 2026-03-20
-weight: 675
-description: "스토리지나 데이터베이스에서 현재 사용자들에게 폭발적으로 읽히거나 쓰이고 있는 최우선 순위 데이터(Hot Data)를, 병목 없이 가장 빠른 메모리 계층(DRAM/SSD)에 상주시켜 응답 속도를 극한으로 끌어올리는 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Caching", "Hot Data", "Performance"]
----
++++
+title = "핫 데이터 (Hot Data) 캐싱"
+date = 2026-03-20
+weight = 675
+description = "스토리지나 데이터베이스에서 현재 사용자들에게 폭발적으로 읽히거나 쓰이고 있는 최우선 순위 데이터(Hot Data)를, 병목 없이 가장 빠른 메모리 계층(DRAM/SSD)에 상주시켜 응답 속도를 극한으로 끌어올리는 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Caching", "Hot Data", "Performance"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 세상의 모든 데이터는 똑같은 가치를 가지지 않는다. 전체 데이터의 80%는 1년에 한 번 읽힐까 말까 한 쓰레기(Cold Data)이며, **트래픽의 90%를 유발하는 것은 방금 올라온 최신 뉴스나 로그인 세션 같은 극소수의 핫 데이터(Hot Data)**다.

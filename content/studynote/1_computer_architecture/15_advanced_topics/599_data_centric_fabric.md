@@ -1,11 +1,11 @@
----
-title: "데이터 방향성 패브릭 (Data-centric Fabric)"
-date: 2026-03-20
-weight: 599
-description: "CPU 중심의 전통적인 구조에서 벗어나, 데이터가 있는 곳(메모리/스토리지)을 중심으로 모든 연산 자원(GPU, DPU, FPGA)이 거미줄처럼 연결되어 데이터를 공유하는 차세대 데이터센터 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Fabric", "Data-centric", "CXL"]
----
++++
+title = "데이터 방향성 패브릭 (Data-centric Fabric)"
+date = 2026-03-20
+weight = 599
+description = "CPU 중심의 전통적인 구조에서 벗어나, 데이터가 있는 곳(메모리/스토리지)을 중심으로 모든 연산 자원(GPU, DPU, FPGA)이 거미줄처럼 연결되어 데이터를 공유하는 차세대 데이터센터 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Fabric", "Data-centric", "CXL"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 전통적인 폰 노이만 아키텍처(CPU-Centric)는 무조건 메인 CPU가 모든 자원(메모리, 디스크, 네트워크)의 중심에 서서 허락하고 통제하는 제왕적 구조였다.

@@ -1,11 +1,11 @@
----
-title: "배스터브 곡선 (Bathtub Curve) 고장률"
-date: 2026-03-20
-weight: 756
-description: "기계나 반도체 부품이 시간에 따라 어떻게 늙고 병들어 고장 나는지를 보여주는, 욕조 모양을 닮은 시스템 신뢰성 공학의 가장 기본적이고 절대적인 그래프"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Reliability", "Bathtub Curve", "Maintenance"]
----
++++
+title = "배스터브 곡선 (Bathtub Curve) 고장률"
+date = 2026-03-20
+weight = 756
+description = "기계나 반도체 부품이 시간에 따라 어떻게 늙고 병들어 고장 나는지를 보여주는, 욕조 모양을 닮은 시스템 신뢰성 공학의 가장 기본적이고 절대적인 그래프"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Reliability", "Bathtub Curve", "Maintenance"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 서버 부품(HDD, RAM)은 평생 일정한 확률로 고장 나지 않는다. 사람의 인생처럼 유아기, 청년기, 노년기의 사망률 패턴이 완전히 다르다.

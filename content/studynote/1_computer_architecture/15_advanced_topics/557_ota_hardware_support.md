@@ -1,11 +1,11 @@
----
-title: "펌웨어 OTA 하드웨어 지원 (Firmware OTA Hardware Support)"
-date: 2026-03-20
-weight: 557
-description: "자동차나 IoT 기기가 작동을 멈추지 않고 안전하게 무선으로 펌웨어를 업데이트(OTA)할 수 있도록 지원하는 듀얼 뱅크 플래시(Dual-Bank Flash) 등의 하드웨어 구조"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Embedded Systems", "OTA", "Hardware"]
----
++++
+title = "펌웨어 OTA 하드웨어 지원 (Firmware OTA Hardware Support)"
+date = 2026-03-20
+weight = 557
+description = "자동차나 IoT 기기가 작동을 멈추지 않고 안전하게 무선으로 펌웨어를 업데이트(OTA)할 수 있도록 지원하는 듀얼 뱅크 플래시(Dual-Bank Flash) 등의 하드웨어 구조"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Embedded Systems", "OTA", "Hardware"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거에는 기기의 펌웨어를 업데이트하려면 서비스 센터에 가서 직접 케이블을 꽂아야 했지만, 이제는 테슬라처럼 **무선(OTA, Over-The-Air)**으로 소프트웨어를 고치고 기능을 추가하는 것이 기본이 되었다.

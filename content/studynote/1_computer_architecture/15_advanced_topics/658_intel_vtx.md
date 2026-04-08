@@ -1,11 +1,11 @@
----
-title: "Intel VT-x (Virtualization Technology)"
-date: 2026-03-20
-weight: 658
-description: "소프트웨어 에뮬레이션의 한계를 극복하고 가상 머신의 CPU 연산 속도를 물리적 하드웨어 수준(Native)으로 끌어올린 인텔의 1세대 하드웨어 가상화 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Virtualization", "Intel", "VT-x", "CPU"]
----
++++
+title = "Intel VT-x (Virtualization Technology)"
+date = 2026-03-20
+weight = 658
+description = "소프트웨어 에뮬레이션의 한계를 극복하고 가상 머신의 CPU 연산 속도를 물리적 하드웨어 수준(Native)으로 끌어올린 인텔의 1세대 하드웨어 가상화 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Virtualization", "Intel", "VT-x", "CPU"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거의 가상 머신(VirtualPC 등)은 Guest OS의 명령어를 하이퍼바이저가 한 줄 한 줄 소프트웨어로 번역(Binary Translation)해서 실행했기 때문에 성능이 끔찍하게 느렸다.

@@ -1,11 +1,11 @@
----
-title: "스토리지 네트워크 토폴로지 (FC-AL, FC-SW)"
-date: 2026-03-20
-weight: 695
-description: "서버와 스토리지 장비(SAN)를 연결할 때, 단순한 링 구조(FC-AL)부터 거대한 스위치 기반의 그물망 구조(FC-SW)까지 데이터센터 스토리지 망의 연결 형태"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "Network", "SAN", "Topology"]
----
++++
+title = "스토리지 네트워크 토폴로지 (FC-AL, FC-SW)"
+date = 2026-03-20
+weight = 695
+description = "서버와 스토리지 장비(SAN)를 연결할 때, 단순한 링 구조(FC-AL)부터 거대한 스위치 기반의 그물망 구조(FC-SW)까지 데이터센터 스토리지 망의 연결 형태"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "Network", "SAN", "Topology"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. SAN(Storage Area Network) 환경에서 서버와 스토리지를 파이버 채널(FC) 광케이블로 연결할 때, 선을 어떻게 엮느냐에 따라 트래픽 병목과 확장성이 완전히 달라진다.

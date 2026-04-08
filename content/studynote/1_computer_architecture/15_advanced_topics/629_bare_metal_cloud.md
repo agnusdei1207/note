@@ -1,11 +1,11 @@
----
-title: "베어메탈 클라우드 (Bare Metal Cloud)"
-date: 2026-03-20
-weight: 629
-description: "가상 머신(VM)과 하이퍼바이저의 오버헤드를 거부하고, 클라우드의 편리한 자동화 시스템을 통해 '순수 물리적 하드웨어 서버' 전체를 고객에게 1:1로 통째로 대여해 주는 서비스 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Cloud Computing", "Bare Metal", "Infrastructure"]
----
++++
+title = "베어메탈 클라우드 (Bare Metal Cloud)"
+date = 2026-03-20
+weight = 629
+description = "가상 머신(VM)과 하이퍼바이저의 오버헤드를 거부하고, 클라우드의 편리한 자동화 시스템을 통해 '순수 물리적 하드웨어 서버' 전체를 고객에게 1:1로 통째로 대여해 주는 서비스 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Cloud Computing", "Bare Metal", "Infrastructure"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 전통적인 클라우드(EC2 등)는 한 대의 물리 서버(Host)를 여러 개의 가상 머신(VM)으로 쪼개어 수십 명의 고객에게 월세방처럼 나눠주는(Multi-tenant) 방식이다.

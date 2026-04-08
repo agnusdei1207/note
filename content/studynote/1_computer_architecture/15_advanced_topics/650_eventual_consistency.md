@@ -1,11 +1,11 @@
----
-title: "결과적 일관성 (Eventual Consistency)"
-date: 2026-03-20
-weight: 650
-description: "글로벌 단위의 분산 시스템에서 속도(Latency)와 가용성(Availability)을 극대화하기 위해, 당장 데이터가 불일치하더라도 '언젠가는(결국에는) 똑같아질 것'이라고 타협하는 데이터 동기화 철학"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Distributed System", "Database", "Consistency"]
----
++++
+title = "결과적 일관성 (Eventual Consistency)"
+date = 2026-03-20
+weight = 650
+description = "글로벌 단위의 분산 시스템에서 속도(Latency)와 가용성(Availability)을 극대화하기 위해, 당장 데이터가 불일치하더라도 '언젠가는(결국에는) 똑같아질 것'이라고 타협하는 데이터 동기화 철학"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Distributed System", "Database", "Consistency"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 앞서 다룬 PACELC 정리에서 글로벌 SNS(아마존, 페이스북)는 돈을 버는 데 가장 중요한 **사용자의 체감 속도(Low Latency)와 가용성(Availability)**을 위해, 데이터의 100% 동시 일치(Strong Consistency)를 과감하게 포기했다.

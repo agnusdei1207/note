@@ -1,11 +1,11 @@
----
-title: "PL1, PL2 (Power Limit 1, 2)"
-date: 2026-03-20
-weight: 734
-description: "현대 CPU가 터보 부스트를 터뜨릴 때, 메인보드가 파괴되지 않도록 '얼마나 많은 전기를', '얼마나 오랫동안' 끌어 쓸 수 있는지 허락해 주는 전력 제한 규격"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Power Management", "PL1", "PL2", "TDP"]
----
++++
+title = "PL1, PL2 (Power Limit 1, 2)"
+date = 2026-03-20
+weight = 734
+description = "현대 CPU가 터보 부스트를 터뜨릴 때, 메인보드가 파괴되지 않도록 '얼마나 많은 전기를', '얼마나 오랫동안' 끌어 쓸 수 있는지 허락해 주는 전력 제한 규격"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Power Management", "PL1", "PL2", "TDP"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. CPU 박스에 적혀있는 **TDP 65W**라는 말은 "평소(기본 클럭)에 65W를 먹는다"는 뜻이지, 최대 전력 소모량이 아니다. 이것이 바로 **PL1 (Power Limit 1, 장기 전력 제한)**이다.

@@ -1,11 +1,11 @@
----
-title: "SOA (Service Oriented Architecture) HW 고려사항"
-date: 2026-03-20
-weight: 618
-description: "기능 단위로 분리된 서비스들이 네트워크를 통해 통신하는 SOA 환경에서, 통신 병목과 직렬화/역직렬화 부하를 감당하기 위해 요구되는 하드웨어 인프라 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "SOA", "Network", "Hardware"]
----
++++
+title = "SOA (Service Oriented Architecture) HW 고려사항"
+date = 2026-03-20
+weight = 618
+description = "기능 단위로 분리된 서비스들이 네트워크를 통해 통신하는 SOA 환경에서, 통신 병목과 직렬화/역직렬화 부하를 감당하기 위해 요구되는 하드웨어 인프라 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "SOA", "Network", "Hardware"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 거대한 단일 프로그램(Monolithic) 대신, 독립적인 서비스들이 서로 호출하며 동작하는 **SOA (서비스 지향 아키텍처)**는 시스템의 유연성을 극대화하지만 **네트워크 트래픽과 XML/SOAP 통신 오버헤드라는 치명적인 대가**를 치른다.

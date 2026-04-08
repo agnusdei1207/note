@@ -1,11 +1,11 @@
----
-title: "분리 트랜잭션 버스 (Split Transaction Bus)"
-date: 2026-03-20
-weight: 563
-description: "CPU가 메모리에 데이터를 요청한 뒤, 데이터가 올 때까지 버스를 독점하지 않고 즉시 버스를 풀어주어 다른 장치가 사용할 수 있게 만드는 고효율 버스 설계"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "System Bus", "Performance"]
----
++++
+title = "분리 트랜잭션 버스 (Split Transaction Bus)"
+date = 2026-03-20
+weight = 563
+description = "CPU가 메모리에 데이터를 요청한 뒤, 데이터가 올 때까지 버스를 독점하지 않고 즉시 버스를 풀어주어 다른 장치가 사용할 수 있게 만드는 고효율 버스 설계"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "System Bus", "Performance"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 초기의 단순한 버스 구조는 장치 A가 데이터를 요청하면, 메모리가 데이터를 찾아 응답할 때까지 **버스를 꽉 붙잡고 놓아주지 않아(Bus Lock)** 다른 장치들이 버스를 전혀 쓰지 못하는 심각한 병목 현상이 있었다.

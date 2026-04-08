@@ -1,11 +1,11 @@
----
-title: "오픈 컴퓨트 프로젝트 (OCP, Open Compute Project)"
-date: 2026-03-20
-weight: 640
-description: "페이스북(Meta)이 주도하여 시작한 하드웨어 민주화 운동으로, 가장 효율적인 데이터센터 서버와 랙(Rack)의 설계도를 전 세계에 무료로 오픈소스로 공개하는 프로젝트"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Data Center", "OCP", "Hardware", "Meta"]
----
++++
+title = "오픈 컴퓨트 프로젝트 (OCP, Open Compute Project)"
+date = 2026-03-20
+weight = 640
+description = "페이스북(Meta)이 주도하여 시작한 하드웨어 민주화 운동으로, 가장 효율적인 데이터센터 서버와 랙(Rack)의 설계도를 전 세계에 무료로 오픈소스로 공개하는 프로젝트"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Data Center", "OCP", "Hardware", "Meta"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거 데이터센터 서버는 HP, Dell, IBM 같은 거대 제조사들의 철저한 '영업 비밀'이자 독점적인 비싼 상품이었다.

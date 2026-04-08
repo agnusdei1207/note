@@ -1,11 +1,11 @@
----
-title: "분산 산술 (Distributed Arithmetic) 매크로"
-date: 2026-03-20
-weight: 611
-description: "곱셈기(Multiplier)를 전혀 사용하지 않고, 덧셈과 룩업 테이블(LUT, 메모리)만으로 복잡한 신호 처리 곱셈을 빛의 속도로 해치우는 천재적인 하드웨어 설계 기법"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "FPGA", "Hardware", "DSP", "Optimization"]
----
++++
+title = "분산 산술 (Distributed Arithmetic) 매크로"
+date = 2026-03-20
+weight = 611
+description = "곱셈기(Multiplier)를 전혀 사용하지 않고, 덧셈과 룩업 테이블(LUT, 메모리)만으로 복잡한 신호 처리 곱셈을 빛의 속도로 해치우는 천재적인 하드웨어 설계 기법"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "FPGA", "Hardware", "DSP", "Optimization"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. DSP(디지털 신호 처리)나 오디오/비디오 필터 회로에서는 $Y = C_1X_1 + C_2X_2 + C_3X_3 \dots$ 형태의 **내적(Dot Product, 곱셈 후 다 더하기)** 연산이 수도 없이 발생한다.

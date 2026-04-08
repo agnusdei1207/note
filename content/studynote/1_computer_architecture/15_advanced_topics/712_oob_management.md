@@ -1,11 +1,11 @@
----
-title: "서버 대역외 관리 (OOB Management, Out-Of-Band)"
-date: 2026-03-20
-weight: 712
-description: "서비스 트래픽이 쏟아지는 메인 네트워크(In-Band)와 물리적으로 완전히 단절된, 오직 시스템 관리자와 BMC 칩만 소통하는 숨겨진 비밀 통신망 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Infrastructure", "OOB", "Network", "Security"]
----
++++
+title = "서버 대역외 관리 (OOB Management, Out-Of-Band)"
+date = 2026-03-20
+weight = 712
+description = "서비스 트래픽이 쏟아지는 메인 네트워크(In-Band)와 물리적으로 완전히 단절된, 오직 시스템 관리자와 BMC 칩만 소통하는 숨겨진 비밀 통신망 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Infrastructure", "OOB", "Network", "Security"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 서버에 인터넷 랜선 딱 1개를 꽂고, 고객 트래픽과 관리자 원격 접속(SSH 등)을 같이 쓰는 방식을 **대역내(In-Band) 관리**라고 한다.

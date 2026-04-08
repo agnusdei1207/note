@@ -1,11 +1,11 @@
----
-title: "카오스 엔지니어링 (Chaos Engineering) HW 모의"
-date: 2026-03-20
-weight: 751
-description: "실제 고객들이 서비스를 이용 중인 상용 서버 환경에서, 무작위로 네트워크를 끊거나 서버 전원을 뽑는 공격을 의도적으로 가해 시스템의 회복 탄력성(Resiliency)을 단련하는 극한의 운영 철학"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Chaos Engineering", "Reliability", "Netflix"]
----
++++
+title = "카오스 엔지니어링 (Chaos Engineering) HW 모의"
+date = 2026-03-20
+weight = 751
+description = "실제 고객들이 서비스를 이용 중인 상용 서버 환경에서, 무작위로 네트워크를 끊거나 서버 전원을 뽑는 공격을 의도적으로 가해 시스템의 회복 탄력성(Resiliency)을 단련하는 극한의 운영 철학"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Chaos Engineering", "Reliability", "Netflix"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 전통적인 IT 인프라는 "어떻게든 서버가 안 죽게 소중히 다루자"는 방어적 태도였다. 하지만 클라우드 시대에는 서버가 수만 대라 무조건 매일 몇 대씩 고장 난다.

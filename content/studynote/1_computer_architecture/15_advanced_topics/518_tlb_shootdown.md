@@ -1,11 +1,11 @@
----
-title: "TLB 슈팅다운 (TLB Shootdown)"
-date: 2026-03-20
-weight: 518
-description: "멀티코어 시스템에서 특정 프로세스의 메모리 매핑이 변경되었을 때, 다른 모든 코어의 TLB에 남아있는 구형 캐시를 강제로 지워 일관성을 맞추는 막대한 성능 오버헤드 유발 과정"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "TLB", "Multicore", "Virtual Memory"]
----
++++
+title = "TLB 슈팅다운 (TLB Shootdown)"
+date = 2026-03-20
+weight = 518
+description = "멀티코어 시스템에서 특정 프로세스의 메모리 매핑이 변경되었을 때, 다른 모든 코어의 TLB에 남아있는 구형 캐시를 강제로 지워 일관성을 맞추는 막대한 성능 오버헤드 유발 과정"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "TLB", "Multicore", "Virtual Memory"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 여러 코어가 동일한 프로그램(공유 메모리)을 실행할 때, 각 코어는 자기만의 **TLB(주소 변환 캐시)**를 가지고 있다.

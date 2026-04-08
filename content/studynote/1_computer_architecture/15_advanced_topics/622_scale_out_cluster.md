@@ -1,11 +1,11 @@
----
-title: "스케일 아웃 (Scale-Out) 클러스터 망"
-date: 2026-03-20
-weight: 622
-description: "저렴한 x86 서버 수천 대를 거미줄처럼 엮어 하나의 거대한 슈퍼컴퓨터처럼 작동하게 만드는 데이터센터의 횡적 확장 네트워크 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Scale-Out", "Cluster", "Data Center"]
----
++++
+title = "스케일 아웃 (Scale-Out) 클러스터 망"
+date = 2026-03-20
+weight = 622
+description = "저렴한 x86 서버 수천 대를 거미줄처럼 엮어 하나의 거대한 슈퍼컴퓨터처럼 작동하게 만드는 데이터센터의 횡적 확장 네트워크 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Scale-Out", "Cluster", "Data Center"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거의 메인프레임이나 거대 DB 서버는 장비 하나의 성능을 극한으로 올리는 스케일 업(Scale-Up) 방식을 썼지만, 가격이 수십억 원으로 폭등하고 물리적 한계에 부딪혔다.

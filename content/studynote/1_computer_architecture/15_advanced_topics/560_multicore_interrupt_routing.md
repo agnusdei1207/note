@@ -1,11 +1,11 @@
----
-title: "멀티코어 인터럽트 라우팅 (GIC, APIC)"
-date: 2026-03-20
-weight: 560
-description: "코어가 수십 개인 멀티코어 환경에서, 수많은 외부 인터럽트를 어느 코어에게 분배할지(부하 분산) 지능적으로 결정하는 고급 인터럽트 컨트롤러"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Multicore", "Interrupt", "APIC", "GIC"]
----
++++
+title = "멀티코어 인터럽트 라우팅 (GIC, APIC)"
+date = 2026-03-20
+weight = 560
+description = "코어가 수십 개인 멀티코어 환경에서, 수많은 외부 인터럽트를 어느 코어에게 분배할지(부하 분산) 지능적으로 결정하는 고급 인터럽트 컨트롤러"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Multicore", "Interrupt", "APIC", "GIC"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 싱글 코어 시절에는 인터럽트가 들어오면 무조건 하나뿐인 CPU 코어가 처리하면 됐다. 하지만 코어가 64개인 서버에서는 **"이 인터럽트를 어느 코어에게 던져야 제일 효율적일까?"**라는 라우팅(Routing) 문제가 발생한다.

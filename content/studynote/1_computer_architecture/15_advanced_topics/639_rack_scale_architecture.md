@@ -1,11 +1,11 @@
----
-title: "랙 스케일 아키텍처 (Rack Scale Architecture, RSA)"
-date: 2026-03-20
-weight: 639
-description: "서버 한 대가 아닌, 서버 수십 대가 꽂혀 있는 커다란 쇳덩어리 캐비닛(Rack) 전체를 거대한 '단일 컴퓨터'처럼 설계하고 통제하는 데이터센터 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Data Center", "Rack Scale", "Intel RSA"]
----
++++
+title = "랙 스케일 아키텍처 (Rack Scale Architecture, RSA)"
+date = 2026-03-20
+weight = 639
+description = "서버 한 대가 아닌, 서버 수십 대가 꽂혀 있는 커다란 쇳덩어리 캐비닛(Rack) 전체를 거대한 '단일 컴퓨터'처럼 설계하고 통제하는 데이터센터 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Data Center", "Rack Scale", "Intel RSA"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거에는 서버 1대(1U 사이즈) 단위로 부품을 조립하고 냉각과 전원을 관리했다. 하지만 데이터센터 규모가 커지면서 이 방식은 극심한 낭비를 불렀다.

@@ -1,11 +1,11 @@
----
-title: "페이지 랭크 알고리즘 하드웨어 맵핑 (PageRank HW Mapping)"
-date: 2026-03-20
-weight: 614
-description: "구글의 핵심 알고리즘이자 거대 희소 행렬 연산의 결정체인 페이지 랭크(PageRank)를 CPU/GPU가 아닌 하드웨어 가속기(FPGA/ASIC) 구조에 효율적으로 우겨넣는(Mapping) 최적화 기법"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Hardware Accelerator", "PageRank", "Graph Processing"]
----
++++
+title = "페이지 랭크 알고리즘 하드웨어 맵핑 (PageRank HW Mapping)"
+date = 2026-03-20
+weight = 614
+description = "구글의 핵심 알고리즘이자 거대 희소 행렬 연산의 결정체인 페이지 랭크(PageRank)를 CPU/GPU가 아닌 하드웨어 가속기(FPGA/ASIC) 구조에 효율적으로 우겨넣는(Mapping) 최적화 기법"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Hardware Accelerator", "PageRank", "Graph Processing"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 구글을 세계 최고의 기업으로 만든 **페이지 랭크(PageRank)** 알고리즘은 수백억 개의 웹페이지(노드)와 링크(엣지)가 서로 참조하는 거대한 확률 분포를 끝없이 갱신하는 연산이다.

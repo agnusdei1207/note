@@ -1,11 +1,11 @@
----
-title: "캡 정리 (CAP Theorem)와 분산 스토리지"
-date: 2026-03-20
-weight: 648
-description: "분산 데이터베이스(데이터센터)를 구축할 때, 일관성(C), 가용성(A), 분할 내성(P) 세 가지를 동시에 100% 만족시키는 하드웨어/소프트웨어 시스템은 물리학적으로 존재할 수 없다는 컴퓨터 과학의 절대 법칙"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Distributed System", "CAP Theorem", "Storage"]
----
++++
+title = "캡 정리 (CAP Theorem)와 분산 스토리지"
+date = 2026-03-20
+weight = 648
+description = "분산 데이터베이스(데이터센터)를 구축할 때, 일관성(C), 가용성(A), 분할 내성(P) 세 가지를 동시에 100% 만족시키는 하드웨어/소프트웨어 시스템은 물리학적으로 존재할 수 없다는 컴퓨터 과학의 절대 법칙"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Distributed System", "CAP Theorem", "Storage"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 서버 한 대가 아니라 서울, 도쿄, 뉴욕에 분산된 거대한 스토리지 클러스터를 만들 때 설계자는 반드시 **CAP 정리**의 지배를 받는다.

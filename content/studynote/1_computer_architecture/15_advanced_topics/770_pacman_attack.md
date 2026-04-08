@@ -1,11 +1,11 @@
----
-title: "PACMAN 공격 (ARM PAC 우회 공격)"
-date: 2026-03-20
-weight: 770
-description: "스마트폰과 Mac을 지키는 철통같은 방어막인 ARM PAC(포인터 인증)의 암호 서명을, 스펙터(추측 실행)를 이용해 우회하고 파훼해 버리는 천재적인 보안 취약점"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "ARM PAC", "Apple M1", "PACMAN"]
----
++++
+title = "PACMAN 공격 (ARM PAC 우회 공격)"
+date = 2026-03-20
+weight = 770
+description = "스마트폰과 Mac을 지키는 철통같은 방어막인 ARM PAC(포인터 인증)의 암호 서명을, 스펙터(추측 실행)를 이용해 우회하고 파훼해 버리는 천재적인 보안 취약점"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "ARM PAC", "Apple M1", "PACMAN"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 앞서 배운 **ARM PAC(Pointer Authentication)**는 포인터 주소 상단에 암호학적 서명을 달아, 해커가 주소를 조작하면 즉시 에러(Exception)를 터뜨려 시스템을 죽여버리는 강력한 하드웨어 보안 기술이다. (애플 M1 칩에 탑재됨)

@@ -1,11 +1,11 @@
----
-title: "SMBIOS (System Management BIOS)"
-date: 2026-03-20
-weight: 708
-description: "운영체제(OS)가 컴퓨터를 뜯어보지 않고도 내부에 어떤 CPU, 어떤 램, 어떤 메인보드가 꽂혀 있는지 상세한 스펙을 읽어올 수 있게 해주는 하드웨어 스펙 명세서 표준"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Firmware", "SMBIOS", "OS"]
----
++++
+title = "SMBIOS (System Management BIOS)"
+date = 2026-03-20
+weight = 708
+description = "운영체제(OS)가 컴퓨터를 뜯어보지 않고도 내부에 어떤 CPU, 어떤 램, 어떤 메인보드가 꽂혀 있는지 상세한 스펙을 읽어올 수 있게 해주는 하드웨어 스펙 명세서 표준"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Firmware", "SMBIOS", "OS"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 윈도우에서 `시스템 정보`를 켜면 메인보드 모델명, RAM 제조사, CPU 시리얼 번호가 뜬다. OS가 컴퓨터 케이스를 뜯어본 것도 아닌데 어떻게 아는 것일까?

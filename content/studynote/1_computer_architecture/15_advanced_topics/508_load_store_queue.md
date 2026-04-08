@@ -1,11 +1,11 @@
----
-title: "로드-스토어 큐 (LSQ, Load-Store Queue)"
-date: 2026-03-20
-weight: 508
-description: "비순차 실행 환경에서 메모리 접근 명령어(Load/Store)들의 주소 충돌을 막고 순서를 제어하기 위한 특수 하드웨어 버퍼"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Memory", "Out-of-Order Execution"]
----
++++
+title = "로드-스토어 큐 (LSQ, Load-Store Queue)"
+date = 2026-03-20
+weight = 508
+description = "비순차 실행 환경에서 메모리 접근 명령어(Load/Store)들의 주소 충돌을 막고 순서를 제어하기 위한 특수 하드웨어 버퍼"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Memory", "Out-of-Order Execution"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **로드-스토어 큐 (LSQ)**는 CPU 내부에서 메모리를 읽고(Load) 쓰는(Store) 명령어들만을 전담하여 임시로 보관하고 관리하는 특수 대기실(Buffer)이다.

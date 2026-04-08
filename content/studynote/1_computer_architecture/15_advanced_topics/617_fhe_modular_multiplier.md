@@ -1,11 +1,11 @@
----
-title: "완전 동형 암호 (FHE)용 대규모 모듈러 곱셈기"
-date: 2026-03-20
-weight: 617
-description: "암호화된 데이터를 복호화 없이 연산하는 완전 동형 암호(FHE)의 핵심 병목인 수백~수천 비트 단위의 '모듈러 곱셈'을 하드웨어로 초고속 가속하는 전용 연산기"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "FHE", "Cryptography", "Hardware Accelerator"]
----
++++
+title = "완전 동형 암호 (FHE)용 대규모 모듈러 곱셈기"
+date = 2026-03-20
+weight = 617
+description = "암호화된 데이터를 복호화 없이 연산하는 완전 동형 암호(FHE)의 핵심 병목인 수백~수천 비트 단위의 '모듈러 곱셈'을 하드웨어로 초고속 가속하는 전용 연산기"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "FHE", "Cryptography", "Hardware Accelerator"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 완전 동형 암호(FHE) 연산은 암호문을 유지한 채 계산하기 위해 엄청나게 거대한 숫자(예: 1024비트, 4096비트)들의 모듈러 연산($A \times B \pmod Q$)을 무한정 반복해야 한다.

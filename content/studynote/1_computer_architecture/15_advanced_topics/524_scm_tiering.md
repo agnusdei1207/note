@@ -1,11 +1,11 @@
----
-title: "스토리지 클래스 메모리 (SCM) 계층화"
-date: 2026-03-20
-weight: 524
-description: "DRAM과 SSD 사이에 SCM(차세대 비휘발성 메모리)을 끼워 넣어, 자주 쓰는 데이터와 덜 쓰는 데이터를 똑똑하게 재배치하는 현대적 메모리 티어링(Tiering) 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Memory Hierarchy", "SCM", "Storage"]
----
++++
+title = "스토리지 클래스 메모리 (SCM) 계층화"
+date = 2026-03-20
+weight = 524
+description = "DRAM과 SSD 사이에 SCM(차세대 비휘발성 메모리)을 끼워 넣어, 자주 쓰는 데이터와 덜 쓰는 데이터를 똑똑하게 재배치하는 현대적 메모리 티어링(Tiering) 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Memory Hierarchy", "SCM", "Storage"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거의 메모리 구조는 '뜨거운 데이터'는 비싸고 용량이 작은 DRAM에, '차가운 데이터'는 싸고 용량이 큰 SSD/HDD에 넣는 단순한 2분법 구조였다.

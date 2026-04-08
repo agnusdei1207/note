@@ -1,11 +1,11 @@
----
-title: "EMFI (Electromagnetic Fault Injection, 전자기 결함 주입)"
-date: 2026-03-20
-weight: 773
-description: "칩에 직접 핀을 꽂지 않고, 강한 전자기파(EMP) 펄스를 칩 표면에 쏴서 내부 트랜지스터를 오작동(Bit-flip)하게 만들어 보안 시스템을 뚫는 비접촉식 하드웨어 해킹"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "Fault Injection", "Hardware", "EMFI"]
----
++++
+title = "EMFI (Electromagnetic Fault Injection, 전자기 결함 주입)"
+date = 2026-03-20
+weight = 773
+description = "칩에 직접 핀을 꽂지 않고, 강한 전자기파(EMP) 펄스를 칩 표면에 쏴서 내부 트랜지스터를 오작동(Bit-flip)하게 만들어 보안 시스템을 뚫는 비접촉식 하드웨어 해킹"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "Fault Injection", "Hardware", "EMFI"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 앞서 배운 볼티지(Voltage)나 클럭(Clock) 글리칭은 기판에 납땜을 해서 선을 따야 하는 '접촉식' 공격이므로 최신 칩의 물리적 방어막(Anti-Tamper)에 막히기 쉽다.

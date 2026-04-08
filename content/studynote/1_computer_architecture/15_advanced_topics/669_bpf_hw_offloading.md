@@ -1,11 +1,11 @@
----
-title: "BPF (Berkeley Packet Filter) 하드웨어 오프로딩"
-date: 2026-03-20
-weight: 669
-description: "리눅스 커널 안에서 안전하게 샌드박싱되어 돌아가는 BPF 미니 프로그램을, 아예 CPU 밖으로 빼내어 스마트 랜카드(SmartNIC) 하드웨어에 직접 구워버려 성능을 극대화하는 최신 네트워크 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Network", "eBPF", "SmartNIC", "Offloading"]
----
++++
+title = "BPF (Berkeley Packet Filter) 하드웨어 오프로딩"
+date = 2026-03-20
+weight = 669
+description = "리눅스 커널 안에서 안전하게 샌드박싱되어 돌아가는 BPF 미니 프로그램을, 아예 CPU 밖으로 빼내어 스마트 랜카드(SmartNIC) 하드웨어에 직접 구워버려 성능을 극대화하는 최신 네트워크 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Network", "eBPF", "SmartNIC", "Offloading"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **eBPF(Extended BPF)**는 커널을 재부팅하지 않고도 네트워크 패킷 모니터링, 방화벽 차단 등의 C언어 프로그램을 리눅스 커널 내부(샌드박스)에 실시간으로 밀어 넣을 수 있는 기적의 소프트웨어 기술이다.

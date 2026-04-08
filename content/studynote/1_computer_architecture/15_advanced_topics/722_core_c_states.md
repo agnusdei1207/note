@@ -1,11 +1,11 @@
----
-title: "코어 C-States (Core C-States)"
-date: 2026-03-20
-weight: 722
-description: "CPU의 개별 코어 단위로 클럭과 전원(전압)을 차단하여, 스마트폰과 서버의 무의미한 발열 및 전력 낭비를 0으로 만드는 마이크로아키텍처 절전 단계"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Power Management", "C-States", "CPU"]
----
++++
+title = "코어 C-States (Core C-States)"
+date = 2026-03-20
+weight = 722
+description = "CPU의 개별 코어 단위로 클럭과 전원(전압)을 차단하여, 스마트폰과 서버의 무의미한 발열 및 전력 낭비를 0으로 만드는 마이크로아키텍처 절전 단계"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Power Management", "C-States", "CPU"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. CPU가 100% 열심히 일할 때의 상태를 **C0 (Active)**라고 부른다.

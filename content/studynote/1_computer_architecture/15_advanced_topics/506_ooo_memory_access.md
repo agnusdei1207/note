@@ -1,11 +1,11 @@
----
-title: "비순차 메모리 접근 (Out-of-Order Memory Access)"
-date: 2026-03-20
-weight: 506
-description: "명령어 스케줄링 시 ALU 연산뿐만 아니라 메모리 읽기(Load)/쓰기(Store) 명령어의 순서도 뒤바꾸어 성능을 극대화하는 기법"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Out-of-Order Execution", "Memory"]
----
++++
+title = "비순차 메모리 접근 (Out-of-Order Memory Access)"
+date = 2026-03-20
+weight = 506
+description = "명령어 스케줄링 시 ALU 연산뿐만 아니라 메모리 읽기(Load)/쓰기(Store) 명령어의 순서도 뒤바꾸어 성능을 극대화하는 기법"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Out-of-Order Execution", "Memory"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 일반적인 비순차 실행(OoOE)이 더하기나 곱하기 같은 수식의 순서를 바꾸는 것이라면, **비순차 메모리 접근**은 메모리에서 값을 가져오고(Load) 쓰는(Store) 순서까지 뒤바꾸는 고난도 기술이다.

@@ -1,11 +1,11 @@
----
-title: "디스크 스핀다운 (Disk Spin-down)"
-date: 2026-03-20
-weight: 690
-description: "스토리지 서버에서 오랫동안 데이터를 읽거나 쓰지 않는 하드디스크(HDD)의 모터 회전을 강제로 멈춰, 전력 소모와 진동/열을 획기적으로 줄이는 물리적 절전 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "HDD", "Power Management"]
----
++++
+title = "디스크 스핀다운 (Disk Spin-down)"
+date = 2026-03-20
+weight = 690
+description = "스토리지 서버에서 오랫동안 데이터를 읽거나 쓰지 않는 하드디스크(HDD)의 모터 회전을 강제로 멈춰, 전력 소모와 진동/열을 획기적으로 줄이는 물리적 절전 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "HDD", "Power Management"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 데이터센터의 7200RPM 하드디스크(HDD) 수만 대는 데이터를 안 읽고 쉴 때조차도 계속 모터를 윙윙 돌리며 엄청난 전력과 열을 내뿜는 **'전기 먹는 하마'**다.

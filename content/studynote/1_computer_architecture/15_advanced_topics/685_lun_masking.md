@@ -1,11 +1,11 @@
----
-title: "LUN (Logical Unit Number) 마스킹 (Masking)"
-date: 2026-03-20
-weight: 685
-description: "거대한 스토리지 네트워크(SAN) 환경에서, 쪼개진 가상 디스크(LUN)를 특정 서버(Host)만 볼 수 있도록 허락하고 남들은 절대 못 보게 가려버리는(Masking) 핵심 보안 통제 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "SAN", "LUN", "Security"]
----
++++
+title = "LUN (Logical Unit Number) 마스킹 (Masking)"
+date = 2026-03-20
+weight = 685
+description = "거대한 스토리지 네트워크(SAN) 환경에서, 쪼개진 가상 디스크(LUN)를 특정 서버(Host)만 볼 수 있도록 허락하고 남들은 절대 못 보게 가려버리는(Masking) 핵심 보안 통제 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "SAN", "LUN", "Security"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 엔터프라이즈 스토리지(SAN)는 수백 개의 하드디스크를 하나로 뭉친 뒤, 이를 서버들이 쓰기 좋게 논리적인 가상 디스크 단위인 **LUN(Logical Unit Number)**으로 잘게 쪼개어 나눠준다.

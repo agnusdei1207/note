@@ -1,11 +1,11 @@
----
-title: "KVM 오버 IP (Keyboard, Video, Mouse over IP)"
-date: 2026-03-20
-weight: 713
-description: "서버가 완전히 멈춰 운영체제로 접속할 수 없을 때조차도, 브라우저를 통해 서버의 모니터 화면을 보고 키보드를 타이핑할 수 있게 해주는 궁극의 원격 하드웨어 제어 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Infrastructure", "KVM", "BMC", "OOB"]
----
++++
+title = "KVM 오버 IP (Keyboard, Video, Mouse over IP)"
+date = 2026-03-20
+weight = 713
+description = "서버가 완전히 멈춰 운영체제로 접속할 수 없을 때조차도, 브라우저를 통해 서버의 모니터 화면을 보고 키보드를 타이핑할 수 있게 해주는 궁극의 원격 하드웨어 제어 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Infrastructure", "KVM", "BMC", "OOB"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 일반적인 원격 데스크톱(RDP, TeamViewer, SSH)은 **서버의 운영체제(OS)가 정상적으로 부팅되어 있고, 랜카드 드라이버가 살아있을 때만 작동하는 '소프트웨어 의존적' 기술**이다.

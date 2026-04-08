@@ -1,11 +1,11 @@
----
-title: "이종 컴퓨팅 메모리 공유 (Heterogeneous Memory Sharing / hUMA)"
-date: 2026-03-20
-weight: 516
-description: "CPU와 GPU 등 성격이 다른 연산 장치들이 서로의 메모리를 복사하지 않고, 동일한 메모리 주소 공간을 완벽하게 공유하는 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Heterogeneous Computing", "Memory", "UMA"]
----
++++
+title = "이종 컴퓨팅 메모리 공유 (Heterogeneous Memory Sharing / hUMA)"
+date = 2026-03-20
+weight = 516
+description = "CPU와 GPU 등 성격이 다른 연산 장치들이 서로의 메모리를 복사하지 않고, 동일한 메모리 주소 공간을 완벽하게 공유하는 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Heterogeneous Computing", "Memory", "UMA"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거에는 CPU의 메모리(RAM)와 GPU의 메모리(VRAM)가 물리적/논리적으로 완전히 단절되어 있어, 연산을 넘기려면 막대한 **데이터 복사(Copy) 지연 시간**이 발생했다.

@@ -1,11 +1,11 @@
----
-title: "스와핑 (Swapping) 메커니즘"
-date: 2026-03-20
-weight: 574
-description: "메인 메모리(RAM) 용량이 가득 찼을 때, 당장 사용하지 않는 데이터를 보조기억장치(HDD/SSD)로 쫓아내어 메모리 공간을 확보하는 가상 메모리 관리 기법"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Memory Management", "Virtual Memory", "OS"]
----
++++
+title = "스와핑 (Swapping) 메커니즘"
+date = 2026-03-20
+weight = 574
+description = "메인 메모리(RAM) 용량이 가득 찼을 때, 당장 사용하지 않는 데이터를 보조기억장치(HDD/SSD)로 쫓아내어 메모리 공간을 확보하는 가상 메모리 관리 기법"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Memory Management", "Virtual Memory", "OS"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 물리적 메모리(RAM)는 비싸고 용량이 한정되어 있으므로, 16GB 램 환경에서도 수백 GB의 프로그램들을 띄워놓고 작업할 수 있는 **가상 메모리(Virtual Memory)** 기술이 필수적이다.

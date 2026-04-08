@@ -1,11 +1,11 @@
----
-title: "RoCE (RDMA over Converged Ethernet)"
-date: 2026-03-20
-weight: 523
-description: "비싼 전용망인 인피니밴드 대신, 기존의 저렴하고 범용적인 이더넷(Ethernet) 인프라 위에서 RDMA의 초고속/저지연 성능을 구현하는 네트워크 프로토콜"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Network", "RDMA", "RoCE", "Ethernet"]
----
++++
+title = "RoCE (RDMA over Converged Ethernet)"
+date = 2026-03-20
+weight = 523
+description = "비싼 전용망인 인피니밴드 대신, 기존의 저렴하고 범용적인 이더넷(Ethernet) 인프라 위에서 RDMA의 초고속/저지연 성능을 구현하는 네트워크 프로토콜"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Network", "RDMA", "RoCE", "Ethernet"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 이전 챕터에서 다룬 RDMA 기술(OS 우회, 무복사)은 성능은 최고지만, 이를 위해 **인피니밴드(InfiniBand)라는 매우 비싸고 독자적인 전용 스위치와 케이블**을 아예 새로 깔아야 한다는 금전적/관리적 진입 장벽이 있었다.

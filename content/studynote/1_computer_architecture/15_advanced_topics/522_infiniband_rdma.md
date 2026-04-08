@@ -1,11 +1,11 @@
----
-title: "인피니밴드 RDMA (InfiniBand RDMA)"
-date: 2026-03-20
-weight: 522
-description: "슈퍼컴퓨터와 AI 클러스터에서 노드 간 통신 지연을 극한으로 줄이기 위해, 운영체제를 거치지 않고 상대방 메모리에 직접 데이터를 꽂아넣는 초고속 네트워크 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Network", "RDMA", "InfiniBand"]
----
++++
+title = "인피니밴드 RDMA (InfiniBand RDMA)"
+date = 2026-03-20
+weight = 522
+description = "슈퍼컴퓨터와 AI 클러스터에서 노드 간 통신 지연을 극한으로 줄이기 위해, 운영체제를 거치지 않고 상대방 메모리에 직접 데이터를 꽂아넣는 초고속 네트워크 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Network", "RDMA", "InfiniBand"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **인피니밴드 (InfiniBand)**는 일반적인 인터넷(Ethernet)과 달리, 수만 대의 서버를 하나의 거대한 슈퍼컴퓨터처럼 묶기 위해 처음부터 새로 설계된 초고속/초저지연 전용 네트워크 표준이다.

@@ -1,11 +1,11 @@
----
-title: "루프 언롤링 (Loop Unrolling)"
-date: 2026-03-20
-weight: 538
-description: "반복문(Loop) 내부의 코드를 여러 번 복사하여 풀어헤침으로써, 조건 검사 횟수(오버헤드)를 줄이고 명령어 병렬성(ILP)을 높이는 컴파일러 최적화 기법"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Compiler", "Optimization", "Loop Unrolling"]
----
++++
+title = "루프 언롤링 (Loop Unrolling)"
+date = 2026-03-20
+weight = 538
+description = "반복문(Loop) 내부의 코드를 여러 번 복사하여 풀어헤침으로써, 조건 검사 횟수(오버헤드)를 줄이고 명령어 병렬성(ILP)을 높이는 컴파일러 최적화 기법"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Compiler", "Optimization", "Loop Unrolling"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 프로그램의 `for`나 `while` 같은 반복문은 한 번 돌 때마다 "루프가 끝났나?(조건 검사)" 확인하고, "루프의 처음으로 돌아가자(분기 점프)"라는 추가적인 **제어 오버헤드**를 발생시킨다.

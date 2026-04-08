@@ -1,11 +1,11 @@
----
-title: "FCoE (Fibre Channel over Ethernet)"
-date: 2026-03-20
-weight: 697
-description: "비싼 파이버 채널(FC) 전용 스위치와 랜(Ethernet) 스위치를 두 개씩 사야 했던 데이터센터의 비용 지옥을 끝내기 위해, 이더넷 랜선 하나에 FC 패킷을 얹어서 보내는 융합 네트워크 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Network", "Storage", "FCoE", "Convergence"]
----
++++
+title = "FCoE (Fibre Channel over Ethernet)"
+date = 2026-03-20
+weight = 697
+description = "비싼 파이버 채널(FC) 전용 스위치와 랜(Ethernet) 스위치를 두 개씩 사야 했던 데이터센터의 비용 지옥을 끝내기 위해, 이더넷 랜선 하나에 FC 패킷을 얹어서 보내는 융합 네트워크 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Network", "Storage", "FCoE", "Convergence"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 전통적인 엔터프라이즈 서버 뒤통수에는 인터넷을 하기 위한 **랜선(Ethernet)** 여러 개와, 스토리지(SAN)와 통신하기 위한 주황색 **광케이블(Fibre Channel, FC)** 여러 개가 복잡하게 꽂혀 있었다. 

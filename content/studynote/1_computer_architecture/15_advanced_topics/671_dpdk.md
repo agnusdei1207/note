@@ -1,11 +1,11 @@
----
-title: "DPDK (Data Plane Development Kit)"
-date: 2026-03-20
-weight: 671
-description: "느려터진 리눅스 커널(OS)의 네트워크 스택을 완전히 무시하고, 랜카드(NIC)의 패킷을 유저 모드(User-space) 애플리케이션으로 다이렉트로 퍼 올리는 초고속 패킷 처리 프레임워크"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Network", "DPDK", "Kernel Bypass"]
----
++++
+title = "DPDK (Data Plane Development Kit)"
+date = 2026-03-20
+weight = 671
+description = "느려터진 리눅스 커널(OS)의 네트워크 스택을 완전히 무시하고, 랜카드(NIC)의 패킷을 유저 모드(User-space) 애플리케이션으로 다이렉트로 퍼 올리는 초고속 패킷 처리 프레임워크"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Network", "DPDK", "Kernel Bypass"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 리눅스 커널(OS)의 TCP/IP 스택은 인터럽트(Interrupt)와 컨텍스트 스위칭(Context Switching)이라는 무거운 과정을 거치기 때문에, 100Gbps 시대의 초당 수천만 개 패킷을 감당하면 CPU가 터져버린다.

@@ -1,11 +1,11 @@
----
-title: "SPDK (Storage Performance Development Kit)"
-date: 2026-03-20
-weight: 672
-description: "네트워크의 DPDK 철학을 NVMe 스토리지에 그대로 적용하여, 리눅스 커널의 느린 파일 시스템을 우회하고 사용자 프로그램이 SSD를 다이렉트로 통제하는 초고속 스토리지 프레임워크"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "SPDK", "Kernel Bypass", "NVMe"]
----
++++
+title = "SPDK (Storage Performance Development Kit)"
+date = 2026-03-20
+weight = 672
+description = "네트워크의 DPDK 철학을 NVMe 스토리지에 그대로 적용하여, 리눅스 커널의 느린 파일 시스템을 우회하고 사용자 프로그램이 SSD를 다이렉트로 통제하는 초고속 스토리지 프레임워크"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "SPDK", "Kernel Bypass", "NVMe"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. SSD 하드웨어는 NVMe가 도입되며 초당 수 기가바이트(GB/s)로 100배 빨라졌지만, 정작 이 디스크를 다루는 **리눅스 커널(OS)의 소프트웨어(인터럽트, 블록 레이어)는 과거 하드디스크(HDD) 시절에 멈춰 있어 거대한 병목**이 되었다.

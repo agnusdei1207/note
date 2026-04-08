@@ -1,11 +1,11 @@
----
-title: "데이터 대역폭 압축 인코딩 (Data Bandwidth Compression Encoding)"
-date: 2026-03-20
-weight: 583
-description: "메모리와 CPU/GPU 간의 데이터 전송량을 줄여 버스 대역폭 병목을 해결하기 위해, 눈에 보이지 않게 데이터를 압축하여 전송하는 하드웨어 통신 기법"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Memory", "Compression", "GPU"]
----
++++
+title = "데이터 대역폭 압축 인코딩 (Data Bandwidth Compression Encoding)"
+date = 2026-03-20
+weight = 583
+description = "메모리와 CPU/GPU 간의 데이터 전송량을 줄여 버스 대역폭 병목을 해결하기 위해, 눈에 보이지 않게 데이터를 압축하여 전송하는 하드웨어 통신 기법"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Memory", "Compression", "GPU"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. CPU나 GPU 코어는 너무 빨라졌지만, 메모리와 연결된 도로는 차선(Bandwidth)이 한정되어 있어 언제나 **데이터 병목(Traffic Jam)**에 시달린다.

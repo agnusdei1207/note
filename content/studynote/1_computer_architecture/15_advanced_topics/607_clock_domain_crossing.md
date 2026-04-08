@@ -1,11 +1,11 @@
----
-title: "클럭 도메인 교차 (CDC, Clock Domain Crossing)"
-date: 2026-03-20
-weight: 607
-description: "서로 다른 클럭 속도로 동작하는 두 개의 하드웨어 블록 사이에서 데이터를 주고받을 때 발생하는 메타스테빌리티(Metastability) 오류를 막기 위한 반도체 설계 기법"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Hardware Design", "Clock Domain", "CDC"]
----
++++
+title = "클럭 도메인 교차 (CDC, Clock Domain Crossing)"
+date = 2026-03-20
+weight = 607
+description = "서로 다른 클럭 속도로 동작하는 두 개의 하드웨어 블록 사이에서 데이터를 주고받을 때 발생하는 메타스테빌리티(Metastability) 오류를 막기 위한 반도체 설계 기법"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Hardware Design", "Clock Domain", "CDC"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 현대의 SoC(시스템 온 칩) 안에는 CPU(5GHz), 메모리(3GHz), USB(480MHz) 등 **서로 다른 시계(클럭)를 가진 수십 개의 구역(Clock Domain)**이 존재한다.

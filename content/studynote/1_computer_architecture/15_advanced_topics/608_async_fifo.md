@@ -1,11 +1,11 @@
----
-title: "비동기식 FIFO 버퍼 (Asynchronous FIFO Buffer)"
-date: 2026-03-20
-weight: 608
-description: "서로 다른 클럭으로 도는 두 시스템이 대량의 데이터를 주고받을 때, 병목과 데이터 유실을 막기 위해 중간에 두는 완충 메모리 하드웨어"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Hardware", "FIFO", "CDC"]
----
++++
+title = "비동기식 FIFO 버퍼 (Asynchronous FIFO Buffer)"
+date = 2026-03-20
+weight = 608
+description = "서로 다른 클럭으로 도는 두 시스템이 대량의 데이터를 주고받을 때, 병목과 데이터 유실을 막기 위해 중간에 두는 완충 메모리 하드웨어"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Hardware", "FIFO", "CDC"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 앞 장의 2단계 플립플롭(동기화기)은 1비트짜리 제어 신호를 넘길 때는 좋지만, **수백 메가바이트의 데이터를 쏟아낼 때는 속도가 너무 느려서** 쓸 수 없다.

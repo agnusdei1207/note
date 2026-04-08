@@ -1,11 +1,11 @@
----
-title: "마이크로코드 (Microcode) 보안 패치 원리"
-date: 2026-03-20
-weight: 581
-description: "CPU의 물리적 회로(하드웨어)에 치명적인 설계 결함이 발견되었을 때, 칩을 버리지 않고 소프트웨어 업데이트를 통해 CPU의 명령어 해석 방식을 뜯어고치는 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Microcode", "CPU", "Security Patch"]
----
++++
+title = "마이크로코드 (Microcode) 보안 패치 원리"
+date = 2026-03-20
+weight = 581
+description = "CPU의 물리적 회로(하드웨어)에 치명적인 설계 결함이 발견되었을 때, 칩을 버리지 않고 소프트웨어 업데이트를 통해 CPU의 명령어 해석 방식을 뜯어고치는 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Microcode", "CPU", "Security Patch"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 우리가 아는 어셈블리어(`ADD`, `MOV` 등)는 CPU가 1차적으로 이해하는 명령어(매크로 인스트럭션)일 뿐, x86 같은 복잡한 프로세서 내부에서는 이를 더 잘게 쪼갠 0과 1의 진짜 기계어인 **마이크로코드(Microcode, $\mu$op)**로 변환하여 실행한다.

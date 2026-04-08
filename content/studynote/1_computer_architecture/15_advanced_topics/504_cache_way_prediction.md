@@ -1,11 +1,11 @@
----
-title: "캐시 웨이 예측 (Cache Way Prediction)"
-date: 2026-03-20
-weight: 504
-description: "집합 연관 캐시(Set-Associative Cache)에서 전력 소모를 줄이기 위해, 모든 웨이(Way)를 뒤지지 않고 데이터가 있을 법한 하나의 웨이만 미리 짐작하여 전기를 넣는 절전 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Cache", "Power Management"]
----
++++
+title = "캐시 웨이 예측 (Cache Way Prediction)"
+date = 2026-03-20
+weight = 504
+description = "집합 연관 캐시(Set-Associative Cache)에서 전력 소모를 줄이기 위해, 모든 웨이(Way)를 뒤지지 않고 데이터가 있을 법한 하나의 웨이만 미리 짐작하여 전기를 넣는 절전 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Cache", "Power Management"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 현대 CPU의 L1/L2 캐시는 대부분 **N-way 집합 연관(Set-Associative) 구조**를 사용한다. 이는 히트율은 높여주지만, 데이터를 찾을 때 N개의 웨이(방)를 동시에 모두 뒤져야 하므로 **동적 전력 소모가 매우 크다는 단점**이 있다.

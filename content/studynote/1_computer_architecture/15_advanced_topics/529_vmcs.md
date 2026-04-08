@@ -1,11 +1,11 @@
----
-title: "가상 머신 제어 구조 (VMCS, Virtual-Machine Control Structure)"
-date: 2026-03-20
-weight: 529
-description: "하이퍼바이저와 가상 머신(VM) 간의 세계가 전환될 때, CPU의 모든 상태 정보를 저장하고 관리하는 하드웨어 가상화의 핵심 메모리 구조체"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Virtualization", "VMCS", "Intel VT-x"]
----
++++
+title = "가상 머신 제어 구조 (VMCS, Virtual-Machine Control Structure)"
+date = 2026-03-20
+weight = 529
+description = "하이퍼바이저와 가상 머신(VM) 간의 세계가 전환될 때, CPU의 모든 상태 정보를 저장하고 관리하는 하드웨어 가상화의 핵심 메모리 구조체"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Virtualization", "VMCS", "Intel VT-x"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 인텔 VT-x 기술을 이용해 가상 머신을 돌릴 때, 하이퍼바이저 모드(Root)와 가상 머신 모드(Non-Root) 사이를 수시로 전환하는 작업을 **VM Entry / VM Exit**라고 부른다.

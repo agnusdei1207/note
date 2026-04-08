@@ -1,11 +1,11 @@
----
-title: "액체 냉각 시스템 (Liquid Cooling / Direct-to-Chip)"
-date: 2026-03-20
-weight: 601
-description: "공기(바람)로는 더 이상 감당할 수 없는 초고성능 AI 및 엑사스케일 칩의 열을 식히기 위해, 차가운 물(냉각수)을 칩 표면으로 직접 순환시키는 차세대 데이터센터 냉각 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Hardware", "Cooling", "Thermal Management"]
----
++++
+title = "액체 냉각 시스템 (Liquid Cooling / Direct-to-Chip)"
+date = 2026-03-20
+weight = 601
+description = "공기(바람)로는 더 이상 감당할 수 없는 초고성능 AI 및 엑사스케일 칩의 열을 식히기 위해, 차가운 물(냉각수)을 칩 표면으로 직접 순환시키는 차세대 데이터센터 냉각 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Hardware", "Cooling", "Thermal Management"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 전통적인 서버와 컴퓨터 구조는 방열판과 선풍기(Fan)를 이용해 뜨거운 열을 공기 중으로 날려 보내는 **공랭식(Air Cooling)**에 의존해 왔다.

@@ -1,11 +1,11 @@
----
-title: "루프 타일링 (Loop Tiling / Loop Blocking)"
-date: 2026-03-20
-weight: 539
-description: "거대한 행렬 연산 등에서 데이터가 캐시 용량을 초과하여 쫓겨나는 현상(Cache Thrashing)을 막기 위해, 데이터를 캐시 크기에 맞는 작은 조각(타일/블록)으로 쪼개서 연산하는 소프트웨어 최적화 기법"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Cache Optimization", "Compiler", "Loop Tiling"]
----
++++
+title = "루프 타일링 (Loop Tiling / Loop Blocking)"
+date = 2026-03-20
+weight = 539
+description = "거대한 행렬 연산 등에서 데이터가 캐시 용량을 초과하여 쫓겨나는 현상(Cache Thrashing)을 막기 위해, 데이터를 캐시 크기에 맞는 작은 조각(타일/블록)으로 쪼개서 연산하는 소프트웨어 최적화 기법"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Cache Optimization", "Compiler", "Loop Tiling"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. AI나 과학 연산에서 사용되는 행렬(Matrix)의 크기는 수 메가바이트(MB)를 넘어가므로, CPU의 작은 **L1 데이터 캐시(수십 KB) 용량을 단번에 초과**해버린다.

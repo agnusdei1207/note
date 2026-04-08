@@ -1,11 +1,11 @@
----
-title: "제로화 (Zeroization) 회로"
-date: 2026-03-20
-weight: 784
-description: "기계가 해킹, 물리적 파괴, 또는 비정상적인 탈취 공격을 당했을 때, 단 1나노초도 지체하지 않고 칩 내부에 저장된 모든 비밀 키와 기밀 데이터를 영구적으로 파괴하는 최후의 자폭 하드웨어"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "Hardware", "Zeroization", "Tamper"]
----
++++
+title = "제로화 (Zeroization) 회로"
+date = 2026-03-20
+weight = 784
+description = "기계가 해킹, 물리적 파괴, 또는 비정상적인 탈취 공격을 당했을 때, 단 1나노초도 지체하지 않고 칩 내부에 저장된 모든 비밀 키와 기밀 데이터를 영구적으로 파괴하는 최후의 자폭 하드웨어"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "Hardware", "Zeroization", "Tamper"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 앞 장의 안티 탬퍼(Anti-Tamper) 센서가 "도둑이 들어왔다!"라고 경보를 울리는 눈과 귀라면, **제로화(Zeroization) 회로**는 그 경보를 듣고 **"기밀문서에 기름을 붓고 불을 지르는" 행동 대원(자폭 장치)**이다.

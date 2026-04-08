@@ -1,11 +1,11 @@
----
-title: "영지식 증명 (ZKP) 가속 반도체 (ZK-Rollup 하드웨어)"
-date: 2026-03-20
-weight: 616
-description: "내 비밀을 공개하지 않고도 그 비밀을 알고 있다는 것을 증명하는 '영지식 증명(ZKP)'의 천문학적인 수학 연산을 극복하기 위한 최첨단 전용 반도체(ASIC/FPGA)"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Blockchain", "ZKP", "Cryptography", "Hardware Accelerator"]
----
++++
+title = "영지식 증명 (ZKP) 가속 반도체 (ZK-Rollup 하드웨어)"
+date = 2026-03-20
+weight = 616
+description = "내 비밀을 공개하지 않고도 그 비밀을 알고 있다는 것을 증명하는 '영지식 증명(ZKP)'의 천문학적인 수학 연산을 극복하기 위한 최첨단 전용 반도체(ASIC/FPGA)"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Blockchain", "ZKP", "Cryptography", "Hardware Accelerator"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **영지식 증명 (ZKP, Zero-Knowledge Proof)**은 원본 데이터(비밀번호, 거래내역)를 남에게 1비트도 보여주지 않으면서, "내 계산 결과와 권한은 100% 확실하다"는 것을 수학적으로 증명하는 궁극의 프라이버시 암호 기술이다.

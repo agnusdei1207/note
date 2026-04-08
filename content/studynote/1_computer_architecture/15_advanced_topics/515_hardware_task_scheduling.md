@@ -1,11 +1,11 @@
----
-title: "작업 스케줄링 하드웨어 지원 (Hardware-Assisted Task Scheduling)"
-date: 2026-03-20
-weight: 515
-description: "운영체제(OS)가 담당하던 스레드 스케줄링의 부하를 줄이기 위해, 하드웨어(CPU)가 직접 개입하여 스레드를 분배하고 관리하는 최신 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Scheduling", "Multithreading"]
----
++++
+title = "작업 스케줄링 하드웨어 지원 (Hardware-Assisted Task Scheduling)"
+date = 2026-03-20
+weight = 515
+description = "운영체제(OS)가 담당하던 스레드 스케줄링의 부하를 줄이기 위해, 하드웨어(CPU)가 직접 개입하여 스레드를 분배하고 관리하는 최신 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Scheduling", "Multithreading"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거에는 수천 개의 스레드(Thread)를 어느 코어에 할당할지 결정하는 스케줄링 작업을 전적으로 운영체제(OS)의 소프트웨어가 담당했다.

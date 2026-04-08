@@ -1,11 +1,11 @@
----
-title: "키-밸류 스토리지 (KV-SSD, Key-Value SSD)"
-date: 2026-03-20
-weight: 594
-description: "블록(Block)이라는 낡은 저장 단위를 버리고, 데이터베이스처럼 키(이름)와 밸류(내용) 쌍으로 데이터를 직접 하드웨어에 저장하는 혁신적인 SSD 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "SSD", "Key-Value"]
----
++++
+title = "키-밸류 스토리지 (KV-SSD, Key-Value SSD)"
+date = 2026-03-20
+weight = 594
+description = "블록(Block)이라는 낡은 저장 단위를 버리고, 데이터베이스처럼 키(이름)와 밸류(내용) 쌍으로 데이터를 직접 하드웨어에 저장하는 혁신적인 SSD 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "SSD", "Key-Value"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 1970년대부터 지금까지 컴퓨터는 데이터를 저장할 때 무조건 512바이트나 4KB 단위의 네모난 상자(Block)로 쪼개어 번호(LBA 주소)를 매겨 저장하는 **블록 스토리지** 방식을 썼다.

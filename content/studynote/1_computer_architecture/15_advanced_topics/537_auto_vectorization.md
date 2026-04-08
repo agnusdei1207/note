@@ -1,11 +1,11 @@
----
-title: "오토 벡터라이제이션 (Auto-vectorization)"
-date: 2026-03-20
-weight: 537
-description: "프로그래머가 작성한 일반적인 반복문(스칼라 코드)을 컴파일러가 분석하여, 하드웨어의 SIMD(벡터) 명령어를 사용하도록 자동 변환해주는 최적화 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Compiler", "SIMD", "Optimization"]
----
++++
+title = "오토 벡터라이제이션 (Auto-vectorization)"
+date = 2026-03-20
+weight = 537
+description = "프로그래머가 작성한 일반적인 반복문(스칼라 코드)을 컴파일러가 분석하여, 하드웨어의 SIMD(벡터) 명령어를 사용하도록 자동 변환해주는 최적화 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Compiler", "SIMD", "Optimization"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 최신 CPU에는 1클럭에 여러 개의 데이터를 한 번에 계산하는 **SIMD (단일 명령어 다중 데이터)** 벡터 연산기(예: AVX-512, NEON)가 탑재되어 있다.

@@ -1,11 +1,11 @@
----
-title: "인텔 스피드스텝 (SpeedStep) 기술"
-date: 2026-03-20
-weight: 728
-description: "현대 CPU 전력 관리의 시초가 된 기술로, 배터리와 전원 어댑터 연결 상태 및 CPU 부하에 따라 클럭 속도와 전압을 단계적으로 조절하는 인텔의 1세대 DVFS 구현체"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Power Management", "Intel", "SpeedStep"]
----
++++
+title = "인텔 스피드스텝 (SpeedStep) 기술"
+date = 2026-03-20
+weight = 728
+description = "현대 CPU 전력 관리의 시초가 된 기술로, 배터리와 전원 어댑터 연결 상태 및 CPU 부하에 따라 클럭 속도와 전압을 단계적으로 조절하는 인텔의 1세대 DVFS 구현체"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Power Management", "Intel", "SpeedStep"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거 펜티엄 3 시절의 랩탑(노트북)은 데스크탑과 똑같은 전압과 클럭으로 돌았기 때문에, 배터리가 1시간도 못 버티고 바닥났다.

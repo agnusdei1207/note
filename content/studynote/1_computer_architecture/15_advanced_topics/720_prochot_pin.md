@@ -1,11 +1,11 @@
----
-title: "PROCHOT# 핀 (프로세서 핫 시그널)"
-date: 2026-03-20
-weight: 720
-description: "CPU가 과열되었을 때 메인보드 전체에 '나 뜨거우니까 다들 멈춰!'라고 외치거나, 반대로 외부 부품이 과열됐을 때 CPU의 성능을 강제로 깎아내리게 만드는 양방향 하드웨어 비상 신호"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Power Management", "Hardware", "Thermal"]
----
++++
+title = "PROCHOT# 핀 (프로세서 핫 시그널)"
+date = 2026-03-20
+weight = 720
+description = "CPU가 과열되었을 때 메인보드 전체에 '나 뜨거우니까 다들 멈춰!'라고 외치거나, 반대로 외부 부품이 과열됐을 때 CPU의 성능을 강제로 깎아내리게 만드는 양방향 하드웨어 비상 신호"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Power Management", "Hardware", "Thermal"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 앞 장에서 배운 다운클럭킹이 일어나는 물리적인 방아쇠가 바로 CPU 밑바닥에 달린 **PROCHOT# (Processor Hot)** 핀이다.

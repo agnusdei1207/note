@@ -1,11 +1,11 @@
----
-title: "데이터 레이크 (Data Lake) 스토리지 아키텍처"
-date: 2026-03-20
-weight: 641
-description: "형식이 정해진 데이터베이스(창고)의 한계를 깨고, 텍스트, 이미지, 로그 등 온갖 잡다한 원시 데이터(Raw Data)를 거대한 호수처럼 한곳에 무자비하게 쏟아부어 저장하는 빅데이터/AI 전용 스토리지 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "Data Lake", "Big Data", "Cloud"]
----
++++
+title = "데이터 레이크 (Data Lake) 스토리지 아키텍처"
+date = 2026-03-20
+weight = 641
+description = "형식이 정해진 데이터베이스(창고)의 한계를 깨고, 텍스트, 이미지, 로그 등 온갖 잡다한 원시 데이터(Raw Data)를 거대한 호수처럼 한곳에 무자비하게 쏟아부어 저장하는 빅데이터/AI 전용 스토리지 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "Data Lake", "Big Data", "Cloud"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거에는 데이터를 분석하기 위해 데이터를 예쁘게 정제(ETL)하여 표(Table) 모양으로 깎은 뒤, 비싼 전용 장비인 **데이터 웨어하우스(Data Warehouse)**에 저장했다. (형식 엄격, 고비용)

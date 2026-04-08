@@ -1,11 +1,11 @@
----
-title: "AMD Cool'n'Quiet (쿨앤콰이어트)"
-date: 2026-03-20
-weight: 729
-description: "인텔의 스피드스텝에 맞서 AMD가 데스크톱 프로세서에 세계 최초로 대중화시킨, 성능과 소음(발열)을 동시에 잡은 지능형 클럭/전압 스케일링 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Power Management", "AMD", "Cool'n'Quiet"]
----
++++
+title = "AMD Cool'n'Quiet (쿨앤콰이어트)"
+date = 2026-03-20
+weight = 729
+description = "인텔의 스피드스텝에 맞서 AMD가 데스크톱 프로세서에 세계 최초로 대중화시킨, 성능과 소음(발열)을 동시에 잡은 지능형 클럭/전압 스케일링 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Power Management", "AMD", "Cool'n'Quiet"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 과거 인텔의 스피드스텝(SpeedStep)이 '노트북 배터리 절약'을 위해 시작된 모바일 기술이었다면, AMD의 **Cool'n'Quiet**는 이름 그대로 **'데스크톱 PC의 끔찍한 발열과 선풍기 소음(Quiet)'을 잡기 위해 도입**된 데스크톱 최초의 동적 전력 관리 기술이다.

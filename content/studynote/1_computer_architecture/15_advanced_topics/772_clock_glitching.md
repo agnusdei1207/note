@@ -1,11 +1,11 @@
----
-title: "클럭 글리칭 (Clock Glitching)"
-date: 2026-03-20
-weight: 772
-description: "전압이 아닌 CPU의 '시계(클럭)' 신호를 물리적으로 조작하여, 칩이 명령어를 채 끝내기도 전에 다음 명령어를 실행하게 만들어 논리 회로를 붕괴시키는 하드웨어 해킹"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "Fault Injection", "Hardware", "Glitching"]
----
++++
+title = "클럭 글리칭 (Clock Glitching)"
+date = 2026-03-20
+weight = 772
+description = "전압이 아닌 CPU의 '시계(클럭)' 신호를 물리적으로 조작하여, 칩이 명령어를 채 끝내기도 전에 다음 명령어를 실행하게 만들어 논리 회로를 붕괴시키는 하드웨어 해킹"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "Fault Injection", "Hardware", "Glitching"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 이전 장의 볼티지 글리치가 밥(전압)을 뺏어 기절시키는 것이라면, **클럭 글리칭 (Clock Glitching)**은 CPU의 심장 박동(클럭)을 비정상적으로 빨리 뛰게 만들어 과호흡을 유발하는 공격이다.

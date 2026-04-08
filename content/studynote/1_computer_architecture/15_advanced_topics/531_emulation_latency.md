@@ -1,11 +1,11 @@
----
-title: "에뮬레이션 지연 (Emulation Latency)"
-date: 2026-03-20
-weight: 531
-description: "물리적 하드웨어가 없는 기능을 소프트웨어 코드로 모방(Emulate)하여 실행할 때 발생하는 필연적이고 막대한 시간적 오버헤드"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Emulation", "Virtualization"]
----
++++
+title = "에뮬레이션 지연 (Emulation Latency)"
+date = 2026-03-20
+weight = 531
+description = "물리적 하드웨어가 없는 기능을 소프트웨어 코드로 모방(Emulate)하여 실행할 때 발생하는 필연적이고 막대한 시간적 오버헤드"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Emulation", "Virtualization"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **에뮬레이션(Emulation)**은 시스템 내에 존재하지 않는 하드웨어 장치(예: 과거의 콘솔 게임기, 다른 아키텍처의 CPU)의 동작을 순수 소프트웨어 연산을 통해 100% 모방해 내는 기술이다.

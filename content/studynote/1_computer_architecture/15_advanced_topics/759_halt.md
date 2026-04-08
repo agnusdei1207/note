@@ -1,11 +1,11 @@
----
-title: "HALT (Highly Accelerated Life Test, 고가속 수명 시험)"
-date: 2026-03-20
-weight: 759
-description: "제품 설계 단계에서 칩이나 서버를 망치로 때리고, 얼렸다가 끓이는 등 극단적이고 변태적인 스트레스를 가해 '이 제품의 물리적 파괴 한계점'을 찾아내는 하드웨어 고문 테스트"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Reliability", "Testing", "HALT"]
----
++++
+title = "HALT (Highly Accelerated Life Test, 고가속 수명 시험)"
+date = 2026-03-20
+weight = 759
+description = "제품 설계 단계에서 칩이나 서버를 망치로 때리고, 얼렸다가 끓이는 등 극단적이고 변태적인 스트레스를 가해 '이 제품의 물리적 파괴 한계점'을 찾아내는 하드웨어 고문 테스트"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Reliability", "Testing", "HALT"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 앞 장의 번인(Burn-in)이 양산되는 '모든 제품'을 살짝 구워서 불량품을 거르는 것이라면, **HALT**는 양산 전 **설계 단계(R&D)**에서 소수의 샘플을 가져와 **기계가 완전히 박살 날 때까지 극한으로 고문하는 테스트**다.

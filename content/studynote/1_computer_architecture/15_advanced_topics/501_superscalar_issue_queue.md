@@ -1,11 +1,11 @@
----
-title: "수퍼스칼라 발급 큐 (Superscalar Issue Queue)"
-date: 2026-03-20
-weight: 501
-description: "한 클럭에 여러 명령어를 동시에 실행하기 위해, 명령어들을 임시로 저장하고 의존성이 풀린 것부터 꺼내어 연산기로 보내는 핵심 버퍼"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Superscalar", "Instruction Pipeline"]
----
++++
+title = "수퍼스칼라 발급 큐 (Superscalar Issue Queue)"
+date = 2026-03-20
+weight = 501
+description = "한 클럭에 여러 명령어를 동시에 실행하기 위해, 명령어들을 임시로 저장하고 의존성이 풀린 것부터 꺼내어 연산기로 보내는 핵심 버퍼"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Superscalar", "Instruction Pipeline"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **수퍼스칼라 (Superscalar)** 구조는 하나의 코어 안에 여러 개의 연산 유닛(ALU, FPU 등)을 두어, 1클럭 사이클에 여러 개의 명령어를 동시에 실행(Issue)하는 기술이다.

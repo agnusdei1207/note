@@ -1,11 +1,11 @@
----
-title: "Redfish 관리 API"
-date: 2026-03-20
-weight: 711
-description: "오래되고 느리고 보안에 취약한 구형 IPMI 프로토콜을 대체하기 위해 등장한, 최신 웹 표준(RESTful API와 JSON) 기반의 차세대 데이터센터 하드웨어 관리 규격"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Infrastructure", "Redfish", "API"]
----
++++
+title = "Redfish 관리 API"
+date = 2026-03-20
+weight = 711
+description = "오래되고 느리고 보안에 취약한 구형 IPMI 프로토콜을 대체하기 위해 등장한, 최신 웹 표준(RESTful API와 JSON) 기반의 차세대 데이터센터 하드웨어 관리 규격"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Infrastructure", "Redfish", "API"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 수십 년간 서버 하드웨어를 관리하던 **IPMI**는 문자열 파싱도 어렵고, 보안 구멍도 많으며, 명령어 체계가 1990년대 수준에 머물러 있는 '개발자들의 악몽'이었다.

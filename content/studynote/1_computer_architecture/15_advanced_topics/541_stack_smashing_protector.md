@@ -1,11 +1,11 @@
----
-title: "스택 스매싱 프로텍터 (Stack Smashing Protector, SSP / Canary)"
-date: 2026-03-20
-weight: 541
-description: "스택 버퍼 오버플로우 공격을 방어하기 위해 컴파일러가 스택 메모리에 임의의 검증용 값(카나리아)을 심어두고, 변조 여부를 확인하는 소프트웨어 보안 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "Buffer Overflow", "Compiler"]
----
++++
+title = "스택 스매싱 프로텍터 (Stack Smashing Protector, SSP / Canary)"
+date = 2026-03-20
+weight = 541
+description = "스택 버퍼 오버플로우 공격을 방어하기 위해 컴파일러가 스택 메모리에 임의의 검증용 값(카나리아)을 심어두고, 변조 여부를 확인하는 소프트웨어 보안 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "Buffer Overflow", "Compiler"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 이전 챕터의 인텔 CET(섀도 스택)가 최신 CPU의 하드웨어적 방어라면, **스택 스매싱 프로텍터(SSP)**는 지난 수십 년간 버퍼 오버플로우를 막아온 가장 고전적이고 널리 쓰이는 **컴파일러(소프트웨어) 차원의 방어 기술**이다.

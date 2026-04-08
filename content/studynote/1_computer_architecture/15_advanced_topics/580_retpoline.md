@@ -1,11 +1,11 @@
----
-title: "Retpoline (Return Trampoline)"
-date: 2026-03-20
-weight: 580
-description: "스펙터(Spectre v2) 공격을 회피하기 위해 구글(Google) 엔지니어들이 고안한 천재적인 컴파일러 소프트웨어 기법으로, CPU 분기 예측기를 영원히 무한 루프에 가두어 추측 실행을 봉쇄하는 해킹 방어술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "Compiler", "Spectre", "Retpoline"]
----
++++
+title = "Retpoline (Return Trampoline)"
+date = 2026-03-20
+weight = 580
+description = "스펙터(Spectre v2) 공격을 회피하기 위해 구글(Google) 엔지니어들이 고안한 천재적인 컴파일러 소프트웨어 기법으로, CPU 분기 예측기를 영원히 무한 루프에 가두어 추측 실행을 봉쇄하는 해킹 방어술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "Compiler", "Spectre", "Retpoline"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 하드웨어의 분기 예측기를 지우는 IBPB 명령어는 성능 하락이 너무 심했다. 이를 극복하기 위해 소프트웨어 컴파일러 단에서 스펙터를 막아내는 혁명적인 기법이 바로 **레트폴린(Retpoline)**이다.

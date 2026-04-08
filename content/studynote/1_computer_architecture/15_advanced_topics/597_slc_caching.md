@@ -1,11 +1,11 @@
----
-title: "SLC 캐싱 (SLC Caching) 기법"
-date: 2026-03-20
-weight: 597
-description: "느리고 수명이 짧은 TLC/QLC 기반의 고용량 SSD에서, 일부 영역을 빠르고 튼튼한 SLC 모드로 작동시켜 초반 쓰기 속도를 극대화하는 스토리지 컨트롤러 최적화 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "SSD", "SLC Caching"]
----
++++
+title = "SLC 캐싱 (SLC Caching) 기법"
+date = 2026-03-20
+weight = 597
+description = "느리고 수명이 짧은 TLC/QLC 기반의 고용량 SSD에서, 일부 영역을 빠르고 튼튼한 SLC 모드로 작동시켜 초반 쓰기 속도를 극대화하는 스토리지 컨트롤러 최적화 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "SSD", "SLC Caching"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 낸드 플래시는 셀 하나에 데이터를 1비트만 저장하는 SLC(가장 빠름), 3비트를 넣는 TLC, 4비트를 욱여넣는 QLC(가장 느림, 고용량)로 발전해 왔다.

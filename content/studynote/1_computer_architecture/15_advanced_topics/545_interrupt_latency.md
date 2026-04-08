@@ -1,11 +1,11 @@
----
-title: "인터럽트 지연 시간 최소화 (Interrupt Latency Minimization)"
-date: 2026-03-20
-weight: 545
-description: "외부 이벤트 발생 시 CPU가 반응하기까지 걸리는 지연 시간을 극도로 줄여, 자동차나 공장 제어 시스템 같은 실시간 운영체제(RTOS)의 핵심 요구사항을 달성하는 기법"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "RTOS", "Interrupt", "Latency"]
----
++++
+title = "인터럽트 지연 시간 최소화 (Interrupt Latency Minimization)"
+date = 2026-03-20
+weight = 545
+description = "외부 이벤트 발생 시 CPU가 반응하기까지 걸리는 지연 시간을 극도로 줄여, 자동차나 공장 제어 시스템 같은 실시간 운영체제(RTOS)의 핵심 요구사항을 달성하는 기법"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "RTOS", "Interrupt", "Latency"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 하드웨어 인터럽트가 발생했을 때 CPU가 하던 일을 멈추고 해당 인터럽트 처리 루틴(ISR)의 첫 번째 명령어를 실행할 때까지 걸리는 시간을 **인터럽트 지연 시간(Interrupt Latency)**이라고 한다.

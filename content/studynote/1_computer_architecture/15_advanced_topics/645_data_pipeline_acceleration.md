@@ -1,11 +1,11 @@
----
-title: "데이터 파이프라인 (Data Pipeline) 가속"
-date: 2026-03-20
-weight: 645
-description: "AI 학습이나 빅데이터 분석을 위해 원시 데이터를 읽어오고, 압축을 풀고, 크기를 자르고, GPU로 넘겨주는 일련의 전처리 과정을 CPU 병목 없이 하드웨어 레벨에서 직통으로 뚫어주는 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "AI Accelerator", "Data Pipeline", "GPU"]
----
++++
+title = "데이터 파이프라인 (Data Pipeline) 가속"
+date = 2026-03-20
+weight = 645
+description = "AI 학습이나 빅데이터 분석을 위해 원시 데이터를 읽어오고, 압축을 풀고, 크기를 자르고, GPU로 넘겨주는 일련의 전처리 과정을 CPU 병목 없이 하드웨어 레벨에서 직통으로 뚫어주는 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "AI Accelerator", "Data Pipeline", "GPU"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 딥러닝(AI) 모델 학습이 느려지는 가장 큰 이유는 GPU 성능이 딸려서가 아니라, **GPU에게 먹일 사진/텍스트 데이터를 CPU가 제때제때 예쁘게 가공해서 입에 넣어주지 못하기 때문(Data Starvation)**이다.

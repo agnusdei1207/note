@@ -1,11 +1,11 @@
----
-title: "하드웨어 헬스 모니터링 (센서 레지스터)"
-date: 2026-03-20
-weight: 715
-description: "서버가 불타거나 멈추는 것을 막기 위해 메인보드 구석구석에 심어진 수십 개의 물리적 센서들이 CPU, 메모리, 쿨링팬의 건강 상태(Health)를 실시간으로 감시하는 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Hardware", "Monitoring", "Sensors"]
----
++++
+title = "하드웨어 헬스 모니터링 (센서 레지스터)"
+date = 2026-03-20
+weight = 715
+description = "서버가 불타거나 멈추는 것을 막기 위해 메인보드 구석구석에 심어진 수십 개의 물리적 센서들이 CPU, 메모리, 쿨링팬의 건강 상태(Health)를 실시간으로 감시하는 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Hardware", "Monitoring", "Sensors"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 인간이 피검사를 통해 콜레스테롤 수치를 보듯, 서버 하드웨어 역시 건강 상태(온도, 전압, 팬 속도)를 끊임없이 체크하지 않으면 부품이 수명을 다하기 전에 터져버린다.

@@ -1,3 +1,7 @@
++++
+title = "Nginx + Let's Encrypt 환경에서 TLS 설정 삽질 정리"
++++
+
 # Nginx + Let's Encrypt 환경에서 TLS 설정 삽질 정리
 
 > **tl;dr** — TLS 에러의 90%는 인증서 문제가 아니라, Nginx가 어떤 server block을 먼저 선택하느냐의 문제다.

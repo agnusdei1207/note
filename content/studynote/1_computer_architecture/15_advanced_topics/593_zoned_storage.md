@@ -1,11 +1,11 @@
----
-title: "존 스토리지 (Zoned Storage / ZNS SSD)"
-date: 2026-03-20
-weight: 593
-description: "거대한 저장 공간을 여러 개의 구역(Zone)으로 나누고, 반드시 순차적으로만 데이터를 쓰게 강제하여 SSD의 수명과 속도를 극대화하는 차세대 스토리지 아키텍처"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "ZNS", "SSD"]
----
++++
+title = "존 스토리지 (Zoned Storage / ZNS SSD)"
+date = 2026-03-20
+weight = 593
+description = "거대한 저장 공간을 여러 개의 구역(Zone)으로 나누고, 반드시 순차적으로만 데이터를 쓰게 강제하여 SSD의 수명과 속도를 극대화하는 차세대 스토리지 아키텍처"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "ZNS", "SSD"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 하드디스크 시절의 흔적인 "아무 데나 마음대로 데이터를 덮어쓰는(Random Write)" 관행은 SSD의 낸드 플래시 특성과 맞지 않아 극심한 속도 저하(쓰기 증폭)를 유발한다.

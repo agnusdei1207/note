@@ -1,11 +1,11 @@
----
-title: "CPU 클럭 다운클럭킹 (안전 모드, Downclocking)"
-date: 2026-03-20
-weight: 719
-description: "CPU의 쿨링 시스템이 완전히 고장 났을 때, 칩이 불타서 녹아내리는 것을 막기 위해 하드웨어가 강제로 성능을 바닥까지 깎아내리는 최후의 생존 본능"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Power Management", "Thermal", "CPU"]
----
++++
+title = "CPU 클럭 다운클럭킹 (안전 모드, Downclocking)"
+date = 2026-03-20
+weight = 719
+description = "CPU의 쿨링 시스템이 완전히 고장 났을 때, 칩이 불타서 녹아내리는 것을 막기 위해 하드웨어가 강제로 성능을 바닥까지 깎아내리는 최후의 생존 본능"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Power Management", "Thermal", "CPU"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 평소 CPU는 DVFS를 통해 똑똑하게 전압과 클럭을 오르내리지만, 쿨러(Fan)가 갑자기 물리적으로 박살 나서 온도가 **$100^\circ C$ (TjMax)**에 도달하면 이 우아한 제어는 소용이 없어진다.

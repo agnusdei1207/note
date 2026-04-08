@@ -1,11 +1,11 @@
----
-title: "SR-IOV (Single Root I/O Virtualization)"
-date: 2026-03-20
-weight: 528
-description: "하나의 물리적 PCIe 장치(예: 고성능 랜카드)를 가상 머신(VM)들이 하이퍼바이저 개입 없이 완벽하게 독립적으로 분할하여 직접 사용하는 하드웨어 가상화 기술"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Virtualization", "PCIe", "Network"]
----
++++
+title = "SR-IOV (Single Root I/O Virtualization)"
+date = 2026-03-20
+weight = 528
+description = "하나의 물리적 PCIe 장치(예: 고성능 랜카드)를 가상 머신(VM)들이 하이퍼바이저 개입 없이 완벽하게 독립적으로 분할하여 직접 사용하는 하드웨어 가상화 기술"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Virtualization", "PCIe", "Network"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 가상 머신(VM) 환경에서 가장 큰 성능 병목은 네트워크나 그래픽카드 같은 I/O 장치를 쓸 때 **소프트웨어 하이퍼바이저(vSwitch 등)가 트래픽을 가로채서 분배해야 한다는 점**이다.

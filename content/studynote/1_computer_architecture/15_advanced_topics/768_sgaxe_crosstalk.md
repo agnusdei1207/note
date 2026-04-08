@@ -1,11 +1,11 @@
----
-title: "SGAxe 및 CrossTalk 공격"
-date: 2026-03-20
-weight: 768
-description: "인텔의 가장 강력한 보안 구역인 SGX(엔클레이브) 내부의 암호화 키를 훔쳐내기 위해, 코어 간 통신(CrossTalk)과 비순차 실행의 틈을 노린 치명적인 하드웨어 취약점"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Security", "Intel SGX", "MDS", "Hardware Bug"]
----
++++
+title = "SGAxe 및 CrossTalk 공격"
+date = 2026-03-20
+weight = 768
+description = "인텔의 가장 강력한 보안 구역인 SGX(엔클레이브) 내부의 암호화 키를 훔쳐내기 위해, 코어 간 통신(CrossTalk)과 비순차 실행의 틈을 노린 치명적인 하드웨어 취약점"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Security", "Intel SGX", "MDS", "Hardware Bug"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 인텔 SGX(Software Guard Extensions)는 OS가 해킹당해도 절대 털리지 않는 '하드웨어 금고(Enclave)'다. 이 안의 데이터는 RAM에 저장될 때도 암호화되어 있다.

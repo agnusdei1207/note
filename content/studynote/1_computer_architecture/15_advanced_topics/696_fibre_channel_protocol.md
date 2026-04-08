@@ -1,11 +1,11 @@
----
-title: "Fibre Channel (FC) 프로토콜"
-date: 2026-03-20
-weight: 696
-description: "TCP/IP라는 무겁고 변덕스러운 네트워크 대신, 스토리지 데이터만을 빠르고 완벽하게 무손실로 전송하기 위해 태어난 데이터센터의 뼈대이자 럭셔리 스토리지 통신 규약"
-taxonomy:
-    tags: ["Computer Architecture", "Advanced Topics", "Storage", "Network", "Fibre Channel", "SAN"]
----
++++
+title = "Fibre Channel (FC) 프로토콜"
+date = 2026-03-20
+weight = 696
+description = "TCP/IP라는 무겁고 변덕스러운 네트워크 대신, 스토리지 데이터만을 빠르고 완벽하게 무손실로 전송하기 위해 태어난 데이터센터의 뼈대이자 럭셔리 스토리지 통신 규약"
+taxonomy =  ""
+tags = ["Computer Architecture", "Advanced Topics", "Storage", "Network", "Fibre Channel", "SAN"]
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. 하드디스크(SCSI)의 명령어를 인터넷 랜선(Ethernet/TCP)으로 보내면, 패킷이 버려지거나 순서가 뒤섞이는 등 불안정해서 스토리지가 마비되기 십상이었다.
