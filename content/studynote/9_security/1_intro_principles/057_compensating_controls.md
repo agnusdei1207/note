@@ -1,5 +1,5 @@
 +++
-title = "57. 상실 통제 (Compensating Controls) — 기존 통제 우회 조치"
+title = "057. 보완 통제 (Compensating Controls) — 기존 통제 우회 조치"
 date = "2026-04-05"
 weight = 57
 [extra]

@@ -1,5 +1,5 @@
 +++
-title = "45. NIST CSF 2.0 — Identify/Protect/Detect/Respond/Recover + Govern"
+title = "045. NIST CSF 2.0 — Identify/Protect/Detect/Respond/Recover + Govern"
 date = "2026-04-05"
 weight = 45
 [extra]

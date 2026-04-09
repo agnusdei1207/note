@@ -1,5 +1,5 @@
 +++
-title = "63. Threat Modeling — STRIDE, DREAD, MITRE ATT&CK 맵핑"
+title = "063. Threat Modeling — STRIDE, DREAD, MITRE ATT&CK 맵핑"
 date = "2026-04-05"
 weight = 63
 [extra]

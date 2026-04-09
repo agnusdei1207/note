@@ -1,5 +1,5 @@
 +++
-title = "97. 해시 함수 — 단방향성, 충돌 저항성, Preimage 저항성"
+title = "097. 해시 함수 — 단방향성, 충돌 저항성, Preimage 저항성"
 date = "2026-04-05"
 weight = 97
 [extra]

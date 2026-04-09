@@ -1,5 +1,5 @@
 +++
-title = "67. Attack Surface Analysis — 공격 표면 관리"
+title = "067. Attack Surface Analysis — 공격 표면 관리"
 date = "2026-04-05"
 weight = 67
 [extra]

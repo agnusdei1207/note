@@ -1,5 +1,5 @@
 +++
-title = "60. Privacy by Design 7基本原则 — 사전 보호, 기본값私密性 등"
+title = "060. Privacy by Design 7대 기본 원칙 — 사전 보호, 기본값 프라이버시 등"
 date = "2026-04-05"
 weight = 60
 [extra]

@@ -1,5 +1,5 @@
 +++
-title = "44. TOGAF (The Open Group Architecture Framework) — 아키텍처 개발 方法论"
+title = "044. TOGAF (The Open Group Architecture Framework)"
 date = "2026-04-05"
 weight = 44
 [extra]

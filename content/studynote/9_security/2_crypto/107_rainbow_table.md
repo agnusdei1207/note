@@ -1,5 +1,5 @@
 +++
-title = "107. rainbow table — 사전 계산 해시 테이블, 역산 공격"
+title = "107. Rainbow Table — 사전 계산 해시 테이블, 역산 공격"
 date = "2026-04-05"
 weight = 107
 [extra]

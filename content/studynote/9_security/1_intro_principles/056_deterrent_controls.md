@@ -1,5 +1,5 @@
 +++
-title = "56. 억제 통제 (Deterrent Controls) — 위협 행동 억제"
+title = "056. 억제 통제 (Deterrent Controls) — 위협 행동 억제"
 date = "2026-04-05"
 weight = 56
 [extra]

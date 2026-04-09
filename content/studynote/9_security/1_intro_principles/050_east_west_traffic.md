@@ -1,5 +1,5 @@
 +++
-title = "50. East-West 트래픽 통제 — 내부 세그멘테이션"
+title = "050. East-West 트래픽 통제 — 내부 세그멘테이션"
 date = "2026-04-05"
 weight = 50
 [extra]

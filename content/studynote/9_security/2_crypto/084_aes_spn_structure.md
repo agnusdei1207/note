@@ -1,5 +1,5 @@
 +++
-title = "84. AES SPN 구조 — SubBytes/ShiftRows/MixColumns/AddRoundKey"
+title = "084. AES SPN 구조 — SubBytes/ShiftRows/MixColumns/AddRoundKey"
 date = "2026-04-05"
 weight = 84
 [extra]

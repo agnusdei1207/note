@@ -1,5 +1,5 @@
 +++
-title = "86. DES (Data Encryption Standard) — 56비트 키, 취약"
+title = "086. DES (Data Encryption Standard) — 56비트 키, 취약"
 date = "2026-04-05"
 weight = 86
 [extra]
