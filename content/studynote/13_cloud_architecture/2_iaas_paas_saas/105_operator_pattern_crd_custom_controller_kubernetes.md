@@ -1,5 +1,5 @@
 +++
-title = "105. 오퍼레이터 (Operator) 패턴 - K8s 애플리케이션 운영 자동화"
+title = "105. 오퍼레이터 패턴 (Operator Pattern) - K8s 봇 자동화"
 date = "2026-04-10"
 [extra]
 categories = "studynote-cloud-architecture"
