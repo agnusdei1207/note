@@ -1,5 +1,5 @@
 +++
-title = "201. 엔터프라이즈 백업 아키텍처 클라우드 티어링 스토리지"
+title = "201. 엔터프라이즈 백업 클라우드 티어링 (Tiering) 스토리지"
 date = "2026-04-10"
 [extra]
 categories = "studynote-enterprise"

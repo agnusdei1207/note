@@ -1,11 +1,11 @@
 +++
-title = "240. 클라우드 재해 복구(DR) 아키텍처 - Pilot Light vs Warm Standby"
+title = "240. 클라우드 DR 아키텍처 (Pilot Light, Warm Standby)"
 date = "2026-04-10"
 [extra]
 categories = "studynote-ict"
 +++
 
-# 240. 클라우드 재해 복구(DR) 아키텍처 (Pilot Light vs Warm Standby)
+# 240. 클라우드 재해 복구 아키텍처 (Pilot Light vs Warm Standby)
 
 > ⚠️ 이 문서는 해커의 공격이나 자연재해(화재, 지진)로 인해 메인 데이터센터(리전)가 완전히 불타 없어졌을 때, 기업이 망하지 않고 다른 지역(백업 리전)에서 시스템을 살려내는 **'재해 복구(DR, Disaster Recovery)' 전략에서, 돈을 얼마나 쓸 것인가(비용)와 얼마나 빨리 살려낼 것인가(복구 시간) 사이의 치열한 타협점인 'Pilot Light'와 'Warm Standby' 아키텍처의 차이**를 다룹니다.
 
