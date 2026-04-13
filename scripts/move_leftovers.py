@@ -66,8 +66,9 @@ for subject_dir in base_dir.iterdir():
 for file_num, path, current_subject_dir in loose_files:
     moved = False
     
-    # Search all subjects for this number
-    for subj_dir, data in subject_sections.items():
+    # Search only in the current subject dir
+    if current_subject_dir in subject_sections:
+        data = subject_sections[current_subject_dir]
         sections = data["sections"]
         folder_map = data["folder_map"]
         
@@ -84,4 +85,3 @@ for file_num, path, current_subject_dir in loose_files:
                 shutil.move(str(path), str(dest))
                 print(f"Moved {path.name} to {dest}")
                 moved = True
-                break
