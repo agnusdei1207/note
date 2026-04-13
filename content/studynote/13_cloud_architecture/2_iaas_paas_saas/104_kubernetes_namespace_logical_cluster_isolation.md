@@ -1,5 +1,5 @@
 +++
-title = "104. 네임스페이스 (Namespace) - K8s 논리적 클러스터 분할 및 자원 격리"
+title = "104. K8s 네임스페이스 (Namespace) - 논리적 분할과 격리"
 date = "2026-04-10"
 [extra]
 categories = "studynote-cloud-architecture"
