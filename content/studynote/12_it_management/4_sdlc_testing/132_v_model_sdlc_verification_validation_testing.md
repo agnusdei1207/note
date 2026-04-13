@@ -1,5 +1,5 @@
 +++
-title = "132. V 모델 (V-Model) - SDLC 폭포수 모델 확장과 테스트 대응"
+title = "132. V 모델 - SDLC 확장과 Validation/Verification 테스트 대응"
 date = "2026-04-10"
 [extra]
 categories = "studynote-it-management"

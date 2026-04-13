@@ -1,5 +1,5 @@
 +++
-title = "78. 데이터 스케일링 - 정규화(Min-Max)와 표준화(Z-Score) 차이"
+title = "78. 데이터 스케일링 - 정규화(Min-Max)와 표준화(Z-Score) 차이점"
 date = "2026-04-10"
 [extra]
 categories = "studynote-data-engineering"
