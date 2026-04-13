@@ -1,5 +1,5 @@
 +++
-title = "94. 배치 정규화 (Batch Normalization) - 딥러닝 층간 입력 안정화"
+title = "94. 배치 정규화 (Batch Normalization) - 미니배치 층간 정규화"
 date = "2026-04-10"
 [extra]
 categories = "studynote-ai"
