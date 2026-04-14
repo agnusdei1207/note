@@ -1,0 +1,64 @@
++++
+weight = 417
+title = "취약한 접근 제어 (Broken Access Control)"
+date = "2026-03-25"
+[extra]
+categories = ["studynote-security"]
++++
+
+## 핵심 인사이트 (3줄 요약)
+- **OWASP Top 1위 위협**: 인증된 사용자가 자신의 권한을 벗어나 타인의 데이터에 접근하거나 관리자 기능을 실행할 수 있는 가장 흔한 웹 보안 결함입니다.
+- **수평적/수직적 권한 상승**: 동일 등급 사용자의 정보에 접근(수평적)하거나 일반 사용자가 관리자 권한을 획득(수직적)하는 공격으로 나뉩니다.
+- **서버 측 검증 부재가 원인**: 클라이언트 측의 제어나 UI 가리기에만 의존하고, 서버에서 요청마다 권한을 엄격히 체크하지 않을 때 발생합니다.
+
+### Ⅰ. 개요 (Context & Background)
+취약한 접근 제어(Broken Access Control)는 현대 웹 애플리케이션 보안에서 가장 치명적인 취약점으로 꼽힙니다. 인증(Authentication)이 '누구인가'를 확인하는 과정이라면, 접근 제어(Authorization)는 '무엇을 할 수 있는가'를 결정하는 보안 단계입니다. 사용자가 로그인에 성공했더라도, 서버가 적절한 권한 검증 로직을 갖추지 못하면 공격자는 URL 파라미터나 쿠키 값을 조작하여 타인의 개인정보를 탈취하거나 결제 로직을 우회할 수 있습니다. 2021년 OWASP Top 10에서 1위로 선정될 만큼 발생 빈도와 위험도가 매우 높습니다.
+
+### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
+접근 제어 취약점은 주로 '거부 정책(Deny-by-default)'이 아닌 '허용 정책'을 기본으로 할 때, 혹은 서버가 사용자의 식별자(ID)를 전적으로 클라이언트 요청에 의존할 때 발생합니다.
+
+```text
++-------------------------------------------------------------+
+|               Access Control Breach Flow                    |
+|                                                             |
+|  [ Normal User ] --(Request: /api/user/123)--> [ Web Server ]
+|                                                      |      |
+|  [ Attacker ]    --(Modified: /api/user/456)--> [ Auth Check ]
+|                                                      |      |
+|  IF (Server lacks per-request ownership check):      |      |
+|  [ Web Server ] <---(Returns Private Data 456)--- [ Database ]
+|                                                             |
+|  * Types of Escalation:                                     |
+|  1. Horizontal (수평적): Same role, different user ID       |
+|  2. Vertical (수직적): Lower role to higher role (Admin)    |
++-------------------------------------------------------------+
+```
+
+1. **수평적 권한 상승 (Horizontal Privilege Escalation)**: 일반 사용자 A가 사용자 B의 프로필 정보나 결제 내역을 조회하는 경우. 주로 IDOR(Insecure Direct Object Reference)와 연계됩니다.
+2. **수직적 권한 상승 (Vertical Privilege Escalation)**: 일반 사용자가 `/admin` 페이지에 접속하거나 관리자 전용 API를 호출하여 시스템 설정을 변경하는 경우.
+3. **API 접근 제어 부재**: 모바일 앱이나 SPA 환경에서 내부 API 엔드포인트가 외부로 노출되어 권한 검증 없이 호출되는 사례가 빈번합니다.
+
+### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
+
+| 비교 항목 (Criteria) | 수평적 권한 상승 | 수직적 권한 상승 |
+| :--- | :--- | :--- |
+| **공격 목표** | 타 사용자의 데이터 (Personal Data) | 관리 기능 및 시스템 권한 (Admin Privilege) |
+| **공격 방식** | 사용자 식별자(UID) 조작, 쿠키 변조 | 관리자 경로 유추, 권한 파라미터 조작 |
+| **위험도** | 대규모 개인정보 유출 | 서비스 전체 마비, 서버 탈취 |
+| **방어 핵심** | 데이터 소유권 검증 (Ownership Check) | 역할 기반 접근 제어 (RBAC/ABAC) |
+
+### Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
+기술사적 관점에서 접근 제어 보안의 대원칙은 **"Deny by Default(기본 차단)"**와 **"Server-side Validation(서버 측 검증)"**입니다. 클라이언트 UI에서 특정 버튼을 숨기는 것은 보안이 아닙니다. 실무적으로는 모든 비즈니스 로직 진입점에서 세션의 사용자 정보와 요청된 데이터의 소유권을 대조하는 'Access Control Interceptor'를 전역적으로 적용해야 합니다. 또한, 권한 체계가 복잡할 경우 역할 기반 접근 제어(RBAC)나 속성 기반 접근 제어(ABAC) 아키텍처를 도입하여 일관성 있는 정책 관리를 수행해야 합니다.
+
+### Ⅴ. 기대효과 및 결론 (Future & Standard)
+적절한 접근 제어는 데이터 보호의 최전선입니다. 이를 통해 개인정보 유출 사고를 90% 이상 예방할 수 있으며, 기업의 법적 리스크(GDPR, 개인정보보호법 등)를 크게 완화할 수 있습니다. 앞으로의 보안 패러다임인 '제로 트러스트(Zero Trust)'는 모든 요청에 대해 매번 권한을 검증하는 것을 핵심으로 하므로, 접근 제어의 기술적 성숙도는 미래 보안 아키텍처의 성공을 결정짓는 척도가 될 것입니다.
+
+### 📌 관련 개념 맵 (Knowledge Graph)
+- **상위 개념**: 웹 보안, 인가 (Authorization)
+- **하위/파생 개념**: IDOR, RBAC (Role-Based), ABAC (Attribute-Based), 권한 상승 (Privilege Escalation)
+- **관련 기술**: OAuth 2.0, JWT, 제로 트러스트 (Zero Trust), 세션 관리
+
+### 👶 어린이를 위한 3줄 비유 설명
+1. 접근 제어 취약점은 우리 아파트의 다른 사람 집 비밀번호가 우리 집 번호랑 비슷해서, 번호만 살짝 바꾸면 남의 집에 들어갈 수 있는 것과 같아요.
+2. 경비 아저씨(서버)가 "이 번호는 저 집 주인만 쓸 수 있어요!"라고 확인하지 않고, 그냥 번호가 맞으면 문을 열어주는 실수를 하는 거죠.
+3. 그래서 모든 문은 열 때마다 "진짜 주인인지"를 꼼꼼히 확인하는 절차가 꼭 필요하답니다!
