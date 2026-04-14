@@ -1,0 +1,60 @@
++++
+weight = 136
+title = "CMMI 레벨 3 (Defined, 정의됨)"
+date = "2026-03-04"
+[extra]
+categories = ["studynote-it-management"]
++++
+
+## 핵심 인사이트 (3줄 요약)
+1. **CMMI 레벨 3(Defined)**는 개별 프로젝트를 넘어 **전사(조직 전체)의 표준 프로세스**가 문서화되고 확립된 성숙도 단계입니다.
+2. 각 프로젝트는 조직 표준 프로세스를 자신들의 환경에 맞게 조정(Tailoring)하여 사용합니다.
+3. 체계적인 검토(Peer Review, Inspection)와 위험 관리(Risk Management)가 조직 문화로 내재화되어 소프트웨어 품질이 균일해집니다.
+
+### Ⅰ. 개요 (Context & Background)
+CMMI 레벨 2가 'PM(프로젝트 매니저)의 역량에 의한 프로젝트 단위의 관리'였다면, 레벨 3은 '회사의 시스템에 의한 전사적 관리'를 의미합니다. 조직 내 표준 자산(OPD, Organizational Process Definition)이 구축되며, 공공/금융 대형 SI 사업 입찰 시 요구되는 최소 품질 자격 기준이기도 합니다.
+
+### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
+조직 표준 프로세스와 테일러링(Tailoring)의 구조적 관계가 핵심입니다.
+
+```text
++-------------------------------------------------------------+
+|                CMMI Level 3 Characteristics                 |
+|                                                             |
+|   [Organization Standard Process (OPD)]                     |
+|           |                 |                 |             |
+|       Tailoring         Tailoring         Tailoring         |
+|           v                 v                 v             |
+|   [Project A Proc]  [Project B Proc]  [Project C Proc]      |
+|                                                             |
+|  * Proactive Risk Management                                |
+|  * Peer Reviews & Inspections                               |
+|  * Organizational Training & Process Focus                  |
++-------------------------------------------------------------+
+```
+
+### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
+
+| 속성 | CMMI 레벨 2 (Managed) | CMMI 레벨 3 (Defined) |
+|---|---|---|
+| **프로세스의 범위** | 프로젝트/부서 단위 국지적 프로세스 | 전사(회사 전체) 표준 프로세스 |
+| **프로세스의 성격** | 사후 대응적 (Reactive) | 사전 예방적 (Proactive) |
+| **위험 관리** | 이슈가 터지면 해결에 급급 | 사전에 위험(Risk)을 식별하고 완화 계획 수립 |
+| **테일러링(Tailoring)** | 없음 (표준이 없으므로 재단할 것도 없음) | 조직 표준을 기반으로 프로젝트 특성 맞춤 가공 |
+
+### Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
+* **테일러링 가이드라인**: 조직 표준을 그대로 100% 적용하면 프로젝트가 경직될 수 있습니다. 프로젝트의 규모(대/중/소)나 방법론(애자일/폭포수)에 따라 불필요한 산출물을 생략할 수 있는 합리적인 테일러링 지침이 필수입니다.
+* **품질 활동의 고도화**: 레벨 3부터는 동료 검토(Peer Review)와 인스펙션(Inspection)이 의무화되어, 테스트 단계 이전(설계/코딩 단계)에 결함을 조기 발견(Shift-Left)하는 문화가 정착됩니다.
+
+### Ⅴ. 기대효과 및 결론 (Future & Standard)
+CMMI 레벨 3을 달성하면 개발자의 이직이나 PM의 교체에도 불구하고 프로젝트 품질의 흔들림이 사라집니다. 축적된 전사적 지식 기반은 차후 레벨 4(정량적 관리)를 위한 통계적 베이스라인 데이터베이스(Process Asset Library)로 진화하게 됩니다.
+
+### 📌 관련 개념 맵 (Knowledge Graph)
+* **상위 개념**: CMMI, 프로세스 혁신
+* **하위 개념**: 조직 표준 프로세스, 테일러링(Tailoring), 인스펙션
+* **연관 개념**: 예방적 위험 관리(Risk Management), 지식 관리(KMS)
+
+### 👶 어린이를 위한 3줄 비유 설명
+1. 이제 식당 본사에서 '전국 체인점 표준 요리 매뉴얼'을 만들어서 책자로 배포했어요.
+2. 서울 지점이든 부산 지점이든 똑같은 매뉴얼을 써서 언제나 같은 맛이 보장돼요.
+3. 물론 매운맛을 좋아하는 동네(프로젝트)에서는 표준 레시피에서 고춧가루만 살짝 더 추가(테일러링)할 수 있답니다!
