@@ -38,29 +38,32 @@ kids_analogy = "컴퓨터라는 아주 복잡하고 거대한 성을 짓는 '설
 
 #### 2. CPU 파이프라인 및 메모리 계층 아키텍처 다이어그램
 ```text
+    [ 비순차 슈퍼스칼라 실행 아키텍처 및 메모리 계층 구조 ]
     [ Superscalar Out-of-Order Execution Architecture & Memory Hierarchy ]
     
-    (Instruction Fetch & Predict)
+    (명령어 인출 및 분기 예측 / Instruction Fetch & Predict)
     +-------------------------------------------+
     | Branch Predictor (BHT/BTB)  <---------+   |
     | I-Cache (L1) -> Fetch Unit            |   |
     +-------------------|-------------------+   |
-                        v                       | (Mispredict Flush)
+                        v                       | (오예측 플러시 / Mispredict Flush)
     +---------------------------------------+   |
     | Decode & Register Renaming (RAT)      | --+
+    | (디코딩 및 레지스터 리네이밍)         |
     +-------------------|-------------------+
                         v
     +---------------------------------------+
     | Reorder Buffer (ROB) & Issue Queue    |
+    | (재정렬 버퍼 및 이슈 큐)              |
     +---------------------------------------+
-            /           |           \ (Out of Order Issue)
+            /           |           \ (비순차 실행 / Out of Order Issue)
     +-------v---+ +-----v-----+ +---v-------+
-    | ALU (Int) | | FPU (FP)  | | LSU (Mem) | --> Data Cache (L1) -> L2 Cache
-    +-------+---+ +-----+-----+ +---+-------+                            |
-            \           |           /                                    v
-    +-------v-----------v-----------v-------+                       [ L3 Cache ]
-    | Commit Unit (In-Order Retirement)     |                            |
-    +---------------------------------------+                       [ Main RAM ]
+    | ALU (정수)| | FPU (부동) | | LSU (메모리)| --> 데이터 캐시 / Data Cache (L1) -> L2 Cache
+    +-------+---+ +-----+-----+ +---+-------+                                    |
+            \           |           /                                            v
+    +-------v-----------v-----------v-------+                               [ L3 Cache ]
+    | Commit Unit (순차 은퇴 / In-Order)    |                                    |
+    +---------------------------------------+                               [ Main RAM ]
 ```
 
 #### 3. 파이프라이닝 동작 원리 및 분기 예측 수식

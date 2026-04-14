@@ -170,15 +170,16 @@ void handle_sys_open() {
 이 플로우는 사용자 프로세스에서 오류가 발생했을 때 듀얼 모드가 어떻게 전체 시스템을 보호하는지 보여준다.
 
 ```text
-[User App Event] --Fault--> [CPU Detection] --Mode Switch--> [Kernel Handler]
+
+[User App Event / 사용자 앱 이벤트] --Fault--> [CPU Detection / CPU 감지] --Mode Switch--> [Kernel Handler / 커널 핸들러]
                                                                   │
       ┌───────────────────────────────────────────────────────────┘
       ▼
-[Is System Critical?] --No--> [Terminate Only Process] --Mode Switch--> [Next Proc]
+[Is System Critical? / 시스템에 치명적인가?] --No--> [Terminate Only Process / 프로세스만 종료] --Mode Switch--> [Next Proc / 다음 프로세스]
                                                                   │
      Yes
       ▼
-[Kernel Panic / Halt]
+[Kernel Panic / Halt / 커널 패닉 / 정지]
 ```
 
 **[다이어그램 해설]** 사용자 애플리케이션에서 0으로 나누기 (Divide by Zero)나 잘못된 메모리 참조 (Segmentation Fault)와 같은 예외 (Exception)가 발생하면, 하드웨어는 즉시 이를 감지하고 모드 비트를 0으로 바꾸어 커널 모드로 진입한다. 커널의 예외 처리기는 이 오류가 시스템 전체에 치명적인지 판단한다. 일반적인 사용자 프로세스의 오류인 경우, 커널은 해당 프로세스만 종료하고 자원을 회수하며, 다른 프로세스에게 CPU 제어권을 넘긴다. 만약 이러한 권한 분리가 없다면 사용자 앱의 오류가 CPU 레지스터를 오염시켜 시스템 전체가 멈췄을 것이다. 듀얼 모드는 "실패의 전파"를 물리적으로 차단하는 방화벽 역할을 수행하여 시스템의 연속성을 보장한다.

@@ -64,6 +64,7 @@ categories = "studynote-computer-architecture"
 1의 보수 방식은 가산기(Adder)를 쓴다는 혁신은 이뤘지만, 덧셈 결과에서 **치명적인 '오차 1'**이 자주 발생한다. 이를 바로잡기 위해 엔드 어라운드 캐리라는 구조가 강제된다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The End-Around Carry Pipeline Overhead                   |
 +-------------------------------------------------------------+
@@ -83,7 +84,7 @@ categories = "studynote-computer-architecture"
                 0010
              +     1  <-- End-Around Carry
              -------
-                0011  (+3)  [Correct Answer Achieved]
+                0011  (+3)  [Correct Answer Achieved / 정확한 답 도출]
 +-------------------------------------------------------------+
 ```
 **[다이어그램 해설]** `+5`와 `-2`를 더할 때, 1의 보수 연산은 캐리(Carry)가 오버플로우되어 버려지는 순간 정답보다 항상 숫자가 1 작아지는 치명적인 부작용을 낳는다. 하드웨어 설계자는 이 캐리를 버리지 않고 선을 끌어와 제일 맨 뒷자리(LSB)에 다시 더해주는 기괴한 피드백 루프를 만들었다. 이것이 **엔드 어라운드 캐리(End-Around Carry)**다. 이로 인해 ALU 파이프라인에서 덧셈 1번이 사실상 덧셈 2번의 사이클 타임(T_adder * 2)을 소모하게 되는 레이턴시의 고통이 시작된다.
@@ -112,11 +113,12 @@ categories = "studynote-computer-architecture"
 - **네트워크 / 데이터 전송 융합**: 1의 보수는 범용 CPU 연산에서는 퇴출당했지만, **인터넷 프로토콜(IPv4, TCP, UDP)**의 체크섬(Checksum) 무결성 검증에서는 극적으로 영구 안착했다. 수천 개의 패킷 조각(16-bit)을 더하다 보면 캐리가 끝없이 발생하는데, 이 캐리들을 그냥 버리지 않고 마지막에 LSB로 밀어 넣거나 차곡차곡 모아 끝에 쓱 더해주면 그만이다. 부호에 신경 쓸 필요 없이 모두 일치하면 `11111111...`이 나오는 이 '가독성 높은 에러 판독력'은 네트워크 계층에서 1의 보수를 환생시킨 핵심 융합 사례다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    Network Checksum Trick: Why 1's Complement Survived      |
 +-------------------------------------------------------------+
 
-  Receiver validation payload (Data chunks A and B):
+  Receiver validation payload (Data chunks A and B / 데이터 청크 A와 B):
     Checksum field  = ~(A + B) <-- 1's complement of sum
     Receiver checks = (A + B) + ~(A + B)
 

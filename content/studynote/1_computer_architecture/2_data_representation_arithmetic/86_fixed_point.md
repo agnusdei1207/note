@@ -22,15 +22,16 @@ categories = "studynote-computer-architecture"
 - **등장 배경**: 옛날 게임기나 초창기 DSP 칩은 수학 계산을 할 때 소수점이 붙여지면 처리 속도가 바닥을 쳤다. 그래서 프로그래머들은 "우리가 머릿속으로만 이 위치에 소수점이 있다고 약속하자. 기계한테는 그냥 정수인 척 넘기고, 나중에 결과만 우리가 소수점을 찍어서 해석하자"라는 영리한 트릭(Q Format)을 고안해 냈다. 이것이 고정소수점 아키텍처의 탄생 배경이다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    Fixed Point Formats (Q-Format): 16-bit Example           |
 +-------------------------------------------------------------+
 
   Format: Q8.8 (8 bits Integer, 8 bits Fraction)
            |
-         [MSB]                               [LSB]
+         [MSB / 최상위 비트]                               [LSB / 최하위 비트]
            V                                   V
-   [ Sign ][ 7-bit Integer ] . [ 8-bit Fraction ]
+   [ Sign  / 부호][ 7-bit Integer  / 7비트 정수] . [ 8-bit Fraction  / 8비트 소수]
            \_______________/ ^ \________________/
             Range: -128~127  |  Precision: 1/256
                              |
@@ -65,18 +66,19 @@ categories = "studynote-computer-architecture"
 고정소수점의 진정한 무서움은 연산 파이프라인에서 드러난다. 두 수를 곱할 때, 하드웨어는 이것이 소수인지 모르고 그냥 거대한 정수 두 개를 냅다 곱해버린다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    Multiplication Overhead: Fixed-Point vs Floating-Point   |
 +-------------------------------------------------------------+
 
-  [ Fixed-Point Multiplication (Q8.8 * Q8.8) ]
+  [ Fixed-Point Multiplication (Q8.8 * Q8.8)  / 고정 소수점 곱셈]
    1. Normal Integer MULTIPLY (1 cycle)
        Result dynamically expands to 32 bits (Q16.16)
    2. Arithmetic SHIFT RIGHT 8 times (1 cycle)
        Brings the decimal point back to Q8.8 format.
    [Total: 2 cycles] !! Breathtaking Speed !!
 
-  [ Floating-Point Multiplication (IEEE 754) ]
+  [ Floating-Point Multiplication (IEEE 754)  / 부동 소수점 곱셈]
    1. Extract Signs and XOR them.
    2. Extract Exponents, Add them, Subtract Bias.
    3. Extract Mantissas, Add hidden '1'.
@@ -112,22 +114,22 @@ categories = "studynote-computer-architecture"
 
 ```text
 +-------------------------------------------------------------+
-|    Resolution vs Range: The Fixed-Point Dilemma             |
+|    해상도 vs 범위: 고정 소수점의 딜레마                     |
 +-------------------------------------------------------------+
 
-  Total Bits = 16 (Constraint)
+  총 비트 = 16 (제약 조건)
 
-  Strategy A: High Range (e.g. Q12.4)
-   +------+------------+----+   => Range: -2048 to +2047
-   | Sign | 11-bit Int | 4f |   => Resolution: 1/16 (0.0625)
-   +------+------------+----+      (Blocky, pixelated math)
+  전략 A: 넓은 범위 (예: Q12.4)
+   +------+------------+----+   => 범위: -2048 ~ +2047
+   | 부호 | 11-bit 정수| 4f |   => 해상도: 1/16 (0.0625)
+   +------+------------+----+      (거친, 픽셀화된 수학)
 
-  Strategy B: High Precision (e.g. Q4.12)
-   +------+-------+---------+   => Range: -8 to +7
-   | Sign | 3 Int |  12 f   |   => Resolution: 1/4096 (~0.0002)
-   +------+-------+---------+      (Silky smooth, but overflows fast)
+  전략 B: 높은 정밀도 (예: Q4.12)
+   +------+-------+---------+   => 범위: -8 ~ +7
+   | 부호 | 3 정수|  12 f   |   => 해상도: 1/4096 (~0.0002)
+   +------+-------+---------+      (부드럽지만, 빨리 오버플로우됨)
 
-  * Architect's Curse: You cannot have both!
+  * 아키텍트의 저주: 두 가지를 모두 가질 수는 없습니다!
 +-------------------------------------------------------------+
 ```
 **[다이어그램 해설]** 고정소수점 설계는 '모포(담요)' 당기기와 같다. 표현 범위를 넓히려고 정수부(Int) 비트를 늘리면 소수부가 깎여 해상도가 뭉개진다(블록화). 반대로 아주 정밀한 계산을 하려고 소수부(Frac)에 비트를 주면, 수치가 조금만 커져도 오버플로우가 나며 프로그램이 터져버린다(범위 협소화). 이 "어디에 다이얼을 맞출 것인가"가 고정소수점 펌웨어 디자이너들의 피 말리는 최적화 튜닝 영역이다.

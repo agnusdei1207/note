@@ -27,9 +27,9 @@ tags = ["Cloud", "Virtualization", "Hypervisor", "Infrastructure", "VM"]
 
 ```text
 ┌────────────── 전통적인 베어메탈 (1:1 강결합) ───────────────┐
-│ [App 1]           [App 2]           [App 3]           │
-│ [ OS  ]           [ OS  ]           [ OS  ]           │
-│ [Server 1] (10%)  [Server 2] (15%)  [Server 3] (20%)  │
+│ [App 1 / 앱 1]    [App 2 / 앱 2]    [App 3 / 앱 3]    │
+│ [OS / 운영체제]  [OS / 운영체제]  [OS / 운영체제]  │
+│ [Server 1 / 서버 1] (10%)  [Server 2 / 서버 2] (15%)  [Server 3 / 서버 3] (20%)  │
 │ * 문제: CPU 80%가 놀고 있음. 장비 고장 시 복구 수일 소요      │
 ├────────────── 가상화 아키텍처 (N:1 서버 통합) ──────────────┤
 │ ┌─VM 1─┐ ┌─VM 2─┐ ┌─VM 3─┐                            │
@@ -63,7 +63,7 @@ tags = ["Cloud", "Virtualization", "Hypervisor", "Infrastructure", "VM"]
 아래 다이어그램은 Type 1 환경에서 CPU와 메모리 주소가 어떻게 변환되어 실행되는지 그 내부 타이밍과 상태 전이를 보여준다.
 
 ```text
-[Guest OS 1]                                [Hypervisor (KVM)]                        [Physical CPU/RAM]
+[Guest OS 1 / 게스트 OS 1]                  [Hypervisor (KVM)]                        [Physical CPU/RAM]
      │                                              │                                         │
      │ 1. 특권 명령어 (Privileged Instr.) 실행 시도   │                                         │
      │ (예: CPU 인터럽트 중지)                        │                                         │

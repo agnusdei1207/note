@@ -22,22 +22,23 @@ categories = "studynote-computer-architecture"
 - **등장 배경**: 1950년, 벨 연구소의 천재 수학자 리처드 해밍(Richard W. Hamming)은 펀치 카드 컴퓨터가 계속 에러를 뿜으며 자기를 주말에 야근시키자 분노했다. "왜 컴퓨터는 에러가 났을 때 기계를 멈추기만 하고 스스로 고치지 못하는가?"라는 빡침 속에서, 코딩 이론의 공간 기하학적 거리를 개척하며 "거리를 벌리면 스스로 고칠 수 있다"는 패러다임을 확립해 냈다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The Geometrical Cube of Hamming Distance Vectors         |
 +-------------------------------------------------------------+
 
-  [ A 3-Bit Data World (Cube coordinates x, y, z) ]
+  [ A 3-Bit Data World (Cube coordinates x, y, z)  / 3비트 데이터 세계]
   Suppose we ONLY allow two valid messages: 
   Message A: 000  (All clear)
   Message B: 111  (Fire Missile)
 
   Hamming Distance between A & B = 3  (Every bit is different)
 
-  [ Scenario: Cosmic Ray flips ONE bit of 000 ]
+  [ Scenario: Cosmic Ray flips ONE bit of 000  / 시나리오: 우주선이 000의 한 비트를 뒤집음]
   Sent: 000
   Received: 001  (A 1-bit Error!)
 
-  [ The Receiver's Geometry Brain (Correction Logic) ]
+  [ The Receiver's Geometry Brain (Correction Logic)  / 수신기의 기하학적 뇌 (수정 로직)]
   The receiver plots "001" on the 3D Cube.
   "Distance to 000? It's exactly 1 step away."
   "Distance to 111? It's 2 steps away (101 -> 111)."
@@ -45,7 +46,7 @@ categories = "studynote-computer-architecture"
   * Conclusion: "001" is GEOMETRICALLY CLOSEST to "000".
     The receiver safely AUTOCORRECTS the data back to "000".
 
-  [ Formula: Error Capability ]
+  [ Formula: Error Capability  / 공식: 오류 기능]
   Minimum Hamming Distance required = D(min)
   - To DETECT an error of 'e' bits:  D(min) = e + 1
   - To CORRECT an error of 'c' bits: D(min) = 2c + 1
@@ -75,29 +76,29 @@ categories = "studynote-computer-architecture"
 
 ```text
 +-------------------------------------------------------------+
-|    The Parity Bit Vulnerability: Proved by Hamming          |
+|    패리티 비트의 취약성: 해밍이 증명하다                    |
 +-------------------------------------------------------------+
 
-  [ Valid Even Parity Codes (Length 3 + 1 bit) ]
-  Data A: 000 [0]  (Distance between A and B?)
-  Data B: 001 [1]  -> Differ at 3rd bit & Parity bit. (Distance = 2)
-  Data C: 011 [0]  -> Differ at 2nd bit & Parity bit. (Distance = 2)
+  [ 유효한 짝수 패리티 코드 (길이 3 + 1 비트) ]
+  데이터 A: 000 [0]  (A와 B 사이의 거리는?)
+  데이터 B: 001 [1]  -> 3번째 비트와 패리티 비트가 다름. (거리 = 2)
+  데이터 C: 011 [0]  -> 2번째 비트와 패리티 비트가 다름. (거리 = 2)
   
-  * Conclusion: Every Valid Even Parity Code is EXACTLY 
-    a Minimum Hamming Distance (D_min) of TWO apart.
+  * 결론: 모든 유효한 짝수 패리티 코드는 정확히
+    최소 해밍 거리(D_min) 2만큼 떨어져 있습니다.
     D(min) = 2.
 
-  [ The Hamming Threshold Test for Parity Bit ]
-  1. Detect 'e' errors: D(min) >= e + 1
-     Substitute D(min) = 2.
+  [ 패리티 비트를 위한 해밍 임계값 테스트 ]
+  1. 'e' 에러 탐지: D(min) >= e + 1
+     D(min) = 2 대입.
      2 >= e + 1  =>  e = 1.
-     * Proof: Parity can ONLY DETECT up to 1 bit error safely!
+     * 증명: 패리티는 최대 1비트 오류까지만 안전하게 탐지할 수 있다!
 
-  2. Correct 'c' errors: D(min) >= 2c + 1
-     Substitute D(min) = 2.
-     2 >= 2c + 1  =>  c = 0.5 (Impossible half-bit).
-     * Proof: Parity CAN NEVER CORRECT even a single bit error! 
-       (Because the corrupted bit is equally far from two valid points!)
+  2. 'c' 에러 교정: D(min) >= 2c + 1
+     D(min) = 2 대입.
+     2 >= 2c + 1  =>  c = 0.5 (절반의 비트는 불가능).
+     * 증명: 패리티는 단 1비트의 오류도 교정할 수 없다! 
+       (손상된 비트가 두 유효한 지점으로부터 동일하게 멀기 때문!)
 +-------------------------------------------------------------+
 ```
 **[다이어그램 해설]** 단일 패리티 비트는 정상 코드북끼리의 거리가 무조건 '2칸($D_{min}=2$)'이다. 공식을 적용해 보라. 오류 $1$비트를 교정($Corrent$)하려면 식 $2 \ge 2c + 1$ 에 의해 $c = 0.5$가 나온다. 즉, 0.5비트밖에 못 고친다. 에러 코드가 바닥에 떨어졌을 때, 이놈이 데이터 A에서 노이즈 1방을 맞고 부서진 건지, 데이터 B에서 노이즈 1방을 맞고 부서진 건지 거리가 완전히 정중앙에 위치하여 판가름(판사)을 할 수가 없는 상태(교착 상태)에 빠져 교정 플래그가 $0\%$ 타격을 입는다는, 컴퓨터 과학의 위대한 증명이다.

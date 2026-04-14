@@ -27,13 +27,13 @@ tags = ["Cloud", "Multi-Tenancy", "SaaS", "Architecture", "Database"]
 
 ```text
 ┌────────────── 싱글 테넌시 (단독형 / 낭비 심화) ──────────────┐
-│ [Customer A] ──> [App Instance A] ──> [Database A] (유휴 70%) │
-│ [Customer B] ──> [App Instance B] ──> [Database B] (유휴 60%) │
+│ [Customer A / 고객 A] ──> [App Instance A / 앱 인스턴스 A] ──> [Database A / DB A] (유휴 70%) │
+│ [Customer B / 고객 B] ──> [App Instance B / 앱 인스턴스 B] ──> [Database B / DB B] (유휴 60%) │
 │ * 단점: 고객 증가 시 인프라/관리 비용이 1:1로 선형적 폭발           │
 ├────────────── 멀티 테넌시 (SaaS형 / 자원 집약) ──────────────┤
-│ [Customer A] ─┐                                            │
-│ [Customer B] ─┼─> [Shared App Instance] ──> [Shared DB]  │
-│ [Customer C] ─┘   (하나의 코어 코드베이스)     (Tenant ID 분리)│
+│ [Customer A / 고객 A] ─┐                                            │
+│ [Customer B / 고객 B] ─┼─> [Shared App Instance / 공유 앱 인스턴스] ──> [Shared DB / 공유 DB]  │
+│ [Customer C / 고객 C] ─┘   (하나의 코어 코드베이스)     (Tenant ID 분리)│
 │ * 장점: 자원 활용도 90% 이상, 1번의 배포로 모든 고객 즉시 업데이트     │
 └────────────────────────────────────────────────────────────┘
 ```
@@ -61,7 +61,7 @@ tags = ["Cloud", "Multi-Tenancy", "SaaS", "Architecture", "Database"]
 아래 다이어그램은 Pool 기반 멀티 테넌트 애플리케이션의 인증 및 데이터 조회 타이밍 흐름을 보여준다.
 
 ```text
-[Client A]                     [API Gateway]                 [Shared DB]
+[Client A / 클라이언트 A]      [API Gateway / API 게이트웨이][Shared DB / 공유 DB]
     │                               │                             │
     │ 1. JWT (Tenant ID=A) 전송      │                             │
     ├──────────────────────────────>│                             │

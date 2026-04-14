@@ -22,6 +22,7 @@ categories = "studynote-computer-architecture"
 - **등장 배경**: 수학의 모듈러(Modular) 산술 원리에서 답을 찾았다. 8비트 환경에서 $2^8 = 256$은 곧 0으로 취급된다. 따라서 어떤 수 $x$의 음수 $-x$는 $256 - x$ 와 동일한 지위를 갖는다. 이 수학적 우연을 하드웨어로 구현한 것이 바로 2의 보수이며, 그 결과 CPU는 덧셈과 뺄셈 사이에 어떠한 물리적 스위칭도 할 필요가 없어졌다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The Evolution of Hardware Perfection: 2's Complement     |
 +-------------------------------------------------------------+
@@ -29,7 +30,7 @@ categories = "studynote-computer-architecture"
   Original Data: +6
     [ 0 | 0 0 0 | 0 1 1 0 ]   <-- Positive Value
 
-  Step 1: Invert all bits (1's Complement)
+  Step 1: Invert all bits (1's Complement / 1의 보수)
     [ 1 | 1 1 1 | 1 0 0 1 ]
 
   Step 2: Add 1 to the LSB
@@ -40,7 +41,7 @@ categories = "studynote-computer-architecture"
   * Outcome: The math aligns perfectly. If you add +6 and -6
     in binary (00000110 + 11111010), it equals 100000000.
     The 9th carry bit is simply ignored/discarded, leaving
-    the perfect 8-bit result: exactly 00000000 (Zero).
+    the perfect 8-bit result: exactly 00000000 (Zero / 0).
 +-------------------------------------------------------------+
 ```
 **[다이어그램 해설]** 단 하나의 `+1`이라는 과정이 아키텍처의 패러다임을 바꿨다. 1의 보수까지는 비트 차원의 단순 반전이었지만, LSB에 1을 더하는 순간 $X + (-X) = 0$이라는 절대적인 무결성이 성립된다. 연산 결과 발생하는 마지막 9번째 캐리는 그냥 하드웨어 밖으로 버려버리면(Discard) 된다. 이 버려지는 캐리가 바로 1의 보수에서 사람을 괴롭혔던 엔드 어라운드 캐리(EAC)의 원흉이었는데, 2의 보수에서는 이 잉여 캐리가 자연스럽게 오버플로워 공간으로 증발하며 시스템의 사이클 타임(Cycle Time)을 보호한다.
@@ -68,26 +69,26 @@ categories = "studynote-computer-architecture"
 
 ```text
 +-------------------------------------------------------------+
-|    ALU Subtraction using 2's Complement Addition            |
+|    2의 보수 덧셈을 이용한 ALU 뺄셈                          |
 +-------------------------------------------------------------+
 
-  Instruction: A - B
-               ( +5 ) - ( +2 )  =>  0101 - 0010
+  명령어: A - B
+          ( +5 ) - ( +2 )  =>  0101 - 0010
 
-  Hardware Execution Path:
-    1. B goes through NOT gates (1's complement) -> 1101
-    2. Input B and A into the Full Adder array.
-    3. MAGIC TRICK: Set the Adder's initial 'Carry-in' to 1!
+  하드웨어 실행 경로:
+    1. B가 NOT 게이트를 통과함 (1의 보수) -> 1101
+    2. B와 A를 전가산기(Full Adder) 배열에 입력함.
+    3. 마법의 트릭: 가산기의 초기 'Carry-in'을 1로 설정함!
 
       A        :   0 1 0 1
       NOT B    :   1 1 0 1
-    + Carry-in :         1   <-- Replaces "+1" step!
+    + Carry-in :         1   <-- "+1" 단계를 대체함!
     -----------------------
-      Result   :(1)0 0 1 1   => +3
+      결과     :(1)0 0 1 1   => +3
 
-  * Architecture Brilliance:
-    No need to compute NOT B + 1 upfront.
-    Just inject '1' at the unused Carry-in pin of the ALU!
+  * 아키텍처의 찬란함:
+    미리 NOT B + 1을 계산해 둘 필요가 없습니다.
+    그냥 ALU의 안 쓰는 Carry-in 핀에 '1'을 주입하면 끝!
 +-------------------------------------------------------------+
 ```
 **[다이어그램 해설]** 하드웨어 엔지니어들의 극강의 '잔머리(Brilliance)'다. 2의 보수를 구하려면 원본을 반전(NOT)한 뒤 1을 더해야 한다. 그런데 어차피 덧셈기(Adder)를 쓸 건데 굳이 1을 먼저 더할 필요가 없다. 가장 우측에 있는 덧셈기의 텅 비어있는 'Carry-in(받아올림 입력)' 핀에 무조건 1 신호를 꽂아버리면 덧셈기 내부에서 $A + (\text{NOT } B) + 1$ 이 한 방에 병렬로 처리된다. 이 혁신 덕분에 뺄셈과 덧셈은 물리적으로 클럭 지연 시간(Tpd)이 완벽히 똑같아져 슈퍼스칼라(Superscalar) 파이프라인 설계가 가능해졌다.
@@ -116,8 +117,9 @@ categories = "studynote-computer-architecture"
 - **하드웨어 인터페이스 / ALU 상태 플래그 융합**: 2의 보수는 완벽하지만 치명적인 맹점이 하나 있다. 값의 표현 범위($-128$ ~ $+127$)를 넘어설 때 양수가 음수로 둔갑해버리거나, 음수가 양수로 둔갑하는 **오버플로우(Overflow)** 폭탄이다. 하드웨어 아키텍트는 덧셈기의 MSB에서 나온 캐리(Carry-out)와 MSB로 향하는 캐리(Carry-in)를 서로 XOR 연산(배타적 논리합)하여 오버플로우 플래그 플립플롭을 0.05ns 만에 즉각 띄우도록 시스템을 융합했다. 이것은 C/C++ 언어 개발자의 시큐어 코딩(Secure Coding) 가젯을 결정짓는 핵심 뇌관이기도 하다. 소프트웨어의 `Integer.MAX_VALUE + 1` 버그가 바로 이 융합 결절부에서 터지는 에러다.
 
 ```text
+
 +-------------------------------------------------------------+
-|    Hardware Overflow Detection XOR Gate (2's Complement)    |
+|    Hardware Overflow Detection XOR Gate (2's Complement / 2의 보수)    |
 +-------------------------------------------------------------+
 
              Carry-in to MSB
@@ -125,7 +127,7 @@ categories = "studynote-computer-architecture"
                 v
       [ Bit 6 ]--->[ MSB (Bit 7) ] ---> Carry-out from MSB
                        |                   |
-                       +----[ XOR Gate ]---+
+                       +----[ XOR Gate  / XOR 게이트]---+
                                  |
                                  V
          Overflow Flag (V) : 1 = Overflow / 0 = Normal

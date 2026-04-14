@@ -1,5 +1,5 @@
 +++
-weight = 9003
+weight = 9004
 title = "3. 트랜스포머, LLM 및 생성형 AI"
 +++
 

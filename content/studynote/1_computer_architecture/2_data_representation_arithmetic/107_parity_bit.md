@@ -22,8 +22,9 @@ categories = "studynote-computer-architecture"
 - **등장 배경**: 원래 천공카드(Punch Card) 시절 카드에 구멍 하나가 잘못 뚫리거나 기계가 잘못 읽는 기계적 요류를 막기 위해 카드 끝 가장자리에 추가로 구멍 펀치를 뚫으며 시작됐다. 이후 메인프레임 통신에서 데이터를 $1$바이트 묶음($8$비트)으로 전송할 때, 데이터 $7$비트 + 패리티 $1$비트로 엮는 규격이 통신 인터페이스(RS-232 직렬 포트 등)의 기본 피지컬 레이어로 하드코딩되었다.
 
 ```text
+
 +-------------------------------------------------------------+
-|    The Physics of Bit Flipping & Parity Logic (Even Parity) |
+|    The Physics of Bit Flipping & Parity Logic (Even Parity / 짝수 패리티) |
 +-------------------------------------------------------------+
 
   [ Sender Side: Preparing 'C' (ASCII 67 = 1000011) ]
@@ -34,7 +35,7 @@ categories = "studynote-computer-architecture"
 
   ~ Interstellar Cosmic Ray strikes the cable in transit! ~
 
-  [ Receiver Side: A 1-Bit Error Occurs ]
+  [ Receiver Side: A 1-Bit Error Occurs  / 수신기 측: 1비트 오류 발생]
   Received Packet:      [1] 1 0 1 0 0 1 1  <- The 3rd bit flipped!
   Count '1's: 1+1+0+1+0+0+1+1 = 5 (ODD number!)
   * Hardware CPU Action: Drop packet! Return NAK (Negative Ack).
@@ -69,6 +70,7 @@ categories = "studynote-computer-architecture"
 홀수(Odd)와 짝수(Even)는 취향 차이가 아니다. 통신 포트에서 **'단선(Wire Cut)'** 사고가 났을 때 시스템이 에러를 잡아낼 수 있느냐 없느냐의 명운이 갈리는 물리적 아키텍처다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The 'All-Zero' Catastrophe: Why Odd Parity Exists        |
 +-------------------------------------------------------------+
@@ -77,14 +79,14 @@ categories = "studynote-computer-architecture"
   The Receiver reads incoming noise as purely zeroes.
   Dead Wire Payload: 0 0 0 0 0 0 0
 
-  [ Test with Even Parity Protocol ]
+  [ Test with Even Parity Protocol  / 짝수 패리티 프로토콜로 테스트]
   The calculated parity for 0000000 (Even total of 1s -> 0) is 0.
   So a completely dead wire reads: [0] 0 0 0 0 0 0 0
   Total '1's = 0. Zero is an EVEN number!
   Receiver Hardware: "Wow! Perfect packet received! Pass it up!"
   Result: Sytem flooded with NULL pointers and crashes.
 
-  [ Test with Odd Parity Protocol ]
+  [ Test with Odd Parity Protocol  / 홀수 패리티 프로토콜로 테스트]
   The calculated parity for 0000000 (Odd total of 1s) MUST be 1.
   If wire is dead, hardware reads: [0] 0 0 0 0 0 0 0
   Total '1's = 0. Wait, zero is NOT ODD! We agreed on ODD!

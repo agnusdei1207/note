@@ -22,6 +22,7 @@ categories = "studynote-computer-architecture"
 - **등장 배경**: 이 미친 아이디어 역시 윌리엄 카한(Kahan)의 IEEE 754 위원회에서 강제된 표준안이다. 그들은 하드웨어의 무모한 멈춤 대신 소프트웨어 엔지니어들이 나중에 이 '빨간 딱지(NaN)'들을 모아서 확인할 기회를 주자고 결의했다. 이로 인해 Exception 처리 모델이 강제 중단(Trap) 형에서 상태 저장(Flag) 형으로 완전히 패러다임 융합 시프트를 이뤄냈다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The Anatomy of NaN in Floating Point (e.g. FP32)         |
 +-------------------------------------------------------------+
@@ -32,14 +33,14 @@ categories = "studynote-computer-architecture"
   Mantissa : MUST NOT BE ZERO. (e.g., 10000000...)
 
   * If Mantissa was pure ZERO -> That is Infinity (Inf) !
-  * If Mantissa is NON ZERO   -> That is NaN (Not a Number)
+  * If Mantissa is NON ZERO   -> That is NaN (Not a Number / 숫자가 아님(NaN))
 
   [ Types of NaN ]
-  1. qNaN (Quiet NaN): 
+  1. qNaN (Quiet NaN / Quiet NaN): 
      Mantissa starts with '1'. Just quietly infects other 
      math operations like a silent poison. NO CRASH.
 
-  2. sNaN (Signaling NaN):
+  2. sNaN (Signaling NaN / Signaling NaN):
      Mantissa starts with '0'. When hardware touches it,
      it acts like a landmine and THROWS an Exception 
      interupt! (Used for uninitialized memory tracking).

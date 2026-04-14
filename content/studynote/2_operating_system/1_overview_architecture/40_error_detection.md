@@ -99,15 +99,16 @@ categories = "studynote-operating-system"
 데이터 무결성의 핵심인 메모리 오류 탐지는 물리 계층에서 수학적 체크섬 기술을 사용하여 이루어진다.
 
 ```text
+
  ┌───────────────────────────────────────────────────────────────┐
  │               Memory Error Detection Mechanism                │
  ├───────────────────────────────────────────────────────────────┤
  │                                                               │
- │   [ Write Data ] ----▶ [ ECC Encoder ] ----▶ [ Storage ]      │
+ │   [ Write Data  / 데이터 쓰기] ----▶ [ ECC Encoder  / ECC 인코더] ----▶ [ Storage  / 스토리지]      │
  │       (8-bit)            (Add 5-bit)        (13-bit Data)     │
  │                                                   │           │
- │   [ Read Data ]  ◀---- [ ECC Decoder ] ◀──────────┘           │
- │       (8-bit)        (Syndrome Calc)                          │
+ │   [ Read Data  / 데이터 읽기]  ◀---- [ ECC Decoder  / ECC 디코더] ◀──────────┘           │
+ │       (8-bit)        (Syndrome Calc / 신드롬 계산)                          │
  │                          │                                    │
  │                          ├─ No Error ─▶ OK                    │
  │                          ├─ 1-bit Error ─▶ Auto Correction    │

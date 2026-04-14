@@ -59,16 +59,16 @@ categories = ["studynote-security"]
 이 도식은 하나의 물리적 CPU와 메모리가 어떻게 '일반 세계(Normal World)'와 '보안 세계(Secure World)'로 하드웨어 레벨에서 격리되는지를 보여준다.
 ```text
 ┌───────────────────────────┐      ┌───────────────────────────┐
-│     Normal World (REE)    │      │    Secure World (TEE)     │
+│       일반 영역 (REE)       │      │       보안 영역 (TEE)       │
 ├──────────────┬────────────┤      ├─────────────┬─────────────┤
-│ User Apps    │  Malware   │      │ Key Storage │ DRM / Pay   │
+│  사용자 앱   │  악성코드  │      │  키 저장소  │ DRM / 결제  │
 ├──────────────┴────────────┤      ├─────────────┴─────────────┤
-│  Rich OS (Linux/Android)  │      │   Trusted OS (TEE OS)     │
+│일반 운영체제(Linux/Android)│      │신뢰 운영체제(Trusted OS)  │
 ├───────────────────────────┤      ├───────────────────────────┤
-│    [ Non-Secure RAM ]     │      │   [ Secure RAM (Enclave) ]│
+│     [ 일반 RAM 영역 ]      │      │  [ 보안 RAM (Enclave) ]   │
 └─────────────┬─────────────┘      └─────────────┬─────────────┘
               │                  (SMC)           │
-              └─────────▶ [ CPU Monitor ] ◀───────┘
+              └─────────▶ [ CPU 모니터 ] ◀────────┘
 ```
 이 구조의 핵심은 **하드웨어적 격리(Isolation)**다. Normal World의 OS가 루트(Root) 권한을 탈취당해 완전히 장악되더라도, 악성코드는 결코 Secure World의 메모리 영역에 접근할 수 없다. 사용자가 지문 인식이나 간편 결제를 수행할 때, 핵심 암호화 연산은 CPU Monitor를 통해 상태가 전환(Context Switching)된 TEE 내부에서만 이루어지고, REE로는 오직 '성공/실패'라는 결과값(Boolean)만 반환된다. 이 때문에 스마트폰이 해킹당해도 금융 앱의 생체 인증 정보가 털리지 않는 것이다. 
 

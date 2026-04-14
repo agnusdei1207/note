@@ -29,17 +29,18 @@ categories = "studynote-operating-system"
 이 그림은 일반적인 사용자 프로그램과 데몬이 실행되는 층위 및 세션 종속성의 차이를 시각적으로 비교한다.
 
 ```text
- [ User Session ]                    [ System Session ]
+
+ [ User Session  / 사용자 세션]                    [ System Session  / 시스템 세션]
 ┌─────────────────────────┐         ┌────────────────────────────┐
 │  TTY / Terminal         │         │  No Controlling Terminal   │
 ├─────────────────────────┤         ├────────────────────────────┤
-│  User App (Foreground)  │         │  System Daemon (Background)│
-│  (Parent: Shell)        │         │  (Parent: PID 1 / init)    │
+│  User App (Foreground / 포어그라운드)  │         │  System Daemon (Background / 백그라운드)│
+│  (Parent: Shell / 부모: 쉘)        │         │  (Parent: PID 1 / init / 부모: PID 1 / init)    │
 └────────────┬────────────┘         └─────────────┬──────────────┘
              │                                                   │
     (Logout -> Terminate)                (Logout -> Still Running)
              ▼                                    ▼
-       [ Process Exit ]                    [ Infinite Loop ]
+       [ Process Exit  / 프로세스 종료]                    [ Infinite Loop  / 무한 루프]
 ```
 
 **[다이어그램 해설]** 일반적인 사용자 프로세스는 터미널 (TTY)에 종속되어 있다. 사용자가 쉘(Shell)에서 명령을 내리면 쉘이 부모가 되어 프로세스를 생성하며, 사용자가 로그아웃하여 터미널이 닫히면 부모가 종료되면서 자식들도 함께 시그널 (SIGHUP)을 받고 종료된다. 반면 데몬 프로세스는 ① 터미널과의 연결을 의도적으로 끊고, ② 프로세스 그룹 및 세션을 새로 생성하여 독자적인 영역을 확보하며, ③ 부모 프로세스를 종료시켜 최종적으로 시스템의 첫 번째 프로세스인 `init` (PID 1)의 자식으로 입양된다. 이 과정을 통해 데몬은 사용자 세션의 생멸과 관계없이 시스템이 켜져 있는 한 영구적으로 생존할 수 있는 '불멸성'을 획득한다.
@@ -64,12 +65,13 @@ categories = "studynote-operating-system"
 이 도식은 일반 프로세스가 어떻게 운영체제의 제약으로부터 벗어나 독립적인 데몬으로 거듭나는지 그 기술적 절차를 상세히 나타낸다.
 
 ```text
- [ Start ] --▶ 1. fork() & Parent Exit --▶ [ Background Job ]
+
+ [ Start  / 시작] --▶ 1. fork() & Parent Exit --▶ [ Background Job  / 백그라운드 작업]
                                                 │
- [ Independent ] ◀-- 3. fork() & Parent Exit ◀-- 2. setsid() (New Session)
+ [ Independent  / 독립적] ◀-- 3. fork() & Parent Exit ◀-- 2. setsid() (New Session / 새 세션)
                                                 │
       ▼
- 4. chdir("/") & umask(0) --▶ 5. Close FDs --▶ [ Daemon Ready! ]
+ 4. chdir("/") & umask(0) --▶ 5. Close FDs --▶ [ Daemon Ready!  / 데몬 준비 완료!]
 ```
 
 **[다이어그램 해설]** 데몬을 만드는 과정은 정교한 '독립 선언' 과정이다. ① 첫 번째 `fork()` 후 부모를 죽임으로써 쉘의 제어에서 벗어난다. ② `setsid()`를 통해 새로운 세션의 리더가 되어 터미널과의 인연을 완전히 끊는다. ③ 두 번째 `fork()`를 수행하는 이유는 세션 리더가 다시 터미널을 가질 가능성을 원천 차단하기 위함이다(SVR4 계열 관습). ④ 디렉토리를 루트(`/`)로 옮기는 이유는 데몬이 실행 중인 디렉토리가 포함된 디스크를 나중에 언마운트(Unmount)할 수 없게 되는 '자원 점유' 문제를 방지하기 위함이다. ⑤ 마지막으로 표준 입출력을 모두 닫아 터미널에 메시지를 뿌리려다 발생하는 오류를 막는다. 이 5단계를 거쳐야 비로소 시스템 운영에 해를 끼치지 않는 '성숙한 데몬'이 완성된다.

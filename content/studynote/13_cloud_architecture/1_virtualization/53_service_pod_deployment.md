@@ -31,7 +31,7 @@ categories = ["13_cloud_architecture"]
               │ ReplicaSet (파드 수 유지)
               ▼
          ┌────────────────────────────────┐
-         │  [ReplicaSet Controller]        │
+         │  [ReplicaSet Controller / 레플리카셋]        │
          │  desired: 3 / current: 3        │
          └───────────────┬──────────────────┘
                          │ 파드 3개 생성

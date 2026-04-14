@@ -27,13 +27,13 @@ tags = ["Cloud", "Fog Computing", "IoT", "Networking", "SDN"]
 
 ```text
 ┌────────────── 기존 클라우드-엣지 이분법의 한계 ───────────────┐
-│ [Sensor A] ──> │                               │          │
-│ [Sensor B] ──> │ 개별 엣지는 서로 상황을 모름     │──> Cloud │
-│ [Sensor C] ──> │ 국지적 협업 제어 불가          │          │
+│ [Sensor A / 센서 A] ──> │                               │          │
+│ [Sensor B / 센서 B] ──> │ 개별 엣지는 서로 상황을 모름     │──> Cloud │
+│ [Sensor C / 센서 C] ──> │ 국지적 협업 제어 불가          │          │
 ├────────────── 포그 컴퓨팅 (Fog Computing) 도입 ───────────────┤
-│ [Sensor A] ─┐                                             │
-│ [Sensor B] ─┼─> [Fog Node (LAN Router/Switch)] ──> Cloud │
-│ [Sensor C] ─┘      (공장 내 센서 연동 통합 분석)                  │
+│ [Sensor A / 센서 A] ─┐                                             │
+│ [Sensor B / 센서 B] ─┼─> [Fog Node (LAN Router/Switch)] ──> Cloud │
+│ [Sensor C / 센서 C] ─┘      (공장 내 센서 연동 통합 분석)                  │
 │                    (수 밀리초 내 로컬 집단 피드백 지시)           │
 └─────────────────────────────────────────────────────────┘
 ```
@@ -65,17 +65,17 @@ tags = ["Cloud", "Fog Computing", "IoT", "Networking", "SDN"]
       │ (Modbus, Zigbee, BLE)
       ▼
 ┌──────────────── Fog Node (Edge Router/Gateway) ─────────────────┐
-│ [Protocol Translator] (다양한 이기종 통신 언어 통합)               │
+│ [Protocol Translator / 프로토콜 변환기] (다양한 이기종 통신 언어 통합)               │
 │         ↓                                                       │
 │ [Rule Engine & Analytics]                                       │
-│  ├─ Hot Data (이상 고열)  ──> [Local Actuator] 즉시 차단 제어신호 │
-│  └─ Cold Data (일반 로그) ──> [Transient Cache Buffer] 적재    │
+│  ├─ Hot Data (이상 고열)  ──> [Local Actuator / 로컬 액추에이터] 즉시 차단 제어신호 │
+│  └─ Cold Data (일반 로그) ──> [Transient Cache Buffer / 임시 캐시] 적재    │
 │         ↓                                                       │
 │ [Network Function Virtualization (NFV) Firewall / DPI]          │
 └───────────────────────┬─────────────────────────────────────────┘
                         │ (TCP/IP 보안 터널링)
                         ▼
-            [Central Cloud Storage]
+            [Central Cloud Storage / 중앙 스토리지]
 ```
 
 이 그림의 핵심은 포그 노드가 가진 **프로토콜 추상화와 네트워크 가상화(NFV)** 능력이다. 산업 현장에는 IP 네트워크가 아닌 블루투스, 지그비(Zigbee) 등 구형 무선 규격이 난무한다. 포그 노드는 이 이기종 프로토콜을 흡수하여 표준 IP 기반으로 번역하고 통합된 보안 방화벽 정책을 씌운 뒤 클라우드로 올려보낸다. 

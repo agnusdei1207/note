@@ -74,6 +74,7 @@ categories = "studynote-computer-architecture"
 재미있는 점은, 바이트 오더링 충돌 현상은 알파벳 글자인 문자열 문자(ASCII, 1바이트)를 통신할 때는 절대 오류 크래시를 내지 않는 파편적 속성을 지니고 있다는 사실이다. 이 원리가 바이트 오더링의 본질을 꿰뚫는 핵이다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The Safe String vs The Cursed Integer Paradox            |
 +-------------------------------------------------------------+
@@ -94,11 +95,11 @@ categories = "studynote-computer-architecture"
   Big Endian RAM stores:
   Addr 100: 48 (H) / 101: 45 (E) / 102: 4C (L) / 103: 50 (P) -> "HELP"
 
-  Little Endian RAM stores (The Curse of the Word Width):
+  Little Endian RAM stores (The Curse of the Word Width / 워드 너비의 저주):
   Addr 100: 50 (P) / 101: 4C (L) / 102: 45 (E) / 103: 48 (H)
   Result when read via memory pointer string dump: "PLEH" !
   
-  [ Logical Lesson ]
+  [ Logical Lesson  / 논리적 교훈]
   Byte ordering ONLY wreaks havoc when MULTIPLE bytes are fused 
   into a SINGLE logical primitive variable (like int, float, double).
 +-------------------------------------------------------------+

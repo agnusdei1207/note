@@ -22,15 +22,16 @@ categories = "studynote-computer-architecture"
 - **등장 배경**: IBM System/360 아키텍처의 설계자들은 코볼(COBOL) 언어로 돌아가는 금융 원장 처리 효율을 끌어올리기 위해 하드웨어 ALU에 아예 팩드 BCD 전용 가산/비교기 팩토리 명령어를 때려 박아 넣었다(IBM COMP-3 규격). 이 하드웨어와 소프트웨어의 집무적 혼연일체가 오늘날 기업 백엔드의 핏줄로 남아있다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The Densification: Unpacked vs Packed BCD (Number: +85)  |
 +-------------------------------------------------------------+
 
-  [ Target Value: +85 ]
+  [ Target Value: +85  / 대상 값: +85]
 
   1. Unpacked BCD (Zoned format - Storage Waste)
      Byte 1: [ ZONE (1111) ] [  '8' (1000) ]  => Stores 1 digit
-     Byte 2: [ Sign (+)    ] [  '5' (0101) ]  => Stores 1 digit
+     Byte 2: [ Sign (+)     / 부호 (+)] [  '5' (0101) ]  => Stores 1 digit
      Total Space: 2 Bytes (16 bits) used for just "85".
 
   2. Packed BCD (High Density Compaction)
@@ -72,6 +73,7 @@ categories = "studynote-computer-architecture"
 팩드 BCD를 담아놓고 덧셈을 구현하는 ALU 명령어는 일반 2진수 명령어 체인(`ADD`나 `SUB`)과 치명적으로 다르게 작용한다. 1바이트 안에 숫자 파티션이 2개(Nibble 2개)나 나뉘어 들어가 있기 때문에 덧셈의 `Carry(올림수)`가 바이트 밖이 아닌 '바이트의 중간 장벽 부분(내부 니블 사이)'에서 터져 나가는 기괴한 파이프라인(Half Carry Flag) 통신 메커니즘이 강제된다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The Packed ALU Horror: DAA (Decimal Adjust AL) Rule      |
 +-------------------------------------------------------------+
@@ -83,7 +85,7 @@ categories = "studynote-computer-architecture"
       0100 1000 (48)
     + 0011 0101 (35)
   ------------------
-      0111 1101 (Total Mess = 7 and D in Hex)
+      0111 1101 (Total Mess = 7 and D in Hex / 총 난장판 = 16진수 7과 D)
   
   * The AL register shows 0x7D. But 'D' (13) is an Illegal BCD!
   * And wait... 8+5 should carry over into the Tens digit place!

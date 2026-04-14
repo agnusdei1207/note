@@ -27,17 +27,17 @@ tags = ["Cloud", "Distributed Cloud", "CSP", "Architecture", "Hybrid"]
 
 ```text
 ┌───────────────── 기존 하이브리드 클라우드의 한계 ────────────────┐
-│ [Public Cloud]           [On-Premise / Edge]             │
+│ [Public Cloud / 퍼블릭 클라우드]           [On-Premise / Edge]             │
 │ AWS Console      <--?--> VMware / 자체 인프라 관리 도구         │
 │ (관리 주체: CSP)          (관리 주체: 고객사 IT팀)              │
 │  * 한계: 일관된 배포 파이프라인 부재, 보안 정책 파편화, 이기종 스택  │
 ├───────────────── 분산 클라우드의 통일된 제어 평면 ───────────────┤
-│                     [CSP Central Control Plane]          │
+│                     [CSP Central Control Plane / CSP 중앙 제어 평면]          │
 │                 (예: AWS Outposts, GCP Anthos, Azure Arc)│
 │                              │                           │
 │      +───────────────────────+──────────────────────+    │
 │      ↓                       ↓                      ↓    │
-│ [Public Region]     [Local/Edge Zone]       [On-Premise] │
+│ [Public Region / 퍼블릭 리전]     [Local/Edge Zone]       [On-Premise / 온프레미스] │
 │ (동일 API, 동일 IAM, 동일 K8s 클러스터로 완벽한 논리적 통합)      │
 └──────────────────────────────────────────────────────────┘
 ```
@@ -74,7 +74,7 @@ tags = ["Cloud", "Distributed Cloud", "CSP", "Architecture", "Hybrid"]
  └───────┬──────────────────────────────┬──────┘
          │ (Tether: mTLS Sync)          │
          ↓ 제어 신호 (Control Plane)      ↓
-[Customer On-Premise]            [Telco 5G Edge]
+[Customer On-Premise / 온프레미스]            [Telco 5G Edge / 통신사 5G 엣지]
  ┌───────────────┐              ┌───────────────┐
  │ Local Agent   │<--Sync--     │ Local Agent   │
  │ K8s Cluster   │              │ K8s Cluster   │
@@ -82,7 +82,7 @@ tags = ["Cloud", "Distributed Cloud", "CSP", "Architecture", "Hybrid"]
  └───────┬───────┘              └───────┬───────┘
          │ 데이터 흐름 (Data Plane)       │ 초저지연 데이터
          ▼                              ▼
-   [Factory IoT Data]             [Autonomous Car]
+   [Factory IoT Data / 공장 IoT 데이터]             [Autonomous Car / 자율주행차]
 ```
 
 이 그림의 핵심은 제어 신호(Tether)와 실제 서비스 트래픽(Data Plane)의 완벽한 물리적·논리적 분리이다. 중앙 리전은 배포 정책과 보안 인증서만 내려보낼 뿐, 공장 로봇이나 자율주행차에서 발생하는 대용량 센서 데이터는 외부 네트워크를 타지 않고 로컬에서 즉시 분석 및 소멸된다. 따라서 해저 케이블 장애로 중앙망과 연결이 끊기더라도 생존성(Local Survivability)을 보장하며, 무엇보다 클라우드로 내보내는 막대한 아웃바운드(Egress) 데이터 요금을 원천 차단한다.

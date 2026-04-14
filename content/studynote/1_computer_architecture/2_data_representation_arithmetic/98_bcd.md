@@ -22,11 +22,12 @@ categories = "studynote-computer-architecture"
 - **등장 배경**: 옛날 에니악(ENIAC) 시절에는 아예 진공관 자체가 10진수로 작동했다. 이후 2진수 체계로 넘어왔을 때 펀치 카드(천공카드)에 숫자를 뚫어 기어에 물리게 하려니, 순수 2진수는 기계식 카운터 디스플레이에 직결하기가 너무 복잡했다. 인간이 눈으로 보는 숫자판(단위)과 컴퓨터 내부 회로를 1:1로 와이어링(Wiring)하기 위해 제안된 원시 통신 인코더의 유산이다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The Translation: Pure Binary vs BCD (e.g. Value 25)      |
 +-------------------------------------------------------------+
 
-  [ Value to Translate: 25 ]
+  [ Value to Translate: 25  / 변환할 값: 25]
 
   1. Pure Binary (Mathematics rules)
      Keep dividing by 2:
@@ -71,31 +72,31 @@ CPU ALU가 일반 가산기(Adder)로 BCD 데이터 두 개를 냅다 더하면 
 
 ```text
 +-------------------------------------------------------------+
-|    The BCD Arithmetic Trap: Why we MUST add '6' (0110)      |
+|    BCD 산술 함정: 왜 '6'(0110)을 무조건 더해야 하는가       |
 +-------------------------------------------------------------+
-  Example: Add 8 and 5.
-  Expected Decimal: 13
-  Expected BCD: 0001 (1)  0011 (3)
+  예시: 8과 5를 더하라.
+  기대하는 십진수: 13
+  기대하는 BCD: 0001 (1)  0011 (3)
 
-  [ Raw Binary Addition (ALU attempt 1) ]
+  [ 순수 이진 덧셈 (ALU 첫 시도) ]
       1000  (8)
     + 0101  (5)
   ---------
-      1101  (13 in pure binary)
+      1101  (순수 이진수로 13)
 
-  * ERROR! 1101 is an INVALID BCD code (It's > 9).
-  * Hardware BCD Correction Triggered:
-    Since the result is in the Forbidden Zone (10~15),
-    the BCD Adder injects a mandatory +6 (0110) to force
-    a carryover to the next nibble!
+  * 오류! 1101은 유효하지 않은 BCD 코드입니다 (> 9).
+  * 하드웨어 BCD 보정 발동:
+    결과가 금지 구역(10~15)에 떨어졌기 때문에,
+    BCD 가산기가 강제로 +6 (0110)을 주입하여
+    다음 니블로 올림(Carry)을 강제 발생시킵니다!
 
-  [ Correction Applied ]
-      1101  (Invalid 13)
-    + 0110  (The Magic '+6' Corrector)
+  [ 보정 적용 ]
+      1101  (유효하지 않은 13)
+    + 0110  (마법의 '+6' 교정기)
   ---------
-     10011  -> Splits to:  0001 (Carry 1)  0011 (3)
+     10011  -> 분리됨:  0001 (올림 1)  0011 (3)
 
-  * PERFECT! We got '0001 0011' which prints '13' on screen!
+  * 완벽합니다! 화면에 '13'을 출력할 '0001 0011'을 얻었습니다!
 +-------------------------------------------------------------+
 ```
 **[다이어그램 해설]** 이것이 BCD 덧셈 회로가 일반 ALU보다 크고 무거우며 느린 이유다. 4비트는 16까지 담을 수 있는데 10진수는 10에서 자리 오버플로우가 나야 하므로, 10에서 15 사이의 6칸의 빈 공간(Gap)을 강제로 뛰어넘게 조작해야 한다. 그래서 BCD 가산기 안에는 결과가 $9$를 초과하거나 캐리가 나오면, 백그라운드에서 `0110 (+6)`을 한 번 더 더하는 2단 가산 로직 게이트 층이 존재한다. 인간의 10진법을 챙겨주기 위해 트랜지스터 실리콘 면적이 두 배로 갈려 들어간 눈물겨운 현장이자 마이크로프로세서 설계의 골칫거리였다.

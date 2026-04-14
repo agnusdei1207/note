@@ -68,8 +68,9 @@ categories = "studynote-computer-architecture"
 모든 실수가 $1.xxx$로 완벽하게 정규화되면 좋겠지만, 우주에는 $1.0 \times 2^{-126}$보다 더 작은 미세 먼지 같은 숫자들이 존재한다. 이들은 정규화의 틀을 부수어야만 생존할 수 있다.
 
 ```text
+
 +-------------------------------------------------------------+
-|    The Edge Case: Normalized vs Subnormal (Denormalized)    |
+|    The Edge Case: Normalized vs Subnormal (Denormalized / 비정규화됨)    |
 +-------------------------------------------------------------+
   Assume target limit is Exponent -126.
 
@@ -80,7 +81,7 @@ categories = "studynote-computer-architecture"
   [ 2. Subnormal Numbers (The Slow Path) ]
   What if value is 0.0010000_000 * 2^-126 ?
   - Can we normalize it? NO. We hit the Exponent Floor limit!
-  - We MUST store it with a starting '0.' (Loss of Hidden 1).
+  - We MUST store it with a starting '0.' (Loss of Hidden 1 / 숨겨진 1 손실).
   
   [ Hardware Trap ]
   FPU detects a Subnormal. It panics! It throws an exception

@@ -70,6 +70,7 @@ categories = "studynote-computer-architecture"
 디버깅은 기가 막히게 쉽지만, 정작 CPU의 심장인 산술 논리 장치(ALU)가 이 숫자를 꺼내서 '더하기 계산'을 하려고 드는 순간 아키텍처 파이프라인 지연율 낭비가 뼈저리게 터진다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The CPU's Dilemma: Adding Two Big Endian Numbers         |
 +-------------------------------------------------------------+
@@ -84,8 +85,8 @@ categories = "studynote-computer-architecture"
   CPU Adder: "Okay, I add 0x12 and 0xEE... Wait, STOP!"
   
   [ The Fatal Carry Backward Issue ]
-  "I'm addition logic. I must start from the SMALLEST bits (1's place) 
-  so I can carry over the leftover tens (Overflow Carry) into 
+  "I'm addition logic. I must start from the SMALLEST bits (1's place / 1의 자리) 
+  so I can carry over the leftover tens (Overflow Carry / 오버플로우 캐리) into 
   the BIGGER places! You gave me the BIGGEST places FIRST!"
   
   [ Painful Pipeline Delay ]

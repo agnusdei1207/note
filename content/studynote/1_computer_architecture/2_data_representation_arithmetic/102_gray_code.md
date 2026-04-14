@@ -22,12 +22,13 @@ categories = "studynote-computer-architecture"
 - **등장 배경**: 이 코드는 1940년대 벨 계열 연구소의 Frank Gray가 발명했다. 당시 브라운관(CRT) 시스템에서 레이저 빔(전자 빔)의 위치를 디지털로 바꿀 때, 빔이 셀의 경계선을 지날 때마다 전압이 튀어 화면이 찢어지는 현상(Transient Error)이 너무 심했다. 인접한 칸 간에 무조건 색상(비트) 하나만 바뀌도록 패턴을 뒤틀자 빔 오차가 나더라도 '원래 있던 칸' 아니면 '방금 넘어간 칸' 둘 중 하나로밖에 인식되지 않는 완벽한 방어율을 보여주었고, 센서계의 산업 표준으로 군림하게 되었다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The Transient Physical Error: Binary vs Gray Code        |
 +-------------------------------------------------------------+
   [ Moving from Angle 3 to Angle 4 on a Robot Arm ]
 
-  1. Pure Binary Encoder (Catastrophe Zone)
+  1. Pure Binary Encoder (Catastrophe Zone / 재앙 구역)
      Position 3:  0 1 1 
                       |   <-- (Sensors flip state!)
      Position 4:  1 0 0 
@@ -36,7 +37,7 @@ categories = "studynote-computer-architecture"
      Read exactly at the boundary: 1 1 0  (Wait, this is 6 !!)
      Robot reads "Position 6" and violently jerks backwards!
 
-  2. Gray Code Encoder (Safe Zone)
+  2. Gray Code Encoder (Safe Zone / 안전 구역)
      Position 3:  0 1 0 
                       |   <-- (ONLY the left bit flips!)
      Position 4:  1 1 0 
@@ -70,32 +71,32 @@ categories = "studynote-computer-architecture"
 
 ```text
 +-------------------------------------------------------------+
-|    The Hardware Translator: Binary to Gray (and back)       |
+|    하드웨어 번역기: 이진수에서 그레이로 (그리고 반대로)     |
 +-------------------------------------------------------------+
-  [ Binary to Gray Conversion (Encode to send to Sensor) ]
-  Rule: G(n) = B(n) XOR B(n+1)
+  [ 이진수를 그레이 코드로 변환 (센서로 보내기 위해 인코딩) ]
+  규칙: G(n) = B(n) XOR B(n+1)
   
-  Binary  (B):   1     0     1     0   (Value 10)
+  이진수  (B):   1     0     1     0   (값 10)
                  |   / |   / |   / | 
                (XOR) (XOR) (XOR)   |
                  V     V     V     V
-  Gray    (G):   1     1     1     1   (Gray Code 10)
+  그레이  (G):   1     1     1     1   (그레이 코드 10)
   
-  * Blazing Fast: All XOR gates run simultaneously (Parallel).
-    Delay is only 1 gate logic propagation (Nano-seconds).
+  * 엄청난 속도: 모든 XOR 게이트가 동시에 실행됨 (병렬처리).
+    지연 시간은 단 1 게이트 논리 전파 (나노초).
 
-  [ Gray to Binary Conversion (Decode to read in CPU) ]
-  Rule: B(n) = G(n) XOR B(n+1) [Recursive!]
+  [ 그레이 코드를 이진수로 변환 (CPU에서 읽기 위해 디코딩) ]
+  규칙: B(n) = G(n) XOR B(n+1) [재귀적!]
   
-  Gray    (G):   1     1     1     1 
+  그레이  (G):   1     1     1     1 
                  |     |     |     |
-            (+)->|->(XOR)->(XOR)->(XOR)   (Cascade Ripple)
+            (+)->|->(XOR)->(XOR)->(XOR)   (캐스케이드 리플)
                  V     V     V     V
-  Binary  (B):   1     0     1     0
+  이진수  (B):   1     0     1     0
   
-  * CPU Penalty: Gray-to-Binary is SEQUENTIAL. You must wait
-    for the first bit to resolve before XORing the next bit.
-    Creates a "Ripple Delay" in hardware pipelines.
+  * CPU 페널티: 그레이에서 이진수로 변환은 순차적입니다. 다음 비트를
+    XOR하기 전에 첫 번째 비트가 해결될 때까지 기다려야 합니다.
+    하드웨어 파이프라인에서 "리플 지연"을 만듭니다.
 +-------------------------------------------------------------+
 ```
 **[다이어그램 해설]** 컴퓨터가 계산한 $1010$(2진수 10)을 센서로 쏠 때($B \rightarrow G$)는 칩 회로가 병렬(Parallel)이다. 모든 XOR 회로가 옆자리 비트랑 한번 딱 부딪히고($0.1$ns) 바로 튀어나가므로 빛의 속도다. 하지만 센서에서 들어오는 그레이 코드를 CPU가 해독할 때($G \rightarrow B$)가 치명적 한계다. 계산된 맨 앞 2진수를 끌고 내려와서, 다음 그레이 비트와 XOR 한 뒤, 그 결과를 또 끌고 내려가서 다음 놈과 쳐야 하는 '리플(Ripple)' 구조다. 10번째 비트를 해독하려면 앞의 9개 게이트가 순차대로 연산되기를 우두커니 기다려야 하므로, 64비트 버스에서 그레이 코드를 파싱하려면 레이턴시 체인(Latency Chain) 병목이 폭발하게 된다.

@@ -27,10 +27,10 @@ tags = ["Cloud", "Edge Computing", "IoT", "5G", "AI"]
 
 ```text
 ┌────────────── 기존 중앙 집중형 (Cloud-Centric) ───────────────┐
-│ [IoT Devices] ============ (100% 원시 데이터) ===========> [Cloud DB] │
+│ [IoT Devices / IoT 기기] ============ (100% 원시 데이터) ===========> [Cloud DB / 클라우드 DB] │
 │ 1,000대의 CCTV         대역폭 포화 / 응답 지연 발생             적체 병목 │
 ├────────────── 엣지 분산 처리형 (Edge-Centric) ────────────────┤
-│ [IoT Devices] ──> [Edge Gateway] ──(1% 요약 메타만 전송)──> [Cloud DB] │
+│ [IoT Devices / IoT 기기] ──> [Edge Gateway / 엣지 게이트웨이] ──(1% 요약 메타만 전송)──> [Cloud DB / 클라우드 DB] │
 │                  * 로컬 연산 및 AI 분석                            │
 │                  * 99%의 무의미한 영상 데이터 현장 즉각 폐기         │
 └─────────────────────────────────────────────────────────┘
@@ -60,19 +60,19 @@ tags = ["Cloud", "Edge Computing", "IoT", "5G", "AI"]
 아래 도식은 엣지 노드(Gateway) 내부에서 이루어지는 데이터 실시간 처리 및 통제 흐름도이다.
 
 ```text
-[Sensor Data Stream] ──MQTT──> ┌──────── Edge Node (Gateway) ────────┐
-                               │ 1. [Ingestion Buffer] (시계열 수집) │
+[Sensor Data Stream / 데이터 스트림] ──MQTT──> ┌──────── Edge Node (Gateway) ────────┐
+                               │ 1. [Ingestion Buffer / 수집 버퍼] (시계열 수집) │
                                │             ↓                       │
-                               │ 2. [Stream Processing Engine]       │
+                               │ 2. [Stream Processing Engine / 스트림 처리 엔진]       │
                                │    - Filter (노이즈/중복 데이터 제거) │
                                │    - Aggregation (1분 단위 평균 요약)│
                                │             ↓                       │
-                               │ 3. [AI Inference] (로컬 모델 추론)  │
+                               │ 3. [AI Inference / AI 추론] (로컬 모델 추론)  │
                                │     ──(이상 징후 감지 시)──> 현장 로봇 즉시 정지 제어 │
                                └─────────────┬───────────────────────┘
                                              │ (이상 이벤트 로그 및 요약 통계만 전송)
                                              ▼ HTTPS / gRPC
-                                   [Central Cloud Platform]
+                                   [Central Cloud Platform / 중앙 클라우드]
 ```
 
 이 도식의 내부 메커니즘에서 주목할 부분은 '디스크 I/O 없이' 메모리 상에서 스트림 처리가 이루어진다는 점이다. 데이터가 데이터베이스에 저장되기 전에 흐르는 상태에서 즉시 연산되므로, 클라우드 연결망이 절단되는 재난 상황에서도 엣지 노드는 자체적으로 현장 밸브를 잠그는 폐쇄 루프(Closed-loop) 생존 능력을 갖춘다.

@@ -22,6 +22,7 @@ categories = "studynote-computer-architecture"
 - **등장 배경**: 연산장치(ALU)가 덧셈을 수행할 때 자리 올림수(Carry)가 발생하는 것은 피할 수 없는 수학의 순리다. 1960년대 초창기 아키텍처들은 프로그램 코드에서 일일이 캐리가 발생했는지 소프트웨어로 검사했다(속도 폭망). 결국, 연산 다이(Die) 내부에 오버플로우 플래그(V Flag) 전용 회로 게이트를 박아넣어 클럭 소모 없이 하드웨어 레벨에서 감염을 즉각 통보하는 인터럽트 신호로 정립되었다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The Physics of Overflow (8-bit Signed, 2's Comp)         |
 +-------------------------------------------------------------+
@@ -35,14 +36,14 @@ categories = "studynote-computer-architecture"
   -----------------------
       1 0 0 0 0 0 0 0  (<- The Disaster hits)
 
-  [ Hardware Interpretation ]
+  [ Hardware Interpretation  / 하드웨어 해석]
   The MSB just flipped from '0' (Pos) to '1' (Neg)!
   System reads '10000000' in 2's Complement as: -128 !!
 
   * Result:  127 + 1 = -128
   * ALU Status Register (EFLAGS in x86):
-    OF (Overflow Flag) = 1 (System Triggered!)
-    CF (Carry Flag)    = 0 (No bit fell off the left cliff)
+    OF (Overflow Flag / 오버플로우 플래그) = 1 (System Triggered!)
+    CF (Carry Flag / 캐리 플래그)    = 0 (No bit fell off the left cliff)
 +-------------------------------------------------------------+
 ```
 **[다이어그램 해설]** 가장 소름 돋는 사인드(Signed, 부호 있는 정수) 오버플로우 현장이다. 가장 큰 양수인 $+127$에 달랑 1을 더했을 뿐인데, 비트들이 넘어올라가 하필 맨 앞자리 "부호 파트(Sign Bit)"를 건드려 `1`로 오염시켰다. 컴퓨터 ALU는 멍청해서 "앗 부호가 1이네? 이거 음수다! $-128$이다"라고 냅다 던져버린다. 이것은 논리적인 파국이며, CPU EFLAGS 레지스터의 OF(Overflow Flag) 단자에 빨간불 전압이 강하게 들어온다. 
@@ -68,13 +69,14 @@ categories = "studynote-computer-architecture"
 가장 위대한 아키텍체의 영리함은 "무부호(Unsigned)"와 "유부호(Signed)"의 사고 방어 체계를 격리한 데 있다. 이를 헷갈리면 시스템 보안의 취약점 허브가 구축된다.
 
 ```text
+
 +-------------------------------------------------------------+
-|    The Flag Schism: CF (Unsigned) vs OF (Signed)            |
+|    The Flag Schism: CF (Unsigned / 부호 없음) vs OF (Signed / 부호 있음)            |
 +-------------------------------------------------------------+
   Scenario: 11111111 (255 if Unsigned, -1 if Signed) 
           + 00000001 (  1 if Unsigned,  1 if Signed)
 
-  [ Addition Operation ]
+  [ Addition Operation  / 덧셈 연산]
       1 1 1 1 1 1 1 1
     + 0 0 0 0 0 0 0 1
   -----------------------
@@ -82,8 +84,8 @@ categories = "studynote-computer-architecture"
 
   * For Unsigned Developer (Values 0 to 255):
     - Math: 255 + 1 = 0 (Total destruction).
-    - CF (Carry Flag) = 1 (Lights up!) -> Signals Error!
-    - OF (Overflow Flag) = 0 (Ignored).
+    - CF (Carry Flag / 캐리 플래그) = 1 (Lights up!) -> Signals Error!
+    - OF (Overflow Flag / 오버플로우 플래그) = 0 (Ignored).
 
   * For Signed Developer (Values -128 to 127):
     - Math: -1 + 1 = 0 (Perfectly correct math!!!)

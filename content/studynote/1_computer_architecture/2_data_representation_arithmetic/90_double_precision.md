@@ -22,6 +22,7 @@ categories = "studynote-computer-architecture"
 - **등장 배경**: 1980년대 당시 슈퍼컴퓨터들의 "과학 계산" 능력이 각광받으면서, 핵무기 폭발 시뮬레이션이나 기상 예측(나비 효과 방어) 등에서 단정밀도 수치 모델 붕괴 사건이 속출했다. 수치해석학자들의 애타는 요구를 반영해, IEEE 754 표준 위원회는 64비트 레지스터를 두 개 이어 붙이거나 단일 64비트 워드를 아낌없이 투입하는 배정밀도(Double) 포맷을 제정하여 수치 붕괴의 역사를 종식시켰다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    Double Precision (FP64) Bit Distribution Architecture    |
 +-------------------------------------------------------------+
@@ -35,7 +36,7 @@ categories = "studynote-computer-architecture"
  Sign       Biased (Bias = 1023)        Fractional Digits
             Range: -1022 to +1023       Epic Precision Depth
 
-  Value N = (-1)^S * 1.Mantissa * 2^(Exponent - 1023)
+  Value N = (-1)^S * 1.Mantissa * 2^(Exponent - 1023 / 지수 - 1023)
 +-------------------------------------------------------------+
 ```
 **[다이어그램 해설]** FP64의 핵심은 **비약적으로 넓어진 지수(11비트)와 가수(52비트)**다. 지수는 $1023$이라는 거대한 편향(Bias)을 가지고, 표현 범위가 $10^{-308}$에서 $10^{308}$이라는 인간의 뇌로 가늠할 수 없는 스케일을 가진다. 우주 전체의 입자 수($10^{80}$)를 한참 초과한다. 더욱 무서운 것은 52비트(숨겨진 비트 포함 53비트)의 가수부로, 10진수 기준 무려 **15.9자리의 완전한 유효 숫자** 보존력을 가지며 오차의 누적 속도를 소수점 저 아래로 파묻어버렸다.
@@ -104,6 +105,7 @@ categories = "studynote-computer-architecture"
 - **고성능 컴퓨팅 (HPC) 및 분자 역학**: 지구방위대 수준의 슈퍼컴파일러나 `ANSYS`, `MATLAB` 같은 역학 해석 툴들은 내부 변수를 묻지도 따지지도 않고 FP64(더블형)로 강제 캐스팅한다. 로켓 엔진 내부의 난류(Turbulence)를 유한요소법(FEM)으로 자를 때 격자 셀이 수억 개인데, 단 1자리의 오차가 이웃 셀로 넘어가 증폭되면 엔진이 폭발하는 것으로 렌더링 된다. 여기서는 GPU 성능이 반 토막 나든 대역폭이 타 죽든 그딴 건 안중에도 없고 오직 **오차와의 전쟁**만이 융합의 핵심 조건이다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The "Loss of Significance" Trap (Why we need FP64)       |
 +-------------------------------------------------------------+
@@ -119,7 +121,7 @@ categories = "studynote-computer-architecture"
   [ FP64 (Mantissa holds ~15 Digits) ]
   A perfectly retains 123456789.123
   B perfectly retains 123456789.122
-  A - B = 0.001 !! (Data mathematically preserved!)
+  A - B = 0.001 !! (Data mathematically preserved! / 데이터 수학적으로 보존됨!)
 
   * Law of HPC: You NEVER use FP32 for differential equations.
 +-------------------------------------------------------------+

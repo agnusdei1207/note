@@ -68,20 +68,21 @@ categories = "studynote-operating-system"
 시분할 시스템의 심장부인 라운드 로빈 스케줄링은 모든 프로세스에게 동일한 우선순위와 시간을 부여하여 기아 현상 (Starvation)을 방지한다.
 
 ```text
+
 ┌─────────────────────────────────────────────────────────────────┐
 │               Round Robin Scheduling Workflow                   │
 ├─────────────────────────────────────────────────────────────────┤
-│   [Ready Queue] : [ P3 ] [ P2 ] [ P1 ]  <-- (Head)              │
+│   [Ready Queue / 준비 큐] : [ P3 ] [ P2 ] [ P1 ]  <-- (Head)              │
 │                                   │                             │
-│   1. Dispatch P1 (Time Quantum: 20ms) ──▶ [ CPU Running P1 ]    │
+│   1. Dispatch P1 (Time Quantum: 20ms) ──▶ [ CPU Running P1  / P1을 실행하는 CPU]    │
 │                                                  │              │
 │   2. Timer Interrupt (20ms Expired) ◀────────────┘              │
 │                                                                 │
-│   3. Context Switch (Save P1, Load P2)                          │
+│   3. Context Switch (Save P1, Load P2 / P1 저장, P2 로드)                          │
 │                                                                 │
 │   4. P1 Move to Tail of Ready Queue                             │
 │                                                                 │
-│   [Ready Queue] : [ P1 ] [ P3 ] [ P2 ]  <-- (Next Target)       │
+│   [Ready Queue / 준비 큐] : [ P1 ] [ P3 ] [ P2 ]  <-- (Next Target / 다음 대상)       │
 └─────────────────────────────────────────────────────────────────┘
 ```
 

@@ -37,30 +37,31 @@ kids_analogy = "컴퓨터 성 안에서 수많은 일꾼(프로그램)들이 서
 | **Security Module** | 권한 및 접근 통제 | User/Kernel Mode 분리, ACL(Access Control List) 검증 | Ring 0/3, Capabilities | 성벽 수비대 |
 
 #### 2. OS 커널 아키텍처 및 시스템 콜 흐름 (ASCII)
+#### 2. OS Kernel Architecture & System Call Flow (ASCII)
 ```text
     [ Linux Kernel Architecture & User/Kernel Transition ]
+    [ 리눅스 커널 아키텍처 및 유저/커널 모드 전환 ]
     
-    (User Space - Ring 3)
+    (유저 공간 / User Space - Ring 3)
     +-------------------------------------------------------+
     |  App 1 (Node.js)  |  App 2 (Python)  |  App 3 (Bash)  |
     +-------------------+------------------+----------------+
-    |                 Glibc / Standard C Library            |
+    |           표준 C 라이브러리 / Standard C Library      |
     +-------------------------------------------------------+
-           | (Software Interrupt: int 0x80 / syscall)
+           | (소프트웨어 인터럽트 / Software Interrupt: int 0x80 / syscall)
     =======|======================================================
-    (Kernel Space - Ring 0) Trap!
+    (커널 공간 / Kernel Space - Ring 0) Trap!
            v
     +-------------------------------------------------------+
-    |                 System Call Interface                 |
+    |           시스템 콜 인터페이스 / System Call Interface|
     +-----------+----------------+---------------+----------+
-    | Process   | Memory         | Virtual File  | Network  |
-    | Scheduler | Management     | System (VFS)  | Stack    |
-    | (CFS, IPC)| (Paging, Slab) | (Ext4, inode) | (TCP/IP) |
+    | 프로세스  | 메모리 관리    | 가상 파일     | 네트워크 |
+    | 스케줄러  | (Memory)       | 시스템 (VFS)  | 스택     |
     +-----------+----------------+---------------+----------+
-    |                  Device Drivers (Block, Char)         |
+    |            장치 드라이버 / Device Drivers (Block, Char) |
     +-------------------------------------------------------+
     ==============================================================
-    (Hardware)
+    (하드웨어 / Hardware)
     |    CPU    |     RAM (MMU)    |   NVMe SSD  |   NIC    |
     +-------------------------------------------------------+
 ```

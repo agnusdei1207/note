@@ -22,6 +22,7 @@ categories = "studynote-computer-architecture"
 - **등장 배경**: 1970년대 말 인텔 $8086$ 마이크로프로세서가 탄생할 때, 집적 회로의 게이트 카운트와 클럭 효율을 쥐어짜 내기 위해 도입됐다. 경쟁자 모토로라가 빅 엔디언의 '아름다운 메모리 구조'를 마케팅할 때, 인텔은 오직 ALU의 덧셈 사이클 무지성 폭주 최적화 하나로 PC와 서버 시장(x86) 점유율 $99\%$를 학살하며 글로벌 스탠다드로 군림했다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The Intel x86 Logic: Little Endian Reverse Mapping       |
 +-------------------------------------------------------------+
@@ -37,10 +38,10 @@ categories = "studynote-computer-architecture"
   [ How it's stacked in a RAM Array (Little Endian CPU) ]
   RAM Address | Byte Stored | Meaning
   --------------------------------------------------
-  0x1000      |    0x78     | Smallest part (LSB) sits FIRST at addr 0.
+  0x1000      |    0x78     | Smallest part (LSB / 최하위 비트) sits FIRST at addr 0.
   0x1001      |    0x56     | Next part
   0x1002      |    0x34     | Next part
-  0x1003      |    0x12     | BIG BOSS (MSB) is shoved to the VERY END.
+  0x1003      |    0x12     | BIG BOSS (MSB / 최상위 비트) is shoved to the VERY END.
 
   [ Developer's Hex Editor View (Memory Dump Error?) ]
   Address 0x1000:  78 56 34 12 
@@ -71,6 +72,7 @@ categories = "studynote-computer-architecture"
 리틀 엔디언이 단순히 산술 덧셈기(Carry)만 가속시킨 게 아니다. C/C++ 언어에서 변수 자료형 크기를 맘대로 썰고 줄이는 '포인터 축소 캐스팅' 연산을 돌릴 때 진정한 메모리 맵핑의 악마적 지배력이 발동된다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The C-Language Hack: Easy Pointer Down-Casting           |
 +-------------------------------------------------------------+
@@ -78,8 +80,8 @@ categories = "studynote-computer-architecture"
   [ Variable Setup ]
   int32_t val = 0x00000041;   // Value is 65 (ASCII 'A'). Width 4 Bytes.
 
-  =============== [ Big Endian Layout ] ===============
-  Addr 0: 0x00  (MSB)
+  =============== [ Big Endian Layout  / 빅 엔디안 레이아웃] ===============
+  Addr 0: 0x00  (MSB / 최상위 비트)
   Addr 1: 0x00
   Addr 2: 0x00
   Addr 3: 0x41  (LSB - The actual meaningful '65')
@@ -92,11 +94,11 @@ categories = "studynote-computer-architecture"
   * To get 0x41 in Big Endian, compiler MUST add an offset math:
   * *(char*)((int*)&val + 3). Waste of CPU Address generation cycles!
 
-  =============== [ Little Endian Layout ] ===============
+  =============== [ Little Endian Layout  / 리틀 엔디안 레이아웃] ===============
   Addr 0: 0x41  (LSB - The actual meaningful '65' sits at ZERO!)
   Addr 1: 0x00
   Addr 2: 0x00
-  Addr 3: 0x00  (MSB)
+  Addr 3: 0x00  (MSB / 최상위 비트)
 
   Goal: Cast 'val' to a 1-byte char to get 'A'.
   Code: char c = *(char*)&val;

@@ -22,6 +22,7 @@ categories = "studynote-computer-architecture"
 - **등장 배경**: 옛날 Univac-1 같은 상용 1세대 진공관 컴퓨터에서 감산기(Subtractor) 회로 모듈을 설계하는 것은 엄청나게 비싸고 고장이 잦은 작업이었다. 산술기 최적화를 위해 코딩 매핑 자체를 대칭형 폼(Symmetrical Form)으로 찌그러뜨려 놓음으로써 하드웨어 논리 게이트의 크기를 물리적으로 $1/4$로 찢어놓는 거대한 설계 아키텍처 다이어트 혁신의 산물이다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The Wizardry of Excess-3 Self-Complementing Mirror       |
 +-------------------------------------------------------------+
@@ -46,7 +47,7 @@ categories = "studynote-computer-architecture"
   Subtract the 3 offset back: 8 - 3 = 5 ! 
   Wait... The 9's complement of 4 IS exactly 5!
 
-  [ Hardware Win ]
+  [ Hardware Win  / 하드웨어의 승리]
   A single $0.01 NOT Gate created a perfect Subtraction 
   Operand matching human Base-10 math!
 +-------------------------------------------------------------+

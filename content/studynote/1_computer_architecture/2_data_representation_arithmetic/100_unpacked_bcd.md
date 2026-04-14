@@ -22,11 +22,12 @@ categories = "studynote-computer-architecture"
 - **등장 배경**: 이 포맷은 문자 인코딩의 할아버지인 ASCII 코드나 IBM의 EBCDIC 코드가 10진수 숫자를 문자로 표현하는 방법론과 소름 돋게 완벽히 일치한다. ASCII 표에서 숫자 `5`는 `0011_0101`이다. 앞의 `0011`이 존, 뒤의 `0101`이 바로 5의 BCD값이다. 즉, 언팩드 BCD의 탄생은 문자를 인쇄하기 위한 최단 패스-스루(Pass-Through) 꼼수 아키텍처에서 비롯되었다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The Anatomy of Unpacked (Zoned) BCD with ASCII           |
 +-------------------------------------------------------------+
 
-  [ Value to store: +32 ]
+  [ Value to store: +32  / 저장할 값: +32]
 
   * We must store this so a Text Editor can read it natively!
   ASCII Zone for Numbers: 0011 (Hex 3)
@@ -73,29 +74,29 @@ categories = "studynote-computer-architecture"
 
 ```text
 +-------------------------------------------------------------+
-|    The Wizardry of ASCII Arithmetic: AAA Instruction        |
+|    ASCII 산술의 마법: AAA 명령어                            |
 +-------------------------------------------------------------+
-  Scenario: Add ASCII '8' and ASCII '5' directly in terminal!
+  시나리오: 터미널에서 ASCII '8'과 ASCII '5'를 직접 더하라!
   AL = 0011 1000 (Hex 38, ASCII '8')
   BL = 0011 0101 (Hex 35, ASCII '5')
 
-  [ Step 1: Raw Binary ADD ]
+  [ 1단계: 순수 이진수 ADD ]
     ADD AL, BL  ->  38h + 35h = 6Dh (0110 1101)
-    * 6Dh is total Garbage. It prints character 'm' !
+    * 6Dh는 완전 쓰레기값입니다. 문자 'm'을 출력합니다!
 
-  [ Step 2: AAA (ASCII Adjust after Addition) triggers! ]
-  The hardware sees the lower nibble (D) is > 9 (or AF is 1).
-  The CPU executes AAA:
-    1. Adds 6 to the lower nibble (D + 6 = 13h)
-    2. Keeps only the lower nibble (3)
-    3. Adds 1 to the AH register (Carry to the next byte place!)
-    4. WIPES the upper nibble (Zone) to 0000.
-    5. AL becomes '03', AH becomes '01'.
+  [ 2단계: AAA (덧셈 후 ASCII 조정) 발동! ]
+  하드웨어가 하위 니블(D)이 9보다 큰 것(또는 AF가 1)을 봅니다.
+  CPU가 AAA를 실행합니다:
+    1. 하위 니블에 6을 더함 (D + 6 = 13h)
+    2. 하위 니블(3)만 남김
+    3. AH 레지스터에 1을 더함 (다음 바이트 자리로 올림!)
+    4. 상위 니블(존)을 0000으로 지워버림.
+    5. AL은 '03'이 되고, AH는 '01'이 됨.
 
-  [ Step 3: OR with 3030h (Restore ASCII Zones) ]
-    OR AX, 3030h  => AX becomes 3133h 
-    (Which is ASCII '1' and ASCII '3').
-    We just computed 8+5=13 using pure text files!
+  [ 3단계: 3030h와 OR 연산 (ASCII 존 복구) ]
+    OR AX, 3030h  => AX는 3133h가 됨 
+    (이것은 ASCII '1'과 ASCII '3'입니다).
+    우리는 순수 텍스트 파일만을 사용하여 8+5=13을 계산해냈습니다!
 +-------------------------------------------------------------+
 ```
 **[다이어그램 해설]** "문자와 문자를 더했는데 덧셈 연산이 된다!" 이것이 시스템 프로그래머들이 극찬했던 `AAA (ASCII Adjust)` 옵코드의 전설이다. $38$(문자 8)과 $35$(문자 5)를 더하면 엉터리 깨진 문자가 나오지만, `AAA` 명령어를 호출하는 순간 ALU가 이 버그난 텍스트 문자열에 강제로 $+6$ 약을 치고 올림수를 왼쪽 레지스터(AH)로 넘겨버린 뒤, 앞의 쓰레기 존(Zone) 영역을 `0`으로 날려버린다. 프로그래머가 여기에 다시 ASCII 존(`3030h`)을 덮어주면 화면에 마법처럼 `13`이라는 문자가 뜬다. 파일 변환(Type Casting) 없이 텍스트 스트림을 바로 덧셈에 넣어버리는 고대의 하이엔드 최적화다. (참고로 이 명령어들은 64비트 x86-64 아키텍처로 오면서 완전히 삭제 폐기되었다.)

@@ -72,29 +72,29 @@ C언어에서 문자열(String)을 저장할 때 무조건 문자 맨 끝에 `\0
 
 ```text
 +-------------------------------------------------------------+
-|    The PASCAL vs C String Architecture Battle (Memory MAP)  |
+|    파스칼 vs C 문자열 아키텍처 배틀 (메모리 맵)             |
 +-------------------------------------------------------------+
 
-  Saving the word "HELLO" in RAM.
+  "HELLO"라는 단어를 RAM에 저장하기.
 
-  [ Pascal String (Length Prefix) ]
-  Address 0: [ 5 ] (Length of string is 5)
-  Address 1: [ H ] Address 2: [ E ] Address 3: [ L ]
-  Address 4: [ L ] Address 5: [ O ]
-  * Problem: Needs metadata (length) upfront, limiting size
-    (e.g., if length is 1 byte, max string is 255 chars).
+  [ 파스칼 문자열 (길이 접두사) ]
+  주소 0: [ 5 ] (문자열 길이가 5)
+  주소 1: [ H ] 주소 2: [ E ] 주소 3: [ L ]
+  주소 4: [ L ] 주소 5: [ O ]
+  * 문제: 메타데이터(길이)가 미리 필요하며 크기가 제한됨
+    (예: 길이가 1바이트이면 최대 문자열은 255자).
 
-  [ C String (ASCII NUL termination) ]
-  Address 0: [ H ] Address 1: [ E ] Address 2: [ L ]
-  Address 3: [ L ] Address 4: [ O ] Address 5: [ \0 ]
+  [ C 문자열 (ASCII NUL 종료) ]
+  주소 0: [ H ] 주소 1: [ E ] 주소 2: [ L ]
+  주소 3: [ L ] 주소 4: [ O ] 주소 5: [ \0 ]
   
-  * Assembly while-loop execution:
-    mov al, [rsi]    ; Load ASCII char
-    test al, al      ; AND it with itself. If '0', Zero Flag sets!
-    jz _end_string   ; Hardware jumps instantly to end !!
+  * 어셈블리 while-루프 실행:
+    mov al, [rsi]    ; ASCII 문자 로드
+    test al, al      ; 자기 자신과 AND 연산. 만약 '0'이면 제로 플래그 켜짐!
+    jz _end_string   ; 하드웨어가 즉시 끝으로 점프 !!
 
-  * The Genius: CPU ALU treats ASCII "0000 0000" as the
-    literal integer '0'. CPU Branch-Predictors love checking 0.
+  * 천재성: CPU ALU는 ASCII "0000 0000"을
+    문자 그대로의 정수 '0'으로 취급합니다. 분기 예측기가 0 검사를 좋아함.
 +-------------------------------------------------------------+
 ```
 **[다이어그램 해설]** ASCII의 NUL 문자를 활용한 던니스 리치(Dennis Ritchie)의 C언어 문자열 설계는 마이크로프로세서가 숨을 쉬는 방식과 정확히 동일했다. 문자열 길이를 따로 저장할 필요 없이, 메모리를 쭉 순차(Sequential)로 읽어 내려가다가 0번 코드(`00000000`)를 만나는 순간 CPU의 상태 레지스터의 제로 플래그(ZF - Zero Flag)가 기계적으로 불이 켜진다. CPU는 길이 계산(산술) 로직을 거치지 않고 오직 전기적 플래그 1개만 확인하여 즉각 루프를 탈출(Jump)해 버린다. 메모리 바이트 낭비 없이 극강의 초고속 스캐닝을 이룩한 하드웨어 소프트웨어의 전설적 융합 꼼수다.

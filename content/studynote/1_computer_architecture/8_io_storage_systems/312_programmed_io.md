@@ -40,8 +40,9 @@ categories = "studynote-computer-architecture"
 ### 2. 데이터 전송 흐름 (Sequential Flow)
 
 ```text
+
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│ [ Programmed I/O Sequential Execution Step ]                                │
+│ [ Programmed I/O Sequential Execution Step  / 프로그램된 I/O 순차 실행 단계]                                │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │ 1. Issue Command : CPU -> Control Reg ("Read next sector please")           │
 │         │                                                                   │

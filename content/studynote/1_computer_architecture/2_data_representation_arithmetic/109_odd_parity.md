@@ -72,11 +72,12 @@ categories = "studynote-computer-architecture"
 마치 무적의 결계 같지만, 짝수 패리티와 똑같이 훌쩍 넘지 못하는 수학적 차원의 근본적 수리 한계, 즉 다중 에러 오판(False Positive)의 블랙홀을 지독하게 품고 있다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The 2-Bit Hack: Breaking the Odd Parity Shield           |
 +-------------------------------------------------------------+
 
-  [ Transmission Phase ]
+  [ Transmission Phase  / 전송 단계]
   Original Payload: 'T' (84) -> 1 0 1 0 1 0 0  (Three 1's = ODD)
   Odd Parity Bit added: [0]  (Already Odd, so add 0)
   Packet on Wire: [0] 1 0 1 0 1 0 0

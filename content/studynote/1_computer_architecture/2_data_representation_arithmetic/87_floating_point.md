@@ -22,6 +22,7 @@ categories = "studynote-computer-architecture"
 - **등장 배경**: 옛날 메인프레임 시절 수식을 짤 때마다 엔지니어들이 데이터를 곱하고 나서 "소수점이 여덟 번 밀렸으니 내가 소스코드에 8을 밀어주는 코드를 끼워 넣어야지..." 하고 수동으로 스케일링을 관리(Manual Scaling) 하다가 사람의 실수가 속출했다. 이를 하드웨어 칩이 알아서 투명하게 '소수점을 띄워서(Float) 조율'해주도록 아키텍처에 FPU(Floating Point Unit)를 물리적으로 집적한 것이 시작이다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The Anatomy of a Floating-Point Format (Abstract)        |
 +-------------------------------------------------------------+
@@ -31,7 +32,7 @@ categories = "studynote-computer-architecture"
   [ Layout Structure ]
    +-----+----------------+--------------------------+
    |  S  |    Exponent    |         Mantissa         |
-   | (1) |  (Scale Power) |    (Fractional Digits)   |
+   | (1) |  (Scale Power) |    (Fractional Digits / 소수 자릿수)   |
    +-----+----------------+--------------------------+
       |          |                      |
       |          V                      V
@@ -69,25 +70,25 @@ categories = "studynote-computer-architecture"
 
 ```text
 +-------------------------------------------------------------+
-|    The Magic of Normalization and Hidden Bit                |
+|    정규화와 숨겨진 비트(Hidden Bit)의 마법                  |
 +-------------------------------------------------------------+
 
-  Unnormalized binary:  0.0010110 * 2^4
+  비정규화된 이진수:  0.0010110 * 2^4
 
-  1) Normalize (Shift point until '1' hits the front):
-     Shift left 3 times.
-     Decrease Exponent by 3 (from 4 down to 1).
-     Result: 1.0110 * 2^1
+  1) 정규화 ('1'이 맨 앞에 올 때까지 소수점 이동):
+     왼쪽으로 3번 시프트.
+     지수를 3만큼 감소시킴 (4에서 1로).
+     결과: 1.0110 * 2^1
 
-  2) Hidden Bit Storage Trick:
-     We KNOW the format is ALWAYS 1.[something].
-     So, DROP the '1.' completely in hardware storage!
+  2) 숨겨진 비트 저장 트릭:
+     우리는 포맷이 항상 1.[무언가] 라는 것을 압니다.
+     그러므로 하드웨어 저장소에서 '1.'을 완전히 버립니다!
 
-  Storage in Memory Mantissa:  [ 0 | 1 | 1 | 0 ... ]
+  메모리 가수에 저장됨:  [ 0 | 1 | 1 | 0 ... ]
 
-  * Genius Artifact: By dropping the leading '1', the
-    architect stole 1 extra bit of free precision without
-    increasing the physical transistor width of the chip.
+  * 천재적인 창조물: 맨 앞의 '1'을 버림으로써, 아키텍트는
+    칩의 물리적 트랜지스터 너비를 늘리지 않고도
+    무료로 1비트의 추가 정밀도를 훔쳐냈습니다.
 +-------------------------------------------------------------+
 ```
 **[다이어그램 해설]** 소수점을 어느 위치든 떠다니게 둘 수 있지만, 연산의 규칙을 위해 항상 $1.xxxxx$ 형태로 맞추는 과정을 **정규화(Normalization)**라고 한다. 일단 정규화가 끝나면 맨 앞은 100% 확률로 `1`이 된다. 천재적인 초기 설계자들은 이 뻔한 `1`을 메모리에 기록조차 하지 않고, 나중에 FPU가 이를 읽어올 때 회로적으로 `1.`이 붙어 있다고 가정하여 복원해 버린다. 이를 통해 공짜로 1비트의 해상도 공간을 벌어들인 것이다.

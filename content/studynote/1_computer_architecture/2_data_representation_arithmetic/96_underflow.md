@@ -22,6 +22,7 @@ categories = "studynote-computer-architecture"
 - **등장 배경**: 옛날 IBM 장비들은 언더플로우가 터지면 즉각 0으로 강제 치환해 버리는 Sudden Underflow 방식을 썼다. 이로 인해 `if(X != Y) then A = 1 / (X - Y)` 같은 완벽해 보이는 코드에서도 $X$와 $Y$가 미세하게 다름에도 뺄셈 결과가 너무 작아 $0$이 되어버리는 바람에, 다음 나눗셈에서 `Divide by Zero` 에러가 나서 컴퓨터가 뻗는 우스꽝스러운 대참사가 비일비재했다. 그래서 Kahan 박사는 'Subnormal'이라는 낙하산 쿠션(완충 지대)을 만들었다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The Physics of Underflow (Floating Point Death)          |
 +-------------------------------------------------------------+
@@ -34,7 +35,7 @@ categories = "studynote-computer-architecture"
   B = 1.0 * 2^-70
   Result = 1.0 * 2^-140  <---- THE CLIFF OF DEATH
 
-  [ Hardware Interpretation ]
+  [ Hardware Interpretation  / 하드웨어 해석]
   Exponent -140 is IMPOSSIBLE to store in 8 bits!
   Minimum allowed is -126!
 
@@ -45,7 +46,7 @@ categories = "studynote-computer-architecture"
   * Step 2 (True Underflow / Flush to Zero):
     If it goes to 2^-160, even shifting doesn't work.
     Hardware Flag: UF (Underflow) = 1
-    Result Stored: 0.000000000 (Catastrophic Loss of Data)
+    Result Stored: 0.000000000 (Catastrophic Loss of Data / 치명적인 데이터 손실)
 +-------------------------------------------------------------+
 ```
 **[다이어그램 해설]** 언더플로우 바닥을 뚫고 숫자가 떨어질 때 두 가지 사건이 일어난다. 일단 하드웨어는 $2^{-126}$을 유지하기 위해 소수점을 미친 듯이 왼쪽으로 옮기며(비정규화 수 편입) 어떻게든 데이터를 살리려 발버둥 친다(낙하산 쿠션). 하지만 숫자가 그 낙하산마저 뚫어버릴 만큼 아득히 작아지는 진짜 언더플로우(True Underflow) 지점을 통과하면, 결국 하드웨어는 백기를 들며 FPU의 UF(Underflow Flag)에 불을 켜고, 데이터를 남김없이 `0.0` 제로 영역으로 날려버린다(증발). 
@@ -71,22 +72,23 @@ categories = "studynote-computer-architecture"
 수식의 결과가 언더플로우 수역(Subnormal)에 도달하는 순간, CPU는 기절할 듯한 회로 딜레이를 만들어낸다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The FPU Trap: Why Gradual Underflow Freezes Games        |
 +-------------------------------------------------------------+
 
   [ Normal ALU Flow - 1 Clock Cycle ]
-     A (Normal) * B (Normal) = C (Normal)
+     A (Normal / 정상) * B (Normal / 정상) = C (Normal / 정상)
 
   [ Underflow Trap Flow - ~150 Clock Cycles ]
-     A (Normal) * B (Tiny) = C (Subnormal Underflow)
+     A (Normal / 정상) * B (Tiny) = C (Subnormal Underflow)
             |
       FPU Detects: "Wait, the exponent is 00000000!"
             |
       Hardware Abort: Gates cannot process shifted Hidden Bits.
             |
      Exception Triggered: CPU hands value over to Microcode
-     (Internal ROM Firmware) to manually shift bit by bit
+     (Internal ROM Firmware / 내부 ROM 펌웨어) to manually shift bit by bit
      using slow integer registers!
 
   * The Cure: CPU Flags DAZ (Denormals-Are-Zero) and

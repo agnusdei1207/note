@@ -22,6 +22,7 @@ categories = "studynote-computer-architecture"
 - **등장 배경**: 인터넷의 아버지들(Vint Cerf 등)이 IPv4 방식을 제안할 때, 전 세계 라우터들이 데이터를 전달(Routing)하면서 속도가 느려지지 않게 하려고 '더하기 연산(One's Complement Sum)' 기반의 극도로 단순한 수학적 검증 로직을 헤더(Header)에 강제 규격으로 박아 넣었다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The TCP/IP Checksum Magic (1's Complement Arithmetic)    |
 +-------------------------------------------------------------+
@@ -41,7 +42,7 @@ categories = "studynote-computer-architecture"
     Wrapped Sum: 0010 1010 1100 0010
 
   [ Step 2: The Inversion (Creating the Checksum) ]
-  Invert all bits of the Wrapped Sum! (Logical NOT gate)
+  Invert all bits of the Wrapped Sum! (Logical NOT gate / 논리 NOT 게이트)
   Checksum = 1101 0101 0011 1101
 
   [ Step 3: Receiver Validation Trick ]
@@ -77,12 +78,13 @@ categories = "studynote-computer-architecture"
 단일 패리티 비트는 에러가 2개 생기면 뚫렸다. 그렇다면 더하기 수십 만짜리 체크섬은 어떨까? 체크섬조차도 데이터를 '바꿔치기'하는 고상한 노이즈 폭풍(다중 타격 에러) 앞에서는 무력하게 농락당하는 산술적 참사가 숨어 있다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The Cancel-Out Hack: Why Checksum is NOT Security        |
 +-------------------------------------------------------------+
 
   [ Sent Data Words ]
-  Word X:  10      Word Y:  20       (Checksum Sum = 30)
+  Word X:  10      Word Y:  20       (Checksum Sum = 30 / 체크섬 합 = 30)
 
   [ The Double Corrupt Burst ]
   A cosmic ray flips bits, but wait! It ADDS 5 to Word X...
@@ -91,7 +93,7 @@ categories = "studynote-computer-architecture"
   Received Word X: 15     (+5 corruption)
   Received Word Y: 15     (-5 corruption)
 
-  [ Arithmetic Danger ]
+  [ Arithmetic Danger  / 산술적 위험]
   Receiver adds them up: 15 + 15 = 30 !
   Wait... The Checker compares it to the Checksum 30.
   "Match PERFECT! Packet is Valid!!!"

@@ -1,5 +1,5 @@
 +++
-weight = 9006
+weight = 9007
 title = "6. 데이터 사이언스 수학"
 render = true
 sort_by = "weight"

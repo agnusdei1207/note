@@ -166,15 +166,16 @@ struct task_struct {
 이 플로우는 실행 중인 프로세스가 외부 신호에 의해 어떻게 자신의 상태를 안전하게 대피시키는지 그 선후 관계를 나타낸다.
 
 ```text
-[Running State] --Interrupt--> [HW Auto Save (PC, SP, Flags)]
+
+[Running State / 실행 상태] --Interrupt--> [HW Auto Save (PC, SP, Flags) / HW 자동 저장 (PC, SP, 플래그)]
                                                         │
-[User Mode] ◀─────────────────────────────┴─────── [Kernel Mode Transition]
+[User Mode / 사용자 모드] ◀─────────────────────────────┴─────── [Kernel Mode Transition / 커널 모드 전환]
                                                         │
-[Update PCB with General Regs] ◀── [Context Save Routine]
+[Update PCB with General Regs / 일반 레지스터로 PCB 업데이트] ◀── [Context Save Routine / 문맥 저장 루틴]
                                                         │
-[Scheduler Selects Next Process] ──▶ [Context Restore from New PCB]
+[Scheduler Selects Next Process / 스케줄러가 다음 프로세스 선택] ──▶ [Context Restore from New PCB / 새 PCB에서 문맥 복원]
                                                         │
-[User Mode Return] ◀── [iret Instruction] ◀── [HW Auto Restore]
+[User Mode Return / 사용자 모드 복귀] ◀── [iret Instruction / iret 명령어] ◀── [HW Auto Restore / HW 자동 복원]
 ```
 
 **[다이어그램 해설]** 문맥 보존의 핵심은 '원자성 (Atomicity)'과 '계층성'이다. 인터럽트가 발생하는 즉시 하드웨어는 현재의 프로그램 카운터 (PC)와 상태 플래그를 커널 스택에 저장한다. 이는 소프트웨어가 개입하기 전에 최소한의 복귀 지점을 확보하기 위함이다. 이후 커널 모드로 진입하면 커널 소프트웨어가 CPU의 나머지 모든 범용 레지스터들을 현재 프로세스의 PCB 영역으로 옮긴다. 이 과정이 완료되어야 비로소 현재 프로세스의 문맥이 '동결'되었다고 할 수 있다. 복구 과정은 이의 정확한 역순으로 진행된다. 만약 이 과정 중에 다른 인터럽트가 또 발생한다면 'Nested Interrupt' 처리가 필요하며, 이때도 각 층위별 문맥은 스택에 차례로 쌓여 논리적 무결성을 유지한다.

@@ -22,11 +22,12 @@ categories = "studynote-computer-architecture"
 - **등장 배경**: 연산장치 (ALU)가 고도화되기 전, 데이터의 가독성이 가장 중요했던 시절에 도입되었다. 그러나 이는 곧 두 가지 크리티컬한 하드웨어 이슈를 낳았다. 1) +0(00000000)과 -0(10000000)이 이중으로 존재하는 논리적 결함. 2) 부호 비트를 확인한 뒤 덧셈기(Adder)를 쓸지 감산기(Subtractor)를 쓸지 결정해야 하는 분기 처리 딜레이. 이 오버헤드 때문에 결국 정수 연산의 주력에서 밀려나게 되었다.
 
 ```text
+
 +-------------------------------------------------------------+
 |          Sign-Magnitude Bit Layout (8-bit array)            |
 +-------------------------------------------------------------+
 
-  [ MSB ]  [ 7 Bits for Absolute Magnitude ]
+  [ MSB  / 최상위 비트]  [ 7 Bits for Absolute Magnitude ]
      |       |
      V       V
    +---+   +---+---+---+---+---+---+---+
@@ -65,23 +66,23 @@ categories = "studynote-computer-architecture"
 
 ```text
 +-------------------------------------------------------------+
-|    Sign-Magnitude Addition Logic Flow: A + B                |
+|    부호-크기 덧셈 논리 흐름: A + B                          |
 +-------------------------------------------------------------+
 
-  START  [ A + B ]
+  시작   [ A + B ]
     |
-    +--> Q1: Are the signs of A and B the same?
+    +--> Q1: A와 B의 부호가 같은가?
           |
-          +-- (YES) --> ADD magnitudes. Keep the original
-          |             sign bit.
+          +-- (예)  --> 크기를 더함. 원래 부호 비트를 유지.
           |
-          +-- (NO)  --> Q2: Which magnitude is larger?
+          |
+          +-- (아니오)--> Q2: 어느 쪽의 크기가 더 큰가?
                          |
-                         +--> Subtract smaller from larger.
-                              Attach the sign of the larger.
+                         +--> 큰 수에서 작은 수를 뺌.
+                              더 큰 쪽의 부호를 붙임.
 
-  Result: One simple ADD instruction requires multiple
-          hardware branches (Comparisons & Subtractions).
+  결과: 단일 덧셈 명령어에 수많은 하드웨어 분기
+        (비교 및 뺄셈)가 필요하게 됩니다.
 +-------------------------------------------------------------+
 ```
 **[다이어그램 해설]** 2의 보수 방식은 부호를 무시하고 곧바로 덧셈기로 밀어 넣으면 끝나지만, 부호와 절댓값 방식은 연산을 시작하기 전 1) 두 수의 부호가 같은지 다른지, 2) 다르다면 어느 쪽 절댓값이 더 큰지를 전부 따져야 한다. 현대 CPU 파이프라인 설계에서 이러한 다단 분기 구조(Multi-stage branching)는 클럭 사이클을 낭비하는 치명적 억제기다.
@@ -112,18 +113,18 @@ categories = "studynote-computer-architecture"
 
 ```text
 +-------------------------------------------------------------+
-|    The Existence of Negative Zero (-0) and Comparator Pain  |
+|    음수 0(-0)의 존재와 비교기의 고통                        |
 +-------------------------------------------------------------+
 
-  Hardware Register A: [ 0 | 0000000 ]  (+0)
-  Hardware Register B: [ 1 | 0000000 ]  (-0)
+  하드웨어 레지스터 A: [ 0 | 0000000 ]  (+0)
+  하드웨어 레지스터 B: [ 1 | 0000000 ]  (-0)
 
-  Math Logic:  (+0) == (-0)  => TRUE
-  Bit Logic:   (000) XOR (100) => FALSE (Bit Mismatch)
+  수학 논리:   (+0) == (-0)  => 참(TRUE)
+  비트 논리:   (000) XOR (100) => 거짓(FALSE) (비트 불일치)
 
-  Resolution Required:
-    Hardware comparators MUST add an extra logic gate:
-    if (A matches B) OR (A is +0 AND B is -0) -> TRUE
+  해결 요구사항:
+    하드웨어 비교기는 반드시 추가 논리 게이트를 달아야 합니다:
+    만약 (A가 B와 일치) 또는 (A가 +0 이고 B가 -0 이면) -> 참
 +-------------------------------------------------------------+
 ```
 **[다이어그램 해설]** `-0`의 존재는 비트단위(Bitwise) 비교 하드웨어를 파괴했다. 원래 두 값이 같은지 보려면 XOR 게이트를 통과시켜 모두 0이 나오면 "같다"로 판단하면 그만이다. 하지만 이 체계에서는 비트가 달라도 수학적으로 같은(True) 케이스가 발생하므로, 비교기(Comparator) 회로 내부에 `+0`과 `-0`을 강제로 일치시키는 추가 OR 게이트 로직 층을 덮어씌워야 했다. 이는 지연 시간(Delay) 증가의 원흉이다.

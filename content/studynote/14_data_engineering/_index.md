@@ -10,7 +10,7 @@ kids_analogy = "세상 여기저기서 쏟아지는 '더러운 흙탕물(원시 
 +++
 # 도메인 14: 데이터 엔지니어링 (Data Engineering)
 
-## ## 핵심 인사이트 (3줄 요약)
+## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 파편화된 원시 데이터(Raw Data)를 수집, 정제, 적재(ETL/ELT)하여 데이터 분석가, 과학자, 그리고 AI 모델이 즉각적이고 신뢰할 수 있게 사용할 수 있도록 거대한 배관망(Data Pipeline)을 설계하고 유지보수하는 아키텍처 공학.
 > 2. **가치**: 데이터 사일로(Silo)를 파단하고 전사적 데이터 레이크하우스(Lakehouse)를 구축함으로써, 기업의 통찰력(Insight) 도출 시간을 단축하고 데이터 기반 의사결정(Data-driven Decision)의 무결성을 강제함.
 > 3. **융합**: 고전적인 정형 데이터용 Data Warehouse를 넘어, Kafka 기반의 실시간 스트리밍 처리와 Spark의 인메모리 분산 컴퓨팅이 융합되어 AI 파이프라인의 젖줄(Bloodline)로 전면 진화.
@@ -39,20 +39,20 @@ kids_analogy = "세상 여기저기서 쏟아지는 '더러운 흙탕물(원시 
 #### 2. 모던 데이터 스택 (Modern Data Stack) 아키텍처 다이어그램 (ASCII)
 전통적인 ETL에서 벗어나, 무한한 클라우드 스토리지에 데이터를 먼저 적재하고(Load) 나중에 클라우드 DW의 막강한 컴퓨팅 파워로 변환(Transform)하는 ELT 아키텍처.
 ```text
-    [ ELT-based Cloud Data Lakehouse Architecture ]
+    [ ELT-based Cloud Data Lakehouse Architecture / ELT 기반 클라우드 데이터 레이크하우스 아키텍처 ]
     
-    (Sources)          (Extract & Load)           [ Data Lakehouse (S3 / GCS) ]          (Transform via dbt)
+    (Sources / 원본)     (Extract & Load / 추출/적재)   [ Data Lakehouse (S3 / GCS) / 데이터 호수 ]     (Transform via dbt / 변환)
     +---------+       +----------------+        +-----------------------------------+       +-------------+
     | RDBMS   |       | Fivetran /     |        | 1. Bronze Layer (Raw JSON/CSV)    |       |             |
-    | (MySQL) | ----> | Airbyte        | -----> |    - 원본 데이터 그대로 적재        | ----> | SQL을 통한  |
+    | (MySQL) | ----> | Airbyte        | -----> |    - 원본 데이터 그대로 적재      | ----> | SQL을 통한  |
     +---------+       | (Batch EL)     |        +-----------------------------------+       | 데이터 정제 |
                                                 | 2. Silver Layer (Cleaned Parquet) | <---- | 및 비즈니스 |
     +---------+       +----------------+        |    - Null 제거, 스키마 강제, 필터 | ----> | 로직 반영   |
     | App Logs| ----> | Apache Kafka   | -----> +-----------------------------------+       | (DAG 형태)  |
-    | (Click) |       | (Real-time Stream)      | 3. Gold Layer (Aggregated)        | <---- |             |
-    +---------+       +----------------+        |    - BI 툴 및 AI 훈련용 데이터 마트 |       +-------------+
+    | (Click) |       | (Real-time)    |        | 3. Gold Layer (Aggregated)        | <---- |             |
+    +---------+       +----------------+        |    - BI 및 AI 훈련용 데이터 마트  |       +-------------+
                                                 +-----------------------------------+
-                                                                 | (Data Serving)
+                                                                 | (Data Serving / 서빙)
                                                 +----------------v------------------+
                                                 | Tableau / Superset / AI ML Model  |
                                                 +-----------------------------------+
@@ -125,3 +125,10 @@ kids_analogy = "세상 여기저기서 쏟아지는 '더러운 흙탕물(원시 
 - `[인공지능과 머신러닝(MLOps)]`: 파이프라인을 통해 정제된 피처(Feature) 데이터를 먹고 자라는 가장 중요한 컨슈머(Consumer).
 - `[데브옵스(DevOps) 및 CI/CD]`: 데이터 파이프라인 코드(Airflow DAG, dbt)를 안전하게 배포하고 모니터링하는 인프라 철학.
 - `[소프트웨어 아키텍처(MSA)]`: 데이터 메시(Data Mesh)와 본질적인 사상을 공유하는 도메인 주도 분산 설계 철학.
+
+---
+
+### 👶 어린이를 위한 3줄 비유 설명
+1. **데이터 수집(Ingestion)**은 세상 온갖 곳에서 쏟아지는 더러운 흙탕물을 커다란 호수로 모아오는 펌프 역할을 해요.
+2. **데이터 처리(Processing)**는 그 흙탕물 속에 있는 쓰레기를 걸러내고 깨끗하게 만들어서 맛있는 1급수 생수로 바꾸는 거대한 정수장이랍니다.
+3. 이 파이프가 튼튼해야 똑똑한 로봇이나 요리사들이 깨끗한 물을 마시고 쑥쑥 자라서 우리에게 좋은 서비스를 만들어 줄 수 있어요!

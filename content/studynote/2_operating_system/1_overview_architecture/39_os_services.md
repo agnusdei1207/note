@@ -115,11 +115,12 @@ categories = "studynote-operating-system"
 운영체제 서비스 중 '프로그램 실행'은 단순한 로딩을 넘어, 해당 프로그램이 독립적인 가상 주소 공간 (Virtual Address Space)을 갖고 CPU 스케줄링 대상이 되도록 만드는 복합적인 과정이다.
 
 ```text
+
  ┌───────────────────────────────────────────────────────────────┐
  │               Program Execution Service Flow                  │
  ├───────────────────────────────────────────────────────────────┤
  │                                                               │
- │  [Disk] --(1) Read ELF Header--> [Memory Management Service]  │
+ │  [Disk / 디스크] --(1) Read ELF Header--> [Memory Management Service / 메모리 관리 서비스]  │
  │                                        │                      │
  │  (2) Create PCB & Map Pages <──────────┘                      │
  │        │                                                      │
@@ -127,7 +128,7 @@ categories = "studynote-operating-system"
  │  (3) Setup Context (PC, SP, Registers)                        │
  │        │                                                      │
  │        ▼                                                      │
- │  (4) Insert into Ready Queue <──── [Scheduler Service]        │
+ │  (4) Insert into Ready Queue <──── [Scheduler Service / 스케줄러 서비스]        │
  │                                                               │
  └───────────────────────────────────────────────────────────────┘
 ```

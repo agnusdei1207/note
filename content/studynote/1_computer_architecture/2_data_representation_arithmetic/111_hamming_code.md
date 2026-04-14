@@ -22,16 +22,17 @@ categories = "studynote-computer-architecture"
 - **등장 배경**: 리처드 해밍 박사가 증명한 해밍 거리($D_{min}=3$)를 충족시키기 위해, 데이터(Data) 비트는 냅두고 그물망 구조 잉여(Redundancy) 비트 위치를 수학적으로 짜넣은 것이다. 대표적인 [7, 4] 해밍 코드는 4칸 데이터 이득을 위해 무려 3칸의 패리티 잉여를 할당하는 엄청난 용량 출혈을 지불하면서도 교정(Correction)이라는 황금성을 쟁취해 냈다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The Hamming Radar Mesh: Locating the Crime Scene         |
 +-------------------------------------------------------------+
 
-  [ Payload (4 bits): 1 0 1 1 ]
+  [ Payload (4 bits): 1 0 1 1  / 페이로드 (4비트): 1 0 1 1]
   Rule: Place Parity Bits (P) at powers of 2 (positions 1, 2, 4).
   String Setup:  P1  P2  D1  P4  D2  D3  D4
   Index Number:   1   2   3   4   5   6   7
 
-  [ The Intersecting Radar Logic (Even Parity Coverage) ]
+  [ The Intersecting Radar Logic (Even Parity Coverage)  / 교차 레이더 로직 (짝수 패리티 커버리지)]
   P1 covers skipping every 1_bit: positions 1, 3, 5, 7.
   P2 covers skipping every 2_bits: positions 2, 3, 6, 7.
   P4 covers skipping every 4_bits: positions 4, 5, 6, 7.
@@ -42,11 +43,11 @@ categories = "studynote-computer-architecture"
     Look at the binary of 6: 0 1 1 0  (4 + 2).
     It is covered by P4 and P2 cameras!
   
-  [ Receiver Error Checker (Syndrome Calculus) ]
+  [ Receiver Error Checker (Syndrome Calculus)  / 수신기 오류 검사기 (신드롬 계산)]
   Receiver gets the noisy packet. Checks Radars:
-  P1 check: OK! (Outputs 0)
-  P2 check: FAIL. (Outputs 1)
-  P4 check: FAIL. (Outputs 1)
+  P1 check: OK! (Outputs 0 / 0 출력)
+  P2 check: FAIL. (Outputs 1 / 1 출력)
+  P4 check: FAIL. (Outputs 1 / 1 출력)
   
   * Math Magic (Syndrome Vector): P4(1) P2(1) P1(0) = 110 (Binary).
   What is 110 in Decimal? It is EXACTLY 6 !!!
@@ -78,38 +79,38 @@ categories = "studynote-computer-architecture"
 
 ```text
 +-------------------------------------------------------------+
-|    The Double-Bit Trap: Hamming Code's Nightmare            |
+|    이중 비트의 함정: 해밍 코드의 악몽                       |
 +-------------------------------------------------------------+
 
-  [ Original Safe Transmission ]
-  Valid Hamming Frame sent -> 1 0 1 1 0 1 0
+  [ 원본 안전 전송 ]
+  유효한 해밍 프레임 전송 -> 1 0 1 1 0 1 0
 
-  [ The Double Lightning Burst Strike! ]
-  Noise flips BOTH Bit 3 (Data) and Bit 5 (Data)!
-  Received Frame: 1 0 [0] 1 [1] 1 0  (Two corruptions)
+  [ 이중 번개 버스트 타격! ]
+  노이즈가 비트 3(데이터)과 비트 5(데이터)를 모두 뒤집습니다!
+  수신된 프레임: 1 0 [0] 1 [1] 1 0  (두 개의 손상)
 
-  [ Syndrome Radar Confusion Math ]
-  P1 Check covers: 1, 3, 5, 7.
-  - Bit 3 AND 5 both flipped. Two flips cancel each other out in XOR!
-  - P1 outputs: OK (0) !  <-- BLIND!!
+  [ 신드롬 레이더 혼란 수학 ]
+  P1 검사 커버: 1, 3, 5, 7.
+  - 비트 3과 5가 모두 뒤집힘. 두 번의 뒤집힘은 XOR에서 서로 상쇄됨!
+  - P1 출력: 정상 (0) !  <-- 장님!!
 
-  P2 Check covers: 2, 3, 6, 7.
-  - Only Bit 3 flipped here.
-  - P2 outputs: ERROR (1) !
+  P2 검사 커버: 2, 3, 6, 7.
+  - 여기서는 비트 3만 뒤집힘.
+  - P2 출력: 오류 (1) !
 
-  P4 Check covers: 4, 5, 6, 7.
-  - Only Bit 5 flipped here.
-  - P4 outputs: ERROR (1) !
+  P4 검사 커버: 4, 5, 6, 7.
+  - 여기서는 비트 5만 뒤집힘.
+  - P4 출력: 오류 (1) !
 
-  [ The Disastrous Action (Syndrome = 110) ]
-  Syndrome Vector Vector: P4(1) P2(1) P1(0) = Integer 6 !!!
-  The hardware shouts: "Bit 6 is corrupt! INVERT IT!"
-  * Hardware blindly flips bit 6 (which was perfectly INNOCENT).
+  [ 파멸적인 조치 (신드롬 = 110) ]
+  신드롬 벡터: P4(1) P2(1) P1(0) = 정수 6 !!!
+  하드웨어가 외칩니다: "비트 6이 손상되었습니다! 반전시키세요!"
+  * 하드웨어는 무턱대고 비트 6(완전히 무고함)을 뒤집습니다.
   
-  [ Result: System Decimation ]
-  Now bits 3, 5, AND 6 are all corrupted! The system just added
-  a THIRD error while trying to fix the two, creating irreversible 
-  garbage data! Memory crashes fatally!
+  [ 결과: 시스템 파괴 ]
+  이제 비트 3, 5, 그리고 6이 모두 손상되었습니다! 시스템은 두 개를
+  고치려다가 세 번째 오류를 추가하여 돌이킬 수 없는 가비지 데이터를
+  생성했습니다! 메모리에 치명적인 충돌 발생!
 +-------------------------------------------------------------+
 ```
 **[다이어그램 해설]** 기본 해밍 코드가 갖는 최악의 설계 폭탄 트랩이다. 노이즈가 강하게 쏟아져 들어와 비트 3번과 5번 두 개가 한꺼번에 에러($1 \leftrightarrow 0$)가 나버렸다. P1 레이더는 3번과 5번을 동시에 감시하는 센서다. 근데 두 개가 동시에 깨져버리니까 XOR 짝수 법칙에 의해 에러가 서로 상쇄되어 "버그 없음($0$)" 이라고 장님 선언을 해버린다. 반면 P2와 P4 센서는 에러가 잡혔다($1$). 결국 수신단 신드롬 값은 $`110`$(6)을 뱉어내고, 시스템은 죄 없는 정상 데이터를 담고 있던 멀쩡한 6번 방을 "네가 범인이구나!" 라며 반전시켜 뒤집어 죽여버린다($NOT$). 기존 에러 2개도 못 잡았는데 에러 1개를 자체 추가시켜버린 셈이다 (Silent Triple Corruption). 이것이 SEC(Single Error Correction)의 한계점이다.
@@ -188,3 +189,4 @@ categories = "studynote-computer-architecture"
 1. 해밍 코드는 옛날 장난감(일반 패리티)들이 고장 났을 때 "고장 났어 잉잉 멈출래 ㅠㅠ" 하고 포기해버리는 짜증 나는 단점을 없애려고 발명된 **스스로 고장 난 곳을 찾아 고치는 마법의 치유 로봇 변신 코드**예요!
 2. 장난감 숫자 박스들 중간중간에 아주 똑똑한 CCTV 경찰관(패리티) 3명을 구역을 겹치게(교차) 세워놓는 지니어스 설계를 해두었죠.
 3. 중간에 돌멩이를 맞아 찌그러진 숫자 박스들이 생기면 그 충격을 본 여러 CCTV가 신호탄을 뿅뿅 쏘게 되고, 그 신호탄의 불빛이 겹치는 위치를 딱 합쳐보면 "**앗! 범인은 저기 6번째 박스다!**" 하고 $1$초 만에 위치를 알아내 원래대로 쓱싹쓱싹 고쳐버리는 스스로 치료하는 기계 공학 세계랍니다!
+ 세계랍니다!

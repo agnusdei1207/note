@@ -157,13 +157,14 @@ WantedBy=multi-user.target  # 멀티유저 모드일 때 자동 시작 등록
 이 순서도는 관리자가 명령을 내렸을 때 systemd 내부에서 어떤 판단과 절차를 거쳐 서비스 상태가 전이되는지 보여준다.
 
 ```text
- [ Admin Command ] --▶ [ Unit File Parsing ] --▶ [ Dependency Check ]
+
+ [ Admin Command  / 관리자 명령] --▶ [ Unit File Parsing  / 유닛 파일 구문 분석] --▶ [ Dependency Check  / 의존성 검사]
                                                        │
- [ Running ] ◀── [ ExecStart ] ◀── [ Success? ] ◀── [ Condition Check ]
+ [ Running ] ◀── [ ExecStart  / ExecStart] ◀── [ Success?  / 성공?] ◀── [ Condition Check  / 조건 검사]
       │                                                │
- [ Crash! ] --▶ [ Restart Policy? ] ----┘
+ [ Crash!  / 충돌!] --▶ [ Restart Policy?  / 재시작 정책?] ----┘
                                                        │
- [ Stop Command ] --▶ [ SIGTERM ] --▶ [ SIGKILL ] --▶ [ Dead ]
+ [ Stop Command  / 정지 명령] --▶ [ SIGTERM  / SIGTERM] --▶ [ SIGKILL  / SIGKILL] --▶ [ Dead  / 종료됨]
 ```
 
 **[다이어그램 해설]** systemd의 운영은 선언적(Declarative)이다. 관리자가 실행 명령을 내리면 ① systemd는 유닛 파일을 읽어 실행 조건을 확인한다. ② 의존 관계에 있는 다른 서비스가 이미 실행 중인지 체크하고, 필요하다면 그들부터 먼저 실행시킨다. ③ 실행 후에는 프로세스의 생사를 지속적으로 감시한다. 만약 프로세스가 죽으면 'Restart' 정책에 따라 다시 살릴지 결정한다. ④ 종료 시에는 먼저 정중하게 `SIGTERM`을 보내 안전한 종료를 유도하고, 일정 시간 응답이 없으면 강력한 `SIGKILL`을 보내 자원을 강제 회수한다. 이 체계적인 절차는 시스템 관리를 '예측 가능한' 영역으로 끌어올린다.

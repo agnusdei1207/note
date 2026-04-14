@@ -110,15 +110,16 @@ categories = "studynote-computer-architecture"
 보안 엔클레이브는 시스템 전원이 켜지는 순간부터 무결성을 검증하는 신뢰 체인 (Chain of Trust)의 출발점이 된다. 하드웨어 읽기 전용 메모리 (ROM: Read-Only Memory)에 내장된 불변의 코드가 엔클레이브 펌웨어를 검증하고, 다시 엔클레이브가 메인 OS의 부트로더를 검증하는 방식으로 보안을 확장한다.
 
 ```text
-  [Power On] 
+
+  [Power On / 전원 켜기] 
       ↓
-  [Hardware ROM Boot] --(Verify Signature)--> [Secure Enclave Firmware]
+  [Hardware ROM Boot / 하드웨어 ROM 부팅] --(Verify Signature / 서명 확인)--> [Secure Enclave Firmware / Secure Enclave 펌웨어]
                                                       ↓
-                                              [Initialize Crypto Engine]
+                                              [Initialize Crypto Engine / 암호 엔진 초기화]
                                                       ↓
-  [Main OS Bootloader] <--(Verify Signature)--- [Secure Enclave OS]
+  [Main OS Bootloader / 메인 OS 부트로더] <--(Verify Signature / 서명 확인)--- [Secure Enclave OS / Secure Enclave OS]
             │
-            └─(Verify Kernel)─▶ [Rich OS Running]
+            └─(Verify Kernel / 커널 확인)─▶ [Rich OS Running / 리치 OS 실행 중]
 ```
 
 **[다이어그램 해설]** 이 순차 흐름도는 보안 엔클레이브가 어떻게 시스템 전체의 '신뢰의 뿌리 (Root of Trust)'가 되는지를 보여준다. 가장 먼저 하드웨어 ROM (Read-Only Memory)에 고정된 코드가 실행되며, 이는 물리적으로 수정이 불가능하므로 공격자가 변조할 수 없다. 이 ROM 코드는 보안 엔클레이브의 펌웨어를 메모리로 로드하기 전, 제조사의 공개키 (Public Key)를 이용해 디지털 서명 (Digital Signature)을 검증한다. 검증이 성공하면 엔클레이브 내부의 전용 OS가 기동되고, 이후 메인 시스템의 부트로더와 OS 커널의 무결성을 순차적으로 검사하는 부트 무결성 확인 (Verified Boot) 과정을 수행한다. 이 메커니즘을 통해 소프트웨어적인 변조가 가해진 탈옥 (Jailbreak)이나 루팅 (Rooting)된 기기를 하드웨어적으로 탐지할 수 있으며, 신뢰할 수 없는 환경에서의 민감한 금융 거래나 기업 보안 데이터 접근을 차단할 수 있는 근거를 마련한다.

@@ -167,27 +167,28 @@ ret                     ; 새로운 프로세스의 PC로 복귀
 이 순서도는 운영체제가 어떤 상황에서 문맥 교환을 수행하기로 결정하고, 어떤 최적화 경로를 타는지 보여준다.
 
 ```text
-[Event: Interrupt / Trap]
+
+[Event: Interrupt / Trap / 이벤트: 인터럽트 / 트랩]
                  │
           ▼
-[Is Scheduler Action Required?] --No--> [Return to Current Process]
+[Is Scheduler Action Required? / 스케줄러 동작이 필요한가?] --No--> [Return to Current Process / 현재 프로세스로 복귀]
                  │
          Yes
                  │
-[Select Next Process (Policy)]
+[Select Next Process (Policy) / 다음 프로세스 선택 (정책)]
                  │
           ▼
-[Is Address Space Different?]
+[Is Address Space Different? / 주소 공간이 다른가?]
    │             │
-  Yes (Heavy)    No (Light: Thread Switch)
+  Yes (Heavy / 무거움)    No (Light: Thread Switch / 가벼움: 스레드 전환)
    │             │
    ▼             ▼
-[Switch Page]  [Maintain MMU]
-[Flush TLB*]   [Save/Restore Regs]
+[Switch Page / 페이지 전환]  [Maintain MMU / MMU 유지]
+[Flush TLB* / TLB 플러시*]   [Save/Restore Regs / 레지스터 저장/복원]
    │             │
    └──────┬──────┘
           ▼
-[Execute Dispatcher] --▶ [Resume Execution]
+[Execute Dispatcher / 디스패처 실행] --▶ [Resume Execution / 실행 재개]
 ```
 
 **[다이어그램 해설]** 문맥 교환은 모든 이벤트마다 발생하는 것이 아니다. 우선 스케줄러가 "현재 프로세스보다 더 중요한 작업이 있는가?"를 판단한다. 만약 바꿀 필요가 없다면 즉시 복귀한다. 바꿀 필요가 있다면, 다음으로 '동일 주소 공간'인지를 따진다. 만약 같은 프로세스 내의 스레드 간 교환이라면 페이지 테이블을 바꿀 필요가 없어 'Light-weight' 경로를 탄다. 반면 다른 프로세스로의 교환이라면 페이지 테이블 레지스터(CR3)를 교체해야 하는 'Heavy-weight' 경로로 진입하며, 이때 TLB 플러시와 캐시 오염이 동반된다. 실무 아키텍트는 가급적 'Light' 경로를 많이 타도록 애플리케이션을 설계해야 한다. `*` 표시된 TLB 플러시는 ASID 지원 여부에 따라 생략될 수 있는 현대적 최적화 지점이다.

@@ -113,16 +113,17 @@ categories = "studynote-operating-system"
 5. **엔트리 포인트 전이**: CPU의 프로그램 카운터 (PC, Program Counter)를 프로그램의 진입점 (Main 함수 또는 Startup 코드)으로 설정하여 실행을 시작한다.
 
 ```text
+
   [Disk: ELF File] --(1. Read Header)--> [Kernel: Loader]
                                               |
         +-------------------------------------+
         | (2. Alloc Address Space)
         v
-  [Process Address Space] --(3. MMAP)--> [Memory Pages]
+  [Process Address Space / 프로세스 주소 공간] --(3. MMAP)--> [Memory Pages / 메모리 페이지]
         |
-        +--(4. Setup Stack)--> [Argv / Env]
+        +--(4. Setup Stack)--> [Argv / Env / 인수 / 환경변수]
         |
-        +--(5. Set PC)-------> [Start Execution]
+        +--(5. Set PC)-------> [Start Execution / 실행 시작]
 ```
 
 **[다이어그램 해설]** 이 흐름도는 정적인 실행 파일이 어떻게 운영체제의 로더 (Loader)에 의해 활성화되는지를 보여준다. 핵심은 디스크의 데이터를 무작정 메모리에 복사하는 것이 아니라, 가상 메모리 매핑 기법을 통해 논리적 관계를 먼저 설정한다는 점이다. `Demand Paging` 기법 덕분에 수 기가바이트 크기의 프로그램도 즉시 실행될 수 있으며, 실제로 실행되는 부분만 물리 메모리에 올라오게 된다. 이는 시스템 전체의 응답성을 높이고 메모리 활용도를 극대화하는 전략이다. 개발자 관점에서는 엔트리 포인트 (Entry Point) 이전의 런타임 초기화 과정이 이 단계에서 모두 마무리된다는 점을 이해하는 것이 디버깅에 큰 도움이 된다.

@@ -22,15 +22,16 @@ categories = "studynote-computer-architecture"
 - **등장 배경**: IEEE 754 위원회의 윌리엄 카한(Kahan) 박사는 칩셋 설계 최적화를 고민하다, "부동소수점 비교를 일반 정수(Integer) 비교 회로에 그대로 통과시켜도 동작하게 만들면 위대하지 않을까?"를 제안했고, 편향 지수를 지수부에 장착시킴으로써 부동소수점 처리의 초고속화 기틀을 마련했다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The Evolution of Hardware Exponent Logic (Bias 127)      |
 +-------------------------------------------------------------+
 
-  [ Target Value to Store: Exponent -2 ]
+  [ Target Value to Store: Exponent -2  / 저장할 대상 값: 지수 -2]
   (We want to represent 2^-2 in an 8-bit space)
 
   ❌ Failed Approach: 2's Complement (Signed Math)
-     Exponent:  11111110 (Value -2)
+     Exponent:  11111110 (Value -2 / 값 -2)
      Hardware read: It starts with '1'. Looks huge without
      complex 2's complement logic gates converting it back!
 

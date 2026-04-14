@@ -22,6 +22,7 @@ categories = "studynote-computer-architecture"
 - **등장 배경**: 이 규칙은 1960년대 텔레타이프(TTY)와 모뎀(Modem) 제조사들이 비동기(Asynchronous) 통신—즉, 시작(Start) 비트와 정지(Stop) 비트가 존재하는 산발적 통신망—을 짤 때 에러 점검 회로의 단가를 단 몇 센트로 후려치기 위해(XOR 게이트 1개 가격) 글로벌 표준으로 박아버리며 대중화되었다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The Hardware XOR Tree: How Even Parity is Generated       |
 +-------------------------------------------------------------+
@@ -31,15 +32,15 @@ categories = "studynote-computer-architecture"
 
   [ The XOR Gate Magic ]
   Rule of XOR: 
-  0 XOR 0 = 0 (Even)  |  1 XOR 1 = 0 (Even)
-  1 XOR 0 = 1 (Odd)   |  0 XOR 1 = 1 (Odd)
+  0 XOR 0 = 0 (Even / 짝수)  |  1 XOR 1 = 0 (Even / 짝수)
+  1 XOR 0 = 1 (Odd / 홀수)   |  0 XOR 1 = 1 (Odd / 홀수)
 
   Hardware Cascade Tree (Nano-second scale):
   
   B3 (1) ---+
             |-- (XOR 1) -> [0] --+
   B2 (1) ---+                    |
-                                 |-- (Final XOR) -> [1]
+                                 |-- (Final XOR / 최종 XOR) -> [1]
   B1 (0) ---+                    |  Parity Bit is 1 !!
             |-- (XOR 2) -> [1] --+
   B0 (1) ---+
@@ -70,11 +71,12 @@ categories = "studynote-computer-architecture"
 짝수 패리티의 가장 치명적인 약점인 **"2비트 에러 = 정상 취급"**의 확률론적 트러블은, 왜 이 기술이 기가비트 이더넷(광랜) 등에서 처참히 멸종당했는지 그 이유를 설명해 준다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The Double-Flip Disaster (Why Ethernet Abandoned It)     |
 +-------------------------------------------------------------+
 
-  [ Transmission Phase ]
+  [ Transmission Phase  / 전송 단계]
   Original: 'A' (65) -> 1 0 0 0 0 0 1  (Two 1's -> EVEN)
   Even Parity Bit added: [0]
   Packet on Wire: [0] 1 0 0 0 0 0 1
@@ -90,7 +92,7 @@ categories = "studynote-computer-architecture"
   [ Receiver Checker ]
   Count total 1's in received packet: 1, 1, 1, 1 = Four '1's!
   Is 4 an Even number? => YES.
-  Hardware Flag: PARITY_ERROR = 0 (No Error)
+  Hardware Flag: PARITY_ERROR = 0 (No Error / 오류 없음)
   
   * Software Reaction: 
   The file parser reads the character (0x49), which is 'I' !

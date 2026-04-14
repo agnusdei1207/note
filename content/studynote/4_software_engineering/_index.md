@@ -37,24 +37,28 @@ kids_analogy = "건물을 지을 때 설계도를 그리고, 튼튼한지 검사
 | **Maintenance** | 유지보수 및 형상 | 배포 후 버그 수정, 환경 적응(Adaptive), 버전 통제 | Git, CI/CD, Issue Tracker | 건물 리모델링 및 보수 |
 
 #### 2. V-Model 테스트 아키텍처 및 애자일 스크럼(ASCII)
+#### 2. V-Model Testing Architecture & Agile Scrum (ASCII)
 전통적인 폭포수 기반의 검증 모델(V-Model)은 각 개발 단계가 테스트 단계와 정확히 1:1로 결착되는 완벽한 대칭 구조를 가진다.
 ```text
     [ V-Model Testing Architecture ]
+    [ V-모델 테스트 아키텍처 ]
     
-    (Requirements Analysis) ---------------------------> (Acceptance Testing)
+    (요구사항 분석 / Requirements) ---------------------------> (인수 테스트 / Acceptance)
              \                                                /
-      (System Architecture Design) ----------------> (System Testing)
+      (시스템 설계 / System Design) ------------------> (시스템 테스트 / System Testing)
                \                                          /
-           (Component Design) ----------------> (Integration Testing)
+           (상세 설계 / Component Design) ----------> (통합 테스트 / Integration)
                  \                                    /
-                  (Unit Design) -----------> (Unit Testing)
+                  (단위 설계 / Unit Design) ----> (단위 테스트 / Unit Testing)
                            \                  /
-                           [ Implementation (Code) ]
+                           [ 구현 / Implementation (Code) ]
 ```
 최신의 애자일 스크럼(Scrum) 아키텍처는 위 V-Model을 1~4주 단위(Sprint)로 끊임없이 반복하여 점진적 가치를 창출한다.
 ```text
     [ Agile Scrum Loop ]
+    [ 애자일 스크럼 루프 ]
     [Product Backlog] -> (Sprint Planning) -> [Sprint Backlog] -> [ 2-Week Sprint (Daily Standup) ] -> (Review) -> [Shippable Product]
+    (제품 백로그)         (스프린트 계획)       (스프린트 백로그)     (2주 스프린트 / 데일리 스탠드업)   (검토)       (출시 가능 제품)
 ```
 
 #### 3. 객체지향 설계 원칙 (SOLID) 및 응집도/결합도 수식화

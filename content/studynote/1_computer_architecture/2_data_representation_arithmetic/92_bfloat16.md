@@ -69,6 +69,7 @@ categories = "studynote-computer-architecture"
 기존 FP16을 쓰던 데이터 과학자들에게는 '로스 스케일링(Loss Scaling)'이라는 지옥 같은 노가다가 있었다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    The End of "Loss Scaling" Hacks with bfloat16            |
 +-------------------------------------------------------------+
@@ -77,9 +78,9 @@ categories = "studynote-computer-architecture"
   [ FP16 Pipeline Disaster ]
   1. Value 1.5 * 10^-12 enters FP16 ALU.
   2. FP16 floor is ~5.9 * 10^-8.
-  3. Value crashes through floor -> Flushed to 0.0 (Dead)
+  3. Value crashes through floor -> Flushed to 0.0 (Dead / 종료됨)
   * Hack: Programmers explicitly multiplied every number
-          by 10000 (Loss Scaling) before saving, then
+          by 10000 (Loss Scaling / 손실 스케일링) before saving, then
           divided by 10000 later. Extremely tedious and buggy.
 
   [ bfloat16 Pipeline Savior ]
@@ -113,6 +114,7 @@ categories = "studynote-computer-architecture"
 - 이 경이로운 통찰은 반도체 엔지니어(하드웨어) 혼자서 낸 것이 아니라, 인공지능 연구자(소프트웨어)들과의 극단적 융합(Co-design)을 통해서만 탄생할 수 있었던, 인류 컴퓨터 아키텍처 역사상 가장 위대한 "타협의 산물"이다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    Hardware Conversion Cost: FP32 <---> bfloat16            |
 +-------------------------------------------------------------+
@@ -130,7 +132,7 @@ categories = "studynote-computer-architecture"
   * Chip Architecture Marvel:
     Converting between BF16 and FP32 requires literally NO
     transistors or ALUs for rounding. You just sever the
-    coppper wires, or tie them to ground (Zero).
+    coppper wires, or tie them to ground (Zero / 0).
 +-------------------------------------------------------------+
 ```
 **[다이어그램 해설]** bfloat16이 엔비디아(NVIDIA), 인텔(Intel) 서버 CPU, ARM 코어를 단 몇 년 만에 집어삼킨 치명적 매력은 **'제로-비용 변환(Zero-Cost Casting)'** 다이 다이어그램에 있다. FP32를 FP16으로 바꾸려면 지수부가 달라서 반올림(Rounding) 계산기를 거쳐 수십 개의 트랜지스터 딜레이를 통과해야 한다. 하지만 bfloat16은 FP32에서 정확히 하위 16개의 회로 배선(Wire)만 가위로 툭 끊어버리면 완성이며, 다시 FP32로 되돌릴 때는 빈자리에 0.0V(접지, Ground) 전압만 밀어 넣으면 끝이다. 하드웨어 스톨(Stall) 사이클이 0이다.

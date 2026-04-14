@@ -182,15 +182,16 @@ void panic(const char *fmt, ...) {
 이 순서도는 시스템 오류의 심각도에 따라 운영자가 취해야 할 표준 대응 절차를 나타낸다.
 
 ```text
- [ Error Detected ]
+
+ [ Error Detected  / 오류 감지됨]
           │
           ▼
- [ Is it User-space? ] --Yes--> [ Restart Application / Process ]
+ [ Is it User-space?  / 유저 공간인가?] --Yes--> [ Restart Application / Process  / 애플리케이션/프로세스 재시작]
           │
           No (Kernel-space)
           │
           ▼
- [ Is it Fatal (Panic)? ] --No--> [ Log Oops & Monitor closely ]
+ [ Is it Fatal (Panic)?  / 치명적인가(패닉)?] --No--> [ Log Oops & Monitor closely  / Oops 로그 및 면밀한 모니터링]
           │
          Yes
           │

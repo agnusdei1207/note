@@ -22,6 +22,7 @@ categories = "studynote-computer-architecture"
 - **등장 배경**: 3D 그래픽 카드의 탄생과 궤를 같이한다. 수백만 개의 점(Vertex)에 행렬 곱셈을 초당 60회씩 타격해야 하는 GPU 셰이더 파이프라인에서, 버스 대역폭을 절반으로 줄여치면서도 화면에 계단 현상(Jitter)이 눈에 띄게 나타나지 않는 경계선이 정확히 23비트 가수부를 갖는 FP32 영역이었다. 이에 따라 1990년대를 거치며 OpenGL 등 모든 3D 렌더링 엔진의 척추가 되었다.
 
 ```text
+
 +-------------------------------------------------------------+
 |    Single Precision (FP32) Bit Distribution Architecture    |
 +-------------------------------------------------------------+
@@ -35,7 +36,7 @@ categories = "studynote-computer-architecture"
   Sign       Biased (Bias = 127)        Fractional Digits
              Range: -126 to +127        Calculates Detail
 
-  Value N = (-1)^S * 1.Mantissa * 2^(Exponent - 127)
+  Value N = (-1)^S * 1.Mantissa * 2^(Exponent - 127 / 지수 - 127)
             -------  ----------   ------------------
               + / -   Precision         Magnitude
 +-------------------------------------------------------------+

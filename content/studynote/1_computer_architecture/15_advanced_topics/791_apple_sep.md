@@ -108,13 +108,14 @@ categories = "studynote-computer-architecture"
 생체 인증 데이터는 SEP 내부에서 가장 엄격하게 보호되는 자산이다. 센서에서 들어오는 데이터는 메인 메모리를 거치지 않거나, 암호화된 채널을 통해서만 SEP로 전달되어 원본 이미지가 노출되는 것을 방지한다.
 
 ```text
-  [Biometric Sensor] --(Encrypted Secure Path)--> [SEP Crypto Engine]
+
+  [Biometric Sensor / 생체 센서] --(Encrypted Secure Path / 암호화된 보안 경로)--> [SEP Crypto Engine / SEP 암호 엔진]
                                                        ↓
-  [Reference Template] <--(Matching Algorithm)--- [SEP Microprocessor]
+  [Reference Template / 참조 템플릿] <--(Matching Algorithm / 매칭 알고리즘)--- [SEP Microprocessor / SEP 마이크로프로세서]
   (Encrypted in SRAM)                                  ↓
-                                               [Score Calculation]
+                                               [Score Calculation / 점수 계산]
                                                        ↓
-  [Rich OS (AP)] <--(Pass/Fail Result Only)--- [Decision Logic]
+  [Rich OS (AP) / 리치 OS (AP)] <--(Pass/Fail Result Only)--- [Decision Logic / 결정 로직]
 ```
 
 **[다이어그램 해설]** 이 순차 흐름도는 생체 인증 과정에서 데이터가 어떻게 격리되는지를 설명한다. FaceID나 TouchID 센서가 지문이나 얼굴을 스캔하면, 이 정보는 AP (애플리케이션 프로세서)가 들여다볼 수 없는 **Secure Path (전용 암호화 경로)**를 통해 곧바로 SEP로 전송된다. SEP 내부에 이미 저장되어 있는 **Reference Template (사용자의 원본 생체 특징점)**은 암호화된 상태로 유지되다가, 인증 순간에만 메모리에서 복호화되어 입력된 데이터와 비교된다. 여기서 가장 중요한 점은, SEP가 외부(AP나 iOS)로 내보내는 정보는 "일치함" 또는 "일치하지 않음"이라는 **단순 결과값 (Pass/Fail)**뿐이라는 것이다. 사용자의 실제 얼굴 이미지나 지문 굴곡 정보는 단 1비트도 SEP 경계 밖으로 나가지 않는다. 따라서 설령 iOS가 완전히 장악된 상태라 하더라도, 공격자는 인증 결과값을 조작할 수는 있을지언정 사용자의 생체 정보 원본을 훔쳐가는 것은 하드웨어 구조적으로 불가능하다.
