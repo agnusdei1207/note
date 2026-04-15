@@ -1,4 +1,5 @@
 +++
+weight = 91
 title = "91. ClusterIP - K8s 클러스터 내부 통신 전용 기본 서비스"
 date = "2026-04-10"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 551
 title = "551. 보상 트랜잭션 (Compensating Transaction) - 롤백을 논리적으로 수행하는 역방향 연산"
 +++
 

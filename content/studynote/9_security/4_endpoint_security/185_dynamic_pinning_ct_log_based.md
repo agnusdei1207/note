@@ -1,4 +1,5 @@
 +++
+weight = 185
 title = "185. 동적 핀닝 — CT 로그 기반pins"
 date = "2026-04-07"
 [extra]

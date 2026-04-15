@@ -1,4 +1,5 @@
 +++
+weight = 523
 title = "523. IoT 기기 펌웨어 무결성 검증망 및 OTA (Over-The-Air) 안전 배포"
 +++
 

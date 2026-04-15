@@ -1,4 +1,5 @@
 +++
+weight = 486
 title = "486. Security Logging and Monitoring Failures (보안 로깅 및 모니터링 실패)"
 +++
 

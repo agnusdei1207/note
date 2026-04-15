@@ -1,6 +1,6 @@
 +++
 title = "351. ANN (Approximate Nearest Neighbor) 알고리즘 - 벡터 DB의 고속 근사치 검색 (정확도 일부 희생, 속도 극대화)"
-weight = 4351
+weight = 351
 +++
 
 > **💡 핵심 인사이트**

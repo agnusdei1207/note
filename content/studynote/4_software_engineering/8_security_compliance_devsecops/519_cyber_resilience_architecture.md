@@ -1,4 +1,5 @@
 +++
+weight = 519
 title = "519. 사이버 레질리언스 (Cyber Resilience) 아키텍처"
 +++
 

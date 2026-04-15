@@ -1,4 +1,5 @@
 +++
+weight = 93
 title = "93. 조기 종료 (Early Stopping) - 과적합 방지와 학습 타이밍"
 date = "2026-04-10"
 [extra]

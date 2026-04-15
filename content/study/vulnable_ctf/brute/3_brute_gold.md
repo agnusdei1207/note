@@ -1,9 +1,9 @@
-+++
-title = "VulnABLE CTF [LUXORA] Write-up: Brute Force 🥇 Gold"
++++title = "VulnABLE CTF [LUXORA] Write-up: Brute Force 🥇 Gold"
 date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Brute Force", "Gold", "2FA Bypass", "Logic Flaw", "Write-up"]
+weight = 3
 +++
 
 # VulnABLE CTF [LUXORA] Write-up: Brute Force 🥇 Gold

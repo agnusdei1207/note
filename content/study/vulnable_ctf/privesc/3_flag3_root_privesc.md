@@ -1,9 +1,9 @@
-+++
-title = "VulnABLE CTF [LUXORA] Write-up: Vertical Privilege Escalation (Root Flag)"
++++title = "VulnABLE CTF [LUXORA] Write-up: Vertical Privilege Escalation (Root Flag)"
 date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Privilege Escalation", "SUID", "PATH Injection", "Root", "Write-up"]
+weight = 3
 +++
 
 # VulnABLE CTF [LUXORA] Write-up: Vertical Privilege Escalation (Root Flag)

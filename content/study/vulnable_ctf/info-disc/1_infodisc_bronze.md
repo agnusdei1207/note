@@ -1,9 +1,9 @@
-+++
-title = "VulnABLE CTF [LUXORA] Write-up: Info Disclosure 🥉 Bronze"
++++title = "VulnABLE CTF [LUXORA] Write-up: Info Disclosure 🥉 Bronze"
 date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Info Disclosure", "Bronze", "Backup Files", "Write-up"]
+weight = 1
 +++
 
 # VulnABLE CTF [LUXORA] Write-up: Info Disclosure 🥉 Bronze

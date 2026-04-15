@@ -1,4 +1,5 @@
 +++
+weight = 102
 title = "102. 컨피그맵 (ConfigMap) / 시크릿 (Secret) - K8s 환경 변수 주입 객체"
 date = "2026-04-10"
 [extra]

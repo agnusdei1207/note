@@ -1,5 +1,5 @@
 +++
-weight = 16002
+weight = 5
 title = "05. Apache Oozie와 Airflow - 워크플로우 오케스트레이션의 진화"
 date = "2026-04-05"
 [extra]

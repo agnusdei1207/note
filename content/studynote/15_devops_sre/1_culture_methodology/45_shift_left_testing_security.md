@@ -1,4 +1,5 @@
 +++
+weight = 45
 title = "45. 시프트 레프트 (Shift-Left) - 결함 조기 발견 사상"
 date = "2026-04-10"
 [extra]

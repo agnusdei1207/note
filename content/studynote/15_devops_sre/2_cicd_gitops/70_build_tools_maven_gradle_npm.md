@@ -1,4 +1,5 @@
 +++
+weight = 70
 title = "70. 빌드 도구 (Build Tools) - Maven, Gradle (Java), npm (Node.js)"
 date = "2026-04-10"
 [extra]

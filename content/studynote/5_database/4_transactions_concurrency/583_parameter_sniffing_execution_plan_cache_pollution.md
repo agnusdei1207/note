@@ -1,4 +1,5 @@
 +++
+weight = 583
 title = "583. 프로시저 파라미터 스니핑 (Parameter Sniffing) 캐시 오염"
 date = "2026-04-10"
 [extra]

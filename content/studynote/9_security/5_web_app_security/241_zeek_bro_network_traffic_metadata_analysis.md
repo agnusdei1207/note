@@ -1,4 +1,5 @@
 +++
+weight = 241
 title = "241. Zeek (Bro) - 네트워크 트래픽 통계 메타데이터 분석"
 date = "2026-04-10"
 [extra]

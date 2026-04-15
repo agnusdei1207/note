@@ -1,4 +1,5 @@
 +++
+weight = 107
 title = "107. 노드 어피니티 (Node Affinity) - K8s 스케줄링 유도"
 date = "2026-04-10"
 [extra]

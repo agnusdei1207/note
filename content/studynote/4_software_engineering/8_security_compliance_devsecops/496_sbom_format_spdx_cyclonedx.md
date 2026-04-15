@@ -1,4 +1,5 @@
 +++
+weight = 496
 title = "496. SBOM (Software Bill of Materials) 포맷 - SPDX, CycloneDX"
 +++
 

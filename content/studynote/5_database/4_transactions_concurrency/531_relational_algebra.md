@@ -1,5 +1,5 @@
 +++
-weight = 31
+weight = 531
 title = "531. 분산 환경 2PC 블로킹 한계 코디네이터 다운"
 description = "관계 대수의 연산자와 관계 해석"
 date = 2026-03-26

@@ -1,4 +1,5 @@
 +++
+weight = 568
 title = "568. 로그 (Logs) - 분산 로그 수집 (ELK Stack - Elasticsearch, Logstash, Kibana / Fluentd)"
 +++
 

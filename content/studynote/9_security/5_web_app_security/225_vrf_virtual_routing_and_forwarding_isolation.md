@@ -1,4 +1,5 @@
 +++
+weight = 225
 title = "225. VRF (Virtual Routing and Forwarding) - 논리적 라우터 경로 격리"
 date = "2026-04-10"
 [extra]

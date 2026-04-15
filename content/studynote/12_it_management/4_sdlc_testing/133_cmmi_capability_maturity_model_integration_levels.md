@@ -1,4 +1,5 @@
 +++
+weight = 133
 title = "133. CMMI (Capability Maturity Model Integration) 5단계 평가 모델"
 date = "2026-04-10"
 [extra]

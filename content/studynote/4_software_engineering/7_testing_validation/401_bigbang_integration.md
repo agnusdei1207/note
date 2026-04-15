@@ -1,4 +1,5 @@
 +++
+weight = 401
 title = "401. 빅뱅 통합 (Big Bang Integration)"
 date = "2026-04-09"
 description = "수백 개의 모든 모듈을 한 번에 동시에 결합하여 시스템 전체가 작동하는지를 일거에 테스트하는 비점진적 하드코어 방식"

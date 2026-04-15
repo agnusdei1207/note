@@ -1,4 +1,5 @@
 +++
+weight = 54
 title = "54. 오픈 테이블 포맷 - Iceberg, Delta Lake 데이터 레이크하우스 핵심"
 date = "2026-04-10"
 [extra]

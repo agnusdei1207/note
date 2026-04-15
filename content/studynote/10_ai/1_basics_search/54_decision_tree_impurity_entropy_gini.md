@@ -1,4 +1,5 @@
 +++
+weight = 54
 title = "54. 결정 트리 (Decision Tree) 학습 (불순도 기준 - 엔트로피, 지니 지수)"
 date = "2026-04-07"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 69
 title = "69. 커밋 메시지 컨벤션 - feat, fix, docs 등 접두어 표준화"
 date = "2026-04-10"
 [extra]

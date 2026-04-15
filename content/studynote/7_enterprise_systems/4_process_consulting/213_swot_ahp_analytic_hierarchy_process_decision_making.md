@@ -1,4 +1,5 @@
 +++
+weight = 213
 title = "213. SWOT-AHP 다기준 의사결정 분석 - IT 전략 우선순위 도출"
 date = "2026-04-10"
 [extra]

@@ -1,6 +1,7 @@
 +++
-weight = 3003
+weight = 3
 title = "3. 네트워크 계층 및 IP 아키텍처"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

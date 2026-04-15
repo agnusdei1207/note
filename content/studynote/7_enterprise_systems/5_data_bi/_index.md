@@ -1,6 +1,7 @@
 +++
-weight = 7005
+weight = 5
 title = "5. 비즈니스 인텔리전스 (BI) 및 데이터 시각화"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

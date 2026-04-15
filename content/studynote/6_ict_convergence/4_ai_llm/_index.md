@@ -1,6 +1,7 @@
 +++
-weight = 5004
+weight = 4
 title = "4. 인공지능 심화 및 LLM 트렌드"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

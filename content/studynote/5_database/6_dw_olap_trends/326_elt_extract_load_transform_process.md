@@ -1,4 +1,5 @@
 +++
+weight = 326
 title = "326. ELT (Extract, Load, Transform) 프로세스 - 클라우드 기반 현대 아키텍처, 먼저 적재 후 웨어하우스 내에서 변환 처리"
 date = "2026-04-07"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 68
 title = "68. CDO (Chief Data Officer) / CIO (Chief Information Officer) 역할 분리"
 date = "2026-04-07"
 [extra]

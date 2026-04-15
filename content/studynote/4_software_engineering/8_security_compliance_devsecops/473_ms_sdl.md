@@ -1,4 +1,5 @@
 +++
+weight = 473
 title = "473. Microsoft SDL (Security Development Lifecycle) - 7단계 보안 생명주기"
 +++
 

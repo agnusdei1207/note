@@ -1,5 +1,5 @@
 +++
-weight = 60
+weight = 65
 title = "65. 상태도 (State Diagram)"
 date = "2026-03-19"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 103
 title = "103. CNN 주요 아키텍처의 발전 (AlexNet, VGG, ResNet 등)"
 date = "2026-04-10"
 [extra]

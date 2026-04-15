@@ -1,4 +1,5 @@
 +++
+weight = 101
 title = "101. K8s 보안 - 서비스 어카운트 (ServiceAccount) 및 RBAC 권한"
 date = "2026-04-10"
 [extra]

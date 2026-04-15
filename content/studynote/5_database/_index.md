@@ -1,5 +1,5 @@
 +++
-weight = 5000
+weight = 5
 title = "5: 데이터베이스 (Database)"
 render = true
 sort_by = "weight"

@@ -1,4 +1,5 @@
 +++
+weight = 88
 title = "88. 기울기 소실 (Vanishing Gradient) - 딥러닝 암흑기의 원인"
 date = "2026-04-10"
 [extra]

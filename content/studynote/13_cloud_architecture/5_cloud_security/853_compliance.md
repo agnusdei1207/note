@@ -1,5 +1,5 @@
 +++
-weight = 32
+weight = 853
 title = "853. 클라우드 규정 준수 (Compliance)"
 description = "SOC, ISO 27001, GDPR, PCI-DSS 등 주요 클라우드 규제"
 date = 2026-03-26

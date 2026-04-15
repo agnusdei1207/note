@@ -1,5 +1,5 @@
 +++
-weight = 12000
+weight = 13
 title = "13: 클라우드 아키텍처 (Cloud Architecture)"
 render = true
 sort_by = "weight"

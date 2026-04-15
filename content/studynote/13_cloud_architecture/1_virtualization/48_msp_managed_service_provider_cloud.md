@@ -1,4 +1,5 @@
 +++
+weight = 48
 title = "48. MSP (Managed Service Provider) - 클라우드 도입 및 운영 대행"
 date = "2026-04-10"
 [extra]

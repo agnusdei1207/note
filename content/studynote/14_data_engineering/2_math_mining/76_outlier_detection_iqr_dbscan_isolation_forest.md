@@ -1,4 +1,5 @@
 +++
+weight = 76
 title = "76. 이상치 (Outlier) 탐지 - IQR, Z-Score, DBSCAN, Isolation Forest"
 date = "2026-04-10"
 [extra]

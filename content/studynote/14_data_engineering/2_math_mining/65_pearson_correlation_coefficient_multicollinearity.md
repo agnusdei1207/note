@@ -1,4 +1,5 @@
 +++
+weight = 65
 title = "65. 피어슨 상관 계수 (Pearson Correlation) - 선형적 비례 관계 측정"
 date = "2026-04-10"
 [extra]

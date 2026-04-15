@@ -1,6 +1,7 @@
 +++
-weight = 3002
+weight = 2
 title = "2. 물리 계층 및 데이터링크 계층"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

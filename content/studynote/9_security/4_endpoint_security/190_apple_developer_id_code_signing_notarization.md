@@ -1,4 +1,5 @@
 +++
+weight = 190
 title = "190. Apple Developer ID — macOS/iOS 앱 서명"
 date = "2026-04-07"
 [extra]

@@ -1,6 +1,7 @@
 +++
-weight = 5103
+weight = 3
 title = "3. SQL 및 옵티마이저"
+sort_by = "weight"
 +++
 
 # 3. SQL 및 옵티마이저

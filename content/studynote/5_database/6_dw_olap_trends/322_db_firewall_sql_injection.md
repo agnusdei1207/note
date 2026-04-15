@@ -1,6 +1,6 @@
 +++
 title = "322. DW 4대 특징 - 주젯 지향성(Subject-oriented), 통합성(Integrated), 시계열성(Time-variant), 비휘발성(Non-volatile)"
-weight = 4322
+weight = 322
 +++
 
 > **💡 핵심 인사이트**

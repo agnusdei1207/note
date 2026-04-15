@@ -1,6 +1,7 @@
 +++
-weight = 12004
+weight = 4
 title = "4. SDLC 관리 및 소프트웨어 품질 경영"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

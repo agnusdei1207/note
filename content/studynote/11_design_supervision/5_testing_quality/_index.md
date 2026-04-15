@@ -1,6 +1,7 @@
 +++
-weight = 11005
+weight = 5
 title = "5. IT 감리 심화 및 테스트 품질 검증"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

@@ -1,4 +1,5 @@
 +++
+weight = 207
 title = "207. 모델 향상 (Model Enhancement) - 프로세스 최적화 및 로봇 투입"
 date = "2026-04-10"
 [extra]

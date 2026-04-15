@@ -1,4 +1,5 @@
 +++
+weight = 547
 title = "547. 트래픽 라우팅, 카나리 배포 제어 (Service Mesh의 역할)"
 +++
 

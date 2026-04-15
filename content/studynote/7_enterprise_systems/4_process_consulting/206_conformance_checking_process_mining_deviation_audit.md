@@ -1,4 +1,5 @@
 +++
+weight = 206
 title = "206. 적합성 검사 (Conformance Checking) - 프로세스 모델 위반 탐지"
 date = "2026-04-10"
 [extra]

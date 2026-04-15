@@ -1,6 +1,7 @@
 +++
-weight = 9006
+weight = 6
 title = "6. 클라우드 보안 및 가상화 보안"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

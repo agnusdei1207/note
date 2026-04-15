@@ -1,4 +1,5 @@
 +++
+weight = 598
 title = "598. 마이크로 커널 (Microkernel / 플러그인) 아키텍처 - 이클립스, VS Code 확장 구조"
 +++
 

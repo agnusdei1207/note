@@ -1,7 +1,8 @@
 +++
-weight = 5001
+weight = 1
 title = "1. Web 3.0 및 블록체인"
 [extra]
+sort_by = "weight"
 +++
 
 # Web 3.0 및 블록체인

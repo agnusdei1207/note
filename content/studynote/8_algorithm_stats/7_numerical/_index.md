@@ -1,6 +1,7 @@
 +++
-weight = 8007
+weight = 7
 title = "7. 수치 해석 및 최적화 공학"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

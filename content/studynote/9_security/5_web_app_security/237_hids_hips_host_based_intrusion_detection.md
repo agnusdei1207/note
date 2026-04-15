@@ -1,4 +1,5 @@
 +++
+weight = 237
 title = "237. HIDS와 NIDS / HIPS - 호스트 기반 대 네트워크 기반 탐지"
 date = "2026-04-10"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 639
 title = "639. A/B 테스팅"
 date = "2026-04-07"
 [extra]

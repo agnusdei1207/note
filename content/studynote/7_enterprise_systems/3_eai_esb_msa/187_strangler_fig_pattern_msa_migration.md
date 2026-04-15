@@ -1,4 +1,5 @@
 +++
+weight = 187
 title = "187. 스트랭글러 피그 패턴 (Strangler Fig Pattern) - 모놀리식 점진적 교체"
 date = "2026-04-10"
 [extra]

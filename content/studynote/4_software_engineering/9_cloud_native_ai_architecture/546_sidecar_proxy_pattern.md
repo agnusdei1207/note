@@ -1,4 +1,5 @@
 +++
+weight = 546
 title = "546. 사이드카 (Sidecar) 프록시 패턴 - Istio, Envoy, Linkerd"
 +++
 

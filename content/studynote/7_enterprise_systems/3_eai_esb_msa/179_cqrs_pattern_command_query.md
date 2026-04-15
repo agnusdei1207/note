@@ -1,4 +1,5 @@
 +++
+weight = 179
 title = "179. CQRS (Command Query Responsibility Segregation) 패턴"
 date = "2026-04-10"
 [extra]

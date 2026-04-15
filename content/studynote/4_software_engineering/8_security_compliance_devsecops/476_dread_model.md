@@ -1,4 +1,5 @@
 +++
+weight = 476
 title = "476. DREAD 모델 - 위협 리스크 산정 지표 (Damage, Reproducibility, Exploitability, Affected users, Discoverability)"
 +++
 

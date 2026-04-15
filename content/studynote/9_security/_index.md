@@ -1,5 +1,5 @@
 +++
-weight = 8000
+weight = 9
 title = "9: 정보 보안 (Security)"
 render = true
 sort_by = "weight"

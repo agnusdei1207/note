@@ -1,4 +1,5 @@
 +++
+weight = 528
 title = "528. 난독화 (Obfuscation) 및 안티 디버깅 (Anti-debugging) 적용 (모바일 앱 보안)"
 +++
 

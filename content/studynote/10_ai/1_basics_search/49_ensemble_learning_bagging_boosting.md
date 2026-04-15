@@ -1,4 +1,5 @@
 +++
+weight = 49
 title = "49. 앙상블 학습 (Ensemble Learning) - 여러 개의 약한 분류기를 결합하여 강력한 하나의 모델 구성"
 date = "2026-04-07"
 [extra]

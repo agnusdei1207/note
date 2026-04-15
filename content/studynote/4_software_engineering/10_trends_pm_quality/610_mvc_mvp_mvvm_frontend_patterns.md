@@ -1,4 +1,5 @@
 +++
+weight = 610
 title = "610. MVC, MVP, MVVM 프론트엔드 패턴 진화"
 +++
 

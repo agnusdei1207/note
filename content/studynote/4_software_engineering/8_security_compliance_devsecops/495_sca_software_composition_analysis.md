@@ -1,4 +1,5 @@
 +++
+weight = 495
 title = "495. SCA (Software Composition Analysis) - 오픈소스 라이브러리 취약점 및 라이선스 스캔"
 +++
 

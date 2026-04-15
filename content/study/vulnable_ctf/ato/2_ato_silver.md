@@ -1,9 +1,9 @@
-+++
-title = "VulnABLE CTF [LUXORA] Write-up: Account Takeover (ATO) 🥈 Silver"
++++title = "VulnABLE CTF [LUXORA] Write-up: Account Takeover (ATO) 🥈 Silver"
 date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "ATO", "Account Takeover", "Silver", "Predictable Token", "Write-up"]
+weight = 2
 +++
 
 # VulnABLE CTF [LUXORA] Write-up: Account Takeover (ATO) 🥈 Silver

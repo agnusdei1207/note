@@ -1,6 +1,7 @@
 +++
-weight = 3009
+weight = 9
 title = "9. SDN, NFV 및 차세대 네트워크"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

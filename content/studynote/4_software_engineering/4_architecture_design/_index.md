@@ -1,6 +1,7 @@
 +++
-weight = 3004
+weight = 4
 title = "4. 소프트웨어 아키텍처 및 설계"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

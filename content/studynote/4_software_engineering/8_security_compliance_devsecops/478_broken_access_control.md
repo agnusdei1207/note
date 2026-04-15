@@ -1,4 +1,5 @@
 +++
+weight = 478
 title = "478. Broken Access Control (취약한 접근 제어)"
 +++
 

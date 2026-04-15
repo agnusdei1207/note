@@ -1,4 +1,5 @@
 +++
+weight = 242
 title = "242. WAF (Web Application Firewall) - 웹 애플리케이션 방화벽"
 date = "2026-04-10"
 [extra]

@@ -1,6 +1,7 @@
 +++
-weight = 9003
+weight = 3
 title = "3. 네트워크 보안 및 장비"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

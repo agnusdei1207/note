@@ -1,4 +1,5 @@
 +++
+weight = 209
 title = "209. IT 조직 진단 3P (People, Process, Platform/Technology)"
 date = "2026-04-10"
 [extra]

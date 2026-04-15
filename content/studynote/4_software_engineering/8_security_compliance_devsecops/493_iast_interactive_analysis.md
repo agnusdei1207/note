@@ -1,4 +1,5 @@
 +++
+weight = 493
 title = "493. IAST (Interactive Application Security Testing) - SAST와 DAST 결합, 에이전트 기반 내부 메모리/흐름 분석"
 +++
 

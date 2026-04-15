@@ -1,6 +1,7 @@
 +++
-weight = 15006
+weight = 6
 title = "6. NoSQL 데이터베이스"
+sort_by = "weight"
 +++
 
 > **핵심 인사이트**

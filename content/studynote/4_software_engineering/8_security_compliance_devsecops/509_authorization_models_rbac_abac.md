@@ -1,4 +1,5 @@
 +++
+weight = 509
 title = "509. 인가 (Authorization) 모델 - RBAC(역할 기반), ABAC(속성 기반, 조건부 규칙)"
 +++
 

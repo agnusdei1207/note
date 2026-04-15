@@ -1,6 +1,7 @@
 +++
-weight = 10002
+weight = 2
 title = "2. 딥러닝 아키텍처 및 신경망 공학"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

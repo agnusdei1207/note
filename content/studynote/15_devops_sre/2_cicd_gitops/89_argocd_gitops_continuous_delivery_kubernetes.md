@@ -1,4 +1,5 @@
 +++
+weight = 89
 title = "89. ArgoCD - 쿠버네티스를 위한 GitOps 선언적 배포 도구"
 date = "2026-04-10"
 [extra]

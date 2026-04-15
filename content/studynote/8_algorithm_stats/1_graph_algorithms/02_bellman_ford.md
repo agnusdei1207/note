@@ -1,6 +1,6 @@
 +++
 title = "02. Bellman Ford"
-weight = 8001
+weight = 2
 +++
 
 ## 핵심 인사이트 (3줄 요약)

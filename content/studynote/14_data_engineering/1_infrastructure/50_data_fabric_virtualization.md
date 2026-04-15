@@ -1,4 +1,5 @@
 +++
+weight = 50
 title = "50. 데이터 패브릭 (Data Fabric) - 지능형 데이터 가상화 계층"
 date = "2026-04-10"
 [extra]

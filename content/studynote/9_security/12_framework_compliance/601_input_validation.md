@@ -1,5 +1,5 @@
 +++
-weight = 8601
+weight = 601
 title = "601. Credential Dumping — LSASS 메모리/ SAM hive 추출"
 description = "보안 강화를 위한 입력 검증(Input Validation) 전략과 구현"
 date = 2024-01-15

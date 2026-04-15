@@ -1,4 +1,5 @@
 +++
+weight = 567
 title = "567. 레디스 만료 데이터 키 삭제 정책 (LRU, LFU, Random)"
 date = "2026-04-10"
 [extra]

@@ -1,6 +1,7 @@
 +++
-weight = 2007
+weight = 7
 title = "7. 가상 메모리 및 스와핑"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

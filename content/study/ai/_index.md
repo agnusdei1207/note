@@ -1,7 +1,7 @@
 +++
 title = "AI 학습"
 description = "머신러닝, 딥러닝, LLM, MLOps 심화 학습"
-sort_by = "title"
+sort_by = "weight"
 +++
 
 # 🤖 AI 학습

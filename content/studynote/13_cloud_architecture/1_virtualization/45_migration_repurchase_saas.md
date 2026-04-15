@@ -1,4 +1,5 @@
 +++
+weight = 45
 title = "45. Repurchase (재구매) - 기존 라이선스 소프트웨어를 클라우드 SaaS로 대체"
 date = "2026-04-10"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 575
 title = "575. Slowly Changing Dimension (SCD Type 1, 2, 3) 이력 관리"
 date = "2026-04-10"
 [extra]

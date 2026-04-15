@@ -1,6 +1,7 @@
 +++
-weight = 1013
+weight = 13
 title = "13. 고신뢰성 및 전력 관리 기술"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

@@ -1,4 +1,5 @@
 +++
+weight = 602
 title = "602. 정보 은닉(Information Hiding) 캡슐화 연계"
 +++
 

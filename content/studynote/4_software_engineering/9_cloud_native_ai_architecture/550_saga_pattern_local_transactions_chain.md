@@ -1,4 +1,5 @@
 +++
+weight = 550
 title = "550. 사가 패턴 (Saga Pattern) - 로컬 트랜잭션들의 연속된 체인"
 +++
 

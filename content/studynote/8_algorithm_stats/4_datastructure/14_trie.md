@@ -1,5 +1,5 @@
 +++
-weight = 13
+weight = 14
 title = "B+트리 (B+Tree)"
 date = "2026-03-05"
 [extra]

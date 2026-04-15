@@ -1,4 +1,5 @@
 +++
+weight = 118
 title = "118. SRM (Service Reference Model) - 공통 컴포넌트 표준화"
 date = "2026-04-10"
 [extra]

@@ -1,6 +1,7 @@
 +++
-weight = 16012
+weight = 12
 title = "12. 최신 빅데이터 트렌드 및 기술"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

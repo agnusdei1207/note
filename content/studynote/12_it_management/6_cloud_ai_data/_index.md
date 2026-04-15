@@ -1,6 +1,7 @@
 +++
-weight = 12006
+weight = 6
 title = "6. 신기술 경영: 클라우드, AI 및 데이터"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

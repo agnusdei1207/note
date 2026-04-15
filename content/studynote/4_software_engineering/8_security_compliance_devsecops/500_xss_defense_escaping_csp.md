@@ -1,4 +1,5 @@
 +++
+weight = 500
 title = "500. 크로스 사이트 스크립팅 (XSS) 방어 - 입/출력값 인코딩, CSP(Content Security Policy) 헤더 설정"
 +++
 

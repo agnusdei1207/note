@@ -1,6 +1,7 @@
 +++
-weight = 9004
+weight = 3
 title = "3. 트랜스포머, LLM 및 생성형 AI"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

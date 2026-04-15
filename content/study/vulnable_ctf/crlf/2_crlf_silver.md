@@ -1,9 +1,9 @@
-+++
-title = "VulnABLE CTF [LUXORA] Write-up: CRLF Injection 🥈 Silver"
++++title = "VulnABLE CTF [LUXORA] Write-up: CRLF Injection 🥈 Silver"
 date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "CRLF Injection", "Silver", "Cache Poisoning", "Write-up"]
+weight = 2
 +++
 
 # VulnABLE CTF [LUXORA] Write-up: CRLF Injection 🥈 Silver

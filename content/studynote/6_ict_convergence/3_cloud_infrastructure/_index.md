@@ -1,7 +1,8 @@
 +++
-weight = 5003
+weight = 3
 title = "3. 클라우드 컴퓨팅 및 인프라 신기술"
 [extra]
+sort_by = "weight"
 +++
 
 # 클라우드 컴퓨팅 및 인프라 신기술

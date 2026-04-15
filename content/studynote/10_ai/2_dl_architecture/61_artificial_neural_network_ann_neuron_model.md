@@ -1,4 +1,5 @@
 +++
+weight = 61
 title = "61. 인공 신경망 (ANN, Artificial Neural Network) - 인간 두뇌의 뉴런 생물학적 구조를 모방한 모델"
 date = "2026-04-07"
 [extra]

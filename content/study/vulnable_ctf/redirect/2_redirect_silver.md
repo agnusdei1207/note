@@ -1,9 +1,9 @@
-+++
-title = "VulnABLE CTF [LUXORA] Write-up: Open Redirect 🥈 Silver"
++++title = "VulnABLE CTF [LUXORA] Write-up: Open Redirect 🥈 Silver"
 date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Open Redirect", "Silver", "Filter Bypass", "Write-up"]
+weight = 2
 +++
 
 # VulnABLE CTF [LUXORA] Write-up: Open Redirect 🥈 Silver

@@ -1,4 +1,5 @@
 +++
+weight = 561
 title = "561. 클라우드 DB 고가용성 - Multi-AZ 자동 페일오버 (Failover)"
 date = "2026-04-10"
 [extra]

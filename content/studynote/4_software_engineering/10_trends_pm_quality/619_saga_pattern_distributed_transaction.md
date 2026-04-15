@@ -1,4 +1,5 @@
 +++
+weight = 619
 title = "619. 사가 (Saga) 패턴 2PC 한계 극복 분산 트랜잭션"
 date = "2026-04-07"
 [extra]

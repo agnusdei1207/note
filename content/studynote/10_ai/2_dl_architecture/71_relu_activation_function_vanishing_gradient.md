@@ -1,4 +1,5 @@
 +++
+weight = 71
 title = "71. ReLU (Rectified Linear Unit) 함수 - 기울기 소실 해결"
 date = "2026-04-10"
 [extra]

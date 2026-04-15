@@ -1,4 +1,5 @@
 +++
+weight = 571
 title = "571. 탄력성 (Resiliency) 및 결함 허용 (Fault Tolerance) 패턴"
 +++
 

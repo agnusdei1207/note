@@ -1,4 +1,5 @@
 +++
+weight = 50
 title = "50. BizDevOps - 비즈니스 요구사항 기획부터 운영까지 일체화"
 date = "2026-04-10"
 [extra]

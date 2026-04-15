@@ -1,6 +1,7 @@
 +++
-weight = 2002
+weight = 2
 title = "2. 프로세스 및 스레드 관리"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

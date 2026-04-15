@@ -1,4 +1,5 @@
 +++
+weight = 84
 title = "84. 블루/그린 배포 (Blue/Green) - 무중단 광속 라우팅 스위칭 전략"
 date = "2026-04-10"
 [extra]

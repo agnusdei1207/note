@@ -1,4 +1,5 @@
 +++
+weight = 93
 title = "93. LoadBalancer - 퍼블릭 클라우드 연동 K8s 외부 진입점"
 date = "2026-04-10"
 [extra]

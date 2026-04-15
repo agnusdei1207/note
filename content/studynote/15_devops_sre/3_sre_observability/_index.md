@@ -1,6 +1,7 @@
 +++
-weight = 15003
+weight = 3
 title = "3. SRE 및 관측성 (Observability)"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

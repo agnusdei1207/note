@@ -1,4 +1,5 @@
 +++
+weight = 592
 title = "592. 블록체인 DApp (Decentralized Application) 아키텍처 - 프론트엔드 + 스마트 컨트랙트 + IPFS"
 +++
 

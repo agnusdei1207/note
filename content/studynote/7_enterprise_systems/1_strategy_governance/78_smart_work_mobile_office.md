@@ -1,4 +1,5 @@
 +++
+weight = 78
 title = "78. 스마트워크 (Smart Work) / 모바일 오피스"
 date = "2026-04-07"
 [extra]

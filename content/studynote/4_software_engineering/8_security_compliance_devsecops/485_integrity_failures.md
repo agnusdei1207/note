@@ -1,4 +1,5 @@
 +++
+weight = 485
 title = "485. Software and Data Integrity Failures (소프트웨어 및 데이터 무결성 실패)"
 +++
 

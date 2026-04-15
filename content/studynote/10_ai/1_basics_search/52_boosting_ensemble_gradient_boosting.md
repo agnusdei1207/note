@@ -1,4 +1,5 @@
 +++
+weight = 52
 title = "52. 부스팅 (Boosting) - 앞 모델이 틀린 오차(잔차)에 가중치를 부여해 다음 모델이 순차적으로 보완 (AdaBoost, GBM, XGBoost, LightGBM)"
 date = "2026-04-07"
 [extra]

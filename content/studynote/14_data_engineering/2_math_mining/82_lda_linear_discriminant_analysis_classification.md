@@ -1,4 +1,5 @@
 +++
+weight = 82
 title = "82. 선형 판별 분석 (LDA: Linear Discriminant Analysis)"
 date = "2026-04-13"
 [extra]

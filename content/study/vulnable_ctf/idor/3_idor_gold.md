@@ -1,9 +1,9 @@
-+++
-title = "VulnABLE CTF [LUXORA] Write-up: IDOR 🥇 Gold"
++++title = "VulnABLE CTF [LUXORA] Write-up: IDOR 🥇 Gold"
 date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "IDOR", "Gold", "BOLA", "UUID", "Write-up"]
+weight = 3
 +++
 
 # VulnABLE CTF [LUXORA] Write-up: IDOR 🥇 Gold

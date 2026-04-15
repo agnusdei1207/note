@@ -1,6 +1,7 @@
 +++
-weight = 1015
+weight = 15
 title = "15. 컴퓨터 구조 심화 및 미래 기술"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

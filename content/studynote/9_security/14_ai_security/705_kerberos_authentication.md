@@ -1,5 +1,5 @@
 +++
-weight = 5
+weight = 705
 title = "705. SAM hive 추출 — reg save HKLM\\SAM"
 description = "대규모 네트워크를 위한 통합 인증 프로토콜 Kerberos의 원리와 보안"
 date = 2024-01-15

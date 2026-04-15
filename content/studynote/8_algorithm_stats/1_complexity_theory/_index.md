@@ -1,6 +1,7 @@
 +++
-weight = 8001
+weight = 1
 title = "1. 알고리즘 복잡도 및 자료구조 기초"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

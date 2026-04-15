@@ -1,5 +1,5 @@
 +++
-weight = 16010
+weight = 5
 title = "05. 데이터옵스 (DataOps) - 데이터 파이프라인의 데브옵스화"
 date = "2026-04-05"
 [extra]

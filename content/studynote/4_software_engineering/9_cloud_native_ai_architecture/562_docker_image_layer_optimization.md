@@ -1,4 +1,5 @@
 +++
+weight = 562
 title = "562. 도커(Docker) 이미지 계층(Layer) 최소화 기법"
 +++
 

@@ -1,5 +1,5 @@
 +++
-weight = 6001
+weight = 7
 title = "7: 엔터프라이즈 시스템 (Enterprise Systems)"
 render = true
 sort_by = "weight"

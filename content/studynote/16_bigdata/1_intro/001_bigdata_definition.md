@@ -1,5 +1,5 @@
 +++
-weight = 15001
+weight = 1
 title = "1. 빅데이터 정의 — 3V: Volume(양) / Velocity(속도) / Variety(다양성) (Laney, 2001)"
 date = "2026-03-26"
 [extra]

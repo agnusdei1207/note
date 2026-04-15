@@ -1,4 +1,5 @@
 +++
+weight = 96
 title = "96. VPA (Vertical Pod Autoscaler) - 파드 수직 자원 자동 조절"
 date = "2026-04-10"
 [extra]

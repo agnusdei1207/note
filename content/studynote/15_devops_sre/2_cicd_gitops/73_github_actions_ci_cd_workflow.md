@@ -1,4 +1,5 @@
 +++
+weight = 73
 title = "73. GitHub Actions - CI/CD 파이프라인 내장형 자동화 도구"
 date = "2026-04-10"
 [extra]

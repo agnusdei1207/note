@@ -1,6 +1,7 @@
 +++
-weight = 7008
+weight = 8
 title = "8. 엔터프라이즈 핀옵스 (FinOps)"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

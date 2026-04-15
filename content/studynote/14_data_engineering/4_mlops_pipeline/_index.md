@@ -1,6 +1,7 @@
 +++
-weight = 14004
+weight = 4
 title = "4. MLOps 및 데이터 파이프라인 자동화"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

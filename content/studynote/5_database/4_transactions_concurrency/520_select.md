@@ -1,5 +1,5 @@
 +++
-weight = 20
+weight = 520
 title = "520. PACELC 분산 DB 장애 평시 트레이드 오프 이론"
 description = "SQL SELECT 문의 기본 구조와 사용법"
 date = 2026-03-26

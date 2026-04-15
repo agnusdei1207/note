@@ -1,4 +1,5 @@
 +++
+weight = 49
 title = "49. 데이터 메시 (Data Mesh) - 도메인 주도 분산 데이터 구조"
 date = "2026-04-10"
 [extra]

@@ -1,5 +1,5 @@
 +++
-weight = 24
+weight = 524
 title = "524. EER 모델 서브타입 상속 특수화"
 description = "SQL의 세 가지 하위 언어 분류"
 date = 2026-03-26

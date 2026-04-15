@@ -1,5 +1,5 @@
 +++
-weight = 34
+weight = 534
 title = "534. Saga 패턴 보상 트랜잭션 비즈니스 실패 롤백 모사"
 description = "뷰의 정의와 사용법"
 date = 2026-03-26

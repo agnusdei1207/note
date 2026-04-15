@@ -1,4 +1,5 @@
 +++
+weight = 536
 title = "536. 서비스 간 비동기 통신 - 메시지 큐 (RabbitMQ, Kafka), AMQP 프로토콜"
 +++
 

@@ -1,4 +1,5 @@
 +++
+weight = 209
 title = "209. DMARC (Domain-based Message Auth Reporting) - SPF+DKIM 종합 정책"
 date = "2026-04-10"
 [extra]

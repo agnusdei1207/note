@@ -1,4 +1,5 @@
 +++
+weight = 154
 title = "154. ESB (Enterprise Service Bus)"
 date = "2026-04-09"
 description = "수십 개의 기업 시스템 간 통신을 거미줄이나 중앙 병목 허브가 아닌, 유려한 단일 고속 버스(Bus) 라인에 끼워 유연하게 메시지를 중계하고 조율하는 SOA 통합 아키텍처 백본"

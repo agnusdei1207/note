@@ -1,6 +1,7 @@
 +++
-weight = 1005
+weight = 5
 title = "5. 제어 장치 및 파이프라이닝"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

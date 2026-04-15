@@ -1,4 +1,5 @@
 +++
+weight = 227
 title = "227. EAP (Extensible Authentication Protocol) - 802.1X 인증 통신"
 date = "2026-04-10"
 [extra]

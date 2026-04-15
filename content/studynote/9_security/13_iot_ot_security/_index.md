@@ -1,6 +1,7 @@
 +++
-weight = 9013
+weight = 13
 title = "13. IoT 및 OT/산업 보안"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

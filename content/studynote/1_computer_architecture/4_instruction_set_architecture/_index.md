@@ -1,6 +1,7 @@
 +++
-weight = 1004
+weight = 4
 title = "4. 명령어 세트 아키텍처 (ISA)"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

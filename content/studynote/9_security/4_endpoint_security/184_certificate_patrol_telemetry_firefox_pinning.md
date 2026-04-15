@@ -1,4 +1,5 @@
 +++
+weight = 184
 title = "184. Certificate Patrol / Security/Telemetry — Firefox 브라우저 핀닝"
 date = "2026-04-07"
 [extra]

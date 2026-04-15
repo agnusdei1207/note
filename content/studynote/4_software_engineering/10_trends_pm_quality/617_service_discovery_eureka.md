@@ -1,4 +1,5 @@
 +++
+weight = 617
 title = "617. 서비스 디스커버리 Eureka"
 date = "2026-04-07"
 [extra]

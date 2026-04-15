@@ -1,4 +1,5 @@
 +++
+weight = 514
 title = "514. 시크릿(Secret) 관리 도구 - 하드코딩 금지, HashiCorp Vault, AWS Secrets Manager 활용"
 +++
 

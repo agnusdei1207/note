@@ -1,5 +1,5 @@
 +++
-weight = 25
+weight = 525
 title = "525. B+Tree 인덱스 스플릿 병합 오버헤드"
 description = "정규화의 정의, 필요성, 기본 단계"
 date = 2026-03-26

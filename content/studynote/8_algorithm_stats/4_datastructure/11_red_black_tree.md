@@ -1,5 +1,5 @@
 +++
-weight = 8011
+weight = 11
 title = "레드-블랙 트리 (Red-Black Tree, RBT)"
 date = "2026-03-05"
 [extra]

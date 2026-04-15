@@ -1,6 +1,7 @@
 +++
-weight = 8006
+weight = 6
 title = "6. 계산 복잡도 이론 및 NP-완전"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

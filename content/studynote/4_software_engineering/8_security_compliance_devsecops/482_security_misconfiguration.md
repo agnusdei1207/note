@@ -1,4 +1,5 @@
 +++
+weight = 482
 title = "482. Security Misconfiguration (보안 설정 오류)"
 +++
 

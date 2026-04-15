@@ -1,4 +1,5 @@
 +++
+weight = 104
 title = "104. K8s 네임스페이스 (Namespace) - 논리적 분할과 격리"
 date = "2026-04-10"
 [extra]

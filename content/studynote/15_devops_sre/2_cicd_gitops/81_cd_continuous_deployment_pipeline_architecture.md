@@ -1,4 +1,5 @@
 +++
+weight = 81
 title = "81. 지속적 배포 (CD Pipeline) - 무중단 블루/그린 롤링 아키텍처"
 date = "2026-04-10"
 [extra]

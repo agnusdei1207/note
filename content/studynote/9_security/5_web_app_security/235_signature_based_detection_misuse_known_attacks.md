@@ -1,4 +1,5 @@
 +++
+weight = 235
 title = "235. Signature-based detection — 알려진 공격 패턴 매칭 탐지"
 date = "2026-04-10"
 [extra]

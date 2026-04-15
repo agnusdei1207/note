@@ -1,4 +1,5 @@
 +++
+weight = 105
 title = "105. 오퍼레이터 패턴 (Operator Pattern) - K8s 봇 자동화"
 date = "2026-04-10"
 [extra]

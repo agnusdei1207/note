@@ -1,4 +1,5 @@
 +++
+weight = 181
 title = "181. 브릿지 CA (Bridge CA) — 교차 인증"
 date = "2026-04-07"
 [extra]

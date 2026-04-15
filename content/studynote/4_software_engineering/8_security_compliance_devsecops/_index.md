@@ -1,6 +1,7 @@
 +++
-weight = 3008
+weight = 8
 title = "8. 소프트웨어 보안 및 DevSecOps"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

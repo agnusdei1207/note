@@ -1,6 +1,6 @@
 +++
 title = "346. 벡터 데이터베이스 (Vector Database) - AI, LLM, 딥러닝 임베딩(Embedding) 벡터 고속 검색에 특화 (Milvus, Pinecone, Qdrant 등)"
-weight = 4346
+weight = 346
 +++
 
 > **💡 핵심 인사이트**

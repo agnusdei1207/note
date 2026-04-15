@@ -1,4 +1,5 @@
 +++
+weight = 453
 title = "453. 호환성 테스트 (Compatibility Test) - OS, 브라우저, 기기(모바일) 등 이기종 환경 동작 확인"
 +++
 

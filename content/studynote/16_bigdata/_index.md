@@ -1,5 +1,5 @@
 +++
-weight = 15016
+weight = 16
 title = "16: 빅데이터 (Big Data)"
 render = true
 sort_by = "weight"

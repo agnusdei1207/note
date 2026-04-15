@@ -1,4 +1,5 @@
 +++
+weight = 83
 title = "83. 롤링 배포 (Rolling Update) - K8s 기본 점진적 무중단 배포"
 date = "2026-04-10"
 [extra]

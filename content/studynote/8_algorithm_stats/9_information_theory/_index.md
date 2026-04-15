@@ -1,6 +1,7 @@
 +++
-weight = 8009
+weight = 9
 title = "9. 정보 이론 및 부호화 공학"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

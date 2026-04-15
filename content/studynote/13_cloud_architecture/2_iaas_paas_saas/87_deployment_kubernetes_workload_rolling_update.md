@@ -1,4 +1,5 @@
 +++
+weight = 87
 title = "87. 디플로이먼트 (Deployment) - K8s 무중단 배포 사령관"
 date = "2026-04-10"
 [extra]

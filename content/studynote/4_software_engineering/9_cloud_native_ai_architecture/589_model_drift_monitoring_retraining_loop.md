@@ -1,4 +1,5 @@
 +++
+weight = 589
 title = "589. 모델 드리프트 (Model Drift / Data Drift) 모니터링 및 재학습 루프 설계"
 +++
 

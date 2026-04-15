@@ -1,6 +1,7 @@
 +++
-weight = 9008
+weight = 8
 title = "8. 보안 운영 (SecOps) 및 SOC"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

@@ -1,4 +1,5 @@
 +++
+weight = 119
 title = "119. DRM (Data Reference Model) - 공공 데이터 참조 모델 표준"
 date = "2026-04-10"
 [extra]

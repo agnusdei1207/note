@@ -1,5 +1,5 @@
 +++
-weight = 48
+weight = 548
 title = "548. 데이터 레이크하우스 스키마 온 리드 융합 엔진 구성 기초 분석"
 description = "SQL의 CASE 조건 표현식"
 date = 2026-03-26

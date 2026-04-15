@@ -1,9 +1,9 @@
-+++
-title = "VulnABLE CTF [LUXORA] Write-up: OAuth Misconfiguration 🥈 Silver"
++++title = "VulnABLE CTF [LUXORA] Write-up: OAuth Misconfiguration 🥈 Silver"
 date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "OAuth", "Silver", "CSRF", "State Parameter", "Write-up"]
+weight = 2
 +++
 
 # VulnABLE CTF [LUXORA] Write-up: OAuth Misconfiguration 🥈 Silver

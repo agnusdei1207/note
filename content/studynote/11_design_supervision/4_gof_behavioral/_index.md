@@ -1,6 +1,7 @@
 +++
-weight = 11004
+weight = 4
 title = "4. GoF 디자인 패턴: 행위 패턴"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

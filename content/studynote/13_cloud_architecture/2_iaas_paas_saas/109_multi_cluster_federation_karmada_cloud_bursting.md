@@ -1,4 +1,5 @@
 +++
+weight = 109
 title = "109. K8s 멀티 클러스터 및 연합(Federation) 아키텍처"
 date = "2026-04-10"
 [extra]

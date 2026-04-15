@@ -1,4 +1,5 @@
 +++
+weight = 480
 title = "480. Injection (인젝션 / SQLi, OS Command, NoSQL 등)"
 +++
 

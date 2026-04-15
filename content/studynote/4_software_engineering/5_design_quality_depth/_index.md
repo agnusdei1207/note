@@ -1,6 +1,7 @@
 +++
-weight = 3005
+weight = 5
 title = "5. 설계 품질 및 심화 기법"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

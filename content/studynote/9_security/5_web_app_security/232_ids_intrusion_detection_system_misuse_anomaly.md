@@ -1,4 +1,5 @@
 +++
+weight = 232
 title = "232. IDS (Intrusion Detection System) - 오용 탐지와 이상 탐지"
 date = "2026-04-10"
 [extra]

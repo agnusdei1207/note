@@ -1,7 +1,8 @@
 +++
-weight = 9020
+weight = 20
 title = "20. 보안 추가 키워드 및 시험 대비 (40개 토픽)"
 render = true
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

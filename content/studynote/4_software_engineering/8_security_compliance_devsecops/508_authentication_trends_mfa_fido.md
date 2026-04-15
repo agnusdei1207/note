@@ -1,4 +1,5 @@
 +++
+weight = 508
 title = "508. 인증 (Authentication) 트렌드 - MFA, FIDO, WebAuthn, 패스워드리스(Passwordless)"
 +++
 

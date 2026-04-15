@@ -1,6 +1,7 @@
 +++
-weight = 2006
+weight = 6
 title = "6. 메모리 관리 (Memory Management)"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

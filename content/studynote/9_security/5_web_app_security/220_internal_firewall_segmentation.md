@@ -1,4 +1,5 @@
 +++
+weight = 220
 title = "220. 내부 방화벽 (Internal Firewall) - 제로 트러스트망 세그멘테이션"
 date = "2026-04-10"
 [extra]

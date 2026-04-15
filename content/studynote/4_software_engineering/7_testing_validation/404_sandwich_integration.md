@@ -1,4 +1,5 @@
 +++
+weight = 404
 title = "404. 샌드위치 통합 (Sandwich Integration)"
 date = "2026-04-09"
 description = "가장 중요한 핵심 로직(Middle Layer)을 중심으로 위에서는 하향식, 아래에서는 상향식을 동시에 병행 전개하여 양쪽의 장점을 모두 챙기는 융합 결합 기법"

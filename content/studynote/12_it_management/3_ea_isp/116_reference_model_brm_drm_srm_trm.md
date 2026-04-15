@@ -1,4 +1,5 @@
 +++
+weight = 116
 title = "116. 참조 모델 (Reference Model) - BRM, DRM, SRM, TRM"
 date = "2026-04-10"
 [extra]

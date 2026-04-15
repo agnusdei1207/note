@@ -1,6 +1,6 @@
 +++
 title = "345. 배치 처리 (Batch Processing) 파이프라인"
-weight = 4345
+weight = 345
 +++
 
 > **💡 핵심 인사이트**

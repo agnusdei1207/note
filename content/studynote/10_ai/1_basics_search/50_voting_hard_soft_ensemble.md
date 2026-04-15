@@ -1,4 +1,5 @@
 +++
+weight = 50
 title = "50. 보팅 (Voting) - 다수결 (Hard Voting) 및 확률 평균 (Soft Voting)"
 date = "2026-04-07"
 [extra]

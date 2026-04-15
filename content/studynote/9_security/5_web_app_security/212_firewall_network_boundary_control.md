@@ -1,4 +1,5 @@
 +++
+weight = 212
 title = "212. 방화벽 (Firewall) - 네트워크 경계 접근 제어"
 date = "2026-04-10"
 [extra]

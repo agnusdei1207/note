@@ -1,4 +1,5 @@
 +++
+weight = 218
 title = "218. 베스천 호스트 (Bastion Host) - DMZ 경계 접근의 교두보"
 date = "2026-04-10"
 [extra]

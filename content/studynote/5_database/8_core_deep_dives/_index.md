@@ -1,6 +1,7 @@
 +++
-weight = 5008
+weight = 8
 title = "8. 데이터베이스 핵심 심화 분석"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

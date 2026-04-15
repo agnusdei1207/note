@@ -1,4 +1,5 @@
 +++
+weight = 238
 title = "238. NIDS와 NIPS - 네트워크 기반 침입 탐지와 능동 차단"
 date = "2026-04-10"
 [extra]

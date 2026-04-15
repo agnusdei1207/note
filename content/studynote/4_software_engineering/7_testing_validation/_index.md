@@ -1,6 +1,7 @@
 +++
-weight = 3007
+weight = 7
 title = "7. 소프트웨어 테스트 및 검증"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

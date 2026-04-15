@@ -1,4 +1,5 @@
 +++
+weight = 167
 title = "167. BFF (Backend For Frontend)"
 date = "2026-04-09"
 description = "클라이언트 환경(모바일, PC 웹, 스마트 TV 등)마다 요구하는 화면 스펙 데이터 구조가 상이함을 인정하고, 각 프론트엔드 전용 맞춤형 조립(Aggregation) 게이트웨이를 별도로 세워주는 패턴"

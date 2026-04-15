@@ -1,5 +1,5 @@
 +++
-weight = 8009
+weight = 9
 title = "이진 탐색 트리 (Binary Search Tree, BST)"
 date = "2026-03-05"
 [extra]

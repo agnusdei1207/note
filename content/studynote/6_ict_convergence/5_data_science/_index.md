@@ -1,6 +1,7 @@
 +++
-weight = 5005
+weight = 5
 title = "5. 데이터 과학 및 통계/최적화"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

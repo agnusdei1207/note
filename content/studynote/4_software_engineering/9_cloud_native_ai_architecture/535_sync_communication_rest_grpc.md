@@ -1,4 +1,5 @@
 +++
+weight = 535
 title = "535. 서비스 간 동기 통신 - REST API, gRPC (Protocol Buffers)"
 +++
 

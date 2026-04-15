@@ -1,4 +1,5 @@
 +++
+weight = 52
 title = "52. 데이터 리니지 (Data Lineage) - 데이터 흐름과 변환 족보 추적"
 date = "2026-04-10"
 [extra]

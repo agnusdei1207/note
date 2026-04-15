@@ -1,4 +1,5 @@
 +++
+weight = 572
 title = "572. 서킷 브레이커 (Circuit Breaker) - 상태(Closed, Open, Half-Open) 기반 장애 확산 차단 (Resilience4j)"
 +++
 

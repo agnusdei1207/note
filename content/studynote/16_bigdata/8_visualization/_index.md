@@ -1,6 +1,7 @@
 +++
-weight = 15008
+weight = 8
 title = "8. 빅데이터 시각화"
+sort_by = "weight"
 +++
 
 > **핵심 인사이트**

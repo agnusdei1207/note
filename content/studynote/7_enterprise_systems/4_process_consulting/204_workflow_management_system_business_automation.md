@@ -1,4 +1,5 @@
 +++
+weight = 204
 title = "204. 워크플로우 (Workflow) 관리 시스템 - 비즈니스 흐름 자동화"
 date = "2026-04-10"
 [extra]

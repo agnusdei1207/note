@@ -1,8 +1,9 @@
 +++
 title = "9. 빅데이터 플랫폼 및 아키텍처"
-weight = 15009
+weight = 9
 [extra]
 categories = ["studynote-bigdata"]
+sort_by = "weight"
 +++
 
 > **핵심 인사이트**

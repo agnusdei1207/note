@@ -1,6 +1,7 @@
 +++
-weight = 8004
+weight = 4
 title = "4. 그래프 알고리즘 (Graph Algorithms)"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

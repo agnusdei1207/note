@@ -1,4 +1,5 @@
 +++
+weight = 235
 title = "235. 액침 냉각 (Immersion Cooling) - 차세대 데이터센터 냉각 기술"
 date = "2026-04-10"
 [extra]

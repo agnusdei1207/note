@@ -1,4 +1,5 @@
 +++
+weight = 80
 title = "80. 다중 공선성 (Multicollinearity) 및 VIF 지수"
 date = "2026-04-11"
 [extra]

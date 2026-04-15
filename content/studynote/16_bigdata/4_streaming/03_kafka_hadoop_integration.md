@@ -1,6 +1,6 @@
 +++
 title = "03. Kafka Hadoop Integration"
-weight = 16004
+weight = 3
 +++
 
 ## 핵심 인사이트 (3줄 요약)

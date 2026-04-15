@@ -1,6 +1,7 @@
 +++
-weight = 7001
+weight = 1
 title = "1. 전사 전략 및 엔터프라이즈 거버넌스"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

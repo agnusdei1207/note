@@ -1,4 +1,5 @@
 +++
+weight = 75
 title = "75. 조건부 확률(Conditional Probability)과 베이즈 정리(Bayes)"
 date = "2026-04-10"
 [extra]

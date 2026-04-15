@@ -1,4 +1,5 @@
 +++
+weight = 540
 title = "540. 서비스 디스커버리 (Service Discovery) - 동적 IP/Port 레지스트리 (Eureka, Consul)"
 +++
 

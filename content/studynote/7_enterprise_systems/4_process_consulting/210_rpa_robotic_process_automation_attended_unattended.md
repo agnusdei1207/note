@@ -1,4 +1,5 @@
 +++
+weight = 210
 title = "210. RPA 봇 아키텍처 - Attended vs Unattended 로봇 프로세스 자동화"
 date = "2026-04-10"
 [extra]

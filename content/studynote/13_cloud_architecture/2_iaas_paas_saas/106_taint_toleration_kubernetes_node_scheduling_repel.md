@@ -1,4 +1,5 @@
 +++
+weight = 106
 title = "106. 테인트(Taint)와 톨러레이션(Toleration) - K8s 스케줄링 제어"
 date = "2026-04-10"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 548
 title = "548. 로컬 트랜잭션 (Local Transaction) vs 분산 트랜잭션 (Distributed Transaction)"
 +++
 

@@ -1,4 +1,5 @@
 +++
+weight = 108
 title = "108. K8s 프로브(Probes) 생명주기 관리 - Liveness, Readiness, Startup"
 date = "2026-04-10"
 [extra]

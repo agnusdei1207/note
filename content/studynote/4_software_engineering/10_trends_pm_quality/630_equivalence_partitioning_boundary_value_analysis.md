@@ -1,4 +1,5 @@
 +++
+weight = 630
 title = "630. 동등 분할 (Equivalence Partitioning) 경계값 분석"
 date = "2026-04-07"
 [extra]

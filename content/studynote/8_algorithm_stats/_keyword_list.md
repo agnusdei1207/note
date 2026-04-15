@@ -1,9 +1,11 @@
 +++
+weight = 9999
 title = "08. 알고리즘/자료구조/통계 키워드 목록"
 date = "2026-03-03"
 [extra]
 categories = "studynote-algorithm"
 +++
+weight = 9999
 
 # 알고리즘 / 자료구조 / 통계 키워드 목록
 

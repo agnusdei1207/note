@@ -1,9 +1,9 @@
-+++
-title = "VulnABLE CTF [LUXORA] Write-up: Info Disclosure 🥈 Silver"
++++title = "VulnABLE CTF [LUXORA] Write-up: Info Disclosure 🥈 Silver"
 date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Info Disclosure", "Silver", ".git Leak", "Git-dumper", "Write-up"]
+weight = 2
 +++
 
 # VulnABLE CTF [LUXORA] Write-up: Info Disclosure 🥈 Silver

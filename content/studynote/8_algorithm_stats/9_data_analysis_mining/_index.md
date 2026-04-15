@@ -1,6 +1,7 @@
 +++
-weight = 8009
+weight = 9
 title = "9. 데이터 마이닝 및 고급 분석 기법"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

@@ -1,9 +1,11 @@
 +++
+weight = 9999
 title = "16. 빅데이터 및 데이터 과학 키워드 목록"
 date = "2026-03-04"
 [extra]
 categories = "studynote-bigdata"
 +++
+weight = 9999
 
 # 빅데이터 (Big Data) 및 데이터 과학 키워드 목록 (심화 확장판)
 

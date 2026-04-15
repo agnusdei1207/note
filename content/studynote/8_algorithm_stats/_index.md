@@ -1,5 +1,5 @@
 +++
-weight = 7001
+weight = 8
 title = "8: 알고리즘 및 통계 (Algorithm & Stats)"
 render = true
 sort_by = "weight"

@@ -1,5 +1,5 @@
 +++
-weight = 19
+weight = 824
 title = "824. Azure 주요 서비스 (IaaS/PaaS)"
 description = "Microsoft Azure의 IaaS/PaaS 대표 서비스와 활용"
 date = 2026-03-26

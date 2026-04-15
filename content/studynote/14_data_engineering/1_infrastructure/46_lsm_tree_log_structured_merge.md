@@ -1,4 +1,5 @@
 +++
+weight = 46
 title = "46. LSM 트리 (Log-Structured Merge-Tree) - 쓰기 성능 극대화"
 date = "2026-04-10"
 [extra]

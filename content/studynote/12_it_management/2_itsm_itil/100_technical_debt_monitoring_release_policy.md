@@ -1,4 +1,5 @@
 +++
+weight = 100
 title = "100. 기술 부채 (Technical Debt) 모니터링 연계 릴리스 정책"
 date = "2026-04-10"
 [extra]

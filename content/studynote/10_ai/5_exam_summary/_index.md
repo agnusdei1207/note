@@ -1,9 +1,10 @@
 +++
-weight = 9006
+weight = 5
 title = "5. 시험 빈출 핵심 요약 (AI Cheatsheet)"
 render = true
 [extra]
 category = "studynote-ai"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

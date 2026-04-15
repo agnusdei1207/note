@@ -1,4 +1,5 @@
 +++
+weight = 122
 title = "122. EA 거버넌스 (EA Governance) - IT 아키텍처 통제 및 심의 조직"
 date = "2026-04-10"
 [extra]

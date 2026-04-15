@@ -1,4 +1,5 @@
 +++
+weight = 104
 title = "104. ResNet (Residual Network) - 잔차 연결 152층 기울기 소실 돌파"
 date = "2026-04-10"
 [extra]

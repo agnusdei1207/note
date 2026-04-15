@@ -1,4 +1,5 @@
 +++
+weight = 168
 title = "168. 산업용 이더넷 및 TSN (Time-Sensitive Networking)"
 date = "2026-04-10"
 [extra]

@@ -1,6 +1,7 @@
 +++
-weight = 8010
+weight = 10
 title = "10. 선형 계획법 및 최적화 이론"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

@@ -1,4 +1,5 @@
 +++
+weight = 183
 title = "183. 마이크로서비스 샤시 (Microservice Chassis) - 공통 뼈대 패턴"
 date = "2026-04-10"
 [extra]

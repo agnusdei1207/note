@@ -1,6 +1,7 @@
 +++
-weight = 15005
+weight = 5
 title = "5. DevSecOps 및 공급망 보안"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

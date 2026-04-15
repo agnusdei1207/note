@@ -1,4 +1,5 @@
 +++
+weight = 499
 title = "499. SQL 인젝션 방어 - Prepared Statement (파라미터화된 쿼리), ORM 프레임워크 사용"
 +++
 

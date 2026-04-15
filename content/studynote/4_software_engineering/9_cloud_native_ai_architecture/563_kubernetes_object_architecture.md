@@ -1,4 +1,5 @@
 +++
+weight = 563
 title = "563. 쿠버네티스 (Kubernetes) 오브젝트 아키텍처 (Pod, Service, Deployment, Ingress)"
 +++
 

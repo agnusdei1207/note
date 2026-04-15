@@ -1,4 +1,5 @@
 +++
+weight = 181
 title = "181. 서비스 메시 (Service Mesh) - MSA 통신 및 보안 프록시 제어"
 date = "2026-04-10"
 [extra]

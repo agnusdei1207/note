@@ -1,5 +1,5 @@
 +++
-weight = 11000
+weight = 12
 title = "12: IT 경영 및 관리 (IT Management)"
 render = true
 sort_by = "weight"

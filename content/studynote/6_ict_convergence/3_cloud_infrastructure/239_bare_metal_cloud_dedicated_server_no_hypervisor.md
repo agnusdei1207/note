@@ -1,4 +1,5 @@
 +++
+weight = 239
 title = "239. 베어메탈 클라우드 (Bare Metal Cloud) - 가상화 오버헤드 없는 임대 서버"
 date = "2026-04-10"
 [extra]

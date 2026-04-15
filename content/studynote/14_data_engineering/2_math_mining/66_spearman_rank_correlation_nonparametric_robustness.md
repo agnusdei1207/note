@@ -1,4 +1,5 @@
 +++
+weight = 66
 title = "66. 스피어만 순위 상관 계수 (Spearman Rank Correlation)"
 date = "2026-04-10"
 [extra]

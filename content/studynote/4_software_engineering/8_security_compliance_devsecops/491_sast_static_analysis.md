@@ -1,4 +1,5 @@
 +++
+weight = 491
 title = "491. SAST (Static Application Security Testing) - 소스코드 정적 분석 도구 (보안 룰셋 기반)"
 +++
 

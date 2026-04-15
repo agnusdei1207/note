@@ -1,4 +1,5 @@
 +++
+weight = 88
 title = "88. 스테이트풀셋 (StatefulSet) - K8s 상태 저장 DB 배포"
 date = "2026-04-10"
 [extra]

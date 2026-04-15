@@ -1,6 +1,6 @@
 +++
 title = "344. 스트림 처리 (Stream Processing) DB 기술 (Apache Kafka, Flink) - 실시간 이벤트 데이터베이스화"
-weight = 4344
+weight = 344
 +++
 
 > **💡 핵심 인사이트**

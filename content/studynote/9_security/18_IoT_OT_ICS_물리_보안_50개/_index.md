@@ -1,7 +1,8 @@
 +++
-weight = 9018
+weight = 18
 title = "18. IoT, OT 및 물리 보안 (50개 핵심 토픽)"
 render = true
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

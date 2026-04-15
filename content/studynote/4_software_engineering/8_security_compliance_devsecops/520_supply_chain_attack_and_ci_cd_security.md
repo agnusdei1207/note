@@ -1,4 +1,5 @@
 +++
+weight = 520
 title = "520. 공급망 (Supply Chain) 공격 사례 및 서명된 커밋(Signed Commit), CI 파이프라인 보호"
 +++
 

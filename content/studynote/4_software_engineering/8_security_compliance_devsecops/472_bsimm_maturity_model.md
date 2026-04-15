@@ -1,4 +1,5 @@
 +++
+weight = 472
 title = "472. BSIMM (Building Security In Maturity Model) - SW 보안 성숙도 평가 모델"
 +++
 

@@ -1,4 +1,5 @@
 +++
+weight = 94
 title = "94. 민감도점 (Sensitivity Point) - 아키텍처 품질 속성 스위치"
 date = "2026-04-10"
 [extra]

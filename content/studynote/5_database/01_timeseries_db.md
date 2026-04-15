@@ -1,5 +1,5 @@
 +++
-weight = 5000
+weight = 1
 title = "01. 시계열 DB (Time Series Database) - 시계열 데이터 최적화 데이터베이스"
 date = "2026-04-05"
 [extra]

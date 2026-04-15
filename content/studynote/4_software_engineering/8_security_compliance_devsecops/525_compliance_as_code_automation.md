@@ -1,4 +1,5 @@
 +++
+weight = 525
 title = "525. 컴플라이언스 애즈 코드 (Compliance as Code) 자동화"
 +++
 

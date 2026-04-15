@@ -1,4 +1,5 @@
 +++
+weight = 516
 title = "516. 개인정보 보호 중심 설계 (Privacy by Design - PbD) 7원칙"
 +++
 

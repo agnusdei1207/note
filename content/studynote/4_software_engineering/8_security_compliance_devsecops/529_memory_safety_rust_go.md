@@ -1,4 +1,5 @@
 +++
+weight = 529
 title = "529. 메모리 안전성(Memory Safety) 보장을 위한 Rust, Go 언어 도입 동향"
 +++
 

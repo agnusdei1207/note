@@ -1,6 +1,7 @@
 +++
-weight = 13003
+weight = 3
 title = "3. 마이크로서비스 아키텍처 (MSA) 및 서버리스"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

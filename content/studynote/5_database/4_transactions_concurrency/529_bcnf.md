@@ -1,5 +1,5 @@
 +++
-weight = 29
+weight = 529
 title = "529. Repeatable Read 의 팬텀 현상 MVCC 해결 유무"
 description = "BCNF의 정의와 적용"
 date = 2026-03-26

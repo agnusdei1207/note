@@ -1,6 +1,7 @@
 +++
-weight = 3011
+weight = 11
 title = "11. 시험 빈출 핵심 요약 (Network)"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

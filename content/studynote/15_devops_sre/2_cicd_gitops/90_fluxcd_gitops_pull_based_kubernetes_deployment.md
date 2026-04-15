@@ -1,4 +1,5 @@
 +++
+weight = 90
 title = "90. FluxCD - ArgoCD 경쟁 GitOps CD 도구"
 date = "2026-04-10"
 [extra]

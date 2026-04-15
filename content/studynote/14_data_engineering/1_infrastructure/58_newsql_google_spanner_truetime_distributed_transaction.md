@@ -1,4 +1,5 @@
 +++
+weight = 58
 title = "58. 뉴에스큐엘 (NewSQL) - 분산 RDBMS 글로벌 스패너(Spanner) 아키텍처"
 date = "2026-04-10"
 [extra]

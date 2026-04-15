@@ -1,4 +1,5 @@
 +++
+weight = 55
 title = "55. 로지스틱 회귀 (Logistic Regression) - Sigmoid 함수 기반 이진 분류 선형 모델"
 date = "2026-04-07"
 [extra]

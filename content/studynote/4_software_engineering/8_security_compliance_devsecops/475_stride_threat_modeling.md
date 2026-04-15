@@ -1,4 +1,5 @@
 +++
+weight = 475
 title = "475. STRIDE 모델 - Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege"
 +++
 

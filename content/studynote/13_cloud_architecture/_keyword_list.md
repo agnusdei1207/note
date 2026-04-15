@@ -1,9 +1,11 @@
 +++
+weight = 9999
 title = "13. 클라우드 컴퓨팅 및 아키텍처 키워드 목록"
 date = "2026-03-04"
 [extra]
 categories = "studynote-cloud"
 +++
+weight = 9999
 
 # 클라우드 컴퓨팅 및 아키텍처 (Cloud Architecture) 키워드 목록 (심화 확장판)
 

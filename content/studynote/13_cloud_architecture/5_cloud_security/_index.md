@@ -1,7 +1,8 @@
 +++
-weight = 12009
+weight = 5
 title = "9. 클라우드 보안"
 [extra]
+sort_by = "weight"
 +++
 
 # 9. 클라우드 보안

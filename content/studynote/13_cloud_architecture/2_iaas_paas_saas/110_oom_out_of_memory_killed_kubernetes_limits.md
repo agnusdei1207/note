@@ -1,4 +1,5 @@
 +++
+weight = 110
 title = "110. OOM (Out of Memory) Killed - K8s 파드 메모리 초과 강제 종료"
 date = "2026-04-10"
 [extra]

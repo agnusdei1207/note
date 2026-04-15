@@ -1,6 +1,7 @@
 +++
-weight = 3007
+weight = 7
 title = "7. 무선 및 모바일 네트워크"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

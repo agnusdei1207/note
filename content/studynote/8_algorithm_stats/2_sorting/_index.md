@@ -1,7 +1,8 @@
 +++
-weight = 7002
+weight = 2
 title = "2. 정렬 알고리즘"
 [extra]
+sort_by = "weight"
 +++
 
 > **핵심 인사이트**

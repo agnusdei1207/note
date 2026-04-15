@@ -1,5 +1,5 @@
 +++
-weight = 10066
+weight = 66
 title = "분류 (Classification)"
 date = "2026-03-04"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 395
 title = "395. 검증 (Verification)"
 date = "2026-04-09"
 description = "소프트웨어를 올바르게 만들고 있는가(Are we building the product right?)를 확인하는 개발 과정의 구조적/정적 평가 활동"

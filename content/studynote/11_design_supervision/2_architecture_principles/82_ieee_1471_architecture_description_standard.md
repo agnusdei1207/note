@@ -1,4 +1,5 @@
 +++
+weight = 82
 title = "82. IEEE 1471 (ISO/IEC 42010) - 아키텍처 명세 국제 표준"
 date = "2026-04-10"
 [extra]

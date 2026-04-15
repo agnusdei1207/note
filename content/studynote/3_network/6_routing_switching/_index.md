@@ -1,6 +1,7 @@
 +++
-weight = 3006
+weight = 6
 title = "6. 라우팅 및 스위칭 기술"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

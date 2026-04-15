@@ -1,4 +1,5 @@
 +++
+weight = 210
 title = "210. DANE (DNS-Based Auth of Named Entities) - TLSA 인증서 고정"
 date = "2026-04-10"
 [extra]

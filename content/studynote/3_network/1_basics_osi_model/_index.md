@@ -1,6 +1,7 @@
 +++
-weight = 3001
+weight = 1
 title = "1. 네트워크 기초 및 OSI 7계층"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

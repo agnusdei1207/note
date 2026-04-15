@@ -1,4 +1,5 @@
 +++
+weight = 542
 title = "542. API 게이트웨이 (API Gateway) - 인증, 라우팅, 로드밸런싱, 통합(Aggregation)"
 +++
 

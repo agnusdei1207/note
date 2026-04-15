@@ -1,4 +1,5 @@
 +++
+weight = 98
 title = "98. K8s 스토리지 관리 - 볼륨, PV, PVC (영구 스토리지)"
 date = "2026-04-10"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 94
 title = "94. 인그레스 (Ingress) - K8s L7 URL 라우팅 통합 게이트웨이"
 date = "2026-04-10"
 [extra]

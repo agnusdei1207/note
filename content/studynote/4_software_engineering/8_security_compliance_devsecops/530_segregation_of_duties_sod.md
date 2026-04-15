@@ -1,4 +1,5 @@
 +++
+weight = 530
 title = "530. 보안 조직 분리 정책 위반(SoD, Segregation of Duties)의 SW 통제 로직"
 +++
 

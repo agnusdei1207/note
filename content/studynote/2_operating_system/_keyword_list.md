@@ -1,9 +1,11 @@
 +++
+weight = 9999
 title = "02. 운영체제 키워드 목록"
 date = "2026-03-04"
 [extra]
 categories = "studynote-operating-system"
 +++
+weight = 9999
 
 # 운영체제 심화 키워드 목록 (기술사 최적화 800제)
 

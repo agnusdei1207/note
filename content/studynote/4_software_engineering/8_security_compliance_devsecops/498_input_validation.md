@@ -1,4 +1,5 @@
 +++
+weight = 498
 title = "498. 입력 데이터 검증 및 표현 (Input Validation) 원칙"
 +++
 

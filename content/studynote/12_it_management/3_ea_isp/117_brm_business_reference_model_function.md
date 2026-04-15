@@ -1,4 +1,5 @@
 +++
+weight = 117
 title = "117. BRM (Business Reference Model) - 공공 업무 기능 분류 체계"
 date = "2026-04-10"
 [extra]

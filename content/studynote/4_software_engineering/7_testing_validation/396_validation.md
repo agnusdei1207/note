@@ -1,4 +1,5 @@
 +++
+weight = 396
 title = "396. 확인 (Validation)"
 date = "2026-04-09"
 description = "올바른 제품을 만들었는가(Are we building the right product?)를 묻는 사용자 목적과 비즈니스 요구사항 충족 평가 활동"

@@ -1,4 +1,5 @@
 +++
+weight = 47
 title = "47. 에러 버짓 (Error Budget) - 100% 가용성의 비현실성"
 date = "2026-04-10"
 [extra]

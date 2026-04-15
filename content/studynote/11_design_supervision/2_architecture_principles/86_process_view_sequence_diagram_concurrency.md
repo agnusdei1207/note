@@ -1,4 +1,5 @@
 +++
+weight = 86
 title = "86. 프로세스 뷰 (Process View) - 시스템의 동시성 및 동적 성능 설계"
 date = "2026-04-10"
 [extra]

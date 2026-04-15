@@ -1,5 +1,5 @@
 +++
-weight = 9010
+weight = 10
 title = "10: 인공지능 (Artificial Intelligence)"
 render = true
 sort_by = "weight"

@@ -1,6 +1,7 @@
 +++
-weight = 9005
+weight = 4
 title = "4. 강화 학습, MLOps 및 XAI"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

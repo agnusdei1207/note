@@ -1,6 +1,7 @@
 +++
-weight = 11009
+weight = 9
 title = "9. 객체지향 설계 원칙 및 심화 설계"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

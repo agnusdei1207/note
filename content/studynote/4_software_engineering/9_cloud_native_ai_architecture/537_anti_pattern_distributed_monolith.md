@@ -1,4 +1,5 @@
 +++
+weight = 537
 title = "537. 안티패턴: 분산 모놀리스 (Distributed Monolith) - 독립 배포 불가능한 MSA"
 +++
 

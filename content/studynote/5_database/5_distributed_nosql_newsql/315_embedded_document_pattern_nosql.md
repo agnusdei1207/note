@@ -1,4 +1,5 @@
 +++
+weight = 315
 title = "315. 임베디드 도큐먼트 (Embedded Document) 패턴 - 연관 데이터를 한 문서에 중첩 저장 (조인 배제)"
 date = "2026-04-07"
 [extra]

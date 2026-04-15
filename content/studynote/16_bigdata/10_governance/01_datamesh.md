@@ -1,5 +1,5 @@
 +++
-weight = 16010
+weight = 1
 title = "01. 데이터 메시 (Data Mesh) - 도메인 분권형 데이터 아키텍처 패러다임"
 date = "2026-04-05"
 [extra]

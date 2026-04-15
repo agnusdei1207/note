@@ -1,4 +1,5 @@
 +++
+weight = 112
 title = "112. 자크만 프레임워크 (Zachman Framework) - EA의 시초"
 date = "2026-04-10"
 [extra]

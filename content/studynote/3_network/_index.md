@@ -1,5 +1,5 @@
 +++
-weight = 2003
+weight = 3
 title = "3: 네트워크 (Network)"
 render = true
 sort_by = "weight"

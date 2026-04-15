@@ -1,4 +1,5 @@
 +++
+weight = 76
 title = "76. 가치 흐름 매핑 (Value Stream Mapping) - Lean 기법, 낭비(Muda) 요소 식별 제거"
 date = "2026-04-07"
 [extra]

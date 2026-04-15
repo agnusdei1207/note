@@ -1,4 +1,5 @@
 +++
+weight = 203
 title = "203. BPMN 2.0 (Business Process Model and Notation)"
 date = "2026-04-10"
 [extra]

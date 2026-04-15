@@ -1,4 +1,5 @@
 +++
+weight = 522
 title = "522. 블록체인/스마트 컨트랙트 (Smart Contract) 보안 감사 (Reentrancy 공격 방어 등)"
 +++
 

@@ -1,4 +1,5 @@
 +++
+weight = 61
 title = "61. 데이터 마이닝 KDD와 CRISP-DM 방법론"
 date = "2026-04-10"
 [extra]

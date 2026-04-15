@@ -1,9 +1,9 @@
-+++
-title = "VulnABLE CTF [LUXORA] Write-up: MFA Bypass 🥈 Silver"
++++title = "VulnABLE CTF [LUXORA] Write-up: MFA Bypass 🥈 Silver"
 date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "MFA Bypass", "Silver", "Race Condition", "TOCTOU", "Write-up"]
+weight = 2
 +++
 
 # VulnABLE CTF [LUXORA] Write-up: MFA Bypass 🥈 Silver

@@ -1,4 +1,5 @@
 +++
+weight = 215
 title = "215. MECE (Mutually Exclusive, Collectively Exhaustive) - 중복 누락 없는 논리"
 date = "2026-04-10"
 [extra]

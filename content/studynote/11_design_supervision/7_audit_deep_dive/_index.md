@@ -2,6 +2,7 @@
 weight = 7
 title = "7. 시험 빈출 요약 (2) - IT 감사 심화"
 [extra]
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

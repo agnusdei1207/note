@@ -1,4 +1,5 @@
 +++
+weight = 234
 title = "234. IPS (Intrusion Prevention System) - 인라인 공격 능동 차단"
 date = "2026-04-10"
 [extra]

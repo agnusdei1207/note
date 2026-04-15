@@ -1,4 +1,5 @@
 +++
+weight = 91
 title = "91. L1/L2 규제 - 가중치 감쇠(Weight Decay)와 과적합 방지"
 date = "2026-04-10"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 533
 title = "533. 비즈니스 능력에 따른 분해 (Decompose by Business Capability)"
 +++
 

@@ -1,4 +1,5 @@
 +++
+weight = 479
 title = "479. Cryptographic Failures (암호화 실패 / 민감 데이터 노출)"
 +++
 

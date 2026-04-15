@@ -1,4 +1,5 @@
 +++
+weight = 54
 title = "54. 최소 컷 (Min Cut) — Max-Flow Min-Cut 정리"
 date = "2026-04-10"
 [extra]

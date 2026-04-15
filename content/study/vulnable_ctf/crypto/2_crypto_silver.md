@@ -1,9 +1,9 @@
-+++
-title = "VulnABLE CTF [LUXORA] Write-up: Weak Crypto 🥈 Silver"
++++title = "VulnABLE CTF [LUXORA] Write-up: Weak Crypto 🥈 Silver"
 date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Crypto", "Silver", "ECB Mode", "Block Cipher", "Write-up"]
+weight = 2
 +++
 
 # VulnABLE CTF [LUXORA] Write-up: Weak Crypto 🥈 Silver

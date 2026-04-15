@@ -1,9 +1,9 @@
-+++
-title = "VulnABLE CTF [LUXORA] Write-up: Reversing Chain 🥈 Silver"
++++title = "VulnABLE CTF [LUXORA] Write-up: Reversing Chain 🥈 Silver"
 date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Reverse Engineering", "Silver", "Dynamic Debugging", "GDB", "Write-up"]
+weight = 2
 +++
 
 # VulnABLE CTF [LUXORA] Write-up: Reversing Chain 🥈 Silver

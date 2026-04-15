@@ -1,4 +1,5 @@
 +++
+weight = 124
 title = "124. EA 관리 시스템 (EAMS) - 전사 IT 지도 포털 저장소"
 date = "2026-04-10"
 [extra]

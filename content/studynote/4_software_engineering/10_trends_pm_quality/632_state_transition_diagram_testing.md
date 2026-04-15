@@ -1,4 +1,5 @@
 +++
+weight = 632
 title = "632. 상태 전이 (State Transition) 다이어그램"
 date = "2026-04-07"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 67
 title = "67. Pull Request (PR) - 머지 리퀘스트 및 코드 리뷰 프로세스"
 date = "2026-04-10"
 [extra]

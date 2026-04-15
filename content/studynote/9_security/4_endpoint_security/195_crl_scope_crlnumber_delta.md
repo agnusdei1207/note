@@ -1,4 +1,5 @@
 +++
+weight = 195
 title = "195. CRL Scope — 전체/crlNumber 용도"
 date = "2026-04-07"
 [extra]

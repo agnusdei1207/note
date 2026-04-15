@@ -1,6 +1,7 @@
 +++
-weight = 9000
+weight = 1
 title = "1. AI 기초 및 지능형 에이전트"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

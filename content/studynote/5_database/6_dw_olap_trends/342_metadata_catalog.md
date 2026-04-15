@@ -1,6 +1,6 @@
 +++
 title = "342. 메타데이터 카탈로그 (Hive Metastore, AWS Glue) - 데이터 레이크 자산 검색 지원"
-weight = 4342
+weight = 342
 +++
 
 > **💡 핵심 인사이트**

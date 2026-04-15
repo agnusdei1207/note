@@ -1,7 +1,8 @@
 +++
-weight = 7003
+weight = 3
 title = "3. 탐색 및 그래프 알고리즘"
 [extra]
+sort_by = "weight"
 +++
 
 > **핵심 인사이트**

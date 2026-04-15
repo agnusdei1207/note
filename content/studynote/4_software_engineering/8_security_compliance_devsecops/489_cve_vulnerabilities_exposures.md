@@ -1,4 +1,5 @@
 +++
+weight = 489
 title = "489. CVE (Common Vulnerabilities and Exposures) - 공개된 보안 취약점 목록"
 +++
 

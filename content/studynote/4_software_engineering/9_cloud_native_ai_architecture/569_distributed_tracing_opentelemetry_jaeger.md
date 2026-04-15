@@ -1,4 +1,5 @@
 +++
+weight = 569
 title = "569. 분산 추적 (Distributed Tracing) - 트랜잭션 경로 추적 (OpenTelemetry, Jaeger, Zipkin)"
 +++
 

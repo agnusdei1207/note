@@ -1,6 +1,7 @@
 +++
-weight = 2003
+weight = 3
 title = "3. CPU 스케줄링 알고리즘"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

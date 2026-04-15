@@ -1,9 +1,9 @@
-+++
-title = "VulnABLE CTF [LUXORA] Write-up: Initial Access (Flag 1)"
++++title = "VulnABLE CTF [LUXORA] Write-up: Initial Access (Flag 1)"
 date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "File Upload", "Initial Access", "Reverse Shell", "Write-up"]
+weight = 1
 +++
 
 # VulnABLE CTF [LUXORA] Write-up: Initial Access (Flag 1)

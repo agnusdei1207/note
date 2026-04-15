@@ -1,4 +1,5 @@
 +++
+weight = 46
 title = "46. Retire (폐기) / Retain (유지) - 클라우드 이관 보류 및 시스템 제거"
 date = "2026-04-10"
 [extra]

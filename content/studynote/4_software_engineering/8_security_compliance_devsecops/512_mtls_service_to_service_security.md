@@ -1,4 +1,5 @@
 +++
+weight = 512
 title = "512. 마이크로서비스 간 보안 (Service-to-Service Security) - mTLS (상호 TLS 인증)"
 +++
 

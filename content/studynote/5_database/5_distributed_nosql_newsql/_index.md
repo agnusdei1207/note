@@ -1,6 +1,7 @@
 +++
-weight = 5005
+weight = 5
 title = "5. 분산 데이터베이스, NoSQL 및 NewSQL"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

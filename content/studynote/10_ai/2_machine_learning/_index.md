@@ -1,6 +1,7 @@
 +++
-weight = 9002
+weight = 2
 title = "2. 머신러닝 기초 및 주요 기법"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

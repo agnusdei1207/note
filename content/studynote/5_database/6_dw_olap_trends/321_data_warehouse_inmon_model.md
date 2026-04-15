@@ -1,4 +1,5 @@
 +++
+weight = 321
 title = "321. 데이터 웨어하우스 (Data Warehouse, DW) - 의사결정 지원을 위한 통합, 주젯 중심, 시계열, 비휘발성 저장소 (Inmon 모델)"
 date = "2026-04-07"
 [extra]

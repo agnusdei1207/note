@@ -1,6 +1,7 @@
 +++
-weight = 8007
+weight = 7
 title = "7. 기초 통계학 및 데이터 요약"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

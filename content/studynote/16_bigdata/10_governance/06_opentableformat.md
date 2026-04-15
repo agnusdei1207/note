@@ -1,5 +1,5 @@
 +++
-weight = 16010
+weight = 6
 title = "06. 오픈 테이블 포맷 (Open Table Format) - 레이크하우스의 핵심 기반 기술"
 date = "2026-04-05"
 [extra]

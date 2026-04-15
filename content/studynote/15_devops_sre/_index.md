@@ -1,5 +1,5 @@
 +++
-weight = 14000
+weight = 15
 title = "15: 데브옵스 및 SRE (DevOps & SRE)"
 render = true
 sort_by = "weight"

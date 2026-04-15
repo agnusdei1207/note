@@ -1,6 +1,7 @@
 +++
-weight = 7004
+weight = 4
 title = "4. 비즈니스 프로세스 및 컨설팅"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

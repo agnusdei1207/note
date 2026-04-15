@@ -1,4 +1,5 @@
 +++
+weight = 240
 title = "240. Suricata (수리카타) - 멀티스레드 차세대 NIDS 엔진"
 date = "2026-04-10"
 [extra]

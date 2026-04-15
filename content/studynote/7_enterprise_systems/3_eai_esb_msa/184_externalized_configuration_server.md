@@ -1,4 +1,5 @@
 +++
+weight = 184
 title = "184. 중앙 집중화된 구성 관리 (Externalized Configuration)"
 date = "2026-04-10"
 [extra]

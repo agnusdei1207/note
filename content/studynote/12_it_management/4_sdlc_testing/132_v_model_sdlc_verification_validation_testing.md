@@ -1,4 +1,5 @@
 +++
+weight = 132
 title = "132. V 모델 - SDLC 확장과 Validation/Verification 테스트 대응"
 date = "2026-04-10"
 [extra]

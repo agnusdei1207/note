@@ -1,4 +1,5 @@
 +++
+weight = 531
 title = "531. 클라우드 네이티브 아키텍처 (Cloud Native Architecture) 철학"
 +++
 

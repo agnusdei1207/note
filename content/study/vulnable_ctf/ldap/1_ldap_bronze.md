@@ -1,9 +1,9 @@
-+++
-title = "VulnABLE CTF [LUXORA] Write-up: LDAP Injection 🥉 Bronze"
++++title = "VulnABLE CTF [LUXORA] Write-up: LDAP Injection 🥉 Bronze"
 date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "LDAP Injection", "Bronze", "Directory Service", "Write-up"]
+weight = 1
 +++
 
 # VulnABLE CTF [LUXORA] Write-up: LDAP Injection 🥉 Bronze

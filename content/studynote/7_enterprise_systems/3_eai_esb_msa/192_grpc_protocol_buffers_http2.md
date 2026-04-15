@@ -1,4 +1,5 @@
 +++
+weight = 192
 title = "192. gRPC - Protocol Buffers 기반 HTTP/2 바이너리 스트림 통신"
 date = "2026-04-10"
 [extra]

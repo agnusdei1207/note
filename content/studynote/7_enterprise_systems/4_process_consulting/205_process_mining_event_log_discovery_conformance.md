@@ -1,4 +1,5 @@
 +++
+weight = 205
 title = "205. 프로세스 마이닝 (Process Mining) - 시스템 이벤트 로그 기반 업무 분석"
 date = "2026-04-10"
 [extra]

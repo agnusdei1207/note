@@ -1,4 +1,5 @@
 +++
+weight = 567
 title = "567. 메트릭 (Metrics) - 시계열 데이터 수집 (Prometheus, Grafana)"
 +++
 

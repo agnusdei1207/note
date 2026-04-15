@@ -1,4 +1,5 @@
 +++
+weight = 189
 title = "189. Authenticode — Microsoft 코드 서명"
 date = "2026-04-07"
 [extra]

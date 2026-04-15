@@ -1,4 +1,5 @@
 +++
+weight = 243
 title = "243. OWASP Core Rule Set (CRS) - WAF(웹 방화벽) 룰 세트 표준"
 date = "2026-04-10"
 [extra]

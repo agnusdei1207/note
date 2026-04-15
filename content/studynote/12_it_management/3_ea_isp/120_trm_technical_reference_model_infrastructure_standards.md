@@ -1,4 +1,5 @@
 +++
+weight = 120
 title = "120. TRM (Technical Reference Model) - 기술 인프라 요소 표준"
 date = "2026-04-10"
 [extra]

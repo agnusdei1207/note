@@ -1,4 +1,5 @@
 +++
+weight = 128
 title = "128. BPR 4대 핵심 원칙 - Fundamental, Radical, Process, Redesign"
 date = "2026-04-10"
 [extra]

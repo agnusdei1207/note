@@ -1,4 +1,5 @@
 +++
+weight = 532
 title = "532. 마이크로서비스 (Microservices) 분해 패턴"
 +++
 

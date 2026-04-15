@@ -1,6 +1,7 @@
 +++
-weight = 2009
+weight = 9
 title = "9. 파일 시스템 및 디스크 관리"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

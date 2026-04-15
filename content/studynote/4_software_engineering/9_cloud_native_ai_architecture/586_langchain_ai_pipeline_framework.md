@@ -1,4 +1,5 @@
 +++
+weight = 586
 title = "586. 랭체인 (LangChain) 프레임워크 기반 AI 파이프라인 설계"
 +++
 

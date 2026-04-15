@@ -1,4 +1,5 @@
 +++
+weight = 64
 title = "64. Git Flow - 5개 브랜치 전략과 릴리스 관리"
 date = "2026-04-10"
 [extra]

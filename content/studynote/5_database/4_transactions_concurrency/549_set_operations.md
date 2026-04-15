@@ -1,5 +1,5 @@
 +++
-weight = 49
+weight = 549
 title = "549. AI 파운데이션 모델 RAG 패턴 융합 벡터 DB 핵심 아키텍처"
 description = "UNION, INTERSECT, EXCEPT/MINUS"
 date = 2026-03-26

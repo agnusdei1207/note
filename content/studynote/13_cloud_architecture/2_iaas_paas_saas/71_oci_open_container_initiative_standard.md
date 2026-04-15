@@ -1,4 +1,5 @@
 +++
+weight = 71
 title = "71. OCI (Open Container Initiative) - 컨테이너 이미지 포맷과 런타임에 대한 글로벌 표준 규격 (도커 종속성 탈피 목적)"
 date = "2026-04-07"
 [extra]

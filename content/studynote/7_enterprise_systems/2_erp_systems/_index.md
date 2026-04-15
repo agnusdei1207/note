@@ -1,6 +1,7 @@
 +++
-weight = 7002
+weight = 2
 title = "2. 전사적 자원 관리 (ERP) 시스템"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

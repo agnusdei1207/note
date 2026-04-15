@@ -1,5 +1,5 @@
 +++
-weight = 10064
+weight = 64
 title = "독립 변수와 종속 변수 (Independent and Dependent Variables)"
 date = "2026-03-04"
 [extra]

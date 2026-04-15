@@ -1,4 +1,5 @@
 +++
+weight = 557
 title = "557. 멀티 마스터 충돌 해결 - LWW (Last Writer Wins) 메커니즘"
 date = "2026-04-10"
 [extra]

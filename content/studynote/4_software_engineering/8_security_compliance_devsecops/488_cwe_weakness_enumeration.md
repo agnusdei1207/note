@@ -1,4 +1,5 @@
 +++
+weight = 488
 title = "488. CWE (Common Weakness Enumeration) - 보안 약점 사전"
 +++
 

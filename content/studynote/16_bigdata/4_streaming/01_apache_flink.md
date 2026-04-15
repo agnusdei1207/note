@@ -1,5 +1,5 @@
 +++
-weight = 16004
+weight = 1
 title = "01. Apache Flink - 상태 기반 스트리밍処理의 完成形"
 date = "2026-04-05"
 [extra]

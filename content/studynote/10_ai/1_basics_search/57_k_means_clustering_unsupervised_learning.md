@@ -1,4 +1,5 @@
 +++
+weight = 57
 title = "57. K-Means 군집화 (비지도 학습) - K개의 중심점(Centroid)을 잡고 거리 기반 데이터 할당, 중심점 이동 반복 EM(Expectation Maximization)"
 date = "2026-04-07"
 [extra]

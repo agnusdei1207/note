@@ -1,4 +1,5 @@
 +++
+weight = 481
 title = "481. Insecure Design (안전하지 않은 설계)"
 +++
 

@@ -1,4 +1,5 @@
 +++
+weight = 81
 title = "81. 차원 축소 (Dimensionality Reduction) 및 PCA"
 date = "2026-04-12"
 [extra]

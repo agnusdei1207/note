@@ -1,6 +1,7 @@
 +++
-weight = 3004
+weight = 4
 title = "4. 전송 계층 및 TCP/UDP"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

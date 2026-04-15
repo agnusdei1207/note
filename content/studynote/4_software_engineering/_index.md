@@ -1,5 +1,5 @@
 +++
-weight = 3000
+weight = 4
 title = "4: 소프트웨어 공학 (Software Engineering)"
 render = true
 sort_by = "weight"

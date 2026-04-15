@@ -1,4 +1,5 @@
 +++
+weight = 236
 title = "236. Anomaly-based detection — 정상 행위 기반 이상 탐지"
 date = "2026-04-10"
 [extra]

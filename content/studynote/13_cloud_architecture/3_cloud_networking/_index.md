@@ -1,7 +1,8 @@
 +++
-weight = 12007
+weight = 3
 title = "7. 클라우드 네트워킹"
 [extra]
+sort_by = "weight"
 +++
 
 # 7. 클라우드 네트워킹

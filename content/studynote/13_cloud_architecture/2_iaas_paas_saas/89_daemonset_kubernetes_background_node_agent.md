@@ -1,4 +1,5 @@
 +++
+weight = 89
 title = "89. 데몬셋 (DaemonSet) - K8s 전 노드 백그라운드 파드 배포"
 date = "2026-04-10"
 [extra]

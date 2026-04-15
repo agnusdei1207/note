@@ -1,4 +1,5 @@
 +++
+weight = 507
 title = "507. 세션 관리 (Session Management) 보완 - 만료 시간, 재사용 방지, 세션 ID 추측 난해성"
 +++
 

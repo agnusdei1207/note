@@ -1,4 +1,5 @@
 +++
+weight = 53
 title = "53. DataOps - 데이터 파이프라인 CI/CD 자동화 및 버저닝"
 date = "2026-04-10"
 [extra]

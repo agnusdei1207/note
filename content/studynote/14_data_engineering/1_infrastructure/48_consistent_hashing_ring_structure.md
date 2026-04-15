@@ -1,4 +1,5 @@
 +++
+weight = 48
 title = "48. 컨시스턴트 해싱 (Consistent Hashing) - 링 구조 분산 저장"
 date = "2026-04-10"
 [extra]

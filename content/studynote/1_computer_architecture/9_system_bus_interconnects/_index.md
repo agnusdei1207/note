@@ -1,6 +1,7 @@
 +++
-weight = 1009
+weight = 9
 title = "9. 시스템 버스 및 상호 연결망"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

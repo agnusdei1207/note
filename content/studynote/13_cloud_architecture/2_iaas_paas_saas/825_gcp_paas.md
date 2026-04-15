@@ -1,5 +1,5 @@
 +++
-weight = 20
+weight = 825
 title = "825. GCP 주요 서비스 (IaaS/PaaS)"
 description = "Google Cloud Platform의 IaaS/PaaS 대표 서비스와 활용"
 date = 2026-03-26

@@ -1,4 +1,5 @@
 +++
+weight = 121
 title = "121. PRM (Performance Reference Model) - IT 투자 성과 평가 지표"
 date = "2026-04-10"
 [extra]

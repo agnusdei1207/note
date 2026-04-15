@@ -1,4 +1,5 @@
 +++
+weight = 79
 title = "79. 원-핫 인코딩 (One-hot Encoding) - 범주형 변수의 더미 변수화"
 date = "2026-04-10"
 [extra]

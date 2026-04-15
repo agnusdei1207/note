@@ -1,4 +1,5 @@
 +++
+weight = 474
 title = "474. 위협 모델링 (Threat Modeling) 아키텍처 보안 분석"
 +++
 

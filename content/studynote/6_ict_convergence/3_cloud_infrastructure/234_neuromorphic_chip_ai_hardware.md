@@ -1,4 +1,5 @@
 +++
+weight = 234
 title = "234. 뉴로모픽 반도체 (Neuromorphic Chip) - 초저전력 뇌 모방 칩"
 date = "2026-04-10"
 [extra]

@@ -1,7 +1,8 @@
 +++
-weight = 7001
+weight = 1
 title = "1. 알고리즘 기초"
 [extra]
+sort_by = "weight"
 +++
 
 > **핵심 인사이트**

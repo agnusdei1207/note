@@ -1,6 +1,7 @@
 +++
-weight = 7009
+weight = 9
 title = "9. 디지털 트랜스포메이션 (DX) 전략"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

@@ -1,6 +1,7 @@
 +++
-weight = 9010
+weight = 10
 title = "10. PKI 및 보안 프로토콜"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

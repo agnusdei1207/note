@@ -1,4 +1,5 @@
 +++
+weight = 624
 title = "624. 클라우드 네이티브 12 Factor App"
 date = "2026-04-07"
 [extra]

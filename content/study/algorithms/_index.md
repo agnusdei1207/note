@@ -1,7 +1,7 @@
 +++
 title = "알고리즘 심화"
 description = "코딩 테스트, 알고리즘 심화 구현 학습"
-sort_by = "title"
+sort_by = "weight"
 +++
 
 # 알고리즘 심화

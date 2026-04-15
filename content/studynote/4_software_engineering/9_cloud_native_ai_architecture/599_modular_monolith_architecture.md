@@ -1,4 +1,5 @@
 +++
+weight = 599
 title = "599. 모듈러 모놀리스 (Modular Monolith) 아키텍처 - MSA 전환 전 단계, 모듈 간 강결합 방지 아키텍처"
 +++
 

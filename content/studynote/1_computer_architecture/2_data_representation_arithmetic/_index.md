@@ -1,6 +1,7 @@
 +++
-weight = 1002
+weight = 2
 title = "2. 데이터 표현 및 연산 장치"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

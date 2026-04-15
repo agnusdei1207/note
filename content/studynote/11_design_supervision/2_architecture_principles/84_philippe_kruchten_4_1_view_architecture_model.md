@@ -1,4 +1,5 @@
 +++
+weight = 84
 title = "84. 필립 크루첸 (Philippe Kruchten)의 4+1 View 모델"
 date = "2026-04-10"
 [extra]

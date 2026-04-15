@@ -1,6 +1,7 @@
 +++
-weight = 3005
+weight = 5
 title = "5. 애플리케이션 계층 및 HTTP/DNS"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

@@ -1,4 +1,5 @@
 +++
+weight = 99
 title = "99. CSI (Container Storage Interface) - K8s 스토리지 범용 표준 플러그인"
 date = "2026-04-10"
 [extra]

@@ -1,5 +1,5 @@
 +++
-weight = 16004
+weight = 2
 title = "02. Apache Kafka - 메시징에서 데이터 허브로의 진화"
 date = "2026-04-05"
 [extra]

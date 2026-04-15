@@ -1,9 +1,9 @@
-+++
-title = "VulnABLE CTF [LUXORA] Write-up: RBAC Bypass 🥉 Bronze"
++++title = "VulnABLE CTF [LUXORA] Write-up: RBAC Bypass 🥉 Bronze"
 date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "RBAC", "Bronze", "Access Control", "API", "Write-up"]
+weight = 1
 +++
 
 # VulnABLE CTF [LUXORA] Write-up: RBAC Bypass 🥉 Bronze

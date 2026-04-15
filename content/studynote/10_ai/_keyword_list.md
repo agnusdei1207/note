@@ -1,9 +1,11 @@
 +++
+weight = 9999
 title = "10. 인공지능 (AI) 및 머신러닝 키워드 목록"
 date = "2026-03-04"
 [extra]
 categories = "studynote-ai"
 +++
+weight = 9999
 
 # 인공지능 (AI) / 머신러닝 / 딥러닝 키워드 목록 (심화 확장판)
 

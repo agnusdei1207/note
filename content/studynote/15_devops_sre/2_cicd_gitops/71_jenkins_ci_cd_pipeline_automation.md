@@ -1,4 +1,5 @@
 +++
+weight = 71
 title = "71. 젠킨스 (Jenkins) - 오픈소스 CI/CD 자동화 빌드 서버"
 date = "2026-04-10"
 [extra]

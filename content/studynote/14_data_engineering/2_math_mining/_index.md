@@ -1,6 +1,7 @@
 +++
-weight = 14002
+weight = 2
 title = "2. 데이터 수학 및 마이닝 공학"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

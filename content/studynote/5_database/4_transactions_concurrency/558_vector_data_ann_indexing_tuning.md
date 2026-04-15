@@ -1,4 +1,5 @@
 +++
+weight = 558
 title = "558. 벡터 데이터 ANN 인덱싱 튜닝 (M, efConstruction)"
 date = "2026-04-10"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 484
 title = "484. Identification and Authentication Failures (인증 및 세션 관리 실패)"
 +++
 

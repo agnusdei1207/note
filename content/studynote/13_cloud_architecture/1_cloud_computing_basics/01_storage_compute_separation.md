@@ -1,5 +1,5 @@
 +++
-weight = 13001
+weight = 1
 title = "01. 스토리지와 컴퓨팅 분리 (Storage-Compute Separation) - 모던 데이터 아키텍처의 핵심 설계 원칙"
 date = "2026-04-05"
 [extra]

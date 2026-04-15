@@ -1,4 +1,5 @@
 +++
+weight = 92
 title = "92. NodePort - 워커 노드의 특정 물리 포트 외부 노출"
 date = "2026-04-10"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 194
 title = "194. Authority Information Access — OCSP 응답자 위치"
 date = "2026-04-07"
 [extra]

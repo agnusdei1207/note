@@ -1,4 +1,5 @@
 +++
+weight = 483
 title = "483. Vulnerable and Outdated Components (취약하고 만료된 컴포넌트)"
 +++
 

@@ -1,4 +1,5 @@
 +++
+weight = 241
 title = "241. BDI (Bridge Domain Interface) - VXLAN 오버레이 네트워크 연동"
 date = "2026-04-10"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 157
 title = "157. RESTful API 성숙도 모델 (Maturity Model)"
 date = "2026-04-09"
 description = "시스템의 API가 얼마나 순수한 REST의 철학과 구조를 잘 따르고 있는지를 0단계부터 3단계까지 평가하고 분류하는 객관적 가이드라인 계층"

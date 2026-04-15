@@ -1,4 +1,5 @@
 +++
+weight = 84
 title = "84. 컨테이너 런타임 (Container Runtime) - 파드 구동의 심장 containerd"
 date = "2026-04-10"
 [extra]

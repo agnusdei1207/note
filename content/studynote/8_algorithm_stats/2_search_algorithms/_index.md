@@ -1,6 +1,7 @@
 +++
-weight = 8002
+weight = 2
 title = "2. 탐색 알고리즘 (Search Algorithms)"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

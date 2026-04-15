@@ -1,5 +1,5 @@
 +++
-weight = 10011
+weight = 11
 title = "11: IT 디자인 및 감리 (Design & Supervision)"
 render = true
 sort_by = "weight"

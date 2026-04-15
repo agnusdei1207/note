@@ -1,6 +1,7 @@
 +++
-weight = 8005
+weight = 5
 title = "5. 동적 계획법 및 그리디 알고리즘"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

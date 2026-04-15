@@ -1,4 +1,5 @@
 +++
+weight = 233
 title = "233. IDS 위치 기반 구조 - In-band (IPS) vs Out-of-band (Mirroring)"
 date = "2026-04-10"
 [extra]

@@ -1,9 +1,9 @@
-+++
-title = "VulnABLE CTF [LUXORA] Write-up: Rate Limit Bypass 🥈 Silver"
++++title = "VulnABLE CTF [LUXORA] Write-up: Rate Limit Bypass 🥈 Silver"
 date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Rate Limit", "Silver", "String Manipulation", "Write-up"]
+weight = 2
 +++
 
 # VulnABLE CTF [LUXORA] Write-up: Rate Limit Bypass 🥈 Silver

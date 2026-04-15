@@ -1,4 +1,5 @@
 +++
+weight = 566
 title = "566. 옵저버빌리티 (Observability / 가시성) 아키텍처"
 +++
 

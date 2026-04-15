@@ -1,4 +1,5 @@
 +++
+weight = 51
 title = "51. 데이터 카탈로그 (Data Catalog) - 메타데이터 검색 및 자산화"
 date = "2026-04-10"
 [extra]

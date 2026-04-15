@@ -1,9 +1,9 @@
-+++
-title = "VulnABLE CTF [LUXORA] Write-up: JWT Attacks 🥇 Gold"
++++title = "VulnABLE CTF [LUXORA] Write-up: JWT Attacks 🥇 Gold"
 date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "JWT", "Gold", "Algorithm Confusion", "Public Key", "Write-up"]
+weight = 3
 +++
 
 # VulnABLE CTF [LUXORA] Write-up: JWT Attacks 🥇 Gold

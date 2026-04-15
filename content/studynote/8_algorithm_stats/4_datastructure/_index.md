@@ -1,7 +1,8 @@
 +++
-weight = 7004
+weight = 4
 title = "4. 자료구조"
 [extra]
+sort_by = "weight"
 +++
 
 > **핵심 인사이트**

@@ -1,4 +1,5 @@
 +++
+weight = 58
 title = "58. IT 컴플라이언스 (Compliance) - 사베인스 옥슬리 법(SOX), 바젤 II, ISMS, GDPR 등 규제 준수"
 date = "2026-04-07"
 [extra]

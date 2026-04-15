@@ -1,5 +1,5 @@
 +++
-weight = 8611
+weight = 611
 title = "611. 조건부 액세스 신호 — 사용자/위험/디바이스/위치"
 description = "시스템의 잠재적 보안 위협을 체계적으로 식별하고 평가하는 위협 모델링(Threat Modeling) 방법론"
 date = 2024-01-15

@@ -1,4 +1,5 @@
 +++
+weight = 74
 title = "74. 깃랩 CI (GitLab CI/CD) - 내장형 파이프라인 자동화"
 date = "2026-04-10"
 [extra]

@@ -1,6 +1,6 @@
 +++
 title = "324. ODS (Operational Data Store) - DW로 가기 전의 임시/운영 데이터 통합 영역"
-weight = 4324
+weight = 324
 +++
 
 > **💡 핵심 인사이트**

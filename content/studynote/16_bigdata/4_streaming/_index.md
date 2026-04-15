@@ -1,6 +1,7 @@
 +++
-weight = 16004
+weight = 4
 title = "4. 실시간 스트리밍 처리 (Real-time Streaming)"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

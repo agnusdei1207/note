@@ -1,4 +1,5 @@
 +++
+weight = 45
 title = "45. 컬럼 지향 저장소 (Columnar Storage) 포맷"
 date = "2026-04-10"
 [extra]

@@ -1,9 +1,9 @@
-+++
-title = "VulnABLE CTF [LUXORA] Write-up: CORS Misconfiguration 🥈 Silver"
++++title = "VulnABLE CTF [LUXORA] Write-up: CORS Misconfiguration 🥈 Silver"
 date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "CORS", "Silver", "Regex Bypass", "Write-up"]
+weight = 2
 +++
 
 # VulnABLE CTF [LUXORA] Write-up: CORS Misconfiguration 🥈 Silver

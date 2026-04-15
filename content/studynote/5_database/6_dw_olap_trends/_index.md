@@ -1,6 +1,7 @@
 +++
-weight = 5006
+weight = 6
 title = "6. 데이터 웨어하우스, OLAP 및 최신 트렌드"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

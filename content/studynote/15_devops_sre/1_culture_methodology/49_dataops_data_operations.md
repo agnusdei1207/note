@@ -1,4 +1,5 @@
 +++
+weight = 49
 title = "49. DataOps - 데이터 파이프라인 품질 및 민첩성 보장"
 date = "2026-04-10"
 [extra]

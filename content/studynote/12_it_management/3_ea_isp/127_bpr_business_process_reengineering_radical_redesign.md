@@ -1,4 +1,5 @@
 +++
+weight = 127
 title = "127. BPR (Business Process Reengineering) - 업무 프로세스 근본적 재설계"
 date = "2026-04-10"
 [extra]

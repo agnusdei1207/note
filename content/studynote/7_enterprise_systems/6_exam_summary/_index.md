@@ -1,6 +1,7 @@
 +++
-weight = 7006
+weight = 6
 title = "6. 시험 빈출 핵심 요약 (Enterprise Systems)"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

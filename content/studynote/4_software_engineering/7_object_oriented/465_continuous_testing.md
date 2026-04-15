@@ -1,4 +1,5 @@
 +++
+weight = 465
 title = "465. 지속적 테스팅 (Continuous Testing) - CI/CD 파이프라인 전 과정에 테스트 자동화 통합"
 +++
 

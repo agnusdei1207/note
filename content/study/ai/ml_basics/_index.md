@@ -1,4 +1,4 @@
 +++
 title = "ml_basics"
-sort_by = "title"
+sort_by = "weight"
 +++

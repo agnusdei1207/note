@@ -1,4 +1,5 @@
 +++
+weight = 543
 title = "543. BFF (Backend For Frontend) - 모바일, 웹 등 클라이언트 전용 맞춤형 게이트웨이"
 +++
 

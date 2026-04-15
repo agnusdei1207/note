@@ -1,4 +1,5 @@
 +++
+weight = 577
 title = "577. 서버 사이드 렌더링 (SSR) 컴포넌트 아키텍처 (Next.js, Nuxt.js)"
 +++
 

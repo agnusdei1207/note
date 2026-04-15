@@ -1,4 +1,5 @@
 +++
+weight = 587
 title = "587. 스타 변환 (Star Transformation) - 데이터 웨어하우스 조인 최적화"
 date = "2026-04-10"
 [extra]

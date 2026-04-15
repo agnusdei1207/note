@@ -1,4 +1,5 @@
 +++
+weight = 229
 title = "229. PEAP (Protected EAP) - TLS 터널 기반 인증 프로토콜"
 date = "2026-04-10"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 90
 title = "90. 서비스 (Service) - K8s 파드의 고정된 네트워크 진입점"
 date = "2026-04-10"
 [extra]

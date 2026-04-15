@@ -1,4 +1,5 @@
 +++
+weight = 224
 title = "224. VLAN (Virtual LAN) - 스위치 기반 브로드캐스트 도메인 분리"
 date = "2026-04-10"
 [extra]

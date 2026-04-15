@@ -1,4 +1,5 @@
 +++
+weight = 239
 title = "239. Snort - 침입 탐지 시스템(IDS)의 오픈소스 절대 표준"
 date = "2026-04-10"
 [extra]

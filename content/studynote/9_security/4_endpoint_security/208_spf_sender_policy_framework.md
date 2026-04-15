@@ -1,4 +1,5 @@
 +++
+weight = 208
 title = "208. SPF (Sender Policy Framework) - 이메일 발신자 인증"
 date = "2026-04-10"
 [extra]

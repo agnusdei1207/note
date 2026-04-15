@@ -1,4 +1,5 @@
 +++
+weight = 72
 title = "72. 선언적 파이프라인 - Jenkinsfile (Pipeline as Code)"
 date = "2026-04-10"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 85
 title = "85. 카나리 배포 (Canary Release) - 1% 트래픽 점진적 무중단 배포"
 date = "2026-04-10"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 114
 title = "114. TOGAF ADM (아키텍처 개발 방법론) - 9단계 마스터플랜"
 date = "2026-04-10"
 [extra]

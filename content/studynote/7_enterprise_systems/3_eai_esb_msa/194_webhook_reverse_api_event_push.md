@@ -1,4 +1,5 @@
 +++
+weight = 194
 title = "194. 웹훅 (Webhook) - 역방향 API 기반 실시간 이벤트 푸시 통신"
 date = "2026-04-10"
 [extra]

@@ -1,5 +1,5 @@
 +++
-weight = 16010
+weight = 4
 title = "04. 데이터 리니지 (Data Lineage) - 데이터 계보 추적 시스템"
 date = "2026-04-05"
 [extra]

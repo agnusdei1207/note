@@ -1,6 +1,7 @@
 ---
 title: AI 파운데이션 모델 RAG 패턴 융합 벡터 DB 핵심 아키텍처
 date: 2026-04-10
+weight: 549
 ---
 
 ### Core Insight

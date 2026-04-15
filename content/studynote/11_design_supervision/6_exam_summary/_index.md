@@ -2,6 +2,7 @@
 weight = 6
 title = "6. 시험 빈출 요약 (1) - 감리 기초"
 [extra]
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

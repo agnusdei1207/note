@@ -1,4 +1,5 @@
 +++
+weight = 86
 title = "86. 레플리카셋 (ReplicaSet) - 파드 수 유지와 자가 치유"
 date = "2026-04-10"
 [extra]

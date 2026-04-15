@@ -1,6 +1,7 @@
 +++
-weight = 3010
+weight = 10
 title = "10. 최신 트렌드, PM 및 품질 관리 표준"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

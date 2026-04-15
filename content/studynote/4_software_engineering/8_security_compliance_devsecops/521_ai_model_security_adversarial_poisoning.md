@@ -1,4 +1,5 @@
 +++
+weight = 521
 title = "521. 인공지능 모델 공격 방어 - 적대적 예제(Adversarial Example), 데이터 포이즈닝 방어 설계"
 +++
 

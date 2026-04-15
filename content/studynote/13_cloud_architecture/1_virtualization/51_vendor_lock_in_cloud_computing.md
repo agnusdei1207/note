@@ -1,4 +1,5 @@
 +++
+weight = 51
 title = "51. 벤더 종속 (Vendor Lock-in) - 클라우드 아키텍처의 함정"
 date = "2026-04-10"
 [extra]

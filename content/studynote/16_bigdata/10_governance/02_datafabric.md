@@ -1,5 +1,5 @@
 +++
-weight = 16010
+weight = 2
 title = "02. 데이터 패브릭 (Data Fabric) - 지능형 데이터 통합 아키텍처"
 date = "2026-04-05"
 [extra]

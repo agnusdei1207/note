@@ -1,4 +1,5 @@
 +++
+weight = 199
 title = "199. Extended Key Usage — serverAuth/clientAuth/codeSigning/emailProtection"
 date = "2026-04-07"
 [extra]

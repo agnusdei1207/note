@@ -1,5 +1,5 @@
 +++
-weight = 16002
+weight = 4
 title = "04. Apache ZooKeeper - 분산 코디네이션의 간호사"
 date = "2026-04-05"
 [extra]

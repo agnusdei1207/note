@@ -1,6 +1,7 @@
 +++
-weight = 12002
+weight = 2
 title = "2. IT 서비스 관리 (ITSM) 및 ITIL v4"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

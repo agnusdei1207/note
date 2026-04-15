@@ -1,4 +1,5 @@
 +++
+weight = 58
 title = "58. SVM (Support Vector Machine) - 두 클래스 간의 마진(Margin)을 최대화하는 초평면(Hyperplane)을 찾는 분류/회귀 모델"
 date = "2026-04-07"
 [extra]

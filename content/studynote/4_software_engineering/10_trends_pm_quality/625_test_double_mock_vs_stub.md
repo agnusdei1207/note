@@ -1,4 +1,5 @@
 +++
+weight = 625
 title = "625. 테스트 더블 Mock과 Stub의 차이"
 date = "2026-04-07"
 [extra]

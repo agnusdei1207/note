@@ -1,4 +1,5 @@
 +++
+weight = 92
 title = "92. 아키텍처 평가 방법론 - ATAM (Architecture Trade-off Analysis Method)"
 date = "2026-04-10"
 [extra]

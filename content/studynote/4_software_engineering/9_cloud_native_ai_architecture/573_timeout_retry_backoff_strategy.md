@@ -1,4 +1,5 @@
 +++
+weight = 573
 title = "573. 타임아웃 (Timeout) 및 재시도 (Retry) 백오프(Backoff) 전략"
 +++
 

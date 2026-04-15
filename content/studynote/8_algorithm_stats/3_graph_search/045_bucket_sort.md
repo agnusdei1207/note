@@ -1,4 +1,5 @@
 +++
+weight = 45
 title = "045. 버킷 정렬 (Bucket Sort)"
 date = "2026-04-09"
 description = "전체 데이터를 적절한 값의 구간별로 매핑된 여러 개의 통(Bucket)으로 분산 격리(Scatter)시킨 뒤, 각각의 통 안에서 삽입 정렬 등을 돌리고 다시 합치는(Gather) 확률 분포 지향적 선형 시간 정렬"

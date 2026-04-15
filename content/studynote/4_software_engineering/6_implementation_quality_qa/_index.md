@@ -1,6 +1,7 @@
 +++
-weight = 3006
+weight = 6
 title = "6. 구현 품질 및 소스 코드 정제"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

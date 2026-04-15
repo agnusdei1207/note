@@ -1,6 +1,7 @@
 +++
-weight = 2001
+weight = 1
 title = "1. 운영체제 개요 및 구조"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

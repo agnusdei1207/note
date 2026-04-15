@@ -1,9 +1,11 @@
 +++
+weight = 9999
 title = "09. 정보보안 키워드 목록"
 date = "2026-03-25"
 [extra]
 categories = "studynote-security"
 +++
+weight = 9999
 
 # 정보보안 (Information Security) 키워드 목록
 

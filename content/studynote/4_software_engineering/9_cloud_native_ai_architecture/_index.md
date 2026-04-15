@@ -1,6 +1,7 @@
 +++
-weight = 3009
+weight = 9
 title = "9. 클라우드 네이티브 및 AI 소프트웨어 공학"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

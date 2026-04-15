@@ -1,4 +1,5 @@
 +++
+weight = 158
 title = "158. 와이파이 6E (Wi-Fi 6E)"
 date = "2026-04-09"
 description = "초혼잡 지대가 된 기존 2.4GHz와 5GHz 대역을 완전히 벗어나, 아무도 침범하지 않은 깨끗한 6GHz 광대역 고속도로를 추가로 뚫어낸 확장(Enhanced) 무선랜"

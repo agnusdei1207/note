@@ -1,6 +1,7 @@
 +++
-weight = 1006
+weight = 6
 title = "6. 메모리 계층 구조 및 캐시 메모리"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

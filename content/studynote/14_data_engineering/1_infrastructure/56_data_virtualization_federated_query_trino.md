@@ -1,4 +1,5 @@
 +++
+weight = 56
 title = "56. 데이터 가상화 연방 쿼리 - Trino와 Presto의 분산 쿼리 엔진"
 date = "2026-04-10"
 [extra]

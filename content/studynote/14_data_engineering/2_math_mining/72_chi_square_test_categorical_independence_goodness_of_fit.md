@@ -1,4 +1,5 @@
 +++
+weight = 72
 title = "72. 카이제곱 검정 (Chi-square Test) - 범주형 데이터 독립성/적합성"
 date = "2026-04-10"
 [extra]

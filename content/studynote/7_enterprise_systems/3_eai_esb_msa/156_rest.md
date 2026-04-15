@@ -1,4 +1,5 @@
 +++
+weight = 156
 title = "156. REST (Representational State Transfer)"
 date = "2026-04-09"
 description = "복잡한 프로토콜(SOAP) 없이 HTTP가 가진 메서드와 명사(URI) 본연의 특징만을 이용해 자원(상태)을 CRUD 조작하는 가볍고 우아한 웹 아키텍처 스타일"

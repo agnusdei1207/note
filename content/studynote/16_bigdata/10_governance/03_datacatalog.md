@@ -1,5 +1,5 @@
 +++
-weight = 16010
+weight = 3
 title = "03. 데이터 카탈로그 (Data Catalog) - 데이터 검색 및 발견의 중앙 허브"
 date = "2026-04-05"
 [extra]

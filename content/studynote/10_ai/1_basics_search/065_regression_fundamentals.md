@@ -1,5 +1,5 @@
 +++
-weight = 10065
+weight = 65
 title = "회귀 (Regression)"
 date = "2026-03-04"
 [extra]

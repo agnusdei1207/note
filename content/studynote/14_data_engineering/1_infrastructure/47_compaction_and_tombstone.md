@@ -1,4 +1,5 @@
 +++
+weight = 47
 title = "47. 콤팩션 (Compaction)과 툼스톤 (Tombstone) 메커니즘"
 date = "2026-04-10"
 [extra]

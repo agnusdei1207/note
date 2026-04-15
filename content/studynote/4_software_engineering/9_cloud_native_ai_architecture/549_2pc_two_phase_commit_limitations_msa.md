@@ -1,4 +1,5 @@
 +++
+weight = 549
 title = "549. 2PC (Two-Phase Commit)의 MSA 적용 한계"
 +++
 

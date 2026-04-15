@@ -1,4 +1,5 @@
 +++
+weight = 501
 title = "501. XSS 유형 - Reflected XSS, Stored XSS, DOM-based XSS"
 +++
 

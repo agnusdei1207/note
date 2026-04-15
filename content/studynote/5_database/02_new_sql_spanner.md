@@ -1,5 +1,5 @@
 +++
-weight = 5000
+weight = 2
 title = "02. 뉴에스큐엘 / 스패너 (NewSQL / Spanner) - RDBMS의 확장성革命"
 date = "2026-04-05"
 [extra]

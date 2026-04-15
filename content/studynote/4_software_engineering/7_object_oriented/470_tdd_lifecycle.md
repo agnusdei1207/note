@@ -1,4 +1,5 @@
 +++
+weight = 470
 title = "470. TDD (Test Driven Development) 생명주기 - 실패하는 테스트 작성(Red) -> 통과하는 최소 코드 작성(Green) -> 리팩토링(Refactor)"
 +++
 

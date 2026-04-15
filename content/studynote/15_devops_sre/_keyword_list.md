@@ -1,9 +1,11 @@
 +++
+weight = 9999
 title = "15. 데브옵스 (DevOps) 및 SRE 키워드 목록"
 date = "2026-03-04"
 [extra]
 categories = "studynote-devops-sre"
 +++
+weight = 9999
 
 # 데브옵스 (DevOps) 및 SRE (사이트 신뢰성 공학) 키워드 목록 (심화 확장판)
 

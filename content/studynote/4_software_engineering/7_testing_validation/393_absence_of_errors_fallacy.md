@@ -1,4 +1,5 @@
 +++
+weight = 393
 title = "393. 오류 부재의 궤변 (Absence of Errors Fallacy)"
 date = "2026-04-09"
 description = "소프트웨어 결함이 존재하지 않더라도 요구사항을 충족하지 못하면 무용지물인 현상"

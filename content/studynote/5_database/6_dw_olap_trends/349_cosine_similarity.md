@@ -1,6 +1,6 @@
 +++
 title = "349. 코사인 유사도 (Cosine Similarity) - 벡터 간 각도 측정"
-weight = 4349
+weight = 349
 +++
 
 > **💡 핵심 인사이트**

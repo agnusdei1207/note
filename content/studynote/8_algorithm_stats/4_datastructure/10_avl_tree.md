@@ -1,5 +1,5 @@
 +++
-weight = 8010
+weight = 10
 title = "AVL 트리 (Adelson-Velsky and Landis Tree)"
 date = "2026-03-05"
 [extra]

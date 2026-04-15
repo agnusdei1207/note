@@ -1,4 +1,5 @@
 +++
+weight = 113
 title = "113. TOGAF - 글로벌 EA 프레임워크와 ADM 방법론"
 date = "2026-04-10"
 [extra]

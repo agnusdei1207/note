@@ -1,4 +1,5 @@
 +++
+weight = 77
 title = "77. 단위 테스트 (Unit Test) 자동화 (JUnit, PyTest)"
 date = "2026-04-10"
 [extra]

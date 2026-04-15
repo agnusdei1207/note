@@ -1,4 +1,5 @@
 +++
+weight = 571
 title = "571. Spark 스트리밍(Micro-batch) vs Flink (Native Stream)"
 date = "2026-04-10"
 [extra]

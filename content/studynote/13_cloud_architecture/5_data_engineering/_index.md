@@ -1,6 +1,7 @@
 +++
-weight = 13005
+weight = 5
 title = "5. 클라우드 데이터 엔지니어링"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

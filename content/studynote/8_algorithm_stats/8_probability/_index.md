@@ -1,6 +1,7 @@
 +++
-weight = 8008
+weight = 8
 title = "8. 확률론 및 확률 분포"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

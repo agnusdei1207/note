@@ -1,9 +1,10 @@
 +++
-weight = 12001
+weight = 1
 title = "1. 클라우드 기초 및 가상화"
 [extra]
 category = "studynote-cloud-architecture"
 kids_analogy = "내 방에 직접 수영장을 만들면 유지보수가麻烦하지만, 커뮤니티 수영장을 회원으로 이용하면设施와 물만 관리하면 돼요. 클라우드도 마찬가지로 컴퓨터 자원을 직접 사두는 대신 필요할 때씩 빌려 쓰는 거예요."
+sort_by = "weight"
 +++
 
 # 1. 클라우드 기초 및 가상화

@@ -1,4 +1,5 @@
 +++
+weight = 487
 title = "487. SSRF (Server-Side Request Forgery) - 서버 측 요청 위조"
 +++
 

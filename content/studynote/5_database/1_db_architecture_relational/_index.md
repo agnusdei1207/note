@@ -1,6 +1,7 @@
 +++
-weight = 5101
+weight = 1
 title = "1. 데이터베이스 기초 및 아키텍처"
+sort_by = "weight"
 +++
 
 # 1. 데이터베이스 기초 및 아키텍처

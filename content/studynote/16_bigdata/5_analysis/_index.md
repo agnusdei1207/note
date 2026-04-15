@@ -1,6 +1,7 @@
 +++
-weight = 16005
+weight = 5
 title = "5. 빅데이터 분석 및 데이터 마이닝"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

@@ -1,6 +1,7 @@
 ---
 title: 공간 데이터 쿼리 기하 연산 MBR 근접 분석 기술 구조
 date: 2026-04-10
+weight: 546
 ---
 
 ### Core Insight

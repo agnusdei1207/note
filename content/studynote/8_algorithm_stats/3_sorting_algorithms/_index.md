@@ -1,6 +1,7 @@
 +++
-weight = 8003
+weight = 3
 title = "3. 정렬 알고리즘 (Sorting Algorithms)"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

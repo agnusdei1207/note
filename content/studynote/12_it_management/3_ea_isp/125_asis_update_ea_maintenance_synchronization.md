@@ -1,4 +1,5 @@
 +++
+weight = 125
 title = "125. 현행화 (As-Is Update) - 아키텍처 생명 유지의 핵심"
 date = "2026-04-10"
 [extra]

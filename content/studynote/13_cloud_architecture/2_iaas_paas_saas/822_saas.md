@@ -1,5 +1,5 @@
 +++
-weight = 17
+weight = 822
 title = "822. SaaS (Software as a Service)"
 description = "SaaS의 정의, 서비스 구조, 대표 서비스"
 date = 2026-03-26

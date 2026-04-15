@@ -1,5 +1,5 @@
 +++
-weight = 4
+weight = 704
 title = "704. LSASS 추출 — Mimikatz, procdump"
 description = "다중 인증 요소(MFA)를 활용한 강화된 인증 전략"
 date = 2024-01-15

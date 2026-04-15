@@ -1,6 +1,7 @@
 ---
 title: 그래프 데이터 최단 경로(Shortest Path) 알고리즘 DB 매핑
 date: 2026-04-10
+weight: 547
 ---
 
 ### Core Insight

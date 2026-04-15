@@ -1,6 +1,7 @@
 +++
-weight = 12007
+weight = 7
 title = "7. 시험 빈출 핵심 요약 (IT Management)"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

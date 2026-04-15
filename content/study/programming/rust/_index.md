@@ -1,7 +1,7 @@
 +++
 title = "Rust"
 description = "Rust 언어 심화 학습"
-sort_by = "title"
+sort_by = "weight"
 +++
 
 # Rust

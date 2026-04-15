@@ -1,6 +1,7 @@
 +++
-weight = 11003
+weight = 3
 title = "3. GoF 디자인 패턴: 생성 및 구조 패턴"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

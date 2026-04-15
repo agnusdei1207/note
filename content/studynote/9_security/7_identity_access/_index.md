@@ -1,6 +1,7 @@
 +++
-weight = 9007
+weight = 7
 title = "7. 신원 및 접근 관리 (IAM)"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

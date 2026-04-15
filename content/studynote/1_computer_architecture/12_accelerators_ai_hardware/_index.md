@@ -1,6 +1,7 @@
 +++
-weight = 1012
+weight = 12
 title = "12. AI 하드웨어 가속기 (NPU, TPU)"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

@@ -1,6 +1,7 @@
 +++
-weight = 13004
+weight = 4
 title = "4. 클라우드 DevOps 및 관측성"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

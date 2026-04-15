@@ -1,6 +1,7 @@
 +++
-weight = 9001
+weight = 1
 title = "1. 보안 개요 및 기본 원칙"
+sort_by = "weight"
 +++
 
 ## 핵심 인사이트 (3줄 요약)

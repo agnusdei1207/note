@@ -1,4 +1,5 @@
 +++
+weight = 46
 title = "46. 챗옵스 (ChatOps) - 메신저 기반 인프라 협업/자동화"
 date = "2026-04-10"
 [extra]

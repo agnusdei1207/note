@@ -1,4 +1,5 @@
 +++
+weight = 593
 title = "593. 디지털 트윈 (Digital Twin) 소프트웨어 통합 통신 아키텍처"
 +++
 

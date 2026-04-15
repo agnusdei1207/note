@@ -1,4 +1,5 @@
 +++
+weight = 534
 title = "534. 하위 도메인에 따른 분해 (Decompose by Subdomain - DDD 기반)"
 +++
 
