@@ -1,6 +1,6 @@
 +++
 title = "174. 엣지 AI (Edge AI) 기술 적용 아키텍처"
-weight = 174
+weight = 188
 +++
 # 174. 엣지 AI (Edge AI) 기술 적용 아키텍처
 

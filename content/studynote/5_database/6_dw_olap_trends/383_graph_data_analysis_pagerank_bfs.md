@@ -1,7 +1,7 @@
 +++
 title = "383. 그래프 DB 알고리즘 (PageRank, BFS)"
 date = "2026-04-10"
-weight = 383
+weight = 386
 [extra]
 categories = "studynote-database"
 +++

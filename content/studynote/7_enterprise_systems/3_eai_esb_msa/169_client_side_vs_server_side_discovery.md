@@ -1,6 +1,6 @@
 +++
 title = "169. 클라이언트 사이드 디스커버리 (Client-side Discovery) vs 서버 사이드 디스커버리"
-weight = 169
+weight = 184
 +++
 # 169. 클라이언트 사이드 디스커버리 (Client-side) vs 서버 사이드 디스커버리
 

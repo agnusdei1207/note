@@ -1,5 +1,5 @@
 +++
-weight = 74
+weight = 75
 title = "74. 순전파 (Forward Propagation) - 인경신경망의 예측 과정"
 date = "2026-04-10"
 [extra]

@@ -1,7 +1,7 @@
 +++
 title = "390. AWS Aurora 스토리지 로깅 분산 쿼럼 쓰기"
 date = "2026-04-10"
-weight = 390
+weight = 393
 [extra]
 categories = "studynote-database"
 +++

@@ -1,5 +1,5 @@
 +++
-weight = 160
+weight = 168
 title = "160. Level 2 - HTTP 메서드의 활용"
 date = "2026-04-09"
 description = "각 리소스 주소(URI)에 맞춰 '가져와(GET), 새로만들어(POST), 통째덮어써(PUT), 지워(DELETE)' 등 동작(행위)을 HTTP 표준 동사와 철저히 일치시키는 전 세계 개발자들의 실무 표준 완성 단계"

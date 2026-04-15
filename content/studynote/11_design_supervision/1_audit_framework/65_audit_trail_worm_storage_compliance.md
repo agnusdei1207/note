@@ -1,5 +1,5 @@
 +++
-weight = 65
+weight = 68
 title = "65. 로그 및 감사 추적 (Audit Trail) - 위변조 방지 컴플라이언스 점검"
 date = "2026-04-10"
 [extra]

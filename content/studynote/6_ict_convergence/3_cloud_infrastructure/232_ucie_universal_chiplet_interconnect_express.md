@@ -1,5 +1,5 @@
 +++
-weight = 232
+weight = 233
 title = "232. UCIe (Universal Chiplet Interconnect Express) - 칩렛 연결 표준"
 date = "2026-04-10"
 [extra]

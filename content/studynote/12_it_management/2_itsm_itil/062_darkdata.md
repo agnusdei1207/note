@@ -1,5 +1,5 @@
 +++
-weight = 62
+weight = 63
 title = "62. GraphX — 분산 그래프 처리, PageRank"
 date = "2026-04-05"
 [extra]

@@ -1,5 +1,5 @@
 +++
-weight = 316
+weight = 319
 title = "316. 참조 (Reference) 패턴 - 문서 크기 한계 시 외부 링크 저장"
 date = "2026-04-07"
 [extra]

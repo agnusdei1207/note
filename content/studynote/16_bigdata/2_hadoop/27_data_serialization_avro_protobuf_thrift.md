@@ -1,5 +1,5 @@
 +++
-weight = 27
+weight = 28
 title = "데이터 직렬화 (Serialization): Avro, Protobuf, Thrift"
 date = "2024-03-24"
 [extra]

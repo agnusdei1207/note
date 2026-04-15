@@ -1,5 +1,5 @@
 +++
-weight = 67
+weight = 73
 title = "서비스 운영 (Service Operation)"
 date = "2024-03-20"
 [extra]

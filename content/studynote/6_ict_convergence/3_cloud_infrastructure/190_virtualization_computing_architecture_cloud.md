@@ -1,6 +1,6 @@
 +++
 title = "190. 가상화 (Virtualization) 컴퓨팅 아키텍처"
-weight = 190
+weight = 191
 +++
 # 190. 가상화 (Virtualization) 컴퓨팅 아키텍처 - 클라우드 컴퓨팅 핵심 기술 물리적 자원 논리적 분할 프로비저닝 하이퍼바이저 격리성
 

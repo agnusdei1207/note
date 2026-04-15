@@ -1,5 +1,5 @@
 +++
-weight = 195
+weight = 210
 title = "195. B2B 연동망 EAI 프로토콜 - EDI 및 VAN 통합망"
 date = "2026-04-10"
 [extra]

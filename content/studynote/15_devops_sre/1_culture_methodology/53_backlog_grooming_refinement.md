@@ -1,6 +1,6 @@
 +++
 title = "백로그 정제 (Backlog Grooming & Refinement)"
-weight = 53
+weight = 55
 date = "2026-03-04"
 [extra]
 categories = "studynote-devops-sre"

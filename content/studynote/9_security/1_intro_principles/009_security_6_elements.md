@@ -1,5 +1,5 @@
 +++
-weight = 9
+weight = 13
 title = "정보보안 6요소 (Security 6 Elements) — CIA + 인증성, 부인방지, 책임추적성"
 date = "2026-03-25"
 [extra]

@@ -1,7 +1,7 @@
 +++
 title = "371. SQL 인젝션 (SQL Injection) 공격 및 방어"
 date = "2026-04-10"
-weight = 371
+weight = 374
 [extra]
 categories = "studynote-database"
 +++

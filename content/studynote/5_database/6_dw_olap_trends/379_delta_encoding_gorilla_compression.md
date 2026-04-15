@@ -1,7 +1,7 @@
 +++
 title = "379. 델타 인코딩 (Delta Encoding) 압축 알고리즘"
 date = "2026-04-10"
-weight = 379
+weight = 382
 [extra]
 categories = "studynote-database"
 +++

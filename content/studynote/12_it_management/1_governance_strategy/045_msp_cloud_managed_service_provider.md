@@ -1,6 +1,6 @@
 +++
 title = "45. 클라우드 매니지드 서비스 (MSP, Managed Service Provider) - 퍼블릭 클라우드 설계, 이전, 운영 대행 전문 기업"
-weight = 45
+weight = 47
 +++
 
 ## 핵심 인사이트 (3줄 요약)

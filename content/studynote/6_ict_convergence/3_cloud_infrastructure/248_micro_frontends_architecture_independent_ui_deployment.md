@@ -1,5 +1,5 @@
 +++
-weight = 248
+weight = 249
 title = "248. 마이크로 프론트엔드 (Micro Frontends) UI 독립 배포 아키텍처"
 date = "2026-04-10"
 [extra]

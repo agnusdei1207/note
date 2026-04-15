@@ -1,5 +1,5 @@
 +++
-weight = 105
+weight = 106
 title = "105. 1x1 합성곱 (1x1 Convolution) - 병목 차원 축소와 파라미터 최적화"
 date = "2026-04-10"
 [extra]

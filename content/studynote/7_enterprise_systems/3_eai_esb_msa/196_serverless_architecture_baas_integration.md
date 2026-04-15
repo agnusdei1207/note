@@ -1,5 +1,5 @@
 +++
-weight = 196
+weight = 211
 title = "196. 서버리스 아키텍처 - BaaS와 FaaS 기반 엔터프라이즈 통합"
 date = "2026-04-10"
 [extra]

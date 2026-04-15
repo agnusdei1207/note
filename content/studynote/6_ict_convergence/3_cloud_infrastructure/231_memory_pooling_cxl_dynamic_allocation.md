@@ -1,5 +1,5 @@
 +++
-weight = 231
+weight = 232
 title = "231. 메모리 풀링 (Memory Pooling) - CXL 기반 동적 메모리 할당"
 date = "2026-04-10"
 [extra]

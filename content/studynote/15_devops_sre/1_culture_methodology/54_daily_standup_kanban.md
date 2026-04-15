@@ -1,6 +1,6 @@
 +++
 title = "데일리 스탠드업 및 칸반 보드 (Daily Standup & Kanban Board)"
-weight = 54
+weight = 57
 date = "2026-03-04"
 [extra]
 categories = "studynote-devops-sre"

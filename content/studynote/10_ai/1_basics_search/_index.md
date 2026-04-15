@@ -1,5 +1,5 @@
 +++
-weight = 1
+weight = 2
 title = "1. 인공지능 기초 및 탐색 알고리즘"
 sort_by = "weight"
 +++

@@ -1,5 +1,5 @@
 +++
-weight = 1
+weight = 2
 title = "1. 알고리즘 복잡도 및 자료구조 기초"
 sort_by = "weight"
 +++

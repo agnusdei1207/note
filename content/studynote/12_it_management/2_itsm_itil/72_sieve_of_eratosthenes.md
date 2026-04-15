@@ -1,6 +1,6 @@
 +++
 title = "72. 개방 주소법 (Open Addressing) — 선형/이차/이중 해싱"
-weight = 72
+weight = 82
 +++
 
 # 72. 에라토스테네스의 체 (Sieve of Eratosthenes)

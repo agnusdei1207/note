@@ -1,5 +1,5 @@
 +++
-weight = 244
+weight = 245
 title = "244. gRPC 기반 서비스 메시 동기 통신망"
 date = "2026-04-10"
 [extra]

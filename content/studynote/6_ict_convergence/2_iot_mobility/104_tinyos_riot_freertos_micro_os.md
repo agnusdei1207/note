@@ -1,6 +1,6 @@
 +++
 title = "104. 초소형 운영체제 (TinyOS, RIOT, FreeRTOS)"
-weight = 104
+weight = 107
 +++
 
 > **💡 핵심 인사이트**  

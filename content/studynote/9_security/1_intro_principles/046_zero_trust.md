@@ -1,7 +1,7 @@
 +++
 title = "046. 제로 트러스트 (Zero Trust) — \"Never Trust, Always Verify\", NIST SP 800-207"
 date = "2026-04-05"
-weight = 46
+weight = 50
 [extra]
 categories = "studynote-security"
 +++

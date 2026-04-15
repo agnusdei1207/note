@@ -1,5 +1,5 @@
 +++
-weight = 6
+weight = 8
 title = "6. 데이터 웨어하우스, OLAP 및 최신 트렌드"
 sort_by = "weight"
 +++

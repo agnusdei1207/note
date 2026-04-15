@@ -1,5 +1,5 @@
 +++
-weight = 7
+weight = 13
 title = "7. 기초 통계학 및 데이터 요약"
 sort_by = "weight"
 +++

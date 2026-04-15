@@ -1,5 +1,5 @@
 +++
-weight = 39
+weight = 42
 title = "OKR (Objectives and Key Results)"
 date = "2026-03-04"
 [extra]

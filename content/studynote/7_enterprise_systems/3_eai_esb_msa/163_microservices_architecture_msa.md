@@ -1,6 +1,6 @@
 +++
 title = "163. 마이크로서비스 아키텍처 (MSA, Microservices Architecture) - 거대한 모놀리식(Monolithic) 앱을 독립적으로 배포 및 확장 가능한 수십~수백 개의 작은 서비스(DB 포함 분리)로 쪼개는 차세대 엔터프라이즈 아키텍처"
-weight = 163
+weight = 174
 +++
 # 163. 마이크로서비스 아키텍처 (MSA, Microservices Architecture)
 

@@ -1,5 +1,5 @@
 +++
-weight = 60
+weight = 62
 title = "RPA 및 초자동화 (Hyperautomation)"
 date = "2024-03-20"
 [extra]

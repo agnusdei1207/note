@@ -1,5 +1,5 @@
 +++
-weight = 2
+weight = 3
 title = "2. 딥러닝 아키텍처 및 신경망 공학"
 sort_by = "weight"
 +++

@@ -1,7 +1,7 @@
 +++
 title = "289. 생성적 적대 신경망 (GAN)과의 차이 (디퓨전은 생성 품질이 압도적, 속도는 GAN 우위)"
 date = "2026-04-11"
-weight = 289
+weight = 294
 [extra]
 categories = "studynote-ict-convergence"
 +++

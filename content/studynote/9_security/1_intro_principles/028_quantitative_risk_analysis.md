@@ -1,5 +1,5 @@
 +++
-weight = 28
+weight = 32
 title = "28. 정량적 위험 분석 — ALE = ARO × SLE, MTBF, MTTF, MTTR"
 date = "2026-04-05"
 [extra]

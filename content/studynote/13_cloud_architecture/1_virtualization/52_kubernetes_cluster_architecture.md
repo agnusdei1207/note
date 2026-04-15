@@ -1,5 +1,5 @@
 +++
-weight = 52
+weight = 53
 title = "52. KVM (Kernel-based Virtual Machine) - 리눅스 커널 자체를 하이퍼바이저로 전환하는 오픈소스 모듈"
 date = "2026-04-05"
 [taxonomies]

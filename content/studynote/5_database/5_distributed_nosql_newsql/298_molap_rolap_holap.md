@@ -1,6 +1,6 @@
 +++
 title = "298. 몽고DB (MongoDB) 아키텍처 - 레플리카 셋 (Replica Set), 샤드 클러스터 (mongos, config server, shard)"
-weight = 298
+weight = 301
 +++
 
 # 298. MOLAP, ROLAP, HOLAP

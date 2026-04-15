@@ -1,5 +1,5 @@
 +++
-weight = 586
+weight = 587
 title = "586. 뷰 조인 프레디케이트 푸시 다운 (Join Predicate Pushdown)"
 date = "2026-04-10"
 [extra]

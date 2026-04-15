@@ -1,5 +1,5 @@
 +++
-weight = 22
+weight = 23
 title = "데이터 자산 평가 (Data Asset Valuation)"
 date = "2024-03-23"
 [extra]

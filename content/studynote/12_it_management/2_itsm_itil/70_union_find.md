@@ -1,6 +1,6 @@
 +++
 title = "70. 트라이 (Trie) — 접두사 탐색, 자동 완성"
-weight = 70
+weight = 79
 +++
 
 # 70. Union-Find (합집합 찾기)

@@ -1,5 +1,5 @@
 +++
-weight = 582
+weight = 583
 title = "582. 동적 성능 뷰 (V$, DMV) DBA 모니터링"
 date = "2026-04-10"
 [extra]

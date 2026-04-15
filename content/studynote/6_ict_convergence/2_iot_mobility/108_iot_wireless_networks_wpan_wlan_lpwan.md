@@ -1,6 +1,6 @@
 +++
 title = "108. IoT 무선 통신 기술 분류 - WPAN, WLAN, LPWAN"
-weight = 108
+weight = 111
 +++
 
 > **💡 핵심 인사이트**  

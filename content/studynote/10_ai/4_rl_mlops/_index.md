@@ -1,5 +1,5 @@
 +++
-weight = 4
+weight = 6
 title = "4. 강화 학습, MLOps 및 XAI"
 sort_by = "weight"
 +++

@@ -1,5 +1,5 @@
 +++
-weight = 123
+weight = 126
 title = "123. OCF (Open Connectivity Foundation) 표준"
 date = "2026-04-02"
 [extra]

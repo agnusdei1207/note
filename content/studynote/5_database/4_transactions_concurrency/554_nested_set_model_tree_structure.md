@@ -1,5 +1,5 @@
 +++
-weight = 554
+weight = 555
 title = "554. 트리 구조 매핑 - Nested Set 및 Nested Path 모델"
 date = "2026-04-10"
 [extra]

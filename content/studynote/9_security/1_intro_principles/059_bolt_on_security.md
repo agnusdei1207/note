@@ -1,7 +1,7 @@
 +++
 title = "059. 사후 보안 (Bolt-on Security) — 완성 후 보안 추가"
 date = "2026-04-05"
-weight = 59
+weight = 63
 [extra]
 categories = "studynote-security"
 +++

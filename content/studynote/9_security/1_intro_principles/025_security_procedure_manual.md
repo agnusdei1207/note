@@ -1,5 +1,5 @@
 +++
-weight = 25
+weight = 29
 title = "25. 정보보안 절차 — 구체적 작업 지침"
 date = "2026-04-02"
 [extra]

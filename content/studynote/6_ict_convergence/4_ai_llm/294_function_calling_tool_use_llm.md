@@ -1,6 +1,6 @@
 +++
 title = "294. 함수 호출 (Function Calling / Tool Use) - LLM과 현실 세계를 연결하는 핵심 인터페이스"
-weight = 294
+weight = 299
 date = "2026-03-04"
 [extra]
 categories = "studynote-ict-convergence"

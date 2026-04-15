@@ -1,5 +1,5 @@
 +++
-weight = 10
+weight = 18
 title = "10. 선형 계획법 및 최적화 이론"
 sort_by = "weight"
 +++

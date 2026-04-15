@@ -1,6 +1,6 @@
 +++
 title = "58. 데이터 리터러시 (Data Literacy) - 전 임직원의 데이터 해석 및 비즈니스 활용 역량"
-weight = 58
+weight = 60
 +++
 
 # 데이터 리터러시 (Data Literacy) - 비즈니스 통찰력의 핵심 무기

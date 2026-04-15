@@ -1,5 +1,5 @@
 +++
-weight = 54
+weight = 56
 title = "54. 데일리 스탠드업 (Daily Standup) 및 칸반 보드"
 date = "2026-04-05"
 [extra]

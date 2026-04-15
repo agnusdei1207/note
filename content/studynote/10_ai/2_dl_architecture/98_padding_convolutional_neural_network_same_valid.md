@@ -1,5 +1,5 @@
 +++
-weight = 98
+weight = 99
 title = "98. 패딩 (Padding) - 이미지 크기 축소 방지와 가장자리 보존"
 date = "2026-04-10"
 [extra]

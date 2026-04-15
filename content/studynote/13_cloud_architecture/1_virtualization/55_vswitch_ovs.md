@@ -1,5 +1,5 @@
 +++
-weight = 55
+weight = 57
 title = "55. 가상 스위치 (vSwitch) 및 OVS (Open vSwitch) - 가상화 환경 내 소프트웨어 기반 네트워크 스위칭"
 date = "2026-03-05"
 [extra]

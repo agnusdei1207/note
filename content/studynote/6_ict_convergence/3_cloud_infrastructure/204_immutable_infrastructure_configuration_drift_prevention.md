@@ -1,6 +1,6 @@
 +++
 title = "204. 불변 인프라 (Immutable Infrastructure) - 서버 구성을 배포 후 수정하지 않고, 변경이 필요하면 새 이미지로 컨테이너/VM을 갈아치우는 패러다임 (구성 편류 Configuration Drift 방지)"
-weight = 204
+weight = 205
 +++
 # 204. 불변 인프라 (Immutable Infrastructure) - 구성 편류(Configuration Drift) 방지 서버 패치 금지 클라우드 네이티브 도커(Docker) 무중단 배포 블루그린
 

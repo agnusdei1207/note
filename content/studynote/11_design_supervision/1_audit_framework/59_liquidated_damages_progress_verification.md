@@ -1,5 +1,5 @@
 +++
-weight = 59
+weight = 62
 title = "59. 보안 장비 (방화벽, IPS, WAF) 정책 룰셋(Rule-set) 최적화 상태 점검"
 date = "2026-04-05"
 [extra]

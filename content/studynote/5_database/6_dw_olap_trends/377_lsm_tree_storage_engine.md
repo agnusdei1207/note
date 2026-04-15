@@ -1,7 +1,7 @@
 +++
 title = "377. LSM-Tree (Log-Structured Merge-Tree) 저장 엔진"
 date = "2026-04-10"
-weight = 377
+weight = 380
 [extra]
 categories = "studynote-database"
 +++

@@ -1,5 +1,5 @@
 +++
-weight = 233
+weight = 234
 title = "233. 칩렛 (Chiplet) - 거대 단일 칩 대신 레고 블록 조립 반도체"
 date = "2026-04-10"
 [extra]

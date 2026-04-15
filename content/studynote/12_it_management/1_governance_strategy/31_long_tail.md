@@ -1,5 +1,5 @@
 +++
-weight = 31
+weight = 32
 title = "31. 롱테일 법칙 (Long Tail) - 소외된 80%가 주류 20%를 압도하는 디지털 경제의 역설"
 date = "2026-03-05"
 [extra]

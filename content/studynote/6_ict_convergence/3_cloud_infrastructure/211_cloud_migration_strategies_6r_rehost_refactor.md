@@ -1,6 +1,6 @@
 +++
 title = "211. 클라우드 마이그레이션 (Cloud Migration) 전략 - 6R (Rehost/Lift & Shift, Replatform, Repurchase, Refactor, Retire, Retain)"
-weight = 211
+weight = 212
 +++
 # 211. 클라우드 마이그레이션 (Cloud Migration) 전략 - 6R Rehost 리프트 앤 시프트 Replatform Repurchase Refactor Retire Retain 클라우드 도입
 

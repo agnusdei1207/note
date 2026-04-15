@@ -1,6 +1,6 @@
 +++
 title = "283. 로라 (LoRA, Low-Rank Adaptation)"
-weight = 283
+weight = 288
 date = "2026-03-04"
 [extra]
 categories = "studynote-ict-convergence"

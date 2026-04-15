@@ -1,6 +1,6 @@
 +++
 title = "156. C-RAN (Cloud RAN) - 기지국의 데이터 처리부(BBU/DU)를 한 곳의 클라우드 센터에 모아 풀링(Pooling) 관리하고 안테나(RU)만 엣지에 분산 배치하는 구조"
-weight = 156
+weight = 163
 +++
 # 156. C-RAN (Cloud RAN)
 

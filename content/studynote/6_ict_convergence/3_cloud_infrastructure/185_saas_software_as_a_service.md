@@ -1,6 +1,6 @@
 +++
 title = "185. SaaS (Software as a Service) - 완제품 소프트웨어 제공 (Office 365, Salesforce)"
-weight = 185
+weight = 186
 +++
 # 185. SaaS (Software as a Service) - 완제품 소프트웨어 제공 구독 경제 테넌트 아키텍처 구글 워크스페이스 클라우드 서비스 모델 접근성
 

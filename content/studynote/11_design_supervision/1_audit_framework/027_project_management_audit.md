@@ -1,5 +1,5 @@
 +++
-weight = 27
+weight = 28
 title = "사업 관리 (PM) 영역 감리"
 date = "2024-03-20"
 [extra]

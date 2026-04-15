@@ -1,5 +1,5 @@
 +++
-weight = 4
+weight = 9
 title = "4. 그래프 알고리즘 (Graph Algorithms)"
 sort_by = "weight"
 +++

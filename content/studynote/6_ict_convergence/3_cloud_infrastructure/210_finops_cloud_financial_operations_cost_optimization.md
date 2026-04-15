@@ -1,6 +1,6 @@
 +++
 title = "210. FinOps (Cloud Financial Operations) - 기술, 비즈니스, 재무 팀이 협력하여 클라우드 비용을 투명하게 관리/최적화하는 클라우드 재무 관리 문화"
-weight = 210
+weight = 211
 +++
 # 210. FinOps (Cloud Financial Operations) - 클라우드 비용 최적화 재무 관리 클라우드 경제학 데브옵스 확장성 자원 낭비 방지 거버넌스 
 

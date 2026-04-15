@@ -1,5 +1,5 @@
 +++
-weight = 25
+weight = 27
 title = "25. 처방적 분석 (Prescriptive Analytics) — 의사결정 최적화 및 자동화"
 date = "2026-04-02"
 [extra]

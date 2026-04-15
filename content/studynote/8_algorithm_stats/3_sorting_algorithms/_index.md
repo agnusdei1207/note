@@ -1,5 +1,5 @@
 +++
-weight = 3
+weight = 7
 title = "3. 정렬 알고리즘 (Sorting Algorithms)"
 sort_by = "weight"
 +++

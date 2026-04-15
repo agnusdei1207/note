@@ -1,5 +1,5 @@
 +++
-weight = 53
+weight = 54
 title = "53. 백로그 정제 (Backlog Grooming/Refinement)"
 date = "2026-04-05"
 [extra]

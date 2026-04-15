@@ -1,5 +1,5 @@
 +++
-weight = 33
+weight = 34
 title = "33. 블록 스토리지 (Block Storage) - 디스크 공간을 블록 단위로 나누어 VM에 직접 마운트(Attach)하여 사용하는 고성능 스토리지 (OS 설치, DB용 / AWS EBS)"
 description = "CDN의 핵심 개념, 작동 원리, 다양한 유형 및 글로벌 콘텐츠 배포를 위한 실용적 적용 가이드"
 date = "2024-05-24"

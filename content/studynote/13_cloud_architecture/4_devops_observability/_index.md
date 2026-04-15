@@ -1,5 +1,5 @@
 +++
-weight = 4
+weight = 6
 title = "4. 클라우드 DevOps 및 관측성"
 sort_by = "weight"
 +++

@@ -1,5 +1,5 @@
 +++
-weight = 219
+weight = 220
 title = "219. 양자 중첩 (Superposition) - 0과 1의 동시 존재 특성"
 date = "2026-04-10"
 [extra]

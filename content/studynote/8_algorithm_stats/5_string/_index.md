@@ -1,5 +1,5 @@
 +++
-weight = 5
+weight = 11
 title = "5. 문자열 알고리즘"
 [extra]
 sort_by = "weight"

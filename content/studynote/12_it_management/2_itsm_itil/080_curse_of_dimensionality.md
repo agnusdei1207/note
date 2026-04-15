@@ -1,5 +1,5 @@
 +++
-weight = 80
+weight = 90
 title = "80. 이벤트 시간 (Event Time) vs 처리 시간 (Processing Time)"
 description = "차원 저주의 정의, 고차원 공간에서의 통계적·계산적 문제, 차원 저주를 완화하는 방법론"
 date = "2026-04-05"

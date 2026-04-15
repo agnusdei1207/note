@@ -1,5 +1,5 @@
 +++
-weight = 553
+weight = 554
 title = "553. 동형 암호 DB 질의 - 암호화된 상태 연산 기술"
 date = "2026-04-10"
 [extra]

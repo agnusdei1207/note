@@ -1,6 +1,6 @@
 +++
 title = "194. 컨테이너 (Container) 가상화 - Guest OS 없이 호스트 OS 커널을 공유하며 프로세스 격리 (초경량, 초고속 기동)"
-weight = 194
+weight = 195
 +++
 # 194. 컨테이너 (Container) 가상화 - Guest OS 제거 호스트 커널 공유 초경량 초고속 프로세스 격리 도커 리눅스 네임스페이스 cgroups
 

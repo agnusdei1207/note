@@ -1,5 +1,5 @@
 +++
-weight = 309
+weight = 312
 title = "309. CQRS 아키텍처와 DB 동기화 (Event Sourcing 연동)"
 date = "2026-04-07"
 [extra]

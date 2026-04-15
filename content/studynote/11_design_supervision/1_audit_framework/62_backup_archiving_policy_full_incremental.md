@@ -1,5 +1,5 @@
 +++
-weight = 62
+weight = 65
 title = "62. 백업 및 아카이빙 정책 - Full/Incremental/Differential 점검"
 date = "2026-04-10"
 [extra]

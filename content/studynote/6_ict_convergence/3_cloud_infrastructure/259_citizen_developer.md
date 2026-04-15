@@ -1,5 +1,5 @@
 +++
-weight = 259
+weight = 260
 title = "259. 시민 개발자 (Citizen Developer)"
 date = "2026-03-05"
 [extra]

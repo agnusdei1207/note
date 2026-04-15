@@ -1,6 +1,6 @@
 +++
 title = "282. 해시 샤딩 (Hash Sharding) 및 레인지 샤딩 (Range Sharding) - 데이터 분산 전략의 두 축"
-weight = 282
+weight = 284
 +++
 
 ## 핵심 인사이트 (3줄 요약)

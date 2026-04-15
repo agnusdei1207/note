@@ -1,5 +1,5 @@
 +++
-weight = 8
+weight = 10
 title = "8. 데이터베이스 핵심 심화 분석"
 sort_by = "weight"
 +++

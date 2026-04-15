@@ -1,5 +1,5 @@
 +++
-weight = 5
+weight = 10
 title = "5. 동적 계획법 및 그리디 알고리즘"
 sort_by = "weight"
 +++

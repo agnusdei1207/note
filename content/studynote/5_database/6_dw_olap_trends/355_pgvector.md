@@ -1,5 +1,5 @@
 +++
-weight = 355
+weight = 356
 title = "355. PGVector (PostgreSQL Vector Extension)"
 date = "2026-04-09"
 description = "관계형 데이터베이스 내에서 고차원 벡터의 저장과 초고속 근사 최근접 이웃(ANN) 검색을 구현하는 오픈소스 확장 기술"

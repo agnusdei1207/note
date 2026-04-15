@@ -1,6 +1,6 @@
 +++
 title = "156. REST (Representational State Transfer) - Roy Fielding 제안 아키텍처 스타일, HTTP 메서드(GET, POST, PUT, DELETE)와 URI(자원)를 있는 그대로 활용 (SOAP 대체)"
-weight = 156
+weight = 161
 +++
 # 156. REST (Representational State Transfer)
 

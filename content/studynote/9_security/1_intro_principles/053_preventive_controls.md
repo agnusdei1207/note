@@ -1,5 +1,5 @@
 +++
-weight = 53
+weight = 57
 title = "53. 예방 통제 (Preventive Controls) — 사전 차단"
 date = "2026-04-05"
 [extra]

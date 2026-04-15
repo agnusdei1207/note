@@ -1,5 +1,5 @@
 +++
-weight = 223
+weight = 224
 title = "223. 양자 우위 (Quantum Supremacy) - 슈퍼컴퓨터 추월 기점"
 date = "2026-04-10"
 [extra]

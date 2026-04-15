@@ -1,5 +1,5 @@
 +++
-weight = 118
+weight = 119
 title = "양방향 RNN (Bidirectional RNN) — 과거와 미래를 잇는 문맥 이해"
 date = "2026-03-04"
 [extra]

@@ -1,5 +1,5 @@
 +++
-weight = 243
+weight = 244
 title = "243. 마이크로VM (MicroVM) - Firecracker 서버리스 격리"
 date = "2026-04-10"
 [extra]

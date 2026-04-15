@@ -1,5 +1,5 @@
 +++
-weight = 60
+weight = 63
 title = "60. 공공데이터 개방 (Open Data) 표준 규격 및 감리"
 date = "2026-04-10"
 [extra]

@@ -1,5 +1,5 @@
 +++
-weight = 166
+weight = 180
 title = "166. API 게이트웨이 (API Gateway)"
 date = "2026-04-09"
 description = "수백 개로 쪼개진 마이크로서비스(MSA)들 앞에 유일한 단일 진입점(Front Door) 방파제로 구축되어 라우팅, 인증, 스로틀링, 포맷 변환을 횡단 통제하는 역방향 프록시 통제망"

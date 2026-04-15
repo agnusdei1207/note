@@ -1,6 +1,6 @@
 +++
 title = "216. SDS (Software Defined Storage) - 범용 x86 서버에 소프트웨어를 탑재하여 스토리지 기능(프로비저닝, 이중화) 구현 (Ceph 등)"
-weight = 216
+weight = 217
 +++
 # 216. SDS (Software Defined Storage) - 스토리지 가상화 분산 저장소 범용 x86 서버 프로비저닝 데이터 이중화 클라우드 데이터센터 Ceph
 

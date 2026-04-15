@@ -1,5 +1,5 @@
 +++
-weight = 57
+weight = 60
 title = "57. 오버레이 네트워크 (Overlay Network) - 언더레이 위에 논리적으로 얹혀진 가상 네트워크 통널 (VXLAN, NVGRE 프로토콜 활용)"
 date = "2026-04-05"
 [taxonomies]

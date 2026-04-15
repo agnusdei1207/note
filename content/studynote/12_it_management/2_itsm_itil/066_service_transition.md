@@ -1,5 +1,5 @@
 +++
-weight = 66
+weight = 71
 title = "서비스 전환 (Service Transition)"
 date = "2026-03-04"
 [extra]

@@ -1,5 +1,5 @@
 +++
-weight = 185
+weight = 200
 title = "185. 로그 통합 수집 아키텍처 - Fluentd부터 ELK 파이프라인까지"
 date = "2026-04-10"
 [extra]

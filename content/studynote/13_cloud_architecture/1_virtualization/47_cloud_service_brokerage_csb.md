@@ -1,5 +1,5 @@
 +++
-weight = 47
+weight = 48
 title = "47. 클라우드 브로커 (CSB, Cloud Service Brokerage)"
 date = "2026-04-10"
 [extra]

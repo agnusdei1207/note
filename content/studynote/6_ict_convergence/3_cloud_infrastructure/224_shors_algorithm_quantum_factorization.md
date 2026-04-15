@@ -1,5 +1,5 @@
 +++
-weight = 224
+weight = 225
 title = "224. 쇼어 알고리즘 (Shor's Algorithm) - 양자 소인수분해 파괴력"
 date = "2026-04-10"
 [extra]

@@ -1,5 +1,5 @@
 +++
-weight = 579
+weight = 580
 title = "579. 무결성 제약 조건 (CASCADE, RESTRICT, SET NULL)"
 date = "2026-04-10"
 [extra]

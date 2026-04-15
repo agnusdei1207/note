@@ -1,5 +1,5 @@
 +++
-weight = 43
+weight = 45
 title = "IT 아웃소싱 전략 (ITO, IT Outsourcing)"
 date = "2025-05-14"
 [extra]

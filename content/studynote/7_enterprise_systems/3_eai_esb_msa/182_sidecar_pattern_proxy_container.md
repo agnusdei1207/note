@@ -1,5 +1,5 @@
 +++
-weight = 182
+weight = 197
 title = "182. 사이드카 패턴 (Sidecar Pattern) - MSA 프록시 컨테이너"
 date = "2026-04-10"
 [extra]

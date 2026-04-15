@@ -1,5 +1,5 @@
 +++
-weight = 245
+weight = 246
 title = "245. RESTful API 성숙도 모델 (Richardson Maturity Model)"
 date = "2026-04-10"
 [extra]

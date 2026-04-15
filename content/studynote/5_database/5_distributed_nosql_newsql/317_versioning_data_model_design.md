@@ -1,5 +1,5 @@
 +++
-weight = 317
+weight = 320
 title = "317. 버저닝 (Versioning) 데이터 모델 설계"
 date = "2026-04-07"
 [extra]

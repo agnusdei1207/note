@@ -1,7 +1,7 @@
 +++
 title = "049. 마이크로 세그멘테이션 — 워크로드별 격리, 측면 이동 차단"
 date = "2026-04-05"
-weight = 49
+weight = 53
 [extra]
 categories = "studynote-security"
 +++

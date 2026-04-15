@@ -1,6 +1,6 @@
 +++
 title = "75. 세그먼트 트리 (Segment Tree) — 구간 쿼리/업데이트"
-weight = 75
+weight = 85
 +++
 
 ## 핵심 인사이트 (3줄 요약)

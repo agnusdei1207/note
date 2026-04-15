@@ -1,5 +1,5 @@
 +++
-weight = 60
+weight = 63
 title = "60. DevOps ROI (투자 수익률) 측정 지표"
 date = "2026-04-05"
 [extra]

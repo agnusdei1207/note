@@ -1,5 +1,5 @@
 +++
-weight = 70
+weight = 74
 title = "경제적 설계 원칙 (Economy of Mechanism)"
 date = "2024-05-22"
 [extra]

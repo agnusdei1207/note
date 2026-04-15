@@ -1,6 +1,6 @@
 +++
 title = "062. ITIL (IT Infrastructure Library)"
-weight = 62
+weight = 64
 date = "2026-03-04"
 [extra]
 categories = "studynote-it-management"

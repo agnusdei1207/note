@@ -1,6 +1,6 @@
 +++
 title = "178. 트랜잭셔널 아웃박스 (Transactional Outbox) 패턴 - DB 커밋과 메시지 브로커 이벤트 발행의 원자성(Atomicity) 동기화 보장을 위해, 로컬 DB 내 Outbox 테이블에 먼저 기록하고 폴러(Poller)나 CDC 기술로 메시지 전송 보장"
-weight = 178
+weight = 193
 +++
 
 ## 핵심 인사이트 (3줄 요약)

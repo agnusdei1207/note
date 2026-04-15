@@ -1,7 +1,7 @@
 +++
 title = "374. 공간 인덱스 Quad-tree 알고리즘"
 date = "2026-04-10"
-weight = 374
+weight = 377
 [extra]
 categories = "studynote-database"
 +++

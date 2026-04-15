@@ -1,5 +1,5 @@
 +++
-weight = 580
+weight = 581
 title = "580. 도메인 무결성 CHECK 구문 정규 표현식 입력 통제 규칙"
 date = "2026-04-10"
 [extra]

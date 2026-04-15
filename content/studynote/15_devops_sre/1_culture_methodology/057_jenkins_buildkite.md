@@ -1,5 +1,5 @@
 +++
-weight = 57
+weight = 60
 title = "57. 데브옵스 에반젤리스트 (DevOps Evangelist) 역할"
 date = "2026-04-05"
 [extra]

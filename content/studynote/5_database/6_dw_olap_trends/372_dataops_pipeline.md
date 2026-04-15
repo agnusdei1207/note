@@ -1,7 +1,7 @@
 +++
 title = "372. 데이터 옵스 (DataOps) 파이프라인"
 date = "2026-04-10"
-weight = 372
+weight = 375
 [extra]
 categories = "studynote-database"
 +++

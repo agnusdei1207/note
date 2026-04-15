@@ -1,5 +1,5 @@
 +++
-weight = 562
+weight = 563
 title = "562. B-Tree 디스크 I/O 최적화 - 팬아웃(Fan-out)과 노드 크기 블록 매핑"
 date = "2026-04-10"
 [extra]

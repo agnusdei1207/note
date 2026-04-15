@@ -1,6 +1,6 @@
 +++
 title = "111. 면허 대역 (이동통신 기반) LPWAN - NB-IoT (LTE 보호대역 200kHz 사용), LTE-M (eMTC, 음성 및 이동성 지원)"
-weight = 111
+weight = 114
 +++
 
 ## 핵심 인사이트 (3줄 요약)

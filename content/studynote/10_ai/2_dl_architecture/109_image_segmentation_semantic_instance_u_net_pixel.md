@@ -1,5 +1,5 @@
 +++
-weight = 109
+weight = 110
 title = "109. 이미지 분할 (Image Segmentation) - 픽셀 단위 객체 추론"
 date = "2026-04-10"
 [extra]

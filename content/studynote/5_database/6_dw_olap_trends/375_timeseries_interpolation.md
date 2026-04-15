@@ -1,7 +1,7 @@
 +++
 title = "375. 시계열 DB 보간 (Interpolation) 쿼리 기능"
 date = "2026-04-10"
-weight = 375
+weight = 378
 [extra]
 categories = "studynote-database"
 +++

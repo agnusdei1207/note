@@ -1,6 +1,6 @@
 +++
 title = "263. LLM (Large Language Model) - 수백억 이상의 파라미터를 가진 거대 언어 모델 (GPT-4, Gemini, Claude, Llama 3)"
-weight = 263
+weight = 266
 +++
 
 ## 핵심 인사이트 (3줄 요약)

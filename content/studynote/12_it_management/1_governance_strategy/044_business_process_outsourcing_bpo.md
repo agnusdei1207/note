@@ -1,5 +1,5 @@
 +++
-weight = 44
+weight = 46
 title = "비즈니스 프로세스 아웃소싱 (BPO, Business Process Outsourcing)"
 date = "2025-05-14"
 [extra]

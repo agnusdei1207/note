@@ -1,5 +1,5 @@
 +++
-weight = 220
+weight = 221
 title = "220. 양자 얽힘 (Entanglement) - 상태 정보 즉시 복제 동기화"
 date = "2026-04-10"
 [extra]

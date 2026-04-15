@@ -1,5 +1,5 @@
 +++
-weight = 37
+weight = 41
 title = "37. 위험 수용 (Risk Acceptance) —管理层 승인 하에"
 date = "2026-04-05"
 [extra]

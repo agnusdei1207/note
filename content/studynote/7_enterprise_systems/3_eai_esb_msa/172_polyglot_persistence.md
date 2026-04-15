@@ -1,6 +1,6 @@
 +++
 title = "172. 폴리글랏 퍼시스턴스 (Polyglot Persistence) - 각 마이크로서비스 특성에 맞춰 RDBMS, NoSQL, Graph DB 등을 독립적, 혼합형으로 선택/운영하는 아키텍처"
-weight = 172
+weight = 187
 +++
 # 172. 폴리글랏 퍼시스턴스 (Polyglot Persistence)
 

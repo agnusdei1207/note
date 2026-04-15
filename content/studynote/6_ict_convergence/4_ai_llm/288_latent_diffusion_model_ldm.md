@@ -1,5 +1,5 @@
 +++
-weight = 288
+weight = 293
 title = "288. LDM (Latent Diffusion Model)"
 date = "2024-03-20"
 [extra]

@@ -1,7 +1,7 @@
 +++
 title = "065. STRIDE 모델 — Spoofing/Tampering/Repudiation/Information Disclosure/DoS/Elevation"
 date = "2026-04-05"
-weight = 65
+weight = 69
 [extra]
 categories = "studynote-security"
 +++

@@ -1,6 +1,6 @@
 +++
 title = "171. 스마트 시티 (Smart City) 플랫폼 아키텍처"
-weight = 171
+weight = 185
 +++
 # 171. 스마트 시티 (Smart City) 플랫폼 아키텍처
 

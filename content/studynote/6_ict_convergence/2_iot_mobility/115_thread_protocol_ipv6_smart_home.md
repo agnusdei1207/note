@@ -1,6 +1,6 @@
 +++
 title = "115. 스레드 (Thread) 프로토콜 - IPv6 기반 스마트홈 IoT 메시 네트워크 (Google 주도)"
-weight = 115
+weight = 118
 +++
 
 # 스레드 (Thread) 프로토콜

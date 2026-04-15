@@ -1,5 +1,5 @@
 +++
-weight = 24
+weight = 28
 title = "24. 정보보안 지침 — 표준 적용 방법론"
 date = "2026-04-02"
 [extra]

@@ -1,5 +1,5 @@
 +++
-weight = 574
+weight = 575
 title = "574. 데이터 마트 콘포밍 차원 (Conformed Dimension)과 킴볼 버스"
 date = "2026-04-10"
 [extra]

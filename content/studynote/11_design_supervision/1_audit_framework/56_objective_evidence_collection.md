@@ -1,5 +1,5 @@
 +++
-weight = 56
+weight = 59
 title = "56. 하드웨어 Sizing (용량 산정) - tpmC, SPECint 지표 기반 CPU, 메모리, 디스크 계산식 검증"
 date = "2026-04-05"
 [extra]

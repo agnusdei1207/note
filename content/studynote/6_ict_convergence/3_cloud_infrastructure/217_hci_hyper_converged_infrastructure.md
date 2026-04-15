@@ -1,6 +1,6 @@
 +++
 title = "217. 하이퍼컨버지드 인프라 (HCI, Hyper-Converged Infrastructure) - 서버, 스토리지, 네트워킹 가상화 및 관리 도구를 단일 x86 어플라이언스 박스로 통합 패키징하여 제공 (IT 인프라 단순화)"
-weight = 217
+weight = 218
 +++
 
 ## 핵심 인사이트 (3줄 요약)

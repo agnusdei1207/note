@@ -1,5 +1,5 @@
 +++
-weight = 85
+weight = 86
 title = "85. 적응형 학습률 - Adagrad와 RMSProp의 보폭 조절 마법"
 date = "2026-04-10"
 [extra]

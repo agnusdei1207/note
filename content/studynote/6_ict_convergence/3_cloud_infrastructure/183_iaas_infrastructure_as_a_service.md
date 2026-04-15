@@ -1,5 +1,5 @@
 +++
-weight = 183
+weight = 184
 title = "IaaS (Infrastructure as a Service)"
 date = "2024-03-20"
 [extra]

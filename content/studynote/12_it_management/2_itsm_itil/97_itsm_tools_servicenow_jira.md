@@ -1,5 +1,5 @@
 +++
-weight = 97
+weight = 107
 title = "97. ITSM 도구 플랫폼 (ServiceNow, Jira Service Management)"
 date = "2026-04-10"
 [extra]

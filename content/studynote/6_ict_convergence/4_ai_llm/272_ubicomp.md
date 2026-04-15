@@ -1,6 +1,6 @@
 +++
 title = "272. 제로샷 (Zero-shot) / 원샷 (One-shot) / 퓨샷 (Few-shot) 프롬프팅"
-weight = 272
+weight = 277
 +++
 
 ## 핵심 인사이트 (3줄 요약)

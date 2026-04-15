@@ -1,5 +1,5 @@
 +++
-weight = 263
+weight = 265
 title = "거대 언어 모델 (LLM, Large Language Model)"
 date = "2026-03-04"
 [extra]

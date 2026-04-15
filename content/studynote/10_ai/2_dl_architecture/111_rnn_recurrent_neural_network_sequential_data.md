@@ -1,6 +1,6 @@
 +++
 title = "111. 순환 신경망 (RNN, Recurrent Neural Network)"
-weight = 111
+weight = 112
 date = "2024-11-20"
 [extra]
 categories = "studynote-ai"

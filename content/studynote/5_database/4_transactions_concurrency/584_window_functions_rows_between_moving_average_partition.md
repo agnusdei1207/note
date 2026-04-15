@@ -1,5 +1,5 @@
 +++
-weight = 584
+weight = 585
 title = "584. 윈도우 함수 (Window Function) - 파티션 내 순위 누적합 이동평균"
 date = "2026-04-10"
 [extra]

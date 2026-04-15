@@ -1,6 +1,6 @@
 +++
 title = "47. IT 컴플라이언스 (IT Compliance) - 기업에 요구되는 법적/규제적 요 건(개인정보보호법, GDPR, SOX) 준수 통제 체계"
-weight = 47
+weight = 49
 +++
 
 ## 핵심 인사이트 (3줄 요약)

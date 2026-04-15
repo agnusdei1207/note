@@ -1,5 +1,5 @@
 +++
-weight = 55
+weight = 57
 title = "디지털 트랜스포메이션 (Digital Transformation)"
 date = "2024-03-24"
 [extra]

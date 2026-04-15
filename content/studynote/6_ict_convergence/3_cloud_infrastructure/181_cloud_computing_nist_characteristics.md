@@ -1,5 +1,5 @@
 +++
-weight = 181
+weight = 182
 title = "클라우드 컴퓨팅 5대 특징 (NIST Cloud Computing Characteristics)"
 date = "2024-03-20"
 [extra]

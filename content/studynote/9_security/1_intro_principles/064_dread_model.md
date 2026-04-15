@@ -1,7 +1,7 @@
 +++
 title = "064. DREAD 모델 — Damage/Reproducibility/Exploitability/Affected Users discoverability"
 date = "2026-04-05"
-weight = 64
+weight = 68
 [extra]
 categories = "studynote-security"
 +++

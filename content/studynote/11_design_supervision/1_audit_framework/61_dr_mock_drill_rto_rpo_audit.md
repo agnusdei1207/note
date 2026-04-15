@@ -1,5 +1,5 @@
 +++
-weight = 61
+weight = 64
 title = "61. 재해 복구 (DR) 모의 훈련 참관 - RTO/RPO 달성 점검"
 date = "2026-04-10"
 [extra]

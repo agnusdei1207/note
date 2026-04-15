@@ -1,5 +1,5 @@
 +++
-weight = 9
+weight = 16
 title = "9. 데이터 마이닝 및 고급 분석 기법"
 sort_by = "weight"
 +++

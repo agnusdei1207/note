@@ -1,5 +1,5 @@
 +++
-weight = 550
+weight = 551
 title = "550. HTAP 기술 OLTP, OLAP 메모리 복제/공유 실시간 아키텍처"
 date = "2026-04-10"
 [extra]

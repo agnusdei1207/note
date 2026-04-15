@@ -1,5 +1,5 @@
 +++
-weight = 116
+weight = 117
 title = "LSTM의 3가지 게이트 (Input, Forget, Output)"
 date = "2026-03-04"
 [extra]

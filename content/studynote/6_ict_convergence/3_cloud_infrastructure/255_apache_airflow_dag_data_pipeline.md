@@ -1,6 +1,6 @@
 +++
 title = "255. 데이터 파이프라인 (Apache Airflow) DAG 배치 플로우 관리"
-weight = 255
+weight = 256
 date = "2024-06-04"
 [extra]
 categories = ["studynote", "ict_convergence", "cloud_infrastructure"]

@@ -1,6 +1,6 @@
 +++
 title = "162. AMI (Advanced Metering Infrastructure) - 지능형 원격 검침 인프라"
-weight = 162
+weight = 173
 +++
 # 162. AMI (Advanced Metering Infrastructure)
 

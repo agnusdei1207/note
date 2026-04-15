@@ -1,6 +1,6 @@
 +++
 title = "267. 인스트럭션 튜닝 (Instruction Tuning) - 범용 LLM을 \"인간의 명령(지시문)\"과 \"그에 따른 모범 답변\" 데이터셋(Prompt-Response)으로 추가 지도 미세조정(SFT)하여 대화형 챗봇 형태로 가다듬는 과정"
-weight = 267
+weight = 271
 +++
 
 ## 핵심 인사이트 (3줄 요약)

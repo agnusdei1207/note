@@ -1,6 +1,6 @@
 +++
 title = "294. HTAP - OLTP(트랜잭션)와 OLAP(분석) 워크로드를 단일 데이터베이스 플랫폼에서 분리/동시 처리하는 기술 (Row+Column 하이브리드 엔진)"
-weight = 294
+weight = 297
 +++
 
 # 294. OLTP vs OLAP

@@ -1,5 +1,5 @@
 +++
-weight = 24
+weight = 26
 title = "24. 예측 분석 (Predictive Analytics) — 과거 기반 미래 확률 예지"
 date = "2026-04-02"
 [extra]

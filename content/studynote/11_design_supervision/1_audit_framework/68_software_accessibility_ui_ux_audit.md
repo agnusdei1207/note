@@ -1,5 +1,5 @@
 +++
-weight = 68
+weight = 71
 title = "68. 소프트웨어 접근성 (Software Accessibility) 점검"
 date = "2026-04-10"
 [extra]

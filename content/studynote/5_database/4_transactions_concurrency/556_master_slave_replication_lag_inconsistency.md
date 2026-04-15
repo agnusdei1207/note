@@ -1,5 +1,5 @@
 +++
-weight = 556
+weight = 557
 title = "556. 마스터-슬레이브 복제 지연 (Replication Lag) 불일치 해결"
 date = "2026-04-10"
 [extra]

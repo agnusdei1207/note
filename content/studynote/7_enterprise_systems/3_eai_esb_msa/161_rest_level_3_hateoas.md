@@ -1,6 +1,6 @@
 +++
 title = "161. Level 3 - HATEOAS (Hypermedia As The Engine Of Application State), 응답에 다음 상태 전이용 하이퍼링크 동적 포함"
-weight = 161
+weight = 171
 +++
 # 161. Level 3 - HATEOAS (Hypermedia Controls)
 

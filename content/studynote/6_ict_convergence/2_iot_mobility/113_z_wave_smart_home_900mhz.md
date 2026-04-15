@@ -1,6 +1,6 @@
 +++
 title = "113. Z-Wave - 홈 네트워크 특화 저주파(900MHz) 무선 통신"
-weight = 113
+weight = 116
 +++
 
 # Z-Wave (지웨이브)

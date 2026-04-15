@@ -1,5 +1,5 @@
 +++
-weight = 31
+weight = 32
 title = "31. 오토 스케일링 (Auto Scaling) - CPU 사용량, 트래픽 등 임계치(Threshold)에 따라 서버(VM/Pod) 개수를 자동으로 늘리고(Scale-out) 줄이는(Scale-in) 기능"
 description = "로드 밸런서의 핵심 개념, 알고리즘 유형, L4/L7 계층 동작 원리 및 클라우드 환경에서의 실용적 적용 가이드"
 date = "2024-05-24"

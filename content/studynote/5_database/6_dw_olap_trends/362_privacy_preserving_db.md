@@ -1,5 +1,5 @@
 +++
-weight = 362
+weight = 365
 title = "362. 프라이버시 보존형 데이터베이스"
 date = "2026-04-09"
 description = "동형 암호(Homomorphic Encryption) 등 차세대 수학적 기법을 적용해 데이터를 복호화(평문 변환)하지 않고 암호화된 기호 상태 그대로 통계 분석이나 AI 훈련 쿼리를 수행해내는 궁극의 보안 DB"

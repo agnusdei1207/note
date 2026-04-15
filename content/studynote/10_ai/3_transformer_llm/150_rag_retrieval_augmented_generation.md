@@ -1,6 +1,6 @@
 +++
 title = "RAG (Retrieval-Augmented Generation)"
-weight = 150
+weight = 151
 date = "2024-03-21"
 [extra]
 categories = ["AI", "LLM", "RAG"]

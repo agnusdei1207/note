@@ -1,5 +1,5 @@
 +++
-weight = 80
+weight = 81
 title = "80. 경사 하강법 (GD) - 손실 함수 최적화와 학습률"
 date = "2026-04-10"
 [extra]

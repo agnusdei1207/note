@@ -1,5 +1,5 @@
 +++
-weight = 76
+weight = 86
 title = "76. 워크어라운드 (Workaround) - 서비스 재개 임시 우회 조치"
 date = "2026-04-10"
 [extra]

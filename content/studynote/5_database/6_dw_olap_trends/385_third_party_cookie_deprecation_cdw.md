@@ -1,7 +1,7 @@
 +++
 title = "385. 퍼스트파티 고객 데이터 저장소 (CDW) 아키텍처"
 date = "2026-04-10"
-weight = 385
+weight = 388
 [extra]
 categories = "studynote-database"
 +++

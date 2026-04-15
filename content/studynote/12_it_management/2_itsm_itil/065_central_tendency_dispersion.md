@@ -1,5 +1,5 @@
 +++
-weight = 65
+weight = 69
 title = "65. Shuffle 최적화 — spark.sql.shuffle.partitions, AQE 코어리스"
 date = "2026-04-05"
 [extra]

@@ -1,6 +1,6 @@
 +++
 title = "69. B+트리 (B+Tree) — 리프 연결, DB 인덱스"
-weight = 69
+weight = 78
 +++
 
 # 69. 데크/원형 큐 (Deque / Circular Queue)

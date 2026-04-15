@@ -1,5 +1,5 @@
 +++
-weight = 35
+weight = 39
 title = "35. 위험 전가 (Risk Transfer) — 보험, 외주, 계약 조항"
 date = "2026-04-05"
 [extra]

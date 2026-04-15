@@ -1,5 +1,5 @@
 +++
-weight = 81
+weight = 82
 title = "81. 확률적 경사 하강법 (SGD) - 미니배치를 통한 속도 향상"
 date = "2026-04-10"
 [extra]

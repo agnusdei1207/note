@@ -1,6 +1,6 @@
 +++
 title = "266. 자기 지도 학습 (Self-Supervised Learning) - 다음 단어 예측(Next Token Prediction), 빈칸 채우기(MLM) 방식으로 사람이 라벨링하지 않아도 텍스트 구조 자체를 정답 삼아 자가 학습"
-weight = 266
+weight = 270
 +++
 
 ## 핵심 인사이트 (3줄 요약)

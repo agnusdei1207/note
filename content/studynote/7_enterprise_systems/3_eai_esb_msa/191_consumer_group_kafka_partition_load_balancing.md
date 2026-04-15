@@ -1,5 +1,5 @@
 +++
-weight = 191
+weight = 206
 title = "191. 컨슈머 그룹 (Consumer Group) - 카프카 파티션 분산 아키텍처"
 date = "2026-04-10"
 [extra]

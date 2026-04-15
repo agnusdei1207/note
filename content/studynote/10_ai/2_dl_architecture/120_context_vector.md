@@ -1,5 +1,5 @@
 +++
-weight = 120
+weight = 121
 title = "컨텍스트 벡터 (Context Vector)"
 date = "2026-03-25"
 [extra]

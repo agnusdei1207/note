@@ -1,6 +1,6 @@
 +++
 title = "268. 인간 피드백 기반 강화학습 (RLHF, Reinforcement Learning from Human Feedback) - LLM이 내뱉은 여러 답변을 인간이 랭킹 매겨 보상 모델(Reward Model)을 훈련시키고, 이를 PPO 강화학습 알고리즘으로 본 모델에 적용하여 유해성/편향성을 통제 (정렬, Alignment 기법)"
-weight = 268
+weight = 273
 +++
 
 ## 핵심 인사이트 (3줄 요약)

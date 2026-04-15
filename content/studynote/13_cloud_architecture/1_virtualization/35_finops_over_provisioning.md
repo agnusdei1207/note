@@ -1,5 +1,5 @@
 +++
-weight = 35
+weight = 36
 title = "35. 오브젝트 스토리지 (Object Storage) - 플랫(Flat)한 네임스페이스에 객체(데이터+메타데이터) 형태로 저장, REST API(HTTP)를 통해 무한한 용량 접근 가능 (이미지, 백업, 빅데이터 저장 / AWS S3)"
 description = "FinOps의 핵심 개념, 오버프로비저닝 문제의 원인 및 해결책, 클라우드 비용 최적화를 위한 실용적 전략"
 date = "2024-05-24"

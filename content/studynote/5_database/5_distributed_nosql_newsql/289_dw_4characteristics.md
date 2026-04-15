@@ -1,6 +1,6 @@
 +++
 title = "289. R 트리 (R-Tree) / MBR (Minimum Bounding Rectangle) - 공간 검색 인덱스 구조"
-weight = 289
+weight = 292
 +++
 
 # 289. DW 4대 특징

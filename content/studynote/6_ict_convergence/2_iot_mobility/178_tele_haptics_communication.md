@@ -1,6 +1,6 @@
 +++
 title = "178. 디지털 후각 / 촉각 텔레햅틱 (Tele-haptics) 통신 지연 제어"
-weight = 178
+weight = 192
 +++
 # 178. 디지털 후각 / 촉각 텔레햅틱 (Tele-haptics) 통신 지연 제어 - 초저지연 URLLC 5G 6G 메타버스 오감 통신 Haptic 피드백 운동학적 제어
 

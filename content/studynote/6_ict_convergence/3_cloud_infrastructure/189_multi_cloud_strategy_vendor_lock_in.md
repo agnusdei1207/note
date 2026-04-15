@@ -1,6 +1,6 @@
 +++
 title = "189. 멀티 클라우드 (Multi-Cloud) 전략 - 특정 클라우드 종속성(Lock-in) 방지 및 최적화 조합 활용 (쿠버네티스 필수)"
-weight = 189
+weight = 190
 +++
 # 189. 멀티 클라우드 (Multi-Cloud) 전략 - AWS GCP Azure 조합 특정 클라우드 벤더 종속성(Lock-in) 방지 장애 조치(Failover) 데이터 주권 쿠버네티스 필수
 

@@ -1,5 +1,5 @@
 +++
-weight = 35
+weight = 37
 title = "35. 린 스타트업 (Lean Startup) - '만들고-측정하고-학습하는' 불확실성 극복의 경영학"
 date = "2026-03-05"
 [extra]

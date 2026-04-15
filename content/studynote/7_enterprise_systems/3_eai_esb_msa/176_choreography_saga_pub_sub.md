@@ -1,6 +1,6 @@
 +++
 title = "176. 코레오그래피 사가 (Choreography Saga) - 중앙 통제 없이 각 서비스가 비동기 이벤트를 발행/구독(Pub/Sub)하며 자율적으로 체인 구성"
-weight = 176
+weight = 191
 +++
 # 176. 코레오그래피 사가 (Choreography Saga)
 

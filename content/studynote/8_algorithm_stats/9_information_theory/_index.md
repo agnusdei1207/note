@@ -1,5 +1,5 @@
 +++
-weight = 9
+weight = 17
 title = "9. 정보 이론 및 부호화 공학"
 sort_by = "weight"
 +++

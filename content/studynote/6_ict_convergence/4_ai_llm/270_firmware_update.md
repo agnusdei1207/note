@@ -1,6 +1,6 @@
 +++
 title = "270. DPO (Direct Preference Optimization) - 강화학습(PPO)과 보상 모델 구축의 복잡한 2단계를 생략하고, 선호/비선호 데이터셋으로 LLM을 직접 미세 조정하는 최신 최적화 기법"
-weight = 270
+weight = 275
 +++
 
 ## 핵심 인사이트 (3줄 요약)

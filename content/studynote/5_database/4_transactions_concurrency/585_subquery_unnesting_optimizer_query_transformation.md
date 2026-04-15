@@ -1,5 +1,5 @@
 +++
-weight = 585
+weight = 586
 title = "585. 서브쿼리 언네스팅 (Subquery Unnesting) - 옵티마이저 쿼리 변환"
 date = "2026-04-10"
 [extra]

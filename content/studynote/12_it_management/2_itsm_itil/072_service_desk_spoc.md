@@ -1,6 +1,6 @@
 +++
 title = "072. 서비스 데스크 (Service Desk)"
-weight = 72
+weight = 81
 date = "2026-03-04"
 [extra]
 categories = "studynote-it-management"

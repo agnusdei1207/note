@@ -1,5 +1,5 @@
 +++
-weight = 161
+weight = 170
 title = "161. Level 3 - HATEOAS"
 date = "2026-04-09"
 description = "클라이언트가 서버의 주소 구조나 다음 동작 규칙을 사전에 아예 몰라도 되며 오직 하이퍼링크(Hypermedia)를 따라가며 자기 기술적 동작(Self-descriptive)을 일궈내는 REST 성숙도의 궁극적 지향점 트로피"

@@ -1,6 +1,6 @@
 +++
 title = "74. 그래프 (Graph) — 방향/무방향, 가중/비가중"
-weight = 74
+weight = 84
 +++
 
 # 74. 순열/조합 (Permutation / Combination)

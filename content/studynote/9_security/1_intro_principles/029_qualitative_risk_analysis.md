@@ -1,5 +1,5 @@
 +++
-weight = 29
+weight = 33
 title = "29. 정성적 위험 분석 — High/Medium/Low 매트릭스"
 date = "2026-04-05"
 [extra]

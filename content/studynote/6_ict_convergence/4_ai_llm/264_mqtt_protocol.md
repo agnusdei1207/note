@@ -1,6 +1,6 @@
 +++
 title = "264. sLLM / SLM (Small Large Language Model) - 7B 이하의 경량화 파운데이션 모델, 엣지 기기 오프라인 구동 및 특정 도메인 파인튜닝용 (Llama-3-8B, Phi-3, Gemma 등)"
-weight = 264
+weight = 267
 +++
 
 ## 핵심 인사이트 (3줄 요약)

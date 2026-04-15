@@ -1,5 +1,5 @@
 +++
-weight = 573
+weight = 574
 title = "573. ODS (Operational Data Store) - 실시간 스냅샷 통합 저장소"
 date = "2026-04-10"
 [extra]

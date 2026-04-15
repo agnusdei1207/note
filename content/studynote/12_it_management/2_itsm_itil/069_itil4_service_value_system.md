@@ -1,5 +1,5 @@
 +++
-weight = 69
+weight = 77
 title = "ITIL 4 서비스 가치 시스템 (SVS, Service Value System)"
 date = "2024-03-20"
 [extra]

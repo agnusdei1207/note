@@ -1,5 +1,5 @@
 +++
-weight = 186
+weight = 201
 title = "186. 분산 추적 (Distributed Tracing) 인프라 - Zipkin과 Jaeger"
 date = "2026-04-10"
 [extra]

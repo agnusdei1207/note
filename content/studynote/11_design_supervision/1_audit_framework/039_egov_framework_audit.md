@@ -1,5 +1,5 @@
 +++
-weight = 39
+weight = 41
 title = "전자정부 표준 프레임워크 (eGovFrame) 아키텍처 및 적용 기준 점검"
 date = "2024-03-20"
 [extra]

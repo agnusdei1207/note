@@ -1,5 +1,5 @@
 +++
-weight = 4
+weight = 8
 title = "4. 자료구조"
 [extra]
 sort_by = "weight"

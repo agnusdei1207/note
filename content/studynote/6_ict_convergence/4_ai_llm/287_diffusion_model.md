@@ -1,5 +1,5 @@
 +++
-weight = 287
+weight = 292
 title = "287. 디퓨전 모델 (Diffusion Model)"
 date = "2024-03-20"
 [extra]

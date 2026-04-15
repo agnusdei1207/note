@@ -1,7 +1,7 @@
 +++
 title = "044. TOGAF (The Open Group Architecture Framework)"
 date = "2026-04-05"
-weight = 44
+weight = 48
 [extra]
 categories = "studynote-security"
 +++

@@ -1,5 +1,5 @@
 +++
-weight = 8
+weight = 15
 title = "8. 확률론 및 확률 분포"
 sort_by = "weight"
 +++

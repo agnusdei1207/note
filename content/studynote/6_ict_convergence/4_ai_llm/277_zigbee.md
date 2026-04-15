@@ -1,6 +1,6 @@
 +++
 title = "277. 벡터 데이터베이스 (Vector Database) - RAG 검색의 핵심, 텍스트/이미지를 다차원 임베딩 텐서로 변환 저장하고 코사인 유사도 연산으로 문맥적(Semantic) 의미가 가까운 문서를 빛의 속도로 추출 (Milvus, Pinecone 등)"
-weight = 277
+weight = 282
 +++
 
 ## 핵심 인사이트 (3줄 요약)

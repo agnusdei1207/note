@@ -1,7 +1,7 @@
 +++
 title = "386. 데이터 클린룸 (Data Clean Room) 보안 공유"
 date = "2026-04-10"
-weight = 386
+weight = 389
 [extra]
 categories = "studynote-database"
 +++

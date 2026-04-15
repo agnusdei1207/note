@@ -1,6 +1,6 @@
 +++
 title = "285. 그래프 쿼리 언어 - Cypher (Neo4j), Gremlin, SPARQL"
-weight = 285
+weight = 288
 +++
 
 # 285. 트리 구조 저장 - Materialized Path, Nested Sets

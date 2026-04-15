@@ -1,5 +1,5 @@
 +++
-weight = 68
+weight = 75
 title = "지속적 서비스 개선 (CSI, Continual Service Improvement)"
 date = "2024-03-20"
 [extra]

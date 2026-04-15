@@ -1,7 +1,7 @@
 +++
 title = "114. BPTT (Backpropagation Through Time)"
 date = "2026-03-04"
-weight = 114
+weight = 115
 [extra]
 categories = ["studynote-ai"]
 +++
