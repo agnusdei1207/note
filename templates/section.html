@@ -40,6 +40,7 @@
 
     {# Pages in this section #}
     {% for page in section.pages %}
+    {% if not page.relative_path is ending_with("_keyword_list.md") %}
     <div class="folder-item-wrapper">
         <a class="folder-item" href="{{ page.permalink }}">
             <span class="fi-icon"><img src="https://api.iconify.design/lucide:file-text.svg?color=%236b7280" width="16"
@@ -52,6 +53,7 @@
             {% include "icons/check.html" %}
         </button>
     </div>
+    {% endif %}
     {% endfor %}
 
 </div>
