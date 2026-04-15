@@ -45,6 +45,36 @@ else
   log "categories 필드 정상"
 fi
 
+# ── 2.5. front matter 구분자 단독 라인 검사 ──────────────
+echo ""
+echo "▶ [2.5/4] front matter 형식 검사..."
+BAD_FM=$(while IFS= read -r -d '' file; do
+  first_line=$(sed -n '1p' "$file" | tr -d '\r')
+  fm_delim=""
+  case "$first_line" in
+    "+++") fm_delim="+++" ;;
+    "---") fm_delim="---" ;;
+    "+++"*|"---"*) printf '%s (delimiter)\n' "$file" ;;
+    *) continue ;;
+  esac
+  fm_body=$(awk 'NR==1 {delim=$0; sub(/\r$/, "", delim); next} {line=$0; sub(/\r$/, "", line); if (line==delim) exit; if (NR>1) print line}' "$file")
+  if [ "$fm_delim" = "+++" ]; then
+    if printf '%s\n' "$fm_body" | grep -qE '^[[:space:]]*[A-Za-z_][A-Za-z0-9_]*:[[:space:]]*'; then
+      printf '%s (TOML-style mismatch)\n' "$file"
+    fi
+  else
+    if printf '%s\n' "$fm_body" | grep -qE '^[[:space:]]*[A-Za-z_][A-Za-z0-9_]* =[[:space:]]*'; then
+      printf '%s (YAML-style mismatch)\n' "$file"
+    fi
+  fi
+done < <(find "$CONTENT_DIR" -name "*.md" -type f -print0 | sort -z))
+if [ -n "$BAD_FM" ]; then
+  fail "front matter 형식이 섞이거나 구분자가 깨진 파일:"
+  printf '%s\n' "$BAD_FM" | sed 's/^/      /'
+else
+  log "front matter 형식 정상"
+fi
+
 # ── 3. 경로 충돌: xxx.md ↔ xxx/_index.md ────────────────
 echo ""
 echo "▶ [3/4] 경로 충돌 검사..."
@@ -61,13 +91,18 @@ while IFS= read -r idx; do
 done < <(find "$CONTENT_DIR" -name "_index.md")
 [ "$COLLISION" -eq 0 ] && log "경로 충돌 없음"
 
-# ── 4. Docker로 Zola 빌드 ────────────────────────────────
+# ── 4. Zola 빌드 ─────────────────────────────────────────
 echo ""
-echo "▶ [4/4] Docker로 Zola 빌드 실행..."
+echo "▶ [4/4] Zola 빌드 실행..."
 
-if ! command -v docker &>/dev/null; then
-  fail "Docker 미설치 또는 Docker Desktop이 실행 중이지 않습니다"
-else
+if command -v zola &>/dev/null; then
+  if zola build 2>&1; then
+    log "Zola 빌드 성공!"
+    rm -rf "$REPO_ROOT/public" 2>/dev/null || true
+  else
+    fail "Zola 빌드 실패 — 위 오류 메시지를 확인하세요"
+  fi
+elif command -v docker &>/dev/null; then
   docker run --rm \
     -v "$REPO_ROOT:/site" \
     -w /site \
@@ -84,6 +119,8 @@ else
   else
     fail "Zola 빌드 실패 — 위 오류 메시지를 확인하세요"
   fi
+else
+  fail "Zola 또는 Docker가 없어 빌드를 실행할 수 없습니다"
 fi
 
 # ── 결과 ─────────────────────────────────────────────────

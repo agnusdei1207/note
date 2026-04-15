@@ -5,9 +5,8 @@ compile_sass = false
 build_search_index = false
 minify_html = false
 
-# Ignore patterns for Zola build
-ignore_patterns = [
-    "vulnable_ctf",
+ignored_content = [
+    "study/vulnable_ctf/**",
     "**/.git/**",
     "**/.gitignore",
     "**/README.md",

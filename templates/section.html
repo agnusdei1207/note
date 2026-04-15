@@ -29,7 +29,7 @@
         {% set_global subs = subs | concat(with=sub_obj) %}
     {% endfor %}
 
-    {% for sub in subs | sort(attribute="weight") %}
+    {% for sub in subs | sort(attribute="title") %}
         <a class="folder-item" href="{{ sub.permalink }}">
             <span class="fi-icon"><img src="https://api.iconify.design/lucide:folder.svg?color=%23f59e0b" width="16"
                     height="16" alt=""></span>
