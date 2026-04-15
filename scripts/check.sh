@@ -51,12 +51,16 @@ echo "▶ [2.5/4] front matter 형식 검사..."
 BAD_FM=$(while IFS= read -r -d '' file; do
   first_line=$(sed -n '1p' "$file" | tr -d '\r')
   fm_delim=""
-  case "$first_line" in
-    "+++") fm_delim="+++" ;;
-    "---") fm_delim="---" ;;
-    "+++"*|"---"*) printf '%s (delimiter)\n' "$file" ;;
-    *) continue ;;
-  esac
+  if [ "$first_line" = "+++" ]; then
+    fm_delim="+++"
+  elif [ "$first_line" = "---" ]; then
+    fm_delim="---"
+  elif [[ "$first_line" == +++* || "$first_line" == ---* ]]; then
+    printf '%s (delimiter)\n' "$file"
+    continue
+  else
+    continue
+  fi
   fm_body=$(awk 'NR==1 {delim=$0; sub(/\r$/, "", delim); next} {line=$0; sub(/\r$/, "", line); if (line==delim) exit; if (NR>1) print line}' "$file")
   if [ "$fm_delim" = "+++" ]; then
     if printf '%s\n' "$fm_body" | grep -qE '^[[:space:]]*[A-Za-z_][A-Za-z0-9_]*:[[:space:]]*'; then
