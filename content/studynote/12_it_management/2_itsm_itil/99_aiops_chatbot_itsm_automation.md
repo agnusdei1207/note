@@ -1,5 +1,5 @@
 +++
-weight = 109
+weight = 99
 title = "99. 챗봇 및 AIOps 결합 ITSM - 지능형 IT 서비스 자동화"
 date = "2026-04-10"
 [extra]

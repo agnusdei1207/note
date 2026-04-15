@@ -1,5 +1,5 @@
 +++
-weight = 261
+weight = 260
 title = "260. 소프트웨어 정의 차량 (SDV, Software Defined Vehicle)"
 date = "2024-03-20"
 [extra]

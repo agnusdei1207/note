@@ -1,7 +1,7 @@
 +++
 title = "#800. RISC-V PMP"
 date = "2026-04-15"
-weight = 200
+weight = 800
 [extra]
 categories = "studynote-computer-architecture"
 +++

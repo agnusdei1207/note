@@ -1,6 +1,6 @@
 +++
 title = "103. 센서 네트워크 (WSN, Wireless Sensor Network) / 싱크 노드(Sink Node)"
-weight = 106
+weight = 103
 +++
 
 > **💡 핵심 인사이트**  

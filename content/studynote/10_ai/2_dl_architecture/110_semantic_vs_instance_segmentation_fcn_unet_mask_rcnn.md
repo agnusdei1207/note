@@ -1,6 +1,6 @@
 +++
 title = "110. 의미적 분할 (Semantic Segmentation) vs 인스턴스 분할 (Instance Segmentation)"
-weight = 111
+weight = 110
 date = "2024-11-20"
 [extra]
 categories = "studynote-ai"

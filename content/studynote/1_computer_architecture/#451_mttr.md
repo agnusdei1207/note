@@ -1,7 +1,7 @@
 +++
 title = "#451. MTTR"
 date = "2026-04-15"
-weight = 549
+weight = 451
 [extra]
 categories = "studynote-computer-architecture"
 +++

@@ -1,7 +1,7 @@
 +++
 title = "373. 콜드 데이터 vs 핫 데이터 계층화(Tiering)"
 date = "2026-04-10"
-weight = 376
+weight = 373
 [extra]
 categories = "studynote-database"
 +++

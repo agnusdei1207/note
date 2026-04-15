@@ -1,7 +1,7 @@
 +++
 title = "262. 트랜스포머 아키텍처 (Transformer Architecture)"
 date = "2026-03-04"
-weight = 264
+weight = 262
 [extra]
 categories = "studynote-ict-convergence"
 +++

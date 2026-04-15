@@ -1,7 +1,7 @@
 +++
 title = "#358. PCIe 루트 컴플렉스"
 date = "2026-04-15"
-weight = 642
+weight = 358
 [extra]
 categories = "studynote-computer-architecture"
 +++

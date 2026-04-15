@@ -1,5 +1,5 @@
 +++
-weight = 34
+weight = 30
 title = "30. SLE (Single Loss Expectancy) — 단일 사고 예상 손실"
 date = "2026-04-05"
 [extra]

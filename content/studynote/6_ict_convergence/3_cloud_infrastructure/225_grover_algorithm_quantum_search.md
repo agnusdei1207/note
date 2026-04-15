@@ -1,5 +1,5 @@
 +++
-weight = 226
+weight = 225
 title = "225. 그로버 알고리즘 (Grover's Algorithm) - 양자 데이터 검색 가속화"
 date = "2026-04-10"
 [extra]

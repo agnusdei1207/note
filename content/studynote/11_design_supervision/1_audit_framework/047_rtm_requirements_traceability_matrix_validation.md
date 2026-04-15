@@ -1,6 +1,6 @@
 +++
 title = "47. 요구사항 추적 매트릭스 (RTM, Requirements Traceability Matrix)의 양방향 추적성 검증"
-weight = 50
+weight = 47
 +++
 
 ## 핵심 인사이트 (3줄 요약)

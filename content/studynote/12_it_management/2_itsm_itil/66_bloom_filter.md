@@ -1,6 +1,6 @@
 +++
 title = "66. AVL 트리 — 높이 균형, 회전 (LL/RR/LR/RL)"
-weight = 72
+weight = 66
 +++
 
 # 66. 블룸 필터 (Bloom Filter)

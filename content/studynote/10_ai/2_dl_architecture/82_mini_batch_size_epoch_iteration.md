@@ -1,5 +1,5 @@
 +++
-weight = 83
+weight = 82
 title = "82. 딥러닝 학습 주기 - Mini-batch Size, Epoch, Iteration 개념"
 date = "2026-04-10"
 [extra]

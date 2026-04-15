@@ -1,7 +1,7 @@
 +++
 title = "#665. Virtio 드라이버 모델"
 date = "2026-04-15"
-weight = 335
+weight = 665
 [extra]
 categories = "studynote-computer-architecture"
 +++

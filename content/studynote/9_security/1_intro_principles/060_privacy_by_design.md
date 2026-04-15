@@ -1,7 +1,7 @@
 +++
 title = "060. Privacy by Design 7대 기본 원칙 — 사전 보호, 기본값 프라이버시 등"
 date = "2026-04-05"
-weight = 64
+weight = 60
 [extra]
 categories = "studynote-security"
 +++

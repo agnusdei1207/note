@@ -1,5 +1,5 @@
 +++
-weight = 553
+weight = 552
 title = "552. 일관된 해싱 (Consistent Hashing) - 노드 이탈 데이터 리밸런싱 극소화"
 date = "2026-04-10"
 [extra]

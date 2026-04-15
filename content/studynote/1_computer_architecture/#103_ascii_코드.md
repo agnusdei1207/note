@@ -1,7 +1,7 @@
 +++
 title = "#103. ASCII 코드"
 date = "2026-04-15"
-weight = 897
+weight = 103
 [extra]
 categories = "studynote-computer-architecture"
 +++

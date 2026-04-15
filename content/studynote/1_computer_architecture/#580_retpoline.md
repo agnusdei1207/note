@@ -1,7 +1,7 @@
 +++
 title = "#580. Retpoline"
 date = "2026-04-15"
-weight = 420
+weight = 580
 [extra]
 categories = "studynote-computer-architecture"
 +++

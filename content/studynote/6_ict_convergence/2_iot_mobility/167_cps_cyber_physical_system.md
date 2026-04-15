@@ -1,6 +1,6 @@
 +++
 title = "167. CPS (Cyber-Physical System / 가상물리시스템) - 컴퓨팅 연산 체계(Cyber)가 물리(Physical) 공정 프로세스를 실시간 제어하고 피드백하는 시스템 (스마트팩토리 두뇌)"
-weight = 181
+weight = 167
 +++
 # 167. CPS (Cyber-Physical System / 가상물리시스템)
 

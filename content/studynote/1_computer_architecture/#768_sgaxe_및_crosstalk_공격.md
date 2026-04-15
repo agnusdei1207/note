@@ -1,7 +1,7 @@
 +++
 title = "#768. SGAxe 및 CrossTalk 공격"
 date = "2026-04-15"
-weight = 232
+weight = 768
 [extra]
 categories = "studynote-computer-architecture"
 +++

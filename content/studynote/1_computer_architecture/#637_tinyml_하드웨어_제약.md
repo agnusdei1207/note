@@ -1,7 +1,7 @@
 +++
 title = "#637. TinyML 하드웨어 제약"
 date = "2026-04-15"
-weight = 363
+weight = 637
 [extra]
 categories = "studynote-computer-architecture"
 +++

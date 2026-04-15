@@ -1,5 +1,5 @@
 +++
-weight = 203
+weight = 188
 title = "188. 부패 방지 계층 (ACL) 패턴 - 레거시와 MSA 도메인 격리"
 date = "2026-04-10"
 [extra]

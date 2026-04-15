@@ -1,7 +1,7 @@
 +++
 title = "#251. DRAM"
 date = "2026-04-15"
-weight = 749
+weight = 251
 [extra]
 categories = "studynote-computer-architecture"
 +++

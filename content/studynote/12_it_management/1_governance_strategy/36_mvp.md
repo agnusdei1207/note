@@ -1,5 +1,5 @@
 +++
-weight = 38
+weight = 36
 title = "36. MVP (Minimum Viable Product) - 학습을 위한 최소한의 발판, 최소 존립 제품"
 date = "2026-03-05"
 [extra]

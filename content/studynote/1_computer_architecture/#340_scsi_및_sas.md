@@ -1,7 +1,7 @@
 +++
 title = "#340. SCSI 및 SAS"
 date = "2026-04-15"
-weight = 660
+weight = 340
 [extra]
 categories = "studynote-computer-architecture"
 +++

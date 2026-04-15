@@ -1,6 +1,6 @@
 +++
 title = "109. 저전력 광역 통신망 (LPWAN, Low-Power Wide-Area Network) - 수십 km 커버리지, 수년 배터리 수명, 저용량 데이터"
-weight = 112
+weight = 109
 +++
 
 > **💡 핵심 인사이트**  

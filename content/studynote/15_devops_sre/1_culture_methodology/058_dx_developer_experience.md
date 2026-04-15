@@ -1,6 +1,6 @@
 +++
 title = "58. 개발자 경험 (DX, Developer Experience) 향상 전략"
-weight = 61
+weight = 58
 +++
 
 # 개발자 경험 (DX, Developer Experience) 향상 전략

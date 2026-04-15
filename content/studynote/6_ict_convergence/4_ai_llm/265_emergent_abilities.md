@@ -1,5 +1,5 @@
 +++
-weight = 269
+weight = 265
 title = "창발성 (Emergent Abilities)"
 date = "2026-03-04"
 [extra]

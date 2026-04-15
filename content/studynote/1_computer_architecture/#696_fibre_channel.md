@@ -1,7 +1,7 @@
 +++
 title = "#696. Fibre Channel"
 date = "2026-04-15"
-weight = 304
+weight = 696
 [extra]
 categories = "studynote-computer-architecture"
 +++

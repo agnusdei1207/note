@@ -1,5 +1,5 @@
 +++
-weight = 59
+weight = 56
 title = "56. DevOps 툴체인 (Toolchain) 이기종 연동 API"
 date = "2026-04-05"
 [extra]

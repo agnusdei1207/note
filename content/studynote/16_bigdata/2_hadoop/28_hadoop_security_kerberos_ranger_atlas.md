@@ -1,5 +1,5 @@
 +++
-weight = 29
+weight = 28
 title = "Hadoop 보안: Kerberos, Ranger, Atlas"
 date = "2024-03-24"
 [extra]

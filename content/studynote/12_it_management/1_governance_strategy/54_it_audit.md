@@ -1,5 +1,5 @@
 +++
-weight = 56
+weight = 54
 title = "정보 시스템 감리 (IT Audit)"
 date = "2024-03-24"
 [extra]

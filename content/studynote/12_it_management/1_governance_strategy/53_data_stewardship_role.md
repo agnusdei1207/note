@@ -1,6 +1,6 @@
 +++
 title = "53. 데이터 스튜어드십 (Data Stewardship)"
-weight = 55
+weight = 53
 date = "2026-03-04"
 [extra]
 categories = ["studynote-it-management", "data-architecture"]

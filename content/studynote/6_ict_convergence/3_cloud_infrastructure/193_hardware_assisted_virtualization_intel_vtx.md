@@ -1,6 +1,6 @@
 +++
 title = "193. 하드웨어 보조 가상화 (Intel VT-x)"
-weight = 194
+weight = 193
 +++
 # 193. 하드웨어 보조 가상화 (Intel VT-x) - Hardware Assisted Virtualization AMD-V 하이퍼바이저 링 계층(Ring Layer) 특권 명령 샌드박스 성능 오버헤드 극복 전가상화 진화
 

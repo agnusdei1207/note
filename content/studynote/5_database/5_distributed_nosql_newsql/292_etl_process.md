@@ -1,6 +1,6 @@
 +++
 title = "292. 칵로치DB (CockroachDB) - 생존성 극대화 분산 SQL 데이터베이스"
-weight = 295
+weight = 292
 +++
 
 # 292. ETL 프로세스

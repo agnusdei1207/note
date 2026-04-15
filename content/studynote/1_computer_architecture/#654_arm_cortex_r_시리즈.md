@@ -1,7 +1,7 @@
 +++
 title = "#654. ARM Cortex-R 시리즈"
 date = "2026-04-15"
-weight = 346
+weight = 654
 [extra]
 categories = "studynote-computer-architecture"
 +++

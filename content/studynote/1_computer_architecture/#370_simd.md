@@ -1,7 +1,7 @@
 +++
 title = "#370. SIMD"
 date = "2026-04-15"
-weight = 630
+weight = 370
 [extra]
 categories = "studynote-computer-architecture"
 +++

@@ -1,7 +1,7 @@
 +++
 title = "#331. RAID"
 date = "2026-04-15"
-weight = 669
+weight = 331
 [extra]
 categories = "studynote-computer-architecture"
 +++

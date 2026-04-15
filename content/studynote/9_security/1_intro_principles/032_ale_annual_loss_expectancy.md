@@ -1,5 +1,5 @@
 +++
-weight = 36
+weight = 32
 title = "32. ALE (Annual Loss Expectancy) — 연간 예상 손실"
 date = "2026-04-05"
 [extra]

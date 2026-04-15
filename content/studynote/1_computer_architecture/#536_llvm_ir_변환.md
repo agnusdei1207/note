@@ -1,7 +1,7 @@
 +++
 title = "#536. LLVM IR 변환"
 date = "2026-04-15"
-weight = 464
+weight = 536
 [extra]
 categories = "studynote-computer-architecture"
 +++

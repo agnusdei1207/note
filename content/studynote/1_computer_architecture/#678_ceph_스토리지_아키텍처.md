@@ -1,7 +1,7 @@
 +++
 title = "#678. Ceph 스토리지 아키텍처"
 date = "2026-04-15"
-weight = 322
+weight = 678
 [extra]
 categories = "studynote-computer-architecture"
 +++

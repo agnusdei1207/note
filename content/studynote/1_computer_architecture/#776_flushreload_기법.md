@@ -1,7 +1,7 @@
 +++
 title = "#776. Flush+Reload 기법"
 date = "2026-04-15"
-weight = 224
+weight = 776
 [extra]
 categories = "studynote-computer-architecture"
 +++

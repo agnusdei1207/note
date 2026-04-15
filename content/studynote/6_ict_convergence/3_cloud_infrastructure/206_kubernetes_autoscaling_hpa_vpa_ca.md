@@ -1,6 +1,6 @@
 +++
 title = "206. 쿠버네티스 오토스케일링 - HPA (Horizontal Pod Autoscaler - Pod 개수 증가), VPA (수직 스케일링), Cluster Autoscaler (워커 노드 자체 추가)"
-weight = 207
+weight = 206
 +++
 # 206. 쿠버네티스 오토스케일링 - HPA VPA Cluster Autoscaler 자동 확장 Pod 스케일 아웃 트래픽 폭주 대응 클라우드 네이티브
 

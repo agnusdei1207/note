@@ -1,7 +1,7 @@
 +++
 title = "#655. ARM Cortex-M 시리즈"
 date = "2026-04-15"
-weight = 345
+weight = 655
 [extra]
 categories = "studynote-computer-architecture"
 +++

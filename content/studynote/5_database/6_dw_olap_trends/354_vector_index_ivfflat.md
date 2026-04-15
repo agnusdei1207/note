@@ -1,5 +1,5 @@
 +++
-weight = 355
+weight = 354
 title = "354. 벡터 인덱스 IVFFlat (Inverted File Flat)"
 date = "2026-04-09"
 description = "고차원 임베딩 벡터 데이터를 빠르고 효율적으로 추론하기 위한 클러스터 매핑 인덱스 구조"

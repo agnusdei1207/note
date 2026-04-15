@@ -1,7 +1,7 @@
 +++
 title = "#706. UEFI"
 date = "2026-04-15"
-weight = 294
+weight = 706
 [extra]
 categories = "studynote-computer-architecture"
 +++

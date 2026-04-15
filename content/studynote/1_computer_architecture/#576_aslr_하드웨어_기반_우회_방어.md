@@ -1,7 +1,7 @@
 +++
 title = "#576. ASLR 하드웨어 기반 우회 방어"
 date = "2026-04-15"
-weight = 424
+weight = 576
 [extra]
 categories = "studynote-computer-architecture"
 +++

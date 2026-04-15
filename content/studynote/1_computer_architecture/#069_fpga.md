@@ -1,7 +1,7 @@
 +++
 title = "#69. FPGA"
 date = "2026-04-15"
-weight = 931
+weight = 69
 [extra]
 categories = "studynote-computer-architecture"
 +++

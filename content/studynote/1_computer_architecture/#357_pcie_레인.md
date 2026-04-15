@@ -1,7 +1,7 @@
 +++
 title = "#357. PCIe 레인"
 date = "2026-04-15"
-weight = 643
+weight = 357
 [extra]
 categories = "studynote-computer-architecture"
 +++

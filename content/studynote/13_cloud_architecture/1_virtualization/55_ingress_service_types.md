@@ -1,5 +1,5 @@
 +++
-weight = 56
+weight = 55
 title = "55. 가상 스위치 (vSwitch) / OVS (Open vSwitch)"
 date = "2026-04-05"
 [taxonomies]

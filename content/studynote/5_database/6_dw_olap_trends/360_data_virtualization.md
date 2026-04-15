@@ -1,5 +1,5 @@
 +++
-weight = 363
+weight = 360
 title = "360. 데이터 가상화 (Data Virtualization)"
 date = "2026-04-09"
 description = "ETL을 통한 물리적 레코드 이동 없이 논리적 뷰(View) 계층만을 배포해 여러 시스템의 데이터를 즉각 통합 조인하는 기술"

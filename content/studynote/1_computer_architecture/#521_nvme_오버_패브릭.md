@@ -1,7 +1,7 @@
 +++
 title = "#521. NVMe 오버 패브릭"
 date = "2026-04-15"
-weight = 479
+weight = 521
 [extra]
 categories = "studynote-computer-architecture"
 +++

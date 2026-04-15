@@ -1,6 +1,6 @@
 +++
 title = "48. 소프트웨어 인도물 (Deliverables) 명세 합치 여부 점검"
-weight = 51
+weight = 48
 +++
 
 ## 핵심 인사이트 (3줄 요약)

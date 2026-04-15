@@ -1,6 +1,6 @@
 +++
 title = "176. 웨어러블 디바이스 (Wearable Device) - 신체 부착형 기기 통신 체계 (WBAN, Body Area Network)"
-weight = 190
+weight = 176
 +++
 # 176. 웨어러블 디바이스 (Wearable Device) - 신체 부착형 기기 통신 체계 WBAN Body Area Network 초저전력 헬스케어 메타버스 융합 기기
 

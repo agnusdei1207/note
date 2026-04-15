@@ -1,7 +1,7 @@
 +++
 title = "#419. GPGPU"
 date = "2026-04-15"
-weight = 581
+weight = 419
 [extra]
 categories = "studynote-computer-architecture"
 +++

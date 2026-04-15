@@ -1,5 +1,5 @@
 +++
-weight = 51
+weight = 50
 title = "50. 데이터 그래비티 (Data Gravity) - 클라우드 종속의 원인"
 date = "2026-04-10"
 [extra]

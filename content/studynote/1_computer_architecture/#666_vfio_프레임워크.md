@@ -1,7 +1,7 @@
 +++
 title = "#666. VFIO 프레임워크"
 date = "2026-04-15"
-weight = 334
+weight = 666
 [extra]
 categories = "studynote-computer-architecture"
 +++

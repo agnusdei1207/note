@@ -1,5 +1,5 @@
 +++
-weight = 103
+weight = 102
 title = "IoT 3대 구성 요소"
 date = "2024-03-21"
 [extra]

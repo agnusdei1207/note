@@ -1,5 +1,5 @@
 +++
-weight = 252
+weight = 251
 title = "251. 엣지 네이티브 (Edge Native) 설계 패턴"
 date = "2026-04-10"
 [extra]

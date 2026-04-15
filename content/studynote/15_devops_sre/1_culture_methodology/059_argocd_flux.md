@@ -1,5 +1,5 @@
 +++
-weight = 62
+weight = 59
 title = "59. 번아웃 (Burnout) 방지를 위한 온콜 (On-call) 교대 근무 최적화"
 date = "2026-04-05"
 [extra]

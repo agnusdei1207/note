@@ -1,7 +1,7 @@
 +++
 title = "#356. PCIe"
 date = "2026-04-15"
-weight = 644
+weight = 356
 [extra]
 categories = "studynote-computer-architecture"
 +++

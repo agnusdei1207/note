@@ -1,7 +1,7 @@
 +++
 title = "381. 메인 메모리 DB의 스냅샷 로깅 (Checkpointing in IMDB)"
 date = "2026-04-10"
-weight = 384
+weight = 381
 [extra]
 categories = "studynote-database"
 +++

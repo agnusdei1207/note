@@ -1,7 +1,7 @@
 +++
 title = "#380. NUMA"
 date = "2026-04-15"
-weight = 620
+weight = 380
 [extra]
 categories = "studynote-computer-architecture"
 +++

@@ -1,6 +1,6 @@
 +++
 title = "282. 파라미터 효율적 미세 조정 (PEFT, Parameter-Efficient Fine-Tuning) - 수천억 파라미터 거대 모델 전체를 업데이트하기엔 GPU 자원이 부족하므로, 원래 가중치는 동결(Freeze)하고 극히 일부의 추가 파라미터 모듈만 훈련"
-weight = 287
+weight = 282
 +++
 
 ## 핵심 인사이트 (3줄 요약)

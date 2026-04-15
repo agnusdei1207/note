@@ -1,5 +1,5 @@
 +++
-weight = 134
+weight = 131
 title = "131. SLAM (Simultaneous Localization and Mapping) - 로봇/AR 기기가 미지의 환경을 돌아다니며 지도를 작성함과 동시에 자신의 위치를 추정하는 자율주행/AR 핵심 알고리즘"
 description = "로봇이나 자율주행차, XR 안경이 눈을 가린 채 미지의 캄캄한 동굴에 떨어졌을 때, 센서를 더듬거리며 '동굴의 3D 지도(Mapping)'를 그리고 동시에 '내가 그 지도 속 어디에 있는지(Localization)'를 실시간으로 추론해 내는 공간 컴퓨팅의 궁극적 AI 알고리즘"
 date = 2026-04-03

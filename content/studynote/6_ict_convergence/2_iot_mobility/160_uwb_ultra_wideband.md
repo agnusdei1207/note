@@ -1,5 +1,5 @@
 +++
-weight = 169
+weight = 160
 title = "160. UWB (Ultra-Wideband / 초광대역)"
 date = "2026-04-09"
 description = "수백 MHz 이상의 매우 넓은 대역폭에 걸쳐 나노초(ns) 이하의 극도로 짧은 임펄스 신호를 쏘아, 수 센티미터(cm) 단위의 오차로 정밀 위치를 추적해 내는 근거리 레이더급 무선 기술"

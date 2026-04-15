@@ -1,6 +1,6 @@
 +++
 title = "284. 모델 양자화와 QLoRA (Quantization & QLoRA)"
-weight = 289
+weight = 284
 date = "2026-03-04"
 [extra]
 categories = "studynote-ict-convergence"

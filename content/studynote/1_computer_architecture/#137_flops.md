@@ -1,7 +1,7 @@
 +++
 title = "#137. FLOPS"
 date = "2026-04-15"
-weight = 863
+weight = 137
 [extra]
 categories = "studynote-computer-architecture"
 +++

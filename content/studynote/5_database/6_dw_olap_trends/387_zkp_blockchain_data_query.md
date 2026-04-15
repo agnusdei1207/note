@@ -1,7 +1,7 @@
 +++
 title = "387. 영지식 증명(ZKP) 데이터 질의 프레임워크"
 date = "2026-04-10"
-weight = 390
+weight = 387
 [extra]
 categories = "studynote-database"
 +++

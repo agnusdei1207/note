@@ -1,7 +1,7 @@
 +++
 title = "#761. MIL-HDBK-217 고장률 예측"
 date = "2026-04-15"
-weight = 239
+weight = 761
 [extra]
 categories = "studynote-computer-architecture"
 +++

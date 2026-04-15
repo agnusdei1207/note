@@ -1,6 +1,6 @@
 +++
 title = "304. 데이터 레이크하우스 (Data Lakehouse) - 데이터 레이크(비정형)와 웨어하우스(정형)의 융합 구조 (Databricks, Delta Lake)"
-weight = 307
+weight = 304
 +++
 
 # 304. 배치 처리 파이프라인

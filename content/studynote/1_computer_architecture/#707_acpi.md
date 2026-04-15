@@ -1,7 +1,7 @@
 +++
 title = "#707. ACPI"
 date = "2026-04-15"
-weight = 293
+weight = 707
 [extra]
 categories = "studynote-computer-architecture"
 +++

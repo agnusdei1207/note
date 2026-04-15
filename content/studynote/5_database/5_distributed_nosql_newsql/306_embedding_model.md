@@ -1,6 +1,6 @@
 +++
 title = "306. 셰어드 낫띵 (Shared Nothing) 아키텍처 - 데이터 분할 공유 (수평 확장, NoSQL 기본 구조)"
-weight = 309
+weight = 306
 +++
 
 # 306. 임베딩 모델

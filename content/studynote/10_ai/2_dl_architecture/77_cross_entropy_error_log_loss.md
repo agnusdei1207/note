@@ -1,5 +1,5 @@
 +++
-weight = 78
+weight = 77
 title = "77. 크로스 엔트로피 오차 (CEE) - 분류 문제 핵심 손실 함수"
 date = "2026-04-10"
 [extra]

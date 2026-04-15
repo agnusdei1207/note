@@ -1,5 +1,5 @@
 +++
-weight = 54
+weight = 53
 title = "53. OVF (Open Virtualization Format) / OVA - 가상 머신 이미지를 이기종 하이퍼바이저 간 교환하기 위한 국제 표준 패키징 포맷"
 date = "2026-04-05"
 [taxonomies]

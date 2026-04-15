@@ -1,6 +1,6 @@
 +++
 title = "292. 페이즈드 어텐션 (PagedAttention / vLLM) - LLM 추론 가속화를 위한 가상 메모리 관리 혁신"
-weight = 297
+weight = 292
 date = "2026-03-04"
 [extra]
 categories = "studynote-ict-convergence"

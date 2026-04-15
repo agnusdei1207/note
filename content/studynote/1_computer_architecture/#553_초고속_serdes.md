@@ -1,7 +1,7 @@
 +++
 title = "#553. 초고속 SerDes"
 date = "2026-04-15"
-weight = 447
+weight = 553
 [extra]
 categories = "studynote-computer-architecture"
 +++

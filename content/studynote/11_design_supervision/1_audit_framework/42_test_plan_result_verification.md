@@ -1,6 +1,6 @@
 +++
 title = "42. 객관적 증거 (Objective Evidence) 수집 원칙 - 면담, 관찰, 문서 검토, 직접 진단(테스트) 기법"
-weight = 45
+weight = 42
 +++
 
 # 테스트 계획/결과서 확인

@@ -1,7 +1,7 @@
 +++
 title = "#760. HASS"
 date = "2026-04-15"
-weight = 240
+weight = 760
 [extra]
 categories = "studynote-computer-architecture"
 +++

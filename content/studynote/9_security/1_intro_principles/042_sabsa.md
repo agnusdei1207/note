@@ -1,7 +1,7 @@
 +++
 title = "042. SABSA (Sherwood Applied Business Security Architecture)"
 date = "2026-04-05"
-weight = 46
+weight = 42
 [extra]
 categories = "studynote-security"
 +++

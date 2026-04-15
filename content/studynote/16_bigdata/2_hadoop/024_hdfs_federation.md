@@ -1,5 +1,5 @@
 +++
-weight = 25
+weight = 24
 title = "HDFS 페더레이션 (HDFS Federation) 및 네임노드 확장"
 date = "2024-03-24"
 [extra]

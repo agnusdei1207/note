@@ -1,7 +1,7 @@
 +++
 title = "066. PASTA (Process for Attack Simulation and Threat Analysis) — 7단계 위협 모델링"
 date = "2026-04-05"
-weight = 70
+weight = 66
 [extra]
 categories = "studynote-security"
 +++

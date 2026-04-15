@@ -1,6 +1,6 @@
 +++
 title = "256. 카프카 (Apache Kafka) 대용량 실시간 분산 메시지 큐"
-weight = 257
+weight = 256
 date = "2024-06-04"
 [extra]
 categories = ["studynote", "ict_convergence", "cloud_infrastructure"]

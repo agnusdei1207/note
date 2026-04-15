@@ -1,5 +1,5 @@
 +++
-weight = 567
+weight = 566
 title = "566. 캐시 스탬피드 (Cache Stampede)와 회피 기법"
 date = "2026-04-10"
 [extra]

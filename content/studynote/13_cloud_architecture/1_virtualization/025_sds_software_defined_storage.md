@@ -1,5 +1,5 @@
 +++
-weight = 26
+weight = 25
 title = "25. SDS (Software Defined Storage) - 범용 x86 서버 하드웨어를 묶어 분산/가상화 소프트웨어를 통해 하나의 스토리지 풀로 운영 (Ceph 등)"
 date = "2026-04-02"
 [extra]

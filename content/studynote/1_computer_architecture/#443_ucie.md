@@ -1,7 +1,7 @@
 +++
 title = "#443. UCIe"
 date = "2026-04-15"
-weight = 557
+weight = 443
 [extra]
 categories = "studynote-computer-architecture"
 +++

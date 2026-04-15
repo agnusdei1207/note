@@ -1,5 +1,5 @@
 +++
-weight = 589
+weight = 588
 title = "588. DTC (분산 트랜잭션 코디네이터)와 2PC 연합 트랜잭션"
 date = "2026-04-10"
 [extra]

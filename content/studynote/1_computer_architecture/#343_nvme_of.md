@@ -1,7 +1,7 @@
 +++
 title = "#343. NVMe-oF"
 date = "2026-04-15"
-weight = 657
+weight = 343
 [extra]
 categories = "studynote-computer-architecture"
 +++

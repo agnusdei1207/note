@@ -1,5 +1,5 @@
 +++
-weight = 156
+weight = 152
 title = "152. 6G 통신망 비전 (6G Vision)"
 date = "2026-04-09"
 description = "테라헤르츠(THz) 대역폭과 비지상 통신망(NTN)을 활용해 전 지구적 초공간 커버리지를 구현하는 AI 내재화 차세대 네트워크"

@@ -1,7 +1,7 @@
 +++
 title = "#791. 애플 Secure Enclave Processor"
 date = "2026-04-15"
-weight = 209
+weight = 791
 [extra]
 categories = "studynote-computer-architecture"
 +++

@@ -1,7 +1,7 @@
 +++
 title = "#420. CUDA"
 date = "2026-04-15"
-weight = 580
+weight = 420
 [extra]
 categories = "studynote-computer-architecture"
 +++

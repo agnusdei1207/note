@@ -1,7 +1,7 @@
 +++
 title = "#659. AMD-V"
 date = "2026-04-15"
-weight = 341
+weight = 659
 [extra]
 categories = "studynote-computer-architecture"
 +++

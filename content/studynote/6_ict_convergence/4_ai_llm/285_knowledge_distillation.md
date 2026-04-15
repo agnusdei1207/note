@@ -1,6 +1,6 @@
 +++
 title = "285. 지식 증류 (Knowledge Distillation)"
-weight = 290
+weight = 285
 date = "2026-03-04"
 [extra]
 categories = "studynote-ict-convergence"

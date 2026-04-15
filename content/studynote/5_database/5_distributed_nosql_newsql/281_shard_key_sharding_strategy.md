@@ -1,6 +1,6 @@
 +++
 title = "281. 샤드 키 (Shard Key / Partition Key) - 분산 데이터베이스의 데이터 배치 및 부하 분산의 핵심"
-weight = 282
+weight = 281
 +++
 
 ## 핵심 인사이트 (3줄 요약)

@@ -1,7 +1,7 @@
 +++
 title = "#708. SMBIOS"
 date = "2026-04-15"
-weight = 292
+weight = 708
 [extra]
 categories = "studynote-computer-architecture"
 +++

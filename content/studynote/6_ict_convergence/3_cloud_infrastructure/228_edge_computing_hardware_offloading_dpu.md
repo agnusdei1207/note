@@ -1,5 +1,5 @@
 +++
-weight = 229
+weight = 228
 title = "228. 엣지 컴퓨팅 하드웨어 오프로딩 (DPU, SmartNIC)"
 date = "2026-04-10"
 [extra]

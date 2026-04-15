@@ -1,5 +1,5 @@
 +++
-weight = 59
+weight = 57
 title = "구독 경제 (Subscription Economy) 및 XaaS"
 date = "2024-03-20"
 [extra]

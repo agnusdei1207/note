@@ -1,7 +1,7 @@
 +++
 title = "291. KV 캐시 (Key-Value Cache) - LLM 텍스트 추론 가속화"
 date = "2026-04-11"
-weight = 296
+weight = 291
 [extra]
 categories = "studynote-ict-convergence"
 +++

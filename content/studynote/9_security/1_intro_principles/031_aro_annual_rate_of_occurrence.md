@@ -1,5 +1,5 @@
 +++
-weight = 35
+weight = 31
 title = "31. ARO (Annual Rate of Occurrence) — 연간 발생 확률"
 date = "2026-04-05"
 [extra]

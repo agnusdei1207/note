@@ -1,5 +1,5 @@
 +++
-weight = 577
+weight = 576
 title = "576. 팩트리스 팩트 테이블 (Factless Fact Table) 이벤트 추적"
 date = "2026-04-10"
 [extra]

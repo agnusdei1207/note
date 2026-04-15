@@ -1,7 +1,7 @@
 +++
 title = "#709. IPMI"
 date = "2026-04-15"
-weight = 291
+weight = 709
 [extra]
 categories = "studynote-computer-architecture"
 +++

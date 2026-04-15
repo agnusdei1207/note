@@ -1,7 +1,7 @@
 +++
 title = "#153. Linpack"
 date = "2026-04-15"
-weight = 847
+weight = 153
 [extra]
 categories = "studynote-computer-architecture"
 +++

@@ -1,5 +1,5 @@
 +++
-weight = 85
+weight = 84
 title = "84. 모멘텀 (Momentum) 옵티마이저 - 관성 활용 최적화"
 date = "2026-04-10"
 [extra]

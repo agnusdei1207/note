@@ -1,7 +1,7 @@
 +++
 title = "#724. T-States"
 date = "2026-04-15"
-weight = 276
+weight = 724
 [extra]
 categories = "studynote-computer-architecture"
 +++

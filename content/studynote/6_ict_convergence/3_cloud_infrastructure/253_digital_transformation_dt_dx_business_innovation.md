@@ -1,5 +1,5 @@
 +++
-weight = 254
+weight = 253
 title = "253. 디지털 전환 (DT/DX, Digital Transformation)"
 date = "2026-04-10"
 [extra]

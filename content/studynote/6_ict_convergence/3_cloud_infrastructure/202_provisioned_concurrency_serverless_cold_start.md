@@ -1,6 +1,6 @@
 +++
 title = "202. 프로비저닝된 동시성 (Provisioned Concurrency) - 콜드 스타트 해결을 위해 유휴 컨테이너를 미리 예열해두는 서버리스 옵션"
-weight = 203
+weight = 202
 +++
 # 202. 프로비저닝된 동시성 (Provisioned Concurrency) - 서버리스 콜드 스타트(Cold Start) 해결 AWS 람다 유휴 컨테이너 예열 지연 시간 최소화 클라우드 최적화
 

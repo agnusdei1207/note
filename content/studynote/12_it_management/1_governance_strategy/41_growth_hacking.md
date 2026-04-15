@@ -1,5 +1,5 @@
 +++
-weight = 44
+weight = 41
 title = "그로스 해킹 (Growth Hacking)"
 date = "2026-03-04"
 [extra]

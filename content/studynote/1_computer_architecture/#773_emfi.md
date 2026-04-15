@@ -1,7 +1,7 @@
 +++
 title = "#773. EMFI"
 date = "2026-04-15"
-weight = 227
+weight = 773
 [extra]
 categories = "studynote-computer-architecture"
 +++

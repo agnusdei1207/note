@@ -1,7 +1,7 @@
 +++
 title = "#136. MIPS"
 date = "2026-04-15"
-weight = 864
+weight = 136
 [extra]
 categories = "studynote-computer-architecture"
 +++

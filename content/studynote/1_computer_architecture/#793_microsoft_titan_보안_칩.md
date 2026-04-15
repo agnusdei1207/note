@@ -1,7 +1,7 @@
 +++
 title = "#793. Microsoft Titan 보안 칩"
 date = "2026-04-15"
-weight = 207
+weight = 793
 [extra]
 categories = "studynote-computer-architecture"
 +++

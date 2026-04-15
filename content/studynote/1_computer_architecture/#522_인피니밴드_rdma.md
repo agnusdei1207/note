@@ -1,7 +1,7 @@
 +++
 title = "#522. 인피니밴드 RDMA"
 date = "2026-04-15"
-weight = 478
+weight = 522
 [extra]
 categories = "studynote-computer-architecture"
 +++

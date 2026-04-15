@@ -1,7 +1,7 @@
 +++
 title = "#631. SDDC"
 date = "2026-04-15"
-weight = 369
+weight = 631
 [extra]
 categories = "studynote-computer-architecture"
 +++

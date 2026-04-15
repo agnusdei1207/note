@@ -1,5 +1,5 @@
 +++
-weight = 361
+weight = 358
 title = "358. 데이터 메시 (Data Mesh)"
 date = "2026-04-09"
 description = "데이터 레이크의 중앙집중형 기술 사일로 한계를 타파하고 데이터 도메인 제품(Data-as-a-Product) 중심의 분산 권한 오너십 아키텍처"

@@ -1,6 +1,6 @@
 +++
 title = "68. B-트리 (B-Tree) — 다진 탐색, 디스크 기반, 균형"
-weight = 76
+weight = 68
 +++
 
 # 68. 스택/큐 (Stack / Queue)

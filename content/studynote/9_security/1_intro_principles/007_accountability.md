@@ -1,5 +1,5 @@
 +++
-weight = 8
+weight = 7
 title = "책임추적성 (Accountability) — 감사 로그, 감사 기록, 사용자 행동 추적"
 date = "2026-03-25"
 [extra]

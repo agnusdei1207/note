@@ -1,7 +1,7 @@
 +++
 title = "#150. SPEC 벤치마크"
 date = "2026-04-15"
-weight = 850
+weight = 150
 [extra]
 categories = "studynote-computer-architecture"
 +++

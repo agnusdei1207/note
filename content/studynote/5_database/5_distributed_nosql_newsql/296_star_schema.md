@@ -1,6 +1,6 @@
 +++
 title = "296. 캐시 스탬피드 (Cache Stampede) / Thundering Herd 문제 - 대규모 동시 캐시 미스 발생 부하"
-weight = 299
+weight = 296
 +++
 
 # 296. 스타 스키마

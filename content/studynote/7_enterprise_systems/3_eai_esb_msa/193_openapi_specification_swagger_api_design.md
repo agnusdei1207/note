@@ -1,5 +1,5 @@
 +++
-weight = 208
+weight = 193
 title = "193. 오픈 API 규격 - OpenAPI Specification (OAS) 및 Swagger"
 date = "2026-04-10"
 [extra]

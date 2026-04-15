@@ -1,7 +1,7 @@
 +++
 title = "#372. MIMD"
 date = "2026-04-15"
-weight = 628
+weight = 372
 [extra]
 categories = "studynote-computer-architecture"
 +++

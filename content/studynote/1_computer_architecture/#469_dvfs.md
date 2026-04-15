@@ -1,7 +1,7 @@
 +++
 title = "#469. DVFS"
 date = "2026-04-15"
-weight = 531
+weight = 469
 [extra]
 categories = "studynote-computer-architecture"
 +++

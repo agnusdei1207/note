@@ -1,7 +1,7 @@
 +++
 title = "388. 분산 노드 간 클럭 스큐 (Spanner TrueTime)"
 date = "2026-04-10"
-weight = 391
+weight = 388
 [extra]
 categories = "studynote-database"
 +++

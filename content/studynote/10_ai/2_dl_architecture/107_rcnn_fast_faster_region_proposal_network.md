@@ -1,5 +1,5 @@
 +++
-weight = 108
+weight = 107
 title = "107. R-CNN, Fast R-CNN, Faster R-CNN (2-Stage 탐지기) 진화"
 date = "2026-04-10"
 [extra]

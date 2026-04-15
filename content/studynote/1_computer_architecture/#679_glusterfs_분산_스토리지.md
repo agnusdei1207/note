@@ -1,7 +1,7 @@
 +++
 title = "#679. GlusterFS 분산 스토리지"
 date = "2026-04-15"
-weight = 321
+weight = 679
 [extra]
 categories = "studynote-computer-architecture"
 +++

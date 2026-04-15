@@ -1,6 +1,6 @@
 +++
 title = "215. SDN (Software Defined Networking) - 제어 평면(Control Plane)과 데이터 평면(Data Plane)을 분리, 중앙 집중식 네트워크 컨트롤러 배포"
-weight = 216
+weight = 215
 +++
 # 215. SDN (Software Defined Networking) - 제어 평면 데이터 평면 분리 중앙 집중식 네트워크 컨트롤러 클라우드 오픈플로우(OpenFlow)
 

@@ -1,7 +1,7 @@
 +++
 title = "#752. FMEA"
 date = "2026-04-15"
-weight = 248
+weight = 752
 [extra]
 categories = "studynote-computer-architecture"
 +++

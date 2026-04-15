@@ -1,7 +1,7 @@
 +++
 title = "#725. ACPI S-States"
 date = "2026-04-15"
-weight = 275
+weight = 725
 [extra]
 categories = "studynote-computer-architecture"
 +++

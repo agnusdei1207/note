@@ -1,7 +1,7 @@
 +++
 title = "#30. XOR, XNOR 게이트"
 date = "2026-04-15"
-weight = 970
+weight = 30
 [extra]
 categories = "studynote-computer-architecture"
 +++

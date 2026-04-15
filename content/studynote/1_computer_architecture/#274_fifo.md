@@ -1,7 +1,7 @@
 +++
 title = "#274. FIFO"
 date = "2026-04-15"
-weight = 726
+weight = 274
 [extra]
 categories = "studynote-computer-architecture"
 +++

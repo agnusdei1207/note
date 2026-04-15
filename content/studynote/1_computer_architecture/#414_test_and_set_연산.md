@@ -1,7 +1,7 @@
 +++
 title = "#414. Test-and-Set 연산"
 date = "2026-04-15"
-weight = 586
+weight = 414
 [extra]
 categories = "studynote-computer-architecture"
 +++

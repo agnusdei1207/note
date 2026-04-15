@@ -1,5 +1,5 @@
 +++
-weight = 58
+weight = 56
 title = "옴니채널 마케팅 전략 (Omni-Channel Marketing Strategy)"
 date = "2024-03-24"
 [extra]

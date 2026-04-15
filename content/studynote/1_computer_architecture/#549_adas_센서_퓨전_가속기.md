@@ -1,7 +1,7 @@
 +++
 title = "#549. ADAS 센서 퓨전 가속기"
 date = "2026-04-15"
-weight = 451
+weight = 549
 [extra]
 categories = "studynote-computer-architecture"
 +++

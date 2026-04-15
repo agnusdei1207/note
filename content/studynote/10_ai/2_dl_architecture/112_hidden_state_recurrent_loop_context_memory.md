@@ -1,6 +1,6 @@
 +++
 title = "112. 은닉 상태 (Hidden State) 순환 루프"
-weight = 113
+weight = 112
 date = "2024-11-20"
 [extra]
 categories = "studynote-ai"

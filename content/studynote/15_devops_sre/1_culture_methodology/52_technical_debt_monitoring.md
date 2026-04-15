@@ -1,6 +1,6 @@
 +++
 title = "기술 부채 (Technical Debt) 모니터링 시스템"
-weight = 53
+weight = 52
 date = "2026-03-04"
 [extra]
 categories = "studynote-devops-sre"

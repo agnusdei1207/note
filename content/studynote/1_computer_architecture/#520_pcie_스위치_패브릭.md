@@ -1,7 +1,7 @@
 +++
 title = "#520. PCIe 스위치 패브릭"
 date = "2026-04-15"
-weight = 480
+weight = 520
 [extra]
 categories = "studynote-computer-architecture"
 +++

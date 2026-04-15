@@ -1,7 +1,7 @@
 +++
 title = "#721. 패키지 C-States"
 date = "2026-04-15"
-weight = 279
+weight = 721
 [extra]
 categories = "studynote-computer-architecture"
 +++

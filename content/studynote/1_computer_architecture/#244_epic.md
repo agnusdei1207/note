@@ -1,7 +1,7 @@
 +++
 title = "#244. EPIC"
 date = "2026-04-15"
-weight = 756
+weight = 244
 [extra]
 categories = "studynote-computer-architecture"
 +++

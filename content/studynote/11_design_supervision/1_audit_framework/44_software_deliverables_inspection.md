@@ -1,6 +1,6 @@
 +++
 title = "44. 감리인의 독립성 (Independence) 및 객관성 원칙 유지 조항"
-weight = 47
+weight = 44
 +++
 
 # 소프트웨어 인도물 점검

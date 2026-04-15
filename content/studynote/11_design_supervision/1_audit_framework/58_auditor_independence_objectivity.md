@@ -1,5 +1,5 @@
 +++
-weight = 61
+weight = 58
 title = "58. 고가용성 (HA, High Availability) 및 이중화 클러스터 페일오버(Failover) 시나리오 실지 테스트 참관"
 date = "2026-04-05"
 [extra]

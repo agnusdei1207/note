@@ -1,5 +1,5 @@
 +++
-weight = 38
+weight = 37
 title = "37. 온디맨드 인스턴스 (On-Demand) - 필요할 때마다 초/시간 단위로 사용한 만큼만 지불"
 description = "클라우드 브로커와 MSP(Managed Service Provider)의 개념, 역할, 가치 및 선택 기준에 대한 종합적 가이드"
 date = "2024-05-24"

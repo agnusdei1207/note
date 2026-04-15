@@ -1,5 +1,5 @@
 +++
-weight = 42
+weight = 38
 title = "38. 잔여 위험 (Residual Risk) — 통제 후 남은 위험"
 date = "2026-04-05"
 [extra]

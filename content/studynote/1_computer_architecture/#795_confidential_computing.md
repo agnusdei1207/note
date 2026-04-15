@@ -1,7 +1,7 @@
 +++
 title = "#795. Confidential Computing"
 date = "2026-04-15"
-weight = 205
+weight = 795
 [extra]
 categories = "studynote-computer-architecture"
 +++

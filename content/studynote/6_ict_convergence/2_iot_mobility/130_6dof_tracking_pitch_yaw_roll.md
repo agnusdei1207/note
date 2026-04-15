@@ -1,5 +1,5 @@
 +++
-weight = 133
+weight = 130
 title = "130. 6자유도 (6DoF) 트래킹 - X, Y, Z 이동 및 Pitch, Yaw, Roll 회전 추적"
 description = "단순히 고개를 돌리는 것(3DoF)을 넘어, 사용자가 방 안을 직접 걸어 다니고 몸을 숙이는 앞뒤/좌우/상하의 모든 물리적 이동(Translation)과 회전(Rotation)을 100% 가상 공간에 동기화하는 XR 생태계의 절대적 뼈대 기술"
 date = 2026-04-03

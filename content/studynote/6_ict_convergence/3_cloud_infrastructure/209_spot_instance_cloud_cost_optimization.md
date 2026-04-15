@@ -1,6 +1,6 @@
 +++
 title = "209. 스팟 인스턴스 (Spot Instance) - 클라우드 사업자의 남는 자원을 저렴하게 임대(갑자기 회수될 수 있음), 컨테이너/배치 처리와 결합하여 비용 최적화"
-weight = 210
+weight = 209
 +++
 # 209. 스팟 인스턴스 (Spot Instance) - 클라우드 비용 최적화 AWS 잉여 자원 임대 중단(Interruption) 내결함성 무상태(Stateless) 배치 처리 워크로드
 

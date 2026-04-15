@@ -1,5 +1,5 @@
 +++
-weight = 72
+weight = 68
 title = "실패 안전 원칙 (Fail-Safe)"
 date = "2024-05-22"
 [extra]

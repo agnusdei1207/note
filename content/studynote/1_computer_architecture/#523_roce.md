@@ -1,7 +1,7 @@
 +++
 title = "#523. RoCE"
 date = "2026-04-15"
-weight = 477
+weight = 523
 [extra]
 categories = "studynote-computer-architecture"
 +++

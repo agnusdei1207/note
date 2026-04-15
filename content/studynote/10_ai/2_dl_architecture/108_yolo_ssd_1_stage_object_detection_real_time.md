@@ -1,5 +1,5 @@
 +++
-weight = 109
+weight = 108
 title = "108. YOLO 와 SSD (1-Stage 탐지기) - 실시간 고속 객체 탐지"
 date = "2026-04-10"
 [extra]

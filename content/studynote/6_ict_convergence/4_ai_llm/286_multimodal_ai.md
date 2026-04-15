@@ -1,6 +1,6 @@
 +++
 title = "멀티모달 AI (Multimodal AI)"
-weight = 291
+weight = 286
 date = "2026-03-04"
 [extra]
 categories = "studynote-ict-convergence"

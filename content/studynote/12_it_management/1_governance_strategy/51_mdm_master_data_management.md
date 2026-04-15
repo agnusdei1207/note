@@ -1,6 +1,6 @@
 +++
 title = "51. 마스터 데이터 관리 (MDM, Master Data Management)"
-weight = 53
+weight = 51
 date = "2026-03-04"
 [extra]
 categories = ["studynote-it-management", "data-architecture"]

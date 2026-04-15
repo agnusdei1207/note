@@ -1,7 +1,7 @@
 +++
 title = "382. 뉴모픽(Neuromorphic) 인프라 연동형 AI DB"
 date = "2026-04-10"
-weight = 385
+weight = 382
 [extra]
 categories = "studynote-database"
 +++

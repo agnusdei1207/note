@@ -1,7 +1,7 @@
 +++
 title = "#252. SDRAM"
 date = "2026-04-15"
-weight = 748
+weight = 252
 [extra]
 categories = "studynote-computer-architecture"
 +++

@@ -1,7 +1,7 @@
 +++
 title = "#519. IOMMU 성능 오버헤드"
 date = "2026-04-15"
-weight = 481
+weight = 519
 [extra]
 categories = "studynote-computer-architecture"
 +++

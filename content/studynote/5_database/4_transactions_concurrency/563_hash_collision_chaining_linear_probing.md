@@ -1,5 +1,5 @@
 +++
-weight = 564
+weight = 563
 title = "563. 해시 충돌(Collision) 해결 - 체이닝 및 선형 탐사 성능 오버헤드"
 date = "2026-04-10"
 [extra]

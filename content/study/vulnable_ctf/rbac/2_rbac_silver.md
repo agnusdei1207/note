@@ -1,4 +1,5 @@
-+++title = "VulnABLE CTF [LUXORA] Write-up: RBAC Bypass 🥈 Silver"
++++
+title = "VulnABLE CTF [LUXORA] Write-up: RBAC Bypass 🥈 Silver"
 date = "2026-03-14"
 [extra]
 categories = "pentesting"

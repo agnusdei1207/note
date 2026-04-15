@@ -1,7 +1,7 @@
 +++
 title = "#691. MAID"
 date = "2026-04-15"
-weight = 309
+weight = 691
 [extra]
 categories = "studynote-computer-architecture"
 +++

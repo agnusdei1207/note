@@ -1,7 +1,7 @@
 +++
 title = "#720. PROCHOT# 핀"
 date = "2026-04-15"
-weight = 280
+weight = 720
 [extra]
 categories = "studynote-computer-architecture"
 +++

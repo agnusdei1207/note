@@ -1,7 +1,7 @@
 +++
 title = "#276. Write-Through"
 date = "2026-04-15"
-weight = 724
+weight = 276
 [extra]
 categories = "studynote-computer-architecture"
 +++

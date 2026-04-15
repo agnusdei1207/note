@@ -1,7 +1,7 @@
 +++
 title = "#718. EDAC"
 date = "2026-04-15"
-weight = 282
+weight = 718
 [extra]
 categories = "studynote-computer-architecture"
 +++

@@ -1,5 +1,5 @@
 +++
-weight = 39
+weight = 37
 title = "37. 피벗 (Pivot) - 고객 반응을 바탕으로 사업 방향을 전략적으로 전환"
 date = "2026-04-05"
 [extra]

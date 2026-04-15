@@ -1,5 +1,5 @@
 +++
-weight = 66
+weight = 63
 title = "ITIL V3 서비스 수명주기 (Service Lifecycle)"
 date = "2024-03-20"
 [extra]

@@ -1,5 +1,5 @@
 +++
-weight = 248
+weight = 247
 title = "247. 오픈 API와 API 게이트웨이 보안 스로틀링"
 date = "2026-04-10"
 [extra]

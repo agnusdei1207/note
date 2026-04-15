@@ -1,6 +1,6 @@
 +++
 title = "46. SLA (Service Level Agreement, 서비스 수준 협약서) - 아웃소싱 제공자와 고객 간의 정량적 서비스 지표 계약"
-weight = 48
+weight = 46
 +++
 
 ## 핵심 인사이트 (3줄 요약)

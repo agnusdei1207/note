@@ -1,7 +1,7 @@
 +++
 title = "#528. SR-IOV"
 date = "2026-04-15"
-weight = 472
+weight = 528
 [extra]
 categories = "studynote-computer-architecture"
 +++

@@ -1,5 +1,5 @@
 +++
-weight = 9
+weight = 7
 title = "7. 책임추적성 (Accountability) — 감사 로그, 감사 기록, 사용자 행동 추적"
 description = "조직의 정보보안을 규율하는 정책과 표준"
 date = 2026-03-26

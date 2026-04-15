@@ -1,7 +1,7 @@
 +++
 title = "#589. IPsec 오프로드 가속기"
 date = "2026-04-15"
-weight = 411
+weight = 589
 [extra]
 categories = "studynote-computer-architecture"
 +++

@@ -1,6 +1,6 @@
 +++
 title = "107. 초연결 사회 (Hyper-connected Society)"
-weight = 110
+weight = 107
 +++
 
 > **💡 핵심 인사이트**  

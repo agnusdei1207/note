@@ -1,5 +1,5 @@
 +++
-weight = 40
+weight = 37
 title = "피벗 (Pivot)"
 date = "2026-03-04"
 [extra]

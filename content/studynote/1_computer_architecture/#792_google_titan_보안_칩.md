@@ -1,7 +1,7 @@
 +++
 title = "#792. Google Titan 보안 칩"
 date = "2026-04-15"
-weight = 208
+weight = 792
 [extra]
 categories = "studynote-computer-architecture"
 +++

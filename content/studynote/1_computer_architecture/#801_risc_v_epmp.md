@@ -1,7 +1,7 @@
 +++
 title = "#801. RISC-V ePMP"
 date = "2026-04-15"
-weight = 199
+weight = 801
 [extra]
 categories = "studynote-computer-architecture"
 +++

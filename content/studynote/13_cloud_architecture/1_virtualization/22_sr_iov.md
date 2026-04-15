@@ -1,5 +1,5 @@
 +++
-weight = 23
+weight = 22
 title = "22. SR-IOV (Single Root I/O Virtualization) - 물리적 NIC를 여러 VM에 논리적으로 직접 매핑해 I/O 성능 극대화"
 date = "2026-03-05"
 [extra]

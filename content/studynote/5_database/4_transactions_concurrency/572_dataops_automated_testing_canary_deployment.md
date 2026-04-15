@@ -1,5 +1,5 @@
 +++
-weight = 573
+weight = 572
 title = "572. 데이터 옵스 (DataOps) 자동화 테스트 및 카나리 배포"
 date = "2026-04-10"
 [extra]

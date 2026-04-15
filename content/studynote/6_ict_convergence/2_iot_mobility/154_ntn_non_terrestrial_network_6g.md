@@ -1,6 +1,6 @@
 +++
 title = "154. 비지상 네트워크 (NTN, Non-Terrestrial Network) - 저궤도 위성(LEO), 성층권 드론(HAPS)을 기지국으로 활용하여 전 세계(바다, 사막)를 커버하는 6G 위성 통신"
-weight = 159
+weight = 154
 +++
 
 ## 핵심 인사이트 (3줄 요약)

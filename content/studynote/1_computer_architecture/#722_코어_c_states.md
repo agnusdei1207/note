@@ -1,7 +1,7 @@
 +++
 title = "#722. 코어 C-States"
 date = "2026-04-15"
-weight = 278
+weight = 722
 [extra]
 categories = "studynote-computer-architecture"
 +++

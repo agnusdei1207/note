@@ -1,7 +1,7 @@
 +++
 title = "#381. COMA"
 date = "2026-04-15"
-weight = 619
+weight = 381
 [extra]
 categories = "studynote-computer-architecture"
 +++

@@ -1,5 +1,5 @@
 +++
-weight = 227
+weight = 226
 title = "226. 슈퍼컴퓨팅 / HPC (High Performance Computing)"
 date = "2026-04-10"
 [extra]

@@ -1,5 +1,5 @@
 +++
-weight = 255
+weight = 254
 title = "254. 클라우드 락인 (Vendor Lock-in) 회피 기술 아키텍처"
 date = "2026-04-10"
 [extra]

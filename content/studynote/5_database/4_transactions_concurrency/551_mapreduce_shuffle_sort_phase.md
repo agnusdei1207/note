@@ -1,5 +1,5 @@
 +++
-weight = 552
+weight = 551
 title = "551. 맵리듀스 셔플/소트 (Shuffle and Sort) 단계"
 date = "2026-04-10"
 [extra]

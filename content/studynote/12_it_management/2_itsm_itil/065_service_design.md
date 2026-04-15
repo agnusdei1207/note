@@ -1,5 +1,5 @@
 +++
-weight = 70
+weight = 65
 title = "서비스 설계 (Service Design)"
 date = "2026-03-04"
 [extra]

@@ -1,7 +1,7 @@
 +++
 title = "370. 접근 통제 정책 기반 방화벽 (DB 방화벽)"
 date = "2026-04-10"
-weight = 373
+weight = 370
 [extra]
 categories = "studynote-database"
 +++

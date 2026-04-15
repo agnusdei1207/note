@@ -1,5 +1,5 @@
 +++
-weight = 120
+weight = 119
 title = "Seq2Seq 모델 (Sequence-to-Sequence Model)"
 date = "2026-03-25"
 [extra]

@@ -1,5 +1,5 @@
 +++
-weight = 55
+weight = 51
 title = "51. North-South 트래픽 통제 — 경계 방어"
 date = "2026-04-05"
 [extra]

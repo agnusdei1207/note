@@ -1,7 +1,7 @@
 +++
 title = "#716. PCIe AER"
 date = "2026-04-15"
-weight = 284
+weight = 716
 [extra]
 categories = "studynote-computer-architecture"
 +++

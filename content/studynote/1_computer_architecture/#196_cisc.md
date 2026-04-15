@@ -1,7 +1,7 @@
 +++
 title = "#196. CISC"
 date = "2026-04-15"
-weight = 804
+weight = 196
 [extra]
 categories = "studynote-computer-architecture"
 +++

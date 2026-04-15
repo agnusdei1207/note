@@ -1,7 +1,7 @@
 +++
 title = "#777. Evict+Time 기법"
 date = "2026-04-15"
-weight = 223
+weight = 777
 [extra]
 categories = "studynote-computer-architecture"
 +++

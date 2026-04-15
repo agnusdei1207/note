@@ -1,7 +1,7 @@
 +++
 title = "#759. HALT"
 date = "2026-04-15"
-weight = 241
+weight = 759
 [extra]
 categories = "studynote-computer-architecture"
 +++

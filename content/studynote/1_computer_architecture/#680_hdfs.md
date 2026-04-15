@@ -1,7 +1,7 @@
 +++
 title = "#680. HDFS"
 date = "2026-04-15"
-weight = 320
+weight = 680
 [extra]
 categories = "studynote-computer-architecture"
 +++

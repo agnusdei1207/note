@@ -1,5 +1,5 @@
 +++
-weight = 10
+weight = 8
 title = "개인정보보호 3요소 (Privacy 3 Elements) — 기밀성, 무결성, 가용성(접근성)"
 date = "2026-03-25"
 [extra]

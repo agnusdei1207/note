@@ -1,5 +1,5 @@
 +++
-weight = 34
+weight = 33
 title = "33. 플랫폼 비즈니스 모델 (Platform Business Model) - 양면 시장(Two-sided Market) 교차 네트워크 효과"
 date = "2026-04-05"
 [extra]

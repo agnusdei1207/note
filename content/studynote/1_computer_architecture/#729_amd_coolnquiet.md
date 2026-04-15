@@ -1,7 +1,7 @@
 +++
 title = "#729. AMD Cool'n'Quiet"
 date = "2026-04-15"
-weight = 271
+weight = 729
 [extra]
 categories = "studynote-computer-architecture"
 +++

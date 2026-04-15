@@ -1,5 +1,5 @@
 +++
-weight = 195
+weight = 180
 title = "180. 이벤트 소싱 (Event Sourcing) - 상태 변경 로그 스트림 저장"
 date = "2026-04-10"
 [extra]

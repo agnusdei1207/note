@@ -1,7 +1,7 @@
 +++
 title = "#693. WORM"
 date = "2026-04-15"
-weight = 307
+weight = 693
 [extra]
 categories = "studynote-computer-architecture"
 +++

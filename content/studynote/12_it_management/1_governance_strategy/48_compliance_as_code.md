@@ -1,5 +1,5 @@
 +++
-weight = 50
+weight = 48
 title = "48. 컴플라이언스 애즈 코드 (Compliance as Code)"
 date = "2026-04-10"
 [extra]

@@ -1,7 +1,7 @@
 +++
 title = "#195. RISC"
 date = "2026-04-15"
-weight = 805
+weight = 195
 [extra]
 categories = "studynote-computer-architecture"
 +++

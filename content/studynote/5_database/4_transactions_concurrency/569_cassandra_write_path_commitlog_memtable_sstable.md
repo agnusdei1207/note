@@ -1,5 +1,5 @@
 +++
-weight = 570
+weight = 569
 title = "569. 카산드라(Cassandra) 쓰기 경로와 LSM 트리 병목 배제"
 date = "2026-04-10"
 [extra]

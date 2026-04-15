@@ -1,5 +1,5 @@
 +++
-weight = 144
+weight = 143
 title = "EAI (Enterprise Application Integration)"
 date = "2024-03-20"
 [extra]

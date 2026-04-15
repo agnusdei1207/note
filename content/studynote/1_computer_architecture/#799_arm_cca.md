@@ -1,7 +1,7 @@
 +++
 title = "#799. ARM CCA"
 date = "2026-04-15"
-weight = 201
+weight = 799
 [extra]
 categories = "studynote-computer-architecture"
 +++

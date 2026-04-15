@@ -1,7 +1,7 @@
 +++
 title = "#643. AIOps 기반 하드웨어 이상 탐지"
 date = "2026-04-15"
-weight = 357
+weight = 643
 [extra]
 categories = "studynote-computer-architecture"
 +++

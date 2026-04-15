@@ -1,5 +1,5 @@
 +++
-weight = 250
+weight = 249
 title = "249. 이벤트 소싱 (Event Sourcing) - 상태가 아닌 변화를 저장하라"
 date = "2026-04-10"
 [extra]

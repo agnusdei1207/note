@@ -1,5 +1,5 @@
 +++
-weight = 231
+weight = 230
 title = "230. CXL (Compute Express Link) - 초고속 인터커넥트와 메모리 풀링"
 date = "2026-04-10"
 [extra]

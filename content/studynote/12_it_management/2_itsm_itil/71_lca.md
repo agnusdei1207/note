@@ -1,6 +1,6 @@
 +++
 title = "71. 해시 테이블 (Hash Table) — 해시 함수, 충돌 처리"
-weight = 80
+weight = 71
 +++
 
 # 71. 최소 공통 조상 (LCA, Lowest Common Ancestor)

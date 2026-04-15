@@ -1,7 +1,7 @@
 +++
 title = "389. 대용량 트랜잭션 배칭(Batching) 삽입 최적화"
 date = "2026-04-10"
-weight = 392
+weight = 389
 [extra]
 categories = "studynote-database"
 +++

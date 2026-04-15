@@ -1,7 +1,7 @@
 +++
 title = "#698. iSCSI"
 date = "2026-04-15"
-weight = 302
+weight = 698
 [extra]
 categories = "studynote-computer-architecture"
 +++

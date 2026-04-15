@@ -1,7 +1,7 @@
 +++
 title = "#480. Intel SGX"
 date = "2026-04-15"
-weight = 520
+weight = 480
 [extra]
 categories = "studynote-computer-architecture"
 +++

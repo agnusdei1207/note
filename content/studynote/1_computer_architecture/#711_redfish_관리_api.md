@@ -1,7 +1,7 @@
 +++
 title = "#711. Redfish 관리 API"
 date = "2026-04-15"
-weight = 289
+weight = 711
 [extra]
 categories = "studynote-computer-architecture"
 +++

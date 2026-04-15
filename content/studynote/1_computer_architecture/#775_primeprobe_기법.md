@@ -1,7 +1,7 @@
 +++
 title = "#775. Prime+Probe 기법"
 date = "2026-04-15"
-weight = 225
+weight = 775
 [extra]
 categories = "studynote-computer-architecture"
 +++

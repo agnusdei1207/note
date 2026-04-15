@@ -1,7 +1,7 @@
 +++
 title = "#681. Erasure Coding"
 date = "2026-04-15"
-weight = 319
+weight = 681
 [extra]
 categories = "studynote-computer-architecture"
 +++

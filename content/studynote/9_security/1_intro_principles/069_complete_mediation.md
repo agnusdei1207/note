@@ -1,5 +1,5 @@
 +++
-weight = 73
+weight = 69
 title = "완전한 중재 원칙 (Complete Mediation)"
 date = "2024-05-22"
 [extra]

@@ -1,7 +1,7 @@
 +++
 title = "#700. NVMe 네임스페이스"
 date = "2026-04-15"
-weight = 300
+weight = 700
 [extra]
 categories = "studynote-computer-architecture"
 +++

@@ -1,5 +1,5 @@
 +++
-weight = 105
+weight = 103
 title = "센서 네트워크 (WSN)"
 date = "2024-03-21"
 [extra]

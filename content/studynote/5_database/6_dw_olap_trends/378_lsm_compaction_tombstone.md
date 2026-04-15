@@ -1,7 +1,7 @@
 +++
 title = "378. 콤팩션 (Compaction) - LSM 트리 병합"
 date = "2026-04-10"
-weight = 381
+weight = 378
 [extra]
 categories = "studynote-database"
 +++

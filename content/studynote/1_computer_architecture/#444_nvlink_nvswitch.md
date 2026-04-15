@@ -1,7 +1,7 @@
 +++
 title = "#444. NVLink / NVSwitch"
 date = "2026-04-15"
-weight = 556
+weight = 444
 [extra]
 categories = "studynote-computer-architecture"
 +++

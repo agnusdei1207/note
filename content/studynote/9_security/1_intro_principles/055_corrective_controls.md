@@ -1,5 +1,5 @@
 +++
-weight = 59
+weight = 55
 title = "55. 교정 통제 (Corrective Controls) — 사고 후 복구"
 date = "2026-04-05"
 [extra]

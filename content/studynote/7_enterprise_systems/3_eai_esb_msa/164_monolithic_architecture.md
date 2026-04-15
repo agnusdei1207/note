@@ -1,6 +1,6 @@
 +++
 title = "164. 모놀리식 아키텍처 (Monolithic Architecture) - 프론트, 비즈니스 로직, DB 접근이 한 코드베이스와 단일 DB로 강결합 (빌드 지연, 부분 배포 불가)"
-weight = 177
+weight = 164
 +++
 # 164. 모놀리식 아키텍처 (Monolithic Architecture)
 

@@ -1,7 +1,7 @@
 +++
 title = "#70. ASIC"
 date = "2026-04-15"
-weight = 930
+weight = 70
 [extra]
 categories = "studynote-computer-architecture"
 +++

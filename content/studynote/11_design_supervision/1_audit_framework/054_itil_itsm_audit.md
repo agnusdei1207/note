@@ -1,5 +1,5 @@
 +++
-weight = 57
+weight = 54
 title = "54. ITIL / ITSM 프레임워크 기반 운영 감리 프로세스 점검 (SLA 달성 여부)"
 description = "ITIL/ITSM 프레임워크 기반 운영 감리 프로세스와 SLA 달성 여부 점검을 포함한 IT 서비스 관리 감리"
 date = "2026-04-05"

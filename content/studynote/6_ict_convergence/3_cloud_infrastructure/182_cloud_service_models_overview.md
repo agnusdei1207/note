@@ -1,5 +1,5 @@
 +++
-weight = 183
+weight = 182
 title = "클라우드 서비스 모델 개요 (IaaS, PaaS, SaaS Overview)"
 date = "2024-03-20"
 [extra]

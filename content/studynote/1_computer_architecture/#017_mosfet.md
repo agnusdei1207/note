@@ -1,7 +1,7 @@
 +++
 title = "#17. MOSFET"
 date = "2026-04-15"
-weight = 983
+weight = 17
 [extra]
 categories = "studynote-computer-architecture"
 +++

@@ -1,5 +1,5 @@
 +++
-weight = 43
+weight = 41
 title = "41. 그로스 해킹 (Growth Hacking) - 제품 기능과 마케팅 데이터를 결합해 사용자 유입과 성장을 극대화하는 기법"
 date = "2026-04-05"
 [extra]

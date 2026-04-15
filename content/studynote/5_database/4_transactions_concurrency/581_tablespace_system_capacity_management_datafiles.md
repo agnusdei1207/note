@@ -1,5 +1,5 @@
 +++
-weight = 582
+weight = 581
 title = "581. 테이블 스페이스 (Tablespace) 시스템 용량 분산 관리"
 date = "2026-04-10"
 [extra]

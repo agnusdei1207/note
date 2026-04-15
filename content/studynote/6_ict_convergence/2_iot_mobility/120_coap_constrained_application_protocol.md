@@ -1,5 +1,5 @@
 +++
-weight = 123
+weight = 120
 title = "120. CoAP (Constrained Application Protocol) - UDP 기반, RESTful(GET/POST/PUT/DELETE) 구조를 제공하는 경량 IoT 프로토콜, 브로커리스 P2P 지원"
 date = "2026-04-02"
 [extra]

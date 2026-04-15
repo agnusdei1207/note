@@ -1,7 +1,7 @@
 +++
 title = "#341. SATA"
 date = "2026-04-15"
-weight = 659
+weight = 341
 [extra]
 categories = "studynote-computer-architecture"
 +++

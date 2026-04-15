@@ -1,7 +1,7 @@
 +++
 title = "061. Secure by Default — 기본적으로 안전한 기본값"
 date = "2026-04-05"
-weight = 65
+weight = 61
 [extra]
 categories = "studynote-security"
 +++

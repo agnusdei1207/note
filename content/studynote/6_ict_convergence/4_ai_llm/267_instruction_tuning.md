@@ -1,5 +1,5 @@
 +++
-weight = 272
+weight = 267
 title = "인스트럭션 튜닝 (Instruction Tuning)"
 date = "2026-03-04"
 [extra]

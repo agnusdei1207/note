@@ -1,7 +1,7 @@
 +++
 title = "#668. cgroups"
 date = "2026-04-15"
-weight = 332
+weight = 668
 [extra]
 categories = "studynote-computer-architecture"
 +++

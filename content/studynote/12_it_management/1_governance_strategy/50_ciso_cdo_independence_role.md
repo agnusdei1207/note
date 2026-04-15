@@ -1,5 +1,5 @@
 +++
-weight = 52
+weight = 50
 title = "50. CISO 및 CDO - 정보보안/데이터 최고책임자의 직무 독립성"
 date = "2026-04-10"
 [extra]

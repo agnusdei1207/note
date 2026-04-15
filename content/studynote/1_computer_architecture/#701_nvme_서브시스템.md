@@ -1,7 +1,7 @@
 +++
 title = "#701. NVMe 서브시스템"
 date = "2026-04-15"
-weight = 299
+weight = 701
 [extra]
 categories = "studynote-computer-architecture"
 +++

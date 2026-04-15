@@ -1,5 +1,5 @@
 +++
-weight = 228
+weight = 227
 title = "227. MPI (Message Passing Interface) - 분산 클러스터 병렬 컴퓨팅"
 date = "2026-04-10"
 [extra]

@@ -1,7 +1,7 @@
 +++
 title = "#18. CMOS"
 date = "2026-04-15"
-weight = 982
+weight = 18
 [extra]
 categories = "studynote-computer-architecture"
 +++

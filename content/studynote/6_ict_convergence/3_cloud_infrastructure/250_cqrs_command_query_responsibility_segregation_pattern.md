@@ -1,5 +1,5 @@
 +++
-weight = 251
+weight = 250
 title = "250. CQRS 패턴 - 명령과 조회 책임 분리 마이크로서비스 설계"
 date = "2026-04-10"
 [extra]

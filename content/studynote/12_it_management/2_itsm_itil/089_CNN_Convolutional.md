@@ -1,5 +1,5 @@
 +++
-weight = 99
+weight = 89
 title = "89. Google Pub/Sub — Kafka 대안, GCP, 글로벌 분산"
 description = "CNN의 구조, 합성곱 연산, 필터, 풀링, 이미지 인식에서의 역할과 한계점"
 date = "2026-04-05"

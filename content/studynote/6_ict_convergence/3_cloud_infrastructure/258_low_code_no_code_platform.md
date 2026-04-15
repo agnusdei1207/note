@@ -1,5 +1,5 @@
 +++
-weight = 259
+weight = 258
 title = "258. 로우코드와 노코드 플랫폼 (Low-Code & No-Code Platform)"
 date = "2026-03-05"
 [extra]

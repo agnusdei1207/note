@@ -1,6 +1,6 @@
 +++
 title = "154. ESB (Enterprise Service Bus) - SOA 구현을 위한 핵심 백본 미들웨어 (메시지 버스 기반 라우팅, 변환, 보안 추상화 지원)"
-weight = 157
+weight = 154
 +++
 
 ## 핵심 인사이트 (3줄 요약)

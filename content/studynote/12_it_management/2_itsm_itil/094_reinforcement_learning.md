@@ -1,5 +1,5 @@
 +++
-weight = 104
+weight = 94
 title = "94. 스트리밍 SQL — ksqlDB (Confluent) / Flink SQL / Spark Structured Streaming"
 description = "강화학습의 기본 개념, 에이전트-환경 상호작용, MDP, Q-Learning, DQN, Policy Gradient"
 date = "2026-04-05"

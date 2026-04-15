@@ -1,6 +1,6 @@
 +++
 title = "73. 체인법 (Chaining) — 연결 리스트 충돌 처리"
-weight = 83
+weight = 73
 +++
 
 # 73. 골드바흐 추측 (Goldbach's Conjecture)

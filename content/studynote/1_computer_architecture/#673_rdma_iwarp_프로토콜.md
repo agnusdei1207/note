@@ -1,7 +1,7 @@
 +++
 title = "#673. RDMA iWARP 프로토콜"
 date = "2026-04-15"
-weight = 327
+weight = 673
 [extra]
 categories = "studynote-computer-architecture"
 +++

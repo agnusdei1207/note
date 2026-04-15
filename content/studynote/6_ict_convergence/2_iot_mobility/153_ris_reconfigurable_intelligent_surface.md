@@ -1,5 +1,5 @@
 +++
-weight = 157
+weight = 153
 title = "153. 지능형 반사 표면 (RIS, Reconfigurable Intelligent Surface)"
 date = "2026-04-09"
 description = "메타물질을 이용해 전파의 반사와 투과 방향을 프로그래밍하여 무선 환경의 초고주파 음영 지역을 획기적으로 개선하는 6G 핵심 하드웨어 장치"

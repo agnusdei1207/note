@@ -1,5 +1,5 @@
 +++
-weight = 241
+weight = 240
 title = "240. 클라우드 DR 아키텍처 (Pilot Light, Warm Standby)"
 date = "2026-04-10"
 [extra]

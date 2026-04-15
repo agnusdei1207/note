@@ -1,7 +1,7 @@
 +++
 title = "113. 장기 의존성 문제 (Long-term Dependency)"
 date = "2026-03-04"
-weight = 114
+weight = 113
 [extra]
 categories = ["studynote-ai"]
 +++

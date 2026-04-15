@@ -1,5 +1,5 @@
 +++
-weight = 253
+weight = 252
 title = "252. AIOps - 인공지능 기반 IT 운영 자동화 및 장애 예측"
 date = "2026-04-10"
 [extra]

@@ -1,7 +1,7 @@
 +++
 title = "#608. 비동기식 FIFO 버퍼"
 date = "2026-04-15"
-weight = 392
+weight = 608
 [extra]
 categories = "studynote-computer-architecture"
 +++

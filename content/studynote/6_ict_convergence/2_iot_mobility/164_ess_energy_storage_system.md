@@ -1,5 +1,5 @@
 +++
-weight = 176
+weight = 164
 title = "164. ESS (Energy Storage System)"
 date = "2026-04-09"
 description = "전력 생산량이 수요를 초과(버려짐)하거나 심야시간 등 쌀 때 전기를 거대 배터리나 양수 발전조에 꽉 채워 저장해두었다가, 피크 시간에 꺼내 쓰는 에너지 타임 시프트(Time Shift) 물리 인프라 장치"

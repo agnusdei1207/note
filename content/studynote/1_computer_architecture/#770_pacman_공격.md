@@ -1,7 +1,7 @@
 +++
 title = "#770. PACMAN 공격"
 date = "2026-04-15"
-weight = 230
+weight = 770
 [extra]
 categories = "studynote-computer-architecture"
 +++

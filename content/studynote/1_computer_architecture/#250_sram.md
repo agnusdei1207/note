@@ -1,7 +1,7 @@
 +++
 title = "#250. SRAM"
 date = "2026-04-15"
-weight = 750
+weight = 250
 [extra]
 categories = "studynote-computer-architecture"
 +++

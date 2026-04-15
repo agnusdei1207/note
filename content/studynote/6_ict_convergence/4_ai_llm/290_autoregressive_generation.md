@@ -1,7 +1,7 @@
 +++
 title = "290. 오토레그레시브 (Autoregressive) 생성 (트랜스포머 디코더 토큰 생성 메커니즘)"
 date = "2026-04-11"
-weight = 295
+weight = 290
 [extra]
 categories = "studynote-ict-convergence"
 +++

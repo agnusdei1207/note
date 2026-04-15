@@ -1,7 +1,7 @@
 +++
 title = "384. 실시간 커스터머 데이터 플랫폼 (CDP)"
 date = "2026-04-10"
-weight = 387
+weight = 384
 [extra]
 categories = "studynote-database"
 +++

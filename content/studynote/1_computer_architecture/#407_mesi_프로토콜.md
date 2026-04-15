@@ -1,7 +1,7 @@
 +++
 title = "#407. MESI 프로토콜"
 date = "2026-04-15"
-weight = 593
+weight = 407
 [extra]
 categories = "studynote-computer-architecture"
 +++

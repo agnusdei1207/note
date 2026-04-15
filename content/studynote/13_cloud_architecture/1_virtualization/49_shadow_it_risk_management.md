@@ -1,5 +1,5 @@
 +++
-weight = 50
+weight = 49
 title = "49. 섀도우 IT (Shadow IT) - SaaS 무단 사용 리스크 관리"
 date = "2026-04-10"
 [extra]

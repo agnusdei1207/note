@@ -1,7 +1,7 @@
 +++
 title = "#689. NVRAM 로깅"
 date = "2026-04-15"
-weight = 311
+weight = 689
 [extra]
 categories = "studynote-computer-architecture"
 +++

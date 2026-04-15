@@ -1,6 +1,6 @@
 +++
 title = "283. 일관된 해싱 (Consistent Hashing) - 분산 시스템의 확장성과 재배치 최소화의 마법"
-weight = 285
+weight = 283
 +++
 
 ## 핵심 인사이트 (3줄 요약)

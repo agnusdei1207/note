@@ -1,5 +1,5 @@
 +++
-weight = 41
+weight = 40
 title = "40. 오버프로비저닝 (Over-provisioning) 방지 / Right Sizing (용량 최적화) - FinOps 재무 관리 핵심"
 description = "클라우드 네이티브의 핵심 개념, 12factor App, 마이크로서비스, 컨테이너 기반 아키텍처에 대한 종합적 가이드"
 date = "2024-05-24"

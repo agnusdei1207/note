@@ -1,7 +1,7 @@
 +++
 title = "#794. AWS Nitro Enclaves"
 date = "2026-04-15"
-weight = 206
+weight = 794
 [extra]
 categories = "studynote-computer-architecture"
 +++

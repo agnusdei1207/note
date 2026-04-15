@@ -1,7 +1,7 @@
 +++
 title = "#788. SRAM PUF"
 date = "2026-04-15"
-weight = 212
+weight = 788
 [extra]
 categories = "studynote-computer-architecture"
 +++

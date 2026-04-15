@@ -1,5 +1,5 @@
 +++
-weight = 102
+weight = 101
 title = "101. 최대 풀링 (Max Pooling) / 평균 풀링 (Average Pooling) 비교"
 date = "2026-04-10"
 [extra]

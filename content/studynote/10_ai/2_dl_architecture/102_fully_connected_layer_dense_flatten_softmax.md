@@ -1,5 +1,5 @@
 +++
-weight = 103
+weight = 102
 title = "102. 완전 연결 층 (FC Layer) - 추출된 특징의 1차원 분류"
 date = "2026-04-10"
 [extra]

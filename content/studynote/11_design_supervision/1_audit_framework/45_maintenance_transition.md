@@ -1,6 +1,6 @@
 +++
 title = "45. 사업자 지체 상금 (Liquidated Damages) 분쟁 예방을 위한 진척도 및 지연 사유 증빙 점검"
-weight = 48
+weight = 45
 +++
 
 # 유지보수 이관

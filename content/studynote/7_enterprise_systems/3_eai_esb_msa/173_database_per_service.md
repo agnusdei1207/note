@@ -1,6 +1,6 @@
 +++
 title = "173. 데이터베이스 퍼 서비스 (Database per Service) - 타 마이크로서비스의 DB에 직접 쿼리(조인) 접근 불가, 오직 API로만 통신하도록 강제 캡슐화"
-weight = 188
+weight = 173
 +++
 # 173. 데이터베이스 퍼 서비스 (Database per Service)
 

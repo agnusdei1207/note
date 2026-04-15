@@ -1,7 +1,7 @@
 +++
 title = "#786. TRNG"
 date = "2026-04-15"
-weight = 214
+weight = 786
 [extra]
 categories = "studynote-computer-architecture"
 +++

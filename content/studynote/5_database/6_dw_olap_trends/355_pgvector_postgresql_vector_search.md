@@ -1,6 +1,6 @@
 +++
 title = "355. PGVector - PostgreSQL RDBMS의 벡터 검색 확장 플러그인 모듈"
-weight = 357
+weight = 355
 +++
 
 ## 핵심 인사이트 (3줄 요약)

@@ -1,5 +1,5 @@
 +++
-weight = 90
+weight = 89
 title = "89. 기울기 폭발 (Exploding Gradient) - 딥러닝 갱신폭 제어"
 date = "2026-04-10"
 [extra]

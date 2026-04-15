@@ -1,7 +1,7 @@
 +++
 title = "#649. PACELC 정리"
 date = "2026-04-15"
-weight = 351
+weight = 649
 [extra]
 categories = "studynote-computer-architecture"
 +++

@@ -1,5 +1,5 @@
 +++
-weight = 222
+weight = 221
 title = "221. 큐비트 (Qubit) - 양자 컴퓨터의 기본 정보 단위"
 date = "2026-04-10"
 [extra]

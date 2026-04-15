@@ -1,7 +1,7 @@
 +++
 title = "#277. Write-Back"
 date = "2026-04-15"
-weight = 723
+weight = 277
 [extra]
 categories = "studynote-computer-architecture"
 +++

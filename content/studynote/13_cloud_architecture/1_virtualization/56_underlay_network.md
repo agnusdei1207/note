@@ -1,5 +1,5 @@
 +++
-weight = 59
+weight = 56
 title = "56. 언더레이 네트워크 (Underlay Network) - 실제 물리적 스위치/라우터 기반의 기반 네트워크 구조"
 date = "2026-03-05"
 [extra]

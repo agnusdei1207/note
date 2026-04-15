@@ -1,7 +1,7 @@
 +++
 title = "#257. NAND 플래시"
 date = "2026-04-15"
-weight = 743
+weight = 257
 [extra]
 categories = "studynote-computer-architecture"
 +++

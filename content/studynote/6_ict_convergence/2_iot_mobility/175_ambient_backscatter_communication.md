@@ -1,6 +1,6 @@
 +++
 title = "175. 백스캐터 통신 (Ambient Backscatter Communication) - 배터리 없이 공기 중의 TV, Wi-Fi 전파 에너지를 흡수/반사하여 무전원으로 통신하는 초소형 IoT 기술"
-weight = 189
+weight = 175
 +++
 # 175. 백스캐터 통신 (Ambient Backscatter Communication) - 배터리 없이 공기 중 전파 에너지 흡수 반사 초저전력 IoT 무전원 센서망 RFID 진화
 

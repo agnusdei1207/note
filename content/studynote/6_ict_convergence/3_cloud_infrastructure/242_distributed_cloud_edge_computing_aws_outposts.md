@@ -1,5 +1,5 @@
 +++
-weight = 243
+weight = 242
 title = "242. 분산 클라우드 (Distributed Cloud) - 퍼블릭 클라우드의 전진 배치"
 date = "2026-04-10"
 [extra]

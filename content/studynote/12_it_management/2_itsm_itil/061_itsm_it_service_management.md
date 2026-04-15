@@ -1,6 +1,6 @@
 +++
 title = "061. ITSM (IT Service Management)"
-weight = 62
+weight = 61
 date = "2026-03-04"
 [extra]
 categories = "studynote-it-management"

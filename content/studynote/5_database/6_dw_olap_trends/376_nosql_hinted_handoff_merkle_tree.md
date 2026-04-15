@@ -1,7 +1,7 @@
 +++
 title = "376. NoSQL 파티션 톨러런스 복구 (Hinted Handoff, Anti-entropy)"
 date = "2026-04-10"
-weight = 379
+weight = 376
 [extra]
 categories = "studynote-database"
 +++

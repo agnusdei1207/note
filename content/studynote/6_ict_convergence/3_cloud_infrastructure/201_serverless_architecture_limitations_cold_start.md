@@ -1,6 +1,6 @@
 +++
 title = "201. 서버리스 (Serverless) 아키텍처 한계점 분석 - 콜드 스타트(Cold Start: 함수 최초 호출 시 컨테이너 로딩 지연), 장기 실행 제약, 상태 비저장(Stateless)"
-weight = 202
+weight = 201
 +++
 # 201. 서버리스 (Serverless) 아키텍처 한계점 분석 - 콜드 스타트(Cold Start) 지연 장기 실행 제약 무상태(Stateless) 클라우드 FaaS
 

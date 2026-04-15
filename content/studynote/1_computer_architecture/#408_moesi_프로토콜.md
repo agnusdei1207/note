@@ -1,7 +1,7 @@
 +++
 title = "#408. MOESI 프로토콜"
 date = "2026-04-15"
-weight = 592
+weight = 408
 [extra]
 categories = "studynote-computer-architecture"
 +++

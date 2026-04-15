@@ -1,7 +1,7 @@
 +++
 title = "#450. MTBF"
 date = "2026-04-15"
-weight = 550
+weight = 450
 [extra]
 categories = "studynote-computer-architecture"
 +++

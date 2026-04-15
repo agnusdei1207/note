@@ -1,6 +1,6 @@
 +++
 title = "184. PaaS (Platform as a Service) - 개발 런타임, 데이터베이스, 배포 환경 제공 (AWS Elastic Beanstalk)"
-weight = 185
+weight = 184
 +++
 # 184. PaaS (Platform as a Service) - 플랫폼 대여 개발 런타임 미들웨어 데이터베이스 AWS Elastic Beanstalk 개발자 생산성 벤더 종속성
 

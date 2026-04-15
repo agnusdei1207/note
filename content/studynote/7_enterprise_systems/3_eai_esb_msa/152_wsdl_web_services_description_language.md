@@ -1,5 +1,5 @@
 +++
-weight = 154
+weight = 152
 title = "152. WSDL (Web Services Description Language)"
 date = "2026-04-09"
 description = "네트워크 상에 분산된 웹 서비스의 제공 위치, 통신 프로토콜, 호출 가능한 인터페이스 메서드 등을 표준 구조로 명세하는 XML 기반 언어"

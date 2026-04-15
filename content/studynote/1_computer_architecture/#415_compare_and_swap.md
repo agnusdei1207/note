@@ -1,7 +1,7 @@
 +++
 title = "#415. Compare-and-Swap"
 date = "2026-04-15"
-weight = 585
+weight = 415
 [extra]
 categories = "studynote-computer-architecture"
 +++

@@ -1,6 +1,6 @@
 +++
 title = "293. AI 에이전트 (AI Agents / Agentic AI) - 자율적 사고와 도구 사용을 통한 목표 달성의 주체"
-weight = 298
+weight = 293
 date = "2026-03-04"
 [extra]
 categories = "studynote-ict-convergence"

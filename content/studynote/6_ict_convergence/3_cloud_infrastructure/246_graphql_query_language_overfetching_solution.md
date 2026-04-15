@@ -1,5 +1,5 @@
 +++
-weight = 247
+weight = 246
 title = "246. GraphQL - 단일 쿼리로 복합 데이터 수신 (Overfetching 해결)"
 date = "2026-04-10"
 [extra]

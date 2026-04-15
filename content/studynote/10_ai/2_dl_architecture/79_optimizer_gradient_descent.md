@@ -1,5 +1,5 @@
 +++
-weight = 80
+weight = 79
 title = "79. 옵티마이저 (Optimizer) - 손실 함수 최적화와 가중치 갱신 알고리즘"
 date = "2026-04-10"
 [extra]

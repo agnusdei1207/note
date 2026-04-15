@@ -1,7 +1,7 @@
 +++
 title = "#735. TjMax"
 date = "2026-04-15"
-weight = 265
+weight = 735
 [extra]
 categories = "studynote-computer-architecture"
 +++

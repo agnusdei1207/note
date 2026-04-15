@@ -1,7 +1,7 @@
 +++
 title = "#71. CPLD"
 date = "2026-04-15"
-weight = 929
+weight = 71
 [extra]
 categories = "studynote-computer-architecture"
 +++

@@ -1,6 +1,6 @@
 +++
 title = "165. V2G (Vehicle to Grid) - 전기차 배터리의 남는 전력을 전력망으로 역송전하여 전력 피크 부하를 줄이는 기술"
-weight = 178
+weight = 165
 +++
 # 165. V2G (Vehicle to Grid)
 

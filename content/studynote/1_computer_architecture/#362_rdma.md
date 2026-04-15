@@ -1,7 +1,7 @@
 +++
 title = "#362. RDMA"
 date = "2026-04-15"
-weight = 638
+weight = 362
 [extra]
 categories = "studynote-computer-architecture"
 +++

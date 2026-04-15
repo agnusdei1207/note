@@ -1,7 +1,7 @@
 +++
 title = "#671. DPDK"
 date = "2026-04-15"
-weight = 329
+weight = 671
 [extra]
 categories = "studynote-computer-architecture"
 +++

@@ -1,6 +1,6 @@
 +++
 title = "356. 클라우드 데이터 웨어하우스 솔루션 - Amazon Redshift, Google BigQuery, Snowflake 아키텍처 특성"
-weight = 359
+weight = 356
 +++
 
 ## 핵심 인사이트 (3줄 요약)

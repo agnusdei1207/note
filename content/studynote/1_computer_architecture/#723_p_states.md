@@ -1,7 +1,7 @@
 +++
 title = "#723. P-States"
 date = "2026-04-15"
-weight = 277
+weight = 723
 [extra]
 categories = "studynote-computer-architecture"
 +++

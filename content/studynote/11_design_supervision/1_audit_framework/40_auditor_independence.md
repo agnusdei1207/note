@@ -1,6 +1,6 @@
 +++
 title = "40. 클라우드 기반 정보화 사업 감리 가이드 - IaaS, PaaS, SaaS SLA 점검 및 데이터 이관/종속성(Lock-in) 점검 지침"
-weight = 43
+weight = 40
 +++
 
 # 감리인의 독립성

@@ -1,7 +1,7 @@
 +++
 title = "#658. Intel VT-x"
 date = "2026-04-15"
-weight = 342
+weight = 658
 [extra]
 categories = "studynote-computer-architecture"
 +++

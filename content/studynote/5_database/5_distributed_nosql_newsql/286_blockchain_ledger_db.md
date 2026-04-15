@@ -1,6 +1,6 @@
 +++
 title = "286. 시계열 데이터베이스 (Time Series Database, TSDB) - 시간순 로깅 특화, InfluxDB, Prometheus"
-weight = 289
+weight = 286
 +++
 
 # 286. 블록체인 기반 변조 방지 원장 DB

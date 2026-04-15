@@ -1,7 +1,7 @@
 +++
 title = "#203. SIMD 명령어 확장"
 date = "2026-04-15"
-weight = 797
+weight = 203
 [extra]
 categories = "studynote-computer-architecture"
 +++

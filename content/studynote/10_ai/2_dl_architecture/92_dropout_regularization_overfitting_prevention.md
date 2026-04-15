@@ -1,5 +1,5 @@
 +++
-weight = 93
+weight = 92
 title = "92. 드롭아웃 (Dropout) - 딥러닝 앙상블 효과와 과적합 억제"
 date = "2026-04-10"
 [extra]

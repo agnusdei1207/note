@@ -1,7 +1,7 @@
 +++
 title = "#653. ARM Cortex-A 시리즈 특징"
 date = "2026-04-15"
-weight = 347
+weight = 653
 [extra]
 categories = "studynote-computer-architecture"
 +++

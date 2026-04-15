@@ -1,6 +1,6 @@
 +++
 title = "179. BCI (Brain-Computer Interface) - 뇌파를 직접 인식하여 기계를 제어하는 신경망 인터페이스 기술 (뉴럴링크)"
-weight = 193
+weight = 179
 +++
 # 179. BCI (Brain-Computer Interface) - 뇌파 직접 인식 기계 제어 신경망 인터페이스 비침습적 침습적 뉴럴링크 사이보그 초연결망
 

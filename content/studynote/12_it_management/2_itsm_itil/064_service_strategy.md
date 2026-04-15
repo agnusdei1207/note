@@ -1,5 +1,5 @@
 +++
-weight = 68
+weight = 64
 title = "서비스 전략 (Service Strategy)"
 date = "2026-03-04"
 [extra]

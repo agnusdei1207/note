@@ -1,5 +1,5 @@
 +++
-weight = 61
+weight = 59
 title = "바이모달 IT (Bimodal IT: Mode 1 & Mode 2)"
 date = "2025-05-14"
 [extra]

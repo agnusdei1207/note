@@ -1,7 +1,7 @@
 +++
 title = "#92. bfloat16"
 date = "2026-04-15"
-weight = 908
+weight = 92
 [extra]
 categories = "studynote-computer-architecture"
 +++

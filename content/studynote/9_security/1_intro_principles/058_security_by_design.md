@@ -1,7 +1,7 @@
 +++
 title = "058. 내재적 보안 (Security by Design) — 설계 단계 보안 고려"
 date = "2026-04-05"
-weight = 62
+weight = 58
 [extra]
 categories = "studynote-security"
 +++

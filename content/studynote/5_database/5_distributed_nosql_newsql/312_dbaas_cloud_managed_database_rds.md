@@ -1,5 +1,5 @@
 +++
-weight = 315
+weight = 312
 title = "312. 클라우드 관리형 DB (DBaaS, Database as a Service) - AWS RDS, Azure SQL 등"
 date = "2026-04-07"
 [extra]

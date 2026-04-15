@@ -1,7 +1,7 @@
 +++
 title = "#657. 가상화 VMX root 모드"
 date = "2026-04-15"
-weight = 343
+weight = 657
 [extra]
 categories = "studynote-computer-architecture"
 +++

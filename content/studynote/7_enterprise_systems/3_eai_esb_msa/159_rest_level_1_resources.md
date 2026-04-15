@@ -1,6 +1,6 @@
 +++
 title = "159. Level 1 - 리소스별 고유 URI 할당"
-weight = 167
+weight = 159
 +++
 # 159. Level 1 - 리소스별 고유 URI 할당
 

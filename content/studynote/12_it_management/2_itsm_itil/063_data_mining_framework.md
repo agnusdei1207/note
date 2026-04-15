@@ -1,5 +1,5 @@
 +++
-weight = 65
+weight = 63
 title = "63. Spark 배포 모드 — Local / Standalone / YARN / Kubernetes / Mesos"
 date = "2026-04-05"
 [extra]

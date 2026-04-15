@@ -1,6 +1,6 @@
 +++
 title = "162. 무상태성 (Statelessness) - REST의 핵심, 서버에 세션 상태를 저장하지 않고 요청 자체만으로 완벽히 문맥 이해"
-weight = 172
+weight = 162
 +++
 # 162. 무상태성 (Statelessness)
 

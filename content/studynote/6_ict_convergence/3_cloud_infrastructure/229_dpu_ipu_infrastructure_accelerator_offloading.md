@@ -1,5 +1,5 @@
 +++
-weight = 230
+weight = 229
 title = "229. DPU (Data Processing Unit) / IPU - 인프라 가속기"
 date = "2026-04-10"
 [extra]

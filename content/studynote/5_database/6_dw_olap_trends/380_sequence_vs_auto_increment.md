@@ -1,7 +1,7 @@
 +++
 title = "380. 시퀀스 객체 vs Auto Increment"
 date = "2026-04-10"
-weight = 383
+weight = 380
 [extra]
 categories = "studynote-database"
 +++

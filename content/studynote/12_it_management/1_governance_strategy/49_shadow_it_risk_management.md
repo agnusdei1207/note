@@ -1,5 +1,5 @@
 +++
-weight = 51
+weight = 49
 title = "49. 섀도우 IT (Shadow IT) - 무단 사용 SaaS의 보안 사각지대"
 date = "2026-04-10"
 [extra]

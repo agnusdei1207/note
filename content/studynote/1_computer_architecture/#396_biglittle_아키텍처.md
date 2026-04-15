@@ -1,7 +1,7 @@
 +++
 title = "#396. big.LITTLE 아키텍처"
 date = "2026-04-15"
-weight = 604
+weight = 396
 [extra]
 categories = "studynote-computer-architecture"
 +++

@@ -1,5 +1,5 @@
 +++
-weight = 58
+weight = 54
 title = "54. 탐지 통제 (Detective Controls) — 이상 징후 발견"
 date = "2026-04-05"
 [extra]

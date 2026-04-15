@@ -1,6 +1,6 @@
 +++
 title = "203. 인프라스트럭처 애즈 코드 (IaC, Infrastructure as Code) - 수동 UI 클릭 대신 코드(JSON, YAML, HCL)로 인프라를 정의/프로비저닝 (Terraform, Ansible)"
-weight = 204
+weight = 203
 +++
 # 203. 인프라스트럭처 애즈 코드 (IaC) - Infrastructure as Code 테라폼(Terraform) 자동화 멱등성 클라우드 배포 형상 관리 프로비저닝 Ansible
 

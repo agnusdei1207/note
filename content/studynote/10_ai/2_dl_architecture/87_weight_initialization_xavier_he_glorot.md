@@ -1,5 +1,5 @@
 +++
-weight = 88
+weight = 87
 title = "87. 가중치 초기화 (Weight Initialization) - Xavier와 He 초기화"
 date = "2026-04-10"
 [extra]

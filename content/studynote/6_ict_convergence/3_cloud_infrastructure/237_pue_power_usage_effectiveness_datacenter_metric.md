@@ -1,5 +1,5 @@
 +++
-weight = 238
+weight = 237
 title = "237. PUE - 데이터센터 전력 효율 (Power Usage Effectiveness)"
 date = "2026-04-10"
 [extra]

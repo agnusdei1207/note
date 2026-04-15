@@ -1,6 +1,6 @@
 +++
 title = "295. 메모리 캐싱 (Caching) 기술 적용 - Look-aside (Lazy Loading) 패턴, Write-through 패턴"
-weight = 298
+weight = 295
 +++
 
 # 295. OLAP 연산 - 롤업, 드릴다운, 슬라이스, 다이스, 피벗

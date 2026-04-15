@@ -1,5 +1,5 @@
 +++
-weight = 101
+weight = 100
 title = "100. 풀링 층 (Pooling Layer) - 해상도 압축과 불변성 확보"
 date = "2026-04-10"
 [extra]

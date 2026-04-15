@@ -1,7 +1,7 @@
 +++
 title = "#697. FCoE"
 date = "2026-04-15"
-weight = 303
+weight = 697
 [extra]
 categories = "studynote-computer-architecture"
 +++
