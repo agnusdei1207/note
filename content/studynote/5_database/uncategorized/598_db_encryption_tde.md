@@ -1,11 +1,9 @@
 +++
-weight = 598
 title = "598. DB 암호화 아키텍처 (API, Plug-in, TDE, 혼합 구성)"
-description = "데이터베이스 암호화 방식인 API, Plug-in, TDE의 원리, 혼합 구성 아키텍처 및 인프라망 보안 체계"
-date = 2024-05-20
-[taxonomies]
-categories = ["Database", "Security"]
-tags = ["DB Encryption", "API", "Plug-in", "TDE", "Hybrid Architecture"]
+date = "2026-04-16"
+weight = 598
+[extra]
+categories = "studynote-database"
 +++
 
 # 598. 정보보안 암호화 DB 모듈 (API/Plug-in/TDE) 혼합 구성 인프라망 구조 체계 검토

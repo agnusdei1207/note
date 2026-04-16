@@ -1,11 +1,9 @@
 +++
-weight = 600
 title = "600. 양자 컴퓨팅 대응 포스트 퀀텀 암호화 (PQC) DB 적용 방안"
-description = "양자 컴퓨팅 위협에 대응하는 포스트 퀀텀 암호화(PQC)의 DB 트랜잭션 서명 및 보안 체계 적용"
-date = 2024-05-20
-[taxonomies]
-categories = ["Database", "Security", "Future Tech"]
-tags = ["Post-Quantum Cryptography", "PQC", "Quantum Computing", "DB Security", "Transaction Signature"]
+date = "2026-04-16"
+weight = 600
+[extra]
+categories = "studynote-database"
 +++
 
 # 600. 양자 컴퓨팅 대응 포스트 퀀텀 암호화 DB 트랜잭션 서명 보안 체계 적용 방안 연구 동향

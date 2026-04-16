@@ -1,11 +1,9 @@
 +++
-weight = 599
 title = "599. 그래프 마이닝 (Graph Mining)과 네트워크 분석"
-description = "그래프 마이닝의 원리, 추천 엔진 및 사기 탐지 적용, 소셜 연결 데이터 연산 구조"
-date = 2024-05-20
-[taxonomies]
-categories = ["Database", "Data Science"]
-tags = ["Graph Mining", "Network Routing", "Recommendation", "Fraud Detection", "Social Graph"]
+date = "2026-04-16"
+weight = 599
+[extra]
+categories = "studynote-database"
 +++
 
 # 599. 그래프 마이닝 (Graph Mining)과 네트워크 라우팅, 추천 엔진, 사기 탐지 적용
