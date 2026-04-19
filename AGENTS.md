@@ -104,7 +104,7 @@
    - **Next**: BigData `#48`부터 누락분 우선 작성
 
 ### ⚡ 다음 작업 지침
-- **최우선 작업**: CA `#162`부터 `_keyword_list.md` 기준으로 순차 재작성, 기존 파일의 번호/폴더/중복 설명을 함께 정리
+- **최우선 작업**: CA `#165`부터 `_keyword_list.md` 기준으로 순차 재작성, 기존 파일의 번호/폴더/중복 설명을 함께 정리
 - **진행 중 과목**: SE `#409`, ICT `#256`, Enterprise `#168`, Algorithm `#54`, Security `#205`, AI `#71`, Design `#47`, IT_Mgmt `#45`, Cloud `#42`, DataEng `#42`, DevOps `#42`, BigData `#42`부터 병렬 작성
 - **완료 후 순서**: CA 재작성 축을 굳힌 후 SE → DB → ICT → Enterprise → 나머지 과목 (Security, AI, Design 등) 순으로 재작성/보완
 - **참조 키워드**: 각 과목 `_keyword_list.md` 참고
