@@ -1,10 +1,9 @@
 +++
 weight = 207
 title = "207. 명령어 사이클 (Instruction Cycle)"
-date = 2024-01-01
-[taxonomies]
-categories = ["Computer Architecture"]
-tags = ["CA"]
+date = "2026-04-20"
+[extra]
+categories = "studynote-computer-architecture"
 +++
 
 # 207. 명령어 사이클 (Instruction Cycle)
@@ -16,7 +15,7 @@ tags = ["CA"]
 
 ---
 
-## Ⅰ. 개요 및 필요성 (Context & Necessity)
+## Ⅰ. 개요 및 필요성
 
 - **개념**: 명령어 사이클 (Instruction Cycle, 또는 기계 사이클 - Machine Cycle)은 프로세서가 하나의 명령어를 인출(Fetch)하여 해독(Decode)하고, 연산을 수행(Execute)한 뒤 다음 명령어를 준비하기까지 거치는 일련의 표준화된 반복 단계를 의미한다.
 
@@ -57,7 +56,7 @@ tags = ["CA"]
 
 ---
 
-## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
+## Ⅱ. 아키텍처 및 핵심 원리
 
 ### 구성 요소 (4대 하위 사이클)
 
@@ -108,7 +107,7 @@ tags = ["CA"]
 
 ---
 
-## Ⅲ. 융합 비교 및 다각도 분석
+## Ⅲ. 비교 및 연결
 
 ### 마이크로 오퍼레이션 (Micro-operation) 단위의 분석
 
@@ -150,7 +149,7 @@ tags = ["CA"]
 
 ---
 
-## Ⅳ. 실무 적용 및 기술사적 판단
+## Ⅳ. 실무 적용 및 기술사 판단
 
 ### 실무 시나리오
 
@@ -188,7 +187,7 @@ tags = ["CA"]
 
 ---
 
-### 📌 관련 개념 맵 (Knowledge Graph)
+### 📌 관련 개념 맵
 
 | 개념 명칭 | 관계 및 시너지 설명 |
 |:---|:---|

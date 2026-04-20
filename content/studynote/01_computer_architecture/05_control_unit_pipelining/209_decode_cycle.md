@@ -1,10 +1,9 @@
 +++
 weight = 209
 title = "209. 해독 사이클 (Decode Cycle)"
-date = 2024-01-01
-[taxonomies]
-categories = ["Computer Architecture"]
-tags = ["CA"]
+date = "2026-04-20"
+[extra]
+categories = "studynote-computer-architecture"
 +++
 
 # 209. 해독 사이클 (Decode Cycle)
@@ -16,7 +15,7 @@ tags = ["CA"]
 
 ---
 
-## Ⅰ. 개요 및 필요성 (Context & Necessity)
+## Ⅰ. 개요 및 필요성
 
 - **개념**: 해독 사이클 (Decode Cycle)은 인출(Fetch)된 기계어 명령어의 연산 코드(Opcode)를 분석하여 CPU가 수행할 구체적인 동작을 파악하고, 피연산자(Operand) 데이터를 레지스터에서 인출하여 실행을 위한 모든 제어 신호를 생성하는 단계다.
 
@@ -27,7 +26,7 @@ tags = ["CA"]
 
 ---
 
-## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
+## Ⅱ. 아키텍처 및 핵심 원리
 
 ### 구성 요소
 
@@ -68,7 +67,7 @@ tags = ["CA"]
 
 ---
 
-## Ⅲ. 융합 비교 및 다각도 분석
+## Ⅲ. 비교 및 연결
 
 ### RISC vs CISC의 해독 사이클 차이
 
@@ -115,7 +114,7 @@ tags = ["CA"]
 
 ---
 
-## Ⅳ. 실무 적용 및 기술사적 판단
+## Ⅳ. 실무 적용 및 기술사 판단
 
 ### 실무 시나리오
 
@@ -151,7 +150,7 @@ tags = ["CA"]
 
 ---
 
-### 📌 관련 개념 맵 (Knowledge Graph)
+### 📌 관련 개념 맵
 
 | 개념 명칭 | 관계 및 시너지 설명 |
 |:---|:---|

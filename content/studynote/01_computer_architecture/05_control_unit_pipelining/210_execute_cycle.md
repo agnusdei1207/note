@@ -1,10 +1,9 @@
 +++
 weight = 210
 title = "210. 실행 사이클 (Execute Cycle)"
-date = 2024-01-01
-[taxonomies]
-categories = ["Computer Architecture"]
-tags = ["CA"]
+date = "2026-04-20"
+[extra]
+categories = "studynote-computer-architecture"
 +++
 
 # 210. 실행 사이클 (Execute Cycle)
@@ -109,7 +108,7 @@ tags = ["CA"]
 
 ---
 
-## Ⅳ. 실무 적용 및 기술사적 판단
+## Ⅳ. 실무 적용 및 기술사 판단
 
 ### 실무 시나리오
 
@@ -145,7 +144,7 @@ tags = ["CA"]
 
 ---
 
-### 📌 관련 개념 맵 (Knowledge Graph)
+### 📌 관련 개념 맵
 
 | 개념 명칭 | 관계 및 시너지 설명 |
 |:---|:---|
