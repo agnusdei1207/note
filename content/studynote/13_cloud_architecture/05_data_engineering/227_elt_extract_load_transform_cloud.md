@@ -127,16 +127,16 @@ DW (Gold 테이블) ──▶ Census/Hightouch ──▶ Salesforce CRM
 
 ### dbt 변환 모델 예시
 
-```sql
+```text
 -- models/marts/sales/fact_daily_sales.sql
-{ { config(materialized='table') } }
+-- dbt Jinja: config(materialized='table')
 
 WITH orders AS (
-    SELECT * FROM { { ref('stg_orders') } }     -- 스테이징 레이어 참조
+    SELECT * FROM stg_orders     -- ref('stg_orders')
     WHERE status = 'completed'
 ),
 products AS (
-    SELECT * FROM { { ref('stg_products') } }
+    SELECT * FROM stg_products   -- ref('stg_products')
 ),
 final AS (
     SELECT
