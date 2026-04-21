@@ -71,22 +71,22 @@ categories = "studynote-bigdata"
 | Seed | CSV로 정적 참조 데이터 관리 | 코드와 데이터 함께 버전 관리 |
 
 **dbt Incremental 모델 패턴**
-```sql
+```text
 -- models/silver/orders_cleaned.sql
-{{ config(materialized='incremental',
-          unique_key='order_id',
-          on_schema_change='sync_all_columns') }}
+-- dbt Jinja 매크로 사용
+-- { { config(materialized='incremental',
+--           unique_key='order_id',
+--           on_schema_change='sync_all_columns') } }
 
 SELECT
     order_id,
     customer_id,
     amount,
     created_at
-FROM {{ source('bronze', 'orders_raw') }}
+FROM source('bronze', 'orders_raw')
 WHERE status != 'cancelled'
-{% if is_incremental() %}
-  AND created_at > (SELECT MAX(created_at) FROM {{ this }})
-{% endif %}
+-- incremental 조건: 마지막 실행 이후 데이터만 처리
+-- AND created_at > (SELECT MAX(created_at) FROM this_model)
 ```
 
 > 📢 **섹션 요약 비유**: dbt는 요리 레시피 북이다. 각 요리(모델)의 재료(소스)와 조리법(SQL)이 정해져 있고, 완성된 요리(결과 테이블)가 예상대로 나왔는지 검사(test)하는 과정도 포함된다.
