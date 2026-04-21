@@ -602,3 +602,457 @@ commit("feat: Security #480-484 Clickjacking/CORS/Preflight")
 FILES.clear()
 
 print("Batch 480-484 done")
+
+FILES["485_owasp_zap.md"] = """\
++++
+weight = 485
+title = "485. OWASP ZAP (Zed Attack Proxy)"
+date = "2026-04-21"
+[extra]
+categories = "studynote-security"
++++
+
+## 핵심 인사이트 (3줄 요약)
+> 1. **본질**: OWASP ZAP (Zed Attack Proxy)는 OWASP (Open Web Application Security Project)에서 개발한 무료 오픈소스 웹 취약점 스캐너로, 수동·자동 취약점 탐지를 모두 지원하는 통합 웹 보안 테스트 도구이다.
+> 2. **가치**: CI/CD (Continuous Integration/Continuous Delivery) 파이프라인에 통합하여 DAST (Dynamic Application Security Testing) 자동화가 가능하며, API 보안 테스트에도 활용된다.
+> 3. **판단 포인트**: Active Scan은 실제 공격 페이로드를 전송하므로 운영 환경이 아닌 스테이징 환경에서만 사용해야 한다.
+
+---
+
+## Ⅰ. 개요 및 필요성
+
+ZAP은 2010년 오픈소스로 공개되어 현재 가장 널리 사용되는 웹 보안 테스트 도구 중 하나이다. 인터셉팅 프록시로 동작하며, 브라우저와 웹 서버 사이에서 HTTP (Hypertext Transfer Protocol) 트래픽을 캡처·수정·재전송할 수 있다.
+
+주요 기능: Spider(자동 URL 수집), Active Scan(취약점 자동 탐지), Passive Scan(트래픽 분석), Fuzzer, 인증 관리, API 스캔.
+
+📢 **섹션 요약 비유**: 건물 보안 점검관(ZAP)이 문·창문·배관(HTTP 트래픽)을 직접 흔들어보며 취약점을 찾는 것이다.
+
+---
+
+## Ⅱ. 아키텍처 및 핵심 원리
+
+| 스캔 유형 | 동작 | 위험 수준 |
+|:---|:---|:---|
+| Passive Scan | 트래픽 관찰만 | 무해 |
+| Spider | URL 자동 크롤링 | 낮음 |
+| Ajax Spider | SPA JavaScript 렌더링 | 낮음 |
+| Active Scan | 취약점 페이로드 전송 | 높음(운영 금지) |
+| Fuzzer | 커스텀 페이로드 | 높음 |
+
+```
+[ZAP 동작 아키텍처]
+
+브라우저
+  │ HTTP 요청
+  ▼
+ZAP 프록시 (8080포트)
+  ├─ Passive Scan: 트래픽 분석
+  ├─ Spider: 링크 자동 수집
+  ├─ Active Scan: 취약점 페이로드 주입
+  │    ├─ SQLi 테스트
+  │    ├─ XSS 테스트
+  │    └─ Path Traversal 테스트
+  ▼
+대상 웹 서버
+  │ 응답
+  ▼
+ZAP 결과 보고서
+  Alert: High/Medium/Low/Informational
+```
+
+📢 **섹션 요약 비유**: 건물 점검관이 실제로 문을 두드리고(Active) 유리창을 들여다보며(Passive) 취약점을 기록하는 것이다.
+
+---
+
+## Ⅲ. 비교 및 연결
+
+| 도구 | 특징 | 유형 |
+|:---|:---|:---|
+| OWASP ZAP | 무료, CI/CD 통합 | DAST |
+| Burp Suite | 강력한 수동 테스트 | DAST(유료 Pro) |
+| Nikto | 빠른 서버 취약점 스캔 | DAST |
+| Nessus | 네트워크+웹 통합 | 취약점 스캐너 |
+
+📢 **섹션 요약 비유**: ZAP은 무료 건물 안전 검사관, Burp Suite는 전문 보안 엔지니어—용도에 따라 선택한다.
+
+---
+
+## Ⅳ. 실무 적용 및 기술사 판단
+
+**CI/CD ZAP 통합 예시 (GitHub Actions)**:
+```yaml
+- name: ZAP Baseline Scan
+  uses: zaproxy/action-baseline@v0.10.0
+  with:
+    target: 'https://staging.example.com'
+```
+
+**Baseline Scan**: Passive 스캔만 수행하여 CI/CD에서 안전하게 실행 가능. Full Scan은 Active 포함하여 스테이징 전용.
+
+📢 **섹션 요약 비유**: 배포 전 검사관(ZAP)이 자동으로 건물을 점검하고 이상 있으면 배포를 막는 것이다.
+
+---
+
+## Ⅴ. 기대효과 및 결론
+
+ZAP을 CI/CD에 통합하면 웹 취약점을 배포 전에 자동으로 탐지하여 Shift-Left 보안을 실현할 수 있다. Baseline Scan은 Passive 모드이므로 운영 환경에도 적용 가능하다.
+
+📢 **섹션 요약 비유**: 건물을 짓는 과정(CI/CD)에서 매번 검사관이 확인하면 완공 후 수리비(보안 사고 비용)가 줄어든다.
+
+---
+
+### 📌 관련 개념 맵
+| 개념 | 관계 | 설명 |
+|:---|:---|:---|
+| DAST | 분류 | 동적 애플리케이션 보안 테스트 |
+| CI/CD | 통합 환경 | 자동화 파이프라인 보안 테스트 |
+| Active Scan | 기능 | 취약점 페이로드 자동 전송 |
+| Burp Suite | 비교 도구 | 전문 수동 테스트 도구 |
+
+### 👶 어린이를 위한 3줄 비유 설명
+ZAP은 웹사이트(건물)의 약한 곳을 찾아주는 무료 보안 점검관이에요.
+문을 두드려보고(Active Scan) 눈으로 살펴보며(Passive Scan) 취약점을 기록해요.
+건물을 지을 때마다(배포마다) 자동으로 점검하면 나중에 큰 수리를 안 해도 돼요.
+"""
+
+FILES["486_burp_suite.md"] = """\
++++
+weight = 486
+title = "486. Burp Suite (웹 취약점 진단 도구)"
+date = "2026-04-21"
+[extra]
+categories = "studynote-security"
++++
+
+## 핵심 인사이트 (3줄 요약)
+> 1. **본질**: Burp Suite는 PortSwigger사의 웹 애플리케이션 보안 테스트 통합 플랫폼으로, 인터셉팅 프록시를 중심으로 스캐너·인트루더·리피터 등 다양한 모듈을 제공한다.
+> 2. **가치**: 수동 침투 테스트에서 가장 강력한 도구이며, 전문 모의해킹(Penetration Testing) 시장에서 사실상 표준 도구로 사용된다.
+> 3. **판단 포인트**: Community Edition은 무료지만 자동 스캐너가 없고, Professional Edition($449/년)에서 Active Scanner, Burp Collaborator가 제공된다.
+
+---
+
+## Ⅰ. 개요 및 필요성
+
+Burp Suite는 2003년 처음 출시되어 현재 버전 2.x까지 발전했다. 인터셉팅 프록시를 통해 HTTP/HTTPS (Hypertext Transfer Protocol Secure) 트래픽을 실시간으로 캡처하고 수정할 수 있어, 웹 애플리케이션의 모든 요청·응답을 완전히 제어할 수 있다.
+
+주요 모듈: Proxy(인터셉팅), Scanner(자동 취약점 탐지), Intruder(자동화 공격), Repeater(요청 수동 반복), Decoder(인코딩 변환), Comparer(응답 비교), Collaborator(Out-of-Band 공격), DOM Invader(DOM XSS 탐지).
+
+📢 **섹션 요약 비유**: 웹 보안 스위스 아미 나이프—하나의 도구에 모든 기능이 담긴 전문 해킹 도구 세트이다.
+
+---
+
+## Ⅱ. 아키텍처 및 핵심 원리
+
+| 모듈 | 기능 | 용도 |
+|:---|:---|:---|
+| Proxy | HTTP 인터셉팅 | 트래픽 분석 |
+| Scanner | 자동 취약점 탐지 | DAST 자동화 |
+| Intruder | 자동화 페이로드 주입 | Brute Force, Fuzzing |
+| Repeater | 단일 요청 반복 수정 | 수동 취약점 검증 |
+| Collaborator | Out-of-Band 서버 | Blind XXE/SSRF 탐지 |
+
+```
+[Burp Suite 프록시 구조]
+
+브라우저
+  (Proxy 설정: 127.0.0.1:8080)
+  │
+  ▼
+Burp Proxy
+  ├─ Intercept: 요청 일시 정지·수정
+  ├─ HTTP History: 모든 요청 로그
+  └─ WebSockets: WS 트래픽 캡처
+  │
+  ▼
+대상 웹 서버
+
+[Intruder 공격 유형]
+  Sniper: 단일 파라미터 퍼징
+  Battering Ram: 모든 파라미터 동일 페이로드
+  Pitchfork: 파라미터별 다른 페이로드 리스트
+  Cluster Bomb: 모든 조합
+```
+
+📢 **섹션 요약 비유**: 탐정(침투 테스터)의 도구 가방—현미경(Proxy), 자물쇠 따개(Intruder), 기록장(Repeater)이 모두 들어있다.
+
+---
+
+## Ⅲ. 비교 및 연결
+
+| 항목 | Burp Community | Burp Professional |
+|:---|:---|:---|
+| 가격 | 무료 | $449/년 |
+| 자동 스캐너 | 없음 | 있음 |
+| Intruder 속도 | 제한적 | 무제한 |
+| Collaborator | 없음 | 있음 |
+
+📢 **섹션 요약 비유**: 커뮤니티(무료)는 기본 도구, 프로(유료)는 완전한 해킹 실험실이다.
+
+---
+
+## Ⅳ. 실무 적용 및 기술사 판단
+
+**SQL 인젝션 테스트 워크플로우**:
+1. Proxy로 로그인 요청 캡처
+2. Repeater로 전송, 파라미터에 `'` 입력 후 오류 확인
+3. Intruder로 Union-based SQLi 페이로드 자동화
+
+**Burp Collaborator 활용**: DNS·HTTP Out-of-Band 서버로 Blind SSRF (Server-Side Request Forgery), Blind XXE (XML External Entity) 탐지에 필수적이다.
+
+📢 **섹션 요약 비유**: Collaborator는 범죄 현장에 마련한 비밀 수신함—직접 보이지 않는 공격도 증거를 남긴다.
+
+---
+
+## Ⅴ. 기대효과 및 결론
+
+Burp Suite를 활용한 수동 침투 테스트는 자동화 스캐너가 놓치는 복잡한 비즈니스 로직 취약점을 발견하는 데 탁월하다. 기술사 시험에서 모의해킹 도구 관련 논술 시 ZAP(무료, CI/CD)과 Burp(전문, 수동)의 용도 차이를 명확히 설명하는 것이 중요하다.
+
+📢 **섹션 요약 비유**: 자동화 로봇(ZAP)은 빠르지만 섬세한 범죄는 전문 형사(Burp)가 찾아낸다.
+
+---
+
+### 📌 관련 개념 맵
+| 개념 | 관계 | 설명 |
+|:---|:---|:---|
+| DAST | 분류 | 동적 보안 테스트 유형 |
+| Intruder | 핵심 모듈 | 자동화 페이로드 공격 |
+| Collaborator | 고급 기능 | Out-of-Band 공격 탐지 |
+| OWASP ZAP | 비교 도구 | 무료 DAST 대안 |
+
+### 👶 어린이를 위한 3줄 비유 설명
+Burp Suite는 웹사이트(건물)의 모든 구석을 탐색할 수 있는 탐정 도구 세트예요.
+모든 대화(HTTP 요청)를 엿듣고(Proxy), 반복해보고(Repeater), 자동으로 시험해볼(Intruder) 수 있어요.
+전문 탐정(침투 테스터)이 사용하는 도구라서 올바른 목적으로만 써야 해요.
+"""
+
+FILES["487_sqlmap.md"] = """\
++++
+weight = 487
+title = "487. SQLMap (SQL 인젝션 자동화 도구)"
+date = "2026-04-21"
+[extra]
+categories = "studynote-security"
++++
+
+## 핵심 인사이트 (3줄 요약)
+> 1. **본질**: SQLMap은 SQL (Structured Query Language) 인젝션 취약점을 자동으로 탐지하고 익스플로잇하는 오픈소스 도구로, Error-based·Boolean-based·Time-based·Union-based 등 다양한 기법을 지원한다.
+> 2. **가치**: 수동으로 수 시간이 걸리는 SQL 인젝션 분석을 자동화하여 DB (Database) 스키마·데이터 덤프, OS 명령 실행까지 가능하다.
+> 3. **판단 포인트**: SQLMap은 취약점 탐지 후 자동으로 악용(exploitation)까지 진행하므로, 반드시 서면 허가를 받은 대상에만 사용해야 한다.
+
+---
+
+## Ⅰ. 개요 및 필요성
+
+SQLMap은 2006년 처음 공개된 이후 SQL 인젝션 자동화 도구의 사실상 표준이 되었다. Python으로 작성되어 모든 OS에서 동작하며, MySQL·PostgreSQL·Oracle·MSSQL·SQLite 등 주요 DBMS (Database Management System)를 지원한다.
+
+자동 탐지 기법: Error-based, Union-based, Boolean-based Blind, Time-based Blind, Stacked Queries, Out-of-Band.
+
+📢 **섹션 요약 비유**: 금고(DB) 열기 도구—취약한 자물쇠(SQL 인젝션)를 자동으로 찾아내고 여는 스위스 아미 나이프이다.
+
+---
+
+## Ⅱ. 아키텍처 및 핵심 원리
+
+| 기법 | 동작 원리 | 속도 |
+|:---|:---|:---|
+| Error-based | DB 오류 메시지 분석 | 빠름 |
+| Union-based | UNION SELECT로 데이터 추출 | 빠름 |
+| Boolean Blind | 참/거짓 응답 차이 분석 | 중간 |
+| Time-based Blind | 응답 지연 시간 측정 | 느림 |
+| Out-of-Band | DNS/HTTP 외부 채널 | 느림 |
+
+```
+[SQLMap 동작 흐름]
+
+sqlmap -u "http://target.com/page?id=1"
+  │
+  ▼
+파라미터 자동 식별
+  id=1 → 취약 파라미터 탐지
+  │
+  ▼
+인젝션 기법 순서 시도
+  Error-based → Union → Boolean → Time
+  │
+  ▼
+DB 정보 추출
+  DB 버전, DB 명, 테이블, 컬럼, 데이터
+  │
+  ▼
+(옵션) OS Shell / File Read/Write
+```
+
+📢 **섹션 요약 비유**: 자물쇠 따개(SQLMap)가 여러 종류의 도구(기법)를 순서대로 사용해 문을 열어본다.
+
+---
+
+## Ⅲ. 비교 및 연결
+
+| 옵션 | 기능 |
+|:---|:---|
+| `--dbs` | DB 목록 열거 |
+| `--tables -D dbname` | 테이블 목록 |
+| `--dump -T table` | 테이블 데이터 덤프 |
+| `--os-shell` | OS 명령어 실행 |
+| `--level=5 --risk=3` | 공격 강도 최대 |
+| `--batch` | 비대화식 자동 실행 |
+
+📢 **섹션 요약 비유**: 옵션들은 도구 가방 안의 각기 다른 도구—필요한 것만 꺼내 쓰면 된다.
+
+---
+
+## Ⅳ. 실무 적용 및 기술사 판단
+
+**방어 관점 활용**: WAF (Web Application Firewall) 규칙 효과 검증, 입력 검증 우회 가능 여부 확인, 파라미터화 쿼리(Parameterized Query) 적용 여부 테스트에 활용한다.
+
+**탐지 우회 옵션**:
+```
+sqlmap --tamper=space2comment,between  # WAF 우회 tamper 스크립트
+sqlmap --delay=2 --timeout=30          # 타이밍 조절
+```
+
+**법적 주의**: 권한 없는 대상에 SQLMap 사용은 불법이다. 버그바운티·CTF·화이트박스 테스트에만 사용한다.
+
+📢 **섹션 요약 비유**: 자물쇠 따개는 내 집 잠긴 문을 열 때만 합법—남의 집에 쓰면 범죄이다.
+
+---
+
+## Ⅴ. 기대효과 및 결론
+
+방어자 관점에서 SQLMap은 자신의 시스템에 SQL 인젝션 취약점이 있는지 빠르게 검증하는 데 매우 유용하다. 파라미터화 쿼리와 ORM (Object-Relational Mapping)을 적용했을 때 SQLMap이 데이터를 추출하지 못하면 방어가 성공적으로 이루어진 것이다.
+
+📢 **섹션 요약 비유**: 방어 효과를 검증하려면 직접 자물쇠(내 시스템)를 따개(SQLMap)로 시험해봐야 한다.
+
+---
+
+### 📌 관련 개념 맵
+| 개념 | 관계 | 설명 |
+|:---|:---|:---|
+| Parameterized Query | 방어 | SQL 인젝션 근본 차단 |
+| WAF | 탐지 | SQLMap 요청 시그니처 탐지 |
+| Blind SQLi | 기법 | 응답 차이로 데이터 추출 |
+| tamper script | 우회 | WAF 탐지 회피 기법 |
+
+### 👶 어린이를 위한 3줄 비유 설명
+SQLMap은 웹사이트의 잠긴 금고(DB)를 자동으로 열어보는 도구예요.
+금고 자물쇠(SQL 쿼리)에 문제가 있으면 자동으로 찾아내고 내용물(데이터)을 꺼낼 수 있어요.
+허가받은 집(내 시스템)에서만 사용해야 하고, 남의 집에 쓰면 범죄예요.
+"""
+
+FILES["488_nikto.md"] = """\
++++
+weight = 488
+title = "488. Nikto (웹 서버 취약점 스캐너)"
+date = "2026-04-21"
+[extra]
+categories = "studynote-security"
++++
+
+## 핵심 인사이트 (3줄 요약)
+> 1. **본질**: Nikto는 웹 서버의 알려진 취약점·위험한 파일·구성 오류를 빠르게 스캔하는 오픈소스 CLI (Command Line Interface) 도구로, 6,700개 이상의 잠재적 위험 항목을 데이터베이스로 관리한다.
+> 2. **가치**: 초기 정보 수집(Reconnaissance) 단계에서 빠른 공격 표면(Attack Surface) 파악에 유용하며, 서버 헤더·쿠키 설정·디렉토리 노출 등을 자동으로 점검한다.
+> 3. **판단 포인트**: Nikto는 스텔스 기능이 없어 IDS (Intrusion Detection System)/WAF에 즉시 탐지되므로, 은밀한 테스트보다는 빠른 기본 점검에 적합하다.
+
+---
+
+## Ⅰ. 개요 및 필요성
+
+Nikto는 2001년 CIRT.net에서 개발한 웹 서버 취약점 스캐너이다. Apache·Nginx·IIS (Internet Information Services) 등 모든 웹 서버를 대상으로 취약한 파일·디렉토리(예: `/admin`, `/.git`, `/phpinfo.php`), 서버 헤더 정보 노출, 구형 소프트웨어 버전 등을 탐지한다.
+
+Kali Linux에 기본 탑재되어 있으며, Perl로 작성되어 크로스 플랫폼 동작이 가능하다.
+
+📢 **섹션 요약 비유**: 건물 외관을 빠르게 돌아다니며 열린 문·깨진 창문·경고 표지판을 체크하는 빠른 사전 점검이다.
+
+---
+
+## Ⅱ. 아키텍처 및 핵심 원리
+
+| 스캔 항목 | 예시 | 위험 |
+|:---|:---|:---|
+| 위험한 파일 | `/phpinfo.php`, `/.git` | 정보 노출 |
+| 구형 소프트웨어 | Apache 2.2.x | CVE (Common Vulnerabilities Exposures) 취약점 |
+| 보안 헤더 누락 | X-Frame-Options, CSP 없음 | Clickjacking, XSS |
+| 기본 자격증명 | `admin:admin` 기본값 | 무단 접근 |
+| 취약한 CGI | 오래된 CGI (Common Gateway Interface) 스크립트 | RCE (Remote Code Execution) |
+
+```
+[Nikto 스캔 흐름]
+
+nikto -h https://target.com -o report.html
+  │
+  ▼
+대상 서버 연결
+  │
+  ▼
+6,700+ 항목 점검
+  ├─ 서버 버전 확인
+  ├─ 위험 파일 경로 확인
+  ├─ 보안 헤더 확인
+  ├─ 쿠키 속성 확인
+  └─ 디렉토리 리스팅 확인
+  │
+  ▼
+결과 보고서 (HTML/CSV/XML)
+```
+
+📢 **섹션 요약 비유**: 점검관이 체크리스트(6,700항목)를 들고 건물 외관을 빠르게 순회하는 것이다.
+
+---
+
+## Ⅲ. 비교 및 연결
+
+| 도구 | 특징 | 탐지 난이도 |
+|:---|:---|:---|
+| Nikto | 빠른 기본 스캔, 노이즈 많음 | IDS에 즉시 탐지 |
+| OWASP ZAP | 심층 스캔, CI/CD 통합 | 중간 |
+| Burp Suite | 수동 심층 분석 | 설정에 따라 다름 |
+| Nmap | 포트·서비스 스캔 | 낮음 |
+
+📢 **섹션 요약 비유**: Nikto는 빠르지만 시끄러운 점검, Burp는 느리지만 조용한 정밀 분석이다.
+
+---
+
+## Ⅳ. 실무 적용 및 기술사 판단
+
+**기본 사용법**:
+```
+nikto -h https://target.com          # 기본 스캔
+nikto -h https://target.com -Tuning 1  # SQL 인젝션 집중
+nikto -h https://target.com -ssl      # HTTPS 강제
+nikto -h https://target.com -useragent "Custom"  # UA 변경
+```
+
+방어자 관점: Nikto가 발견하는 항목들을 사전에 수정하면 공격자의 초기 정보 수집을 무력화할 수 있다. 특히 `X-Powered-By`, `Server` 헤더 제거와 보안 헤더 추가가 핵심이다.
+
+📢 **섹션 요약 비유**: 점검관이 발견하는 문제들을 미리 고쳐두면 공격자가 찾을 것이 없어진다.
+
+---
+
+## Ⅴ. 기대효과 및 결론
+
+Nikto를 통한 기초 보안 점검으로 서버 구성 오류·정보 노출·레거시 취약점을 빠르게 파악할 수 있다. 정기적인 Nikto 스캔 결과를 기반으로 서버 하드닝(Hardening) 작업을 수행하면 공격 표면을 효과적으로 줄일 수 있다.
+
+📢 **섹션 요약 비유**: 빠른 점검(Nikto)으로 쉬운 취약점을 먼저 제거하면 고급 공격자도 시작점을 잃는다.
+
+---
+
+### 📌 관련 개념 맵
+| 개념 | 관계 | 설명 |
+|:---|:---|:---|
+| CVE | 탐지 기반 | 알려진 취약점 데이터베이스 |
+| 정보 수집 | 단계 | Nikto의 주요 활용 단계 |
+| 서버 하드닝 | 방어 | Nikto 결과 기반 보안 강화 |
+| IDS | 탐지됨 | Nikto 트래픽 즉시 탐지 |
+
+### 👶 어린이를 위한 3줄 비유 설명
+Nikto는 건물(웹 서버)을 빠르게 돌아다니며 열린 문·깨진 창문을 찾는 점검관이에요.
+체크리스트(6,700항목)에 있는 문제들을 자동으로 확인해줘요.
+점검관이 발견한 문제를 미리 고치면 나쁜 사람이 들어올 구멍이 없어져요.
+"""
+
+# Commit batch 485-488
+for fname, content in FILES.items():
+    w(fname, content)
+commit("feat: Security #485-488 ZAP/Burp/SQLMap/Nikto")
+FILES.clear()
+print("Batch 485-488 done")
