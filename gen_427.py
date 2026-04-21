@@ -1,0 +1,111 @@
+import os
+OUT = "/Users/pf/workspace/brainscience/content/studynote/09_security/05_web_app_security/"
+
+def w(fn, weight, title, content):
+    path = os.path.join(OUT, fn)
+    if os.path.exists(path):
+        print(f"SKIP: {fn}")
+        return
+    with open(path, "w") as f:
+        f.write(f'+++\nweight = {weight}\ntitle = "{title}"\ndate = "2026-04-21"\n[extra]\ncategories = "studynote-security"\n+++\n\n')
+        f.write(content.strip() + "\n")
+    print(f"CREATED: {fn}")
+
+w("427_certificate_pinning_bypass.md", 427, "427. Certificate Pinning 우회", """
+## 핵심 인사이트 (3줄 요약)
+> 1. **본질**: Certificate Pinning (인증서 고정) 우회는 모바일 애플리케이션이 특정 인증서를 신뢰하도록 하드코딩된 검증 로직을 공격자가 무력화해, 자신의 프록시 인증서로 TLS (Transport Layer Security) 트래픽을 가로채는 기법이다.
+> 2. **가치**: Certificate Pinning은 MITM (Man-In-The-Middle) 공격 방지 메커니즘이지만, Frida·SSL Kill Switch 등의 도구로 런타임에서 우회될 수 있다.
+> 3. **판단 포인트**: 루트 CA (Certificate Authority) 핀닝보다 SPKI (Subject Public Key Info) 핀닝이 더 강력하고, 코드 난독화와 루트 감지를 병행해야 한다.
+
+---
+
+## Ⅰ. 개요 및 필요성
+
+Certificate Pinning은 클라이언트가 서버 인증서나 공개 키를 미리 저장(pin)해두고, TLS 핸드셰이크 시 서버가 제시한 인증서와 비교해 일치하지 않으면 연결을 거부하는 기법이다. 신뢰할 수 있는 CA가 발급한 다른 인증서로 MITM 공격을 하려 해도 앱이 거부한다.
+
+주요 우회 방법:
+- **Frida**: 동적 계측 프레임워크로 핀닝 검증 함수를 런타임에 패치
+- **SSL Kill Switch 2**: iOS에서 인증서 검증 API를 후킹해 비활성화
+- **APK 역공학**: Android APK (Android Package Kit)를 디컴파일해 핀닝 코드 제거 후 재컴파일
+- **Magisk 모듈**: 루팅된 Android에서 시스템 수준 핀닝 비활성화
+
+📢 **섹션 요약 비유**: Certificate Pinning은 특정 직원의 얼굴만 인식하는 출입 시스템이다. 우회는 그 직원의 얼굴 마스크를 쓰거나, 인식 시스템 코드를 해킹해 항상 통과로 만드는 것이다.
+
+---
+
+## Ⅱ. 아키텍처 및 핵심 원리
+
+| 핀닝 유형 | 대상 | 강도 | 유지보수 부담 |
+|:---|:---|:---|:---|
+| 리프 인증서 핀닝 | 서버 인증서 전체 | 최강 | 갱신마다 앱 업데이트 필요 |
+| 공개 키 핀닝 (SPKI) | 공개 키 해시 | 강 | 키 재사용 시 업데이트 불필요 |
+| 루트/중간 CA 핀닝 | CA 인증서 | 약 | 유지보수 쉬움 |
+
+```
+┌──────────────────────────────────────────────────────────┐
+│           Certificate Pinning 정상·우회 비교             │
+├──────────────────────────────────────────────────────────┤
+│  정상 흐름:                                              │
+│  앱 → TLS 핸드셰이크 → 서버 인증서 수신                  │
+│  앱 내 저장된 공개 키 해시와 비교 → 일치 시 연결 허용     │
+│                                                          │
+│  우회 흐름 (Frida):                                      │
+│  Frida가 검증 함수 런타임 패치 → 항상 true 반환          │
+│  공격자 프록시 인증서도 신뢰 → MITM 성공                │
+└──────────────────────────────────────────────────────────┘
+```
+
+📢 **섹션 요약 비유**: Frida는 경호원의 뇌에 직접 "모든 손님을 VIP로 인식해"라고 명령을 심는 것과 같다.
+
+---
+
+## Ⅲ. 비교 및 연결
+
+| 구분 | Certificate Pinning | HPKP (HTTP Public Key Pinning, 폐기됨) |
+|:---|:---|:---|
+| 구현 위치 | 앱 코드 | HTTP 응답 헤더 |
+| 현재 상태 | 사용 중 | 2019년 브라우저에서 폐기 |
+| 위험 | 우회 가능 | 악용 시 사이트 접근 불가 (DoS) |
+| 대안 | 앱 핀닝 + 모니터링 | Certificate Transparency |
+
+📢 **섹션 요약 비유**: HPKP는 너무 엄격해서 열쇠를 잘못 등록하면 영구적으로 접근 불가 상태가 돼서 폐기됐다.
+
+---
+
+## Ⅳ. 실무 적용 및 기술사 판단
+
+**안전한 구현 전략**:
+1. **SPKI 해시 핀닝**: 공개 키 해시를 핀닝해 인증서 갱신 시 앱 업데이트 불필요
+2. **백업 핀 (Backup Pin)**: 최소 2개 이상의 핀 저장 (기본 + 백업)
+3. **코드 난독화**: ProGuard, R8으로 핀닝 코드 보호
+4. **루트 감지**: 루팅/탈옥된 기기에서 추가 보안 조치 적용
+5. **Certificate Transparency 모니터링**: 무단 인증서 발급 감지
+
+📢 **섹션 요약 비유**: 핀닝 코드를 난독화하는 것은 금고 설계도를 암호화해서 공개하는 것이다. 완벽하진 않지만 공격 비용을 높인다.
+
+---
+
+## Ⅴ. 기대효과 및 결론
+
+SPKI 핀닝 + 코드 난독화 + 루트 감지 + Certificate Transparency 모니터링을 결합하면 MITM 공격 저항력을 크게 높일 수 있다. Certificate Pinning은 "완전한 방어"가 아닌 "공격 비용 증가" 전략으로 이해하고 심층 방어(Defense in Depth) 관점에서 적용해야 한다.
+
+📢 **섹션 요약 비유**: Certificate Pinning은 금고에 자물쇠를 두 개 다는 것이다. 하나를 딸 수 있어도 두 번째가 남아 있다.
+
+---
+
+### 📌 관련 개념 맵
+| 개념 | 관계 | 설명 |
+|:---|:---|:---|
+| MITM | 공격 유형 | TLS 트래픽 가로채기 |
+| Frida | 우회 도구 | 동적 계측 프레임워크 |
+| SPKI 해시 | 핀닝 방식 | 공개 키 해시 고정 |
+| Certificate Transparency | 보완 통제 | 무단 인증서 발급 감지 |
+| Code Obfuscation | 방어 기법 | 핀닝 코드 역공학 방지 |
+
+### 👶 어린이를 위한 3줄 비유 설명
+- Certificate Pinning은 앱이 "이 서버는 내가 아는 그 서버 맞아"라고 얼굴을 기억해두는 것이야.
+- Frida 같은 도구로 앱이 항상 "맞아!"라고 하도록 속일 수 있어.
+- 그래서 여러 겹의 보안(코드 숨기기, 루팅 감지)을 함께 써야 안전해!
+""")
+
+print("All done.")
