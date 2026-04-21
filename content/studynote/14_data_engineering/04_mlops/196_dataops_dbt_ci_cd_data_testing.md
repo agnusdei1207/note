@@ -86,15 +86,11 @@ dbt 핵심 구성요소
 
 ### 2.2 dbt 모델 정의 및 테스트
 
-```sql
+```text
 -- models/marts/finance/fct_orders.sql
 -- 주문 팩트 테이블 생성
-
-{{ config(
-    materialized = 'incremental',
-    unique_key = 'order_id',
-    on_schema_change = 'merge'
-) }}
+-- dbt Jinja 매크로 사용:
+-- config(materialized='incremental', unique_key='order_id', on_schema_change='merge')
 
 SELECT
     o.order_id,
@@ -105,13 +101,10 @@ SELECT
     o.unit_price,
     o.quantity * o.unit_price AS total_amount,
     o.created_at::DATE AS order_date
-FROM {{ ref('stg_orders') }} o
-LEFT JOIN {{ ref('dim_customers') }} c USING (customer_id)
-LEFT JOIN {{ ref('dim_products') }} p USING (product_id)
-
-{% if is_incremental() %}
-    WHERE o.created_at > (SELECT MAX(created_at) FROM {{ this }})
-{% endif %}
+FROM stg_orders o           -- ref('stg_orders')
+LEFT JOIN dim_customers c USING (customer_id)   -- ref('dim_customers')
+LEFT JOIN dim_products p USING (product_id)     -- ref('dim_products')
+-- incremental 조건: WHERE o.created_at > (SELECT MAX(created_at) FROM this_model)
 ```
 
 ```yaml
