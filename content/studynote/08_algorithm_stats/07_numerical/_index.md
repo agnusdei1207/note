@@ -1,6 +1,6 @@
 +++
 weight = 14
-title = "7. 수치 해석 및 최적화 공학"
+title = "07. 수치 해석 및 최적화 공학"
 sort_by = "weight"
 +++
 

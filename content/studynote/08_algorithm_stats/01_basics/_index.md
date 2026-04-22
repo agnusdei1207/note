@@ -1,6 +1,6 @@
 +++
 weight = 1
-title = "1. 알고리즘 기초"
+title = "01. 알고리즘 기초"
 [extra]
 sort_by = "weight"
 +++

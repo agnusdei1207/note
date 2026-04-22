@@ -1,5 +1,5 @@
 +++
 weight = 3
-title = "3. Relational Model"
+title = "03. Relational Model"
 sort_by = "weight"
 +++

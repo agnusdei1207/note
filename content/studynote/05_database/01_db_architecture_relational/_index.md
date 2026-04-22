@@ -1,6 +1,6 @@
 +++
 weight = 2
-title = "1. 데이터베이스 기초 및 아키텍처"
+title = "01. 데이터베이스 기초 및 아키텍처"
 sort_by = "weight"
 +++
 

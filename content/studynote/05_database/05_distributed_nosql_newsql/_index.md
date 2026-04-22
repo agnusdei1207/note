@@ -1,6 +1,6 @@
 +++
 weight = 7
-title = "5. 분산 데이터베이스, NoSQL 및 NewSQL"
+title = "05. 분산 데이터베이스, NoSQL 및 NewSQL"
 sort_by = "weight"
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 3
-title = "3: 네트워크 (Network)"
+title = "03: 네트워크 (Network)"
 render = true
 sort_by = "weight"
 insert_anchor_links = "right"

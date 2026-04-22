@@ -1,6 +1,6 @@
 +++
 weight = 1
-title = "1. 빅데이터 개념 및 아키텍처"
+title = "01. 빅데이터 개념 및 아키텍처"
 sort_by = "weight"
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 7
-title = "7: 엔터프라이즈 시스템 (Enterprise Systems)"
+title = "07: 엔터프라이즈 시스템 (Enterprise Systems)"
 render = true
 sort_by = "weight"
 insert_anchor_links = "right"

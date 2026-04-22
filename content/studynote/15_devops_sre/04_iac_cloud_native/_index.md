@@ -1,6 +1,6 @@
 +++
 weight = 4
-title = "4. IaC 및 클라우드 네이티브 운영"
+title = "04. IaC 및 클라우드 네이티브 운영"
 sort_by = "weight"
 +++
 

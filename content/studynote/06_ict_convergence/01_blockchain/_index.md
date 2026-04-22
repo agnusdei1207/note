@@ -1,6 +1,6 @@
 +++
 weight = 1
-title = "1. Web 3.0 및 블록체인"
+title = "01. Web 3.0 및 블록체인"
 [extra]
 sort_by = "weight"
 +++

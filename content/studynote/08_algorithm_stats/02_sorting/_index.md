@@ -1,6 +1,6 @@
 +++
 weight = 5
-title = "2. 정렬 알고리즘"
+title = "02. 정렬 알고리즘"
 [extra]
 sort_by = "weight"
 +++

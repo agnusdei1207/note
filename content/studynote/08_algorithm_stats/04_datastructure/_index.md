@@ -1,6 +1,6 @@
 +++
 weight = 8
-title = "4. 자료구조"
+title = "04. 자료구조"
 [extra]
 sort_by = "weight"
 +++

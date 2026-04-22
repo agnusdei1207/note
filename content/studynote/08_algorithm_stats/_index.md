@@ -1,6 +1,6 @@
 +++
 weight = 8
-title = "8: 알고리즘 및 통계 (Algorithm & Stats)"
+title = "08: 알고리즘 및 통계 (Algorithm & Stats)"
 render = true
 sort_by = "weight"
 insert_anchor_links = "right"

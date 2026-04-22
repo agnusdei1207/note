@@ -1,6 +1,6 @@
 +++
 weight = 6
-title = "3. 탐색 및 그래프 알고리즘"
+title = "03. 탐색 및 그래프 알고리즘"
 [extra]
 sort_by = "weight"
 +++

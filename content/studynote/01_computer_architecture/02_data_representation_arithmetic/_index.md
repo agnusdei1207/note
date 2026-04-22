@@ -1,6 +1,6 @@
 +++
 weight = 2
-title = "2. 데이터 표현 및 연산 장치"
+title = "02. 데이터 표현 및 연산 장치"
 sort_by = "weight"
 +++
 

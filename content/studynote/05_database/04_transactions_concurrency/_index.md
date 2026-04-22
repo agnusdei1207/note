@@ -1,6 +1,6 @@
 +++
 weight = 6
-title = "4. 트랜잭션, 동시성 제어 및 회복"
+title = "04. 트랜잭션, 동시성 제어 및 회복"
 sort_by = "weight"
 +++
 

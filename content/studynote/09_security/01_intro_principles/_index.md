@@ -1,6 +1,6 @@
 +++
 weight = 1
-title = "1. 보안 개요 및 기본 원칙"
+title = "01. 보안 개요 및 기본 원칙"
 sort_by = "weight"
 +++
 

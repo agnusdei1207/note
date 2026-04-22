@@ -1,6 +1,6 @@
 +++
 weight = 9
-title = "9: 정보 보안 (Security)"
+title = "09: 정보 보안 (Security)"
 render = true
 sort_by = "weight"
 insert_anchor_links = "right"

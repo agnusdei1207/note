@@ -1,6 +1,6 @@
 +++
 weight = 2
-title = "2. IT 서비스 관리 (ITSM) 및 ITIL v4"
+title = "02. IT 서비스 관리 (ITSM) 및 ITIL v4"
 sort_by = "weight"
 +++
 

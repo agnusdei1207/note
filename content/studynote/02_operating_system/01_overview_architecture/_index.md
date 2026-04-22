@@ -1,6 +1,6 @@
 +++
 weight = 1
-title = "1. 운영체제 개요 및 구조"
+title = "01. 운영체제 개요 및 구조"
 sort_by = "weight"
 +++
 

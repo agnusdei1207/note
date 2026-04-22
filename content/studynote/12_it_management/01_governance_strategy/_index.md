@@ -1,6 +1,6 @@
 +++
 weight = 1
-title = "1. IT 거버넌스 및 전략 수립"
+title = "01. IT 거버넌스 및 전략 수립"
 sort_by = "weight"
 +++
 

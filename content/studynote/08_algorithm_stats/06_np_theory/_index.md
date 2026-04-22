@@ -1,6 +1,6 @@
 +++
 weight = 12
-title = "6. 계산 복잡도 이론 및 NP-완전"
+title = "06. 계산 복잡도 이론 및 NP-완전"
 sort_by = "weight"
 +++
 

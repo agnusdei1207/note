@@ -1,6 +1,6 @@
 +++
 weight = 9
-title = "9. 객체지향 설계 원칙 및 심화 설계"
+title = "09. 객체지향 설계 원칙 및 심화 설계"
 sort_by = "weight"
 +++
 

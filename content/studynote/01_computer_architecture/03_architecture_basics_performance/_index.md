@@ -1,6 +1,6 @@
 +++
 weight = 3
-title = "3. 컴퓨터 구조 기초 및 성능 분석"
+title = "03. 컴퓨터 구조 기초 및 성능 분석"
 sort_by = "weight"
 +++
 

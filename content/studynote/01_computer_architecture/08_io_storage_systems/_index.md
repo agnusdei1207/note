@@ -1,6 +1,6 @@
 +++
 weight = 8
-title = "8. 입출력 시스템 및 저장장치 구조"
+title = "08. 입출력 시스템 및 저장장치 구조"
 sort_by = "weight"
 +++
 

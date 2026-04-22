@@ -1,6 +1,6 @@
 +++
 weight = 3
-title = "3. GoF 디자인 패턴: 생성 및 구조 패턴"
+title = "03. GoF 디자인 패턴: 생성 및 구조 패턴"
 sort_by = "weight"
 +++
 

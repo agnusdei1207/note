@@ -1,6 +1,6 @@
 +++
 weight = 6
-title = "6. 시험 빈출 핵심 요약 (Enterprise Systems)"
+title = "06. 시험 빈출 핵심 요약 (Enterprise Systems)"
 sort_by = "weight"
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 3
-title = "3. SRE 및 관측성 (Observability)"
+title = "03. SRE 및 관측성 (Observability)"
 sort_by = "weight"
 +++
 

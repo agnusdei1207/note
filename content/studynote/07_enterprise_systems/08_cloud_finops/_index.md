@@ -1,6 +1,6 @@
 +++
 weight = 8
-title = "8. 엔터프라이즈 핀옵스 (FinOps)"
+title = "08. 엔터프라이즈 핀옵스 (FinOps)"
 sort_by = "weight"
 +++
 

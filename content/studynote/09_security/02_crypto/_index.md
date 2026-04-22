@@ -1,6 +1,6 @@
 +++
 weight = 2
-title = "2. 암호학 (Cryptography)"
+title = "02. 암호학 (Cryptography)"
 sort_by = "weight"
 +++
 

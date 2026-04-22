@@ -1,6 +1,6 @@
 +++
 weight = 3
-title = "3. CPU 스케줄링 알고리즘"
+title = "03. CPU 스케줄링 알고리즘"
 sort_by = "weight"
 +++
 

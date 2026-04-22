@@ -1,6 +1,6 @@
 +++
 weight = 9
-title = "9. 디지털 트랜스포메이션 (DX) 전략"
+title = "09. 디지털 트랜스포메이션 (DX) 전략"
 sort_by = "weight"
 +++
 

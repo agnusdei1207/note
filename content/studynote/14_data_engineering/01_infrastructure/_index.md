@@ -1,6 +1,6 @@
 +++
 weight = 1
-title = "1. 데이터 인프라 및 수집 아키텍처"
+title = "01. 데이터 인프라 및 수집 아키텍처"
 sort_by = "weight"
 +++
 

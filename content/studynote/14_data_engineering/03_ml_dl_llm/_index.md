@@ -1,6 +1,6 @@
 +++
 weight = 3
-title = "3. ML/DL 모델 및 LLM 서빙 공학"
+title = "03. ML/DL 모델 및 LLM 서빙 공학"
 sort_by = "weight"
 +++
 

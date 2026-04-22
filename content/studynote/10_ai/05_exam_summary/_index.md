@@ -1,6 +1,6 @@
 +++
 weight = 7
-title = "5. 시험 빈출 핵심 요약 (AI Cheatsheet)"
+title = "05. 시험 빈출 핵심 요약 (AI Cheatsheet)"
 render = true
 [extra]
 category = "studynote-ai"

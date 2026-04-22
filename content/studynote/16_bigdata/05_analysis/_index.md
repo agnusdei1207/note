@@ -1,6 +1,6 @@
 +++
 weight = 5
-title = "5. 빅데이터 분석 및 데이터 마이닝"
+title = "05. 빅데이터 분석 및 데이터 마이닝"
 sort_by = "weight"
 +++
 

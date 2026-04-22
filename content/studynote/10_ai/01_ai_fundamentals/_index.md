@@ -1,6 +1,6 @@
 +++
 weight = 1
-title = "1. AI 기초 및 지능형 에이전트"
+title = "01. AI 기초 및 지능형 에이전트"
 sort_by = "weight"
 +++
 

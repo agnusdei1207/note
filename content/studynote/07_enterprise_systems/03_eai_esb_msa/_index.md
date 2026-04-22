@@ -1,6 +1,6 @@
 +++
 weight = 3
-title = "3. 엔터프라이즈 통합: EAI, ESB 및 MSA"
+title = "03. 엔터프라이즈 통합: EAI, ESB 및 MSA"
 sort_by = "weight"
 +++
 

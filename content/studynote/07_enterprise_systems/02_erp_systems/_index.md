@@ -1,6 +1,6 @@
 +++
 weight = 2
-title = "2. 전사적 자원 관리 (ERP) 시스템"
+title = "02. 전사적 자원 관리 (ERP) 시스템"
 sort_by = "weight"
 +++
 

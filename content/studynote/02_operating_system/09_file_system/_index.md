@@ -1,6 +1,6 @@
 +++
 weight = 9
-title = "9. 파일 시스템 및 디스크 관리"
+title = "09. 파일 시스템 및 디스크 관리"
 sort_by = "weight"
 +++
 

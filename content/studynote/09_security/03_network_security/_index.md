@@ -1,6 +1,6 @@
 +++
 weight = 3
-title = "3. 네트워크 보안 및 장비"
+title = "03. 네트워크 보안 및 장비"
 sort_by = "weight"
 +++
 

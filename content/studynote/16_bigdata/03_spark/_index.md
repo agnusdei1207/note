@@ -1,6 +1,6 @@
 +++
 weight = 3
-title = "3. 아파치 스파크 (Apache Spark) 및 인메모리 연산"
+title = "03. 아파치 스파크 (Apache Spark) 및 인메모리 연산"
 sort_by = "weight"
 +++
 

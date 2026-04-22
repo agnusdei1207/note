@@ -1,6 +1,6 @@
 +++
 weight = 6
-title = "6. 메모리 관리 (Memory Management)"
+title = "06. 메모리 관리 (Memory Management)"
 sort_by = "weight"
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 4
-title = "2. 머신러닝 기초 및 주요 기법"
+title = "02. 머신러닝 기초 및 주요 기법"
 sort_by = "weight"
 +++
 

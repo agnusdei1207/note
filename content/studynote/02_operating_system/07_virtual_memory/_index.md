@@ -1,6 +1,6 @@
 +++
 weight = 7
-title = "7. 가상 메모리 및 스와핑"
+title = "07. 가상 메모리 및 스와핑"
 sort_by = "weight"
 +++
 

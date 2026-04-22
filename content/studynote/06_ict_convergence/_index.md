@@ -1,6 +1,6 @@
 +++
 weight = 6
-title = "6: ICT 융합 기술 (ICT Convergence)"
+title = "06: ICT 융합 기술 (ICT Convergence)"
 render = true
 sort_by = "weight"
 insert_anchor_links = "right"

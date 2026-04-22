@@ -1,6 +1,6 @@
 +++
 weight = 2
-title = "2. CI/CD 및 GitOps 아키텍처"
+title = "02. CI/CD 및 GitOps 아키텍처"
 sort_by = "weight"
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 5
-title = "3. 트랜스포머, LLM 및 생성형 AI"
+title = "03. 트랜스포머, LLM 및 생성형 AI"
 sort_by = "weight"
 +++
 

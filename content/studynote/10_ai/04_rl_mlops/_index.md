@@ -1,6 +1,6 @@
 +++
 weight = 6
-title = "4. 강화 학습, MLOps 및 XAI"
+title = "04. 강화 학습, MLOps 및 XAI"
 sort_by = "weight"
 +++
 

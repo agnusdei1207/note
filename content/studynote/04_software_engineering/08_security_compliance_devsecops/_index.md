@@ -1,6 +1,6 @@
 +++
 weight = 8
-title = "8. 소프트웨어 보안 및 DevSecOps"
+title = "08. 소프트웨어 보안 및 DevSecOps"
 sort_by = "weight"
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 4
-title = "4: 소프트웨어 공학 (Software Engineering)"
+title = "04: 소프트웨어 공학 (Software Engineering)"
 render = true
 sort_by = "weight"
 insert_anchor_links = "right"

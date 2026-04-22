@@ -1,6 +1,6 @@
 +++
 weight = 5
-title = "5: 데이터베이스 (Database)"
+title = "05: 데이터베이스 (Database)"
 render = true
 sort_by = "weight"
 insert_anchor_links = "right"

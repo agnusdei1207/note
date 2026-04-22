@@ -1,6 +1,6 @@
 +++
 weight = 2
-title = "2. 프로세스 및 스레드 관리"
+title = "02. 프로세스 및 스레드 관리"
 sort_by = "weight"
 +++
 

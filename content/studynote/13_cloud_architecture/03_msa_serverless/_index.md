@@ -1,6 +1,6 @@
 +++
 weight = 4
-title = "3. 마이크로서비스 아키텍처 (MSA) 및 서버리스"
+title = "03. 마이크로서비스 아키텍처 (MSA) 및 서버리스"
 sort_by = "weight"
 +++
 

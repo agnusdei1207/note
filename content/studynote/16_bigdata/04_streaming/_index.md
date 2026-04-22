@@ -1,6 +1,6 @@
 +++
 weight = 4
-title = "4. 실시간 스트리밍 처리 (Real-time Streaming)"
+title = "04. 실시간 스트리밍 처리 (Real-time Streaming)"
 sort_by = "weight"
 +++
 

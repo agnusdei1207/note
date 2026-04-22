@@ -1,6 +1,6 @@
 +++
 weight = 4
-title = "4. 명령어 세트 아키텍처 (ISA)"
+title = "04. 명령어 세트 아키텍처 (ISA)"
 sort_by = "weight"
 +++
 

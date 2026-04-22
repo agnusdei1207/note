@@ -1,6 +1,6 @@
 +++
 weight = 5
-title = "5. 교착 상태 (Deadlock)"
+title = "05. 교착 상태 (Deadlock)"
 sort_by = "weight"
 +++
 

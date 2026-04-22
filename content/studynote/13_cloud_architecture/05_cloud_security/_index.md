@@ -1,6 +1,6 @@
 +++
 weight = 7
-title = "9. 클라우드 보안"
+title = "09. 클라우드 보안"
 [extra]
 sort_by = "weight"
 +++

@@ -1,6 +1,6 @@
 +++
 weight = 9
-title = "9. 클라우드 네이티브 및 AI 소프트웨어 공학"
+title = "09. 클라우드 네이티브 및 AI 소프트웨어 공학"
 sort_by = "weight"
 +++
 

@@ -1,6 +1,6 @@
 +++
 weight = 4
-title = "4. 프로세스 동기화 및 임계구역"
+title = "04. 프로세스 동기화 및 임계구역"
 sort_by = "weight"
 +++
 

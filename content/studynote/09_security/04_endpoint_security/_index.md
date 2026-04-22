@@ -1,6 +1,6 @@
 +++
 weight = 4
-title = "4. 엔드포인트 보안 및 매체 제어"
+title = "04. 엔드포인트 보안 및 매체 제어"
 sort_by = "weight"
 +++
 

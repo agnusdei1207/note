@@ -1,6 +1,6 @@
 +++
 weight = 8
-title = "5. 클라우드 데이터 엔지니어링"
+title = "05. 클라우드 데이터 엔지니어링"
 sort_by = "weight"
 +++
 

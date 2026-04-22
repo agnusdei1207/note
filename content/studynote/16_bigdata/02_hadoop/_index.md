@@ -1,6 +1,6 @@
 +++
 weight = 2
-title = "2. 하둡 에코시스템 및 HDFS"
+title = "02. 하둡 에코시스템 및 HDFS"
 sort_by = "weight"
 +++
 

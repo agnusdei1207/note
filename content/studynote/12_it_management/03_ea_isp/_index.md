@@ -1,6 +1,6 @@
 +++
 weight = 3
-title = "3. 엔터프라이즈 아키텍처 (EA) 및 ISP"
+title = "03. 엔터프라이즈 아키텍처 (EA) 및 ISP"
 sort_by = "weight"
 +++
 
