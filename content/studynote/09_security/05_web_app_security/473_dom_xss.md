@@ -1,6 +1,6 @@
 +++
 weight = 473
-title = "473. DOM-based XSS (DOM 기반 크로스사이트 스크립팅)"
+title = "473. DOM-based XSS"
 date = "2026-04-21"
 [extra]
 categories = "studynote-security"

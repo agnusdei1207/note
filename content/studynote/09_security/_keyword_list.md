@@ -1119,28 +1119,28 @@ weight = 9999
 1006. Perfect Security — 정보 이론적 안전 (One-Time Pad)
 1007. Semantic Security — 암호학적으로 관찰 가능한 차이 없음
 1008. IND-CPA / IND-CCA2 — 암호학 안전성 정의
-1009. AEAD — 인증된 암호화+연관 데이터
-1010. Key Wrapping — 키 자체를 암호화하는 KEK 활용
-1011. Envelope Encryption — 데이터 키로 데이터 암호화, KEK로 데이터 키 암호화
-1012. CloudHSM — 클라우드 관리형 HSM
-1013. AWS KMS — 키 관리 서비스
+1009. AEAD — Authenticated Encryption with Associated Data
+1010. Key Wrapping — KEK 활용
+1011. Envelope Encryption — Digital Envelope
+1012. CloudHSM — 클라우드 전용 HSM
+1013. AWS KMS — Key Management Service
 1014. Bring Your Own Key (BYOK) — 고객 관리 키
-1015. Hold Your Own Key (HYOK) — 온프레미스 키 사용
-1016. Zero Knowledge Proof — 비밀을 밝히지 않고 지식 증명
-1017. Commitment Scheme — 값을 숨기면서後で 공개
-1018. Secure Multi-Party Computation — 복수 당사자 협력 연산
-1019. Homomorphic Encryption — 암호문 간 연산
-1020. Functional Encryption — 함수 유형별 복호화 권한
-1021. Searchable Encryption — 암호문 내 키워드 검색
-1022. 防篡改硬件 — 변조 방지芯片 (TPM/HSM)
-1023. Secure Enclave — ARM TrustZone, 격리된 보안 영역
-1024. Trusted Execution Environment — TEE, 격리 실행 환경
-1025. Security Chaos Engineering — 의도적 장애로 보안 검증
-1026. 침해 시뮬레이션 — ATT&CK 기반 Purple Team 연습
-1027. 사이버 보험 —.cyber insurance, 위험 전가
-1028. Bug Bounty — 공개 취약점 보상
-1029. Responsible Disclosure — 즉시 공개 대신 제조사에 먼저 보고
-1030. Coordinated Disclosure — 집단적 공개
+1015. Hold Your Own Key (HYOK) — 외부 키 보관
+1016. Zero Knowledge Proof (ZKP) — 영지식 증명
+1017. Commitment Scheme — 약속 기법
+1018. Secure Multi-Party Computation (SMPC) — 안전한 다자간 계산
+1019. 동형 암호 (Homomorphic Encryption) — 암호문 상태 연산
+1020. Functional Encryption — 함수 암호
+1021. Searchable Encryption — 검색 가능 암호
+1022. 방변조 하드웨어 — Anti-tamper Hardware (TPM/HSM)
+1023. Secure Enclave — TrustZone/SGX 격리 영역
+1024. TEE (Trusted Execution Environment) — 신뢰 실행 환경
+1025. Security Chaos Engineering — 보안 카오스 엔지니어링
+1026. 침해 시뮬레이션 (BAS) — Breach & Attack Simulation
+1027. 사이버 보험 — Cyber Insurance
+1028. Bug Bounty — 버그 바운티
+1029. Responsible Disclosure — 책임 있는 공개
+1030. Coordinated Disclosure — 협력적 공개
 
 ---
 
