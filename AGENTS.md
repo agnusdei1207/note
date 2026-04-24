@@ -86,8 +86,8 @@
    - **Next**: Enterprise `#800` 작성
 8. **알고리즘/통계 (Algorithm)**: [✅ 완료] 전체 160개 키워드 전 섹션 완성 (165파일, 2026-04-21)
    - **Next**: Algorithm 품질 검토 필요 시 개별 파일 재작성
-9. **보안 (Security)**: [▶ 진행 중] `#397~#401` FDE 구간 작성 완료, `#402` 필드 레벨 암호화 진행 예정 (1,083파일, 2026-04-24)
-     - **Next**: Security `#402` 필드 레벨 암호화부터 순차 작성
+9. **보안 (Security)**: [▶ 진행 중] `#402~#406` 암호화/소거/패치 구간 작성 완료, `#407` CVSS (Common Vulnerability Scoring System) 진행 예정 (1,088파일, 2026-04-24)
+     - **Next**: Security `#407` CVSS (Common Vulnerability Scoring System)부터 순차 작성
 10. **인공지능 (AI)**: [▶ 진행 중] `#409` K-Means 최적 K 선택 문서 추가 완료 (409파일, 2026-04-24)
     - **Next**: AI `#410`부터 누락분 순차 작성
 11. **설계감리 (Design)**: [▶ 진행 중] `#290`까지 확인 완료 (311파일, 2026-04-24)
@@ -104,9 +104,9 @@
    - **Next**: BigData `#48`부터 누락분 우선 작성
 
 ### ⚡ 다음 작업 지침
-- **최우선 작업**: Security `#402` 필드 레벨 암호화부터 순차 작성.
-- **진행 중 과목**: ICT `#800`, Enterprise `#800`, Security `#402`, AI `#410`, Design `#291`, IT_Mgmt `#296`, Cloud `#249`, DevOps `#185`부터 병렬 작성
-- **완료 후 순서**: Security TPM/FDE 구간 연속 작성 → Cloud 번호 정렬 → AI → Design → IT_Mgmt → DevOps → ICT/Enterprise 요약 누락 보강 순으로 진행
+- **최우선 작업**: Security `#407` CVSS (Common Vulnerability Scoring System)부터 순차 작성.
+- **진행 중 과목**: ICT `#800`, Enterprise `#800`, Security `#407`, AI `#410`, Design `#291`, IT_Mgmt `#296`, Cloud `#249`, DevOps `#185`부터 병렬 작성
+- **완료 후 순서**: Security CVSS/CVE/CWE/CPE 구간 연속 작성 → Cloud 번호 정렬 → AI → Design → IT_Mgmt → DevOps → ICT/Enterprise 요약 누락 보강 순으로 진행
 - **참조 키워드**: 각 과목 `_keyword_list.md` 참고
 - **참고**: 기존 파일 중 YAML 형식(`title:`)을 사용하는 319개 파일을 TOML 형식(`title =`)으로 변환 완료
 
@@ -124,7 +124,7 @@
 | ICT (ICT융합) | 552 | 552 | 100.0% |
 | Enterprise (엔터프라이즈) | 481 | 482 | 99.8% |
 | Algorithm (알고리즘/통계) | 165 | 160 | 100.0% |
-| Security (보안) | 1,083 | 1,030 | 100.0% |
+| Security (보안) | 1,088 | 1,030 | 100.0% |
 | AI (인공지능) | 409 | 420 | 97.4% |
 | Design (설계감리) | 311 | 452 | 68.8% |
 | IT_Mgmt (IT관리) | 306 | 374 | 81.8% |
@@ -132,4 +132,4 @@
 | DataEng (데이터엔지니어링) | 258 | 258 | 100.0% |
 | DevOps (DevOps/SRE) | 187 | 372 | 50.3% |
 | BigData (빅데이터) | 221 | 236 | 93.6% |
-| **합계** | 8,549 | 8,830 | 96.8% |
+| **합계** | 8,554 | 8,830 | 96.8% |
