@@ -86,8 +86,8 @@
    - **Next**: Enterprise `#800` 작성
 8. **알고리즘/통계 (Algorithm)**: [✅ 완료] 전체 160개 키워드 전 섹션 완성 (165파일, 2026-04-21)
    - **Next**: Algorithm 품질 검토 필요 시 개별 파일 재작성
-9. **보안 (Security)**: [▶ 진행 중] `#762`, `#763`, `#765` malware vectors 구간 작성 중, `#767` 메타모픽 악성코드 진행 예정 (1,096파일, 2026-04-24)
-     - **Next**: Security `#762` 워터링 홀부터 순차 작성
+9. **보안 (Security)**: [▶ 진행 중] `#762`, `#763`, `#765` malware vectors 구간 작성 완료, `#767` 메타모픽 악성코드 진행 예정 (1,096파일, 2026-04-24)
+     - **Next**: Security `#767` 메타모픽 악성코드부터 순차 작성
 10. **인공지능 (AI)**: [▶ 진행 중] `#409` K-Means 최적 K 선택 문서 추가 완료 (409파일, 2026-04-24)
     - **Next**: AI `#410`부터 누락분 순차 작성
 11. **설계감리 (Design)**: [▶ 진행 중] `#290`까지 확인 완료 (311파일, 2026-04-24)
@@ -104,9 +104,9 @@
    - **Next**: BigData `#48`부터 누락분 우선 작성
 
 ### ⚡ 다음 작업 지침
-- **최우선 작업**: Security `#762` 워터링 홀부터 순차 작성.
-- **진행 중 과목**: ICT `#800`, Enterprise `#800`, Security `#762`, AI `#410`, Design `#291`, IT_Mgmt `#296`, Cloud `#249`, DevOps `#185`부터 병렬 작성
-- **완료 후 순서**: Security 워터링 홀/drive-by/update interception 구간 작성 완료 → 767 메타모픽 악성코드 → Cloud 번호 정렬 → AI → Design → IT_Mgmt → DevOps → ICT/Enterprise 요약 누락 보강 순으로 진행
+- **최우선 작업**: Security `#767` 메타모픽 악성코드부터 순차 작성.
+- **진행 중 과목**: ICT `#800`, Enterprise `#800`, Security `#767`, AI `#410`, Design `#291`, IT_Mgmt `#296`, Cloud `#249`, DevOps `#185`부터 병렬 작성
+- **완료 후 순서**: Security 메타모픽/armored virus/LOLBins/PowerShell/WMI 구간 연속 작성 → Cloud 번호 정렬 → AI → Design → IT_Mgmt → DevOps → ICT/Enterprise 요약 누락 보강 순으로 진행
 - **참조 키워드**: 각 과목 `_keyword_list.md` 참고
 - **참고**: 기존 파일 중 YAML 형식(`title:`)을 사용하는 319개 파일을 TOML 형식(`title =`)으로 변환 완료
 
