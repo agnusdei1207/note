@@ -175,6 +175,25 @@ Accuracy-Fairness Frontier:
 | Algorithmic Impact Assessment | 거버넌스 도구 | 고위험 AI 배포 전 의무적 위험 평가 |
 | Human-in-the-Loop | 설계 원칙 | 고위험 결정에 인간 검토 단계 포함 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[데이터 수집 단계 — 표현 편향 (Representation Bias) 내재]
+    │
+    ▼
+[AI 모델 훈련 — 편향 학습 및 증폭]
+    │
+    ▼
+[XAI (설명 가능 AI — SHAP/LIME) — 의사결정 근거 투명화]
+    │
+    ▼
+[공정성 지표 (Fairness Metrics) — Demographic Parity 등]
+    │
+    ▼
+[EU AI Act / 알고리즘 영향 평가 (AIA) — 법적 의무화]
+```
+데이터 편향은 수집 단계에서 시작해 모델 훈련을 통해 증폭되며, XAI로 투명성을 확보하고 공정성 지표 검증을 거쳐 EU AI Act 같은 규제 의무 이행까지 이어지는 전주기 거버넌스가 필요하다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 
 - AI가 편향되는 것은 **인종차별적인 선생님에게 배운 학생**과 같아요: 선생님의 편견(편향된 훈련 데이터)을 학생(AI)이 그대로 배워서 더 체계적으로 차별할 수 있어요.

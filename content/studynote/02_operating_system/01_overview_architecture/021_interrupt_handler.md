@@ -215,6 +215,25 @@ static irqreturn_t my_interrupt_handler(int irq, void *dev_id) {
 | **Interrupt Coalescing** | 핸들러 호출 빈도를 낮추기 위해 여러 인터럽트를 하나로 묶어 처리하는 기술. |
 | **IRQ Affinity** | 특정 장치의 인터럽트 핸들러를 특정 CPU 코어에 고정하여 캐시 효율을 높이는 기법. |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[하드웨어 인터럽트 (IRQ) 발생]
+    │
+    ▼
+[Top Half — ISR (Interrupt Service Routine): 최소 즉시 처리]
+    │
+    ▼
+[Bottom Half — SoftIRQ / Tasklet / Workqueue: 지연 처리]
+    │
+    ▼
+[IRQ Affinity / Interrupt Coalescing — 멀티코어 분산 최적화]
+    │
+    ▼
+[DPDK / io_uring — 커널 우회 Zero-copy 폴링 (차세대)]
+```
+인터럽트 핸들러는 시급한 최소 처리(Top Half)와 지연 가능한 나머지(Bottom Half)를 분리하여 응답성과 처리량을 동시에 달성하며, 100G 네트워크 시대에는 DPDK 같은 커널 우회 폴링 방식으로 진화한다.
+
 ---
 
 ### 👶 어린이를 위한 3줄 비유 설명

@@ -159,6 +159,25 @@ CSF 프레임워크를 성공적으로 IT 전략에 내재화하면 재무적으
 * **AHP (Analytic Hierarchy Process)** : 도출된 다수의 CSF 중 어떤 것이 더 중요한지 가중치를 수학적으로 계산하는 기법
 * **Business-IT Alignment** : 비즈니스 목표(CSF)와 IT 아키텍처가 어긋남 없이 한 방향을 가리키도록 하는 IT 거버넌스의 핵심 원칙
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[비즈니스 전략 목표 (Strategic Goal)]
+    │
+    ▼
+[CSF (Critical Success Factor — 핵심 성공 요인) 도출]
+    │
+    ▼
+[KPI (Key Performance Indicator — 측정 지표) 수립]
+    │
+    ▼
+[BSC (Balanced Scorecard) 4관점 배치]
+    │
+    ▼
+[IT 전략 정렬 (Business-IT Alignment) — ISP·EA 연계]
+```
+CSF는 전략 목표와 측정 지표(KPI)를 연결하는 가교로, BSC의 4대 관점에 배치되어 비즈니스 목표가 IT 아키텍처 설계까지 일관되게 흘러가도록 한다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 축구팀이 우승하려면 여러 가지가 필요하지만, 그중에서도 '강력한 수비수'와 '정확한 패스'가 가장 중요하다고 정하는 것이 CSF예요.
 2. 팀의 훈련 시간과 돈은 정해져 있으니, 모든 걸 다 잘하려고 하는 대신 이 가장 중요한 것들에만 에너지를 쏟아붓는 작전이죠.

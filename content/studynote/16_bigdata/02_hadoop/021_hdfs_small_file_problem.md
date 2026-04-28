@@ -60,6 +60,25 @@ categories = "studynote-bigdata"
 2. **NameNode SPOF**: 마스터 노드 장애 시 전체 시스템 중단 위험
 3. **Compaction**: 작은 파일을 큰 파일로 병합하는 주기적 관리 작업
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[HDFS 아키텍처 (NameNode 메타데이터 + DataNode 블록)]
+    │
+    ▼
+[작은 파일 문제 (NameNode 메모리 폭증 → 성능 병목)]
+    │
+    ▼
+[HAR / Sequence File / CombineFileInputFormat — 단기 완화]
+    │
+    ▼
+[Apache Ozone (차세대 객체 스토리지 — 수십억 파일 지원)]
+    │
+    ▼
+[Delta Lake / Apache Iceberg Compaction — 현대적 자동 해결]
+```
+HDFS의 작은 파일 문제는 NameNode 힙 메모리 한계에서 비롯되며, 단기 압축 기법에서 Apache Ozone, Delta Lake/Iceberg의 자동 Compaction까지 세대별 해결책이 존재한다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **작은 파일 문제**: 커다란 장난감 상자에 커다란 블록을 넣어야 하는데, 아주 작은 모래알들을 하나씩 따로 포장해서 넣는 것과 같아요.
 2. **이유**: 모래알마다 이름표(메타데이터)를 붙이다 보니, 이름표를 적어둔 수첩(네임노드)이 꽉 차서 더 이상 글을 쓸 수 없게 되는 거예요.

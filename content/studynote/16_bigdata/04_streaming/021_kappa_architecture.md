@@ -189,6 +189,25 @@ Kappa Architecture는 **스트리밍이 충분히 성숙한 현재 환경에서 
 | Apache Flink | 실행 엔진 | Kappa의 단일 스트리밍 처리 엔진 |
 | Tiered Storage | 비용 최적화 | Kafka 무한 보존을 위한 저렴한 콜드 스토리지 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[Lambda Architecture (배치 레이어 + 스피드 레이어 이중화)]
+    │
+    ▼
+[Kappa Architecture (단일 스트리밍 파이프라인)]
+    │
+    ▼
+[Apache Kafka (Immutable 이벤트 로그 — 무한 보존)]
+    │
+    ▼
+[Apache Flink (Exactly-Once 보장 스트림 처리 엔진)]
+    │
+    ▼
+[Tiered Storage (콜드 저장) → Replay (재처리) 기반 보정]
+```
+Lambda 아키텍처의 코드 이중화 복잡성을 해소하기 위해 Kappa는 Kafka의 불변 로그와 Flink의 Exactly-Once 스트리밍만으로 배치와 실시간을 단일 파이프라인에 통합한다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 
 Kappa Architecture는 "모든 일을 일기장(Kafka 로그)에 날짜순으로 적고, 나중에 처음부터 다시 읽어서(리플레이) 결과를 계산"하는 방법이에요. Lambda처럼 일기장 요약(배치)과 실시간 메모(스트리밍) 두 가지를 따로 관리할 필요가 없어요. 일기장만 잘 보관하면 언제든지 처음부터 다시 읽어서 원하는 결과를 만들 수 있거든요!

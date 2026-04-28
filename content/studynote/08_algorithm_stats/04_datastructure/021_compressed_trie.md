@@ -71,6 +71,25 @@ Standard Trie:        Compressed Trie (Patricia):
 - **유사 개념**: Crit-bit Tree, Compact Prefix Tree
 - **하위 기술**: Merkle Patricia Tree (MPT), Adaptive Radix Tree (ART)
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[일반 트라이 (Standard Trie — 문자 단위 노드)]
+    │
+    ▼
+[압축 트라이 / 기수 트리 (Compressed Trie / Radix Tree)]
+    │
+    ▼
+[Patricia Trie — 단일 자식 노드 완전 제거]
+    │
+    ▼
+[Merkle Patricia Tree (MPT — 이더리움 상태 저장)]
+    │
+    ▼
+[Adaptive Radix Tree (ART — 인메모리 DB 인덱스)]
+```
+단순 트라이의 노드 폭증 문제를 경로 압축으로 해결한 압축 트라이는 IP 라우팅·파일 시스템·블록체인 MPT 등에서 공간과 캐시 효율의 최적 균형을 제공한다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 일반 트라이가 한 글자씩 써진 계단을 하나씩 밟고 올라가는 거라면,
 2. 압축 트라이는 똑같은 글자가 계속될 때 그 계단들을 엘리베이터처럼 한 번에 슝~ 지나가는 거예요.
