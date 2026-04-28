@@ -225,6 +225,26 @@ E[X] = (a+b)/2,   Var[X] = (b-a)²/12
 
 ---
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[베르누이 시행 (Bernoulli Trial) — 성공/실패]
+    │
+    ▼
+[이항 분포 (Binomial Distribution) — n회 반복]
+    │
+    ▼
+[포아송 분포 (Poisson Distribution) — 희귀 사건]
+    │
+    ▼
+[정규 분포 (Normal Distribution) — CLT 극한]
+    │
+    ▼
+[MLE 최대 우도 추정 (Maximum Likelihood Estimation)]
+```
+
+확률 분포가 단순 이항 분포에서 극한 근사와 모수 추정으로 체계화된 흐름이다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 
 - 이항 분포는 "동전 10번 던질 때 앞면이 몇 번 나올까", 포아송 분포는 "하루에 편의점에 손님이 몇 명 올까"야.

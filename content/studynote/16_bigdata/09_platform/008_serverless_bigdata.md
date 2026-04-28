@@ -153,6 +153,26 @@ categories = "studynote-bigdata"
 
 ---
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[관리형 클러스터 (Managed Cluster) — EMR, Dataproc]
+    │
+    ▼
+[서버리스 쿼리 (Serverless Query) — AWS Athena, BigQuery]
+    │
+    ▼
+[오픈 테이블 포맷 최적화 (Parquet + 파티셔닝)]
+    │
+    ▼
+[쿼리 비용 최적화 (FinOps) — 스캔 최소화]
+    │
+    ▼
+[AI/ML 통합 (BigQuery ML, SageMaker Serverless)]
+```
+
+빅데이터 처리 플랫폼이 클러스터 관리 부담에서 서버리스 온디맨드 쿼리로 진화하고 AI/ML과 융합되는 흐름이다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 
 1. 서버리스 빅데이터는 전기 요금처럼 사용한 만큼만 내는 방식이에요. 컴퓨터를 빌려두고 안 쓰면 돈이 안 나가요.

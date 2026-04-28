@@ -63,6 +63,26 @@ categories = ["studynote-algorithm", "datastructure"]
 *   **하위/파생 개념**: 이진 탐색 트리 (BST), 힙 (Heap), 허프만 트리, AVL 트리
 *   **연관 알고리즘**: DFS (Pre/In/Post-order), 재귀 (Recursion)
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[트리 (Tree) — 비선형 계층 구조]
+    │
+    ▼
+[이진 트리 (Binary Tree) — 최대 자식 2개]
+    │
+    ▼
+[이진 탐색 트리 (BST, Binary Search Tree)]
+    │
+    ▼
+[균형 이진 트리 (AVL / Red-Black Tree)]
+    │
+    ▼
+[B-트리 / B+트리 (B-Tree) — 데이터베이스 인덱스]
+```
+
+트리 자료구조가 기본 이진 트리에서 탐색 최적화와 균형 유지를 위한 고급 변형으로 발전한 흐름이다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 트리 자료구조는 거꾸로 세워진 나무 모양과 같아요.
 2. 각 나뭇가지가 딱 두 개씩만 뻗어 나가는 규칙이 있는 나무랍니다.

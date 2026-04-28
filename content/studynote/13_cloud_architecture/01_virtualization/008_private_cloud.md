@@ -156,6 +156,26 @@ categories = ["studynote-cloud"]
 * 클라우드 리패트리에이션 (Cloud Repatriation) | 퍼블릭 클라우드의 과도한 유지 비용 문제로 워크로드를 다시 프라이빗 클라우드로 되돌리는 현상
 * VMware vSphere & OpenStack | 상용 및 오픈소스 진영을 대표하는 프라이빗 클라우드 컨트롤 평면 플랫폼
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[온프레미스 (On-Premises) — 전용 하드웨어 사일로]
+    │
+    ▼
+[서버 가상화 (Server Virtualization) — VMware vSphere]
+    │
+    ▼
+[프라이빗 클라우드 (Private Cloud) — SDDC, HCI]
+    │
+    ▼
+[컨테이너 플랫폼 (Kubernetes on-prem)]
+    │
+    ▼
+[하이브리드 클라우드 (Hybrid Cloud) — AWS Outposts / Anthos]
+```
+
+데이터센터 IT 인프라가 전용 하드웨어에서 프라이빗 클라우드를 거쳐 하이브리드 환경으로 진화한 흐름이다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 퍼블릭 클라우드는 커다란 공용 놀이터라서 맘껏 놀 수 있지만, 나만의 소중한 비밀 일기장은 거기에 두고 오기 불안해요.
 2. 프라이빗 클라우드는 우리 집 마당 안에 울타리를 치고 아주 안전하고 멋진 전용 놀이터를 직접 지은 거예요.

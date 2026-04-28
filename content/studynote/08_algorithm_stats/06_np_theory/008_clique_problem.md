@@ -147,6 +147,26 @@ categories = "studynote-algorithm"
 | Karp 21 | Clique 포함 |
 | 소셜 네트워크 | 파벌(팔로워 완전 연결 그룹) 탐지 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[그래프 이론 (Graph Theory) — 정점, 간선]
+    │
+    ▼
+[클리크 문제 (Clique Problem) — NP-Complete]
+    │
+    ▼
+[독립 집합 (Independent Set) / 정점 커버 (Vertex Cover)]
+    │
+    ▼
+[3-SAT 환원 (3-SAT Reduction) — Karp 21 문제]
+    │
+    ▼
+[근사 알고리즘 (Approximation Algorithm) — 최대 클리크 근사]
+```
+
+클리크 문제가 NP-Complete의 중심 노드로서 다른 NP 문제들과 환원 관계를 맺고 실용적 근사 해법으로 이어지는 흐름이다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 
 반에서 서로 전부 친한 친구 그룹이 몇 명인지 찾는 것이 클리크 문제예요.  

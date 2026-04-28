@@ -210,6 +210,26 @@ Grafana는 **클라우드 네이티브 시대의 표준 관측성 플랫폼**이
 | Grafana k6 | 부하 테스트 | JavaScript 기반 부하 테스트 + Grafana 통합 |
 | Kibana | 비교 도구 | Elasticsearch 특화 로그 분석 시각화 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[메트릭 수집 (Metrics) — Prometheus Pull 방식]
+    │
+    ▼
+[로그 집계 (Log Aggregation) — Loki]
+    │
+    ▼
+[분산 추적 (Distributed Tracing) — Tempo]
+    │
+    ▼
+[Grafana 대시보드 — 통합 관측성 (Unified Observability)]
+    │
+    ▼
+[LGTM 스택 (Loki + Grafana + Tempo + Mimir)]
+```
+
+관측성 기술이 개별 메트릭·로그·추적을 통합하여 Grafana 중심의 단일 가시성 플랫폼으로 수렴한 흐름이다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 
 - Grafana는 **병원 중환자실 모니터**예요: 환자(서버·서비스)의 심장 박동(CPU), 혈압(메모리), 체온(오류율)이 실시간으로 표시되고, 이상이 생기면 경보가 울려요.

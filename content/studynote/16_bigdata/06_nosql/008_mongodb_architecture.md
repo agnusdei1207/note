@@ -212,6 +212,26 @@ MongoDB의 ReplicaSet-Sharding 이중 구조는 고가용성과 무제한 확장
 | Config Server | 메타데이터 | 청크 위치 정보 관리 |
 | ReadPreference | 읽기 분산 | Secondary 읽기 활용 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[문서 지향 DB (Document-Oriented DB)]
+    │
+    ▼
+[WiredTiger 스토리지 엔진 — MVCC]
+    │
+    ▼
+[레플리카 셋 (Replica Set) — 자동 장애 조치]
+    │
+    ▼
+[샤딩 (Sharding) — 수평 확장]
+    │
+    ▼
+[Atlas (클라우드 MongoDB) — 서버리스 Document DB]
+```
+
+MongoDB 아키텍처가 단일 노드에서 복제와 샤딩을 거쳐 완전 관리형 클라우드 서비스로 발전한 흐름이다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. ReplicaSet은 같은 책을 3권 인쇄해두는 것 — 한 권이 찢어져도 나머지 두 권으로 계속 읽을 수 있어요.
 2. Sharding은 두꺼운 백과사전을 ㄱ~ㅇ, ㅈ~ㅎ으로 나눠 다른 선반에 두는 것 — 선반 하나가 무거워지지 않아요.

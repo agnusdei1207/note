@@ -52,6 +52,26 @@ categories = "studynote-bigdata"
 - **자식 개념**: Partition Coalescing, Skew Join Optimization
 - **연관 개념**: Catalyst Optimizer, CBO, Shuffle
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[정적 쿼리 계획 (Static Query Plan) — CBO]
+    │
+    ▼
+[런타임 통계 수집 (Runtime Statistics)]
+    │
+    ▼
+[적응형 쿼리 실행 (AQE, Adaptive Query Execution)]
+    │
+    ▼
+[파티션 병합 / 스큐 조인 최적화 (Skew Join)]
+    │
+    ▼
+[ML 기반 자동 튜닝 엔진 (Auto-tuning)]
+```
+
+Spark 쿼리 최적화가 컴파일 시점 정적 계획에서 런타임 통계 기반 동적 최적화로 발전한 흐름이다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 - 처음에는 지도를 보고 길을 정했지만, 가다 보니 길이 막히는 걸 보고 바로 다른 지름길로 바꾸는 똑똑한 내비게이션이에요.
 - 친구들에게 간식을 나눠줄 때, 어떤 친구가 너무 많이 받으면 다른 친구에게 조금 나눠주라고 선생님이 중간에 도와주는 것과 같아요.
