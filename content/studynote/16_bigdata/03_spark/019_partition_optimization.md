@@ -194,6 +194,22 @@ df.repartition(100).write.parquet("/output/path")  # 균등 크기 필요
 | Small File Problem | 영향 | 과도한 파티션 = 소형 파일 양산 |
 | Broadcast Join | 셔플 제거 | 소규모 테이블 조인 시 셔플 자체를 없앰 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[RDD (탄력적 분산 데이터셋) — 기본 파티션으로 클러스터 분산 처리]
+    │
+    ▼
+[파티션 최적화 — coalesce·repartition·partitionBy로 편향 해소]
+    │
+    ▼
+[Adaptive Query Execution (AQE) — 런타임 통계 기반 동적 파티션 재조정]
+    │
+    ▼
+[Delta Lake Z-Order — 데이터 레이아웃 최적화로 스킵 I/O 극대화]
+```
+Spark 파티션 최적화는 데이터 편향을 제거하고 병렬성을 극대화하며, AQE와 Delta Lake의 Z-Order 클러스터링으로 더욱 지능적으로 발전하고 있다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 
 숙제를 반 친구 30명이 나눠 하는데, 문제를 1개만 나누면 1명이 다 하고 29명은 놀아야 하고, 반대로 1000개로 나누면 나누는 데만 시간이 다 걸려요. `repartition`은 숙제를 전부 섞어서 새로 나누는 것이고, `coalesce`는 옆 친구 것을 합쳐서 뭉치는 것이에요. 선생님(AQE)이 자동으로 알맞게 조정해주기도 해요!

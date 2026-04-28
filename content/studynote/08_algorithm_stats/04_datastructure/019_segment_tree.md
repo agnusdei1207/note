@@ -57,6 +57,25 @@ Leaf [0] (3)  Leaf [1] (4)  Leaf [2] (6)  Leaf [3] (7)
 - **상위 개념:** Binary Tree, Range Query Algorithm
 - **하위/확장 개념:** Lazy Propagation, Fenwick Tree, Square Root Decomposition, 2D Segment Tree
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[배열 구간 쿼리 — 단순 순회 O(N) 한계]
+    │
+    ▼
+[세그먼트 트리 (Segment Tree) — 전처리 O(N), 구간 쿼리 O(log N)]
+    │
+    ▼
+[Lazy Propagation — 구간 업데이트도 O(log N)으로 최적화]
+    │
+    ▼
+[펜윅 트리 (Fenwick Tree·BIT) — 누적 합 특화, 더 간결한 구현]
+    │
+    ▼
+[2D 세그먼트 트리·메르지 소트 트리 — 다차원·복합 쿼리 확장]
+```
+세그먼트 트리는 구간 합·최솟값 같은 구간 쿼리를 O(log N)에 처리하며, Lazy Propagation과 펜윅 트리로 발전해 경쟁 프로그래밍의 핵심 자료구조가 되었다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 - 여러 칸으로 나뉜 사탕 상자에서 "1번부터 10번 칸까지 사탕이 총 몇 개야?"라고 물었을 때, 일일이 세지 않고 미리 계산해둔 장부를 보고 바로 대답하는 것과 같아요.
 - 사탕을 한 칸에 더 넣거나 빼도, 그 칸이 포함된 장부의 숫자만 슥슥 고치면 되니까 아주 편리해요.
