@@ -173,6 +173,25 @@ YARN의 도입은 하둡을 단순한 데이터 저장고에서 거대한 분산
 * Preemption (선점, 자원이 부족할 때 스케줄러가 남의 컨테이너를 강제로 죽여 우선순위가 높은 큐에 바치는 생존 메커니즘)
 * Kubernetes (컨테이너 오케스트레이션의 클라우드 대세로, YARN의 빅데이터 자원 관리 왕좌를 위협하는 현대적 아키텍처)
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[MapReduce v1 (MRv1) — JobTracker 단일 장애점, 자원 관리·실행 혼재]
+    │
+    ▼
+[YARN (Yet Another Resource Negotiator) — ResourceManager·NodeManager 분리]
+    │
+    ▼
+[ApplicationMaster — 각 잡(Job)별 독립 실행 조율자, 컨테이너 요청/관리]
+    │
+    ▼
+[Capacity / Fair Scheduler — 다중 테넌트 자원 큐 관리]
+    │
+    ▼
+[Apache Spark on YARN — 인메모리 엔진이 YARN 자원 풀 위에서 MR 대체]
+```
+MRv1의 단일 장애점과 자원 비효율을 YARN이 역할 분리로 해결했으며, ApplicationMaster 모델로 Spark 등 다양한 프레임워크를 통합하는 범용 클러스터 OS로 진화했다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 학교 운동장에 장난감 수만 개(자원)가 있는데, 예전엔 교장 선생님 혼자서 1,000명의 아이들에게 일일이 장난감을 나눠주다 쓰러졌어요!
 2. 그래서 새로 온 똑똑한 선생님(YARN)은 각 반 반장(ApplicationMaster)들에게 "너희 반에 필요한 장난감 개수만 나한테 말해!"라고 규칙을 바꿨어요.

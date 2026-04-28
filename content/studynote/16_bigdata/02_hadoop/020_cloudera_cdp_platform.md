@@ -65,6 +65,25 @@ categories = "studynote-bigdata"
 2. **Apache Ozone**: 하둡의 HDFS를 대체하는 차세대 오브젝트 스토리지
 3. **Control Plane**: 멀티 클러스터를 중앙에서 관리하는 제어판
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[Cloudera CDH / Hortonworks HDP — 온프레미스 하둡 배포판 시대]
+    │
+    ▼
+[Cloudera + Hortonworks 합병 — 단일 엔터프라이즈 데이터 플랫폼 통합]
+    │
+    ▼
+[CDP (Cloudera Data Platform) — 하이브리드/멀티클라우드 데이터 플랫폼]
+    │
+    ▼
+[SDX (Shared Data Experience) — 거버넌스·보안·메타데이터 일관성 엔진]
+    │
+    ▼
+[Apache Ozone — HDFS 대체 오브젝트 스토리지, 페타바이트급 확장]
+```
+온프레미스 하둡 배포판(CDH/HDP)을 CDP로 통합하고, SDX로 거버넌스를 일관성 있게 제공하며 Apache Ozone으로 스토리지 확장성을 확보했다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **Cloudera CDP**: 흩어져 있는 장난감 상자(데이터)들을 한꺼번에 관리하는 '커다란 로봇 장난감 정리함'이에요.
 2. **이유**: 예전에는 내 방, 거실에 따로 정리해야 했지만, 이제는 이 로봇 상자 하나만 있으면 어디서든 똑같은 장난감을 꺼내 놀 수 있어요.

@@ -59,6 +59,25 @@ Operation:
 - **상위 개념:** Prefix Sum, Range Query Algorithm
 - **하위/확장 개념:** 2D Fenwick Tree, Range Update Fenwick Tree, Lowest Significant Bit (LSB)
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[선형 누적합 (Prefix Sum Array) — O(N) 전처리, O(1) 구간 조회]
+    │
+    ▼
+[세그먼트 트리 (Segment Tree) — O(log N) 구간 갱신/조회, O(N) 공간]
+    │
+    ▼
+[펜윅 트리 / BIT (Binary Indexed Tree) — LSB 기반, O(log N) 갱신+조회, 절반 공간]
+    │
+    ▼
+[2D 펜윅 트리 — 행렬 구간 합/업데이트로 확장]
+    │
+    ▼
+[Range Update Fenwick Tree — 구간 업데이트·포인트 쿼리로 변형 응용]
+```
+누적합 배열의 O(N) 갱신 한계를 극복하고자 세그먼트 트리가 등장했고, 더 적은 공간에 LSB 트릭을 활용한 펜윅 트리가 실무 표준으로 자리 잡았다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 - 한 번에 1층, 2층, 4층씩 훌쩍 뛰어넘는 거인 발자국처럼 숫자를 관리하는 방법이에요.
 - 장부의 숫자 하나를 고치면, 그 숫자가 들어간 더 큰 장부들도 비트 연산이라는 '마법의 지팡이'로 한 번에 슥슥 고쳐요.
