@@ -64,6 +64,22 @@ Initial State: [ 5 | 3 | 8 | 4 | 9 | 1 | 6 | 2 | 7 ]
 - **자식/확장 개념**: Dual-Pivot Quick Sort, Introsort, Partitioning
 - **유사 개념**: 합병 정렬(Merge Sort), 선택 정렬(Selection Sort)
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[분할 정복 (Divide and Conquer)]
+    │
+    ▼
+[피벗 (Pivot)]
+    │
+    ▼
+[퀵 정렬 (Quick Sort)]
+    │
+    ▼
+[인트로 정렬 (Introsort)]
+```
+
+이 흐름도는 분할 정복 아이디어가 피벗 선택과 퀵 정렬, 인트로 정렬로 발전하는 과정을 보여준다.
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 여러 친구들 중에서 한 명의 '대장(피벗)'을 뽑아요.
 2. 대장보다 키가 작은 친구들은 왼쪽 줄에, 큰 친구들은 오른쪽 줄에 서게 해요.

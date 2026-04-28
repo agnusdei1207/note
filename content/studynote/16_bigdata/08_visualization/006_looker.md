@@ -191,6 +191,22 @@ Looker는 **BI 거버넌스의 미래 표준**이다. 데이터가 분산되고 
 | Metric Sprawl | 해결 문제 | 팀별 다른 지표 정의로 인한 불일치 |
 | BigQuery BI Engine | 성능 최적화 | Looker + BigQuery 인메모리 가속 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[SQL (SQL)]
+    │
+    ▼
+[LookML (LookML)]
+    │
+    ▼
+[Looker (Looker)]
+    │
+    ▼
+[셀프서비스 BI (Self-Service BI)]
+```
+
+이 흐름도는 SQL에서 LookML과 Looker를 거쳐 셀프서비스 BI로 발전하는 분석 흐름을 보여준다.
 ### 👶 어린이를 위한 3줄 비유 설명
 
 - Looker의 LookML은 **표준 사전**이에요: 학교에서 모든 학생이 같은 사전을 쓰면 "사랑"이라는 단어의 의미가 같듯, LookML에 "매출"을 한 번 정의하면 모든 팀이 같은 "매출"을 써요.

@@ -211,6 +211,22 @@ categories = ["11_design_supervision"]
 *   CISA (Certified Information Systems Auditor) | ISACA의 국제 공인 정보시스템 감사사로, 글로벌审计標準
 *   ATAM (Architecture Trade-off Analysis Method) | 소프트웨어 아키텍처的品质 속성을 평가하는 방법론
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[감리 영역 (Audit Domain)]
+    │
+    ▼
+[3차원 감리 체계 (3D Framework)]
+    │
+    ▼
+[품질 보증 (QA, Quality Assurance)]
+    │
+    ▼
+[리스크 통제 (Risk Control)]
+```
+
+이 흐름도는 감리 영역을 3차원 체계로 묶어 QA와 리스크 통제로 이어지는 구조를 보여준다.
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **개념**: 감리 프레임워크 3차원 구조는lego 블록을 세 방향(위아래, 왼쪽오른쪽, 앞뒤)에서 확인하는 것과 같아요. 세 방향 모두에서 빠짐없이 맞춰져야 멋진 작품(정보시스템)이 되는 거예요.
 2. **원리**: 세 방향은 각각 "무엇을 만들었는지(영역)", "어떤 방법으로 만들었는지(관점)", "언제 확인했는지(단계)"를代表해요.

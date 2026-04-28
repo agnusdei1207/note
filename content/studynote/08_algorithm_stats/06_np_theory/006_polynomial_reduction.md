@@ -138,6 +138,22 @@ categories = "studynote-algorithm"
 | 3-SAT | SAT에서 환산, 더 편리한 출발점 |
 | NP-Complete 증명 | ∈NP 증명 + NP-Hard 증명(환산) |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[NP 문제 (NP Problem)]
+    │
+    ▼
+[다항식 환원 (Polynomial Reduction)]
+    │
+    ▼
+[NP-완전 (NP-Complete)]
+    │
+    ▼
+[NP-하드 (NP-Hard)]
+```
+
+이 흐름도는 NP 문제를 다항식 환원으로 연결해 NP-완전성과 NP-하드를 구분하는 과정을 보여준다.
 ### 👶 어린이를 위한 3줄 비유 설명
 
 어떤 수수께끼를 다른 수수께끼로 빠르게 번역할 수 있으면, 두 수수께끼의 어려움이 같아요.  

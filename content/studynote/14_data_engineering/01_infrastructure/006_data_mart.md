@@ -175,6 +175,22 @@ categories = ["studynote-bigdata"]
 - **SCD (Slowly Changing Dimension)** | 차원 속성(예: 고객의 주소 변경)의 변화 이력을 관리하는 데이터 마트 핵심 갱신 기법.
 - **dbt (Data Build Tool)** | 최신 데이터 환경에서 ELT 방식으로 논리적 데이터 마트를 코드(SQL)로 정의하고 구축하는 데이터옵스 툴.
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[데이터 웨어하우스 (Data Warehouse)]
+    │
+    ▼
+[데이터 마트 (Data Mart)]
+    │
+    ▼
+[OLAP (Online Analytical Processing)]
+    │
+    ▼
+[BI (Business Intelligence)]
+```
+
+이 흐름도는 데이터 웨어하우스에서 데이터 마트와 OLAP, BI로 이어지는 분석 체계를 보여준다.
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 도서관 전체(데이터 웨어하우스)에는 수백만 권의 책이 섞여 있어서 원하는 내용을 찾기 너무 힘들어요.
 2. 그래서 과학 숙제를 할 때는 과학 책만 모아둔 작은 '과학 전용 책장(데이터 마트)'을 만들면 훨씬 편해요.

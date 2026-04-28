@@ -49,6 +49,22 @@ categories = "studynote-bigdata"
 - **자식 개념**: RBO(Rule-Based), CBO(Cost-Based), Code Generation
 - **연관 개념**: Tungsten Engine, AQE, DataFrame API
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[논리 계획 (Logical Plan)]
+    │
+    ▼
+[물리 계획 (Physical Plan)]
+    │
+    ▼
+[Catalyst Optimizer (Catalyst Optimizer)]
+    │
+    ▼
+[코드 생성 (Code Generation)]
+```
+
+이 흐름도는 논리 계획이 물리 계획을 거쳐 Catalyst Optimizer와 코드 생성으로 구체화되는 흐름을 보여준다.
 ### 👶 어린이를 위한 3줄 비유 설명
 - 우리가 시장에 가서 물건을 살 때, "어느 가게를 먼저 들러야 제일 빨리 끝날까?"를 미리 생각하는 똑똑한 비서예요.
 - 어려운 수학 숙제를 할 때, 더 쉬운 풀이 방법이 없는지 찾아내서 계산 시간을 줄여준답니다.

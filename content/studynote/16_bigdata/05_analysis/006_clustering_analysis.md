@@ -63,6 +63,22 @@ categories = "studynote-bigdata"
 - **하위 개념:** K-Means++, Dendrogram, Silhouette Score
 - **연관 기술:** PCA (Dimensionality Reduction), Mahalanobis Distance, Customer Segmentation
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[비지도 학습 (Unsupervised Learning)]
+    │
+    ▼
+[클러스터링 (Clustering)]
+    │
+    ▼
+[K-평균 (K-Means)]
+    │
+    ▼
+[실루엣 계수 (Silhouette Score)]
+```
+
+이 흐름도는 비지도 학습에서 클러스터링과 K-평균, 실루엣 계수로 평가가 이어지는 흐름을 보여준다.
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **장난감 정리 비유:** 뒤섞인 블록들을 색깔별로 모으거나, 크기가 비슷한 인형끼리 모아서 정리 상자에 담는 거예요.
 2. **운동장 비유:** 운동장에 모인 학생들 중에서 친한 친구들끼리 동그랗게 모여 보라고 하는 것과 같아요.
