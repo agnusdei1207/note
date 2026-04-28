@@ -180,6 +180,29 @@ print(next(result_gen))  # 이 줄에서 비로소 첫 번째 값만 연산
 
 ---
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[Lazy Evaluation 적용 기술 생태계]
+    │
+    ▼
+[함수형 프로그래밍: Haskell(순수 지연 평가), Scala(LAZY 키워드), Clojure(지연 시퀀스)]
+    │
+    ▼
+[빅데이터 처리: Apache Spark(RDD/DataFrame), Apache Flink(ストリ밍), Apache Beam(统一的 API)]
+    │
+    ▼
+[языки программирования: Python(Generator/Iterator), Java(Stream API), JavaScript(제너레이터)]
+    │
+    ▼
+[Spark Lazy Evaluation 핵심 트리거]
+    │
+    ▼
+[Transformation (Lazy): map, filter, flatMap, groupByKey, join, reduceByKey, union, distinct, repartition...]
+```
+
+이 흐름도는 Lazy Evaluation 적용 기술 생태계에서 출발해 Spark Lazy Evaluation 핵심 트리거까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. Lazy Evaluation은 "미리 모든 숙제를 해두는 것(즉시 평가)"이 아니라, "선생님이 숙제 검사를 시작할 때(액션 호출)그제서야 한꺼번에 풀어내는" 것과 같아요.
 2. 그래서 어떤 문제가 출제될지(최종 결과)전체를 미리 보고 필요 없는 문제는 아예 풀지 않아도 돼요.

@@ -234,6 +234,29 @@ categories = ["studynote", "14_data_engineering"]
 * 스키마 온 리드 (Schema-on-Read) | 저장 시는 원시 그대로 두고, 읽을 때 스키마를 적용하는 방식
 * Apache Kafka | 반정형 JSON/XML 메시지의 실시간 스트리밍을 처리하는 분산 플랫폼
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[JSON (JavaScript Object Notation)]
+    │
+    ▼
+[XML (Extensible Markup Language)]
+    │
+    ▼
+[NoSQL Document Database]
+    │
+    ▼
+[Schema Registry]
+    │
+    ▼
+[스키마 온 리드 (Schema-on-Read)]
+    │
+    ▼
+[Apache Kafka]
+```
+
+이 흐름도는 JSON (JavaScript Object Notation)에서 출발해 스키마 온 리드 (Schema-on-Read)까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 반정형 데이터는修真录记와 같아서, 날짜와 제목은 항상 쓰지만 그 옆에 그림을 그리거나 메모를 자유롭게 할 수 있어요.
 2. 스마트폰의 사진 갤러리를 보면 사진마다 찍은 날짜( 메타데이터 )가 자동으로 붙지만, 사진 자체( 이미지 )는 규격이 없죠.

@@ -81,6 +81,20 @@ categories = "studynote-algorithm"
 
 ---
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[원천 정리: Cook-Levin 정리 (SAT)]
+    │
+    ▼
+[관련 기술: 동적 프로그래밍, 휴리스틱 탐색, 탐욕적 알고리즘]
+    │
+    ▼
+[핵심 문제 리스트: SAT, Vertex Cover, Clique, Hamiltonian Path, TSP, Knapsack]
+```
+
+이 흐름도는 원천 정리: Cook-Levin 정리 (SAT)에서 출발해 핵심 문제 리스트: SAT, Vertex Cover, Clique, Hamiltonian Path, TSP, Knapsack까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. NP-완전 문제는 "세상에서 제일 어려운 끝판왕 문제 모음"이에요.
 2. 이 중 하나만 풀 수 있는 마법을 배우면, 세상의 모든 어려운 숙제를 다 풀 수 있게 된대요.

@@ -58,6 +58,20 @@ categories = ["studynote-bigdata", "hadoop"]
 - **핵심 기술**: FsImage, Edits Log, HA (High Availability), 주키퍼(Zookeeper)
 - **확장 및 응용**: HDFS Federation, Split Brain, Fencing, 작은 파일 병목
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[선행 개념: HDFS, 마스터-워커 분산 아키텍처]
+    │
+    ▼
+[핵심 기술: FsImage, Edits Log, HA (High Availability), 주키퍼(Zookeeper)]
+    │
+    ▼
+[확장 및 응용: HDFS Federation, Split Brain, Fencing, 작은 파일 병목]
+```
+
+이 흐름도는 선행 개념: HDFS, 마스터-워커 분산 아키텍처에서 출발해 확장 및 응용: HDFS Federation, Split Brain, Fencing, 작은 파일 병목까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 100만 권의 책이 있는 거대한 도서관에서, 오직 '안내 데스크 할아버지(네임노드)' 혼자만 어느 책이 몇 번 꽂이에 있는지 지도를 외우고 있어요.
 2. 만약 할아버지가 화장실에 가거나 쓰러지면 도서관이 멈추니까, 바로 옆에 똑같은 지도를 복사해서 들고 대기 중인 '쌍둥이 동생(Standby)'을 세워둔 거예요.

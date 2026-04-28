@@ -146,6 +146,26 @@ SDLC의 확립은 프로젝트의 가시성을 극대화하고 개발 구성원 
 - 형상 관리 (Configuration Management) | SDLC 각 단계에서 쏟아지는 산출물과 베이스라인의 변경을 통제
 - 요구공학 (Requirements Engineering) | SDLC의 첫 단추이자 가장 핵심적인 분석 단계의 전문 분야
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[소프트웨어 공학 (Software Engineering)]
+    │
+    ▼
+[폭포수 모델 (Waterfall Model)]
+    │
+    ▼
+[애자일 방법론 (Agile)]
+    │
+    ▼
+[형상 관리 (Configuration Management)]
+    │
+    ▼
+[요구공학 (Requirements Engineering)]
+```
+
+이 흐름도는 소프트웨어 공학 (Software Engineering)에서 출발해 요구공학 (Requirements Engineering)까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 맛있는 케이크를 구우려면 레시피를 보고 재료를 사고, 반죽을 하고, 오븐에 굽는 순서를 꼭 지켜야 해요.
 2. 소프트웨어 생명주기(SDLC)는 컴퓨터 프로그램을 만들 때도 이렇게 순서대로 똑바로 만들도록 도와주는 '마법의 레시피' 랍니다.

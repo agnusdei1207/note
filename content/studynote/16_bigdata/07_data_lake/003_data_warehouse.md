@@ -76,6 +76,20 @@ categories = "studynote-bigdata"
 
 ---
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[상위 개념: Data Infrastructure, Business Intelligence]
+    │
+    ▼
+[하위 개념: Data Mart, ETL/ELT, Star Schema, OLAP]
+    │
+    ▼
+[연관 개념: OLTP vs OLAP, MPP, Data Lakehouse]
+```
+
+이 흐름도는 상위 개념: Data Infrastructure, Business Intelligence에서 출발해 연관 개념: OLTP vs OLAP, MPP, Data Lakehouse까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **데이터 웨어하우스**: 학교 도서관에서 책들을 종류별(과학, 소설)로 아주 깔끔하게 정리해둔 책장과 같아요.
 2. **정확함**: 이름표가 정확하게 붙어 있어서, 내가 원하는 정보를 아주 빠르게 찾을 수 있어요.

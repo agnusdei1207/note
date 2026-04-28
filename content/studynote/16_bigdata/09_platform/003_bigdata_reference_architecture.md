@@ -149,6 +149,29 @@ categories = "studynote-bigdata"
 
 ---
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[:---]
+    │
+    ▼
+[Lambda Architecture]
+    │
+    ▼
+[Kappa Architecture]
+    │
+    ▼
+[OpenLineage]
+    │
+    ▼
+[Data Zone]
+    │
+    ▼
+[dbt]
+```
+
+이 흐름도는 :---에서 출발해 Data Zone까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 
 1. 빅데이터 참조 아키텍처는 집 짓는 설계도처럼, 수집→저장→처리→분석→서비스 순서로 데이터가 흘러가는 길을 미리 정해놓은 거예요.

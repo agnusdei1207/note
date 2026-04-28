@@ -145,7 +145,7 @@ Web 3.0 시대의 시맨틱 웹은 탈중앙화 온톨로지(Decentralized Ontol
 
 ---
 
-## 핵심 인사이트 ASCII 다이어그램 (Concept Map)
+### 📌 관련 개념 맵 (Knowledge Graph)
 
 ```
 +------------------------------------------------------------------+
@@ -182,6 +182,23 @@ Web 3.0 시대의 시맨틱 웹은 탈중앙화 온톨로지(Decentralized Ontol
 |  핵심 가치: "기계가 이해できる 웹" → 검색 정확성·추론 자동화 ↑   |
 +------------------------------------------------------------------+
 ```
+
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[온톨로지 (Ontology)]
+    │
+    ▼
+[RDF (Resource Description Framework)]
+    │
+    ▼
+[링크드 데이터 (Linked Data)]
+    │
+    ▼
+[추론 규칙 (Reasoning Rules)]
+```
+
+이 흐름도는 온톨로지 (Ontology)와 RDF (Resource Description Framework)가 링크드 데이터 (Linked Data)와 추론 규칙 (Reasoning Rules)로 이어지는 지식 표현의 발전 순서를 보여준다.
 
 ## 참고
 - 모든 약어는 반드시 전체 명칭과 함께 표기
