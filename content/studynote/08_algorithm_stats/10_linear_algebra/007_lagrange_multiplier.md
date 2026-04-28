@@ -187,6 +187,29 @@ L = wᵀΣw - λ₁(μᵀw - r) - λ₂(1ᵀw - 1)
 | 지지 벡터 | KKT 상보 여유: αᵢ>0 | SVM 경계 결정 |
 | 최대 엔트로피 | Gibbs 분포 | 로지스틱 회귀 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[무제약 최적화 (Unconstrained Optimization)]
+    │
+    ▼
+[등식 제약 (Equality Constraint)]
+    │
+    ▼
+[라그랑주 승수법 (Lagrange Multiplier)]
+    │
+    ▼
+[KKT 조건 (Karush-Kuhn-Tucker Conditions)]
+    │
+    ▼
+[볼록 최적화 (Convex Optimization)]
+    │
+    ▼
+[SVM 최적화 (Support Vector Machine Optimization)]
+```
+
+제약 조건 하에서의 최적화 문제를 라그랑주 승수법으로 해결하고 기계 학습 최적화로 이어지는 흐름이다.
+
 ---
 
 ### 👶 어린이를 위한 3줄 비유 설명

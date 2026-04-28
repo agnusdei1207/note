@@ -52,6 +52,29 @@ categories = "studynote-algorithm"
 - 퀵 정렬 → 파티셔닝 → 3-Way Partitioning / Hoare Partition
 - 퀵 정렬 → 하이브리드 정렬 → IntroSort / TimSort
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[단순 정렬 (Simple Sort)]
+    │
+    ▼
+[퀵 정렬 (Quick Sort)]
+    │
+    ▼
+[피벗 선택 최적화 (Pivot Selection)]
+    │
+    ▼
+[3-way 분할 (3-way Partition)]
+    │
+    ▼
+[IntroSort (Introspective Sort)]
+    │
+    ▼
+[병렬 정렬 (Parallel Sort)]
+```
+
+퀵 정렬의 피벗 선택과 분할 전략이 개선되며 최악의 경우를 방지하는 하이브리드 정렬로 발전하는 흐름이다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 - 장난감을 크기별로 나눌 때, 제일 큰 거나 제일 작은 거를 기준으로 잡으면 한참 걸려요.
 - 중간쯤 되는 장난감을 대충 골라서 나누면 훨씬 빠르게 정리할 수 있어요.

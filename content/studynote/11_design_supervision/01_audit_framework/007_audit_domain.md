@@ -202,6 +202,29 @@ categories = ["11_design_supervision"]
 *   시스템아키텍처/보안 (System Architecture/Security) | 인프라 용량, 네트워크, 장애복구, 암호화 등 물리적/논리적 인프라 관련 영역
 *   APM (Application Performance Management) | 응용시스템 성능을 모니터링하고 병목 구간을 分析하는 도구
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[감리 목적 정의 (Audit Purpose Definition)]
+    │
+    ▼
+[감리 도메인 분류 (Audit Domain Classification)]
+    │
+    ▼
+[감리 영역별 점검항목 (Audit Checklist)]
+    │
+    ▼
+[감리 결과 보고 (Audit Reporting)]
+    │
+    ▼
+[시정 조치 (Corrective Action)]
+    │
+    ▼
+[품질 보증 (Quality Assurance)]
+```
+
+감리 도메인이 구조화된 점검 체계를 통해 IT 시스템의 품질과 적합성을 보증하는 흐름이다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **개념**: 감리 영역은 우리가 사는 집의ifferent 부분을检查하는 것과 같아요. 벽은 단단한지(사업관리), 보일러는 잘 작동하는지(응용시스템), 수도관과 전기선은 제대로 연결되었는지(DB/보안), 도어록과 창문 잠금장치는 안전한지(보안)를 각각 전문 인력이 점검해요.
 2. **원리**: 네 명의 전문가가 각각自分の専門 분야를 깊이 있게 점검하면, 집 전체의問題を 빠짐없이 발견할 수 있어요.

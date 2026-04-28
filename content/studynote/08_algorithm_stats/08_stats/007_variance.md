@@ -245,6 +245,29 @@ SPC (Statistical Process Control, 통계적 공정 관리):
 | 변동 계수 | 비교 통계 | 단위 무관 산포 |
 | ML 정규화 | 과적합 방지 | 분산 억제 메커니즘 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[중심 경향 (Central Tendency)]
+    │
+    ▼
+[편차 (Deviation)]
+    │
+    ▼
+[분산 (Variance)]
+    │
+    ▼
+[표준 편차 (Standard Deviation)]
+    │
+    ▼
+[정규 분포 (Normal Distribution)]
+    │
+    ▼
+[통계적 추론 (Statistical Inference)]
+```
+
+평균에서 벗어난 정도를 수치화한 분산이 표준 편차·분포 분석·통계 추론으로 이어지는 흐름이다.
+
 ---
 
 ### 👶 어린이를 위한 3줄 비유 설명

@@ -53,6 +53,26 @@ categories = "studynote-bigdata"
 - **자식 개념**: Off-heap Memory, Whole-stage Code Generation
 - **연관 개념**: Catalyst Optimizer, GC(Garbage Collection), SIMD
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[RDD]
+    │
+    ▼
+[DataFrame]
+    │
+    ▼
+[Tungsten 엔진]
+    │
+    ▼
+[코드 생성 (Code Generation)]
+    │
+    ▼
+[Photon 엔진]
+```
+
+Spark의 데이터 표현이 RDD에서 DataFrame으로 발전하고 Tungsten 최적화를 거쳐 하드웨어 가속 엔진으로 이어지는 흐름이다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 - 컴퓨터가 일을 할 때 메모장(Java 객체)을 예쁘게 꾸미느라 시간을 낭비하지 않고, 암호 같은 숫자(바이너리)로 바로바로 일하게 하는 거예요.
 - 가방에 물건을 넣을 때 하나하나 포장하지 않고, 차곡차곡 빈틈없이 쌓아서 더 많이 넣고 빨리 꺼내는 기술과 비슷해요.

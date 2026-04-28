@@ -245,6 +245,29 @@ categories = ["studynote-software-engineering"]
 | **GRC (Governance, Risk, and Compliance)** | 거버넌스, 위험관리, 컴플라이언스를 통합 관리하는 분야로,保安政策 관리의 기술적 기반이다。 |
 | **NIST SP 800-53** | 연방 정보 시스템에 대한 보안 통제 카탈로그로, 상세한保安 통제措施的を定めている。 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[보안 위협 분석 (Security Threat Analysis)]
+    │
+    ▼
+[보안 요구사항 (Security Requirements)]
+    │
+    ▼
+[보안 정책 (Security Policy)]
+    │
+    ▼
+[보안 절차 및 지침 (Security Procedure)]
+    │
+    ▼
+[보안 감사 (Security Audit)]
+    │
+    ▼
+[지속적 개선 (Continuous Improvement)]
+```
+
+위협 분석에서 정책 수립·절차 구현·감사를 거쳐 지속 개선하는 보안 관리 체계의 흐름이다.
+
 ---
 
 ## 👶 어린이를 위한 3줄 비유 설명

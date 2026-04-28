@@ -186,6 +186,29 @@ D→∞: R → 0 (극단 손실)
 | LZ77/LZW | 점근적 H(X) | 실용 무손실 압축 |
 | 레이트-왜곡 R(D) | 손실 허용 시 최소 비트율 | JPEG, MP3, H.265 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[정보 이론 (Information Theory)]
+    │
+    ▼
+[엔트로피 (Entropy)]
+    │
+    ▼
+[소스 코딩 (Source Coding)]
+    │
+    ▼
+[무손실 압축 (Lossless Compression)]
+    │
+    ▼
+[손실 압축 (Lossy Compression)]
+    │
+    ▼
+[채널 코딩 (Channel Coding)]
+```
+
+정보 이론의 엔트로피 개념이 소스 코딩 원리로 구체화되어 무손실·손실 압축 기술로 발전하는 흐름이다.
+
 ---
 
 ### 👶 어린이를 위한 3줄 비유 설명

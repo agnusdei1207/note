@@ -169,6 +169,29 @@ ASCII로 'a'를 8비트로 저장한다면, 영어 텍스트에서 40%를 차지
 | 최소 힙 (Min-Heap) | 허프만 트리 구축 자료구조 |
 | 적응형 허프만 | 실시간 빈도 갱신 버전 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[데이터 표현 (Data Representation)]
+    │
+    ▼
+[가변 길이 코드 (Variable-Length Code)]
+    │
+    ▼
+[허프만 코딩 (Huffman Coding)]
+    │
+    ▼
+[엔트로피 압축 (Entropy Compression)]
+    │
+    ▼
+[산술 코딩 (Arithmetic Coding)]
+    │
+    ▼
+[LZ77/DEFLATE 압축 (Lempel-Ziv Compression)]
+```
+
+문자 빈도를 기반으로 최적 가변 길이 코드를 생성하는 허프만 코딩에서 현대 압축 표준으로 이어지는 흐름이다.
+
 ---
 
 ### 👶 어린이를 위한 3줄 비유 설명

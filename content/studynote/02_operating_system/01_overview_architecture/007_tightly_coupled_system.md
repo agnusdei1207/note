@@ -182,6 +182,26 @@ categories = "studynote-operating-system"
 | **스레드 (Thread)** | 강결합 시스템의 공유 메모리 모델을 가장 잘 활용하는 소프트웨어 실행 단위 |
 | **버스 중재 (Bus Arbitration)** | 공유 통로를 사용하려는 프로세서 간의 충돌을 방지하는 교통 제어 기술 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[단일 프로세서 (Uniprocessor)]
+    │
+    ▼
+[밀결합 시스템 (Tightly Coupled System)]
+    │
+    ▼
+[공유 메모리 멀티프로세싱 (SMP)]
+    │
+    ▼
+[느슨한 결합 시스템 (Loosely Coupled System)]
+    │
+    ▼
+[분산 컴퓨팅 (Distributed Computing)]
+```
+
+프로세서 결합 방식이 단일에서 밀결합·소결합을 거쳐 완전 분산 시스템으로 진화하는 흐름이다.
+
 ---
 
 ### 👶 어린이를 위한 3줄 비유 설명

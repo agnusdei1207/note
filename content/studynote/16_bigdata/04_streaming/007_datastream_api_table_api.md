@@ -215,6 +215,26 @@ Flink의 DataStream API와 Table API/SQL은 **상호 보완적인 두 층의 프
 | Kafka 커넥터 | Source/Sink | 가장 많이 사용되는 스트리밍 소스 |
 | CEP (Complex Event Processing) | 확장 기능 | DataStream API 위의 패턴 감지 라이브러리 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[Flink RDD]
+    │
+    ▼
+[DataStream API]
+    │
+    ▼
+[Table API/SQL]
+    │
+    ▼
+[통합 스트리밍]
+    │
+    ▼
+[Kappa 아키텍처]
+```
+
+Flink의 스트리밍 API가 저수준 RDD에서 고수준 SQL까지 통합되며 카파 아키텍처로 수렴하는 흐름이다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 
 Flink에는 두 가지 요리 방법이 있어요. Table API/SQL은 "레시피대로 요리하는 방법"(편리하고 빠름)이고, DataStream API는 "셰프가 직접 창의적으로 요리하는 방법"(어렵지만 자유로움)이에요. 같은 Flink 주방(실행 엔진)에서 요리하지만, 어떤 방법으로 요청하느냐가 다를 뿐이고 최종 음식(결과 데이터)은 같은 품질이랍니다!
