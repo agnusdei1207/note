@@ -68,6 +68,20 @@ categories = "studynote-bigdata"
 - **하위 개념:** OLS, Regularization (L1, L2), Logistic Regression
 - **연관 기술:** Pearson Correlation, VIF, R-Squared, Gradient Descent
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[상위 개념: Predictive Analytics, Supervised Learning]
+    │
+    ▼
+[하위 개념: OLS, Regularization (L1, L2), Logistic Regression]
+    │
+    ▼
+[연관 기술: Pearson Correlation, VIF, R-Squared, Gradient Descent]
+```
+
+이 흐름도는 상위 개념: Predictive Analytics, Supervised Learning에서 출발해 연관 기술: Pearson Correlation, VIF, R-Squared, Gradient Descent까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **키 크기 비유:** 부모님의 키를 보고 내 키가 얼마나 클지 예상하는 마법의 자와 같아요.
 2. **성적 비유:** 공부한 시간과 시험 점수 사이의 관계를 찾아내서, "몇 시간 공부하면 몇 점 받을까?"를 맞히는 게임이에요.

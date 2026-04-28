@@ -57,6 +57,20 @@ categories = ["studynote-algorithm", "datastructure"]
 *   **하위/파생 개념**: 원형 큐 (Circular Queue), 우선순위 큐 (Priority Queue), 덱 (Deque), 메시지 큐 (MQ)
 *   **연관 알고리즘**: BFS (너비 우선 탐색), 다익스트라 (Dijkstra)
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[상위 개념: 선형 자료구조 (Linear Data Structure)]
+    │
+    ▼
+[하위/파생 개념: 원형 큐 (Circular Queue), 우선순위 큐 (Priority Queue), 덱 (Deque), 메시지 큐 (MQ)]
+    │
+    ▼
+[연관 알고리즘: BFS (너비 우선 탐색), 다익스트라 (Dijkstra)]
+```
+
+이 흐름도는 상위 개념: 선형 자료구조 (Linear Data Structure)에서 출발해 연관 알고리즘: BFS (너비 우선 탐색), 다익스트라 (Dijkstra)까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 큐는 편의점에서 물건을 살 때 기다리는 '줄'과 같아요.
 2. 먼저 온 사람이 먼저 계산하고 나가는 아주 공평한 규칙이에요.

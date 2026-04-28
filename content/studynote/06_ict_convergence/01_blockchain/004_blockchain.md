@@ -148,7 +148,7 @@ weight = 4
 
 ---
 
-## 핵심 인사이트 ASCII 다이어그램 (Concept Map)
+### 📌 관련 개념 맵 (Knowledge Graph)
 
 ```
 +------------------------------------------------------------------+
@@ -191,6 +191,26 @@ weight = 4
 |  핵심 특성: 不変性 │ 투명성 │ 脱中央化                           |
 +------------------------------------------------------------------+
 ```
+
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[거래 요청 (Transaction Request)]
+    │
+    ▼
+[네트워크 전파 (Network Propagation)]
+    │
+    ▼
+[Mempool (Transaction Pool)]
+    │
+    ▼
+[새 블록 생성 (Block Creation)]
+    │
+    ▼
+[합의 알고리즘 (Consensus Algorithm)]
+```
+
+이 흐름도는 거래 요청 (Transaction Request)에서 출발해 네트워크 전파 (Network Propagation), Mempool (Transaction Pool), 새 블록 생성 (Block Creation), 합의 알고리즘 (Consensus Algorithm)으로 이어지는 블록체인 처리 순서를 보여준다.
 
 ## 참고
 - 모든 약어는 반드시 전체 명칭과 함께 표기

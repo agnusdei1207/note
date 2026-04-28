@@ -97,6 +97,26 @@ categories = "studynote-computer-architecture"
 | **전력 무결성 (PI, Power Integrity)** | 타겟 임피던스 관리를 통해 노이즈 없이 안정적인 VDD 전원을 공급하는 설계 |
 | **차동 신호 (Differential Signaling)** | 두 가닥의 선으로 위상이 반대인 신호를 보내 외부 노이즈를 상쇄하는 고속 전송 방식 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[:---]
+    │
+    ▼
+[반사 계수 (Reflection Coefficient)]
+    │
+    ▼
+[종단 저항 (ODT, On-Die Termination)]
+    │
+    ▼
+[전력 무결성 (PI, Power Integrity)]
+    │
+    ▼
+[차동 신호 (Differential Signaling)]
+```
+
+이 흐름도는 :---에서 출발해 차동 신호 (Differential Signaling)까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 
 1. 임피던스는 물놀이장 슬라이드의 '매끄러운 정도'와 같아요. 

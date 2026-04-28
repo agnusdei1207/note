@@ -158,6 +158,26 @@ User ──> [L4 LB]                ├─[HA]─┤
 - **재해 복구 (Disaster Recovery)** | RPO/RTO 지표를 기준으로 자연재해 시에도 비즈니스 연속성(BCP)을 유지하는 전략
 - **CDN (Content Delivery Network)** | 엣지 로케이션에 정적 데이터를 캐싱하여 메인 서버의 부하를 줄이고 글로벌 가용성을 높이는 망
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[SPOF (Single Point of Failure)]
+    │
+    ▼
+[서킷 브레이커 (Circuit Breaker)]
+    │
+    ▼
+[DDoS (Distributed Denial of Service)]
+    │
+    ▼
+[재해 복구 (Disaster Recovery)]
+    │
+    ▼
+[CDN (Content Delivery Network)]
+```
+
+이 흐름도는 SPOF (Single Point of Failure)에서 출발해 CDN (Content Delivery Network)까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **가용성**: 내가 좋아하는 애니메이션을 보고 싶을 때, TV가 고장 나거나 채널이 안 나오는 일 없이 언제나 볼 수 있는 거예요.
 2. **원리**: 거실 TV가 고장 나면 태블릿으로 바로 이어볼 수 있게 준비해 두고(다중화), 나쁜 마녀가 전파를 방해하면 요정들이 전파를 씻어서(스크러빙) 깨끗하게 만들어줘요.

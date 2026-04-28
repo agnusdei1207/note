@@ -149,6 +149,23 @@ Spark SQL은 이제 단순 쿼리 엔진을 넘어, **Delta Lake**나 **Apache I
 
 ---
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[Catalyst Optimizer: 쿼리 최적화의 두뇌 (Rule/Cost Based)]
+    │
+    ▼
+[Tungsten: 메모리/CPU 효율 극대화의 심장]
+    │
+    ▼
+[Broadcast Join: 네트워크 셔플을 피하는 조인 기술]
+    │
+    ▼
+[Data Lakehouse: 데이터 레이크와 DW의 장점을 결합한 차세대 아키텍처]
+```
+
+이 흐름도는 Catalyst Optimizer: 쿼리 최적화의 두뇌 (Rule/Cost Based)에서 출발해 Data Lakehouse: 데이터 레이크와 DW의 장점을 결합한 차세대 아키텍처까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. Spark SQL은 아주 똑똑한 **'데이터 도서관 사서'** 선생님이에요.
 2. 우리가 "빨간 책 중에서 작년에 나온 것만 찾아주세요"라고 SQL로 말하면, 사서 선생님이 도서관을 다 뒤지지 않고 가장 빠른 길로 가서 딱 필요한 책만 가져다줘요.

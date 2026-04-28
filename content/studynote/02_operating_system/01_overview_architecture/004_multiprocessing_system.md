@@ -183,6 +183,29 @@ categories = "studynote-operating-system"
 
 ---
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[:---]
+    │
+    ▼
+[SMP (Symmetric Multiprocessing)]
+    │
+    ▼
+[캐시 일관성 (Cache Coherency)]
+    │
+    ▼
+[병렬 처리 (Parallel Processing)]
+    │
+    ▼
+[결함 허용 (Fault Tolerance)]
+    │
+    ▼
+[부하 분산 (Load Balancing)]
+```
+
+이 흐름도는 :---에서 출발해 부하 분산 (Load Balancing)까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 다중 처리 시스템은 컴퓨터 안에 **"두뇌가 여러 개"** 있는 것과 같아요.
 2. 예전에는 똑똑한 사람 한 명이 문제를 풀었다면, 이제는 여러 명의 똑똑한 사람들이 문제를 나눠서 동시에 풀기 때문에 훨씬 어려운 숙제도 빨리 끝낼 수 있어요.

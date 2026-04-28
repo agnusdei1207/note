@@ -175,6 +175,32 @@ ZooKeeper 앙상블에서"과반수(Quorum)"는"서비스가 계속되기 위해
 
 ---
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[Apache ZooKeeper 핵심 개념]
+    │
+    ▼
+[Znode: ZooKeeper의 기본 데이터 단위 (파일+디렉토리 hybrid)]
+    │
+    ▼
+[Watcher: 노드 변경 시 자동 알림]
+    │
+    ▼
+[Zab Protocol: Atomic Broadcast + Leader Election]
+    │
+    ▼
+[Quorum: 과반수 서버 consensus]
+    │
+    ▼
+[Znode 유형 조합]
+    │
+    ▼
+[Regular Persistent (P): 영속 비순차 - 설정 정보 저장]
+```
+
+이 흐름도는 Apache ZooKeeper 핵심 개념에서 출발해 Znode 유형 조합까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. Apache ZooKeeper는 여러 컴퓨터가 함께 일할 때"누가 팀장이고, 어떤 일을 해야 하는지"를 정리해주는 선생님과 같아요.
 2. 선생님이 제일 잘하는 컴퓨터를 팀장(Leader)으로 정하고, 팀장이 쓰러지면(장애) 바로 다른 컴퓨터를 팀장으로 뽑아주어요.
