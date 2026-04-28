@@ -68,6 +68,23 @@ NoSQL 분산 시스템은 데이터의 파티셔닝(Sharding)과 복제(Replicat
 - **하위 개념**: CAP 정리, BASE 원칙, Sharding, Consistent Hashing
 - **연관 기술**: RDBMS, NewSQL, 클라우드 스토리지, 빅데이터 플랫폼(Hadoop, Spark)
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[Key-Value]
+    │
+    ▼
+[Document]
+    │
+    ▼
+[Column-Family]
+    │
+    ▼
+[Graph]
+```
+
+이 흐름도는 선행 개념이 현재 개념으로 응축되고, 다시 확장 개념으로 이어지는 순서를 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **전통적 DB(RDBMS)가 칸막이가 쳐진 꼼꼼한 서류철이라면, NoSQL은 물건을 모양 상관없이 쑥쑥 넣을 수 있는 마법의 상자**예요.
 2. 손님이 너무 많이 올 때, **계산대를 하나만 크고 좋게 만드는 게 아니라(Scale-up), 작은 계산대 여러 개를 넓게 쫙 깔아놓는 방식(Scale-out)**이랍니다.

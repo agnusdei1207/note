@@ -131,6 +131,23 @@ Data (Variety) => [ Data Lake (Volume) ] => [ 분산 쿼리 엔진 (Spark/Trino)
 * 데이터 거버넌스 (Data Governance) | 데이터의 진실성(Veracity)과 품질을 통제하는 관리 체계
 * 다크 데이터 (Dark Data) | 저장되었으나 Value로 연결되지 못하고 방치된 Variety 데이터
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[하둡 생태계 (Hadoop Ecosystem)]
+    │
+    ▼
+[데이터 레이크 (Data Lake)]
+    │
+    ▼
+[스parks (Apache Spark)]
+    │
+    ▼
+[데이터 거버넌스 (Data Governance)]
+```
+
+이 흐름도는 선행 개념이 현재 개념으로 응축되고, 다시 확장 개념으로 이어지는 순서를 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 빅데이터는 엄청나게 많고(Volume), 너무 빨리 생겨나며(Velocity), 모양도 제각각인(Variety) 쓰레기 산과 같아요.
 2. 하지만 이 쓰레기 산에서 더러운 것을 씻어내면(Veracity), 반짝이는 황금(Value)을 찾을 수 있어요!

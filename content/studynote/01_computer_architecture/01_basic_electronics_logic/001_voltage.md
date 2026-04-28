@@ -154,7 +154,22 @@ categories = "studynote-computer-architecture"
 | 클럭 (Clock) | 요구 주파수가 높을수록 필요한 전압 여유가 커질 수 있음 |
 | VRM (Voltage Regulator Module) | 시스템 전압을 실제로 생성하고 제어하는 장치 |
 | DVFS (Dynamic Voltage and Frequency Scaling) | 전압과 주파수를 함께 조절해 전력/성능 균형을 맞추는 기법 |
+### 📈 관련 키워드 및 발전 흐름도
 
+```text
+[전류 (Current)]
+    │
+    ▼
+[저항 (Resistance)]
+    │
+    ▼
+[클럭 (Clock)]
+    │
+    ▼
+[VRM (Voltage Regulator Module)]
+```
+
+이 흐름도는 선행 개념이 현재 개념으로 응축되고, 다시 확장 개념으로 이어지는 순서를 보여준다.
 ### 👶 어린이를 위한 3줄 비유 설명
 
 1. 전압은 전기를 앞으로 밀어주는 "힘의 높이 차"예요.
