@@ -67,6 +67,28 @@ Hive는 현대적인 '데이터 레이크하우스'의 메타데이터 표준으
 - **Tez / Spark**: Hive 쿼리를 돌리는 엔진
 - **Presto / Trino**: Hive 메타스토어를 공유하는 고성능 엔진
 
+
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[MapReduce — 하둡 초기 배치 처리 엔진, SQL 없이 Java 코드 직접 작성]
+    │
+    ▼
+[Apache Hive — HiveQL로 MapReduce 추상화, SQL-on-Hadoop 구현]
+    │
+    ▼
+[Tez / LLAP (Live Long and Process) — 메모리 DAG 실행, Hive 성능 10배 향상]
+    │
+    ▼
+[Apache Spark SQL — RDD 대신 DataFrame API, Hive 메타스토어 호환 분석]
+    │
+    ▼
+[레이크하우스 (Lakehouse) — Delta Lake·Iceberg로 ACID 트랜잭션 SQL 분석]
+```
+
+이 흐름은 Java 코드 직접 작성이 필요했던 MapReduce에서 SQL 추상화(Hive)로 생산성이 향상되고, Tez·Spark으로 성능이 대폭 개선되며 최종적으로 레이크하우스 아키텍처에서 ACID SQL 분석이 실현되는 하둡 생태계 진화의 핵심 계보를 보여준다.
+
+
 ### 👶 어린이를 위한 3줄 비유 설명
 - 아주 넓은 창고(하둡)에 수많은 장난감이 흩어져 있다고 해보자.
 - Hive는 "빨간색 자동차 가져와!"라고 말하면 창고 어디에 그게 있는지 대신 찾아주는 '도서관 사서'님이야.

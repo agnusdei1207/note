@@ -71,6 +71,28 @@ categories = "studynote-bigdata"
 - **유사 개념:** MapReduce Master/Slave, MPI (Message Passing Interface)
 - **하위 개념:** DAG (Directed Acyclic Graph), Shuffle Service, RDD Lineage
 
+
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[MapReduce — 디스크 기반 배치, 반복 연산 시 I/O 오버헤드 극심]
+    │
+    ▼
+[Apache Spark — 인메모리 RDD, Driver-Executor 분산 런타임 아키텍처]
+    │
+    ▼
+[DAG 스케줄러 (DAG Scheduler) — 스테이지·태스크 분리, 파이프라인 최적화]
+    │
+    ▼
+[클러스터 매니저 (YARN / Kubernetes) — 리소스 할당·컨테이너 수명 관리]
+    │
+    ▼
+[Spark Structured Streaming — 마이크로 배치로 배치·스트리밍 통합 처리]
+```
+
+이 흐름은 디스크 I/O 병목의 MapReduce에서 인메모리 Spark으로 패러다임이 전환되고, DAG 스케줄러로 최적화된 뒤 클러스터 매니저와 통합되며 Structured Streaming으로 배치·스트리밍이 통합되는 Spark 아키텍처 진화를 보여준다.
+
+
 ### 👶 어린이를 위한 3줄 비유 설명
 - 거대한 레고 성을 만드는 팀워크와 같아요.
 - 설계도를 보고 "너는 성벽, 너는 지붕을 만들어"라고 지시하는 대장이 '드라이버'예요.
