@@ -210,6 +210,28 @@ categories = "studynote-operating-system"
 
 ---
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[폴링 (Polling) — CPU가 주기적으로 장치 상태 확인, 대기 중 자원 낭비]
+    │
+    ▼
+[하드웨어 인터럽트 (Hardware Interrupt) — 외부 장치가 CPU에 비동기 신호 전달]
+    │
+    ▼
+[인터럽트 벡터 테이블 (IVT, Interrupt Vector Table) — ISR 주소 관리, 디스패치]
+    │
+    ▼
+[우선순위 인터럽트 (PIC, Programmable Interrupt Controller) — 다중 인터럽트 직렬화]
+    │
+    ▼
+[인터럽트 중첩 / 재진입 (Nested Interrupt) — 고우선순위 인터럽트가 현재 ISR 선점]
+    │
+    ▼
+[MSI-X (Message Signaled Interrupt) — PCIe 버스 상 메시지 기반 인터럽트, APIC 확장]
+```
+이 흐름은 CPU가 능동적으로 장치를 검사하던 폴링 방식에서 비동기 신호 기반 인터럽트로 전환된 뒤, 우선순위 관리와 메시지 기반 확장으로 진화하는 OS-하드웨어 상호작용 메커니즘의 발전 계보를 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 하드웨어 인터럽트는 컴퓨터 주변 장치들이 CPU 형아에게 보내는 "나 다 했어!"라는 쪽지예요.
 2. CPU 형아가 다른 공부를 하고 있을 때 마우스나 키보드가 쪽지를 보내면, 형아는 잠시 공부를 멈추고 쪽지를 읽은 뒤 다시 공부를 시작해요.

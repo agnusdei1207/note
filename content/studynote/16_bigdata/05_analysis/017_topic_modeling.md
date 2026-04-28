@@ -135,6 +135,28 @@ categories = "studynote-bigdata"
 | HDBSCAN | 밀도 기반 계층적 군집화 알고리즘 |
 | 동적 토픽 모델링 (DTM, Dynamic Topic Modeling) | 시간에 따른 주제 변화 추적 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[TF-IDF (Term Frequency-Inverse Document Frequency) — 단어 빈도 기반 문서 표현]
+    │
+    ▼
+[LSA (Latent Semantic Analysis) — SVD 기반 잠재 의미 추출, 동의어·유사어 포착]
+    │
+    ▼
+[LDA (Latent Dirichlet Allocation) — 확률적 생성 모델, 문서별 토픽 혼합 비율]
+    │
+    ▼
+[NMF (Non-negative Matrix Factorization) — 비음수 분해, 해석 가능한 토픽 추출]
+    │
+    ▼
+[BERTopic — 사전 학습 BERT 임베딩 + 클러스터링, 맥락 의미 기반 토픽 발견]
+    │
+    ▼
+[동적 토픽 모델 (Dynamic Topic Model) — 시간 흐름에 따른 토픽 진화 추적]
+```
+이 흐름은 단어 빈도 통계에서 출발하여 행렬 분해와 확률 생성 모델로 발전하고, 대규모 언어 모델 임베딩을 활용한 맥락 기반 토픽 발견으로 수렴하는 자연어 처리 주제 모델링의 진화를 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 - 토픽 모델링은 도서관의 수만 권의 책을 읽고 "이 도서관에는 어떤 종류의 책들이 있나요?"를 자동으로 알아내는 거예요.
 - LDA는 각 책이 여러 주제를 조금씩 섞어서 쓰여 있다고 보고, 그 비율을 수학으로 계산해요.

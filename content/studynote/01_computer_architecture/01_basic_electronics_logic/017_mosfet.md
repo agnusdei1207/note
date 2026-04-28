@@ -107,6 +107,28 @@ MOSFET은 진공관의 발열 딜레마를 '전기장과 절연막'이라는 획
 | **High-K 절연막** | 미세화에 따른 양자 터널링(누설)을 막기 위해 도입된 고유전율 소재로, 칩의 물리적 붕괴를 구원함 |
 | **양자 터널링 (Quantum Tunneling)** | 산화막이 너무 얇아지면 전자가 파동으로 변해 절연 벽을 그대로 뚫고 도망가버리는 치명적 양자 현상 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[진공관 (Vacuum Tube) — 열전자 방출 ON/OFF, 발열·부피 한계]
+    │
+    ▼
+[바이폴라 트랜지스터 (BJT, Bipolar Junction Transistor) — 전류 제어, 소형화]
+    │
+    ▼
+[MOSFET (Metal-Oxide-Semiconductor FET) — 전압 제어, 절연 게이트, 저전력]
+    │
+    ▼
+[CMOS (Complementary MOS) — NMOS+PMOS 상보 결합, 정적 전력 소모 제로]
+    │
+    ▼
+[FinFET / GAA (Gate-All-Around) — 3D 게이트 구조, 누설 전류 차단, 5nm 이하]
+    │
+    ▼
+[CFET (Complementary FET) — NMOS·PMOS 수직 적층, 1nm 시대 면적 혁신]
+```
+이 흐름은 트랜지스터가 열전자 소자에서 전압 제어 절연 게이트로 진화한 뒤, 미세화의 물리적 한계를 3D 입체 구조 확보로 돌파해가는 반도체 스케일링 기술의 계보를 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 
 1. MOSFET은 유리 덮개가 덮여 있어서 전기를 전혀 먹지 않는 짱짱맨 스마트 스위치예요.

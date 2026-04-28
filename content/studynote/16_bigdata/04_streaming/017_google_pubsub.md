@@ -190,6 +190,28 @@ Google Pub/Sub는 GCP 생태계에서 **운영 부담이 최소화된 완전 관
 | Apache Beam | 연산 모델 | Dataflow의 프로그래밍 모델 |
 | Dead Letter Topic | 운영 패턴 | 처리 실패 메시지 격리 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[전통 메시지 큐 (MQ, Message Queue) — FIFO 브로커, 단일 소비자, 확장성 제한]
+    │
+    ▼
+[발행-구독 패턴 (Pub/Sub Pattern) — 토픽 기반 다수 구독자 분리, 비동기 이벤트]
+    │
+    ▼
+[Google Pub/Sub — 글로벌 분산 관리형 메시지 서비스, 99.99% SLA, 자동 확장]
+    │
+    ▼
+[Apache Kafka — 오프셋 기반 영속 로그, 스트림 재처리 지원, 자체 운영 필요]
+    │
+    ▼
+[Dataflow (Apache Beam) — Pub/Sub 연동 서버리스 스트림 처리, 자동 파이프라인]
+    │
+    ▼
+[BigQuery Streaming Insert — Pub/Sub→Dataflow→BigQuery 실시간 분석 파이프라인]
+```
+이 흐름은 전통 메시지 큐의 확장성 한계를 Pub/Sub 패턴으로 극복하고, GCP 관리형 서비스와 서버리스 스트림 처리로 연결되는 실시간 이벤트 파이프라인 아키텍처의 발전을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 
 Google Pub/Sub는 학교 방송부(토픽)와 같아요. 방송부(Publisher)가 마이크에 대고 말하면(메시지 발행), 귀를 기울이고 있는 친구들(Subscriber)이 모두 듣는 구독 시스템이에요. 듣는 친구가 10명이든 1000명이든 방송부는 마이크 하나로 충분하고, 방송 시스템(GCP)이 알아서 신호를 전달해줘요!

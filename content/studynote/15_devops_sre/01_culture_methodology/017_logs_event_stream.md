@@ -216,6 +216,28 @@ categories = ["studynote-devops-sre"]
 - **Structured Logging** (로그를 단순 문자열이 아닌 JSON 형태로 출력하여 파싱 없이 즉시 인덱싱하게 만드는 기법)
 - **DaemonSet** (쿠버네티스 클러스터의 모든 워커 노드에 단 1개씩 로그 수집기 파드를 보장하여 띄우는 컨트롤러)
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[파일 기반 로그 (File-based Logging) — 서버 내 로그 파일, 분산 수집 어려움]
+    │
+    ▼
+[로그 이벤트 스트림 (Log as Event Stream) — stdout 출력, 12-Factor App 원칙]
+    │
+    ▼
+[로그 집계 (Log Aggregation) — Fluentd / Logstash 수집·파싱, 중앙 저장]
+    │
+    ▼
+[분산 추적 (Distributed Tracing) — OpenTelemetry Trace ID, 마이크로서비스 요청 흐름 추적]
+    │
+    ▼
+[통합 관측성 (Observability) — 로그·메트릭·트레이스 3-pillar, Grafana / Datadog]
+    │
+    ▼
+[AIOps 로그 분석 — 머신러닝 이상 패턴 탐지, 자동 근본 원인 분석(RCA)]
+```
+이 흐름은 서버 내 정적 파일 로그에서 이벤트 스트림 아키텍처로 전환된 뒤, 분산 추적·통합 관측성을 거쳐 AI 기반 자동 장애 분석으로 진화하는 클라우드 네이티브 로깅 기술의 발전을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 일기장(로그 파일)에 글을 쓰면 일기장을 잃어버렸을 때 내가 무슨 일을 했는지 아무도 알 수 없어요.
 2. 하지만 내가 한 일을 허공에 대고 큰 소리로 외치기만 하면(표준 출력 스트림), 옆에 있는 마이크(로그 수집기)가 다 녹음해 주죠.

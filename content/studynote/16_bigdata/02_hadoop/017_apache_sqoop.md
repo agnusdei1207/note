@@ -64,6 +64,28 @@ categories = ["studynote-bigdata", "hadoop"]
 - **ETL**: 추출(E)과 적재(L)의 핵심 도구
 - **CDC (Change Data Capture)**: 스쿱의 배치 방식을 대체하는 실시간 기술
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[수동 ETL 스크립트 — JDBC 기반 수동 데이터 추출·적재, 유지보수 부담]
+    │
+    ▼
+[Apache Sqoop — RDBMS ↔ 하둡 MapReduce 병렬 대용량 데이터 전송 자동화]
+    │
+    ▼
+[Apache Flume — 로그·스트림 실시간 수집, HDFS·HBase 적재 파이프라인]
+    │
+    ▼
+[Apache Kafka Connect — 분산 커넥터 프레임워크, RDBMS·클라우드 소스 실시간 CDC]
+    │
+    ▼
+[CDC (Change Data Capture) — Debezium 기반 변경분만 스트리밍 추출·전달]
+    │
+    ▼
+[데이터 레이크하우스 Ingestion — Apache Iceberg·Delta Lake 직접 ACID 적재]
+```
+이 흐름은 수동 JDBC 스크립트에서 Sqoop 병렬 배치 전송으로 자동화된 뒤, 실시간 CDC와 데이터 레이크하우스 직접 적재로 진화하는 데이터 수집 파이프라인 기술의 발전을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 - 아파트 이사를 갈 때 짐을 하나씩 옮기면 너무 힘들겠지?
 - 스쿱은 이삿짐 트럭 여러 대를 동시에 불러서, 집 안의 가구들을 한꺼번에 새집으로 옮겨주는 이삿짐센터 아저씨야.

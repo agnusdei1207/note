@@ -60,6 +60,28 @@ categories = ["Algorithm", "Graph"]
 - **Konig's Theorem**: 최소 정점 커버와의 관계
 - **Hungarian Algorithm**: 가중치 확장판
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[이분 그래프 판별 (Bipartite Check) — BFS/DFS 2-색칠, 이분 구조 확인]
+    │
+    ▼
+[이분 매칭 (Bipartite Matching) — 증가 경로(Augmenting Path) 반복 탐색]
+    │
+    ▼
+[헝가리안 알고리즘 (Hungarian Algorithm) — 최소 비용 완전 매칭, O(N³)]
+    │
+    ▼
+[최대 유량 (Max Flow / Ford-Fulkerson) — 이분 매칭을 유량 문제로 환원]
+    │
+    ▼
+[호프크로프트-카프 (Hopcroft-Karp) — BFS 레벨 그래프 + DFS, O(√V·E)]
+    │
+    ▼
+[온라인 매칭 (Online Bipartite Matching) — 동적 요청에 실시간 매칭, 광고 경매 적용]
+```
+이 흐름은 이분 그래프 매칭이 단순 증가 경로 탐색에서 출발해 최소 비용·최대 유량 이론으로 일반화되고, 실시간 온라인 광고 시스템의 핵심 알고리즘으로 진화하는 그래프 최적화의 발전을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 5명의 친구가 있고 5개의 장난감이 있는데, 친구마다 갖고 싶은 장난감이 달라요.
 2. 어떤 장난감을 서로 양보하면서 바꿔줘야 가장 많은 친구들이 장난감을 가질 수 있을까요?
