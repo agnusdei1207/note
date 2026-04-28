@@ -56,6 +56,27 @@ categories = "studynote-bigdata"
 - **핵심 기술:** AQE, Broadcast Join, Data Skew, Shuffle Partitions
 - **연관 기술:** Wide Dependency, Narrow Dependency, Kryo Serialization
 
+
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[스파크 RDD 와이드 의존성 (Wide Dependency) — 셔플 발생 원인, 파티션 간 데이터 이동]
+    │
+    ▼
+[셔플 (Shuffle) — groupBy·join 시 네트워크를 통한 데이터 재분배, 성능 병목의 핵심]
+    │
+    ▼
+[AQE (Adaptive Query Execution) — 런타임 통계 기반 셔플 파티션 수 동적 최적화]
+    │
+    ▼
+[브로드캐스트 조인 (Broadcast Join) — 작은 테이블을 모든 노드에 복제하여 셔플 전체 제거]
+    │
+    ▼
+[데이터 스큐 처리 (Skew Handling) — 편향 파티션 분할·솔팅으로 불균형 셔플 해소]
+```
+
+이 흐름은 스파크에서 셔플이 와이드 의존성으로 발생하는 원리를 이해하고, AQE의 동적 최적화→브로드캐스트 조인으로 셔플 자체를 제거하거나 최소화하며, 데이터 스큐 처리로 불균형 파티션까지 해소하는 분산 쿼리 성능 최적화의 핵심 계보를 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 - 여러 명의 요리사가 각자 재료를 썰다가, 요리를 완성하기 위해 재료를 서로 바꾸는 시간이에요.
 - 재료를 옮기는 데 시간이 너무 오래 걸리면 요리가 늦어지니까, 최대한 재료 이동을 줄여야 해요.

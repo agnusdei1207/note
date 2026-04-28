@@ -69,6 +69,27 @@ HBase는 하둡 생태계에서 '실시간 읽기/쓰기'라는 퍼즐 조각을
 - **LSM-Tree**: HBase의 고속 쓰기 수리 모델
 - **HBase Shell / Thrift**: HBase에 접속하는 인터페이스
 
+
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[RDBMS (관계형 DB) — 행 기반 스키마, ACID 트랜잭션, 수직 확장 한계]
+    │
+    ▼
+[HBase — HDFS 위의 컬럼 패밀리 기반 분산 NoSQL, 수억 행 수평 확장]
+    │
+    ▼
+[컬럼 패밀리 (Column Family) — 연관 컬럼 묶음을 동일 HFile에 배치, I/O 최적화]
+    │
+    ▼
+[LSM-Tree (Log-Structured Merge Tree) — MemStore→HFile 계단식 병합으로 고속 쓰기]
+    │
+    ▼
+[Apache Phoenix — HBase 위에 SQL 레이어를 추가, 기업 데이터 웨어하우스 확장]
+```
+
+이 흐름은 행 기반 RDBMS의 수직 확장 한계를 극복하기 위해 HBase 컬럼 패밀리 구조가 등장하고, LSM-Tree 기반 고속 쓰기를 확보한 뒤, Phoenix SQL 레이어로 기업 분석 환경에 통합되는 컬럼형 분산 NoSQL의 발전 계보를 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 - 아주아주 큰 도서관에 매일 수만 권의 책이 새로 들어온다고 해보자.
 - HBase는 책을 하나하나 예쁘게 꽂는 대신, 일단 상자에 담아두고(메모리) 나중에 한꺼번에 서가에 정리해(디스크).
