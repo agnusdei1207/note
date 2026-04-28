@@ -128,6 +128,26 @@ categories = "studynote-bigdata"
 | 차분 (Differencing) | 비정상 시계열을 정상으로 변환하는 전처리 |
 | MAPE (Mean Absolute Percentage Error) | 시계열 예측 평가 지표 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[시계열 데이터 (Time Series Data) — 시간 순서로 기록된 연속적 관측값]
+    │
+    ▼
+[정상성 (Stationarity) — 평균·분산이 시간에 무관한 통계적 특성, 분석 전제 조건]
+    │
+    ▼
+[ARIMA (AutoRegressive Integrated Moving Average) — 전통적 선형 시계열 예측 모델]
+    │
+    ▼
+[LSTM / Transformer — 딥러닝 기반 비선형 장기 의존성 포착]
+    │
+    ▼
+[Prophet / NeuralProphet — 추세·계절성 분해 기반 실무 시계열 예측 프레임워크]
+```
+
+이 흐름은 시계열 데이터의 정상성 확보에서 출발하여 ARIMA 등 전통 모델을 거쳐 딥러닝 기반 예측 모델과 실용적 프레임워크로 발전하는 시계열 분석의 진화 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 - 시계열 분석은 "매년 여름에 아이스크림이 많이 팔렸으니, 올 여름에도 많이 팔릴 거야"처럼 과거 패턴으로 미래를 예측하는 거예요.
 - 추세는 "요즘 점점 더워지는 것", 계절성은 "매년 여름에 더운 것", 잔차는 "예상치 못한 태풍"이에요.

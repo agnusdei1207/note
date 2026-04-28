@@ -49,6 +49,26 @@ categories = "studynote-algorithm"
 - **상위 개념:** B-Tree family, Multi-way Balanced Tree
 - **하위/확장 개념:** LSM-Tree (Write 최적화), Fractal Tree, In-memory Indexing
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[이진 탐색 트리 (BST) — 탐색 O(log N), 불균형 시 O(N) 성능 저하]
+    │
+    ▼
+[B-트리 (B-Tree) — 다중 분기로 디스크 I/O 최소화, 내부 노드 데이터 보유]
+    │
+    ▼
+[B+ 트리 (B+ Tree) — 데이터 리프 집중, 리프 연결 리스트로 범위 쿼리 최적화]
+    │
+    ▼
+[DBMS 클러스터드 인덱스 (Clustered Index) — B+ 트리 기반 물리 정렬 저장]
+    │
+    ▼
+[LSM 트리 (Log-Structured Merge Tree) — B+ 트리 대안, 쓰기 집약 NoSQL 최적화]
+```
+
+이 흐름은 이진 탐색 트리의 불균형 문제를 B-트리가 해결하고, B+ 트리가 범위 탐색을 최적화하여 DBMS 인덱스 표준이 된 뒤, 쓰기 집약 환경을 위한 LSM 트리로 진화하는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 - B-트리는 아파트 층마다 사람들이 사는 구조라면, B+트리는 1층부터 9층까지는 안내판만 있고 모든 사람은 10층에 모여 사는 구조예요.
 - 10층 사람들은 옆집과 다 복도로 연결되어 있어서, 한 번 올라가면 옆집으로 바로바로 갈 수 있어요.

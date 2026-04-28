@@ -65,6 +65,26 @@ YARN은 하둡 생태계가 10년 넘게 살아남을 수 있었던 '심장'과 
 - **Resource Manager**: 중앙 통제실
 - **Kubernetes (K8s)**: 현대적 대안 플랫폼
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[하둡 v1 JobTracker — 리소스 관리와 작업 스케줄링을 단일 노드에서 담당, 병목]
+    │
+    ▼
+[YARN (Yet Another Resource Negotiator) — ResourceManager·NodeManager 분리 아키텍처]
+    │
+    ▼
+[ApplicationMaster — 각 앱이 자체 스케줄링 담당, 프레임워크 독립성 확보]
+    │
+    ▼
+[컨테이너 (Container) — CPU·메모리 단위 자원 할당, 다중 프레임워크 공존]
+    │
+    ▼
+[Kubernetes on YARN / 클라우드 네이티브 — YARN을 대체하는 컨테이너 오케스트레이션]
+```
+
+이 흐름은 하둡 v1의 JobTracker 병목을 해결하기 위해 YARN이 ResourceManager·ApplicationMaster로 분리 진화하고, 이후 Kubernetes 기반 클라우드 네이티브 스케줄러로 대체되는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 - 학교 도서관에서 친구들이 각자 공부할 '책상(자원)'이 필요하다고 해보자.
 - YARN은 누가 어떤 책상을 얼마나 오래 쓸지 결정하고 나눠주는 '도서관 선생님'이야.

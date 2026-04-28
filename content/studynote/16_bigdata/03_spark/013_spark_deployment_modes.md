@@ -69,6 +69,26 @@ categories = "studynote-bigdata"
 - **유사 개념:** YARN Scheduler, Kubernetes Operator
 - **하위 개념:** spark-submit, Application Master, Spark UI
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[로컬 모드 (Local Mode) — 단일 JVM에서 드라이버·익스큐터 실행, 개발·테스트용]
+    │
+    ▼
+[독립 실행 모드 (Standalone Mode) — Spark 자체 클러스터 매니저, 소규모 전용 환경]
+    │
+    ▼
+[YARN 모드 (YARN Mode) — 하둡 클러스터 자원 공유, 엔터프라이즈 표준]
+    │
+    ▼
+[Kubernetes 모드 (K8s Mode) — Pod 단위 동적 프로비저닝, 클라우드 네이티브 표준]
+    │
+    ▼
+[서버리스 Spark (Serverless Spark) — 클라우드 완전 관리형, 인프라 추상화 극대화]
+```
+
+이 흐름은 Spark의 배포 모드가 로컬 개발 환경에서 출발하여 YARN 클러스터 공유를 거쳐 Kubernetes 기반 클라우드 네이티브 배포로 진화하는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 - 지휘자(드라이버)가 연주자(실행기)들과 어디에 있느냐의 차이예요.
 - 지휘자가 집에서 전화로 지휘하면 '클라이언트 모드', 공연장 무대 위에서 함께 있으면 '클러스터 모드'예요.
