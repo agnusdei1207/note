@@ -169,6 +169,26 @@ categories = ["Database", "Studynote"]
 - **Flyway / Liquibase** | 스키마 버전과 변경 이력을 코드화하여 CI/CD 배포 과정에서 자동 적용해주는 마이그레이션 도구
 - **DDL (Data Definition Language)** | CREATE, ALTER, DROP 등 스키마 개체를 생성하고 변경하는 SQL 하위 언어
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[3단계 스키마 아키텍처]
+    │
+    ▼
+[시스템 카탈로그 (System Catalog)]
+    │
+    ▼
+[스키마 온 라이트 (Schema-on-write)]
+    │
+    ▼
+[Flyway / Liquibase]
+    │
+    ▼
+[DDL (Data Definition Language)]
+```
+
+이 흐름도는 3단계 스키마 아키텍처에서 출발해 DDL (Data Definition Language)까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 스키마는 레고 블록을 맞출 때 보는 '조립 설명서'와 같아요.
 2. 설명서에 "여기에는 빨간색 4칸짜리 블록만 들어갈 수 있어"라고 규칙을 정해두면, 아무나 이상한 블록을 끼워 넣지 못하죠.

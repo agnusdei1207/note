@@ -182,6 +182,26 @@ categories = "studynote-operating-system"
 
 ---
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[주종 관계 (Master-Slave)]
+    │
+    ▼
+[마스터 병목 (Master Bottleneck)]
+    │
+    ▼
+[SMP (Symmetric Multiprocessing)]
+    │
+    ▼
+[big.LITTLE]
+    │
+    ▼
+[커널 (Kernel)]
+```
+
+이 흐름도는 주종 관계 (Master-Slave)에서 출발해 커널 (Kernel)까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. ASMP는 컴퓨터 안에 **"대장 두뇌와 일꾼 두뇌들"**이 있는 것과 같아요.
 2. 대장 두뇌는 어려운 결정을 내리고 계획을 세우는 일을 하고, 일꾼 두뇌들은 대장이 시키는 단순한 숙제들만 열심히 풀어요.

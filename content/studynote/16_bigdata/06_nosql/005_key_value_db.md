@@ -200,6 +200,26 @@ Q. 키-값 DB 선택 기준은?
 | CRDT | 충돌 해결 | 자동 병합 가능한 자료구조 |
 | Polyglot Persistence | 아키텍처 패턴 | DB 혼합 사용 전략 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[CAP 정리 (CAP Theorem)]
+    │
+    ▼
+[일관된 해싱 (Consistent Hashing)]
+    │
+    ▼
+[TTL (Time To Live)]
+    │
+    ▼
+[CRDT (Conflict-free Replicated Data Type)]
+    │
+    ▼
+[Polyglot Persistence]
+```
+
+이 흐름도는 CAP 정리 (CAP Theorem)에서 출발해 Polyglot Persistence까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 키-값 DB는 학교 사물함과 같아요. 번호(Key)를 알면 즉시 내 물건(Value)을 꺼낼 수 있어요.
 2. 사물함 번호를 모르면 전체를 다 열어봐야 해서 시간이 오래 걸려요 — 그래서 "키"가 매우 중요해요.

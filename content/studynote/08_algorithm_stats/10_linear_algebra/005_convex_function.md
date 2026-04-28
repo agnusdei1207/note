@@ -203,6 +203,26 @@ subject to wᵀΣw ≤ σ²  (위험 제약)
 
 ---
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[볼록 함수 (Convex Function)]
+    │
+    ▼
+[헤시안 양반정치 (Hessian PSD)]
+    │
+    ▼
+[SVM (Support Vector Machine)]
+    │
+    ▼
+[LASSO (L1 Regularization)]
+    │
+    ▼
+[비볼록 신경망 (Non-convex Neural Network)]
+```
+
+이 흐름도는 볼록 함수 (Convex Function)에서 출발해 비볼록 신경망 (Non-convex Neural Network)까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 
 1. **볼록 함수는 "오목한 그릇"**: 어디에 공을 놓아도 그릇 바닥으로 굴러간다 — 항상 같은 최솟값!

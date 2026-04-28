@@ -226,6 +226,40 @@ weight = 5
           DC는 하위 문제 독립(INDEPENDENT) → 중복 없음
 ```
 
+
+### 📌 관련 개념 맵
+
+- **분할 정복 (Divide and Conquer)**
+- **합병 정렬 (Merge Sort)**
+- **퀵 정렬 (Quick Sort)**
+- **이진 탐색 (Binary Search)**
+- **점화식 (Recurrence Relation)**
+
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[분할 정복 (Divide and Conquer)]
+    │
+    ▼
+[합병 정렬 (Merge Sort)]
+    │
+    ▼
+[퀵 정렬 (Quick Sort)]
+    │
+    ▼
+[이진 탐색 (Binary Search)]
+    │
+    ▼
+[점화식 (Recurrence Relation)]
+```
+
+이 흐름도는 분할 정복 (Divide and Conquer)에서 출발해 점화식 (Recurrence Relation)까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
+### 👶 어린이를 위한 3줄 비유 설명
+1. 분할 정복은 문제를 독립적인 하위 문제로 나눠 정복하는 알고리즘 설계 패러다임이다.
+2. 합병 정렬·퀵 정렬·이진 탐색 등 수많은 고전 알고리즘의 뿌리가 이 패턴에 있다.
+3. 동적 프로그래밍과 달리 하위 문제가 중복되지 않아 메모이제이션 없이도 동작한다.
+
 ## 참고
 - 모든 약어는 반드시 전체 명칭과 함께 표기
 - 일어/중국어 절대 사용 금지

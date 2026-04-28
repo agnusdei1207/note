@@ -249,6 +249,26 @@ Y = g(X) 로 새로운 확률 변수를 만들 수 있다:
 
 ---
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[확률 변수 (Random Variable)]
+    │
+    ▼
+[PMF (Probability Mass Function)]
+    │
+    ▼
+[PDF (Probability Density Function)]
+    │
+    ▼
+[CDF (Cumulative Distribution Function)]
+    │
+    ▼
+[결합 분포 (Joint Distribution)]
+```
+
+이 흐름도는 확률 변수 (Random Variable)에서 출발해 결합 분포 (Joint Distribution)까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 
 - 확률 변수는 "동전 뒤집기 결과를 앞면=1, 뒷면=0으로 번역하는 기계"야 — 결과를 숫자로 바꿔야 계산할 수 있어.

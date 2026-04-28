@@ -241,6 +241,26 @@ with DAG(
 
 ---
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[Apache Oozie]
+    │
+    ▼
+[Apache Airflow]
+    │
+    ▼
+[DAG (Directed Acyclic Graph)]
+    │
+    ▼
+[Celery/Kubernetes Executor]
+    │
+    ▼
+[Dagster / Prefect]
+```
+
+이 흐름도는 Apache Oozie에서 출발해 Dagster / Prefect까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. Apache Oozie와 Airflow는 여러 컴퓨터가 순서대로 일을 할 수 있도록 도와주는 지도老师和 같아요.
 2. Oozie는 여러 단계를 XML이라는 특별한 말로 적어둔 거예요.

@@ -64,6 +64,26 @@ categories = "studynote-algorithm"
 - **자식/확장 개념**: Timsort, 2-way Merge, Multi-way External Merge, 폰 노이만 아키텍처
 - **유사 개념**: 퀵 정렬(Quick Sort), 힙 정렬(Heap Sort)
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[분할 정복 (Divide and Conquer)]
+    │
+    ▼
+[안정 정렬 (Stable Sort)]
+    │
+    ▼
+[Timsort]
+    │
+    ▼
+[폰 노이만 아키텍처]
+    │
+    ▼
+[퀵 정렬 (Quick Sort)]
+```
+
+이 흐름도는 분할 정복 (Divide and Conquer)에서 출발해 퀵 정렬 (Quick Sort)까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 뒤죽박죽 섞인 장난감 카드를 반으로 계속 나누어서 카드가 딱 1장이 될 때까지 쪼개요.
 2. 이제 두 명의 친구가 가진 작은 카드 더미를 보면서, 번호가 작은 순서대로 예쁘게 합쳐요.

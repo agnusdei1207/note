@@ -191,6 +191,26 @@ M (금액)    ─── 얼마나 많이 지출했는가?
 | RFM 분석 | 고객 세분화, 이탈 예측, 마케팅 자동화 | CRM 연계 |
 | SKU (재고관리단위) | 수요 예측 단위, 롱테일 관리 | 유통 기본 단위 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[수요 예측 (Demand Forecasting)]
+    │
+    ▼
+[ABC/XYZ 분석]
+    │
+    ▼
+[VRP (Vehicle Routing Problem)]
+    │
+    ▼
+[RFM 분석]
+    │
+    ▼
+[SKU (Stock Keeping Unit)]
+```
+
+이 흐름도는 수요 예측 (Demand Forecasting)에서 출발해 SKU (Stock Keeping Unit)까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 
 - 유통 빅데이터는 "마트가 내일 어떤 물건이 몇 개 팔릴지 미리 알고 준비하는 것"이다.

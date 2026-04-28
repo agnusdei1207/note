@@ -174,6 +174,26 @@ index.upsert(vectors=[("review_123", vector_representation, {"category": "delive
 - **Schema-on-Read** | 정해진 표 구조(스키마) 없이 일단 비정형 상태로 원본 저장 후, 필요할 때 로직을 통해 구조를 씌워 읽어내는 개념
 - **Dead Letter Queue (DLQ)** | 파싱에 실패하거나 알 수 없는 형태의 비정형 데이터가 유입됐을 때 유실을 막기 위해 임시로 격리하는 대기열 공간
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[Object Storage]
+    │
+    ▼
+[Vector Database]
+    │
+    ▼
+[Inverted Index (역색인)]
+    │
+    ▼
+[Schema-on-Read]
+    │
+    ▼
+[Dead Letter Queue (DLQ)]
+```
+
+이 흐름도는 Object Storage에서 출발해 Dead Letter Queue (DLQ)까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 엑셀처럼 칸이 딱딱 나뉘어 있는 공책(정형 데이터)도 있지만, 우리가 찍은 사진, 녹음한 목소리, 낙서장(비정형 데이터)은 그런 칸에 절대 들어가지 않아요.
 2. 그래서 컴퓨터는 사진이나 목소리를 자기들만 아는 아주 길고 복잡한 숫자 암호(벡터 임베딩)로 바꾼 다음 넓은 마당(데이터 레이크)에 던져놓아요.

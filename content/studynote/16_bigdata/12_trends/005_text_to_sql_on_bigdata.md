@@ -103,6 +103,26 @@ Text-to-SQL on BigData (LLM (Large Language Model)으로 자연어 쿼리 자동
 | 자연어 | 자연어 질의과 연결되는 핵심 축 |
 | 쿼리 자동 생성 | 자연어 질의과 연결되는 핵심 축 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[Text-to-SQL]
+    │
+    ▼
+[LLM (Large Language Model)]
+    │
+    ▼
+[자연어 질의 (Natural Language Query)]
+    │
+    ▼
+[쿼리 자동 생성 (Auto SQL Generation)]
+    │
+    ▼
+[RAG (Retrieval-Augmented Generation)]
+```
+
+이 흐름도는 Text-to-SQL에서 출발해 RAG (Retrieval-Augmented Generation)까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 
 1. Text-to-SQL on BigData (LLM (Large Language Model)으로 자연어 쿼리 자동 생성)은 일을 하기 전에 "어떤 규칙으로 할지" 먼저 정하는 거예요.

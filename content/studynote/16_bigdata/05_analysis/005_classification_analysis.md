@@ -64,6 +64,26 @@ categories = "studynote-bigdata"
 - **하위 개념:** Ensemble, Neural Networks, Softmax
 - **연관 기술:** Confusion Matrix, SMOTE, Hyperparameter Tuning, XAI
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[Supervised Learning (지도 학습)]
+    │
+    ▼
+[Ensemble (앙상블)]
+    │
+    ▼
+[Neural Networks (신경망)]
+    │
+    ▼
+[Confusion Matrix (혼동 행렬)]
+    │
+    ▼
+[SMOTE (불균형 처리)]
+```
+
+이 흐름도는 Supervised Learning (지도 학습)에서 출발해 SMOTE (불균형 처리)까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **과일 분류 비유:** 사과와 오렌지의 색깔과 모양을 보고, "이건 사과야!"라고 이름표를 붙여주는 거예요.
 2. **우편물 비유:** 편지 주소를 보고 "이건 서울로 가야 해!" 하고 바구니에 나누어 담는 우체부 아저씨와 같아요.

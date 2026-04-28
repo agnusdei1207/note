@@ -129,6 +129,26 @@ Sources => [ 단순 추출 및 즉시 적재(Load) ] => [ Cloud DW 저장 (Snowf
 * 스타 스키마 (Star Schema) | 중심의 팩트 테이블과 주변의 차원 테이블들이 별 모양으로 연결된 다차원 데이터 모델링 기법
 * 데이터 레이크하우스 (Data Lakehouse) | 데이터 레이크의 유연성과 저비용 특성에 DW의 ACID 트랜잭션과 SQL 성능을 융합한 최신 아키텍처
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[OLAP (On-Line Analytical Processing)]
+    │
+    ▼
+[ETL (Extract, Transform, Load)]
+    │
+    ▼
+[데이터 마트 (Data Mart)]
+    │
+    ▼
+[스타 스키마 (Star Schema)]
+    │
+    ▼
+[데이터 레이크하우스 (Data Lakehouse)]
+```
+
+이 흐름도는 OLAP (On-Line Analytical Processing)에서 출발해 데이터 레이크하우스 (Data Lakehouse)까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 데이터 웨어하우스는 여러 동네에서 흩어져 들어오는 다양한 블록 장난감을 모아두는 아주 커다란 중앙 창고예요.
 2. 이 창고에 넣기 전에 부서진 블록은 빼고 깨끗하게 닦아서(ETL), 색깔별로 예쁘게 분류해 놓는답니다.
