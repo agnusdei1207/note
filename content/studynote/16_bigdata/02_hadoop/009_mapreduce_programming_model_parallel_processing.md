@@ -59,6 +59,26 @@ categories = ["studynote-bigdata", "hadoop"]
 - **핵심 단계**: 맵(Map), 셔플(Shuffle), 리듀스(Reduce)
 - **대안 기술**: Apache Spark, Apache Tez, Apache Flink
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[단일 서버 한계]
+    │
+    ▼
+[분산 처리 필요]
+    │
+    ▼
+[MapReduce(Map 단계)]
+    │
+    ▼
+[Shuffle/Sort]
+    │
+    ▼
+[Reduce 단계 → Hadoop 에코시스템]
+```
+
+MapReduce는 단일 서버 한계를 넘어 Map, Shuffle/Sort, Reduce로 분산 처리를 수행한다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 학교 운동장에 흩어진 1만 개의 공을 색깔별로 세어야 한다고 해봐요.
 2. 맵리듀스는 전교생에게 운동장에 나가서 "각자 앞에 있는 공들만 세어와!(Map)"라고 시키는 거예요.
