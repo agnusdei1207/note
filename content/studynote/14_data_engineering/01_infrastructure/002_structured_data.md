@@ -168,6 +168,26 @@ categories = ["studynote", "14_data_engineering"]
 * 데이터 웨어하우스 (Data Warehouse) | 전사적 관점의 분석을 위한 통합 데이터 저장소
 * 정규화 (Normalization) | 데이터 중복 제거와 무결성 보장을 위한 테이블 설계 기법
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[관계형 데이터베이스 (RDBMS)]
+    │
+    ▼
+[OLTP (Online Transaction Processing)]
+    │
+    ▼
+[OLAP (Online Analytical Processing)]
+    │
+    ▼
+[스키마 온 라이트 (Schema-on-Write)]
+    │
+    ▼
+[데이터 웨어하우스 (Data Warehouse)]
+```
+
+이 흐름도는 관계형 데이터베이스 (RDBMS)에서 출발해 정규화 (Normalization)까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 정형 데이터는 칸막이가 나누어진 필통과 같아서, 연필( 데이터 )마다 정해진 칸이 있어 바로 찾을 수 있어요.
 2. 하지만 칸에 맞는 연필만 넣을 수 있어서 크레파스( 비정형 데이터 )는 넣을 수 없어요.

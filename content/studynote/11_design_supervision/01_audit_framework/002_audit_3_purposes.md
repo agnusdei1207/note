@@ -161,6 +161,26 @@ categories = ["11_design_supervision"]
 *   시큐어 코딩 (Secure Coding) | 안전성 보장을 위해 소스코드 구현 단계에서부터 보안 약점 47개를 차단하는 지침
 *   TCO (Total Cost of Ownership) | 효율성 달성 시 궁극적으로 하락하는 시스템 생애 주기 전체 소요 비용
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[ATAM (Architecture Trade-off Analysis Method)]
+    │
+    ▼
+[RTM (Requirements Traceability Matrix)]
+    │
+    ▼
+[성능 테스트 (Load Testing)]
+    │
+    ▼
+[시큐어 코딩 (Secure Coding)]
+    │
+    ▼
+[TCO (Total Cost of Ownership)]
+```
+
+이 흐름도는 ATAM (Architecture Trade-off Analysis Method)에서 출발해 TCO (Total Cost of Ownership)까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **효과성**: 내가 생일 선물로 곰 인형을 사달라고 했는데, 진짜로 로봇이 아니라 곰 인형을 정확히 사 왔는지 확인하는 거예요.
 2. **효율성**: 그 곰 인형을 살 때, 엄마가 주신 용돈을 낭비하지 않고 아주 싸고 빠르게 배송받았는지 확인하는 거예요.

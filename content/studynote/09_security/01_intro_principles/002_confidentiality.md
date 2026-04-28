@@ -188,6 +188,26 @@ categories = ["Security", "Principles"]
 - **DRM (Digital Rights Management)** | 데이터가 조직 밖을 벗어난 이후에도 기밀성 통제력을 유지하는 기술
 - **개인정보보호법 (Privacy Law)** | 조직이 기밀성 통제를 강제적으로 구현해야 하는 강력한 법적 근거
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[접근 제어 (Access Control)]
+    │
+    ▼
+[암호학 (Cryptography)]
+    │
+    ▼
+[KMS (Key Management System)]
+    │
+    ▼
+[DRM (Digital Rights Management)]
+    │
+    ▼
+[개인정보보호법 (Privacy Law)]
+```
+
+이 흐름도는 접근 제어 (Access Control)에서 출발해 개인정보보호법 (Privacy Law)까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **기밀성**: 내 비밀 일기장을 허락받은 베프들만 볼 수 있게 하는 원칙이에요.
 2. **원리**: 일기장을 보려면 암호(접근제어)를 대야 하고, 일기 내용도 외계어(암호화)로 적혀 있어서 남들은 봐도 모르게 만들어요.

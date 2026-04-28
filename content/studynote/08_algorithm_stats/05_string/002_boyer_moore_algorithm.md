@@ -58,6 +58,20 @@ Result:  X X X X X A B C D X X X
 - **하위/변형**: Horspool Algorithm, Sunday Algorithm (스킵 성능 극대화)
 - **관련 자료구조**: 전처리 테이블 (Pre-processing Tables)
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[상위 개념: 문자열 탐색 (String Searching)]
+    │
+    ▼
+[하위/변형: Horspool Algorithm, Sunday Algorithm (스킵 성능 극대화)]
+    │
+    ▼
+[관련 자료구조: 전처리 테이블 (Pre-processing Tables)]
+```
+
+이 흐름도는 상위 개념: 문자열 탐색 (String Searching)에서 출발해 관련 자료구조: 전처리 테이블 (Pre-processing Tables)까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 책에서 특정 단어를 찾을 때, 첫 글자부터 안 보고 끝 글자를 먼저 본 다음 아니면 확 넘겨버리는 아주 똑똑한 방법이에요.
 2. 줄을 서 있는 친구들 중 "철수"를 찾을 때, 뒤통수만 보고 아니면 다음 줄로 바로 가는 것과 같아요.

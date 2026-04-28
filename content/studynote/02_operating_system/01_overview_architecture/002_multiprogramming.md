@@ -190,6 +190,26 @@ categories = "studynote-operating-system"
 
 ---
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[컨텍스트 스위칭 (Context Switching)]
+    │
+    ▼
+[스케줄링 (Scheduling)]
+    │
+    ▼
+[스래싱 (Thrashing)]
+    │
+    ▼
+[인터럽트 (Interrupt)]
+    │
+    ▼
+[메모리 보호 (Memory Protection)]
+```
+
+이 흐름도는 컨텍스트 스위칭 (Context Switching)에서 출발해 메모리 보호 (Memory Protection)까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 다중 프로그래밍은 컴퓨터가 **"여러 가지 일을 한꺼번에 하는 법"**을 배운 거예요.
 2. 예전에는 동영상이 다운로드될 때까지 아무것도 못 하고 기다렸다면, 이제는 다운로드되는 동안 게임도 하고 숙제도 할 수 있게 된 거랍니다.

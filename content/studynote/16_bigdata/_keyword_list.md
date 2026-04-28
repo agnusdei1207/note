@@ -91,7 +91,7 @@ weight = 9999
 13. Spark 배포 모드 — Local / Standalone / YARN / Kubernetes / Mesos
 14. Executor / Driver / Cluster Manager — Spark 실행 구조
 15. Shuffle 최적화 — spark.sql.shuffle.partitions, AQE 코어리스
-16. 데이터 직렬화 — Kryo > Java, 성능 차이
+16. Spark 직렬화 최적화 (Kryo) — Kryo > Java, 성능 차이
 17. Broadcast Join — 소규모 테이블을 모든 Executor에 복사
 18. Skew Join — 데이터 쏠림 해결 (AQE 자동 분할)
 19. 파티션 최적화 — repartition / coalesce, 코어 수 × 2~4
@@ -276,7 +276,7 @@ weight = 9999
 
 1. 금융 빅데이터 — 신용평가 / 이상거래탐지(FDS) / 리스크 관리 / 알고트레이딩
 2. 의료 빅데이터 — 전자의무기록(EMR) / 유전체 분석 / 임상 예측 / 신약 개발
-3. 공공 빅데이터 — 교통 예측 / 범죄 예방 / 도시 계획 / 행정 서비스 개선
+3. 공공 데이터 활용 — 교통 예측 / 범죄 예방 / 도시 계획 / 행정 서비스 개선
 4. 제조 빅데이터 — 예지 정비(PdM) / 불량 감지 / 에너지 최적화
 5. 유통·물류 빅데이터 — 수요 예측 / 재고 최적화 / 배송 경로 최적화
 6. 미디어 빅데이터 — 시청 분석 / 콘텐츠 추천 / 광고 타겟팅

@@ -146,6 +146,26 @@ trusted_df = raw_df.dropna(subset=["sensor_value"]) \
 - **Data Contract** | 데이터 생산자와 소비자 간에 데이터 구조와 품질(SLA)을 프로그래밍적으로 보장하는 합의
 - **Data Mesh** | 중앙 집중형 레이크의 병목을 풀고 도메인 중심으로 가치(Value) 있는 데이터 제품을 생산하는 분산 구조
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[Data Governance]
+    │
+    ▼
+[Data Lineage]
+    │
+    ▼
+[Master Data Management (MDM)]
+    │
+    ▼
+[Data Contract]
+    │
+    ▼
+[Data Mesh]
+```
+
+이 흐름도는 Data Governance에서 출발해 Data Mesh까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 3V는 장난감 상자에 온갖 블록이 산처럼 쌓이고 계속 쏟아지는 상태예요.
 2. 하지만 부서진 블록이나 먼지 묻은 블록으로는 멋진 성을 만들 수 없죠. 그래서 깨끗한 진짜 블록만 골라내는 과정이 바로 'Veracity(정확성)'예요.

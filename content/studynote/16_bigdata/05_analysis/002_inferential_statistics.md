@@ -69,6 +69,20 @@ categories = "studynote-bigdata"
 * **검정 기법**: t-test, ANOVA, Regression, Correlation
 * **핵심 지표**: Confidence Level (95%), Standard Error, p-value
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[확률 분포: Normal, t, Chi-square, F-distribution]
+    │
+    ▼
+[검정 기법: t-test, ANOVA, Regression, Correlation]
+    │
+    ▼
+[핵심 지표: Confidence Level (95%), Standard Error, p-value]
+```
+
+이 흐름도는 확률 분포: Normal, t, Chi-square, F-distribution에서 출발해 핵심 지표: Confidence Level (95%), Standard Error, p-value까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 국의 간을 볼 때 냄비 전체를 다 마셔보지 않고 한 숟가락만 떠서 먹어보는 것과 같아요.
 2. 한 숟가락의 맛(표본)을 보고 "아, 냄비 전체(모집단)가 짜구나"라고 짐작하는 것이 추론 통계랍니다.

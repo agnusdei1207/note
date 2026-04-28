@@ -190,7 +190,7 @@ weight = 9999
 
 ---
 
-## 4. PKI 심화 / 인증 프로토콜 — 48개
+## 4. PKI 심화 / 인증 프로토콜 — 49개
 
 162. CRL (Certificate Revocation List) — 폐지 인증서 목록
 163. OCSP (Online Certificate Status Protocol) — 실시간 인증서 상태 질의
@@ -304,7 +304,7 @@ weight = 9999
 
 ---
 
-## 6. 네트워크 보안 심화 — 50개
+## 6. 네트워크 보안 심화 — 55개
 
 266. MITM (Man-in-the-Middle) 공격 — 통신 경로 가로채기
 267. SSL Stripping — HTTPS→HTTP 강제 다운그레이드
@@ -605,14 +605,14 @@ weight = 9999
 537. OpenID Connect — OAuth 2.0 기반 SSO
 538. OIDC Discovery — 자동 설정 메타데이터
 539. Claims — OIDC의 사용자 속성
-540. Scope — 요청하는 정보 범위 (openid/profile/email)
+540. OIDC Scope (OpenID Connect Scope) — 요청하는 정보 범위 (openid/profile/email)
 541. PKCE in OIDC — Authorization Code 보호
 542. OAuth 2.0 vs OIDC — 델리게이션 vs 인증
 543. Federation — 조직 간 신뢰 기반 ID 공유
 544. Trust Relationship — federation 파트너 간 신뢰
 545. eduGAIN — 학술 기관간 federation
 546. Shibboleth — SAML 기반 federation
-547. LDAP — 디렉터리 서비스 프로토콜
+547. LDAP 기반 인증/조회 — 디렉터리 서비스 프로토콜
 548. Active Directory — Microsoft 디렉터리 서비스
 549. Azure AD / Microsoft Entra ID — 클라우드 신원
 550. Azure AD Connect — 온프레미스 AD 클라우드 연동
@@ -815,7 +815,7 @@ weight = 9999
 727. バックドア — 정상software伪装된 후면入口
 728. 드롭퍼 (Dropper) — 다단계 Downloader
 729. Downloader — 원격에서 추가 악성코드 가져옴
-730. 랜섬웨어 (Ransomware) — 파일 암호화 후 몸값
+730. 랜섬웨어 공격 체인 — 파일 암호화 후 몸값
 731. CryptoLocker — 2014년 대규모 랜섬웨어
 732. WannaCry — 2017년 글로벌, EternalBlue 활용
 733. NotPetya — 2017년 Ukraine 전력网攻击
@@ -832,7 +832,7 @@ weight = 9999
 744. botnet — 다수의 bots 집합
 745. botnet 구조 — 중앙집중형 (C&C)/P2P
 746. C2 (Command and Control) — 봇넷 지휘 통제
-747. Cobalt Strike — 침투 테스트용 C2
+747. Cobalt Strike Beacon — 침투 테스트용 C2
 748. APT (Advanced Persistent Threat) — 국가/조직적 위협
 749. APT 그룹 — Lazarus(北한국), FIN7(범죄조직), APT29(러시아)
 750. APT 공격 단계 — 정찰/침투/내부정찰/横向移动/유지/데이터반출
@@ -1019,7 +1019,7 @@ weight = 9999
 916. Secure Boot — 부팅 과정 소프트웨어 무결성 검증
 917. rantai-root-of-trust — 신뢰의 근원
 918. RoT 구성要素 — CRTM, Bootloader, Bootloader certificates
-919. Measured Boot — TPM利用, boot 측정값 기록
+919. TPM 원격 증명 (Remote Attestation) — TPM 측정값을 원격에서 검증하는 과정
 920. 펌웨어 업데이트 보안 —签名驗證, 롤백 방지
 921. MQTT 보안 — TLS, 인증, ACL
 922. BACnet — 건물 자동화 프로토콜

@@ -136,6 +136,26 @@ categories = "studynote-bigdata"
 
 ---
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[Data Locality]
+    │
+    ▼
+[Data Gravity]
+    │
+    ▼
+[Lift-and-Shift]
+    │
+    ▼
+[Re-architect]
+    │
+    ▼
+[Trino/Presto]
+```
+
+이 흐름도는 Data Locality에서 출발해 Trino/Presto까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 
 1. 온프레미스는 학교 도서관처럼 책(데이터)과 독서실(계산)이 한 건물에 있어서 빠르게 찾아볼 수 있어요.

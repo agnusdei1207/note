@@ -148,6 +148,26 @@ categories = "studynote-computer-architecture"
 | 일렉트로마이그레이션 (Electromigration) | 과도한 전류 밀도가 만든 배선 열화 |
 | 파워 게이팅 (Power Gating) | 누설 전류를 줄이기 위한 대표 기법 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[전압 (Voltage)]
+    │
+    ▼
+[저항 (Resistance)]
+    │
+    ▼
+[전력 (Power)]
+    │
+    ▼
+[일렉트로마이그레이션 (Electromigration)]
+    │
+    ▼
+[파워 게이팅 (Power Gating)]
+```
+
+이 흐름도는 전압 (Voltage)에서 출발해 파워 게이팅 (Power Gating)까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 
 1. 전류는 전기 알갱이들이 길을 따라 실제로 움직이는 흐름이에요.

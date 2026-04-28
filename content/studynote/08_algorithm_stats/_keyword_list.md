@@ -78,8 +78,8 @@ weight = 9999
 19. 최소 컷 (Min Cut) — Max-Flow Min-Cut 정리
 20. 오일러 경로/회로 — Fleury / Hierholzer
 21. 해밀턴 경로 — NP-완전, 백트래킹
-22. 외판원 문제 (TSP) — NP-hard, DP+비트마스크
-23. 최장 공통 부분수열 (LCS) — DP, O(mn)
+22. 최소 비용 최대 유량 (Min-Cost Max-Flow) — 네트워크 최적화, 비용 최소화
+23. 중국 우편배달 문제 (Chinese Postman Problem) — 모든 간선 순회, 그래프 순회 최적화
 24. 최장 증가 부분수열 (LIS) — DP / 이진 탐색
 
 ---

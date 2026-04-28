@@ -73,6 +73,20 @@ categories = "studynote-bigdata"
 
 ---
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[상위 개념: Data Governance, Data Lake]
+    │
+    ▼
+[하위 개념: Data Catalog, Metadata, Data Lineage]
+    │
+    ▼
+[연관 개념: Data Wrangling, Data Quality, Dark Data]
+```
+
+이 흐름도는 상위 개념: Data Governance, Data Lake에서 출발해 연관 개념: Data Wrangling, Data Quality, Dark Data까지 이어지며, 중간 단계가 기초 개념을 실무 구조로 발전시키는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **데이터 늪**: 장난감 상자에 장난감을 정리 안 하고 막 집어넣어서, 나중에는 밑바닥에 뭐가 있는지 알 수 없게 된 상태예요.
 2. **문제점**: 좋아하는 로봇을 찾고 싶은데, 부서진 인형과 쓰레기가 섞여 있어서 찾기가 너무 힘들어요.
