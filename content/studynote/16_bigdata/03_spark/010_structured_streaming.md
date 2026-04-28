@@ -79,6 +79,28 @@ categories = "studynote-bigdata"
 
 ---
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[배치 처리 (Batch Processing) — 정해진 주기 대규모 데이터 처리]
+    │
+    ▼
+[스트리밍 처리 (Streaming) — 실시간 연속 데이터 처리]
+    │
+    ▼
+[Spark Streaming (DStream) — RDD 기반 마이크로 배치]
+    │
+    ▼
+[Structured Streaming — DataFrame API 기반 연속 처리]
+    │
+    ▼
+[워터마크 (Watermark) — 지연 데이터 처리 기준 시간 설정]
+    │
+    ▼
+[Delta Live Tables — 선언형 스트리밍 파이프라인 자동화]
+```
+Structured Streaming은 DStream의 복잡성을 DataFrame API로 추상화하여, 배치와 스트리밍을 통합하는 현대 실시간 파이프라인의 표준이 되었다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. "수도꼭지에서 물이 계속 나오는 것처럼, 멈추지 않고 들어오는 데이터를 바로바로 정리하는 기계예요."
 2. "예전에는 바가지로 물을 퍼 날랐다면(배치), 이제는 호스를 연결해서 물이 흐르는 대로 분류하는 것과 같아요."
