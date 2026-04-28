@@ -74,6 +74,26 @@ categories = ["studynote-bigdata", "hadoop"]
 - **Apache Tez**: 피그의 실행 속도를 높여주는 차세대 엔진
 - **ETL (Extract, Transform, Load)**: 피그의 주된 임무
 
+
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[Raw MapReduce (Java) — 낮은 수준 API, 반복적 보일러플레이트 코드]
+    │
+    ▼
+[Apache Pig (Pig Latin) — 데이터 흐름 스크립팅 언어, MapReduce 자동 변환]
+    │
+    ▼
+[Apache Hive (HiveQL) — SQL 기반 배치 질의, 메타스토어 스키마 관리]
+    │
+    ▼
+[Apache Spark (DataFrame / SQL) — 인메모리 처리로 Pig/Hive 대비 10~100배 가속]
+    │
+    ▼
+[Apache Flink / Beam — 스트림·배치 통합 파이프라인, Pig 역할의 현대적 계승]
+```
+이 흐름은 저수준 MapReduce 코드를 단순화하기 위해 등장한 Pig Latin이 데이터 변환 파이프라인의 초기 표준이 되고, 이후 인메모리 처리와 스트림 통합 요건에 의해 Spark·Flink로 계승되는 하둡 생태계 데이터 처리 추상화의 발전을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 - 아주 어려운 수학 문제를 풀 때, 공식을 매번 증명해서 풀려면 너무 힘들겠지? (자바 맵리듀스)
 - 피그는 선생님이 미리 만들어둔 '만능 계산기'에 문제 순서만 입력하면 답을 내주는 도구야.

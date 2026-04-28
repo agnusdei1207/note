@@ -55,6 +55,26 @@ categories = "studynote-bigdata"
 - **핵심 기술:** Kryo Serializer, Java Serializer, Tungsten Engine
 - **연관 기술:** Apache Arrow, Protobuf, Avro, Shuffle
 
+
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[Java 기본 직렬화 (Java Serialization) — 느리고 무거운 리플렉션 기반, Spark 기본값]
+    │
+    ▼
+[Kryo 직렬화 — 수동 등록 필요하나 Java 대비 10배 빠름, Spark 권장]
+    │
+    ▼
+[Apache Avro — 스키마 진화 지원, Kafka 메시지 직렬화 표준]
+    │
+    ▼
+[Apache Parquet — 컬럼 지향 파일 포맷, 스키마 내장·압축 최적화]
+    │
+    ▼
+[Apache Arrow — 인메모리 컬럼 포맷, 직렬화 없는 Zero-copy 공유, Spark 4.x+ 내부 표준]
+```
+이 흐름은 Spark 내부 데이터 이동의 직렬화 오버헤드를 줄이기 위해 Java→Kryo→Avro/Parquet를 거쳐 직렬화 자체를 없애는 Zero-copy Arrow 포맷으로 수렴하는 분산 처리 직렬화 기술의 발전을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 - 커다란 레고 성(메모리 객체)을 다른 집으로 보낼 때, 그대로 보낼 수 없으니 다 분해해서 상자(바이너리)에 담는 과정이에요.
 - 상자에 담을 때 대충 담으면 상자가 너무 많아지는데(Java), 아주 꾹꾹 잘 눌러 담으면 상자 수를 줄일 수 있어요(Kryo).

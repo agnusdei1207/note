@@ -218,6 +218,26 @@ Dev/Prod Parity가 고도화되면, 단순히 버그를 줄이는 것을 넘어 
 - **Testcontainers** (통합 테스트 시 운영과 동일한 DB/Message Queue 도커 컨테이너를 일회성으로 띄워주는 자바 라이브러리)
 - **Cloud Development Environments (CDE)** (로컬 PC의 제약을 벗어나 클라우드 상에서 Parity를 극대화하는 최신 개발 플랫폼)
 
+
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[수동 환경 구성 — 개발자별 PC 설정 차이, 'Works on my machine' 문제]
+    │
+    ▼
+[12-Factor App — 환경별 설정 외부화, 서비스 어태치먼트 표준화]
+    │
+    ▼
+[Docker 컨테이너화 — 실행 환경 이미지 패키징, OS 수준 일치 보장]
+    │
+    ▼
+[IaC (Infrastructure as Code) — Terraform/Ansible로 인프라 구성 코드화, 환경 편류 방지]
+    │
+    ▼
+[CDE (Cloud Development Environments) — GitHub Codespaces 등, 클라우드 프로비저닝 즉시 프로덕션 동일 환경]
+```
+이 흐름은 개발자 로컬 환경과 프로덕션 간의 불일치를 단계적으로 제거하면서, 코드와 인프라 모두를 선언적으로 관리하고 클라우드 상의 개발 환경으로 수렴하는 DevOps Parity 달성의 진화 경로를 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 셰프가 집 부엌(개발)에서 연습한 요리를 식당 주방(운영)에서 똑같이 만들려면 요리 도구와 가스레인지 불 세기가 완전히 똑같아야 해요.
 2. 만약 집에서는 인덕션을 쓰고 식당에서는 숯불을 쓰면, 연습 때 완벽했던 요리도 실전에서는 다 타버릴 수 있어요.

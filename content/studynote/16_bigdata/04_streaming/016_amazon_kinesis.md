@@ -185,6 +185,26 @@ Amazon Kinesis Data Streams는 **AWS 생태계 내 스트리밍의 표준 솔루
 | AWS Lambda | 소비자 통합 | Kinesis 트리거로 서버리스 처리 |
 | Consumer Lag | 모니터링 개념 | Kinesis에서는 GetRecords.MillisBehindLatest |
 
+
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[배치 수집 (Batch Ingestion) — 주기적 ETL 파이프라인, 높은 지연]
+    │
+    ▼
+[Amazon Kinesis Data Streams — 실시간 스트림 수집, 샤드 기반 병렬 처리]
+    │
+    ▼
+[Kinesis Data Firehose — 무서버 스트림→S3/Redshift 자동 전달, 변환 내장]
+    │
+    ▼
+[Kinesis Data Analytics (Apache Flink) — SQL·Flink로 스트림 실시간 분석]
+    │
+    ▼
+[Lambda Architecture / Kappa Architecture — 배치+스트림 통합 또는 스트림 단일화 아키텍처]
+```
+이 흐름은 배치 처리의 높은 지연 한계를 극복하기 위해 Amazon Kinesis가 실시간 스트림 수집의 관리형 표준으로 자리잡고, 저장·분석 레이어와 결합하여 엔드투엔드 실시간 파이프라인 아키텍처로 진화하는 스트리밍 데이터 처리의 계보를 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 
 Amazon Kinesis는 AWS가 운영하는 컨베이어 벨트예요. 공장(여러분의 앱)에서 물건(데이터)을 올려놓으면 벨트가 알아서 다음 장소(Lambda, S3)로 이동시켜 줘요. 직접 벨트를 만들고 수리할(Kafka 운영) 필요 없이 AWS에 빌리면 되니까 처음 시작하기 훨씬 쉬워요!
