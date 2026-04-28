@@ -170,6 +170,25 @@ categories = "studynote-algorithm"
 
 ---
 
+
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[선형 자료구조 (Array / Linked List) — 1차원 순서 관계]
+    │
+    ▼
+[트리 (Tree) — 계층 관계, 사이클 없는 연결 그래프]
+    │
+    ▼
+[그래프 (Graph) — 정점(V) + 간선(E), 방향/무방향·가중/비가중]
+    │
+    ▼
+[BFS (Breadth-First Search) / DFS (Depth-First Search) — 그래프 탐색]
+    │
+    ▼
+[최단 경로 (Dijkstra·Bellman-Ford·Floyd-Warshall) → 네트워크 플로우]
+```
+그래프는 트리보다 일반적인 관계를 표현하며, BFS/DFS 탐색을 기반으로 최단 경로·위상 정렬·네트워크 플로우 알고리즘으로 확장된다.
 ### 👶 어린이를 위한 3줄 비유 설명
 
 1. 그래프는 도시 지도야—도시(정점)들을 도로(간선)로 연결하고, 일방통행 도로는 방향 간선이야.

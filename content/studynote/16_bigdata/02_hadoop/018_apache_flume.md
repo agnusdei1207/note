@@ -64,6 +64,25 @@ categories = ["studynote-bigdata", "hadoop"]
 - **Reliability (신뢰성)**: 플룸이 보장하는 트랜잭션 전송 능력
 - **Data Ingestion**: 수집(Ingest) 기술의 핵심 범주
 
+
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[로그 파일 (Log Files) — 서버·애플리케이션 이벤트 기록, 분산 생성]
+    │
+    ▼
+[아파치 플룸 (Apache Flume) — Source→Channel→Sink 파이프라인 수집]
+    │
+    ▼
+[HDFS / HBase — 플룸 싱크(Sink) 대상, 대용량 저장]
+    │
+    ▼
+[아파치 카프카 (Apache Kafka) — 고처리량 스트리밍, 플룸의 현대적 대안]
+    │
+    ▼
+[스트림 처리 (Stream Processing: Flink·Spark Streaming) — 실시간 분석]
+```
+Apache Flume은 Source-Channel-Sink 아키텍처로 분산된 로그를 HDFS로 안정적으로 전송하며, 현재는 Kafka와 혼용되거나 대체되고 있다.
 ### 👶 어린이를 위한 3줄 비유 설명
 - 수많은 집에서 나오는 쓰레기를 청소차가 수거해서 커다란 쓰레기 처리장(하둡)으로 옮기는 것과 같아.
 - 플룸은 각 집 앞에 서 있는 '똑똑한 쓰레기통'인데, 쓰레기가 가득 차면 트럭에 실어서 안전하게 보내줘.

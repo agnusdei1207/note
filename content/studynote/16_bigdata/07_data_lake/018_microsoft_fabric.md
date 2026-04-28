@@ -160,6 +160,25 @@ Microsoft Fabric은 2023년 GA(General Availability) 이후 Microsoft 최대 데
 
 ---
 
+
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[분산 데이터 웨어하우스 (Distributed DW) — 구조화 데이터, SQL 중심]
+    │
+    ▼
+[데이터 레이크 (Data Lake) — 비정형·반정형 포함, 스키마 온 리드]
+    │
+    ▼
+[Azure Synapse Analytics — DW + Lake 통합, SQL + Spark 혼용]
+    │
+    ▼
+[Microsoft Fabric — OneLake 단일 저장소, 통합 SaaS 분석 플랫폼]
+    │
+    ▼
+[Lakehouse 아키텍처 (Delta Lake / OneLake) — ACID + 분석 통합 표준화]
+```
+Microsoft Fabric은 OneLake라는 단일 저장소 위에 데이터 엔지니어링·과학·BI를 통합한 SaaS 분석 플랫폼으로, Lakehouse 아키텍처의 완성형이다.
 ### 👶 어린이를 위한 3줄 비유 설명
 1. Microsoft Fabric은 학교의 모든 과목(데이터 수집, 분석, ML, 보고서)을 하나의 교실(Fabric)에서 배우는 통합 수업이에요.
 2. OneLake는 반 전체가 쓰는 공용 책장이에요. 모두가 같은 책(데이터)을 쓰니 똑같은 책을 여러 권 살 필요가 없어요.
