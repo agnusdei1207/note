@@ -202,6 +202,26 @@ Exactly-Once Semantics는 **스트리밍 신뢰성의 최고 수준**이다. 기
 | Idempotent Sink | 대안 방식 | 2PC 없이 Exactly-Once 효과 |
 | At-Least-Once | 하위 수준 | Exactly-Once의 비교 기준 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[최대 1회 (At-Most-Once) — 손실 허용]
+    │
+    ▼
+[최소 1회 (At-Least-Once) — 중복 허용]
+    │
+    ▼
+[정확히 1회 (Exactly-Once Semantics) — 완전 보장]
+    │
+    ▼
+[분산 트랜잭션 (Distributed Transaction) — 2PC 커밋]
+    │
+    ▼
+[멱등 프로듀서 (Idempotent Producer) — 트랜잭션 API Kafka]
+```
+
+이 흐름은 손실을 허용하는 최대 1회와 중복을 허용하는 최소 1회 사이에서 출발해, 분산 트랜잭션과 멱등성으로 정확히 1회를 구현하는 발전을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 
 은행 ATM에서 돈을 뽑을 때 "계좌에서 돈이 나가는 것"과 "현금이 나오는 것"이 동시에 정확히 한 번만 일어나야 해요. 정전이 나서 현금이 안 나왔는데 잔액만 줄었다면(At-Least-Once 실패), 아니면 현금은 나왔는데 잔액이 안 줄었다면(중복 처리) 모두 큰일이죠! Exactly-Once는 "ATM이 어떤 상황에서도 딱 한 번만 거래가 일어나도록 보장"하는 것이에요.

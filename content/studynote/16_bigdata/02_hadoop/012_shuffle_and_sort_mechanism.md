@@ -52,6 +52,26 @@ categories = "studynote-bigdata"
 - **관련 파라미터**: mapreduce.task.io.sort.mb, mapreduce.map.output.compress
 - **진화된 기술**: Spark Shuffle, Zero-copy Transfer
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[맵 출력 (Map Output) — 키-값 쌍 생성]
+    │
+    ▼
+[파티셔닝 (Partitioning) — 리듀서 할당]
+    │
+    ▼
+[정렬 및 병합 (Sort and Merge) — 로컬 디스크 처리]
+    │
+    ▼
+[셔플 (Shuffle) — 네트워크 전송]
+    │
+    ▼
+[리듀서 입력 (Reducer Input) — 그룹화·집계]
+```
+
+이 흐름은 맵 단계의 출력을 파티셔닝과 로컬 정렬로 묶은 뒤, 셔플을 통해 리듀서로 보내 집계하는 데이터 이동 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 각 반 아이들이 흩어져서 자기들이 가진 사탕을 색깔별로 분류한 뒤 쪽지를 썼어(Map).
 2. 이제 빨간 사탕 쪽지는 빨간색 바구니로, 파란 사탕 쪽지는 파란색 바구니로 보내는 과정이야(Shuffle).

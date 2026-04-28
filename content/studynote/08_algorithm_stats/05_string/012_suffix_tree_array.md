@@ -66,6 +66,26 @@ Suffix Tree (Visual):         Suffix Array (Ordered Indices):
 - **유사 개념**: FM-Index, SAM (Suffix Automaton)
 - **하위 기술**: LCP Array, Ukkonen's, SA-IS
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[접미사 (Suffix) — 문자열의 모든 꼬리 부분]
+    │
+    ▼
+[접미사 트리 (Suffix Tree) — O(n) 구축 압축 트리]
+    │
+    ▼
+[접미사 배열 (Suffix Array) — 메모리 효율적인 정렬 배열]
+    │
+    ▼
+[LCP 배열 (Longest Common Prefix Array) — 인접 접미사 공통 접두사 길이]
+    │
+    ▼
+[버로우스-휠러 변환 (BWT, Burrows-Wheeler Transform) — 압축과 DNA 검색 응용]
+```
+
+이 흐름은 모든 접미사를 압축 트리로 담아낸 뒤, 더 가벼운 배열과 LCP로 정리하고 BWT까지 연결해 검색과 압축 응용으로 확장되는 발전을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. "가나다라마"라는 책의 모든 페이지 끝부분부터 시작하는 조각들을 다 모아서 가나다순으로 정리한 '슈퍼 인덱스'예요.
 2. 트리는 거대한 가지를 뻗어 길을 찾는 지원군이고, 배열은 번호표를 붙여 깔끔하게 줄을 세운 줄서기예요.

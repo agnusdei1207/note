@@ -145,6 +145,26 @@ categories = "studynote-bigdata"
 
 ---
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[그래프 이론 (Graph Theory) — 관계 표현]
+    │
+    ▼
+[힘 기반 레이아웃 (Force-Directed Layout) — 노드 배치]
+    │
+    ▼
+[인터랙티브 시각화 (Interactive Visualization) — D3.js/Gephi]
+    │
+    ▼
+[커뮤니티 탐지 (Community Detection) — 클러스터 색상]
+    │
+    ▼
+[AR/VR 네트워크 시각화 (Immersive Analytics) — 몰입형 분석]
+```
+
+이 흐름은 그래프 관계를 힘 기반 배치로 펼치고, 인터랙티브 도구와 커뮤니티 탐지를 거쳐 AR/VR 몰입형 분석으로 확장되는 과정을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 
 1. 네트워크 시각화는 반 친구들의 친구관계를 그림으로 그리는 것처럼, 누가 누구와 연결되어 있는지 한눈에 보여줘요.

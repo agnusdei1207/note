@@ -74,6 +74,26 @@ categories = "studynote-bigdata"
 
 ---
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[그래프 이론 (Graph Theory) — 정점/엣지 모델]
+    │
+    ▼
+[스파크 GraphX (Apache Spark GraphX) — 분산 그래프 처리]
+    │
+    ▼
+[Pregel API (Pregel Computation Model) — 정점 중심 반복]
+    │
+    ▼
+[PageRank / 연결 요소 (PageRank / Connected Components) — 대표 알고리즘]
+    │
+    ▼
+[그래프프레임즈 (GraphFrames) — 데이터프레임 기반 확장]
+```
+
+이 흐름은 그래프 이론을 Spark 위에 올려 GraphX와 Pregel로 반복 계산을 수행하고, PageRank와 GraphFrames로 분석 범위를 넓히는 발전을 보여준다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. "수많은 친구 관계가 얽힌 학교 지도를 그리는 기술이에요. 누가 가장 인기가 많은지 찾아낼 수 있죠."
 2. "점과 선으로 이루어진 복잡한 그물을 아주 커다란 컴퓨터 수백 대가 나눠서 분석하는 거예요."

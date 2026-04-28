@@ -122,6 +122,26 @@ categories = "studynote-bigdata"
 | FDS (Fraud Detection System) | 금융 이상 탐지의 대표 응용 |
 | SHAP (SHapley Additive exPlanations) | 이상 탐지 결과의 설명 가능성 도구 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[통계적 방법 (Statistical Method) — 기준선 이탈 탐지]
+    │
+    ▼
+[머신러닝 기반 (ML-based) — Isolation Forest/Autoencoder]
+    │
+    ▼
+[시계열 분석 (Time-series Analysis) — 계절성 제거]
+    │
+    ▼
+[스트리밍 탐지 (Streaming Detection) — 실시간 처리]
+    │
+    ▼
+[설명 가능 AI (XAI, Explainable AI) — 탐지 근거 제공]
+```
+
+이 흐름은 통계적 기준선에서 출발해 머신러닝, 시계열, 스트리밍으로 정교해지고, 마지막에 XAI로 탐지 이유를 설명하는 방향으로 발전한다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 - 이상 탐지는 "보통과 다른 것"을 자동으로 찾아내는 거예요. 모든 사과 중에 썩은 사과 하나를 찾는 것처럼요.
 - 컴퓨터가 "정상이 어떻게 생겼는지"를 먼저 배우고, 그것과 많이 다른 것이 나타나면 "이상하다!"고 알려줘요.

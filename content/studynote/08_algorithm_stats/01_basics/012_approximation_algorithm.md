@@ -240,6 +240,41 @@ weight = 12
          └─────────────────────────────────┘
 ```
 
+### 📌 관련 개념 맵
+
+| 개념 | 연결 포인트 |
+|:---|:---|
+| **NP-난해 문제 (NP-Hard Problem)** | 정확한 최적해를 다항 시간에 찾기 어려운 대상 |
+| **근사비 (Approximation Ratio)** | 해의 품질을 이론적으로 보장하는 척도 |
+| **PTAS (Polynomial-Time Approximation Scheme)** | 원하는 정밀도를 임의로 조절하는 근사 체계 |
+| **FPTAS (Fully Polynomial-Time Approximation Scheme)** | 입력 크기와 정밀도 모두에 대해 다항 시간 보장 |
+
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[NP-난해 문제 (NP-Hard Problem) — 정확 해 불가]
+    │
+    ▼
+[근사 알고리즘 (Approximation Algorithm) — 다항 시간 근사]
+    │
+    ▼
+[근사비 (Approximation Ratio) — 품질 보장]
+    │
+    ▼
+[PTAS (Polynomial-Time Approximation Scheme) — 임의 정밀도]
+    │
+    ▼
+[FPTAS (Fully Polynomial-Time Approximation Scheme) — 완전 다항 시간 근사]
+```
+
+이 흐름은 정확한 최적해가 어려운 NP-난해 문제를 다항 시간 근사로 바꾸고, 근사비와 PTAS/FPTAS로 품질과 정밀도를 점점 높여 가는 과정을 보여준다.
+
+### 👶 어린이를 위한 3줄 비유 설명
+
+1. 근사 알고리즘은 정답을 꼭 딱 맞히지 않아도, 아주 괜찮은 답을 빨리 찾는 똑똑한 길찾기예요.
+2. 얼마나 괜찮은지는 근사비로 약속해서, 너무 엉뚱한 답을 막아줘요.
+3. PTAS와 FPTAS는 그 약속을 더 정밀하고 빠르게 맞추는 업그레이드예요.
+
 ## 참고
 - 모든 약어는 반드시 전체 명칭과 함께 표기
 - 일어/중국어 절대 사용 금지
