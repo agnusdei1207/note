@@ -228,6 +228,25 @@ LEFT JOIN users u ON c.user_id = u.user_id;
 | Exactly-Once | 신뢰성 | Flink SQL 체크포인팅으로 달성 |
 | CEP | 확장 기능 | Flink의 복합 이벤트 패턴 감지 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[정적 배치 SQL — 저장된 테이블 대상 질의]
+    │
+    ▼
+[스트리밍 SQL — 흐르는 스트림에 SQL 적용]
+    │
+    ▼
+[Window 연산 (TUMBLE·HOP·SESSION) — 시간 구간 집계]
+    │
+    ▼
+[Watermark — 이벤트 지연 허용 및 집계 완료 트리거]
+    │
+    ▼
+[ksqlDB (Kafka) / Flink SQL — 프로덕션 스트리밍 SQL 표준]
+```
+정적 SQL 문법을 흐르는 스트림에 적용하고, 창(Window)과 워터마크(Watermark)로 시간 지연을 처리하며, ksqlDB와 Flink SQL이 각각 Kafka·범용 스트리밍 표준으로 자리잡는 흐름이다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 
 스트리밍 SQL은 "흐르는 물에 낚시 그물을 치는 것"이에요. SQL(그물 모양)만 설명하면 시스템이 알아서 계속 물고기(데이터)를 잡아줘요. ksqlDB는 Kafka 강에 사는 물고기 전용 그물, Flink SQL은 모든 강에서 쓸 수 있는 표준 그물, Spark SQL 스트리밍은 기존 낚시터(Spark)에 새 그물을 추가한 거예요!
