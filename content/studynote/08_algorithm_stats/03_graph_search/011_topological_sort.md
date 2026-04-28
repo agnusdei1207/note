@@ -165,6 +165,26 @@ longest[v] = max(longest[u] + weight(u,v)) for all u→v
 | SCC (Strongly Connected Components) | 관련 | 사이클 그래프를 DAG로 변환 |
 | Apache Airflow | 실무 활용 | DAG 기반 워크플로우 엔진 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[방향 비순환 그래프 (DAG — Directed Acyclic Graph) — 위상 정렬의 전제 조건]
+    │
+    ▼
+[진입 차수 (In-degree) 기반 탐색 — Kahn 알고리즘으로 순서 결정]
+    │
+    ▼
+[깊이 우선 탐색 (DFS) 기반 위상 정렬 — 후위 순회로 역순 배치]
+    │
+    ▼
+[빌드 의존성 해소 (Build Dependency) — Make·Gradle에서 컴파일 순서 결정]
+    │
+    ▼
+[작업 스케줄링 (Task Scheduling) — 선행 작업 제약을 지키는 CPM·PERT 경로 분석]
+```
+
+이 흐름은 DAG 구조 파악에서 실무 빌드 시스템·프로젝트 스케줄링까지 위상 정렬이 적용되는 맥락을 나타낸다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 
 1. 🍳 라면을 끓일 때 물을 먼저 끓이고, 그 다음 면을 넣고, 마지막에 스프를 넣는 것처럼 순서가 정해진 작업을 늘어놓는 것이 위상 정렬이다.

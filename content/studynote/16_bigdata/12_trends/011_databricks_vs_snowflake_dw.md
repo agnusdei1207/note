@@ -102,6 +102,26 @@ Databricks vs Snowflake (레이크하우스 vs DW (Data Warehouse) 진영 경쟁
 | 레이크하우스 | 플랫폼 경쟁과 연결되는 핵심 축 |
 | DW | 플랫폼 경쟁과 연결되는 핵심 축 |
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[전통 데이터 웨어하우스 (Traditional DW) — 정형 데이터·SQL·온프레미스 배치]
+    │
+    ▼
+[클라우드 DW 등장 (Cloud DW) — 스토리지/컴퓨트 분리, 탄력적 확장]
+    │
+    ▼
+[Snowflake — 멀티클러스터 공유 데이터·SQL 분석 최적화 서버리스 DW]
+    │
+    ▼
+[Databricks (레이크하우스) — Delta Lake 위에서 SQL·ML·스트리밍 통합]
+    │
+    ▼
+[레이크하우스 아키텍처 (Lakehouse) — DW 구조화 + 데이터 레이크 유연성 융합]
+```
+
+이 흐름은 전통 DW에서 클라우드 DW를 거쳐 Snowflake·Databricks 경쟁 구도와 레이크하우스 통합 아키텍처로 발전하는 데이터 플랫폼 진화를 나타낸다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 
 1. Databricks vs Snowflake (레이크하우스 vs DW (Data Warehouse) 진영 경쟁)은 일을 하기 전에 "어떤 규칙으로 할지" 먼저 정하는 거예요.

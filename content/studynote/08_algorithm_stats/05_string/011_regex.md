@@ -209,6 +209,26 @@ DFA 특성:
 
 ---
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[정규 언어 (Regular Language) — 유한 오토마타(FA)로 인식 가능한 패턴 집합]
+    │
+    ▼
+[NFA (Nondeterministic Finite Automaton) — 정규 표현식을 자동 변환]
+    │
+    ▼
+[DFA (Deterministic Finite Automaton) — NFA를 결정적 오토마타로 변환, 매칭 수행]
+    │
+    ▼
+[PCRE (Perl Compatible Regular Expressions) — 역참조·룩어헤드 확장, 실무 표준]
+    │
+    ▼
+[ReDoS (정규식 서비스 거부) 취약점 — 지수적 백트래킹 악용 보안 위협 대응]
+```
+
+이 흐름은 이론적 정규 언어에서 실무 PCRE 표준, 보안 위협까지 정규 표현식의 이론-실무-보안 연결 고리를 나타낸다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 
 1. 정규 표현식은 "이런 패턴을 가진 문자 찾기" 레시피야—"숫자 3개+하이픈+숫자 4개"처럼 규칙을 적으면 컴퓨터가 자동으로 찾아줘.

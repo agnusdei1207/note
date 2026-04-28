@@ -73,6 +73,26 @@ categories = "studynote-bigdata"
 
 ---
 
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[원시 피처 데이터 (Raw Feature Data) — DataFrame·RDD로 메모리 로딩]
+    │
+    ▼
+[피처 엔지니어링 (Feature Engineering) — MLlib Pipeline으로 전처리·변환]
+    │
+    ▼
+[모델 학습 (Model Training) — 분산 클러스터 병렬 알고리즘 수행]
+    │
+    ▼
+[모델 평가 (Model Evaluation) — CrossValidator·TrainValidationSplit]
+    │
+    ▼
+[모델 배포 (Model Serving) — MLflow·Spark Structured Streaming 연동]
+```
+
+이 흐름은 Spark MLlib가 피처 전처리부터 분산 학습·평가·서빙까지 머신러닝 파이프라인을 일원화하는 과정을 나타낸다.
+
 ### 👶 어린이를 위한 3줄 비유 설명
 1. "전교생 수만 명의 키와 몸무게 데이터를 보고, 어떤 아이가 운동을 잘할지 한꺼번에 알아맞히는 똑똑한 로봇 선생님이에요."
 2. "혼자서 공부하는 게 아니라, 친구 로봇 수백 명과 함께 문제를 나눠서 풀기 때문에 아주 빠르게 정답을 찾아요."
