@@ -1,194 +1,154 @@
 +++
 weight = 24
-title = "24. Apache Spark 3.5+ 개선사항 — 최신 기능 및 Python API 강화"
-date = "2026-04-21"
+title = "24. Apache Spark 3.5 주요 개선 사항"
+date = "2026-04-29"
 [extra]
 categories = "studynote-bigdata"
 +++
 
 ## 핵심 인사이트 (3줄 요약)
-
-- **본질**: Apache Spark 3.5+ (2023~)는 ANSI SQL 표준 호환성 대폭 확대, Spark Connect (클라이언트-서버 분리 아키텍처), Python UDF 벡터화 강화, PySpark DataFrame API 개선을 통해 데이터 엔지니어링 생산성과 원격 접근 유연성을 동시에 높였다.
-- **가치**: Spark Connect는 클라이언트와 Spark 클러스터를 gRPC 프로토콜로 분리하여, 로컬 Python 환경에서 원격 클러스터를 직접 제어할 수 있게 함으로써 데이터 과학자의 개발-운영 경계를 허물고 보안성도 높인다.
-- **판단 포인트**: Spark 3.5+의 ANSI SQL 강화는 기존 non-ANSI 동작에 의존하던 쿼리가 오류를 발생시킬 수 있어 마이그레이션 시 `spark.sql.ansi.enabled` 설정을 단계적으로 활성화하고 기존 쿼리를 사전 검증해야 한다.
+> 1. **본질**: Apache Spark 3.5는 2023년 릴리스되어 Python API (PySpark)의 기능 강화, Spark Connect (원격 클라이언트 연결), ANSI SQL 지원 확대, 구조화된 스트리밍(Structured Streaming) 고도화를 통해 데이터 엔지니어링·ML 워크플로우의 생산성과 이식성을 높인 메이저 버전이다.
+> 2. **가치**: Spark Connect는 Spark 서버에 경량 클라이언트로 원격 접속하여 Jupyter Notebook·로컬 IDE에서 클러스터 Spark를 직접 활용할 수 있게 하여 개발 경험(DX)을 대폭 향상시키며, Python UDTF (User-Defined Table Function)와 PyArrow 기반 최적화로 PySpark 성능 격차를 줄였다.
+> 3. **판단 포인트**: Spark 3.5의 ANSI 모드 강화는 기존 Spark 코드와의 호환성 이슈를 일으킬 수 있다 — 기존 코드에서 NULL 처리·정수 오버플로우 등 ANSI 미준수 동작에 의존했다면 마이그레이션 전 회귀 테스트가 필수다.
 
 ---
 
 ## Ⅰ. 개요 및 필요성
 
-### 1. Spark 3.x 계열의 진화 맥락
+Apache Spark 3.5는 Spark 3.x 시리즈의 주요 기능 업데이트로, 사용 편의성·성능·SQL 표준 준수를 중점적으로 개선했다.
 
-| 버전 | 핵심 변화 | 출시 시점 |
-|:---|:---|:---|
-| Spark 3.0 | AQE 도입, Accelerator-aware 스케줄링 | 2020.06 |
-| Spark 3.1 | K8s Production Ready, SQL 개선 | 2021.03 |
-| Spark 3.2 | Pandas API on Spark, RocksDB StateStore | 2021.10 |
-| Spark 3.3 | ANSI SQL 강화, Protobuf 지원 | 2022.06 |
-| Spark 3.4 | Spark Connect Preview, PySpark UDF 개선 | 2023.04 |
-| Spark 3.5 | Spark Connect GA, Python Connect SDK, ANSI 확대 | 2023.09 |
+```text
+┌──────────────────────────────────────────────────────────┐
+│          Spark 3.5 핵심 개선 영역                          │
+├──────────────────────────────────────────────────────────┤
+│  1. Spark Connect — 경량 원격 클라이언트 연결               │
+│  2. Python UDTF — 테이블 반환 Python 함수                  │
+│  3. ANSI SQL 강화 — 표준 SQL 호환성 확대                   │
+│  4. Structured Streaming — 상태 관리 고도화                │
+│  5. PySpark + PyArrow — 데이터 교환 성능 향상              │
+│  6. Spark SQL 함수 확장 — 300+ 신규 함수 추가              │
+└──────────────────────────────────────────────────────────┘
+```
 
-### 2. 왜 Spark 3.5+가 중요한가
-
-빅데이터 생태계가 점차 Python 중심으로 이동하고, 원격 개발(클라우드 클러스터에서 로컬 IDE로 작업)이 보편화되면서, Spark의 아키텍처도 이에 맞게 진화해야 했다.
-
-**📢 섹션 요약 비유**
-> Spark 3.5는 "기존 대형 공장에 원격 제어 시스템(Spark Connect)을 설치한 것"이다. 공장 안에 직접 들어가지 않아도(드라이버 직접 접속 불필요) 밖에서 태블릿으로 모든 기계를 제어할 수 있다.
+- **📢 섹션 요약 비유**: Spark 3.5는 자동차의 대형 서비스다. 엔진(코어 처리) 튜닝, 내비게이션(SQL) 업그레이드, 원격 시동(Spark Connect), 연비 개선(PyArrow)이 동시에 이루어졌다.
 
 ---
 
 ## Ⅱ. 아키텍처 및 핵심 원리
 
-### 1. Spark Connect 아키텍처
+### Spark Connect 아키텍처
 
-Spark Connect (스파크 커넥트)는 클라이언트와 Spark 서버 간에 **Unresolved Logical Plan**을 gRPC/Protocol Buffers로 직렬화하여 전송하는 클라이언트-서버 분리 아키텍처다.
-
-```
-기존 Spark 아키텍처 (Spark 3.3 이전):
-┌────────────────────────────────────────────┐
-│  사용자 코드 + SparkSession (같은 프로세스) │
-│  → Cluster Manager → Executors             │
-└────────────────────────────────────────────┘
-
-Spark Connect 아키텍처 (Spark 3.4+):
-┌──────────────────────┐     gRPC      ┌──────────────────────────┐
-│  클라이언트 프로세스  │ ────────────→ │  Spark Connect Server    │
-│  (Python/Scala/Java)  │               │  (Spark 클러스터 내부)   │
-│  로컬 PC / Notebook   │ ←──────────── │  Logical Plan 실행       │
-└──────────────────────┘   결과 반환    └──────────────────────────┘
+```text
+[로컬 Python/Notebook 클라이언트]
+         │ gRPC 연결 (Protocol Buffers)
+         ▼
+[Spark Connect Server (클러스터)]
+         │
+         ▼
+[Spark 드라이버 → 익스큐터]
 ```
 
-### 2. Spark Connect의 장점
+Spark Connect 이전: 드라이버 JVM에 직접 연결 (언어 의존성, 버전 충돌).
+Spark Connect 이후: 임의 언어 클라이언트에서 안정적 원격 접속.
 
-| 장점 | 설명 |
-|:---|:---|
-| 클라이언트 격리 | 클라이언트 코드 오류가 Spark 서버에 영향을 주지 않음 |
-| 원격 개발 | 로컬 IDE에서 원격 클러스터에 직접 접속 |
-| 다양한 클라이언트 지원 | Python, Scala, Java, Go 클라이언트 독립 개발 가능 |
-| 보안 강화 | 클러스터 접근을 gRPC 레이어에서 인증·인가 |
-| 서버 안정성 | 클라이언트 충돌이 서버를 다운시키지 않음 |
-
-### 3. Python API 강화 항목
+### Python UDTF (User-Defined Table Function)
 
 ```python
-# Spark 3.5+ 주요 Python API 개선
+# Spark 3.5: Python UDTF — 1행 → 여러 행 반환
+from pyspark.sql.functions import udtf
 
-# 1. Python UDF Inlining (일부 Python UDF가 JVM 없이 처리)
-from pyspark.sql.functions import udf
-# Arrow-optimized Python UDF (Pandas UDF 자동 최적화 강화)
+@udtf(returnType="num: int, squared: int")
+class SquaredNumbers:
+    def eval(self, n: int):
+        for i in range(n):
+            yield i, i ** 2
 
-# 2. PySpark DataFrame에서 파이썬 타입 힌트 강화
-from pyspark.sql.types import IntegerType, StringType
-
-# 3. ANSI SQL 함수 추가 (Spark 3.5)
-spark.sql("SELECT TRY_CAST('abc' AS INT)")   # ANSI: NULL 반환 (예외 아님)
-spark.sql("SELECT TRY_SUM(col) FROM t")      # ANSI: 오버플로 시 NULL
-
-# 4. Spark Connect 클라이언트 사용
-from pyspark.sql import SparkSession
-# 원격 Connect 서버에 접속
-spark = SparkSession.builder \
-    .remote("sc://my-spark-server:15002") \
-    .getOrCreate()
-df = spark.read.parquet("hdfs:///data/")  # 원격 클러스터에서 실행
+spark.udtf.register("squared", SquaredNumbers)
+spark.sql("SELECT * FROM squared(5)").show()
 ```
 
-### 4. ANSI SQL 표준 강화 항목
-
-| 기능 | Spark 3.3 이전 | Spark 3.5 (ANSI 활성화) |
-|:---|:---|:---|
-| 정수 오버플로 | 래핑(오버플로 무시) | ArithmeticException 발생 |
-| 잘못된 CAST | NULL 반환 | 예외 발생 또는 TRY_CAST |
-| `TRY_` 함수군 | 미지원 | TRY_CAST, TRY_ADD, TRY_DIVIDE |
-| 서브쿼리 표준화 | 비표준 허용 | ANSI 표준 준수 강제 |
-| `DATE_TRUNC` 등 | 제한적 | 표준 날짜/시간 함수 완전 지원 |
-
-**📢 섹션 요약 비유**
-> Spark Connect는 "회사 VPN 없이 노트북에서 회사 서버에 직접 원격 접속하는 것"이다. 이전에는 서버 방에 직접 들어가거나 복잡한 터널을 뚫어야 했는데, 이제 인터넷에서 직접 gRPC로 안전하게 접속한다.
+- **📢 섹션 요약 비유**: UDTF는 마법 복사기다. 입력 1줄을 넣으면 여러 줄의 결과를 만들어낸다. 기존 UDF(1→1)와 달리 UDTF(1→n)는 데이터를 확장(Explode)하는 함수다.
 
 ---
 
 ## Ⅲ. 비교 및 연결
 
-### 1. Spark Connect vs Thrift Server
+| 버전 | 주요 특징 |
+|:---|:---|
+| **Spark 2.x** | DataFrame API, Spark SQL, ML lib |
+| **Spark 3.0** | AQE(Adaptive Query Execution), 동적 파티션 프루닝 |
+| **Spark 3.4** | Spark Connect 프리뷰, ANSI 강화 시작 |
+| **Spark 3.5** | Spark Connect GA, Python UDTF, Streaming 고도화 |
+| **Spark 4.0 (예정)** | Python-first API, 추가 통합 |
 
-| 비교 항목 | Thrift Server (기존) | Spark Connect (3.4+) |
-|:---|:---|:---|
-| 프로토콜 | JDBC/ODBC (Hive 호환) | gRPC + Protobuf |
-| 클라이언트 | BI 툴, SQL 클라이언트 | Python/Java/Go SDK |
-| 연산 표현력 | SQL만 가능 | 전체 DataFrame API |
-| 확장성 | 단일 Thrift 서버 | 다중 클라이언트 동시 접속 |
-| 클라이언트 격리 | 약함 | 강함 |
+AQE (Adaptive Query Execution, 적응형 쿼리 실행)는 Spark 3.0에서 도입되어 런타임 통계 기반으로 실행 계획을 동적으로 재최적화하는 기능으로, 3.5에서 더욱 안정화되었다.
 
-### 2. 연결 개념
-
-- **AQE (Adaptive Query Execution)**: Spark 3.0 도입, 3.5+에서 더 넓은 연산에 확장
-- **Photon Engine**: Databricks의 3.5+ 통합 강화
-- **Delta Lake 3.x**: Spark 3.5와 함께 UniForm(Iceberg 호환 레이어) 도입
-
-**📢 섹션 요약 비유**
-> Spark의 버전 진화는 "스마트폰 OS 업데이트"와 같다. 겉모습(API)은 비슷하지만 내부 엔진이 계속 빨라지고, 새 기능(Spark Connect)이 생기며, 표준(ANSI SQL)이 강화된다.
+- **📢 섹션 요약 비유**: AQE는 GPS 내비게이션의 실시간 경로 재탐색이다. 출발 전(컴파일 타임)에 최적 경로를 계획하지만, 실제 도로 상황(런타임 통계)에 따라 실시간으로 경로를 변경한다.
 
 ---
 
 ## Ⅳ. 실무 적용 및 기술사 판단
 
-### 1. Spark 3.5+ 마이그레이션 체크리스트
+### 실무 시나리오: Spark Connect 기반 노트북 개발 환경 구축
+데이터 과학 팀의 Jupyter Notebook에서 원격 Spark 클러스터 직접 활용.
 
-- [ ] ANSI SQL 테스트: `spark.sql.ansi.enabled=true`로 기존 쿼리 테스트 실행
-- [ ] 정수 오버플로 가능성 있는 컬럼에 `TRY_CAST`, `TRY_ADD` 도입
-- [ ] Python UDF 성능 검토: pandas_udf (Arrow 기반) 또는 Spark UDF로 최적화
-- [ ] Spark Connect 도입 검토: 클라이언트 격리 및 원격 개발 환경 개선
-- [ ] Delta Lake 버전: Spark 3.5에 맞는 Delta Lake 버전(3.x) 호환성 확인
+1. **기존**: 각 노트북 서버에 Spark 드라이버 설치, 버전 관리 복잡.
+2. **Spark Connect 도입**: Databricks/EMR Spark Connect Server 활성화.
+3. **클라이언트**: `pip install pyspark[connect]` 로컬 설치.
+4. **연결**: `SparkSession.builder.remote("sc://spark-server:15002").getOrCreate()`.
+5. **결과**: 로컬 Python 3.11 + 클러스터 Spark 3.5 독립적 버전 관리 가능.
 
-### 2. Spark Connect 도입 시 고려사항
+### 안티패턴
+- Spark 3.5로 업그레이드 시 ANSI 모드 변경으로 인한 기존 코드 동작 차이를 간과하는 안티패턴. 예를 들어 Spark 3.4 이전에서 `1/0`이 Infinity 반환 → 3.5 ANSI 모드에서 ArithmeticException 발생. 마이그레이션 전 전체 파이프라인 회귀 테스트가 필수다.
 
-```
-고려 사항 1: 네트워크 지연
-  로컬 클라이언트 → gRPC → 원격 서버
-  작은 결과 수집 시 RTT 추가 발생
-
-고려 사항 2: 클라이언트 독립 배포
-  클라이언트 버전과 서버 버전 호환성 관리 필요
-
-고려 사항 3: 인증/보안
-  gRPC TLS, 토큰 기반 인증 설정 필수
-```
-
-**📢 섹션 요약 비유**
-> Spark 3.5+ 마이그레이션은 "도로 규칙이 바뀐 교통 시스템 전환"이다. 새 표준(ANSI SQL)이 더 안전하지만, 기존 운전자(쿼리)가 구 습관(비표준 동작)을 바꾸는 과도기 충돌에 대비해야 한다.
+- **📢 섹션 요약 비유**: Spark 버전 업그레이드는 건물 리모델링이다. 구조(API)는 대부분 그대로지만, 전기 배선(ANSI 동작)이 바뀌어 기존 가전(코드)이 작동 안 할 수 있다.
 
 ---
 
 ## Ⅴ. 기대효과 및 결론
 
-### 1. 기대효과
-
-| 개선 항목 | 기대 효과 |
+| 기대효과 | 내용 |
 |:---|:---|
-| Spark Connect | 원격 개발 환경 표준화, 클라이언트 격리 |
-| ANSI SQL 강화 | SQL 표준 호환성 → 다른 엔진으로의 이식성 향상 |
-| Python API 강화 | Python 생태계와의 통합 심화, UDF 성능 개선 |
-| AQE 확장 | 더 넓은 쿼리 패턴에서 자동 최적화 |
+| **개발 편의성** | Spark Connect로 원격 클라이언트 지원 |
+| **Python 호환성** | Python UDTF, PyArrow 통합 강화 |
+| **SQL 표준화** | ANSI 준수 → 타 DB 이식성 향상 |
 
-### 2. 결론
+Spark 4.0은 Python-first 설계로 Scala API와 동등한 Python API를 목표로 하며, DataFrame API와 Dataset API의 Python 통합 강화가 예정되어 있다. Lakehouse 아키텍처(Delta Lake, Iceberg)와의 더 긴밀한 통합도 예고되어 있다.
 
-Apache Spark 3.5+는 단순한 버그 수정이 아니라 **아키텍처 수준의 진화**를 담고 있다. Spark Connect는 미래 클라우드 네이티브 환경에서 Spark의 위치를 재정의하며, ANSI SQL 강화는 Spark를 범용 SQL 엔진으로서의 표준화에 기여한다. 기술사 답안에서는 Spark Connect의 클라이언트-서버 분리의 의미와 ANSI SQL 마이그레이션 주의사항을 중심으로 서술하는 것이 효과적이다.
-
-**📢 섹션 요약 비유**
-> Spark 3.5+는 "빅데이터 플랫폼의 다음 세대 운영체제 버전"이다. 성능 개선(CPU 효율화)과 함께 원격 접속 표준(Spark Connect)을 도입하여, 데이터 엔지니어가 어디서나 클러스터를 다룰 수 있는 클라우드 네이티브 시대를 준비한다.
+- **📢 섹션 요약 비유**: Spark 3.5는 데이터 처리 도구상자의 최신 업그레이드다. 더 날카로운 도구(Python UDTF), 더 편한 손잡이(Spark Connect), 더 정확한 눈금(ANSI SQL)이 추가되어 장인(데이터 엔지니어)의 작업 효율이 높아진다.
 
 ---
 
 ### 📌 관련 개념 맵
 
-| 개념 | 관계 | 설명 |
-|:---|:---|:---|
-| Spark Connect | 핵심 신기능 | gRPC 기반 클라이언트-서버 분리 아키텍처 |
-| AQE | 확장 대상 | 3.5에서 더 많은 연산에 AQE 적용 범위 확대 |
-| Photon Engine | Databricks 대응 | Databricks의 Spark 3.5+ 기반 성능 엔진 |
-| ANSI SQL | 표준화 방향 | SQL 표준 준수로 이식성·예측 가능성 향상 |
-| PySpark | Python 생태계 | Python API 강화로 데이터 과학자 접근성 향상 |
+| 개념 | 연결 포인트 |
+|:---|:---|
+| **Spark Connect** | 경량 원격 클라이언트 연결; 개발 편의성 핵심 |
+| **AQE** | 런타임 적응형 쿼리 최적화; Spark 3.0+ |
+| **Python UDTF** | 1행→다행 반환 Python 함수; 3.5 신규 |
+| **ANSI SQL** | 표준 SQL 준수 강화; 호환성 이슈 주의 |
+| **Spark 4.0** | Python-first API; 차세대 버전 방향 |
+
+### 📈 관련 키워드 및 발전 흐름도
+
+```text
+[Spark 2.x — DataFrame API, SparkSQL 기반 확립]
+    │
+    ▼
+[Spark 3.0 — AQE, 동적 파티션 프루닝 도입]
+    │
+    ▼
+[Spark 3.4 — Spark Connect 프리뷰, ANSI 강화]
+    │
+    ▼
+[Spark 3.5 — Spark Connect GA, Python UDTF, Streaming↑]
+    │
+    ▼
+[Spark 4.0 — Python-first, Lakehouse 통합 강화]
+```
 
 ### 👶 어린이를 위한 3줄 비유 설명
 
-Spark 3.5는 마치 게임 앱 업데이트처럼, 더 빠르고(성능 개선) 더 많은 기기에서 플레이할 수 있게(Spark Connect: 원격 접속) 해줘요. 예전에는 게임 서버 컴퓨터 앞에 앉아야 했지만, 이제는 집에서 스마트폰(Python 클라이언트)으로 서버에 접속해서 플레이할 수 있답니다. SQL 규칙도 국제 표준(ANSI)에 맞게 더 엄격해져서 더 안전한 게임 환경이 됐어요!
+1. Spark 3.5는 슈퍼컴퓨터(클러스터)에 노트북(Spark Connect)으로 원격 접속해 쓸 수 있게 업그레이드된 것이에요!
+2. Python으로 수십억 개의 데이터를 처리하는 함수(UDTF)를 쉽게 만들 수 있고, SQL도 더 표준에 맞게 바뀌었어요.
+3. 이 업그레이드 덕분에 데이터 엔지니어들이 더 빠르고 편하게 빅데이터를 처리할 수 있답니다!
