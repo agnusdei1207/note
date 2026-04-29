@@ -1,185 +1,234 @@
 +++
-weight = 38
-title = "38. 컬럼 패밀리 저장소 (Wide-Column) - HBase, Cassandra (수십억 행의 시계열 로깅 데이터 쓰기 최적화)"
-date = "2026-04-05"
+title = "038. 와이드 컬럼 저장소 (Wide Column Store)"
+date = "2026-03-03"
 [extra]
 categories = "studynote-data-engineering"
 +++
 
-# 와이드 컬럼 저장소 (Wide-Column Store) - 수십억 행을擁する 시계열 데이터의王者
-
-> ⚠️ 이 문서는 수십억 개의 행을 수평 확장(scale-out)하여 저장할 수 있는 와이드 컬럼 저장소(Wide-Column Store)의 대표 주자 Apache HBase와 Apache Cassandra의 아키텍처, 컬럼 패밀리(Column Family) 기반 데이터 모델, 그리고 시계열/로그 데이터 처리에서의 활용을 심층 분석합니다.
-
-## 핵심 인사이트 (3줄 요약)
-> 1. **본질**: 와이드 컬럼 저장소는"하나의 행(Row)에 수십만 개의 任意的 컬럼(Column)을 저장할 수 있으며, 동일 행 내에서 자주 查询되는 컬럼들만別도로 인덱스화하여-disk I/O를 극적으로 줄이는'列指向 스토리지'의一种"이다.
-> 2. **가치**: IoT 센서 로그(시계열 데이터), SNS 사용자 행동 로그,クリック stream처럼"행 키로 특정 사용자를 지정하고, 해당 사용자에 연관된 모든 타임스탬프별イベント를 수평 확장된 노드에 고속写入"하는 시나리오에 최적화되어 있습니다.
-> 3. **융합**: HBase는 HDFS 위에서 작동하여 Hadoop 생태계(Hive, Spark)와의 seamless한 통합을 제공하고, Cassandra는 멀티 데이터센터 복제와 WAN 환경의 높은 가용성을 제공하는 등 서로 다른 철학을 가지고 있습니다.
+> **핵심 인사이트**
+> 1. 와이드 컬럼 저장소(Wide Column Store)는 행 키(Row Key)로 데이터를 분산 저장하되, 각 행이 서로 다른 컬럼 집합을 가질 수 있는 스파스 매트릭스 구조로, 스키마가 행마다 다를 수 있는 반정형 대용량 데이터에 최적화되어 있다.
+> 2. 파티션 키(Partition Key) 설계가 Cassandra/HBase 성능의 90%를 결정 — 파티션 키가 핫스팟(Hot Spot)을 만들거나 너무 세밀하면 분산 효과가 사라지며, "쿼리 중심 데이터 모델링(Query-Driven Modeling)"이 관계형 DB의 정규화와 완전히 다른 설계 철학이다.
+> 3. Cassandra는 AP 시스템(가용성 우선, CAP 정리), HBase는 CP 시스템(일관성 우선) — 같은 와이드 컬럼이지만 일관성 모델이 다르므로 유스케이스를 구분하여 선택해야 한다.
 
 ---
 
-## Ⅰ. 개요 및 필요성 (Context & Necessity)
+## I. 와이드 컬럼 구조
 
-### 1. RDBMS의 행(Row) 기반 스토리지 문제: "불필요한 열까지 다 읽어야 해요"
-RDBMS는 **행 기반 스토리지(Row-oriented Storage)**입니다. 예를 들어 1억 명의 사용자가 있고, 각 사용자가 평균 1,000개의 이력을 가지고 있을 때,"user_id = 12345인 사용자의 최근 7일 접속 이력"만을 가져오고 싶다면?
-- **문제**: RDBMS는物理적으로“行”(사용자 1명의 모든 정보)을 한 단위로 저장합니다. 따라서"사용자 12345의 최근 7일 접속 이력"을 가져오려면, 사용자 12345의 해당 7일分の 행 전체를 읽어야 합니다. 이는 불필요한 컬럼(예: 주소, 생년월일, 가입일 등)을 모두磁盘에서 읽어야 한다는 의미이며, 이로 인해 **디스크 I/O가 급증**합니다.
+```
+관계형 DB (Row-Oriented):
+  Row:  id | name   | email          | age
+  Row1:  1 | Alice  | a@example.com  |  30
+  Row2:  2 | Bob    | b@example.com  | NULL
+  
+  -> 모든 행이 동일한 컬럼 구조
 
-### 2. 와이드 컬럼의 탄생: "한 행에 数万 컬럼을 저장할 수 있다면?"
-**와이드 컬럼(와이드 컬럼 스토어)**은 이 문제를 해결하기 위해 설계되었습니다.
-- **핵심 아이디어**: 각 행(Row)에"动态적으로数万 개의 任意的 컬럼"을 저장할 수 있습니다. 컬럼은 行 내부에서**정렬된 순서**로 저장되어, 특정 컬럼 Range만 읽는 것이 가능합니다.
-- **Cassandra 예시**: `SELECT clicks FROM user_events WHERE user_id = 12345 AND timestamp >= '2024-03-01' AND timestamp < '2024-03-08'`. 이 쿼리는 오직 `user_id=12345`인 행에서 `timestamp` 컬럼 범위만磁盘에서 읽습니다. 불필요한 컬럼은 읽지 않습니다.
-- **시계열 데이터 최적화**: 타임스탬프를 로우 키에 포함시켜,“특정 기간의 데이터”만을高效的하게 ス캔할 수 있습니다.
+와이드 컬럼 (Column Family):
+  Row Key: user:001
+    personal: {name: Alice, age: 30}
+    contact:  {email: a@example.com, phone: 010-...}
+  
+  Row Key: user:002
+    personal: {name: Bob}
+    social:   {twitter: @bob, github: bob-dev}
+    (contact 컬럼 패밀리 없음 -> 스파스)
 
-- **📢 섹션 요약 비유**: 와이드 컬럼 저장소는"고무줄 다이어리"와 같습니다. RDBMS는"각 페이지마다 오늘의 온도, 습도, 풍속, 미세먼지...,紫外线等 모든 항목을 한 페이지에印刷"하는 다이어리입니다.某一天"오늘의 온도만 비교"하고 싶어도, 그날 전체 페이지(행 전체)를 넘기며 모든 항목을 읽어야 합니다. 와이드 컬럼 다이어리는"각 항목(컬럼)마다 全날짜가 세로로 나열"되는 다이어리입니다.温度ページ만 펼치면, 全날짜의 온도가 연속으로排列되어 불필요한 항목은 전혀 읽을 필요가 없습니다.
-
----
-
-## Ⅱ. 핵심 아키텍처 및 원리 (Architecture & Mechanism)
-
-### 1. 와이드 컬럼 저장소 내부 구조
-
-```text
-┌─────────────────────────────────────────────────────────────┐
-│            [ 와이드 컬럼(Wide-Column) 저장소 내부 구조 ]                        │
-│                                                             │
-│   ★ Row Key + Column Family + Column Qualifier + Value 구조       │
-│                                                             │
-│   [ Row Key: "user:12345" ]                                     │
-│   ┌──────────────────────────────────────────────────────┐   │
-│   │  Column Family: 'info'                                   │   │
-│   │  ┌────────────────┬────────────────┐                   │   │
-│   │  │ Col: "name"    │ Val: "John"    │                   │   │
-│   │  │ Col: "age"     │ Val: "30"       │                   │   │
-│   │  │ Col: "city"    │ Val: "Seoul"    │                   │   │
-│   │  └────────────────┴────────────────┘                   │   │
-│   │                                                          │   │
-│   │  Column Family: 'events'                                  │   │
-│   │  ┌────────────────┬────────────────┐                   │   │
-│   │  │ Col: "20240301" │ Val: "click,A" │                   │   │
-│   │  │ Col: "20240302" │ Val: "click,B" │                   │   │
-│   │  │ Col: "20240303" │ Val: "scroll,X" │                   │   │
-│   │  │ ...                                               │   │
-│   │  │ Col: "20240399" │ Val: "..."       │ (수만 개 컬럼)    │   │
-│   │  └────────────────┴────────────────┘                   │   │
-│   └──────────────────────────────────────────────────────┘   │
-│                                                             │
-│   ★ 핵심 특성:                                                │
-│   - 동일 Row Key 내 컬럼은 정렬된 상태로 저장                   │
-│   - 특정 Column Range만 읽기 가능 (불필요 I/O 제거)              │
-│   - 각 Column Family는 독립적으로 압축/인코딩 가능               │
-└─────────────────────────────────────────────────────────────┘
+특징:
+  - 행마다 다른 컬럼 가능 (스파스 매트릭스)
+  - 컬럼 패밀리 단위로 물리 저장
+  - 컬럼 타임스탬프 내장 (버전 관리)
 ```
 
-### 2. Apache HBase vs Apache Cassandra 비교
-
-**Apache HBase:**
-- **아키텍처**: Master Server + Region Server 구조 (HDFS 위에서 작동)
-- **강점**: Hadoop 생태계와 perfect한 통합 (HiveQL, Spark 연동), Strong Consistency
-- **리더 선출**: ZooKeeper가 수행 (고정)
-- **적합 시나리오**: Hadoop 환경에서의 배치 분석 + 실시간 Random Access 혼합
-
-**Apache Cassandra:**
-- **아키텍처**: 완전 분산 P2P 구조 (마스터 없음, 모든 노드가 同等)
-- **강점**: 멀티 데이터센터 복제, WAN 환경에서 높은 가용성, 쓰기 최적화
-- **리더 선출**: Gossip 프로토콜 + Quorum ( Decentralized)
-- **적합 시나리오**: 글로벌 분산 IoT 센서 데이터, 쓰기 집중형 로그 수집
-
-### 3. LSM 트리 (Log-Structured Merge-Tree) 원리
-Cassandra와 HBase는 데이터를 저장할 때 **LSM 트리( Log-Structured Merge-Tree)**라는 구조를 使用합니다.
-- **작동 원리**:
-  1. **MemTable (메모리)**: 쓰기 요청이 오면 首先 MemTable(메모리)에 순차 기록(Append)
-  2. **MemTable 충족 → SSTable로 플러시**: MemTable이 가득 차면, 내용을 **SSTable(Sorted String Table)**이라 하는磁盘 파일로 순차 기록(순차 쓰기 = 高性能)
-  3. **컴팩션(Compaction)**: 여러 SSTable을バックグラウンドで 병합하여 불필요한舊데이터(수정/삭제된 데이터)를 정리
-- **왜 빠른가**: 전통적인 B-Tree는 디스크의 아무 위치에나 데이터를 기록(Random Write)하지만, LSM 트리는 모든 쓰기를 메모리 또는 순차적으로磁盘에 기록하여 **쓰기 속도를 극대화**합니다. 이는 **쓰기 버스트(Write Burst)가 빈번한 IoT 로그 수집**에 идеаль합니다.
+> 📢 **섹션 요약 비유**: 엑셀에서 모든 행에 같은 열을 채우는 대신, 각 학생이 자신에게 필요한 과목 열만 가지는 성적표 — 없는 과목은 칸 자체가 없음.
 
 ---
 
-## Ⅲ. 비교 및 기술적 트레이드오프 (Comparison & Trade-offs)
+## II. Apache Cassandra
 
-### 와이드 컬럼 vs RDBMS vs HDFS
-
-| 구분 | 와이드 컬럼 (Cassandra/HBase) | RDBMS | HDFS (Hadoop) |
-| :--- | :--- | :--- | :--- |
-| **확장 방식** | 수평 (自動 샤딩) | 수직 (Scale-up) | 수평 (DataNode 추가) |
-| **읽기 모델** | Column Range 기반 高效 | 행 전체 읽기 | 배치 중심 |
-| **쓰기 모델** | 초고속 (순차 쓰기) | 중상 (Random Write) | 배치 쓰기 위주 |
-| ** Consistency** | 결과적 ( tunable) | 강 일관성 | Eventually |
-| **트랜잭션** | 제한적 (행 수준) | ACID 완전 | 불가 |
-| **二级 인덱스** | 제한적 | 풍부 | 불가 |
-
-### Cassandra의 Tunable Consistency
-Cassandra의 가장 큰 특징 중 하나는 ** Consistency를 애플리케이션에서 조정(Tunable)할 수 있다는 점**입니다.
-- **ONE**: 1개 노드에서 응답 받으면成功 (가장 빠른 대신 일관성 낮음)
-- **QUORUM**: 과반수 노드에서 응답 (일관성과 성능의 균형점)
-- **ALL**: 全노드에서 응답 (강 일관성 but slowest, 1대 장애 시 使用不可)
-- **예시**: `CONSISTENCY QUORUM`으로 설정하면, 읽기 시 QUORUM에서 응답하고, 쓰기 시에도 QUORUM에 기록하여 **R + W > N**을 만족하여 항상 최신 데이터를 읽을 수 있습니다.
-
-- **📢 섹션 요약 비유**: Tunable Consistency는"레스토랑 주문 시스템"과 같습니다. 한 식당(노드)에서 주문이 실패했다고 해서 全식당이关门되지 않습니다. 고객이"고급宾馆급 정찬(ALL)"을 원하는지, "普通 식당中级套餐(QUORUM)"을 원하는지, "간이 식당快速 음식(ONE)"을 원하는지에 따라服务水平과等待 시간이 달라집니다. Cassandra는 이 세 가지 수준을 고객(개발자)이자유롭게選択할 수 있게 합니다.
-
----
-
-## Ⅳ. 실무 판단 기준 (Decision Making)
-
-| 고려 사항 | 세부 내용 | 주요 아키텍처 의사결정 |
-|:---|:---|:---|
-| **데이터 모델** | 시계열/로그 데이터 (Column Range查询 위주) | 와이드 컬럼 적합 |
-| **확장 요구** | 수십억 행 관리 필요 | Cassandra/HBase (Auto-sharding) |
-| **읽기/쓰기 비율** | 쓰기 비중 >> 읽기 비중 | LSM 트리 기반 와이드 컬럼 궁합 최고 |
-| **일관성 요구** | 금융/결제 (강 일관성 필수) | RDBMS 또는 Cassandra ALL 사용 |
-
-*(추가 실무 적용 가이드 - Cassandra 시계열 데이터 모델링)*
-- Cassandra에서 시계열 데이터를 모델링할 때,**ROW KEY + CLUSTERING COLUMN** 설계가 핵심입니다.
-```sql
-CREATE TABLE sensor_data (
-    sensor_id UUID,           -- Row Key (파티션 기준)
-    timestamp TIMESTAMP,      -- Clustering Column (정렬 기준)
+```
+Cassandra (Facebook 개발, Apache 오픈소스):
+  
+데이터 모델:
+  Keyspace -> Table -> Row -> Column
+  
+파티션 키 (Partition Key):
+  데이터가 저장될 노드를 결정
+  일관된 해싱(Consistent Hashing)으로 분산
+  
+클러스터링 컬럼 (Clustering Column):
+  파티션 내 데이터 정렬 기준
+  
+예시 테이블:
+  CREATE TABLE sensor_data (
+    device_id TEXT,         -- 파티션 키
+    timestamp TIMESTAMP,    -- 클러스터링 컬럼
     temperature FLOAT,
     humidity FLOAT,
-    PRIMARY KEY (sensor_id, timestamp)
-) WITH CLUSTERING ORDER BY (timestamp DESC);
+    PRIMARY KEY (device_id, timestamp)
+  );
+
+특성:
+  쓰기: 매우 빠름 (순차 LSM-Tree)
+  읽기: 파티션 키로 조회 시 빠름
+  일관성: 튜너블 (ONE/QUORUM/ALL)
+  CAP: AP (가용성 + 파티션 허용)
 ```
-- ** 설계 원칙**:
-  - **Row Key 선택**: 특정 시간 범위 내에서同一 센서의 데이터가 同一 파티션에 위치하도록 `sensor_id`를 포함
-  - **COMPACT STORAGE**: 시계열 데이터를time bucket 단위로 Rollover
-  - **TTL 활용**: `USING TTL 2592000` (30일 후 자동 삭제)로 오래된 시계열 데이터 자동 정리
 
-- **📢 섹션 요약 비유**: 실무 적용은"기상 관측 데이터 저장"와 같습니다. 全국의 각 기상관측소(센서)가每秒마다 온도, 습도, 풍속을Measuring하여 데이터베이스에 전송합니다. 과거 방식(RDBMS)은"각 관측소의 全항목을 全관측소分保存"했지만, 와이드 컬럼은"同一 관측소의 시간순 데이터를同一 파티션에 모으고, 필요시 해당 관측소+시간范围만 선택적抽出"합니다. 이렇게 하면 10년치 全기상 데이터를有序하게保存하면서도,"서울 지역 관측소들의 최근 1주일 온도 변화"를素早く Query할 수 있습니다.
+> 📢 **섹션 요약 비유**: Cassandra는 배달 기사들이 지역별로 나뉘어(파티션) 각자 담당 지역 배달 — 지역 내 빠른 배달, 전체 재고 파악은 느림.
 
 ---
 
-## Ⅴ. 미래 전망 및 발전 방향 (Future Trend)
+## III. Apache HBase
 
-1. **ScyllaDB: Cassandra 호환 + 높은 성능**
-   **ScyllaDB**는 Cassandra와 동일한 CQL(Cassandra Query Language)을 사용하면서, **C++으로 재작성**하여 JVM 기반 Cassandra 대비 10배 낮은 레이턴시와 더 예측 가능한 성능을 제공합니다. 특히 Cloud-Native 환경에서 **실시간 요구 높은 워크로드**(예: 실시간 광고 bidding)에 강점을 보입니다.
+```
+HBase (Google BigTable 아키텍처, Hadoop 기반):
 
-2. **와이드 컬럼 + Iceberg: 分析 친화적 접근**
-   Cassandra/HBase의实时写入能力和 **Apache Iceberg**의 테이블 포맷을 결합하는Architecture가 연구되고 있습니다. 실시간으로 유입되는 센서 로그를 와이드 컬럼에高速写入하면서도,_BACKGROUNDで Iceberg 포맷으로鳳殓하여 Spark/BigQuery로 대량 분석하는 하이브리드 파이프라인이 현실화되고 있습니다.
+구조:
+  HMaster (마스터) + RegionServer (워커)
+  HDFS 위에서 실행 (영속성)
+  
+Row Key가 사전순 정렬:
+  시계열 데이터: 타임스탬프를 reverse로
+  user:20241201 -> user:20241130 정렬
+  
+컬럼 패밀리 (Column Family):
+  물리적으로 같은 파일에 저장
+  패밀리 내 컬럼은 동적으로 추가 가능
+  
+특성:
+  CAP: CP (일관성 + 파티션 허용)
+  HDFS 기반 -> Hadoop 생태계 통합
+  Spark, Hive와 연동
 
-- **📢 섹션 요약 비유**: 와이드 컬럼 저장소의 미래는"초고속 버스 전용 차도 + 일반 차도"가 함께 있는 도심 도로와 같습니다. Cassandra/ScyllaDB는"고급 승용차(실시간 트랜잭션)"를위해 설계된 초고속 버스 전용 차로(실시간 쓰기)이고, Iceberg는"대형 화물차(배치 분석)"를위한 일반 차도입니다. 둘은同一 도시(데이터)를 연결하지만,각자의 특성에 맞는 차로(아키텍처)를 통해 이동하여 전체 도시의移動 효율을극대화합니다.
+Cassandra vs HBase:
+  Cassandra: 마스터리스, AP, 낮은 지연
+  HBase: 마스터 기반, CP, Hadoop 통합
+```
+
+| 특성     | Cassandra     | HBase         |
+|--------|--------------|--------------|
+| CAP    | AP           | CP           |
+| 마스터   | 마스터리스       | HMaster       |
+| Hadoop | 독립          | 필수 (HDFS)    |
+| 지연    | 낮음 (ms)     | 중간 (ms~초)   |
+
+> 📢 **섹션 요약 비유**: Cassandra는 여러 창고에 분산 보관(가용성 우선), HBase는 중앙 창고 관리자가 있어 정확한 재고 파악(일관성 우선).
 
 ---
 
-## 🧠 지식 맵 (Knowledge Graph)
+## IV. 쿼리 중심 모델링
 
-*   **와이드 컬럼(Wide-Column) 핵심 개념**
-    *   Row Key (행 키): 파티션 기준 ( shard key)
-    *   Column Family (컬럼 패밀리): 관련 컬럼 그롭
-    *   Column Qualifier (컬럼 한정자): 실제 컬럼명
-    *   Timestamp (타임스탬프): 동일 컬럼의 versioning
-*   **LSM 트리 (Log-Structured Merge-Tree)**
-    *   MemTable (메모리) → SSTable (디스크 순차 파일)
-    *  _compaction: SSTable 병합 및 old 버전 정리
-*   **Cassandra Consistency Level**
-    *   ONE / TWO / THREE (1~3개 노드 응답)
-    *   QUORUM (과반수 응답)
-    *   ALL (全노드 응답)
+```
+관계형 DB vs 와이드 컬럼 설계 철학:
+
+관계형:
+  "데이터를 어떻게 저장할까?" (정규화)
+  -> 나중에 어떤 쿼리든 JOIN으로 해결
+  
+와이드 컬럼:
+  "어떤 쿼리를 할 것인가?" (비정규화)
+  -> 쿼리 패턴에 맞게 테이블을 설계
+  -> JOIN 없음 (단일 테이블 조회 원칙)
+  
+예시: 사용자의 최근 주문 조회
+  관계형: users JOIN orders WHERE user_id = ?
+  Cassandra: 
+    orders_by_user 테이블 별도 생성
+    PRIMARY KEY (user_id, order_timestamp)
+    -> 단일 테이블 조회로 해결
+
+비정규화 trade-off:
+  중복 저장 증가 (디스크)
+  대신 빠른 읽기, 분산 용이
+```
+
+> 📢 **섹션 요약 비유**: 관계형은 서류를 원본 하나만 보관(정규화), Cassandra는 자주 쓰는 서류를 각 팀에 복사본 비치(비정규화) — 찾기 빠른 대신 저장 공간 더 씀.
 
 ---
 
-### 👶 어린이를 위한 3줄 비유 설명
-1. 와이드 컬럼 저장소는"학급 시간표"와 같아요.
-2. 가로축(날짜)이 이렇게 많고, 세로축(항목)이 이렇게 많은 표를 보면 우리 반만 펼쳐서 볼 수 있어요.
-3. 다른 학급(다른 Row Key)은 볼 필요가 없으니까 정말 빨라요!
+## V. 실무 시나리오 — IoT 센서 시계열
+
+```
+시나리오:
+  IoT 플랫폼: 100만 개 센서
+  각 센서: 1초마다 온도/습도 전송
+  초당 100만 건 쓰기
+
+Cassandra 설계:
+
+  파티션 키: (device_id, date)
+    예: ("sensor-001", "2025-03-03")
+    이유: 하루치 데이터를 한 파티션에
+    (device_id만 쓰면 파티션 무제한 성장)
+    
+  클러스터링 컬럼: timestamp DESC
+    최신 데이터 먼저 정렬
+    
+  쿼리 패턴:
+    최근 1시간 데이터 조회:
+    SELECT * FROM sensor_data
+    WHERE device_id = 'sensor-001'
+    AND date = '2025-03-03'
+    AND timestamp > 1h_ago
+    -> 단일 파티션 조회 -> 빠름!
+    
+성능:
+  쓰기: 초당 100만 건 (10노드 클러스터)
+  읽기: 10ms 이내 (파티션 키 조회)
+  가용성: 99.99% (RF=3, QUORUM)
+```
+
+> 📢 **섹션 요약 비유**: 파티션 키를 date 포함해서 자동 데이터 만료(TTL)처럼 관리 — 특정 날짜 파티션 전체를 일괄 삭제도 가능.
 
 ---
-<!-- [✅ Gemini 3.1 Pro Verified] -->
-> **🛡️ 3.1 Pro Expert Verification:** 본 문서는 구조적 무결성, 다이어그램 명확성, 그리고 기술사(PE) 수준의 심도 있는 통찰력을 기준으로 `gemini-3.1-pro-preview` 모델 룰 기반 엔진에 의해 직접 검증 및 작성되었습니다. (Verified at: 2026-04-05)
+
+## 📌 관련 개념 맵
+
+```
+와이드 컬럼 저장소
++-- 구조
+|   +-- 스파스 매트릭스 (행마다 다른 컬럼)
+|   +-- 컬럼 패밀리, 타임스탬프
++-- 대표 DB
+|   +-- Apache Cassandra (AP, 마스터리스)
+|   +-- Apache HBase (CP, Hadoop 기반)
++-- 설계 원칙
+|   +-- 쿼리 중심 모델링
+|   +-- 파티션 키 핫스팟 방지
++-- 응용
+    +-- IoT 시계열, 로그, SNS 피드
+    +-- 시간 범위 쿼리, 대규모 쓰기
+```
+
+---
+
+## 📈 관련 키워드 및 발전 흐름도
+
+```
+[Google BigTable (2004)]
+컬럼 패밀리 개념 정립
+      |
+      v
+[HBase (2007, Apache)]
+Hadoop 기반 BigTable 오픈소스 구현
+      |
+      v
+[Apache Cassandra (2008, Facebook)]
+마스터리스 분산, P2P 토폴로지
+      |
+      v
+[Cassandra Query Language (CQL, 2012)]
+SQL 유사 문법으로 접근성 향상
+      |
+      v
+[현재: 특수 목적 경쟁]
+시계열 전용: InfluxDB, TimescaleDB
+벡터 DB: Cassandra 5.0 벡터 지원
+```
+
+---
+
+## 👶 어린이를 위한 3줄 비유 설명
+
+1. 와이드 컬럼 저장소는 학생마다 다른 과목을 가질 수 있는 성적표처럼, 행마다 서로 다른 컬럼을 가질 수 있는 유연한 데이터 저장 방식이에요.
+2. Cassandra는 창고를 여러 곳에 분산해 항상 이용 가능하게 하고(AP), HBase는 중앙 창고 관리자가 정확한 재고를 보장해요(CP).
+3. IoT 기기 100만 대가 매초 데이터를 보내는 시스템에 Cassandra가 딱 맞는 이유는, 파티션 키로 데이터를 균등하게 분산해 초당 100만 건 쓰기를 처리할 수 있기 때문이에요!
