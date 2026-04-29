@@ -1,213 +1,188 @@
 +++
 weight = 31
-title = "31. 아파치 우지 (Apache Oozie) / 아파치 에어플로우 (Apache Airflow) - 복잡한 분산 파이프라인 작업 간 DAG 의존성 스케줄링 관리"
-date = "2026-04-05"
+title = "31. Oozie vs Airflow — 워크플로 스케줄러 비교"
+date = "2026-04-29"
 [extra]
 categories = "studynote-data-engineering"
 +++
 
-# 아파치 우지(Apache Oozie)와 에어플로우(Apache Airflow) - DAG 기반 분산 워크플로우 오케스트레이션
-
-> ⚠️ 이 문서는 복잡한 분산 데이터 파이프라인에서 다수의 작업(태스크) 간의 의존성, 스케줄링, 오류 처리를 자동화하는 워크플로우 오케스트레이터(Workflow Orchestrator)인 아파치 우지(Apache Oozie)와 아파치 에어플로우(Apache Airflow)의 아키텍처를 심층 분석합니다.
-
 ## 핵심 인사이트 (3줄 요약)
-> 1. **본질**: 워크플로우 오케스트레이터는 '任務(Task A)를 먼저 해야任務(Task B)를 할 수 있다'는 작업 간의 의존성 그래프(DAG, Directed Acyclic Graph)를 정의하고, 각任務의 성공/실패에 따라 다음任務을自動実行하거나 재시도하는 분산 파이프라인의 '지휘자(Conductor)' 역할을 수행한다.
-> 2. **가치**: 우지는 XML 기반의 declarative 정의와 하둡 네이티브 통합에 초점을 맞추고, 에어플로우는 Python 코드 기반의 programmatically한 정의와 풍부한 생태계, 그리고 直感적인 웹 UI를 제공하여 서로 다른 니즈(레거시 하둡 vs 현대 데이터 엔지니어링)에 대응한다.
-> 3. **융합**: 현대 데이터 파이프라인은 단순 ETL을 넘어 CDC, 스트리밍, ML 파이프라인, 알림 시스템, 데이터 품질 검사 등 다양한组件을 orchestrate해야 하며, 에어플로우의 DAG 스케줄링生态계가 사실상의 표준(De Facto Standard)으로 자리잡았다.
+> 1. **본질**: Apache Oozie는 Hadoop 생태계 전용 XML 기반 워크플로 스케줄러이고, Apache Airflow는 Python DAG 기반 범용 오케스트레이터다. 현대 데이터 엔지니어링에서는 Airflow가 사실상 표준(de facto)이 됐다.
+> 2. **가치**: Airflow의 핵심 강점은 ① Python 코드로 복잡한 의존성 표현, ② 풍부한 Operator(200+), ③ 강력한 모니터링 UI, ④ 클라우드 네이티브 통합(AWS/GCP/Azure)이다. 반면 Oozie는 레거시 Hadoop 환경에서 여전히 현역이다.
+> 3. **판단 포인트**: 마이그레이션 결정 기준: 온프레미스 Hadoop 전용이면 Oozie 유지, 클라우드 이전 계획이 있거나 클라우드 서비스 통합이 필요하면 Airflow 마이그레이션이 합리적이다.
 
 ---
 
-## Ⅰ. 개요 및 필요성 (Context & Necessity)
-
-### 1. 데이터 엔지니어링의 고통: "다음任务은 언제 실행되나요?"
-단순한 ETL(Extract-Transform-Load) 파이프라인이 아닌, 현실의 대규모 데이터 파이프라인은 다음과 같이복잡한 의존성을 가집니다.
-- "카프카(Kafka)에서 데이터를 꺼내서 스트리밍 처리한 뒤, 그 결과를 HDFS에 저장하고, 저장 완료 알림을 슬랙(Slack)에 보내고, 그 다음 머신러닝 모델 재훈련을 트리거하고, 재훈련이 완료되면 A/B 테스트를 실행하고..."
-- **문제점**: 이러한 복잡한 워크플로우를 크론(Cron) 스케줄러와 셸(Shell) 스크립트만으로 관리하면, "任务 3이 실패했는데任务 5는 이미 실행 중이었습니다. 어떻게 롤백합니까?"와 같은 管理不能한 상황이 발생합니다.
-
-### 2. DAG(방향성 비순환 그래프)의 탄생: "수학이 우리를解脱시켜준다"
-복잡한 작업 간 의존성을 해결하는 가장优雅한 방법은 **DAG(Directed Acyclic Graph)** 추상화를 도입하는 것입니다.
-- **DAG의 조건**: 모든 에지(Edge, 화살표)가 방향(방향성)이 있고, 순환(Cycle,闭环)이 존재하지 않는 그래프입니다.
-- **장점**: 각 노드는"이전 노드(parent)가 전부 성공했는가?"만을確認하면 되고, 순환이 없기에"某순간에 실행 가능한任务"를簡單히判別할 수 있습니다.
-- **우지의 접근**: XML에 workflow를 정의하고, Oozie의 Execution Engine이 DAG를 해석하여 작업을 스케줄링합니다.
-- **에어플로우의 접근**: Python 코드에 DAG를 정의하고(Airflow DAG 파일), 스케줄러가 이를 Periodic으로 실행합니다.
-
-- **📢 섹션 요약 비유**: DAG 워크플로우는 " строительство大楼의 공정 관리"와 같습니다. 1층 시공이 완료되어야 2층 벽체 시공을 진행할 수 있고, 2층 전기 시공이 완료되어야 3층 배관 공사를 진행할 수 있습니다. 이처럼"先行工程 완료"를 prerequisite로 설정하여 전체 공기를 논리적으로 组织的就是 DAG입니다.施工管理者(오케스트레이터)가 각 공정의 完成 여부를 체크하고,失敗하면 즉시 공사를 중단하며, 성공하면 다음 공정을自動的に 착공합니다.
-
----
-
-## Ⅱ. 핵심 아키텍처 및 원리 (Architecture & Mechanism)
-
-### 1. 아파치 우지(Apache Oozie) 아키텍처
+## Ⅰ. 개요 및 필요성
 
 ```text
-┌─────────────────────────────────────────────────────────────┐
-│              [ 아파치 우지(Apache Oozie) 아키텍처 ]                      │
-│                                                             │
-│   ┌─────────────────────────────────────────────────────┐   │
-│   │           Oozie Workflow (XML 정의)                        │   │
-│   │  <workflow-app name="my-wf" xmlns="...">               │   │
-│   │    <start to="ingest"/>                                │   │
-│   │    <action name="ingest">                               │   │
-│   │      <sqoop import/>                                     │   │
-│   │      <ok to="transform"/>                               │   │
-│   │      <error to="fail"/>                                │   │
-│   │    </action>                                            │   │
-│   │    <fork name="forking">                               │   │
-│   │      <path start="task-a"/>                            │   │
-│   │      <path start="task-b"/>                            │   │
-│   │    </fork>                                              │   │
-│   │    ...                                                   │   │
-│   │  </workflow-app>                                        │   │
-│   └─────────────────────────────────────────────────────┘   │
-│                         │                                    │
-│                         ▼                                    │
-│   ┌─────────────────────────────────────────────────────┐   │
-│   │  Oozie Server (웹 콘솔 + REST API + 코디네이션)           │   │
-│   │  - Workflow 엔진 (DAG 실행/모니터링)                      │   │
-│   │  - Coordinator (시간/데이터 기반 트리거)                    │   │
-│   │  - Bundle (여러 Coordinator 그룹화)                      │   │
-│   └─────────────────────────────────────────────────────┘   │
-│                         │                                    │
-│            ┌────────────┼────────────┐                     │
-│            ▼            ▼            ▼                       │
-│      [ MapReduce ]  [ Spark ]   [ Sqoop ]                   │
-│      [ HiveQL ]     [ shell ]   [ Distcp ]                  │
-│                                                             │
-│   ★ Oozie의 3가지 실행 단위:                                      │
-│   ┌────────────────────────────────────────────────────┐   │
-│   │  Workflow: 한 번의 DAG 실행 (One-off 파이프라인)           │   │
-│   │  Coordinator: 시간/데이터 기반 주기적 실행 (Recurring)       │   │
-│   │  Bundle: 여러 Coordinator의 집합 (모듈化管理)              │   │
-│   └────────────────────────────────────────────────────┘   │
-└─────────────────────────────────────────────────────────────┘
+워크플로 스케줄러 비교:
+
+  Oozie:                    Airflow:
+  workflow.xml              from airflow import DAG
+  <workflow-app>            from airflow.operators import *
+    <action name="hive">    
+      <hive>...</hive>      with DAG('etl', ...) as dag:
+      <ok to="next"/>         t1 = HiveOperator(...)
+      <error to="fail"/>      t2 = SparkSubmitOperator(...)
+    </action>                 t1 >> t2
+  </workflow-app>
+  
+  XML 설정 → Python 코드
+  복잡하고 장황 → 직관적
 ```
 
-### 2. 아파치 에어플로우(Apache Airflow) 아키텍처
+- **📢 섹션 요약 비유**: Oozie vs Airflow는 요리 레시피 형식이다. Oozie(XML)는 고대 문서처럼 태그로 작성해야 하고, Airflow(Python)는 자연스러운 한국어 레시피처럼 읽기 쉽고 작성하기 편하다.
+
+---
+
+## Ⅱ. 아키텍처 및 핵심 원리
+
+### Airflow 핵심 컴포넌트
+
+| 컴포넌트 | 역할 |
+|:---|:---|
+| **Scheduler** | DAG 파싱·실행 스케줄링 |
+| **Executor** | 태스크 실행 (Local/Celery/K8s) |
+| **Worker** | 실제 태스크 수행 |
+| **Metadata DB** | DAG·태스크 상태 저장 (PostgreSQL) |
+| **Webserver** | 모니터링 UI |
+| **DAG Bag** | DAG 파일 디렉토리 |
+
+### Airflow DAG 예시
+
+```python
+from airflow import DAG
+from airflow.providers.apache.hive.operators.hive import HiveOperator
+from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+from datetime import datetime
+
+with DAG(
+    dag_id='daily_etl',
+    schedule_interval='@daily',
+    start_date=datetime(2025, 1, 1),
+    catchup=False,
+) as dag:
+    
+    extract = HiveOperator(
+        task_id='extract',
+        hql='INSERT INTO staging SELECT * FROM raw WHERE date = "{{ ds }}"'
+    )
+    
+    transform = SparkSubmitOperator(
+        task_id='transform',
+        application='/jobs/transform.py',
+        application_args=['--date', '{{ ds }}']
+    )
+    
+    extract >> transform  # 의존성 정의
+```
+
+- **📢 섹션 요약 비유**: Airflow DAG는 요리 순서표다. Python으로 "재료 손질(extract) 다음에 조리(transform)"처럼 자연스럽게 의존 관계를 표현하고, 실패 시 어느 단계에서 멈췄는지 그래프로 한눈에 확인한다.
+
+---
+
+## Ⅲ. 비교 및 연결
+
+| 비교 | Oozie | Airflow | Prefect | Dagster |
+|:---|:---|:---|:---|:---|
+| 설정 방식 | XML | Python | Python | Python |
+| Hadoop 통합 | ✅ 최적 | ✅ Operator | ❌ | ❌ |
+| 클라우드 | △ 제한 | ✅ 풍부 | ✅ | ✅ |
+| UI | 기본 | 강력 | 강력 | 강력 |
+| 데이터 인식 | ❌ | △ | ✅ | ✅ |
+
+- **📢 섹션 요약 비유**: 4가지 스케줄러는 세대별 공장 자동화다. Oozie(1세대), Airflow(2세대 표준), Prefect·Dagster(3세대 클라우드 네이티브)로 발전했다.
+
+---
+
+## Ⅳ. 실무 적용 및 기술사 판단
+
+### Oozie → Airflow 마이그레이션 전략
 
 ```text
-┌─────────────────────────────────────────────────────────────┐
-│           [ 아파치 에어플로우(Apache Airflow) 아키텍처 ]                    │
-│                                                             │
-│   ┌─────────────────────────────────────────────────────┐   │
-│   │            Python DAG 파일 (코드로서의 파이프라인)               │   │
-│   │  with DAG('my_pipeline', schedule_interval='@daily') as dag: │   │
-│   │    t1 = BashOperator(task_id='extract', bash_command='...') │   │
-│   │    t2 = PythonOperator(task_id='transform', python_callable=) │   │
-│   │    t3 = BashOperator(task_id='load', bash_command='...')    │   │
-│   │    t1 >> t2 >> t3   # Dependency 설정 (비트 연산자)          │   │
-│   └─────────────────────────────────────────────────────┘   │
-│                         │                                    │
-│   ┌──────────┬──────────┬──────────┐                       │
-│   ▼          ▼          ▼          ▼                        │
-│ ┌──────────────────────────────┐                            │
-│ │   Airflow Scheduler (메트론)       │                            │
-│ │  - DAG 파일 파싱 및 토폴로지 分析     │                            │
-│ │  - Timer 기반 스케줄 트리거           │                            │
-│ │  - Task Instance 실행 지시 (Executor)│                            │
-│ └──────────────────────────────┘                            │
-│                         │                                    │
-│                         ▼                                    │
-│   ┌─────────────────────────────────────────────────────┐   │
-│   │              Executor (작업 실행자)                          │   │
-│   │  ┌─────────┐  ┌─────────┐  ┌─────────┐            │   │
-│   │  │ Sequential│  │ Celery  │  │  K8s    │            │   │
-│   │  │ (단일 테스트) │  │(분산 워커)│  │Executor │            │   │
-│   │  └─────────┘  └─────────┘  └─────────┘            │   │
-│   └─────────────────────────────────────────────────────┘   │
-│                         │                                    │
-│                         ▼                                    │
-│   ┌─────────────────────────────────────────────────────┐   │
-│   │            Airflow Webserver (UI + REST API)              │   │
-│   │   DAG 그래프 시각화 | 실행 이력 | 로그 확인 | 수동 트리거          │   │
-│   └─────────────────────────────────────────────────────┘   │
-│                                                             │
-│   ┌─────────────────────────────────────────────────────┐   │
-│   │              Metadata Database (SQLite/Postgres)           │   │
-│   │   Task Instance 상태 | DAG Runs | XCom (결과 공유)          │   │
-│   └─────────────────────────────────────────────────────┘   │
-└─────────────────────────────────────────────────────────────┘
+1단계: Oozie XML 분석
+  - workflow.xml → 태스크 그래프 추출
+  - coordinator.xml → 스케줄 패턴 추출
+
+2단계: Airflow DAG 변환
+  - Oozie Action → Airflow Operator 매핑
+  - Oozie OK/Error → Airflow trigger_rule
+  - Oozie 변수 → Airflow Jinja 템플릿
+
+3단계: 병행 운영
+  - 동일 파이프라인 양쪽 실행 비교
+  - 결과 일치 확인
+
+4단계: Oozie 종료
 ```
 
----
+### 관리형 Airflow 서비스
 
-## Ⅲ. 비교 및 기술적 트레이드오프 (Comparison & Trade-offs)
+```text
+AWS MWAA (Managed Workflows for Apache Airflow):
+  - Airflow 클러스터 관리 자동화
+  - VPC 통합, IAM 권한 관리
+  - 자동 스케일링
 
-### 우지(Oozie) vs 에어플로우(Airflow) 비교
+GCP Cloud Composer:
+  - GKE 기반 관리형 Airflow
+  - BigQuery·GCS 네이티브 통합
 
-| 구분 | Apache Oozie | Apache Airflow |
-| :--- | :--- | :--- |
-| **정의 방식** | XML (Declarative) | Python 코드 (Programmatic) |
-| **하둡 네이티브 통합** | ✅ 매우 강함 (MapReduce, Hive, Sqoop) | ⚠️ 연결器(Provider) 설치 필요 |
-| **DAG 정의 난이도** | 높음 (XML은 복잡한 로직에 부적합) | 낮음 (Python의 유연성) |
-| **템플릿 재사용** | 제한적 (HQL, Pig 스크립트) | 높음 (Python 함수, 매크로) |
-| **실행 결과 공유(XCom)** | 제한적 | ✅的强大 (Task 간 데이터 전달) |
-| **웹 UI/모니터링** | 기본적 | ✅ 매우 풍부 (그래프, Gantt, 로그) |
-| **커뮤니티/생태계** | 축소 추세 | ✅ 급속 성장 (Apache顶级项目) |
+Azure Data Factory:
+  - 비주얼 파이프라인 (GUI 방식)
+  - Airflow 아닌 독자 오케스트레이터
+```
 
-### 에어플로우의 Celery Executor vs Kubernetes Executor
-에어플로우에서 실제 작업을 실행하는 **Executor**의 종류에 따라 확장성과 운영 모델이 달라집니다.
-- **Celery Executor**: Redis/Broker를 통해 여러 台의 Worker(워커) 머신에 작업을 분산시킵니다. 수평 확장(Scale-out)이 용이하여 대규모 환경에 적합합니다.
-- **Kubernetes Executor**: 각 작업을 별도의 Pod(컨테이너)로 실행하여, 작업 완료 후 Pod를 정리(Auto-scaling)합니다. 리소스 격리와 다중-tenancy에 강하고, Cloud-Native 환경(AWS EKS, GCP GKE 등)에 최적화되어 있습니다.
-
-- **📢 섹션 요약 비유**: 우지와 에어플로우의 차이는 "음식 레시피를 적는 방법"과 같습니다. 우지는"단계별 양보你不要 단게까지 상세히 적어놓은精确한 조리법 책"입니다. 조리법 자체는详细하지만, 새로운 조리를 추가하거나 수정하려면 해당 부분을 다시書き加える必要があります. 에어플로우는"조리법을 Python 코드(programmatic)로 적어놓은 스마트 레시피 앱"입니다. 앱 안에서 새로운 레시피를追加하거나, 단계 사이에"5분 대기"를挿入하거나, 특정 단계에서 실패하면"사진을 찍어서 SNS에 올리고 管理자에게 Slack 알림"같은 부가 작업을 쉽게 연결할 수 있습니다.
+- **📢 섹션 요약 비유**: 관리형 Airflow는 클라우드 식당 렌탈이다. 직접 주방을 차리고 관리하는 대신(직접 설치), 식당 공간(AWS MWAA)을 빌려서 요리(DAG 작성)에만 집중할 수 있다.
 
 ---
 
-## Ⅳ. 실무 판단 기준 (Decision Making)
+## Ⅴ. 기대효과 및 결론
 
-| 고려 사항 | 세부 내용 | 주요 아키텍처 의사결정 |
-|:---|:---|:---|
-| **기존 기술 스택** | 기존 하둡 에코시스템 다수 사용 중 | 우지(Oozie) 우선 고려 |
-| **파이프라인 복잡도** | 단순 ETL 위주 | 에어플로우 선호 |
-| **팀 기술력** | Java/SQL 중심 | Python 사용 가능 | 에어플로우 선호 |
-| **확장성 요구** | 수십 개 DAG, 수백 개 작업 동시 실행 | Kubernetes Executor |
+| 기대효과 | 내용 |
+|:Episcopal: 내용 |
+|:---|:---|
+| **가시성** | DAG UI로 파이프라인 전체 상태 확인 |
+| **유연성** | Python으로 복잡한 의존성 표현 |
+| **통합성** | 200+ Operator로 모든 서비스 연결 |
 
-*(추가 실무 적용 가이드 - 에어플로우 DAG 설계 최적화)*
-- **传感器( Sensor) 패턴**: 특정 파일 도착, DB 테이블 업데이트, HTTP 엔드포인트 응답 등"External event"를 기다리는 작업을実装합니다. `FileSensor`, `HttpSensor`, `SqlSensor` 등을提供합니다.
-- **SubDAG 활용**: 동일한 구조의 반복 작업을 SubDAG로抽出하여コード重複을 줄입니다.
-- **XCom(_cross-communication)**: Task 간 결과를 Small 데이터(pickle 형태)로 전달합니다. 대용량 데이터는 직접 전달하지 않고,S3/GCS 등 스토리지에 업로드 후 경로만 전달하는 것이 좋습니다.
-- **리트라이(Retry) 정책**: `retries=3, retry_delay=timedelta(minutes=5)`로 설정하여 일시적故障에 자동으로 재시도합니다.
+LLM 기반 DAG 자동 생성이 등장하고 있다. "매일 새벽 2시에 S3에서 데이터 읽어서 BigQuery에 적재하고 실패 시 Slack 알림"을 자연어로 입력하면 Airflow DAG 코드를 자동 생성하는 도구가 실용화 단계에 있다. 데이터 엔지니어의 역할이 DAG 작성에서 요구사항 정의로 이동하고 있다.
 
-- **📢 섹션 요약 비유**: 실무 적용은 "극장 공연-productions"와 같습니다. 각 배우(Task)는台詞を完了해야만次の 배우가上台할 수 있습니다. Sensor는"관객이 全席 착석할 때까지开幕을 기다리는 관리자"와 같습니다. XCom은"무대감독이 이전 막에서 사용된 소품을次の 막에 전달하는 것"입니다. 리트라이는"배우가 대사를 깜빡했을 때、照明監督이"다시 한번!"라고再演指示를 내리는 것"입니다.
+- **📢 섹션 요약 비유**: LLM DAG 자동 생성은 AI 요리사다. "이런 요리를 만들어줘"라고 말하면 AI가 레시피(DAG)를 자동으로 작성해주는 것처럼, 데이터 파이프라인 코드를 자연어로 생성한다.
 
 ---
 
-## Ⅴ. 미래 전망 및 발전 방향 (Future Trend)
+### 📌 관련 개념 맵
 
-1. **에어플로우 2.0+: 세포사(Electron) 태스크와 Flexible 태스크”
-   에어플로우 2.0은以前の"한 번의 DAG 실행은 하나의 Worker에서全任务串차 실행"이라는 제약에서 벗어나, **세포사(Tasks) 간 동시実行**(Sequential, Parallel, DAGRun 간 실행)를 지원합니다.또한 **에어플로우 REST API**를 통해外部系统에서 DAG를트리거하거나 상태를 查询하는 것이 더욱 용이해져, 데이터 파이프라인의 **이벤트-드리븐( Event-Driven) 아키텍처**와의集成이 한층 강화되었습니다.
+| 개념 | 연결 포인트 |
+|:---|:---|
+| **DAG** | Airflow 워크플로 표현 단위 |
+| **Operator** | Airflow 태스크 실행 단위 |
+| **Celery Executor** | 분산 태스크 실행 엔진 |
+| **AWS MWAA** | 관리형 Airflow 클라우드 서비스 |
+| **Prefect/Dagster** | 차세대 데이터 오케스트레이터 |
 
-2. **머신러닝 파이프라인과의 융합: Metaflow, Prefect, Dagster**
-   에어플로우의强劲なライバとして **Metaflow**(Netflix, Python-native ML 파이프라인), **Prefect**(Python-first, 现代적 UI), **Dagster**(Twitter开发, 数据 Freshness 강조)가 부상하고 있습니다. 이들은"단순한 워크플로우 실행"을 넘어"데이터 품질 관리(Freshness, Anomaly Detection)", "모델 버전 관리(Model Registry)", "피처 스토어(Feature Store) 연동" 등을 natively 지원하여, **MLOps 파이프라인의 end-to-end 오케스트레이션**을 실현합니다.
+### 📈 관련 키워드 및 발전 흐름도
 
-- **📢 섹션 요약 비유**: 워크플로우 오케스트레이터의 미래는"호화로운 오케스트라 指弾자(Conductor)"에서"음악과 무대와 조명을 동시에 控制하는万能 예술 감독"으로 진화하는 것과 같습니다. 과거 오케스트레이터는"지휘봉 대로 악기를 연주"만 했다면, 현대 오케스트레이터는"무대 장치가 올라가고, 조명이 꺼지고, 가수가 入場하면 자동으로 마이크 볼륨을 조절하는"Heart of the Show"로 기능합니다. Dagster와 Metaflow는 바로 이"万能 예술 감독"의 新时代歌手입니다.
-
----
-
-## 🧠 지식 맵 (Knowledge Graph)
-
-*   **DAG(방향성 비순환 그래프) 워크플로우 핵심 개념**
-    *   Node (태스크): 실행 단위 작업
-    *   Edge (의존성): Parent → Child 방향 화살표
-    *   DAG Run (실행 인스턴스): 특정 시점에実行된 DAG
-    *   Task Instance (태스크 인스턴스): 각 태스크의 실행 상태
-*   **우지(Oozie) 핵심 구성 요소**
-    *   Workflow (DAG 실행 단위)
-    *   Coordinator (시간/데이터 기반 트리거)
-    *   Bundle (Coordinator 그룹핑)
-*   **에어플로우(Airflow) 핵심 구성 요소**
-    *   Scheduler (메트론: DAG 파싱 및 실행 스케줄)
-    *   Executor (작업 실행자: Sequential/Celery/K8s)
-    *   Webserver (UI 및 모니터링)
-    *   XCom (Task 간 결과 전달 매개체)
-
----
+```text
+[Cron + 쉘 스크립트 — 기초 배치 스케줄링]
+    │
+    ▼
+[Apache Oozie — Hadoop 전용 XML 스케줄러]
+    │
+    ▼
+[Apache Airflow — Python DAG 범용 오케스트레이터]
+    │
+    ▼
+[관리형 Airflow — AWS MWAA, GCP Composer]
+    │
+    ▼
+[LLM DAG 생성 — 자연어 → 파이프라인 자동 생성]
+```
 
 ### 👶 어린이를 위한 3줄 비유 설명
-1. 워크플로우 오케스트레이터는 "레고 블록 조립 설명서"와 같아요.
-2. 빨간 블록을 먼저 쌓고, 파란 블록을 그 위에 쌓아야 마침이 예쁘게 완성돼요.
-3. 만약 빨간 블록이歪면, 파란 블록을 쌓지 않고 다시 빨간 블록부터 쌓아요!
 
----
-<!-- [✅ Gemini 3.1 Pro Verified] -->
-> **🛡️ 3.1 Pro Expert Verification:** 본 문서는 구조적 무결성, 다이어그램 명확성, 그리고 기술사(PE) 수준의 심도 있는 통찰력을 기준으로 `gemini-3.1-pro-preview` 모델 룰 기반 엔진에 의해 직접 검증 및 작성되었습니다. (Verified at: 2026-04-05)
+1. Oozie는 복잡한 XML 설명서, Airflow는 읽기 쉬운 Python 코드로 데이터 파이프라인을 만들어요!
+2. Airflow UI에서 마치 지하철 노선도처럼 데이터가 어디서 어디로 흐르는지 한눈에 볼 수 있어요!
+3. AI가 "매일 새벽 데이터 가져와서 분석해줘"라는 말만으로 자동으로 파이프라인 코드를 만들어주는 시대가 오고 있어요!
